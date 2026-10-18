@@ -1,0 +1,80 @@
+{
+  "classification": "hypothetical_scenarios_not_empirical_results",
+  "information_freeze": "2026-10-11",
+  "config_sha256": "8c36ca06ed22e8ca42516c2b677cadea4b0a82e21065b77c103538cc2e0c0d3b",
+  "benchmark": {
+    "unconstrained_nonnegative_root": 0.46557123187676797,
+    "policy": 0.46557123187676797,
+    "polynomial_residual": -1.1102230246251565e-16,
+    "myopic": 1.0,
+    "objective": 0.20929391019635504,
+    "scope": "one_sided_constant_control_scenario"
+  },
+  "runs": [
+    {
+      "start": "mid",
+      "method": "alternating_discounted_mdp_best_responses",
+      "status": "not_solved",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": -0.7,
+        "beta_u": -0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 63.140229792000014,
+      "peak_process_rss_kib": 160296,
+      "max_deviation_gain": 0.03344141640774961,
+      "best_response_action_residual": 0.3133643583137248,
+      "hjb_residuals": [
+        1.548211558954904e-11,
+        8.313227883860463e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 1.548211558954904e-11,
+            "reward_inf": 0.5349536093566054
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 37,
+            "linear_residual_inf": 8.313227883860463e-11,
+            "reward_inf": 0.535145057743242
+          }
+        ],
+        "matrix_nnz": 417593,
+        "sparse_bytes": 5345204,
+        "elapsed_seconds": 0.10875245099998665
+      },
+      "pairwise_policy_sup_distances": {},
+      "failure": null,
+      "scenario": "adaptation_negative",
+      "archive": "outputs/scenario/game/alternate_attempt/adaptation_negative_n17_mid.npz",
+      "archive_sha256": "8dc03e9dc826f19c7ff67ba5a0ef5b1a05f9d92c1ab566627cef020ef9f7059e"
+    }
+  ],
+  "grid_refinement": []
+}

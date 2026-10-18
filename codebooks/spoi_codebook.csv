@@ -1,0 +1,11 @@
+code,pillar,measurement,score_0,score_1,score_2,score_3,score_4,denominator_and_clock
+O1,disclosure,Mandatory scheduled disclosure lateness,by due date,1–30 days,31–90 days,91–180 days,>180 days or absent next reporting cycle,dated duty or announced regular calendar; active period; worst active lateness
+O2,disclosure,Fraction required fields missing,<=5%,>5–15%,>15–30%,>30–50%,>50%,documented required fields; current released observations
+O3,disclosure,Available core license statistics fraction,>=90%,70–<90%,50–<70%,25–<50%,<25%,documented duty/series; applications approvals denials pending processing time
+O4,predictability,Announcement to effective lead time,>=90 days,60–89 days,30–59 days,7–29 days,<7 days or retroactive,"worst active new substantive event public in (d-90,d]; no qualifying event=0 after coverage adjudication"
+O5,clarity,Explicit legal scope fields,4/4,3/4,2/4,1/4,0/4,product target/use procedure review criteria; worst current effective rule
+O6,predictability,Material adverse reversal warning gap,none or >=90 days,60–89 days,30–59 days,7–29 days,<7 days or retroactive,"public from announcement until 90 days after max(publication,effective); no qualifying reversal=0"
+O7,clarity,Official inconsistencies,none,1 minor,1 material or >=2 minor,2 material,>=3 material or material no resolution,written materiality; explicit adjudication for ambiguous material no resolution anchor; persists 90 days postresolution
+O8,disclosure,Entirely absent scheduled releases,0%,>0–10%,>10–25%,>25–50%,>50%,rolling365 checkpoints due+30; no verified denominator=NA
+O9,disclosure,Classifiable reported throughput/capacity,>=90%,70–<90%,50–<70%,25–<50%,<25%,frozen official documented-record universe with common comparable units; no inferred invisible plants
+O10,predictability,Material amendments prior90 days,0,1,2,3,>=4,"public-effective date=max(publication,effective); deduplicate independent intervention; exclude typography"

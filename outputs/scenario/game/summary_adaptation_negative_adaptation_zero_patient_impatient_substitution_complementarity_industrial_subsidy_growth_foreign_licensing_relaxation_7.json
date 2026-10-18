@@ -1,0 +1,1224 @@
+{
+  "classification": "hypothetical_scenarios_not_empirical_results",
+  "information_freeze": "2026-10-11",
+  "config_sha256": "8c36ca06ed22e8ca42516c2b677cadea4b0a82e21065b77c103538cc2e0c0d3b",
+  "benchmark": {
+    "unconstrained_nonnegative_root": 0.46557123187676797,
+    "policy": 0.46557123187676797,
+    "polynomial_residual": -1.1102230246251565e-16,
+    "myopic": 1.0,
+    "objective": 0.20929391019635504,
+    "scope": "one_sided_constant_control_scenario"
+  },
+  "runs": [
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": -0.7,
+        "beta_u": -0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 7,
+      "nodes": 2401,
+      "elapsed_seconds": 0.6069094570000289,
+      "peak_process_rss_kib": 131108,
+      "max_deviation_gain": 8.32938162886876e-11,
+      "best_response_action_residual": 8.186188504843983e-08,
+      "hjb_residuals": [
+        2.0513868381755174e-11,
+        2.602831838949271e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 2.0513868381755174e-11,
+            "reward_inf": 0.535022303616257
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 2.602831838949271e-11,
+            "reward_inf": 0.5352217301207894
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.001324208000028193
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "adaptation_negative",
+      "archive": "outputs/scenario/game/adaptation_negative_n7_mid.npz",
+      "archive_sha256": "eb40fbbac3c1069b53af7534f3bd5de4d7e39a9cdc62198d941edd001023ba20",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.5180479031789997,
+          0.5044391938907496,
+          0.4760601683802831,
+          0.4841681454140424
+        ],
+        "drift_residual": 2.2370993946196904e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.165991600675131,
+            0.0,
+            -0.029010682578405184,
+            0.0
+          ],
+          [
+            0.0,
+            -0.14125410875311553,
+            0.0,
+            -0.024717520501180406
+          ],
+          [
+            -0.42455970481385424,
+            -0.06395631920898223,
+            -0.5000071963976445,
+            2.0002099976303958e-05
+          ],
+          [
+            -0.06411966386067651,
+            -0.4231933257914208,
+            1.6070277053509854e-05,
+            -0.5000058345273057
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.133446839812999,
+          -0.11326448653005726,
+          -0.5355542286408652,
+          -0.5249931853692757
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.004439193890749649,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.1991319812476352,
+            0.2924312275379442
+          ],
+          "csv": "outputs/scenario/game/adaptation_negative_n7_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            -0.08268749410218897,
+            0.016478107502561498
+          ],
+          "csv": "outputs/scenario/game/adaptation_negative_n7_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.38018124817448595,
+            0.4623672814959258
+          ],
+          "csv": "outputs/scenario/game/adaptation_negative_n7_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.16426149433142456,
+            0.2183941369112403
+          ],
+          "csv": "outputs/scenario/game/adaptation_negative_n7_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.0,
+        "beta_u": 0.0,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 7,
+      "nodes": 2401,
+      "elapsed_seconds": 0.3265802910000275,
+      "peak_process_rss_kib": 147440,
+      "max_deviation_gain": 2.669739429528306e-15,
+      "best_response_action_residual": 7.301851672608661e-08,
+      "hjb_residuals": [
+        2.510988639237155e-11,
+        1.9760526548395774e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 2.510988639237155e-11,
+            "reward_inf": 0.5349010093886163
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 1.9760526548395774e-11,
+            "reward_inf": 0.53490100938862
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.0012837369999942894
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "adaptation_zero",
+      "archive": "outputs/scenario/game/adaptation_zero_n7_mid.npz",
+      "archive_sha256": "d2d3f8bd551b757114b5dc35f1a6572d2e9c8ea72a4ddd648d7b2c71ddcc2a73",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6,
+          0.5882352941176471,
+          0.3779148697780404,
+          0.38609901159452037
+        ],
+        "drift_residual": 2.7755575615628914e-17,
+        "full_closed_loop_jacobian": [
+          [
+            -0.19999999999972246,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.1699999999997641,
+            0.0,
+            0.0
+          ],
+          [
+            -0.40920709082118134,
+            -0.06138106362657726,
+            -0.5,
+            0.0
+          ],
+          [
+            -0.061381063622413926,
+            -0.4092070908239569,
+            1.3877787807800577e-12,
+            -0.49999999999722444
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.49999999999722444,
+          -0.5,
+          -0.19999999999972246,
+          -0.1699999999997641
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.04458153644470708,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.29333607416846125,
+            0.39368938408304505
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n7_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.09414340511003333,
+            0.20398460493356238
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n7_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.4239130760687636,
+            0.5104946955520451
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n7_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.25964271551054996,
+            0.3329406179243925
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n7_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.1,
+        "rho_c": 0.1,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 7,
+      "nodes": 2401,
+      "elapsed_seconds": 0.9353306220000377,
+      "peak_process_rss_kib": 160984,
+      "max_deviation_gain": 4.5545964439189235e-10,
+      "best_response_action_residual": 8.589934592000009e-08,
+      "hjb_residuals": [
+        1.4118983759914272e-12,
+        1.999168885991054e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 1.4118983759914272e-12,
+            "reward_inf": 0.5295647625972486
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 1.999168885991054e-11,
+            "reward_inf": 0.5295465283927083
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.0013801820000480802
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "patient",
+      "archive": "outputs/scenario/game/patient_n7_mid.npz",
+      "archive_sha256": "587b0959a36cbb0ae7449d5e6858fe3ad63412cdcfdec758d0adc9a04327e556",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6495849344616053,
+          0.6396236771669892,
+          0.302500192938628,
+          0.31008032625183946
+        ],
+        "drift_residual": 3.1224328678192137e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22830068643689233,
+            0.0,
+            0.03637675633039709,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19424139590924341,
+            0.0,
+            0.03134156018079123
+          ],
+          [
+            -0.3804251730511015,
+            -0.0559904181493315,
+            -0.5002878732641151,
+            -8.048910565819633e-05
+          ],
+          [
+            -0.05643951237502982,
+            -0.3783061398757734,
+            4.813163756440436e-07,
+            -0.5008350756156008
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.23816396934384781,
+          -0.2989539127234852,
+          -0.427374937427004,
+          -0.45917221173151457
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.017081732205061373,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.8620703916568457,
+            1.034183295336625
+          ],
+          "csv": "outputs/scenario/game/patient_n7_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.6781432665356627,
+            0.8625026338963009
+          ],
+          "csv": "outputs/scenario/game/patient_n7_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.9823090103404869,
+            1.1345271214943558
+          ],
+          "csv": "outputs/scenario/game/patient_n7_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.8283601570365228,
+            0.9884139445907563
+          ],
+          "csv": "outputs/scenario/game/patient_n7_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.4,
+        "rho_c": 0.4,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 7,
+      "nodes": 2401,
+      "elapsed_seconds": 0.4486486779999268,
+      "peak_process_rss_kib": 174532,
+      "max_deviation_gain": 1.1680739318495337e-10,
+      "best_response_action_residual": 8.589934592000009e-08,
+      "hjb_residuals": [
+        3.334624243400697e-11,
+        3.3338387606107744e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 3.334624243400697e-11,
+            "reward_inf": 0.5334802043880523
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 3.3338387606107744e-11,
+            "reward_inf": 0.5335678965145606
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.021733537999921282
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "impatient",
+      "archive": "outputs/scenario/game/impatient_n7_mid.npz",
+      "archive_sha256": "8eadcf3d747b9c0ddb874d02670e5a07e5e2458806dfb6f8031a6ca381a753a8",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6521027553234742,
+          0.6421679061007627,
+          0.3183283990511927,
+          0.3258728523047041
+        ],
+        "drift_residual": 4.829470157119431e-15,
+        "full_closed_loop_jacobian": [
+          [
+            -0.2299529565819082,
+            0.0,
+            0.03651775429855909,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19562247543880795,
+            0.0,
+            0.031466227399353404
+          ],
+          [
+            -0.39696964737781754,
+            -0.05920786383977495,
+            -0.5001398773805116,
+            -3.205213733311744e-05
+          ],
+          [
+            -0.05924787551846763,
+            -0.39707298398653246,
+            -4.704531209038534e-06,
+            -0.5003245955434991
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.2427317708231412,
+          -0.30750730031426565,
+          -0.42006151253111373,
+          -0.45573932127620626
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.007460481028629229,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.14691894244929554,
+            0.19253380768174144
+          ],
+          "csv": "outputs/scenario/game/impatient_n7_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.0549629195678194,
+            0.10506436029805023
+          ],
+          "csv": "outputs/scenario/game/impatient_n7_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.20703524848661567,
+            0.2461289609602473
+          ],
+          "csv": "outputs/scenario/game/impatient_n7_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.11674986267373018,
+            0.1449305064865493
+          ],
+          "csv": "outputs/scenario/game/impatient_n7_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": -0.15,
+        "q_c": -0.15
+      },
+      "grid_size": 7,
+      "nodes": 2401,
+      "elapsed_seconds": 0.4378720260000364,
+      "peak_process_rss_kib": 187084,
+      "max_deviation_gain": 9.838292113059297e-09,
+      "best_response_action_residual": 8.589934592000009e-08,
+      "hjb_residuals": [
+        3.6298852812421956e-11,
+        4.3505254954112615e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 3.6298852812421956e-11,
+            "reward_inf": 0.5184351934839492
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 4.3505254954112615e-11,
+            "reward_inf": 0.5185522598830248
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.0014459820000638501
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "substitution",
+      "archive": "outputs/scenario/game/substitution_n7_mid.npz",
+      "archive_sha256": "12c8698c02587603910eff58a9e4ac8495288ce4df4e68518abf2d9c684ee8be",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6390238055538446,
+          0.6293484779458255,
+          0.23666369593857656,
+          0.2467826440165113
+        ],
+        "drift_residual": 5.230538224765269e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.2216212626491809,
+            0.0,
+            0.035785333110624776,
+            0.0
+          ],
+          [
+            0.0,
+            -0.18885663712486694,
+            0.0,
+            0.030838075419617163
+          ],
+          [
+            -0.3918620399789644,
+            0.05777815351047582,
+            -0.5002790171482744,
+            7.284838843261629e-05
+          ],
+          [
+            0.057692499821472835,
+            -0.3917961892582545,
+            8.75193043036417e-06,
+            -0.5006650188670569
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.23270742214297713,
+          -0.2902821731810629,
+          -0.4293070032388278,
+          -0.45912533722651205
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.027642861112821993,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.25012523407400666,
+            0.3471717383166974
+          ],
+          "csv": "outputs/scenario/game/substitution_n7_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.08051894335420222,
+            0.18551999506947858
+          ],
+          "csv": "outputs/scenario/game/substitution_n7_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.37125366760446915,
+            0.4559442888827216
+          ],
+          "csv": "outputs/scenario/game/substitution_n7_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.21509224683593844,
+            0.26152501667037614
+          ],
+          "csv": "outputs/scenario/game/substitution_n7_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.4,
+        "q_c": 0.4
+      },
+      "grid_size": 7,
+      "nodes": 2401,
+      "elapsed_seconds": 0.6130622089999633,
+      "peak_process_rss_kib": 187084,
+      "max_deviation_gain": 4.069124037719973e-09,
+      "best_response_action_residual": 4.2212881079528586e-08,
+      "hjb_residuals": [
+        1.4311829499291662e-11,
+        2.7188473694650384e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 1.4311829499291662e-11,
+            "reward_inf": 0.6344602338504173
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 2.7188473694650384e-11,
+            "reward_inf": 0.6346758399421345
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.0013911490000282356
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "complementarity",
+      "archive": "outputs/scenario/game/complementarity_n7_mid.npz",
+      "archive_sha256": "f180f5772805f5c8de166308a46e7e2324be0648f6f4f9006a97669a4a37a15d",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.667121676577739,
+          0.6569029655924937,
+          0.4139004523538618,
+          0.41835437747367576
+        ],
+        "drift_residual": 5.248017298509211e-12,
+        "full_closed_loop_jacobian": [
+          [
+            -0.24032805492490722,
+            0.0,
+            0.037358813885464526,
+            0.0
+          ],
+          [
+            0.0,
+            -0.204023914469774,
+            0.0,
+            0.0321882453156408
+          ],
+          [
+            -0.4448142775926571,
+            -0.17401638164406355,
+            -0.49994330962121986,
+            8.210515600729056e-05
+          ],
+          [
+            -0.17597919550690497,
+            -0.44065937989868503,
+            0.00013955080979663391,
+            -0.5000971076705157
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.25036308590142203,
+          -0.36575051638093825,
+          -0.36575051638093825,
+          -0.46252826802311847
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.05630604550008861,
+          -0.05630604550008861,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0004550099110723904,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.7073621829625816,
+            0.8166476058173068
+          ],
+          "csv": "outputs/scenario/game/complementarity_n7_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.7002836582384997,
+            0.8202118050542478
+          ],
+          "csv": "outputs/scenario/game/complementarity_n7_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.6858055906954494,
+            0.7804330626939076
+          ],
+          "csv": "outputs/scenario/game/complementarity_n7_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.701464556127806,
+            0.8214268097833403
+          ],
+          "csv": "outputs/scenario/game/complementarity_n7_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.15,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 7,
+      "nodes": 2401,
+      "elapsed_seconds": 0.41981666200001655,
+      "peak_process_rss_kib": 187084,
+      "max_deviation_gain": 2.660470268568693e-10,
+      "best_response_action_residual": 8.589934592000009e-08,
+      "hjb_residuals": [
+        4.941380638001647e-11,
+        2.269111287755976e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 4.941380638001647e-11,
+            "reward_inf": 0.531771748441118
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 2.269111287755976e-11,
+            "reward_inf": 0.5314602325756091
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.0012791400000651265
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "industrial_subsidy_growth",
+      "archive": "outputs/scenario/game/industrial_subsidy_growth_n7_mid.npz",
+      "archive_sha256": "03e485df2d015d19d566d1d75ee4b42499062ed2ca6706ab840d109df84349a8",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6496626156250285,
+          0.7199005180341864,
+          0.3029877453609792,
+          0.25975449724596933
+        ],
+        "drift_residual": 1.607328159458632e-11,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22835130812637167,
+            0.0,
+            0.03638110648049833,
+            0.0
+          ],
+          [
+            0.0,
+            -0.24991120833743544,
+            0.0,
+            0.03527512537900648
+          ],
+          [
+            -0.3889035265412446,
+            -0.058853836086826546,
+            -0.500228920826739,
+            3.247558055804539e-05
+          ],
+          [
+            -0.05782392410195961,
+            -0.3959767852658427,
+            -2.175606916841089e-06,
+            -0.4999951289395006
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.29233353261262474,
+          -0.35026782021230446,
+          -0.44130717554147464,
+          -0.3945780378636425
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.017004051041638157,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.5694421723268007,
+            0.35620990943965786
+          ],
+          "csv": "outputs/scenario/game/industrial_subsidy_growth_n7_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.46180001636683393,
+            0.23265291555663647
+          ],
+          "csv": "outputs/scenario/game/industrial_subsidy_growth_n7_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.6294404910366365,
+            0.44127096214881073
+          ],
+          "csv": "outputs/scenario/game/industrial_subsidy_growth_n7_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.535241924716625,
+            0.30773344747672615
+          ],
+          "csv": "outputs/scenario/game/industrial_subsidy_growth_n7_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.5,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 7,
+      "nodes": 2401,
+      "elapsed_seconds": 0.5116064590000633,
+      "peak_process_rss_kib": 189736,
+      "max_deviation_gain": 5.652150188856231e-12,
+      "best_response_action_residual": 9.027770986325123e-08,
+      "hjb_residuals": [
+        1.2178535957474423e-11,
+        1.0660805571660603e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 1.2178535957474423e-11,
+            "reward_inf": 0.3930290223520073
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 1.0660805571660603e-11,
+            "reward_inf": 0.5321338022348894
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.0012718089999452786
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "foreign_licensing_relaxation",
+      "archive": "outputs/scenario/game/foreign_licensing_relaxation_n7_mid.npz",
+      "archive_sha256": "8aee851c24b858a03df31e2c58ebf3e8f76056f62f19a3fa78412c238ab7a288",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6364603543227673,
+          0.6391181523997798,
+          0.22081237629415212,
+          0.3069482608386877
+        ],
+        "drift_residual": 1.1026596302698977e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22005852993233163,
+            0.0,
+            0.035641779842047076,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19396930176931462,
+            0.0,
+            0.0313167894675329
+          ],
+          [
+            -0.2482493712309604,
+            -0.057980458422188436,
+            -0.49999922737706215,
+            -6.967174615006538e-05
+          ],
+          [
+            -0.037150010519407015,
+            -0.3889862664533889,
+            5.150825599370812e-06,
+            -0.5006022599599581
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.25960901134642195,
+          -0.23816016446447283,
+          -0.46733600325280605,
+          -0.4495241399749657
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.02638507249464561,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.052504974358407216,
+            0.6067655071933866
+          ],
+          "csv": "outputs/scenario/game/foreign_licensing_relaxation_n7_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            -0.07540630079222796,
+            0.5037090139653897
+          ],
+          "csv": "outputs/scenario/game/foreign_licensing_relaxation_n7_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.16554390029197402,
+            0.6555923552656592
+          ],
+          "csv": "outputs/scenario/game/foreign_licensing_relaxation_n7_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.019470788680077785,
+            0.5556281824588128
+          ],
+          "csv": "outputs/scenario/game/foreign_licensing_relaxation_n7_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    }
+  ],
+  "grid_refinement": []
+}

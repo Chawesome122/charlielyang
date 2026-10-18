@@ -1,0 +1,1806 @@
+{
+  "start": "mid",
+  "method": "alternating_discounted_mdp_best_responses",
+  "status": "not_solved",
+  "continuous_mpe_certified": false,
+  "parameters": {
+    "g_c": 0.12,
+    "g_u": 0.1,
+    "beta_c": -0.7,
+    "beta_u": -0.7,
+    "delta_c": 0.08,
+    "delta_u": 0.07,
+    "kappa_c": 0.5,
+    "kappa_u": 0.5,
+    "rho_u": 0.2,
+    "rho_c": 0.2,
+    "a_u": 0.8,
+    "a_c": 0.8,
+    "d_u": 0.5,
+    "d_c": 0.5,
+    "k_u": 1.0,
+    "k_c": 1.0,
+    "h_u": 0.05,
+    "h_c": 0.05,
+    "b_u": 0.2,
+    "b_c": 0.2,
+    "q_u": 0.15,
+    "q_c": 0.15
+  },
+  "grid_size": 17,
+  "nodes": 83521,
+  "elapsed_seconds": 63.140229792000014,
+  "peak_process_rss_kib": 160296,
+  "max_deviation_gain": 0.03344141640774961,
+  "best_response_action_residual": 0.3133643583137248,
+  "hjb_residuals": [
+    1.548211558954904e-11,
+    8.313227883860463e-11
+  ],
+  "evaluation": {
+    "players": [
+      {
+        "bicgstab_code": 0,
+        "iterations": 39,
+        "linear_residual_inf": 1.548211558954904e-11,
+        "reward_inf": 0.5349536093566054
+      },
+      {
+        "bicgstab_code": 0,
+        "iterations": 37,
+        "linear_residual_inf": 8.313227883860463e-11,
+        "reward_inf": 0.535145057743242
+      }
+    ],
+    "matrix_nnz": 417593,
+    "sparse_bytes": 5345204,
+    "elapsed_seconds": 0.10875245099998665
+  },
+  "history": [
+    {
+      "iteration": 0,
+      "max_deviation_gain": 0.09007988607612055,
+      "best_response_action_residual": 0.42445232023425294,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 45,
+            "linear_residual_inf": 1.1313450176686501e-12,
+            "reward_inf": 0.5125000000000001
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 45,
+            "linear_residual_inf": 2.331836113089736e-12,
+            "reward_inf": 0.5125000000000001
+          }
+        ],
+        "matrix_nnz": 407779,
+        "sparse_bytes": 5227436,
+        "elapsed_seconds": 0.22348990599994067
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 1,
+      "max_deviation_gain": 0.03188647688338392,
+      "best_response_action_residual": 0.2525330745996801,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 43,
+            "linear_residual_inf": 6.160155718859528e-11,
+            "reward_inf": 0.5518271043384665
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 5.460087937336766e-11,
+            "reward_inf": 0.5432635593158952
+          }
+        ],
+        "matrix_nnz": 417601,
+        "sparse_bytes": 5345300,
+        "elapsed_seconds": 0.13068460600004528
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 2,
+      "max_deviation_gain": 0.010635014508953988,
+      "best_response_action_residual": 0.14584248015550205,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 46,
+            "linear_residual_inf": 1.3583711239162355e-10,
+            "reward_inf": 0.5481901479578062
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 46,
+            "linear_residual_inf": 1.6540022129696297e-10,
+            "reward_inf": 0.5429691382399628
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.15279735599995092
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 3,
+      "max_deviation_gain": 0.003387104654161921,
+      "best_response_action_residual": 0.08182567679392871,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 48,
+            "linear_residual_inf": 1.2664627679903617e-10,
+            "reward_inf": 0.542069410924336
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 48,
+            "linear_residual_inf": 3.109890123198511e-11,
+            "reward_inf": 0.5393277060798598
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.13421260799998436
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 4,
+      "max_deviation_gain": 0.0011756338972997993,
+      "best_response_action_residual": 0.04544175673892259,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 48,
+            "linear_residual_inf": 1.642438129945134e-10,
+            "reward_inf": 0.5385689378830254
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 48,
+            "linear_residual_inf": 2.6396662633487722e-11,
+            "reward_inf": 0.5370390504467503
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.13351820100001532
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 5,
+      "max_deviation_gain": 0.00045621883204882696,
+      "best_response_action_residual": 0.025204124603380926,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 49,
+            "linear_residual_inf": 8.144443452984262e-11,
+            "reward_inf": 0.536728816110354
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 47,
+            "linear_residual_inf": 9.18007891925754e-11,
+            "reward_inf": 0.5359441683936438
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.13031719100001737
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 6,
+      "max_deviation_gain": 0.00019495323887841476,
+      "best_response_action_residual": 0.01389045536307602,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 47,
+            "linear_residual_inf": 2.017631339779058e-10,
+            "reward_inf": 0.5358125017867899
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 46,
+            "linear_residual_inf": 2.2188126336253333e-10,
+            "reward_inf": 0.5354443576971499
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.12675153199995748
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 7,
+      "max_deviation_gain": 8.913894250550669e-05,
+      "best_response_action_residual": 0.007603849086785176,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 48,
+            "linear_residual_inf": 1.104412949981537e-10,
+            "reward_inf": 0.5353648559593006
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 48,
+            "linear_residual_inf": 2.2678281474952655e-10,
+            "reward_inf": 0.5352354007037893
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.13291718400000718
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 8,
+      "max_deviation_gain": 4.248179511590067e-05,
+      "best_response_action_residual": 0.004138863339496174,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 45,
+            "linear_residual_inf": 1.8462731343760197e-10,
+            "reward_inf": 0.5351476807297549
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 47,
+            "linear_residual_inf": 1.7017193210122628e-10,
+            "reward_inf": 0.5351560038914008
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1286155239999971
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 9,
+      "max_deviation_gain": 2.0714305779989672e-05,
+      "best_response_action_residual": 0.0022417840449424895,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 46,
+            "linear_residual_inf": 4.614986170992097e-11,
+            "reward_inf": 0.5350426429948593
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 46,
+            "linear_residual_inf": 8.177661325881047e-11,
+            "reward_inf": 0.5351301551867997
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1264441490000081
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 10,
+      "max_deviation_gain": 1.0221878109950566e-05,
+      "best_response_action_residual": 0.0012323302634710265,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 45,
+            "linear_residual_inf": 8.839243226255178e-11,
+            "reward_inf": 0.5349919406223509
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 44,
+            "linear_residual_inf": 1.0729697685896156e-10,
+            "reward_inf": 0.5351245605826019
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.14052846699996735
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 11,
+      "max_deviation_gain": 5.075031207391056e-06,
+      "best_response_action_residual": 0.0008073759749679388,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 44,
+            "linear_residual_inf": 1.0471448708138098e-10,
+            "reward_inf": 0.5349675261120621
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 44,
+            "linear_residual_inf": 7.611819508035467e-11,
+            "reward_inf": 0.5351255683896853
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.12000183899999683
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 12,
+      "max_deviation_gain": 2.527812169583754e-06,
+      "best_response_action_residual": 0.0007969338724913566,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 6.960870768679683e-11,
+            "reward_inf": 0.5349557904526815
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 1.1343984085421255e-10,
+            "reward_inf": 0.5351280294125469
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11625744000002669
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 13,
+      "max_deviation_gain": 1.686582947191262e-06,
+      "best_response_action_residual": 0.0018366180589769465,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 5.067252173418524e-11,
+            "reward_inf": 0.5349501635768708
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 1.0111844694904448e-10,
+            "reward_inf": 0.5351302614801676
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.115233805999992
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 14,
+      "max_deviation_gain": 6.894868917195485e-06,
+      "best_response_action_residual": 0.0037134536262511952,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 1.386990799989718e-10,
+            "reward_inf": 0.5349474746842288
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 4.2325282167965383e-11,
+            "reward_inf": 0.5351318878657696
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11472847599998204
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 15,
+      "max_deviation_gain": 3.3084391901361254e-05,
+      "best_response_action_residual": 0.008134419696743889,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 37,
+            "linear_residual_inf": 1.702313012774681e-10,
+            "reward_inf": 0.5349461961097834
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 37,
+            "linear_residual_inf": 8.195663592225344e-11,
+            "reward_inf": 0.5351329591879604
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10401943099998334
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 16,
+      "max_deviation_gain": 7.187042921080744e-05,
+      "best_response_action_residual": 0.01198919757203798,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 7.499045828751605e-11,
+            "reward_inf": 0.534945593529926
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 36,
+            "linear_residual_inf": 1.0236861358592364e-10,
+            "reward_inf": 0.5351336230635083
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10538337999992109
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 17,
+      "max_deviation_gain": 0.0001763235931094287,
+      "best_response_action_residual": 0.018778902689425614,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 1.671804361613738e-11,
+            "reward_inf": 0.534945311212999
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 2.642926155704828e-10,
+            "reward_inf": 0.5351340156924589
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10990321700001005
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 18,
+      "max_deviation_gain": 0.00033158914039904674,
+      "best_response_action_residual": 0.025752248072704376,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 44,
+            "linear_residual_inf": 2.748403171715097e-10,
+            "reward_inf": 0.5349451318486147
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 2.224944395390338e-10,
+            "reward_inf": 0.535134236903599
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11832051399994725
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 19,
+      "max_deviation_gain": 0.0004473504575600029,
+      "best_response_action_residual": 0.029911551533144953,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 45,
+            "linear_residual_inf": 3.899810474550236e-10,
+            "reward_inf": 0.5349450319885005
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 43,
+            "linear_residual_inf": 3.144633997642643e-10,
+            "reward_inf": 0.5351343526458686
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1173753890000171
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        5
+      ]
+    },
+    {
+      "iteration": 20,
+      "max_deviation_gain": 0.00041371754959540485,
+      "best_response_action_residual": 0.028765171634997366,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 44,
+            "linear_residual_inf": 9.228617869894151e-11,
+            "reward_inf": 0.5349459176928387
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 43,
+            "linear_residual_inf": 1.6213477782578423e-10,
+            "reward_inf": 0.5351344038595601
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11994084900004509
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 21,
+      "max_deviation_gain": 0.00099852722236482,
+      "best_response_action_residual": 0.044688415106488244,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 2.114983466139364e-10,
+            "reward_inf": 0.5349467449524348
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 2.1488680279624361e-10,
+            "reward_inf": 0.5351344147826261
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11205308099999911
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        5
+      ]
+    },
+    {
+      "iteration": 22,
+      "max_deviation_gain": 0.0019039464738560552,
+      "best_response_action_residual": 0.07522510656137027,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 2.758553940829245e-10,
+            "reward_inf": 0.5349467343696701
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 36,
+            "linear_residual_inf": 3.326570963135822e-10,
+            "reward_inf": 0.5351343990611116
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1077417169999535
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        5
+      ]
+    },
+    {
+      "iteration": 23,
+      "max_deviation_gain": 0.0015026931799667076,
+      "best_response_action_residual": 0.05482140421343995,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 1.6487023551947644e-10,
+            "reward_inf": 0.5349464435644439
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 3.8173414429465424e-10,
+            "reward_inf": 0.535134363789508
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10733736700001373
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 24,
+      "max_deviation_gain": 0.0007923438151841156,
+      "best_response_action_residual": 0.039808135228471375,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 2.1941370942357707e-10,
+            "reward_inf": 0.5349462371496339
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 2.8174659827406856e-10,
+            "reward_inf": 0.5351343120253695
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10712281999997231
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 25,
+      "max_deviation_gain": 0.0023498276553663433,
+      "best_response_action_residual": 0.06855403205306743,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 2.3281820915599383e-10,
+            "reward_inf": 0.5349461036845431
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 2.3716428820819146e-10,
+            "reward_inf": 0.5351342363886642
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10929660900001181
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 26,
+      "max_deviation_gain": 0.002781123406485231,
+      "best_response_action_residual": 0.08411246794556693,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 2.6988794532556426e-10,
+            "reward_inf": 0.5349460418934342
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 1.8877033269859567e-10,
+            "reward_inf": 0.535134146498147
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10945392600001469
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        5
+      ]
+    },
+    {
+      "iteration": 27,
+      "max_deviation_gain": 0.0024507769593131723,
+      "best_response_action_residual": 0.10838545738463634,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 8.852582555896049e-11,
+            "reward_inf": 0.5349460501449061
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 2.855025660331023e-10,
+            "reward_inf": 0.535134170957425
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11470570899996346
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        4,
+        5
+      ]
+    },
+    {
+      "iteration": 28,
+      "max_deviation_gain": 0.006272530051822489,
+      "best_response_action_residual": 0.10646047603958242,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 1.7887299974539417e-10,
+            "reward_inf": 0.5349459380775033
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 1.6174500627741395e-10,
+            "reward_inf": 0.5351342559090772
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11375611700009358
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 29,
+      "max_deviation_gain": 0.012963504134286596,
+      "best_response_action_residual": 0.20219454824755545,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 1.0738332445470178e-10,
+            "reward_inf": 0.5349457429824819
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 8.465919631994723e-11,
+            "reward_inf": 0.5351343549904449
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11408681499995055
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 30,
+      "max_deviation_gain": 0.01191811574755025,
+      "best_response_action_residual": 0.16625243521873667,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 1.0348427670336946e-10,
+            "reward_inf": 0.5349455194190436
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 4.949793352970744e-11,
+            "reward_inf": 0.535134438172301
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11277165100000275
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 31,
+      "max_deviation_gain": 0.009530166649352134,
+      "best_response_action_residual": 0.13970736748647916,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 37,
+            "linear_residual_inf": 3.431523398766956e-10,
+            "reward_inf": 0.5349454738755067
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 2.2418022993520026e-10,
+            "reward_inf": 0.5351345029425988
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1057667139999694
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 32,
+      "max_deviation_gain": 0.0109353066582486,
+      "best_response_action_residual": 0.23053166597368235,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 5.41821865152059e-11,
+            "reward_inf": 0.5349453309376281
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 1.380741354584103e-10,
+            "reward_inf": 0.5351345526577268
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10952188900000692
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        6
+      ]
+    },
+    {
+      "iteration": 33,
+      "max_deviation_gain": 0.019398299251737305,
+      "best_response_action_residual": 0.21868232400931598,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 7.726197459589912e-11,
+            "reward_inf": 0.5349452380681724
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 37,
+            "linear_residual_inf": 1.4691886596196468e-10,
+            "reward_inf": 0.5351345919026392
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10794461900002261
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 34,
+      "max_deviation_gain": 0.011325600829783011,
+      "best_response_action_residual": 0.15197256230532508,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 36,
+            "linear_residual_inf": 1.6389861690058183e-11,
+            "reward_inf": 0.5349451594970696
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 37,
+            "linear_residual_inf": 1.9764903602670358e-10,
+            "reward_inf": 0.5351346253050768
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10353863200009528
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 35,
+      "max_deviation_gain": 0.013074498331284934,
+      "best_response_action_residual": 0.15887152433056995,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 1.3435044743381752e-10,
+            "reward_inf": 0.5349450903604819
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 1.2215004008275798e-10,
+            "reward_inf": 0.5351346565469896
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10847866500000691
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 36,
+      "max_deviation_gain": 0.02259487233698876,
+      "best_response_action_residual": 0.27553301026061283,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 37,
+            "linear_residual_inf": 1.513036085309949e-10,
+            "reward_inf": 0.5349450235422829
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 36,
+            "linear_residual_inf": 3.7587308265862873e-10,
+            "reward_inf": 0.5351346858417022
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10675573599996824
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 37,
+      "max_deviation_gain": 0.020926515560889425,
+      "best_response_action_residual": 0.21901173460038592,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 4.0712100357609415e-11,
+            "reward_inf": 0.5349453554377775
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 2.1055521215451733e-10,
+            "reward_inf": 0.5351347105563097
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11245867000002363
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 38,
+      "max_deviation_gain": 0.038442811487390816,
+      "best_response_action_residual": 0.27728256882606495,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 35,
+            "linear_residual_inf": 1.0395665578366575e-10,
+            "reward_inf": 0.5349489197434766
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 4.2070902317448144e-11,
+            "reward_inf": 0.5351347350165115
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1070941870000297
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        6
+      ]
+    },
+    {
+      "iteration": 39,
+      "max_deviation_gain": 0.01769914051290744,
+      "best_response_action_residual": 0.26051631316856927,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 43,
+            "linear_residual_inf": 6.857356349421195e-11,
+            "reward_inf": 0.5349474245944023
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 38,
+            "linear_residual_inf": 5.534211977575865e-12,
+            "reward_inf": 0.5351347619884147
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11369509499991182
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 40,
+      "max_deviation_gain": 0.013180851485464884,
+      "best_response_action_residual": 0.1623628743615042,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 1.3280043731356272e-11,
+            "reward_inf": 0.5349461349420019
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 43,
+            "linear_residual_inf": 8.055639488802058e-12,
+            "reward_inf": 0.5351347840718114
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1331325090000064
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 41,
+      "max_deviation_gain": 0.00959356098811548,
+      "best_response_action_residual": 0.13851758724519858,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 5.675052788811641e-11,
+            "reward_inf": 0.5349458607684826
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 2.596624582018592e-10,
+            "reward_inf": 0.5351348358796004
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1110854080000081
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        5
+      ]
+    },
+    {
+      "iteration": 42,
+      "max_deviation_gain": 0.028031277375585528,
+      "best_response_action_residual": 0.23677532546946523,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 1.1665989008147193e-10,
+            "reward_inf": 0.5349485924921515
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 2.4117660646361117e-10,
+            "reward_inf": 0.5351348869406845
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11579620499992416
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 43,
+      "max_deviation_gain": 0.022791502535960323,
+      "best_response_action_residual": 0.3058359625091156,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 8.376876969862224e-11,
+            "reward_inf": 0.5349478312062076
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 5.664779756386906e-11,
+            "reward_inf": 0.5351348228367907
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11373757900003056
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        5,
+        6
+      ]
+    },
+    {
+      "iteration": 44,
+      "max_deviation_gain": 0.042502139249934456,
+      "best_response_action_residual": 0.2919173028750881,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 5.947425885111102e-11,
+            "reward_inf": 0.5349469300979341
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 2.946782817758731e-10,
+            "reward_inf": 0.535134923639634
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.13209801799996512
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 45,
+      "max_deviation_gain": 0.02031158483675291,
+      "best_response_action_residual": 0.3512333838485123,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 4.2709946690422385e-11,
+            "reward_inf": 0.5349469915948739
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 6.839226407429067e-11,
+            "reward_inf": 0.5351370821158976
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11842365799998333
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 46,
+      "max_deviation_gain": 0.039005396381215474,
+      "best_response_action_residual": 0.29873689876325404,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 43,
+            "linear_residual_inf": 3.0501048908782025e-10,
+            "reward_inf": 0.5349498098445027
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 1.7851323197426439e-10,
+            "reward_inf": 0.5351374518362492
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1308332400000154
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 47,
+      "max_deviation_gain": 0.03861447253018266,
+      "best_response_action_residual": 0.2646435880575492,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 1.4759882205339636e-10,
+            "reward_inf": 0.534948608358086
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 4.8450993217485916e-11,
+            "reward_inf": 0.5351380025556122
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.15784375900000214
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 48,
+      "max_deviation_gain": 0.08311844165485519,
+      "best_response_action_residual": 0.44680903960793916,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 8.280728880372124e-11,
+            "reward_inf": 0.5349477985207561
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 1.2086656675514007e-10,
+            "reward_inf": 0.5351381879015384
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.1170781480000187
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 49,
+      "max_deviation_gain": 0.0661393654738831,
+      "best_response_action_residual": 0.3849917302264856,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 37,
+            "linear_residual_inf": 1.0237283243341722e-10,
+            "reward_inf": 0.5349496211218246
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 36,
+            "linear_residual_inf": 1.2878836885832357e-10,
+            "reward_inf": 0.5351379871306065
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.10892832299998645
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 50,
+      "max_deviation_gain": 0.031090501066172782,
+      "best_response_action_residual": 0.24936118810341246,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 1.3809411947285355e-10,
+            "reward_inf": 0.5349486429438686
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 2.0852383708636069e-10,
+            "reward_inf": 0.5351374793528942
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11614293800005271
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 51,
+      "max_deviation_gain": 0.05354715826727785,
+      "best_response_action_residual": 0.29096894069039003,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 4.2075787298756495e-12,
+            "reward_inf": 0.5349474732081151
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 36,
+            "linear_residual_inf": 1.5827239518984015e-10,
+            "reward_inf": 0.5351368224465981
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.12166226399995139
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 52,
+      "max_deviation_gain": 0.02850482118297204,
+      "best_response_action_residual": 0.3707605734342695,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 6.456493673034913e-11,
+            "reward_inf": 0.534947149234438
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 45,
+            "linear_residual_inf": 4.616751425601251e-12,
+            "reward_inf": 0.5351364083211751
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.12042615999996542
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 53,
+      "max_deviation_gain": 0.07838805748678934,
+      "best_response_action_residual": 0.5143060028946217,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 1.349689526808362e-10,
+            "reward_inf": 0.5349469749231712
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 1.033339247502596e-10,
+            "reward_inf": 0.5351423919406673
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11274708500002362
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 54,
+      "max_deviation_gain": 0.051341385203232504,
+      "best_response_action_residual": 0.4118176051952831,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 2.062165993521603e-10,
+            "reward_inf": 0.5349467052536313
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 36,
+            "linear_residual_inf": 1.27237692604254e-10,
+            "reward_inf": 0.5351448003107274
+          }
+        ],
+        "matrix_nnz": 417602,
+        "sparse_bytes": 5345312,
+        "elapsed_seconds": 0.110591091999936
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 55,
+      "max_deviation_gain": 0.015337087626724422,
+      "best_response_action_residual": 0.24911831571810017,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 45,
+            "linear_residual_inf": 2.301608903465535e-11,
+            "reward_inf": 0.5349459457998376
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 1.570035768061473e-10,
+            "reward_inf": 0.5351442089606785
+          }
+        ],
+        "matrix_nnz": 417593,
+        "sparse_bytes": 5345204,
+        "elapsed_seconds": 0.13084978499989575
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 56,
+      "max_deviation_gain": 0.04051834667012538,
+      "best_response_action_residual": 0.2816402940247378,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 41,
+            "linear_residual_inf": 1.935035465194801e-10,
+            "reward_inf": 0.5349549136786711
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 44,
+            "linear_residual_inf": 8.142903018537595e-12,
+            "reward_inf": 0.5351502939187927
+          }
+        ],
+        "matrix_nnz": 417593,
+        "sparse_bytes": 5345204,
+        "elapsed_seconds": 0.16850404199999502
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 57,
+      "max_deviation_gain": 0.049939258772726314,
+      "best_response_action_residual": 0.531304864627024,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 6.553763087779885e-11,
+            "reward_inf": 0.534959567109537
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 44,
+            "linear_residual_inf": 9.476724960322258e-11,
+            "reward_inf": 0.5351452343947328
+          }
+        ],
+        "matrix_nnz": 417593,
+        "sparse_bytes": 5345204,
+        "elapsed_seconds": 0.11897423099992466
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 58,
+      "max_deviation_gain": 0.038665216929129054,
+      "best_response_action_residual": 0.27480214096712696,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 2.983452374039075e-11,
+            "reward_inf": 0.5349606504809061
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 40,
+            "linear_residual_inf": 4.1344733192616445e-11,
+            "reward_inf": 0.5351433513674542
+          }
+        ],
+        "matrix_nnz": 417593,
+        "sparse_bytes": 5345204,
+        "elapsed_seconds": 0.11462642200001483
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    },
+    {
+      "iteration": 59,
+      "max_deviation_gain": 0.03694548362684222,
+      "best_response_action_residual": 0.3184226923994423,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 1.0892792223771153e-10,
+            "reward_inf": 0.5349578537114548
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 39,
+            "linear_residual_inf": 8.578784904678116e-11,
+            "reward_inf": 0.535146150062489
+          }
+        ],
+        "matrix_nnz": 417593,
+        "sparse_bytes": 5345204,
+        "elapsed_seconds": 0.1102864760000557
+      },
+      "method": "alternating_discounted_mdp_best_responses",
+      "inner_iterations": [
+        6,
+        6
+      ]
+    }
+  ],
+  "pairwise_policy_sup_distances": {},
+  "failure": null,
+  "scenario": "adaptation_negative",
+  "archive": "outputs/scenario/game/alternate_attempt/adaptation_negative_n17_mid.npz",
+  "archive_sha256": "8dc03e9dc826f19c7ff67ba5a0ef5b1a05f9d92c1ab566627cef020ef9f7059e"
+}

@@ -1,0 +1,13 @@
+origin,endpoint,eligible,reasons,horizon_months
+2022-12-31,2023-06-30,False,outcome_public_date_unknown,6
+2022-12-31,2023-12-31,False,outcome_public_date_unknown,12
+2022-12-31,2024-12-31,False,outcome_public_date_unknown,24
+2023-12-31,2024-06-30,False,outcome_public_date_unknown,6
+2023-12-31,2024-12-31,False,outcome_public_date_unknown,12
+2023-12-31,2025-12-31,False,outcome_public_date_unknown,24
+2024-12-31,2025-06-30,False,outcome_public_date_unknown,6
+2024-12-31,2025-12-31,False,outcome_public_date_unknown,12
+2024-12-31,2026-12-31,False,endpoint_unobserved_at_freeze;outcome_public_date_unknown,24
+2025-12-31,2026-06-30,False,outcome_public_date_unknown,6
+2025-12-31,2026-12-31,False,endpoint_unobserved_at_freeze;outcome_public_date_unknown,12
+2025-12-31,2027-12-31,False,endpoint_unobserved_at_freeze;outcome_public_date_unknown,24

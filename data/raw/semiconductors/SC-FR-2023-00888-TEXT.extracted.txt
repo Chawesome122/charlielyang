@@ -1,0 +1,559 @@
+DEPARTMENT OF COMMERCE
+Bureau of Industry and Security
+15 CFR Parts 734, 736, 740, 742, 744, 762, 772 and 774
+[Docket No. 230112-0007]
+RIN 0694-AI94
+Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification; Updates to the Controls To Add Macau
+AGENCY:
+Bureau of Industry and Security, Department of Commerce.
+ACTION:
+Interim final rule; update.
+SUMMARY:
+On October 7, 2022, the Bureau of Industry and Security (BIS) updated the Export Administration Regulations (EAR) to implement necessary controls on advanced computing integrated circuits (ICs), computer commodities that contain such ICs, and certain semiconductor manufacturing items, and to make other changes to the EAR to ensure that appropriate controls are in place for these items, including specific activities of “U.S. persons.” This rule makes an initial update to the controls to more effectively achieve the policy objectives identified in previous regulations by adding the same controls implemented on China in that rule to Macau. The public may submit comments on the controls in the October 7 advanced computing and semiconductor manufacturing equipment rule, which BIS is extending to Macau in this rule. BIS intends to publish a subsequent rule to respond to the comments received, including making updates to the controls included in the October 7 advanced computing and semiconductor manufacturing equipment rule.
+DATES:
+Effective date:
+This rule is effective on January 17, 2023.
+Comments due:
+Comments must be received by BIS no later than January 31, 2023.
+ADDRESSES:
+Comments on this rule may be submitted to the Federal rulemaking portal (
+www.regulations.gov
+). The
+regulations.gov
+ID for this rule is: BIS-2022-0025. Please refer to RIN 0694-AI94 in all comments.
+All filers using the portal should use the name of the person or entity submitting the comments as the name of their files, in accordance with the instructions below. Anyone submitting business confidential information should clearly identify the business confidential portion at the time of submission, file a statement justifying nondisclosure and referring to the specific legal authority claimed, and provide a non-confidential version of the submission.
+For comments submitted electronically containing business confidential information, the file name of the business confidential version should begin with the characters “BC.” Any page containing business confidential information must be clearly marked “BUSINESS CONFIDENTIAL” on the top of that page. The corresponding non-confidential version of those comments must be clearly marked “PUBLIC.” The file name of the non-confidential version should begin with the character “P.” Any submissions with file names that do not begin with either a “BC” or a “P” will be assumed to be public and will be made publicly available through
+https://www.regulations.gov.
+FOR FURTHER INFORMATION CONTACT:
+For questions on the license requirements in the October 7 advanced computing and semiconductor manufacturing equipment rule or the updates included in this rule, contact Eileen Albanese, Director, Office of National Security and Technology Transfer Controls, Bureau of Industry and Security, Department of Commerce, Phone: (202) 482-0092, Email:
+rpd2@bis.doc.gov.
+For emails, include “Advanced computing controls” or “Semiconductor manufacturing items control” as applicable in the subject line.
+For questions on the Entity List revisions included in the October 7 advanced computing and semiconductor manufacturing equipment rule, contact: Chair, End-User Review Committee, Office of the Assistant Secretary for Export Administration, Bureau of Industry and Security, Department of Commerce, Phone: (202) 482-5991, Email:
+ERC@bis.doc.gov.
+SUPPLEMENTARY INFORMATION:
+I. Background
+On October 7, 2022, the Bureau of Industry and Security (BIS) put on public display the interim final rule,
+Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification
+(October 7 advanced computing and semiconductor manufacturing equipment rule) (87 FR 62186), which amended the Export Administration Regulations (15 CFR 730-774) (EAR) to implement necessary controls on advanced computing integrated circuits (ICs), computer commodities that contain such ICs, and certain semiconductor manufacturing items, and to make other changes to the EAR to ensure that appropriate controls are in place for these items, including specific activities of “U.S. persons.”
+On October 13, 2022, (BIS) published the October 7 advanced computing and semiconductor manufacturing equipment rule, which made critical changes to the Export Administration Regulations (15 CFR 730-774) (EAR) in two areas to address U.S. national security and foreign policy concerns. First, BIS imposed additional export controls on certain advanced computing semiconductor chips (chips, advanced computing chips, integrated circuits (ICs)), transactions for supercomputer end uses, and transactions involving certain entities on the Entity List (supplement no. 4 to part 744). Second, BIS adopted additional controls on certain semiconductor manufacturing items and transactions for certain IC production end uses. See the Overview of New Controls section in the October 7 advanced computing and semiconductor manufacturing equipment rule for additional information about both. The October 7 advanced computing and semiconductor manufacturing equipment rule, which BIS published on an interim basis, also solicited public comments on the changes it implemented. See the
+ADDRESSES
+section for instruction on how to submit comments to that rule and information on how to view the public comments submitted in response to the October 7 advanced computing and semiconductor manufacturing equipment rule on
+www.regulations.gov.
+The restrictions implemented in the October 7 advanced computing and semiconductor manufacturing equipment rule followed extensive consideration by the United States government of technologies that are force multipliers for military modernization and human rights abuses. The assessment considered included, among other factors, whether the items could provide direct contributions to advancing military decision making, designing and testing weapons of mass destruction (WMD), producing semiconductors for use in advanced military systems, and developing advanced surveillance systems that can be used for military applications and human rights abuses. The Government of the People's Republic of China (PRC or China) has mobilized vast resources to support its defense modernization, including the implementation of its military-civil fusion development strategy, which is contrary to U.S. national security and foreign policy interests.
+This rule makes initial updates to the October 7 advanced computing and semiconductor manufacturing equipment rule's controls to more effectively achieve the identified policy objectives by adding the same controls implemented on China in that rule to Macau. These changes are informed by BIS's review of the October 7 advanced computing and semiconductor manufacturing equipment rule and the questions BIS has received since October 7, 2022. The comment period on the October 7 advanced computing and semiconductor manufacturing equipment rule, originally to close on December 12, 2022 but, in a rule published on December 7, 2022 (87 FR 74966) was extended to close on January 31, 2023. The public may submit comments on the controls in the October 7 advanced computing and semiconductor manufacturing equipment rule, which BIS is extending to Macau in this rule. BIS intends to publish a subsequent rule to respond to the comments, including additional updates to the controls in the October 7 advanced computing and semiconductor manufacturing equipment rule. The updates to the October 7 advanced computing and semiconductor manufacturing equipment rule in this rule are described under Section II below.
+II. Addition of Macau to the Same Controls Implemented on China
+A. Addition of Macau to RS Controls Implemented in the October 7 Advanced Computing and Semiconductor Manufacturing Equipment Rule
+This rule adds the destination of Macau to the scope of the Regional Stability (RS) controls that were implemented specific to China in the October 7 advanced computing and semiconductor manufacturing
+equipment rule. For purposes of the EAR, this rule does not change the status of Macau; it will continue to be treated as a separate destination from China. According to the U.S. Department of State's fact sheet,
+U.S. Relations with Macau, Bilateral Relations Fact Sheet
+of June 1, 2021 (see
+https://www.state.gov/u-s-relations-with-macau/
+), Macau has been a Special Administrative Region of China since 1999, when it was returned to Chinese sovereignty from Portuguese administration; therefore, its foreign relations and defense are the responsibility of China. China grants Macau limited autonomy in economic and commercial relations. U.S. policy toward Macau is grounded in the U.S. Macau Policy Act of 1999 and reflects U.S. support for Macau's autonomy under the “One Country, Two Systems” framework established in Macau's Basic Law.
+Because of Macau's position as a Special Administrative Region of China, and the potential risk of diversion of items subject to the EAR from Macau to China, this rule adds Macau as a destination to which a license will be required to prevent the diversion to China of items determined to be critical to protecting U.S. national security and foreign policy interests. This rule implements this change by adding Macau to the RS control paragraph in the following seven Export Control Classification Numbers (ECCNs): 3A090, 3B090, 3D001, 3E001, 4A090, 4D090, and 4E001.
+In parallel with the addition of Macau to the RS control paragraph of the ECCNs identified above, and as part of the RS control structure implemented in the October 7 advanced computing and semiconductor manufacturing equipment rule, this rule also adds Macau to the general restriction on the use of license exceptions for these RS-controlled ECCNs in § 740.2(a)(9). Additionally, in § 742.6, this rule adds Macau to paragraphs (a)(6) and (b)(10), as part of the RS control structure implemented in the October 7 advanced computing and semiconductor manufacturing equipment rule.
+B. Addition of Macau to Advanced Computing and Supercomputer FDP Rules
+In § 734.9, this rule adds Macau to the destination scope of the Advanced computing FDP rule under paragraph (h) and to the “Supercomputer” FDP rule under paragraph (i) by adding Macau to paragraphs (h)(2)(i) and (ii) and paragraphs (i)(2)(i) and (ii), respectively. BIS is adding Macau to these two FDP rules as part of the RS control structure implemented in the October 7 advanced computing and semiconductor manufacturing equipment rule.
+In supplement no. 1 to part 734—Model Certification for Purposes of Advanced Computing FDP rule, this rule makes a conforming change by adding Macau to the certification under paragraph (b)(2).
+D. Addition of Macau to §§ 744.6 and 744.23
+This rule adds Macau as an additional destination in the end-use controls under §§ 744.6 and 744.23. Because China has invested large amounts of capital to develop a special economic zone to develop semiconductors in Macau and the diversion concerns to China referenced above, there is a need to include Macau as an additional destination under §§ 744.6 and 744.23 at this time. This rule makes the following changes to add Macau to §§ 744.6 and 744.23.
+In § 744.6, this rule adds Macau to the additional prohibitions on “U.S. persons” informed by BIS paragraphs (c)(2)(i) through (ix) and to the license review standards under paragraph (e)(3).
+In § 744.23, this rule adds Macau to the end-use scope under paragraphs (a)(2)(i) through (v) and to the license review standards in paragraph (d).
+E. Addition of Macau to the Temporary General License (TGL)
+In supplement no. 1 to part 736—General Orders, this rule revises paragraph (d) (General Order No. 4), as a conforming change to the addition of Macau to the RS controls and FDP rules, as described above, to add Macau to the scope of the temporary general license (TGL).
+Savings Clause
+The savings clause for the advanced computing rule has already passed and is not being renewed or extended with the publication of this rule. This rule does include a savings clause which is specific and limited to the new controls for Macau.
+Shipments of items removed from license exception eligibility or eligibility for export, reexport, or transfer (in-country) without a license to or within Macau as a result of this regulatory action that were on dock for loading, on lighter, laden aboard an exporting carrier, or en route aboard a carrier to a port of export, on January 17, 2023, may continue to the destination under the previous license exception eligibility or without a license so long as they have been exported, reexported or transferred (in-country) before February 16, 2023. Any such items not actually exported, reexported or transferred (in-country) before midnight, on February 16, 2023, require a license in accordance with this interim final rule.
+Export Control Reform Act of 2018
+On August 13, 2018, the President signed into law the John S. McCain National Defense Authorization Act for Fiscal Year 2019, which included the Export Control Reform Act of 2018 (ECRA) (codified, as amended, at 50 U.S.C. Sections 4801-4852). ECRA provides the legal basis for BIS's principal authorities and serves as the authority under which BIS issues this rule. To the extent it applies to certain activities that are the subject of this rule, the Trade Sanctions Reform and Export Enhancement Act of 2000 (TSRA) (codified, as amended, at 22 U.S.C. Sections 7201-7211) also serves as authority for this rule.
+Rulemaking Requirements
+1. This interim final rule is not a “significant regulatory action” because it “pertain[s]” to a “military or foreign affairs function of the United States” under sec. 3(d)(2) of Executive Order 12866.
+2. Notwithstanding any other provision of law, no person is required to respond to, nor shall any person be subject to a penalty for failure to comply with, a collection of information subject to the requirements of the Paperwork Reduction Act of 1995 (44 U.S.C. 3501
+et seq.
+) (PRA), unless that collection of information displays a currently valid Office of Management and Budget (OMB) Control Number.
+This rule involves the following OMB-approved collections of information subject to the PRA:
+• 0694-0088, “Multi-Purpose Application,” which carries a burden hour estimate of 29.4 minutes for a manual or electronic submission;
+• 0694-0096 “Five Year Records Retention Period,” which carries a burden hour estimate of less than 1 minute; and
+• 0607-0152 “Automated Export System (AES) Program,” which carries a burden hour estimate of 3 minutes per electronic submission.
+BIS does not anticipate any changes in these estimates as a result of the changes include in today's rule. Additional information regarding these collections of information—including all background materials—can be found at
+https://www.reginfo.gov/public/do/PRAMain
+by using the search function to enter either the title of the collection or the OMB Control Number.
+3. This rule does not contain policies with federalism implications as that term is defined in Executive Order 13132.
+4. Pursuant to section 1762 of ECRA (50 U.S.C. 4821), this action is exempt from the Administrative Procedure Act (APA) (5 U.S.C. 553) requirements for notice of proposed rulemaking, opportunity for public participation, and delay in effective date. While section 1762 of ECRA provides sufficient authority for such an exemption, this action is also independently exempt from these APA requirements because it involves a military or foreign affairs function of the United States (5 U.S.C. 553(a)(1)).
+5. Because a notice of proposed rulemaking and an opportunity for public comment are not required to be given for this rule by 5 U.S.C. 553, or by any other law, the analytical requirements of the Regulatory Flexibility Act, 5 U.S.C. 601,
+et seq.,
+are not applicable. Accordingly, no regulatory flexibility analysis is required, and none has been prepared.
+List of Subjects
+15 CFR Part 734
+Administrative practice and procedure, Exports, Inventions and patents, Research, Science and technology.
+15 CFR Parts 736 and 772
+Exports.
+15 CFR Part 740
+Administrative practice and procedure, Exports, Reporting and recordkeeping requirements.
+15 CFR Part 742
+Exports, Terrorism.
+15 CFR Part 744
+Exports, Reporting and recordkeeping requirements, Terrorism.
+15 CFR Part 762
+Administrative practice and procedure, Business and industry, Confidential business information, Exports, Reporting and recordkeeping requirements.
+15 CFR Part 774
+Exports, Reporting and recordkeeping requirements.
+For the reasons stated in the preamble, parts 734, 736, 740, 742, 744, 762, 772, and 774 of the Export Administration Regulations (15 CFR parts 730 through 774) are amended as follows:
+PART 734—SCOPE OF THE EXPORT ADMINISTRATION REGULATIONS
+1. The authority citation for part 734 is revised to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+E.O. 12938, 59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O. 13020, 61 FR 54079, 3 CFR, 1996 Comp., p. 219; E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783; E.O. 13637, 78 FR 16129, 3 CFR, 2014 Comp., p. 223; Notice of November 8, 2022, 87 FR 68015 (November 10, 2022).
+2. Section 734.9 is amended by revising paragraphs (h)(2)(i) and (ii) and (i)(2)(i) and (ii) to read as follows:
+§ 734.9
+Foreign-Direct Product (FDP) Rules.
+(h) * * *
+(2) * * *
+(i) Destined to the PRC or Macau or will be incorporated into any “part,” “component,” “computer,” or “equipment” not designated EAR99 that is destined to the PRC or Macau; or
+(ii) Technology developed by an entity headquartered in the PRC or Macau for the “production” of a mask or an integrated circuit wafer or die.
+(i) * * *
+(2) * * *
+(i) Used in the design, “development,” “production,” operation, installation (including on-site installation), maintenance (checking), repair, overhaul, or refurbishing of, a “supercomputer” located in or destined to the PRC or Macau; or
+(ii) Incorporated into, or used in the “development,” or “production,” of any “part,” “component,” or “equipment” that will be used in a “supercomputer” located in or destined to the PRC or Macau.
+3. Supplement No. 1 to part 734 is amended by revising paragraph (b)(2) to read as follows:
+Supplement No. 1 to Part 734—Model Certification for Purposes of Advanced Computing FDP Rule
+(b) * * *
+(2) My organization is aware that the items, [INSERT A DESCRIPTION OF THE ITEMS], provided to this exporter, reexporter, or transferor, [INSERT NAME OF EXPORTER, REEXPORTER, OR TRANSFEROR], could be subject to the U.S. Export Administration Regulations (EAR) (15 CFR 730-774) if future transactions are within the destination scope of § 734.9(h)(2)(i) or (ii) and exported or reexported to or transferred within the People's Republic of China (China) or Macau;
+PART 736—GENERAL PROHIBITIONS
+4. The authority citation for part 736 is revised to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+E.O. 12938, 59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O. 13020, 61 FR 54079, 3 CFR, 1996 Comp., p. 219; E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783; E.O. 13338, 69 FR 26751, 3 CFR, 2004 Comp., p. 168; Notice of May 9, 2022, 87 FR 28749 (May 10, 2022); Notice of November 8, 2022, 87 FR 68015 (November 10, 2022).
+5. Supplement No. 1 to part 736 is amended by revising paragraph (d) to read as follows:
+Supplement No. 1 to Part 736—General Orders
+(d) General Order No. 4: The purpose of this General Order is to avoid disruption of supply chains for items specified in paragraph (d)(1) of this supplement that are ultimately destined to customers outside of People's Republic of China (China) or Macau.
+(1)
+Temporary General License (TGL).
+BIS authorizes, from October 21, 2022, through April 7, 2023, exports, reexports, in-country transfers, and exports from abroad destined to or within China or Macau by companies not headquartered in Country Groups D:1 or D:5 or E (see supplement no. 1 to part 740 of the EAR) to continue or engage in integration, assembly (mounting), inspection, testing, quality assurance, and distribution of items covered by ECCN 3A090, 4A090, and associated software and technology in ECCN 3D001, 3E001, 4D090, or 4E001; or any item that is a computer, integrated circuit, “electronic assembly” or “component” and associated software and technology, specified elsewhere on Commerce Control List (supplement no. 1 to part 774 of the EAR), which meets or exceeds the performance parameters of ECCN 3A090 or 4A090. This does not authorize the export, reexport, in-country transfer, or export from abroad to “end-users” or “ultimate consignees” in China or Macau. This TGL does not overcome the license requirements of §§ 744.11 or 744.21 when an entity listed in supplements no. 4 or 7 to part 744 is a party to the transaction as described in § 748.5(c) through (f) of the EAR, or when there is knowledge of any other prohibited end use or end user. This TGL is only for companies that engage in the specific activities authorized under this TGL.
+(2)
+Recordkeeping requirement.
+Prior to any export, reexport, or transfer (in-country) to China or Macau pursuant to this TGL, the exporter, reexporter, or transferor, must retain the name of the entity receiving the item and the complete physical address of where the item is destined in China or Macau and the location of that company's headquarters.
+PART 740—LICENSE EXCEPTIONS
+6. The authority citation for part 740 continues to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+22 U.S.C. 7201
+et seq.;
+E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783.
+7. Section 740.2 is amended by revising the first sentence of paragraph (a)(9) introductory text to read as follows:
+§ 740.2
+Restrictions on all License Exceptions.
+(a) * * *
+(9) The item is identified in paragraphs (a)(9)(i) and (ii) of this section, being exported, reexported, or transferred (in-country) to or within the People's Republic of China (PRC) or Macau, and the license exception is other than: RPL (excluding 3B090, 3D001 (for 3B090), and 3E001 (for 3B090)), under the provisions of § 740.10, including § 740.10(a)(3)(v), which prohibits exports and reexports of replacement parts to countries in Country Group E:1 (see supplement no. 1 to this part)); GOV, restricted to eligibility under the provisions of § 740.11(b)(2)(ii); or TSU (excluding 3B090, 3D001 (for 3B090), and 3E001 (for 3B090)), under the provisions of § 740.13(a) and (c). * * *
+PART 742—CONTROL POLICY—CCL BASED CONTROLS
+8. The authority citation for part 742 is revised to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+22 U.S.C. 3201
+et seq.;
+42 U.S.C. 2139a; 22 U.S.C. 7201
+et seq.;
+22 U.S.C. 7210; Sec. 1503, Pub. L. 108-11, 117 Stat. 559; E.O. 12058, 43 FR 20947, 3 CFR, 1978 Comp., p. 179; E.O. 12851, 58 FR 33181, 3 CFR, 1993 Comp., p. 608; E.O. 12938, 59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783; Presidential Determination 2003-23, 68 FR 26459, 3 CFR, 2004 Comp., p. 320; Notice of November 8, 2022, 87 FR 68015 (November 10, 2022).
+9. Section 742.6 is amended by revising paragraphs (a)(6) and (b)(10) to read as follows:
+§ 742.6
+Regional stability.
+(a) * * *
+(6)
+RS requirement that applies to the People's Republic of China (China) and Macau for advanced computing and semiconductor manufacturing items
+—(i)
+Exports, reexports, transfers (in-country).
+A license is required for items specified in ECCNs 3A090, 3B090, 4A090, 5A992 (that meet or exceed the performance parameters of ECCNs 3A090 or 4A090) and associated software and technology in 3D001 (for 3A090 or 3B090), 3E001 (for 3A090 or 3B090), 3B090, or 3D001 (for 3A090 or 3B090), 4D090, 4E001 (for 4A090 and 4D090), and 5D992 (that meet or exceed the performance parameters of ECCNs 3A090 or 4A090) being exported, reexported, or transferred (in-country) to or within China or Macau. A license is also required for the export from China or Macau to any destination worldwide of 3E001 (for 3A090) technology developed by an entity headquartered in China or Macau that is the direct product of software subject to the EAR and is for the “production” of commodities identified in ECCNs 3A090, 4A090, or identified elsewhere on the CCL that meet or exceed the performance parameters of ECCNs 3A090 or 4A090, consistent with § 734.9(h)(1)(i)(B)(
+1
+) and (h)(2)(ii) of the EAR.
+(ii)
+Deemed exports.
+The license requirements in this paragraph (a)(6) do not apply to deemed exports or deemed reexports.
+(b) * * *
+(10)
+Advanced computing and semiconductor manufacturing items when destined to China or Macau.
+There is a presumption of denial for applications for items specified in paragraph (a)(6) of this section being exported, reexported, or transferred (in-country) to or within China or Macau. See § 744.11(a)(2)(ii) of the EAR for license requirements, license review policy, and license exceptions applicable to specific entities. License applications for semiconductor manufacturing items, such as semiconductor equipment, destined to end users in China or Macau that are headquartered in the United States or in a country in Country Group A:5 or A:6 will be considered on a case-by-case basis, taking into account factors including technology level, customers and compliance plans.
+PART 744—END-USE AND END-USER CONTROLS
+10. The authority citation for part 744 is revised to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+22 U.S.C. 3201
+et seq.;
+42 U.S.C. 2139a; 22 U.S.C. 7201
+et seq.;
+22 U.S.C. 7210; E.O. 12058, 43 FR 20947, 3 CFR, 1978 Comp., p. 179; E.O. 12851, 58 FR 33181, 3 CFR, 1993 Comp., p. 608; E.O. 12938, 59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13099, 63 FR 45167, 3 CFR, 1998 Comp., p. 208; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783; E.O. 13224, 66 FR 49079, 3 CFR, 2001 Comp., p. 786; Notice of September 19, 2022, 87 FR 57569 (September 21, 202); Notice of November 8, 2022, 87 FR 68015 (November 10, 2022).
+11. Section 744.6 is amended by revising paragraphs (c)(2) and (e)(3) to read as follows:
+§ 744.6
+Restrictions on specific activities of “U.S. persons.”
+(c) * * *
+(2) Consistent with paragraph (c)(1) of this section, BIS is hereby informing “U.S. persons” that a license is required for the following activities, which could involve `support' for the weapons of mass destruction-related end uses set forth in paragraph (b) of this section.
+(i) Shipping, transmitting, or transferring (in-country) to or within the PRC or Macau any item not subject to the EAR that you know will be used in the “development” or “production” of integrated circuits at a semiconductor fabrication “facility” located in the PRC or Macau that fabricates integrated circuits meeting any of the following criteria:
+(A) Logic integrated circuits using a non-planar architecture or with a “production” technology node of 16/14 nanometers or less;
+(B) NOT-AND (NAND) memory integrated circuits with 128 layers or more; or
+(C) Dynamic random-access memory (DRAM) integrated circuits using a “production” technology node of 18 nanometer half-pitch or less; or
+(ii) Facilitating the shipment, transmission, or transfer (in-country) of any item not subject to the EAR that you know will be used in the “development” or “production” of integrated circuits at a semiconductor fabrication “facility” located in the PRC or Macau that fabricates integrated circuits that meet any of the criteria in paragraphs (c)(2)(i)(A) through (C) of this section;
+(iii) Servicing any item not subject to the EAR that you know will be used in the “development” or “production” of integrated circuits at a semiconductor fabrication “facility” located in the PRC or Macau that fabricates integrated circuits that meet any of the criteria in paragraphs (c)(2)(i)(A) through (C) of this section;
+(iv) Shipping, transmitting, or transferring (in-country) to or within the PRC or Macau any item not subject to the EAR and meeting the parameters of any ECCN in Product Groups B, C, D, or
+E in Category 3 of the CCL that you know will be used in the “development” or “production” of integrated circuits at any semiconductor fabrication “facility” located in the PRC or Macau, but you do not know whether such semiconductor fabrication “facility” fabricates integrated circuits that meet any of the criteria in paragraphs (c)(2)(i)(A) through (C) of this section;
+(v) Facilitating the shipment, transmission, or transfer (in-country) to or within the PRC or Macau of any item not subject to the EAR and meeting the parameters of any ECCN in Product Groups B, C, D, or E in Category 3 of the CCL that you know will be used in the “development” or “production,” of integrated circuits at any semiconductor fabrication “facility” located in the PRC or Macau, but you do not know whether such semiconductor fabrication “facility” fabricates integrated circuits that meet any of the criteria in paragraphs (c)(2)(i)(A) through (C) of this section;
+(vi) Servicing any item not subject to the EAR and meeting the parameters of any ECCN in Product Groups B, C, D, or E in Category 3 of the CCL that you know will be used in the “development” or “production” of integrated circuits at any semiconductor fabrication “facility” located in the PRC or Macau, but you do not know whether such semiconductor fabrication “facility” fabricates integrated circuits that meet any of the criteria in paragraphs (c)(2)(i)(A) through (C) of this section;
+(vii) Shipping, transmitting, or transferring (in-country) to or within the PRC or Macau any item not subject to the EAR and meeting the parameters of ECCN 3B090, 3D001 (for 3B090), or 3E001 (for 3B090) regardless of end use or end user;
+(viii) Facilitating the shipment, transmission, or transfer (in-country) to or within the PRC or Macau of any item not subject to the EAR and meeting the parameters of ECCN 3B090, 3D001 (for 3B090), or 3E001 (for 3B090), regardless of end use or end user; or
+(ix) Servicing any item not subject to the EAR located in the PRC or Macau and meeting the parameters of ECCN 3B090, 3D001 (for 3B090), or 3E001 (for 3B090), regardless of end use or end user.
+(e) * * *
+(3) Applications for licenses submitted pursuant to the notice of a license requirement set forth in paragraph (c)(2) of this section will be reviewed with a presumption of denial, except for end users in the PRC or Macau headquartered in the United States or a country in Country Group A:5 or A:6, which will be considered on a case-by-case basis taking into account factors including technology level, customers, and compliance plans.
+12. Section 744.23 is amended by revising paragraphs (a)(2) and (d) to read as follows:
+§ 744.23
+“Supercomputer” and semiconductor manufacturing end use.
+(a) * * *
+(2)
+End-use scope.
+The following activities meet the end-use scope of the prohibition in this section:
+(i) The “development,” “production,” “use,” operation, installation (including on-site installation), maintenance (checking), repair, overhaul, or refurbishing of a “supercomputer” located in or destined to the PRC or Macau;
+(ii) The incorporation into, or the “development” or “production” of any “component” or “equipment” that will be used in a “supercomputer” located in or destined to the PRC or Macau; or
+(iii) The “development” or “production,” of integrated circuits at a semiconductor fabrication “facility” located in the PRC or Macau that fabricates integrated circuits meeting any of the following criteria:
+(A) Logic integrated circuits using a non-planar transistor architecture or with a “production” technology node of 16/14 nanometers or less;
+(B) NOT AND (NAND) memory integrated circuits with 128 layers or more; or
+(C) Dynamic random-access memory (DRAM) integrated circuits using a “production” technology node of 18 nanometer half-pitch or less; or
+(iv) The “development” or “production” of integrated circuits at any semiconductor fabrication “facility” located in the PRC or Macau, but you do not know whether such semiconductor fabrication “facility” fabricates integrated circuits that meet any of the criteria in paragraphs (a)(2)(iii)(A) through (C) of this section; or
+(v) The “development” or “production” in the PRC or Macau of any “parts,” “components,” or “equipment” specified under ECCN 3B001, 3B002, 3B090, 3B611, 3B991, or 3B992.
+(d)
+License review standards.
+There is a presumption of denial for applications to export, reexport, or transfer (in-country) items described in paragraph (a)(1) of this section that are for end uses described in paragraph (a)(2) of this section, except for items controlled under paragraph (a)(2)(iii) of this section for end users in China or Macau that are headquartered in the United States or in a Country Group A:5 or A:6 country, which will be considered on a case-by-case basis taking into account factors including technology level, customers and compliance plans.
+PART 774—THE COMMERCE CONTROL LIST
+13. The authority citation for part 774 continues to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+10 U.S.C. 8720; 10 U.S.C. 8730(e); 22 U.S.C. 287c, 22 U.S.C. 3201
+et seq.;
+22 U.S.C. 6004; 42 U.S.C. 2139a; 15 U.S.C. 1824; 50 U.S.C. 4305; 22 U.S.C. 7201
+et seq.;
+22 U.S.C. 7210; E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783.
+14. Supplement no. 1 to part 774 is amended by revising ECCNs 3A090, 3B090, 3D001, 3E001, 4A090, 4D090, and 4E001 to read as follows:
+Supplement No. 1 to Part 774—The Commerce Control List
+3A090 Integrated circuits as follows (see List of Items Controlled).
+License Requirements
+Reason for Control:
+RS, AT
+Control(s)
+Country chart
+(see Supp. No. 1 to
+part 738)
+RS applies to entire entry
+China and Macau (See § 742.6(a)(6))
+AT applies to entire entry
+AT Column 1
+List Based License Exceptions (See Part 740 for a Description of All License Exceptions)
+LVS:
+N/A
+GBS:
+N/A
+List of Items Controlled
+Related Controls:
+See ECCNs 3D001 and 3E001 for associated technology and software controls.
+Related Definitions:
+N/A
+Items:
+a. Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:
+a.1. One or more digital processor units executing machine instructions having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all processor units, of 4800 or more;
+a.2. One or more digital `primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per
+operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;
+a.3. One or more analog, multi-value, or multi-level `primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or
+a.4. Any combination of digital processor units and `primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.
+Note:
+Integrated circuits specified by 3A090.a include graphical processing units (GPUs), tensor processing units (TPUs), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, field-programmable logic devices (FPLDs), and application-specific integrated circuits (ASICs). Examples of integrated circuits are in the Note to 3A001.a.
+Technical Notes:
+1. A `primitive computational unit' is defined as containing zero or more modifiable weights, receiving one or more inputs, and producing one or more outputs. A computational unit is said to perform 2N-1 operations whenever an output is updated based on N inputs, where each modifiable weight contained in the processing element counts as an input. Each input, weight, and output might be an analog signal level or a scalar digital value represented using one or more bits. Such units include:
+—
+Artificial neurons
+—
+Multiply accumulate (MAC) units
+—
+Floating-point units (FPUs)
+—
+Analog multiplier units
+—
+Processing units using memristors, spintronics, or magnonics
+—
+Processing units using photonics or non-linear optics
+—
+Processing units using analog or multi-level nonvolatile weights
+—
+Processing units using multi-level memory or analog memory
+—
+Multi-value units
+—
+Spiking units
+2. Operations relevant to the calculation of TOPS for 3A090.a include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.
+3. TOPS is Tera Operations Per Second or 10
+12
+Operations per Second.
+4. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. For example, the threshold of 4800 bits × TOPS can be met with 600 tera integer operations at 8 bits or 300 tera FLOPS at 16 bits. The bit length of an operation is equal to the highest bit length of any input or output of that operation. Additionally, if an item specified by this entry is designed for operations that achieve different bits × TOPS value, the highest bits × TOPS value should be used for the purposes of 3A090.a.
+5. For integrated circuits specified by 3A090.a that provide processing of both sparse and dense matrices, the TOPS values are the values for processing of dense matrices (
+e.g.,
+without sparsity).
+b. [Reserved]
+3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.
+License Requirements
+Reason for Control:
+RS, AT
+Control(s)
+Country chart
+(see Supp. No. 1 to
+part 738)
+RS applies to entire entry
+China and Macau (see § 742.6(a)(6))
+AT applies to entire entry
+AT Column 1
+List Based License Exceptions (See Part 740 for a Description of All License Exceptions)
+LVS:
+N/A
+GBS:
+N/A
+List of Items Controlled
+Related Controls:
+N/A
+Related Definitions:
+N/A
+Items:
+a. Semiconductor manufacturing deposition equipment, as follows:
+a.1. Equipment for depositing cobalt through electroplating processes.
+a.2. Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.
+a.3 Equipment capable of fabricating a metal contact within one processing chamber by:
+a.3.a. Depositing a layer using an organometallic tungsten compound while maintaining the wafer substrate temperature between 100 °C and 500 °C; and
+a.3.b. Conducting a plasma process where the chemistries include hydrogen, including H
+2
++N
+2
+and NH
+3
+.
+a.4. Equipment capable of fabricating a metal contact in a vacuum environment by:
+a.4.a. Using a surface treatment during a plasma process where the chemistries include hydrogen, including H
+2
+, H
+2
++N
+2
+, and NH
+3
+, while maintaining the wafer substrate temperature between 100 °C and 500 °C;
+a.4.b. Using a surface treatment consisting of a plasma process where the chemistries include oxygen (including O
+2
+and O
+3
+) while maintaining the wafer substrate temperature between 40 °C and 500 °C; and
+a.4.c. Depositing a tungsten layer while maintaining the wafer substrate temperature between 100°C and 500°C.
+a.5. Equipment capable of depositing a cobalt metal layer selectively in a vacuum environment where the first step uses a remote plasma generator and an ion filter, and the second step is the deposition of the cobalt layer using an organometallic compound.
+Note:
+This control does not apply to equipment that is non-selective.
+a.6. Physical vapor deposition equipment capable of depositing a cobalt layer with a thickness of 10 nm or less on a top surface of a copper or cobalt metal interconnect.
+a.7. Atomic layer deposition equipment capable of depositing a `work function metal' for the purpose of adjusting transistor electrical parameters by delivering an organometallic aluminum compound and a titanium halide compound onto a wafer substrate.
+Technical note:
+`Work function metal' is a material that controls the threshold voltage of a transistor.
+a.8. Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:
+a.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;
+a.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and
+a.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.
+a.9. Equipment capable of fabricating copper metal interconnects in a vacuum environment that deposits all of the following:
+a.9.a. A cobalt or ruthenium layer using organometallic compound where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C; and
+a.9.b. A copper layer using a physical vapor deposition technique where the process pressure is 1-100m Torr and the wafer substrate temperature is maintained below 500 °C.
+a.10. Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.
+Note:
+3B090.a.10 includes equipment capable of area selective deposition of a barrier layer to enable fill metal contact to an underlying electrical conductor without a barrier layer at the fill metal via interface to an underlying electrical conductor.
+a.11. Atomic layer deposition equipment capable of producing a void/seam free fill of tungsten or cobalt in a structure having an aspect ratio greater than 5:1, with openings smaller than 40 nm, and at temperatures less than 500 °C.
+3D001 “Software” “specially designed” for the “development” or “production” of commodities controlled by 3A001.b to 3A002.h, 3A090, or 3B (except 3B991 and 3B992).
+License Requirements
+Reason for Control:
+NS, RS, AT
+Control(s)
+Country chart
+(see Supp. No. 1 to
+part 738)
+NS applies to “software” for commodities controlled by 3A001.b to 3A001.h, 3A002, and 3B
+NS Column 1
+RS applies to “software” for commodities controlled by 3A090 or 3B090
+China and Macau (see § 742.6(a)(6))
+AT applies to entire entry
+AT Column 1
+Reporting Requirements
+See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, Special Comprehensive Licenses, and Validated End-User authorizations.
+List Based License Exceptions (See Part 740 for a Description of All License Exceptions)
+TSR:
+Yes, except for “software” “specially designed” for the “development” or “production” of Traveling Wave Tube Amplifiers described in 3A001.b.8 having operating frequencies exceeding 18 GHz.
+Special Conditions for STA
+STA:
+License Exception STA may not be used to ship or transmit “software” “specially designed” for the “development” or “production” of equipment specified by 3A002.g.1 or 3B001.a.2 to any of the destinations listed in Country Group A:6 (See Supplement No.1 to part 740 of the EAR).
+List of Items Controlled
+Related Controls:
+N/A
+Related Definitions:
+N/A
+Items:
+The list of items controlled is contained in the ECCN heading.
+3E001 “Technology” according to the General Technology Note for the “development” or “production” of commodities controlled by 3A (except 3A980, 3A981, 3A991, 3A992, or 3A999), 3B (except 3B991 or 3B992) or 3C (except 3C992).
+License Requirements
+Reason for Control:
+NS, MT, NP, RS, AT
+Control(s)
+Country chart
+(see Supp. No. 1 to
+part 738)
+NS applies to “technology” for commodities controlled by 3A001, 3A002, 3A003, 3B001, 3B002, or 3C001 to 3C006
+NS Column 1
+MT applies to “technology” for commodities controlled by 3A001 or 3A101 for MT reasons
+MT Column 1
+NP applies to “technology” for commodities controlled by 3A001, 3A201, or 3A225 to 3A234 for NP reasons
+NP Column 1
+RS applies to “technology” for commodities controlled by 3A090 or 3B090 or “software” specified by 3D001 (for 3A090 or 3B090 commodities)
+China and Macau (See § 742.6(a)(6))
+RS applies to “technology” for commodities controlled in 3A090, when exported from China or Macau
+Worldwide (See § 742.6(a)(6))
+AT applies to entire entry
+AT Column 1
+License Requirements Note:
+See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.
+Reporting Requirements
+See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, Special Comprehensive Licenses, and Validated End-User authorizations.
+List Based License Exceptions (See Part 740 for a Description of All License Exceptions)
+TSR:
+Yes, except N/A for MT, and “technology” for the “development” or “production” of: (a) vacuum electronic device amplifiers described in 3A001.b.8, having operating frequencies exceeding 19 GHz; (b) solar cells, coverglass-interconnect-cells or covered-interconnect-cells (CIC) “assemblies”, solar arrays and/or solar panels described in 3A001.e.4; (c) “Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers in 3A001.b.2; and (d) discrete microwave transistors in 3A001.b.3.
+Special Conditions for STA
+STA:
+License Exception STA may not be used to ship or transmit “technology” according to the General Technology Note for the “development” or “production” of equipment specified by ECCNs 3A002.g.1 or 3B001.a.2 to any of the destinations listed in Country Group A:6 (See Supplement No. 1 to part 740 of the EAR). License Exception STA may not be used to ship or transmit “technology” according to the General Technology Note for the “development” or “production” of components specified by ECCN 3A001.b.2 or b.3 to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).
+List of Items Controlled
+Related Controls:
+(1)“Technology” according to the General Technology Note for the “development” or “production” of certain “space-qualified” atomic frequency standards described in Category XV(e)(9), MMICs described in Category XV(e)(14), and oscillators described in Category XV(e)(15) of the USML are “subject to the ITAR” (see 22 CFR parts 120 through 130). See also 3E101, 3E201 and 9E515. (2) “Technology” for “development” or “production” of “Microwave Monolithic Integrated Circuits” (“MMIC”) amplifiers in 3A001.b.2 is controlled in this ECCN 3E001; 5E001.d refers only to that additional “technology” “required” for telecommunications.
+Related Definition:
+N/A
+Items:
+The list of items controlled is contained in the ECCN heading.
+Note 1:
+3E001 does not control “technology” for equipment or “components” controlled by 3A003.
+Note 2:
+3E001 does not control “technology” for integrated circuits controlled by 3A001.a.3 to a.14, having all of the following:
+(a) Using “technology” at or above 0.130
+m
+; and
+(b) Incorporating multi-layer structures with three or fewer metal layers.
+Note 3:
+3E001 does not apply to `Process Design Kits' (`PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.
+Technical Note:
+A `Process Design Kit' (`PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular `PDK').
+4A090 Computers as follows (see List of Items Controlled) and related equipment, “electronic assemblies,” and “components” therefor.
+License Requirements
+Reason for Control:
+RS, AT
+Control(s)
+Country chart
+(see Supp. No. 1 to
+part 738)
+RS applies to entire entry
+China and Macau (see § 742.6(a)(6))
+AT applies to entire entry
+AT Column 1
+List Based License Exceptions (See Part 740 for a Description of All License Exceptions)
+LVS:
+N/A
+GBS:
+N/A
+List of Items Controlled
+Related Controls:
+For associated “software” for commodities in this ECCN, see 4D090 and for associated “technology” for commodities in this ECCN, see 4E001.
+Related Definitions:
+N/A
+Items:
+a.
+Computers, “electronic assemblies,” and “components” containing integrated circuits, any of which exceeds the limit in 3A090.a.
+Technical Note:
+Computers include “digital computers,” “hybrid computers,” and analog computers.
+b. Reserved
+4D090 “Software” “specially designed” or modified for the “development” or “production,” of computers and related equipment, “electronic assemblies,” and “components” therefor specified in ECCN 4A090.
+License Requirements
+Reason for Control:
+RS, AT
+Control(s)
+Country chart
+(see Supp. No. 1 to
+part 738)
+RS applies to entire entry
+China and Macau (See § 742.6(a)(6))
+AT applies to entire entry
+AT Column 1
+List Based License Exceptions (See Part 740 for a Description of All License Exceptions)
+TSR:
+N/A
+List of Items Controlled
+Related Controls:
+For associated “technology” for software in this ECCN, see 4E001.
+Related Definitions:
+N/A
+Items:
+The list of items controlled is contained in the ECCN heading.
+4E001 “Technology” as follows (see List of Items Controlled).
+License Requirements
+Reason for Control:
+NS, MT, RS, CC, AT
+Control(s)
+Country chart
+(see Supp. No. 1 to
+part 738)
+NS applies to entire entry
+NS Column 1
+MT applies to “technology” for items controlled by 4A001.a and 4A101 for MT reasons
+MT Column 1
+RS applies to “technology” for commodities controlled by 4A090 or “software” specified by 4D090
+China and Macau (See § 742.6(a)(6))
+CC applies to “software” for computerized finger-print equipment controlled by 4A003 for CC reasons
+CC Column 1
+AT applies to entire entry
+AT Column 1
+Reporting Requirements
+See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.
+List Based License Exceptions (See Part 740 for a Description of All License Exceptions)
+TSR:
+Yes, except for the following:
+(1) “Technology” for the “development” or “production” of commodities with an “Adjusted Peak Performance” (“APP”) exceeding 29 WT or for the “development” or “production” of commodities controlled by 4A005 or “software” controlled by 4D004; or
+(2) “Technology” for the “development” of “intrusion software”.
+APP:
+Yes to specific countries (see § 740.7 of the EAR for eligibility criteria).
+ACE:
+Yes for 4E001.a (for the “development”, “production” or “use” of equipment or “software” specified in ECCN 4A005 or 4D004) and for 4E001.c, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.
+Special Conditions for STA
+STA:
+License Exception STA may not be used to ship or transmit “technology” according to the General Technology Note for the “development” or “production” of any of the following equipment or “software”: a. Equipment specified by ECCN 4A001.a.2; b. “Digital computers” having an `Adjusted Peak Performance' (`APP') exceeding 29 Weighted TeraFLOPS (WT); or c. “software” specified in the License Exception STA paragraph found in the License Exception section of ECCN 4D001 to any of the destinations listed in Country Group A:6 (See Supplement No. 1 to part 740 of the EAR); and may not be used to ship or transmit “software” specified in 4E001.a (for the “development”, “production” or “use” of equipment or “software” specified in ECCN 4A005 or 4D004) and 4E001.c to any of the destinations listed in Country Group A:5 or A:6.
+List of Items Controlled
+Related Controls:
+N/A
+Related Definitions:
+N/A
+Items:
+a. “Technology” according to the General Technology Note, for the “development”, “production”, or “use” of equipment or “software” controlled by 4A (except 4A980 or 4A994) or 4D (except 4D980, 4D993, 4D994).
+b. “Technology” according to the General Technology Note, other than that controlled by 4E001.a, for the “development” or “production” of equipment as follows:
+b.1. “Digital computers” having an “Adjusted Peak Performance” (“APP”) exceeding 15 Weighted TeraFLOPS (WT);
+b.2. “Electronic assemblies” “specially designed” or modified for enhancing performance by aggregation of processors so that the “APP” of the aggregation exceeds the limit in 4E001.b.1.
+c. “Technology” for the “development” of “intrusion software.”
+Note 1:
+4E001.a and 4E001.c do not apply to “vulnerability disclosure” or “cyber incident response”.
+Note 2:
+Note 1 does not diminish national authorities' rights to ascertain compliance with 4E001.a and 4E001.c.
+Thea D. Rozman Kendler,
+Assistant Secretary for Export Administration.
+[FR Doc. 2023-00888 Filed 1-17-23; 8:45 am]
+BILLING CODE 3510-33-P

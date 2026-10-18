@@ -1,0 +1,1376 @@
+ILUKA RESOURCES LIMITED
+ABN 34 008 675 018
+
+
+
+INTERIM REPORT
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+ILUKA RESOURCES LIMITED
+INTERIM REPORT FOR THE HALF YEAR ENDED 30 JUNE 2026
+
+
+
+CONTENTS
+
+
+Results for announcement to the market ................................................................................................................................... 2
+Review of results and operations ................................................................................................................................................ 3
+Governance ................................................................................................................................................................................12
+Auditor's independence declaration..........................................................................................................................................13
+Financial Statements .................................................................................................................................................................14
+          Condensed consolidated statement of proﬁt or loss ...................................................................................................14
+          Condensed consolidated statement of comprehensive income .................................................................................15
+          Condensed consolidated statement of ﬁnancial position ............................................................................................16
+          Condensed consolidated statement of changes in equity ...........................................................................................17
+          Condensed consolidated statement of cash ﬂows ......................................................................................................18
+          Notes to the condensed consolidated ﬁnancial statements ........................................................................................19
+Directors' declaration .................................................................................................................................................................27
+Independent auditor's review report .........................................................................................................................................28
+RESULTS FOR ANNOUNCEMENT TO THE MARKET
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+Provided below are the results for announcement to the market in accordance with Australian Securities Exchange (ASX)
+Listing Rule 4.2A and Appendix 4D for the Consolidated Entity comprising Iluka Resources Limited (Iluka) and its controlled
+entities for the half-year ended 30 June 2026 (the 'current period’) compared with the half-year ended 30 June 2025 (the
+‘prior comparative period').
+This report should be read in conjunction with the Annual Report for the year ended 31 December 2025, and public
+announcements made by Iluka during the half-year ended 30 June 2026 in accordance with the continuous disclosure
+requirements of the Corporations Act 2001 and the ASX Listing Rules.
+All currencies shown in this report are Australian dollars unless otherwise indicated.
+
+
+
+  Revenue from ordinary activities                                                                    Down 21% to $455.9m
+  Net loss after tax for the period from ordinary activities                                          Down 126% to ($24m)
+  Net loss after tax for the period attributable to equity holders of the parent                      Down 126% to ($24m)
+
+  Dividends
+  2026 interim: 3 cents per ordinary share (100% franked), to be paid in September 2026
+  2025 final: 3 cents per ordinary share (100% franked), paid in March 2026
+  2025 interim: 2 cents per ordinary share (100% franked), paid in September 2025
+                                                                                                      1st Half       1st Half
+  Key ratios                                                                                            2026           2025
+  Basic (loss)/profit per share (cents)                                                                   (5.6)          21.5
+  Diluted (loss)/profit per share (cents)                                                                 (5.6)          21.2
+  Free cash flow per share (cents)1                                                                      (12.3)         (67.3)
+  Net tangible assets per share ($)                                                                       3.10           4.39
+
+
+¹ Free cash ﬂow is determined as cash ﬂow before reﬁnance costs, proceeds/repayment of borrowings and dividends paid in the period.
+A negative number represents free cash outﬂows.
+
+
+
+DIVIDEND REINVESTMENT PLAN (DRP)
+The current Dividend Reinvestment Plan (DRP) was approved by the Board of Directors. Under the plan, eligible
+shareholders can reinvest either all or part of their dividend payments into additional fully paid Iluka shares. The DRP
+remains active for the 2026 interim dividend.
+The Directors have determined that no discount will apply for the DRP in respect of the 2026 interim dividend. Shares
+allocated to shareholders under the DRP for the 2026 interim dividend will be allocated at an amount equal to the average
+of the daily volume weighted average market price of ordinary shares of the Company traded on the ASX over the period
+of 10 trading days commencing on 4 September 2026. The last date for receipt of election notices for the DRP is 2
+September 2026.
+
+
+INDEPENDENT AUDITOR'S REVIEW REPORT
+The Condensed Consolidated Financial Statements upon which this Appendix 4D is based have been reviewed.
+The Directors of Iluka Resources Limited present their report together with the ﬁnancial statements of the Group for the
+half-year ended 30 June 2026 and the auditor's review report thereon.
+
+
+
+
+    Iluka Resources Limited                                     2                                              30 June 2026
+REVIEW OF RESULTS AND OPERATIONS
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+REVIEW OF RESULTS
+•     Net loss after tax of $24 million
+•     Underlying mineral sands EBITDA of $41 million 1
+•     Operating cash ﬂow of $247 million
+•     Interim dividend of 3 cents per share declared
+
+
+REVENUE
+Mineral sands revenue was $433 million in H1 2026, down from $558 million in H1 2025.
+Zircon sales volumes increased by 3% to 164 thousand tonnes. The weighted average zircon sand price in H1 2026 was
+US $1,514 per tonne, with a US $55 per tonne price increase realised in Q2 from Q1 prices.
+Synthetic rutile sales volumes were 48% lower at 37 thousand tonnes, reﬂecting the second-half weighting of contracted
+sales, with prices also declining moderately to US$1,087 per tonne compared to US$1,143 per tonne in H1 2025.
+
+
+                                                                                             1st Half         1st Half
+Sales (kt)                                                                                     2026             2025          % change
+
+Zircon                                                                                         163.5             158.2              3.4
+Rutile                                                                                          27.6              20.5             34.6
+Synthetic rutile                                                                                36.5              70.3            (48.1)
+Total Z/R/SR sales                                                                             227.6             249.0             (8.6)
+Ilmenite                                                                                        54.6              29.6             84.5
+Total sales volumes                                                                            282.2             278.6              1.3
+
+Z/R/SR revenue ($m)                                                                             386.8            521.6            (25.8)
+Ilmenite and other revenue ($m)                                                                  45.9             36.1             27.1
+Total mineral sands revenue2 ($m)                                                              432.7             557.7            (22.4)
+                                      3                                                         1,699            2,095            (18.9)
+Revenue per tonne of Z/R/SR sold ($/t)
+
+2 Mineral sands revenue includes revenue derived from other materials not included in production volumes, including activated carbon
+
+products and iron concentrate.
+3 Calculated as revenue from the sale of zircon, rutile and synthetic rutile (Z/R/SR) products divided by Z/R/SR sales volumes.
+
+
+
+
+EARNINGS
+Iluka recorded a loss after tax of $24 million for the half-year ended 30 June 2026, compared with a proﬁt after tax of $92
+million in H1 2025. Underlying Group EBITDA was $53 million.
+The decline from the prior comparative period was primarily attributable to lower realised prices across key products,
+reﬂecting market conditions, and the appreciation of the AUD against the USD, which unfavourably impacted the Group's
+predominantly USD-denominated revenue. These impacts were partially offset by lower cash production costs resulting
+from the idling of Cataby and Capel operations, and the beneﬁts of ongoing cost control initiatives, despite higher input
+costs arising from energy supply disruptions during the ﬁrst half of 2026. Earnings further beneﬁted from higher other
+income, primarily associated with land sales.
+
+
+
+
+1 Non-IFRS measure. See reconciliation to statutory results on page 11.
+
+    Iluka Resources Limited                                         3                                                30 June 2026
+REVIEW OF RESULTS AND OPERATIONS
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+INCOME STATEMENT ANALYSIS
+                                                                                              1st Half     1st Half
+$ million                                                                                       2026         2025         % change
+Z/R/SR revenue                                                                                  386.8         521.6            (25.8)
+Ilmenite and other revenue                                                                       45.9          36.1             27.1
+Mineral sands revenue                                                                           432.7         557.7            (22.4)
+Cash costs of production                                                                       (130.5)       (319.1)           (59.1)
+By-product costs                                                                                 (5.1)        (10.9)           (53.2)
+Inventory movement - cash costs of production                                                  (148.3)         84.8               n/a
+Purchased inventory                                                                              (9.4)             -              n/a
+Idle capacity charges                                                                           (40.8)        (21.3)            91.5
+Government royalties                                                                            (14.0)        (17.7)           (20.9)
+Marketing and selling costs1                                                                    (15.5)        (17.2)             (9.9)
+Asset sales and other income                                                                     13.2           1.1               n/a
+Major projects, exploration, and innovation                                                     (14.9)        (16.2)             (8.0)
+Corporate and other costs                                                                       (20.8)        (10.6)            96.2
+Foreign exchange                                                                                 (5.9)        (12.5)           (52.8)
+Underlying mineral sands EBITDA                                                                  40.7         218.1            (81.3)
+Share of profit of associate                                                                     12.3          15.1            (18.5)
+Underlying Group EBITDA2                                                                         53.0         233.2            (77.3)
+Depreciation and amortisation                                                                   (42.1)       (110.5)           (61.9)
+Inventory movement - non-cash production costs                                                    (8.1)        21.0              n/a
+NRV write down                                                                                  (12.2)             -             n/a
+(Loss)/gain on revaluation of investments                                                         (0.6)         4.5              n/a
+Group EBIT                                                                                      (10.0)        148.2              n/a
+Net interest and bank charges                                                                   (13.3)         (4.3)             n/a
+Rehabilitation unwind and other finance costs                                                   (19.9)        (18.7)             6.4
+(Loss)/profit before tax                                                                        (43.2)        125.2              n/a
+Tax benefit/(expense)                                                                            19.3         (33.2)             n/a
+(Loss)/profit for the period (NPAT)                                                             (23.9)         92.0              n/a
+
+Average AUD/USD rate for the period (cents)                                                      70.2          66.0              6.4
+
+
+1 Freight revenue and expenses are included as a net number in marketing and selling costs.
+2 Underlying Group EBITDA excludes non-recurring adjustments including impairments and changes to rehabilitation provisions for closed
+
+sites, which are non-cash in nature.
+
+
+
+
+    Iluka Resources Limited                                       4                                               30 June 2026
+REVIEW OF RESULTS AND OPERATIONS
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+Overview Mineral sands market conditions are reported on page 9 of this report.
+
+
+Exchange rate variances relate to AUD:USD translation of sales, which are predominantly sold in USD currency. The
+Australian dollar strengthened in H1 2026 with an average exchange rate of 70.2 cents compared to 66.0 cents in the
+comparative period. The Group hedges a portion of its USD sales to assist in managing exchange rate exposure.
+
+Cash costs of production decreased by 59% from the prior comparative period, primarily reﬂecting the idling of the Cataby
+and Capel operations. Unit cash costs for Z/R/SR produced increased 9% to $1,236/t due to input cost pressures
+associated with Middle East conﬂict-related energy supply disruptions and lower ZIC production, resulting in reduced cost
+absorption.
+
+Unit cost of goods sold (net of NRV) increased by 9% to $1,358 per tonne in H1 2026. This predominately reﬂects a
+change in sales mix with increases in zircon sands sales.
+
+Idle capacity charges increased half-on-half due to production suspension at Cataby and SR2.
+
+Corporate costs reﬂect expenses to operate, govern and grow the business. Higher spend compared to the prior year was
+primarily due to H1 2025 beneﬁting from a provision release relating to FY2024 short-term incentive program that was not
+paid. Excluding this prior-period item, corporate costs were broadly consistent.
+
+Asset sales and other income is $13 million, primarily driven by land sales and rental income derived from idle assets.
+
+Major project, exploration and innovation spend reduced with lower major project and exploration activities across
+Australia and the USA.
+
+The Group recognised an income tax beneﬁt of $19 million, representing an effective tax rate (ETR) of 45% (H1 2025: 27%).
+The equity-accounted proﬁt for the Group’s investment in Deterra Royalties is not assessable and the dividends received
+were fully franked, resulting in an ETR higher than the corporate tax rate. The tax rate applicable in Australia remained at
+30%.
+
+
+
+
+   Iluka Resources Limited                                   5                                           30 June 2026
+REVIEW OF RESULTS AND OPERATIONS
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+CASH FLOW AND FINANCIAL POSITION
+MINERAL SANDS
+                                                                               1st Half         2nd Half         1st Half
+$ Million                                                                         2025             2025            2026
+
+Opening net cash/(debt)                                                             90.4         (163.9)           (473.0)
+Operating cash flow                                                               114.7            (53.9)           247.2
+Exploration                                                                         (6.3)           (8.3)             (4.4)
+Interest (net)                                                                      (1.7)           (8.2)            (11.7)
+Tax                                                                                (70.8)          (23.0)             52.9
+Capital expenditure                                                              (223.4)         (195.7)             (94.3)
+Principal element of lease payments                                                 (5.1)           (5.4)             (1.7)
+Asset sales                                                                          1.0             0.5              11.5
+Treasury share purchases                                                            (0.5)               -                 -
+Redemption of convertible note                                                          -           18.5                  -
+Free cash flow - Mineral Sands                                                   (192.1)         (275.5)            199.5
+Dividends received - Deterra                                                         9.5            13.8              13.1
+Rare Earths equity funding                                                         (55.4)          (39.0)                 -
+Dividends paid                                                                     (16.9)           (8.3)            (12.7)
+Net cash flow - Mineral Sands                                                    (254.9)         (309.0)            199.9
+Exchange revaluation of USD net debt                                                 0.9             0.2               0.1
+Amortisation of deferred borrowing costs                                            (0.3)           (0.3)             (0.2)
+Increase in net cash/(debt)                                                      (254.3)         (309.1)            199.8
+
+Closing net debt - Mineral sands                                                 (163.9)         (473.0)           (273.2)
+
+
+
+Mineral sands operating cash ﬂow strengthened from an outﬂow of $54 million in H2 2025 to an inﬂow of $247 million in
+H1 2026. This was primarily due to the sell down of inventory and the idling of Cataby and Capel operations resulting in
+lower operating payments in the ﬁrst half of 2026.
+Mineral sands capital expenditure cash outﬂows slowed in the ﬁrst half of 2026 following the commissioning of Balranald
+in June 2026. Capital expenditure for the period included $35 million of Balranald-related costs that had previously been
+expected to be recognised as operating expenditure, reﬂecting a slight delay to commissioning. This timing change had
+no impact on total cash outﬂows. Total mineral sands capital expenditure for the six months ended 30 June 2026 was $94
+million, of which $76 million was attributable to Balranald.
+Tax inﬂows of $52.9 million represent the income tax refund received in H1 2026 in respect of the 2025 tax year.
+Total debt drawn on the Multi Option Facility Agreement (MOFA) was $310 million at 30 June 2026, down from $500 million
+at 31 December 2025. Net debt for the mineral sands business was $273 million, a decrease from $473 million reported
+at 31 December 2025.
+The directors declared an interim dividend of 3 cents per share, to be paid in September 2026. The dividend is in line with
+Iluka’s dividend framework to pay 100% of dividends received from Deterra Royalties and a minimum of 40% of free cash
+ﬂow from the mineral sands business not required for investing or balance sheet activity.
+
+
+
+
+   Iluka Resources Limited                                  6                                            30 June 2026
+REVIEW OF RESULTS AND OPERATIONS
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+
+RARE EARTHS
+                                                                                1st Half        2nd Half          1st Half
+$ Million                                                                         2025             2025             2026
+
+Opening net debt                                                                 (205.0)          (338.5)          (583.6)
+Operating cash flow                                                                     -                -                -
+Capital expenditure                                                              (178.5)          (264.5)          (264.9)
+Principal element of lease payments                                                 (0.1)            (0.4)            (0.4)
+Free cash flow - Rare Earths                                                     (178.6)          (264.9)          (265.3)
+Equity contributions from Iluka Mineral Sands                                       55.4             39.0                 -
+Net cash flow - Rare Earths                                                      (123.2)          (225.9)          (265.3)
+Amortisation of deferred borrowing costs                                            (0.2)            (0.3)            (0.3)
+EFA interest capitalised to refinery                                               (10.1)           (18.9)           (27.7)
+Increase in net debt                                                             (133.5)          (245.1)          (293.3)
+
+Closing net debt - Rare Earths                                                   (338.5)          (583.6)          (876.9)
+
+
+
+Capital cash outﬂows on the Eneabba Rare Earths Reﬁnery totalled $265 million for H1 2026.
+The Group has access to a loan facility with Export Finance Australia (EFA), originally established at $1,250 million,
+accompanied by cash equity contributions from the Group totalling $200 million, provided on a 1:3 basis with initial
+drawdowns. In February 2025 the facility limit was increased to $1,650 million, with the Group’s cash contribution rising to
+$414 million. Access to the increased facility amount was subject to the Group securing offtake agreements that met the
+requirements of the Australian Government, and the additional funding is drawn once the initial $1,450 million of funding
+arrangements ($1,250 million from EFA facility and $200 million of equity funding) has been fully utilised. Iluka satisﬁed
+the offtake agreement requirement of EFA in June 2026 and now has full access to the $1.65 billion facility from EFA.
+$288 million was drawn on the EFA facility in H1 2026, bringing the total amount drawn from $610 million at 31 December
+2025 to $897 at 30 June 2026.
+Net debt for Rare Earths increased from $584 million at 31 December 2025 to $877 million at 30 June 2026.
+
+
+
+
+   Iluka Resources Limited                                   7                                             30 June 2026
+REVIEW OF RESULTS AND OPERATIONS
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+
+PRODUCTION
+                                                                                        1st Half        1st Half
+Production (kt)                                                                           2026            2025         % change
+Zircon                                                                                     79.9           131.7            (39.3)
+Rutile                                                                                     25.7            35.6            (27.8)
+Synthetic rutile                                                                               -          113.1              n/a
+Total Z/R/SR production                                                                   105.6           280.4            (62.3)
+Ilmenite                                                                                   53.9           190.8            (71.8)
+Total Mineral Sands Production                                                            159.5           471.2            (66.2)
+
+HMC produced                                                                              174.8           496.6            (64.8)
+HMC processed                                                                             181.8           405.9            (55.2)
+
+Cash costs of production, excluding ilmenite and by-products ($m)                         130.5           319.1            (59.1)
+Unit cash cost per tonne of Z/R/SR produced excluding by-products1 ($/t)                  1,236            1,138              8.6
+Unit cost of goods sold per tonne of Z/R/SR sold ($/t)                                    1,358            1,241              9.4
+
+1 Unit cash cost per tonne of Z/R/SR produced is determined as cash costs of production less the cost of saleable ilmenite and by-
+
+products, divided by total Z/R/SR production volumes.
+
+
+
+
+OPERATIONS
+
+The Jacinth-Ambrosia mine in South Australia produced 114kt of HMC in H1 2026, down 15% from 134kt in H1 2025.
+Total HMC produced in H1 2026 was 174kt and HMC processed was 182kt. The Narngulu mineral separation plant
+processed 145kt of HMC from Jacinth-Ambrosia, producing a total of 79kt of zircon (including ZIC) and 23kt of rutile
+(including HyTi). The remaining HMC processed was from inventory.
+Balranald produced 14kt of HMC this half.
+Iluka’s Cataby mine remains idle. No synthetic rutile was produced in the half with both synthetic rutile kilns remaining idle.
+Restart is subject to market conditions.
+
+
+
+
+    Iluka Resources Limited                                     8                                              30 June 2026
+REVIEW OF RESULTS AND OPERATIONS
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+MARKETING
+
+ZIRCON
+Zircon sand sales volumes in H1 were 163kt, including zircon-in-concentrate (ZIC) sales of 53kt. The average realised price
+for zircon sand (premium and standard) delivered in H1 was US$1,514/t.
+Market conditions in H1 were variable across regions. China demand was subdued; Europe was broadly stable; and others
+relatively resilient, with India demonstrating early improvement before temporary disruption from energy and logistics
+constraints. Customers remained cautious and continued to manage inventories closely. However, despite these demand
+conditions, supply discipline and constrained availability of high‑quality zircon supported solid volumes.
+
+
+TITANIUM DIOXIDE FEEDSTOCKS
+Synthetic rutile sales volumes in H1 were 37kt at an average realised price of US$1,087/t, in line with take-or-pay contract
+delivery schedules. Sales of natural rutile and HyTi totalled 28kt and Iluka’s H1 realised rutile price (excluding HyTi)
+averaged US$1,254/t, in line with Q1.
+Lower inventory levels and improving operating rates have been reported by some pigment producers. Pigment price
+increases were announced across a number of regions in response to higher input costs, particularly for Chinese sulphate-
+process operations. Notwithstanding these developments, feedstock purchasing activity remains cautious and demand
+conditions in key end-use sectors, including housing and construction, continue to be mixed.
+Iluka remains positioned to respond to any improvement in demand, including a recovery in Northern Hemisphere housing
+markets, changes in Chinese pigment production economics, or supply interruptions in high-grade feedstocks. The
+company’s synthetic rutile kilns remain idle, with restart subject to market conditions.
+
+
+RARE EARTHS
+In June, Iluka executed its ﬁrst binding rare earths offtake agreement, securing a multi-year take-or-pay contract with a
+global automotive company for the supply of 1,200t of magnet rare earth oxides. The agreement commences in 2028 for
+an initial term of four years; encompasses the full suite of light and heavy magnet rare earth oxides; and includes minimum
+prices agreed between the commercial parties.
+This is a signiﬁcant milestone for Iluka's rare earths business and the development of the Eneabba rare earths reﬁnery,
+which will be commissioned in 2027. It demonstrates increasing recognition of Iluka’s position as a credible, vertically
+integrated supplier, with diverse feedstock sources spanning internal operations and third-parties. Discussions with other
+prospective customers are ongoing.
+Also in June, Export Finance Australia conﬁrmed Iluka’s access to the full A$1.65 billion non-recourse loan provided by the
+Australian Government to construct the Eneabba rare earths reﬁnery.
+
+
+
+
+Weighted average received prices                        FY25          Q4 25         Q1 26          Q2 26         H1 26
+US$/tonne FOB
+Zircon premium and standard                             1,643         1,502         1,491          1,527         1,514
+
+Zircon
+                                                        1,442         1,230         1,357          1,321         1,333
+(all products, including zircon in concentrate)
+Rutile
+                                                        1,216         1,110         1,252          1,256         1,254
+(excluding HYTI)
+
+Synthetic rutile                                        1,112         1,073            -           1,087         1,087
+
+
+
+
+    Iluka Resources Limited                                  9                                             30 June 2026
+REVIEW OF RESULTS AND OPERATIONS
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+CAPITAL AND MAJOR PROJECTS
+
+ENEABBA, WESTERN AUSTRALIA
+Iluka is building Australia’s ﬁrst fully integrated reﬁnery for the production of separated rare earth oxides at Eneabba,
+Western Australia.
+This is taking place via a strategic partnership between Iluka and the Australian Government, with a non-recourse loan to
+Iluka under the Critical Minerals Facility administered by Export Finance Australia.
+Construction is nearing 60% complete, with concrete contractors now in the ﬁnal stages of demobilising from site.
+Installation of mechanical equipment, pipe rack modules, tanks, and buildings continues to progress, with the construction
+workforce increasing in Q2 2026. Signiﬁcant deliveries of equipment were completed in the half, including the roaster kiln.
+Almost all major equipment is now on site. The remainder of equipment is scheduled to arrive in Q3, as per the installation
+plan.
+Engineering is complete and Civmec has been awarded the contract for structural, mechanical, piping, electrical and
+instrumentation (SMPEI) works to complete construction.
+In July, Iluka concluded an agreement with VHM Limited (ASX:VHM) for the supply of rare earths concentrate as feedstock
+for the Eneabba reﬁnery. This adds to existing third party feedstock agreements with Northern Minerals (ASX: NTU) and
+Lindian Resources (ASX: LIN).
+
+
+BALRANALD, NEW SOUTH WALES
+Balranald is a rutile-rich critical minerals development located in the Riverina district of south western New South Wales.
+Owing to its relative depth, Iluka is developing Balranald via a novel, internally developed, remotely operated underground
+mining technology.
+Over the course of H1 2026, the technical performance of both the underground mining system and the wet concentrator
+plant (WCP) have been demonstrated, conﬁrming the ability to develop stopes over their full length using the development
+rig, transition to the mining rig, and produce magnetic and non-magnetic HMC that meets speciﬁcation.
+Commissioning and ramp up activities focused on preservation of the condition of the stope voids to support mining of
+the full stopes, and on internal mining pipe connection seals. These issues have been addressed. Optimisation and
+improvement of ore extraction rates and recoveries is underway.
+
+
+WIMMERA, VICTORIA
+The Wimmera development involves the mining and beneﬁciation of a ﬁne grained heavy mineral sands ore body in Western
+Victoria for the potential long term supply of rare earths and zircon.
+A preliminary feasibility study (PFS) was completed in early 2023 and the DFS study is continuing and scheduled for Board
+consideration in H1 2027.
+
+
+
+
+   Iluka Resources Limited                                  10                                           30 June 2026
+REVIEW OF RESULTS AND OPERATIONS
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+RECONCILIATION OF NON-IRFS FINANCIAL INFORMATION
+
+A reconciliation of the statutory results to the segment and commentary presented in this 4D for the half-year ended 30
+June 2026 is presented below:
+
+
+
+                                          Mineral                                      Total   Non-operating
+$m                                                     Rare Earths      Idle                                        Group
+                                          sands                                      Operating (Corp & Other)
+
+Mineral sands revenue                         415.7                 -      17.0           432.7                -        432.7
+Freight revenue                                23.2                 -          -           23.2                -         23.2
+Expenses                                     (358.2)                -     (14.6)         (372.8)         (15.7)        (388.5)
+Share of profits in associate                      -                -          -               -          12.3           12.3
+FX                                                 -                -          -               -           (5.9)         (5.9)
+Corporate costs                                    -                -          -               -         (20.8)         (20.8)
+Underlying EBITDA                              80.7                 -       2.4            83.1          (30.1)          53.0
+Depn & Amort                                  (39.9)                -      (0.2)          (40.1)           (2.0)        (42.1)
+Inventory movement - non-cash                  (8.1)                -          -           (8.1)               -         (8.1)
+NRV write down                                (12.2)                -          -          (12.2)               -        (12.2)
+Revaluation on investments                         -                -          -               -           (0.6)         (0.6)
+EBIT                                           20.5                 -       2.2            22.7          (32.7)         (10.0)
+Net interest costs                                 -                -          -               -         (13.3)         (13.3)
+Rehab unwind and other finance costs          (18.4)            (0.5)      (0.5)          (19.4)           (0.5)        (19.9)
+Profit/(loss) before tax                        2.1             (0.5)       1.7             3.3          (46.5)         (43.2)
+
+Segment result                                   2.1            (0.5)          1.7           3.3             n/a        (43.2)
+
+
+
+                                                                                 30 June     31 December            30 June
+$m                                                                                  2025             2025              2026
+Closing net debt - Mineral Sands                                                  (163.9)          (473.0)           (273.2)
+Closing net debt - Rare Earths                                                    (338.5)          (583.6)           (876.9)
+Closing net debt - Group                                                          (502.4)        (1,056.6)         (1,150.1)
+Non-current Interest bearing liabilities                                          (693.4)        (1,102.3)         (1,200.7)
+Cash and cash equivalents (per condensed consolidated statement
+                                                                                     191.0           45.7              50.6
+of financial position)
+
+
+
+
+     Iluka Resources Limited                               11                                               30 June 2026
+GOVERNANCE
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+
+DIRECTORS’ REPORT
+
+The Directors of Iluka Resources Limited present their report together with the ﬁnancial statements of the Group for the
+half-year ended 30 June 2026 and the auditor’s review report thereon.
+
+
+BOARD OF DIRECTORS
+T O’Leary (Managing Director and CEO)
+J Mactier (Chair)
+A Sutton
+G Meyerowitz (appointed 1 April 2026)
+L Saint (resigned 30 April 2026)
+P Smith
+S Corlett
+
+PRINCIPAL ACTIVITIES
+The principal activities and operations of the Group during the half year were the exploration, project development, mining
+operations, processing and marketing of mineral sands and rare earths, and rehabilitation. Iluka holds a 20% stake in
+Deterra Royalties Limited (Deterra), the largest ASX-listed resources focused royalty company.
+
+
+REVIEW OF RESULTS AND OPERATIONS
+The Review of Results and Operations is set out on pages 3 to 11, and forms part of the Directors’ Report.
+
+
+DIVIDENDS
+The Board of Directors have determined a fully franked interim dividend of 3 cents per share, payable on 24 September
+2026 with a record date of 1 September 2026.
+
+
+AUDITOR’S INDEPENDENCE DECLARATION
+A copy of the auditor’s independence declaration as required under section 307C of the Corporations Act 2001 is set out
+on page 13.
+
+
+ROUNDING OF AMOUNTS
+The Company is of a kind referred to in ASIC Corporations Instrument 2026/183 (Rounding in Financial/Directors' Reports).
+Amounts in the ﬁnancial statements and Directors' Report have been rounded off in accordance with that Rounding
+Instrument to the nearest million dollars to one decimal place, or in certain cases, to the nearest dollar. All amounts are in
+Australian dollars, unless otherwise stated.
+This report is made in accordance with a resolution of the Directors.
+
+
+
+
+ J Mactier                                                        T O’Leary
+ Chair                                                            Managing Director and CEO
+
+Perth, 19 August 2026
+
+
+
+
+   Iluka Resources Limited                                   12                                            30 June 2026
+Lead Auditor’s Independence Declaration under
+Section 307C of the Corporations Act 2001
+ To the Directors of Iluka Resources Limited
+
+ I declare that, to the best of my knowledge and belief, in relation to the review of Iluka Resources
+ Limited for the half-year ended 30 June 2026 there have been:
+          i.       no contraventions of the auditor independence requirements as set out in the Corporations
+                   Act 2001 in relation to the review; and
+          ii.      no contraventions of any applicable code of professional conduct in relation to the review.
+
+
+
+
+KPMG                                                                  Jane Bailey
+                                                                      Partner
+                                                                      Perth
+                                                                      19 August 2026
+
+
+
+
+KPMG, an Australian partnership and a member firm of the KPMG global organisation of independent member firms affiliated with KPMG
+International Limited, a private English company limited by guarantee. All rights reserved. The KPMG name and logo are trademarks used under
+license by the independent member firms of the KPMG global organisation. Liability limited by a scheme approved under Professional Standards
+Legislation.
+CONDENSED CONSOLIDATED STATEMENT OF
+PROFIT OR LOSS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+
+                                                                                            Half Year        Half Year
+                                                                                                2026             2025
+                                                                           Notes                  $m               $m
+
+Revenue                                                                      3                 455.9            577.8
+
+Other gains/(losses)                                                         4                   7.7             (5.6)
+Expenses                                                                     5                (484.9)          (437.8)
+Equity accounted share of profit - Deterra                                                      12.3             15.1
+
+Interest and finance charges                                                                   (16.3)            (6.8)
+Rehabilitation and mine closure provision discount unwind                                      (17.9)           (17.5)
+Total finance costs                                                          5                 (34.2)           (24.3)
+
+(Loss)/profit before income tax                                                                (43.2)           125.2
+
+Income tax benefit/(expense)                                                 6                  19.3            (33.2)
+
+(Loss)/profit after income tax for the half year                                               (23.9)            92.0
+
+
+                                                                                               Cents            Cents
+(Loss)/earnings per share
+Basic (loss)/earnings per share                                                                 (5.6)            21.5
+Diluted (loss)/earnings per share                                                               (5.6)            21.2
+
+
+
+
+The above condensed consolidated statement of proﬁt or loss should be read in conjunction with the accompanying notes.
+
+
+
+
+   Iluka Resources Limited                                  14                                         30 June 2026
+CONDENSED CONSOLIDATED STATEMENT OF
+COMPREHENSIVE INCOME
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+
+                                                                                         Half Year      Half Year
+                                                                                             2026           2025
+                                                                                               $m             $m
+(Loss)/Profit for the half year                                                             (23.9)          92.0
+
+OTHER COMPREHENSIVE INCOME
+
+Items that may be reclassified subsequently to profit or loss
+Currency translation of foreign entities                                                     (0.5)          (1.3)
+Movements in foreign exchange cash flow hedges, net of tax                                    0.5           19.4
+Share of other comprehensive (loss)/income of associate                                      (1.7)          (4.3)
+Total other comprehensive income/(loss) for the half year, net of tax                        (1.7)          13.8
+
+Total comprehensive (loss)/income for the half year                                         (25.6)         105.8
+
+
+
+  The above condensed consolidated statement of comprehensive income should be read with the accompanying notes.
+
+
+
+
+   Iluka Resources Limited                                15                                     30 June 2026
+CONDENSED CONSOLIDATED STATEMENT OF FINANCIAL
+POSITION
+AS AT 30 JUNE 2026
+
+
+
+                                                                                            30 June    31 December
+                                                                                               2026           2025
+                                                                            Notes               $m             $m
+ASSETS
+Current assets
+Cash and cash equivalents                                                                       50.6           45.7
+Receivables                                                                                    204.9          288.1
+Prepayments                                                                                     34.9           47.8
+Assets classified as held for sale                                                               4.1            4.5
+Inventories                                                                                    727.0          732.0
+Current tax receivable                                                                           0.8           52.2
+Derivative financial instruments                                             10                  2.4            1.5
+Total current assets                                                                         1,024.7        1,171.8
+
+Non-current assets
+Property, plant and equipment                                                7               2,312.1        1,988.0
+Receivables - non-current                                                                        7.6               -
+Right-of-use assets                                                                             61.8           13.8
+Inventories                                                                                    224.1          360.8
+Investments accounted for using the equity method - Deterra                                    442.1          444.5
+Financial assets at fair value through profit or loss - Northern Minerals                        3.1            3.8
+Derivative financial instruments                                             10                    -            0.1
+Deferred tax assets                                                                            256.4          237.3
+Total non-current assets                                                                     3,307.2        3,048.3
+
+Total assets                                                                                 4,331.9        4,220.1
+
+LIABILITIES
+Current liabilities
+Trade and other payables                                                                      261.6           268.6
+Provisions                                                                                     29.6            53.7
+Lease liabilities                                                                              21.8            12.0
+Total current liabilities                                                                     313.0           334.3
+
+Non-current liabilities
+Interest bearing liabilities                                                 9               1,200.7        1,102.3
+Provisions                                                                                     721.7          691.5
+Lease liabilities                                                                               60.2           23.2
+Total non-current liabilities                                                                1,982.6        1,817.0
+
+Total liabilities                                                                            2,295.6        2,151.3
+
+Net assets                                                                                   2,036.3        2,068.8
+
+EQUITY
+Contributed equity                                                           11              1,172.1        1,166.7
+Reserves                                                                                        25.5           26.5
+Retained earnings                                                                              838.7          875.6
+Total equity                                                                                 2,036.3        2,068.8
+
+ The above condensed consolidated statement of ﬁnancial position should be read in conjunction with the accompanying
+                                                      notes.
+
+
+
+
+    Iluka Resources Limited                                  16                                     30 June 2026
+CONDENSED CONSOLIDATED STATEMENT OF
+CHANGES IN EQUITY
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+
+                                                                   Share         Other        Retained
+                                                                  capital     reserves        earnings           Total
+                                                                     $m            $m              $m             $m
+
+Balance at 1 January 2025                                        1,158.4          11.2         1,190.8         2,360.4
+Profit for the period                                                   -             -           92.0            92.0
+Other comprehensive income                                              -         13.8                -           13.8
+Total comprehensive income                                             -          13.8            92.0           105.8
+
+Transactions with owners in their capacity as owners:
+Shares issued                                                        6.3              -               -            6.3
+Issue of treasury shares, net of tax                                (4.8)             -               -           (4.8)
+Transfer of shares to employees, net of tax                          3.1          (3.1)               -               -
+Share-based payments, net of tax                                        -          4.3                -            4.3
+Dividends paid                                                       0.3              -          (17.2)         (16.9)
+                                                                     4.9           1.2           (17.2)         (11.1)
+
+Balance at 30 June 2025                                          1,163.3          26.2         1,265.6        2,455.1
+
+
+
+
+                                                                   Share         Other        Retained
+                                                                  capital     reserves        earnings           Total
+                                                                     $m            $m              $m             $m
+
+Balance at 1 January 2026                                        1,166.7          26.5          875.6         2,068.8
+Loss for the period                                                     -             -         (23.9)          (23.9)
+Other comprehensive loss                                                -         (1.7)              -            (1.7)
+Total comprehensive loss                                               -          (1.7)         (23.9)          (25.6)
+
+Transactions with owners in their capacity as owners:
+Shares issued                                                        8.0              -               -            8.0
+Issue of treasury shares, net of tax                                (5.6)             -               -           (5.6)
+Transfer of shares to employees, net of tax                          2.7          (2.7)               -               -
+Share-based payments, net of tax                                        -          3.4                -            3.4
+Dividends paid                                                       0.3              -          (13.0)          (12.7)
+                                                                     5.4           0.7           (13.0)           (6.9)
+
+Balance at 30 June 2026                                          1,172.1          25.5          838.7         2,036.3
+
+
+
+
+ The above condensed consolidated statement of changes in equity should be read in conjunction with the accompanying notes.
+
+
+
+
+   Iluka Resources Limited                                  17                                            30 June 2026
+CONDENSED CONSOLIDATED STATEMENT OF CASH FLOWS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+
+                                                                                         Half Year         Half Year
+                                                                                             2026              2025
+                                                                         Notes                 $m                $m
+Cash flows from operating activities
+Receipts from customers                                                                     579.8             562.0
+Payments to suppliers and employees                                                        (332.6)           (446.8)
+Operating cash flow                                                                         247.2             115.2
+
+Interest received                                                                             1.0               1.7
+Interest paid                                                                               (12.7)             (3.4)
+Income tax benefit received/(expenses paid)                                                  52.9             (70.8)
+Exploration expenditure                                                                      (4.4)             (6.3)
+Net cash inflow from operating activities                                                   284.0              36.4
+
+Cash flows from investing activities
+Payments for property, plant and equipment                                                 (359.2)           (401.9)
+Sale of property, plant and equipment                                                        11.5               1.0
+Dividends received - Deterra Royalties                                                       13.1               9.5
+Net cash outflow from investing activities                                                 (334.6)           (391.4)
+
+Cash flows from financing activities
+Repayment of borrowings                                                    9               (307.8)                 -
+Proceeds from borrowings                                                   9                378.0             432.4
+Purchase of treasury shares                                                                      -             (0.5)
+Dividends paid                                                             12               (12.7)            (16.9)
+Principal element of lease payments                                                          (2.1)             (5.7)
+Net cash inflow from financing activities                                                    55.4             409.3
+
+Net increase in cash and cash equivalents                                                      4.8             54.3
+
+Cash and cash equivalents at 1 January                                                       45.7             136.0
+Effects of exchange rate changes on cash and cash equivalents                                 0.1               0.7
+Cash and cash equivalents at end of the half year                                            50.6             191.0
+
+ The above condensed consolidated statement of cash ﬂows should be read in conjunction with the accompanying notes
+
+
+
+
+   Iluka Resources Limited                              18                                           30 June 2026
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+1. BASIS OF PREPARATION
+This condensed consolidated interim ﬁnancial report for the half-year reporting period ended 30 June 2026 has been
+prepared in accordance with Accounting Standard AASB 134 Interim Financial Reporting and the Corporations Act 2001.
+This interim ﬁnancial report does not include all the notes of the type normally included in an annual ﬁnancial report.
+Accordingly, this report is to be read in conjunction with the Annual Report for the year ended 31 December 2025 and any
+public announcements made by Iluka Resources Limited during the interim reporting period in accordance with the
+continuous disclosure requirements of the Corporations Act 2001 and ASX Listing Rules.
+
+a)     Accounting policies
+The accounting policies adopted and applied by the Group are consistent with those of the previous ﬁnancial year and
+corresponding interim reporting period.
+Where applicable, certain comparatives have been adjusted to conform with current year presentation.
+
+(i)    Financial instruments
+In addition to the hedging related ﬁnancial instruments outlined in note 10, the Group also holds an investment in Northern
+Minerals Limited. The investment is classiﬁed as at fair value through proﬁt or loss. Its fair value is determined based on
+the closing share price of Northern Minerals on each reporting date (a level 1 input). At 30 June 2026, the investment had
+a fair value of $3.1 million (31 December 2025: $3.8 million).
+
+b)     Critical accounting estimates and judgements
+Estimates and underlying assumptions are reviewed on an ongoing basis, with revisions recognised in the period in which
+the estimates are revised and future periods affected.
+
+(i)    Rehabilitation and mine closure provisions
+These provisions represent the discounted value of the present obligation to restore, dismantle and rehabilitate certain
+items of property, plant and equipment. The discounted value reﬂects a combination of management’s assessment of the
+nature and extent of the work required, the future cost of performing the work required, the timing of the cash ﬂows, and
+the discount rate. Changes to one or more of these assumptions is likely to result in a change to the provision and the
+related asset (for open sites), or a charge to proﬁt or loss (for closed sites) in accordance with the Group's accounting
+policy.
+
+(ii)   Net realisable value and classiﬁcation of inventory
+The Group’s assessment of the net realisable value and classiﬁcation of its inventory holdings requires the use of
+estimates, including expected future product prices and likely timing of the sale of the inventory. Inventories are valued at
+the lower of weighted average cost and estimated net realisable value. The net realisable value is the estimated selling
+price in the normal course of business, less any anticipated costs of completion and the estimated costs to sell, including
+royalties.
+Inventories expected to be sold (or consumed in the case of stores) within 12 months after the balance date are classiﬁed
+as current assets; all other inventories are classiﬁed as non-current assets.
+
+(iii) Eneabba Rare Earths Reﬁnery Project
+The Eneabba Rare Earths Reﬁnery project carries risk typically associated with projects in the construction phase, including
+unforeseen delays in delivery of materials, delays in execution against project schedule, and preproduction capital
+expenditure escalation which are subject to uncertainty, including the impact of industry-wide inﬂation. Changes to these
+assumptions could impact the recoverable amount.
+
+
+
+
+       Iluka Resources Limited                               19                                           30 June 2026
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+2. SEGMENT INFORMATION
+a)   Description of segments
+The Group has identiﬁed its operating segments based on the internal reports that are reviewed and used by the executive
+management team (the chief operating decision-makers) in assessing performance and in determining the allocation of
+resources. The operating segments of the Group are:
+      Mineral Sands comprising the mining operations at Jacinth-Ambrosia in South Australia, Cataby in Western Australia,
+      and Balranald in New South Wales. It also includes associated processing operations at the Narngulu mineral
+      separation plant in mid-west Western Australia, and the processing of ilmenite at the Synthetic Rutile Kilns, also
+      located in Western Australia.
+      Rare Earths (RE) comprises the Eneabba Rare Earths Reﬁnery currently being constructed in Western Australia,
+      Phase 1 and 2 of the Eneabba development projects, and the Group's investment in Northern Minerals Limited.
+      Idle Comprises rehabilitation obligations in the United States (Florida and Virginia), where mining and processing
+      activities were substantially completed in December 2015, certain idle assets located in Australia (Murray Basin), and
+      the sale of purchased inventory in the US.
+The Rare Earths operating segment has access to a loan facility from Export Finance Australia that is non-recourse to the
+rest of the Group. As such the associated assets and liabilities are included in the Rare Earths segment assets and segment
+liabilities below. All other cash, debt, and tax balances are managed at a group level, together with exploration and other
+corporate activities, and are not allocated to segments.
+Where ﬁnished product capable of sale to a third party is transferred between operating segments, the transfers are made
+at arm’s length prices. Any transfers of intermediate products between operating segments are made at cost. During the
+half-year ended 30 June 2026, $8.8 million was transferred from Rare Earths to Mineral Sands. (2025: $14.6 million).
+
+b)   Segment results
+
+                                                                 Mineral Sands    Rare Earths            Idle         Total
+Half-year 2026                                                              $m             $m            $m              $m
+Total segment sales of critical minerals                                 415.7               -         17.0           432.7
+Total segment freight revenue                                             23.2               -             -           23.2
+Depreciation and amortisation expense                                    (39.9)              -         (0.2)          (40.1)
+Total segment result                                                       2.1           (0.5)          1.7             3.3
+Segment assets - at 30 June 2026                                       2,298.6        1,076.2         116.6         3,491.4
+Segment liabilities - at 30 June 2026                                    821.9        1,037.7          30.7         1,890.3
+Segment capital expenditure                                               80.4          266.9              -          347.3
+
+
+
+
+                                                                 Mineral Sands    Rare Earths            Idle         Total
+Half-year 2025                                                              $m             $m            $m              $m
+Total segment sales of critical minerals                                 557.7               -             -          557.7
+Total segment freight revenue                                             20.1               -             -           20.1
+Depreciation and amortisation expense                                   (108.6)              -         (0.5)         (109.1)
+Total segment result                                                     160.8           (0.4)        (10.8)          149.6
+Segment assets - at 31 December 2025                                   2,492.9          768.9         114.8         3,376.6
+Segment liabilities - at 31 December 2025                                785.5          770.8          35.2         1,591.5
+Segment capital expenditure                                              231.0          262.6              -          493.6
+
+
+
+
+     Iluka Resources Limited                                20                                            30 June 2026
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+2. SEGMENT INFORMATION (CONTINUED)
+b)   Segment results (continued)
+                                                                  Half Year      Half Year
+                                                                      2026           2025
+                                                                        $m             $m
+Total segment result                                                    3.3         149.6
+Interest income                                                         1.0             1.2
+Marketing and selling                                                   0.1           (0.6)
+Corporate and other costs                                            (20.8)         (10.6)
+Revaluation gain/(loss) on investment in Northern Minerals             (0.6)            4.5
+Projects, innovation and exploration                                 (15.8)         (14.2)
+Depreciation                                                           (2.0)          (1.4)
+Interest and finance charges                                         (14.8)           (5.9)
+Net foreign exchange (loss)/gain                                       (5.9)        (12.5)
+Share of profits in associate                                         12.3            15.1
+(Loss)/profit before income tax                                      (43.2)        125.2
+
+
+
+
+3. REVENUE
+                                                                  Half Year      Half Year
+                                                                      2026           2025
+                                                                        $m             $m
+Sale of goods                                                       432.7          557.7
+Freight revenue                                                       23.2           20.1
+Total Revenue                                                       455.9          577.8
+
+
+
+4. OTHER (LOSSES)/GAINS
+                                                                  Half Year      Half Year
+                                                                      2026           2025
+                                                                         $m             $m
+Interest income                                                         1.0            1.3
+Revaluation (loss)/gain on investments - Northern Minerals             (0.6)           4.5
+Net foreign exchange loss                                              (5.9)        (12.5)
+Net gain on sale of fixed assets                                      13.2             1.1
+                                                                        7.7           (5.6)
+
+
+
+
+     Iluka Resources Limited                                 21            30 June 2026
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+5. EXPENSES
+
+                                                                                            Half Year        Half Year
+                                                                                                2026             2025
+                                                                                                  $m               $m
+Expenses
+Cash costs of production                                                                       130.5            319.1
+Depreciation/amortisation                                                                       35.3            102.6
+Purchased inventory                                                                              9.4                 -
+Inventory movement - cash costs of production                                (a)               148.3            (84.8)
+Inventory movement - non-cash production costs                               (a)                 8.1            (21.0)
+NRV write down                                                                                  12.2                 -
+Cost of goods sold                                                                             343.8            315.9
+
+By-product costs                                                                                 5.1             10.9
+Depreciation (idle, corporate and other)                                                         6.8              7.9
+Idle capacity charges                                                                           40.8             21.3
+Government royalties                                                                            14.0             17.7
+Marketing and selling costs                                                                     38.7             37.3
+Corporate and other costs                                                                       20.8             10.6
+Projects, exploration and innovation                                                            14.9             16.2
+Total expenses                                                                                 484.9            437.8
+
+Finance Costs
+Interest charges                                                                                12.7              3.4
+Bank fees and similar charges                                                                    1.6              2.2
+Amortisation of deferred borrowing costs                                                         0.3              0.3
+Lease borrowing costs                                                                            1.7              0.9
+Rehabilitation and mine closure provision discount unwind                                       17.9             17.5
+Total finance costs                                                                             34.2             24.3
+
+
+a)   Inventory movement
+Inventory movement comprises the difference between inventory on hand at the end and beginning of the reporting period.
+A credit to inventory movement in the proﬁt or loss in the period represents an increase in total inventory and a debit
+represents a net drawdown.
+
+
+
+
+     Iluka Resources Limited                                22                                         30 June 2026
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+6. INCOME TAX
+
+                                                                                                  Half Year         Half Year
+                                                                                                      2026              2025
+                                                                                                        $m                 $m
+Current tax                                                                                               -              57.8
+Deferred tax                                                                                         (19.4)            (23.9)
+(Over)/under provided in previous years                                                                 0.1              (0.7)
+Total income tax (benefit)/expense                                                                   (19.3)             33.2
+
+Income tax beneﬁt for the half-year interim reporting period has been recognised based on the Group’s estimate of the
+effective income tax rate expected to apply to the full year. The estimated effective income tax rate used for the Group in
+the interim reporting period is 45% (2025: 27%).
+
+
+
+
+7. PROPERTY, PLANT AND EQUIPMENT
+The Group recognised $316.2 million of additions to property, plant and equipment during the half-year 30 June 2026
+(2025: $493.6 million additions), of which $62.5 million related to Balranald (2025: $204.7 million), $236.7 million (including
+capitalised interest and accruals) related to the Eneabba Rare Earths Reﬁnery (2025: $260.7 million), and the remainder
+related to other Group growth initiatives and studies, and sustaining capital spend on Australian Operations. $618.1 million
+was transferred from assets under construction to property, plant and equipment when Balranald was commissioned
+during the period and is now being depreciated.
+
+
+
+
+8. CAPITAL COMMITMENTS
+Capital commitments at 30 June 2026 total $463.4 million and relates to the purchase of property, plant and equipment,
+of which $447.9 million is related to the Eneabba Rare Earths Reﬁnery project. Of the total amount, $426.9 million is
+expected to be paid within one year and the remainder in more than one year but less than ﬁve years from the reporting
+date (30 June 2025: $576.0 million total capital commitments, of which $406.8 million was payable within one year and
+the remainder in more than one year but less than ﬁve years).
+
+
+
+
+    Iluka Resources Limited                                   23                                            30 June 2026
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+9. INTEREST BEARING LIABILITIES
+
+                                                                                                   30 June     31 December
+                                                                                                      2026            2025
+                                                                                                       $m              $m
+Non-current interest bearing liabilities
+Multi Optional Facility Agreement                                                 (a)                310.0            499.9
+Export Finance Australia (EFA) facility                                           (b)                897.5            609.7
+Deferred borrowing costs                                                                              (6.8)            (7.3)
+Total interest-bearing liabilities                                                                 1,200.7          1,102.3
+
+The Group has access to the facilities below at the reporting date. Both facilities are subject to certain covenants, of which
+the Group is in compliance with at 30 June 2026.
+
+a)   Multi Option Facility Agreement (MOFA)
+The Multi Option Facility Agreement comprises a series of unsecured committed ﬁve year bilateral revolving credit facilities
+with several domestic and international institutions. The facility has a total limit of $800 million, expiring in 2029 (31
+December 2025: $800 million expiring in 2029). At 30 June 2026, $310.0 million cash and $61.3 million of bank guarantees
+were drawn (31 December 2025: $499.9 million cash and $40.0 million of bank guarantees drawn).
+
+b)   Export Finance Australia (EFA) facility
+With the risk sharing agreement between the Group and the Australian Government the Group has access to a loan facility
+to fund the construction and commissioning of the Eneabba Rare Earths Reﬁnery. The facility provides access to $1,650
+million, with an additional $75 million overrun allowance available. The facility is non-recourse to Iluka and has a variable
+interest rate equal to the BBSY + 3% with a term of up to 16 years expiring in 2038. At 30 June 2026, $897.5 million was
+drawn against the facility, leaving $752.5 million undrawn. The $75 million overrun facility was also undrawn. (31 December
+2025: $609.7 million was drawn against the facility, $1,040.3 million undrawn).
+The facility was originally established at $1,250 million, accompanied by cash equity contributions from the Group totalling
+$200 million, provided on a 1:3 basis with initial drawdowns. In February 2025 the facility limit was increased to $1,650
+million, with the Group’s cash contribution rising to $414 million. Access to the increased facility amount was subject to
+the Group securing offtake agreements that met the requirements of the Australian Government, and the additional funding
+can only be drawn once the initial $1,450 million of funding arrangements has been fully utilised.
+In June 2026, Iluka secured a multi-year agreement for the supply of magnet rare earth oxides (neodymium, praseodymium,
+dysprosium and terbium) to a global automotive company. EFA has conﬁrmed this agreement satisﬁes the requirement for
+access to the full $1,650 million facility.
+
+
+
+
+     Iluka Resources Limited                                 24                                            30 June 2026
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+10.HEDGING
+
+                                                                                               30 June     31 December
+                                                                                                  2026            2025
+                                                                                                   $m              $m
+Assets
+Foreign exchange forward contracts - current                                                       2.4              1.5
+Foreign exchange forward contracts - non current                                                     -              0.1
+Total Assets                                                                                       2.4              1.6
+
+
+
+
+The Group is exposed to risk from movements in foreign exchange in relation to its forecast US dollar denominated sales
+and, as part of the risk management strategy, has entered into foreign exchange collar contracts.
+
+a)   Fair value of derivatives
+Derivative ﬁnancial instruments are assets and liabilities measured and recognised at fair value at 30 June 2026 and 31
+December 2025, comprising the hedging instruments in (b) below. The fair value of hedging instruments is determined
+using valuation techniques with inputs that are observable market data (a level 2 measurement). The valuation of the
+options making up the collars is determined using forward foreign exchange rates, volatilities and interest rates at the
+balance date. The only unobservable input used in the calculations is the credit default rate; movements in which would
+not have a material effect on the valuation.
+
+b)   Hedge accounting
+
+Cash ﬂow hedges
+
+The foreign exchange collars Iluka holds are classiﬁed as cash ﬂow hedges. Hedges are classiﬁed as cash ﬂow hedges
+when they hedge a particular risk associated with the cash ﬂows of recognised assets and liabilities and highly probable
+forecast transactions.
+Foreign exchange collar contracts in relation to expected USD revenue, predominantly from contracted sales to 31
+December 2026, remain open at the reporting date. The foreign exchange collar hedges cover US$100.0 million of expected
+USD revenue to 31 December 2026 and comprise US$100.0 million worth of purchased AUD call options with a weighted
+average strike price of 68.5 cents and US$100.0 million of AUD put options at a strike price of 63.2 cents.
+US$30 million in foreign exchange collar contracts were entered into during the half-year, consisting of US$30 million of
+bought AUD call options with a strike price of 72.0 cents and US$30 million of AUD put options at a strike price of 67.1
+cents.
+US$130.0 million in foreign exchange collar contracts matured during the half-year, consisting of US$130.0 million of
+bought AUD call options with weighted average strike prices of 69.31 cents and US$130.0 million of sold AUD put options
+with weighted average strike prices of 64.14 cents.
+Iluka also entered into US$25.0 million of forward contracts during the period, which settle at a weighted average strike
+price of 0.6906.
+
+
+
+
+     Iluka Resources Limited                               25                                            30 June 2026
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS
+FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+11.CONTRIBUTED EQUITY
+a)   Movements in ordinary share capital
+On 25 February 2026, the Group issued 1,450,000 ordinary shares to the Iluka Employee Share Trust trustee at a price of
+$5.52 per share. The issued shares became treasury shares held by the trust on the same date and are included with
+treasury shares in (b), below.
+On 30 March 2026, the Group issued 41,094 ordinary shares to shareholders at a price of $6.34 per share as part of the
+Dividend Reinvestment Plan, the terms of which are detailed in the ASX announcement dated 27 February 2018. As at 30
+June 2026, 431,194,999 ordinary shares are on issue.
+
+b)   Movements in treasury shares
+During the period 735,013 treasury shares were transferred to employees (2025: 817,766) and 1,450,000 treasury shares
+were acquired (2025: 1,340,000 treasury shares were acquired). The total number of treasury shares on hand at 30 June
+2026 is 784,963.
+
+
+
+12.DIVIDENDS
+
+                                                                                                 Half Year        Half Year
+                                                                                                     2026             2025
+                                                                                                       $m               $m
+Final dividend
+for 2025 of 3 cents per share, fully franked                                                          13.0                -
+for 2024 of 4 cents per share, fully franked                                                             -             17.2
+
+Total Dividends                                                                                       13.0             17.2
+
+Of the total $13.0 million ﬁnal dividend declared for 2025, $0.3 million was taken up by shareholders as part of the Dividend
+Reinvestment Plan as detailed in the announcement to the ASX dated 30 March 2026.
+The Directors have determined that an interim dividend of 3 cents per share will be declared for the half-year ended 30
+June 2026.
+FRANKING CREDITS
+The balance of franking credits available as at 30 June 2026 is $849.6 million (30 June 2025: $880.6 million). This balance
+is based on a tax rate of 30% (2025: 30%).
+
+
+
+13. SUBSEQUENT EVENTS
+On 2 July 2026, the Group entered into a long-term rare earth concentrate supply agreement with VHM Limited in respect
+of production from the Goschen Project. The agreement provides for the supply of approximately 146kt of rare earth
+concentrate over 18 years. The Group also intends to provide VHM with a secured convertible note of up to $40 million,
+subject to agreed conditions. The transaction occurred after the reporting date and has not been recognised in the 30
+June 2026 ﬁnancial statements. Management considers the event to be a material non-adjusting event.
+
+
+
+
+     Iluka Resources Limited                                 26                                           30 June 2026
+DIRECTORS’ DECLARATION
+INTERIM REPORT FOR THE HALF-YEAR ENDED 30 JUNE 2026
+
+
+
+
+In the directors' opinion:
+
+
+    (a) the interim ﬁnancial statements and notes set out on pages 14 to 26 are in accordance with the Corporations Act
+        2001, including:
+            (i)    complying with Accounting Standards, the Corporations Regulations 2001 and other mandatory
+                   professional reporting requirements, and
+            (ii)   giving a true and fair view of the consolidated entity's ﬁnancial position as at 30 June 2026 and of its
+                   performance for the half-year ended on that date, and
+    (b) there are reasonable grounds to believe that Iluka Resources Limited will be able to pay its debts as and when
+        they become due and payable.
+
+
+This declaration is made in accordance with a resolution of the directors.
+
+
+
+
+J Mactier
+Chair
+
+
+
+
+T O’Leary
+Managing Director
+
+
+19 August 2026
+Perth, Western Australia
+
+
+
+
+    Iluka Resources Limited                                 27                                           30 June 2026
+ Independent Auditor’s Review Report
+ To the shareholders of Iluka Resources Limited
+
+ Conclusion
+
+ We have reviewed the accompanying                              The Interim Report comprises:
+ Interim Report of Iluka Resources Limited.
+                                                                •    Condensed consolidated statement of financial
+ Based on our review, which is not an audit,                         position as at 30 June 2026;
+ we have not become aware of any matter
+                                                                •    Condensed consolidated statement of profit or loss,
+ that makes us believe that the Interim
+                                                                     Condensed consolidated statement of
+ Report of Iluka Resources Limited does not
+                                                                     comprehensive income, Condensed consolidated
+ comply with the Corporations Act 2001,
+                                                                     statement of changes in equity and Condensed
+ including:
+                                                                     Consolidated statement of cash flows for the half-
+  •   Giving a true and fair view of the                             year ended on that date;
+      Group’s financial position as at
+                                                                •    Notes 1 to 13 comprising material accounting policies
+      30 June 2026 and of its performance for
+                                                                     and other explanatory information; and
+      the half-year ended on that date; and
+                                                                •    The Directors’ Declaration.
+  •   Complying with Australian Accounting
+      Standard AASB 134 Interim Financial                       The Group comprises Iluka Resources Limited (the
+      Reporting and the Corporations                            Company) and the entities it controlled at the half year’s
+      Regulations 2001.                                         end or from time to time during the half-year.
+
+
+ Basis for Conclusion
+
+ We conducted our review in accordance with ASRE 2410 Review of a Financial Report Performed by
+ the Independent Auditor of the Entity. Our responsibilities are further described in the Auditor’s
+ Responsibilities for the Review of the Financial Report section of our report.
+ We are independent of the Group in accordance with the auditor independence requirements of the
+ Corporations Act 2001 and the ethical requirements of the Accounting Professional and Ethical
+ Standards Board’s APES 110 Code of Ethics for Professional Accountants (including Independence
+ Standards) (the Code) that are relevant to our audit of the annual financial report in Australia. We have
+ also fulfilled our other ethical responsibilities in accordance with these requirements.
+
+
+ Responsibilities of the Directors for the Interim Report
+
+ The Directors of the Company are responsible for:
+  •   The preparation of the Interim Report that gives a true and fair view in accordance with Australian
+      Accounting Standards and the Corporations Act 2001; and
+  •   Such internal control as the Directors determine is necessary to enable the preparation of the Interim
+      Report that gives a true and fair view and is free from material misstatement, whether due to fraud
+      or error.
+
+
+
+
+KPMG, an Australian partnership and a member firm of the KPMG global organisation of independent member firms affiliated with KPMG
+International Limited, a private English company limited by guarantee. All rights reserved. The KPMG name and logo are trademarks used under
+license by the independent member firms of the KPMG global organisation. Liability limited by a scheme approved under Professional Standards
+Legislation.
+Auditor’s Responsibilities for the Review of the Interim Report
+
+Our responsibility is to express a conclusion on the Interim Report based on our review. ASRE 2410
+requires us to conclude whether we have become aware of any matter that makes us believe that the
+Interim Report does not comply with the Corporations Act 2001 including giving a true and fair view of
+the Group’s financial position as at 30 June 2026 and its performance for the Half-Year ended on that
+date, and complying with Australian Accounting Standard AASB 134 Interim Financial Reporting and the
+Corporations Regulations 2001.
+A review of an Interim Report consists of making enquiries, primarily of persons responsible for financial
+and accounting matters, and applying analytical and other review procedures. A review is substantially
+less in scope than an audit conducted in accordance with Australian Auditing Standards and
+consequently does not enable us to obtain assurance that we would become aware of all significant
+matters that might be identified in an audit. Accordingly, we do not express an audit opinion.
+
+
+
+
+KPMG                                                 Jane Bailey
+                                                     Partner
+                                                     Perth
+                                                     19 August 2026
+

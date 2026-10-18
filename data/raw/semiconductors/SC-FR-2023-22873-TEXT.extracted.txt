@@ -1,0 +1,85 @@
+DEPARTMENT OF COMMERCE
+Bureau of Industry and Security
+15 CFR Part 748
+[Docket No. 231010-0244]
+RIN 0694-AJ39
+Existing Validated End-User Authorizations in the People's Republic of China: Samsung China Semiconductor Co. Ltd. and SK Hynix Semiconductor (China) Ltd.
+AGENCY:
+Bureau of Industry and Security, Commerce.
+ACTION:
+Final rule.
+SUMMARY:
+In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) to revise the existing Validated End-User (VEU) list for the People's Republic of China (PRC) by updating the list of eligible items in the EAR for Samsung China Semiconductor Co. Ltd. and SK hynix Semiconductor (China) Ltd. In addition, this rule makes corresponding changes consistent with the scope of the amended authorizations for these VEUs.
+DATES:
+This rule is effective October 17, 2023.
+FOR FURTHER INFORMATION CONTACT:
+Chair, End-User Review Committee, Office of the Assistant Secretary, Export Administration, Bureau of Industry and Security, U.S. Department of Commerce, Phone: 202-482-5991; Email:
+ERC@bis.doc.gov.
+SUPPLEMENTARY INFORMATION:
+Background
+Authorization Validated End-User
+Validated End-Users (VEUs) are designated entities located in eligible destinations to which eligible items may be exported, reexported, or transferred (in-country) under a general authorization instead of a license. The names of the VEUs, as well as the dates they were so designated, and the associated eligible destinations (facilities) and items are identified in supplement no. 7 to part 748 of the Export Administration Regulations (EAR, 15 CFR parts 730-774). Pursuant to § 748.15 (Authorization Validated End-User (VEU)), eligible destinations of VEUs may obtain eligible items without the need for the VEUs' supplier to obtain an export or reexport license from BIS. Eligible items vary among VEUs and may include commodities, software, and/or technology, except items controlled for missile technology or crime control reasons on the Commerce Control List (CCL) (supp. no. 1 to part 774 of the EAR).
+VEUs are reviewed and approved by the U.S. Government in accordance with the provisions of Section 748.15 and Supplement Nos. 8 and 9 to part 748 of the EAR. The End-User Review Committee (ERC), composed of representatives from the Departments of State, Defense, Energy, Commerce, and other agencies as appropriate, is responsible for administering the VEU program. BIS amended the EAR in a final rule published on June 19, 2007 (72 FR 33646), to create Authorization VEU.
+Clarification to Heading of Supplement No. 7 to Part 748
+This rule clarifies the heading of supplement no. 7 to part 748 by adding the parenthetical “(in-country)” after the word “transfer” to make clear that the term that applies to this supplement is transfer (in-country) as described in § 734.16 of the EAR and not the defined term “transfer” in § 772.1 of the EAR.
+Amendments to Existing VEU Authorizations for Samsung China Semiconductor Co. Ltd. and SK Hynix Semiconductor (China) Ltd.
+Revision to the List of Eligible Items for Samsung China Semiconductor Co. Ltd.
+In this rule, BIS amends supplement no. 7 to part 748 to revise the list of eligible items that may be exported, reexported or transferred (in-country) to Samsung China Semiconductor Co. Ltd. under Authorization VEU. Specifically, this rule amends the list of items eligible for export, reexport or transfer (in-country) to Samsung China Semiconductor Co. Ltd. under Authorization VEU to read: “All items subject to the Export Administration Regulations, except “extreme ultraviolet” (“EUV”) equipment and “specially designed” “parts,” “components,” “software,” and “technology,” necessary for the “development” or “production” of NAND memory. Excluded from §§ 744.6(c)(2)(i-iii), and 744.23(a)(1)(iii) and (a)(2)(iii) of the EAR. See § 748.15(d).”
+Revisions to the List of Eligible Items for SK Hynix Semiconductor (China) Ltd.
+BIS also amends supplement no. 7 to part 748 to revise the list of items eligible for export, reexport or transfer (in-country) to SK hynix Semiconductor (China) Ltd. under Authorization VEU to read: “All items subject to the Export Administration Regulations, except “extreme ultraviolet” (“EUV”) equipment and “specially designed” “parts,” “components,” “software,” and” technology,” necessary for the “development” or “production” of dynamic random-access memory (DRAM). Excluded from §§ 744.6(c)(2)(i-iii) and 744.23(a)(1)(iii) and (a)(2)(iii) of the EAR. See § 748.15(d).”
+Amendment to § 748.15 Authorization Validated End-User (VEU)
+In addition to the amendments to the lists of eligible items discussed above, BIS also makes corresponding changes to § 748.15, consistent with the scope of the amended authorizations for these VEUs. Specifically, in this rule, BIS adds a new sentence after the first sentence of § 748.15(d) that provides an exclusion to the restrictions of §§ 744.6(c)(2)(i-iii) and 744.23(a)(1)(iii) and (a)(2)(iii) controls. The added sentence states, “This restriction does not apply to Validated End Users identified in supplement no. 7 to part 748—Authorization Validated End-User (VEU) as excluded from §§ 744.6(c)(2)(i-iii) and 744.23(a)(1)(iii) and (a)(2)(iii).” This serves to inform exporters that Authorization VEU may be used to overcome the license requirements set forth in §§ 744.6(c) and 744.23(a)(1)(iii) and (a)(2)(iii) for identified VEUs.
+Export Control Reform Act of 2018
+On August 13, 2018, the President signed into law the John S. McCain National Defense Authorization Act for Fiscal Year 2019, which included the Export Control Reform Act of 2018 (ECRA) (50 U.S.C. 4801-4852). ECRA provides the legal basis for BIS's principal authorities and serves as the authority under which BIS issues this rule.
+Rulemaking Requirements
+1. This rule has been determined to be not significant for purposes of Executive Order 12866.
+2. Notwithstanding any other provision of law, no person is required to respond to or be subject to a penalty for failure to comply with a collection of information, subject to the requirements of the Paperwork Reduction Act of 1995 (44 U.S.C. 3501
+et seq.
+) (PRA), unless that collection of information displays a currently valid Office of Management and Budget (OMB) Control Number. This regulation involves an information collection approved by OMB under control number 0694-0088, Simplified Network Application Processing System. BIS does not anticipate a change to the burden hours associated with this collection as a result of this rule. Information regarding the collection, including all supporting materials, can be accessed at
+https://www.reginfo.gov/public/do/PRAMain.
+3. This rule does not contain policies with federalism implications as that term is defined in Executive Order 13132.
+4. Pursuant to section 1762 of the Export Control Reform Act of 2018, this action is exempt from the Administrative Procedure Act (5 U.S.C. 553) requirements for notice of proposed rulemaking, opportunity for public participation, and delay in effective date.
+5. Because a notice of proposed rulemaking and an opportunity for
+public comment are not required to be given for this rule by 5 U.S.C. 553, or by any other law, the analytical requirements of the Regulatory Flexibility Act, 5 U.S.C. 601,
+et seq.,
+are not applicable. Accordingly, no regulatory flexibility analysis is required, and none has been prepared.
+List of Subjects in 15 CFR Part 748
+Administrative practice and procedure, Exports, Reporting and recordkeeping requirements.
+Accordingly, part 748 of the EAR (15 CFR parts 730-774) is amended as follows:
+PART 748—[AMENDED]
+1. The authority citation for part 748 continues to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783; Notice of August 4, 2022, 87 FR 48077 (August 5, 2021).
+2. Amend § 748.15(d) by adding a sentence after the first sentence to read as follows:
+§ 748.15
+Authorization Validated End-User (VEU).
+(d) * * * Items obtained under authorization VEU in China may be used only for civil end uses and may not be used for any activities described in part 744 of the EAR. The restrictions of §§ 744.6(c)(2)(i) through (iii) and 744.23(a)(1)(iii) and (a)(2)(iii) do not apply to VEUs identified in supplement no. 7 to part 748 as excluded from §§ 744.6(c)(2)(i) through (iii) and 744.23(a)(1)(iii) and (a)(2)(iii). * * *
+3. Amend Supplement No. 7 to part 748 by revising the heading of the supplement and the entries for “Samsung China Semiconductor Co. Ltd.” and “SK hynix Semiconductor (China) Ltd.” in “China (People's Republic of)” to read as follows:
+Supplement No. 7 to Part 748—Authorization Validated End-User (VEU): List of Validated End-Users, Respective Items Eligible for Export, Reexport and Transfer (In-Country), and Eligible Destinations
+Country
+Validated end-user
+Eligible items
+(by ECCN)
+Eligible destination
+Federal Register
+citation
+Nothing in this Supplement shall be deemed to supersede other provisions in the EAR, including but not limited to § 748.15(c).
+*         *         *         *         *         *         *
+Samsung China Semiconductor Co. Ltd
+All items subject to the Export Administration Regulations (EAR), except “extreme ultraviolet” (“EUV”) equipment and “specially designed” “parts,” “components,” “software,” and “technology” therefor, necessary for the “development” or “production” of NAND memory. Excluded from §§ 744.6(c)(2)(i-iii) and 744.23(a)(1)(iii) and (a)(2)(iii) of the EAR. See § 748.15(d)
+Samsung China Semiconductor Co., Ltd., No. 1999, North Xiaohe Road, Xi'an, China 710119
+78 FR 41291, 7/10/13. 78 FR 69535, 11/20/13. 79 FR 30713, 5/29/14. 80 FR 11863, 3/5/15. 88 FR [INSERT PAGE NUMBER], 10/17/23
+*         *         *         *         *         *         *
+SK hynix Semiconductor (China) Ltd
+All items subject to the Export Administration Regulations, except “extreme ultraviolet” (“EUV”) equipment and “specially designed” “parts,” “components,” “software,” and “technology,” necessary for the “development” or “production” of dynamic random-access memory (DRAM). Excluded from §§ 744.6(c)(2)(i-iii) and 744.23(a)(1)(iii) and (a)(2)(iii) of the EAR. See § 748.15(d)
+SK hynix Semiconductor (China) Ltd., Lot K7, Wuxi High-tech Zone, Comprehensive Bonded Zone, Wuxi New District, Jiangsu Province, China 214028
+75 FR 62462, 10/12/10. 77 FR 40258, 7/9/12. 78 FR 3319, 1/16/13. 78 FR 69537, 11/20/13. 88 FR [INSERT PAGE NUMBER], 10/17/23
+*         *         *         *         *         *         *
+Matthew S. Borman,
+Deputy Assistant Secretary for Export Administration.
+[FR Doc. 2023-22873 Filed 10-13-23; 8:45 am]
+BILLING CODE 3510-33-P

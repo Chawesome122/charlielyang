@@ -1,0 +1,1 @@
+No authoritative opacity legal source bytes were acquired in this run. See `metadata/opacity_sources.csv` for actual failed requests and `docs/opacity_evidence.md` for the evidence boundary. Do not treat blueprint candidate claims as archived primary observations.

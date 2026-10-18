@@ -1,0 +1,63 @@
+DEPARTMENT OF COMMERCE
+Bureau of Industry and Security
+15 CFR Part 748
+[Docket No. 250825-0144]
+RIN 0694-AK32
+Revocation of Validated End-User Authorizations in the People's Republic of China
+AGENCY:
+Bureau of Industry and Security, Department of Commerce.
+ACTION:
+Final rule.
+SUMMARY:
+In this final rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) to revise the existing Validated End-User (VEU) Authorizations list for the People's Republic of China (PRC) by removing Intel Semiconductor (Dalian) Ltd; Samsung China Semiconductor Co. Ltd; and SK hynix Semiconductor (China) Ltd.
+DATES:
+This rule is effective December 31, 2025.
+FOR FURTHER INFORMATION CONTACT:
+Chair, End-User Review Committee, Office of the Assistant Secretary, Export Administration, Bureau of Industry and Security, U.S. Department of Commerce, Phone: 202-482-5991; Email:
+ERC@bis.doc.gov.
+SUPPLEMENTARY INFORMATION:
+I. Background
+Validated End-Users (VEUs) are designated entities located in eligible destinations to which eligible items subject to the Export Administration Regulations (EAR) may be exported, reexported, or transferred (in-country) under a general EAR authorization instead of a license (see 15 CFR 748.15 (Authorization Validated End-User (VEU)). The names of the VEUs, as well as the dates they were designated, and the associated eligible destinations (
+i.e.,
+facilities) and items are identified in supplement no. 7 to part 748 of the EAR. Pursuant to § 748.15, VEU-eligible destinations may obtain eligible items without the need for the VEU's supplier to obtain an export, reexport, or transfer (in-country) license from the Bureau of Industry and Security (BIS). VEU-eligible items vary among VEUs and may include commodities, software, and/or technology, apart from items controlled for missile technology or crime control reasons on the Commerce Control List (CCL) (supplement no. 1 to part 774 of the EAR).
+VEUs are reviewed and approved by the U.S. Government in accordance with the provisions of § 748.15 and supplement nos. 8 and 9 to part 748 of the EAR. The End-User Review Committee (ERC) is responsible for administering the VEU program. The ERC is composed of representatives from the Departments of State, Defense, Energy, Commerce, and other agencies, as appropriate. BIS amended the EAR in a final rule published on June 19, 2007 (72 FR 33646) to create Authorization VEU.
+II. Removals From the VEU Program Under China
+Pursuant to § 748.15 and supplement no. 9 to part 748 of the EAR, the ERC determined to remove Intel Semiconductor (Dalian) Ltd, Samsung China Semiconductor Co. Ltd, and SK hynix Semiconductor (China) Ltd from the Validated End User Program.
+Export Control Reform Act of 2018
+On August 13, 2018, the President signed into law the John S. McCain National Defense Authorization Act for Fiscal Year 2019, which included the Export Control Reform Act of 2018 (ECRA) (codified, as amended, at 50
+U.S.C. 4801-4852). ECRA provides the legal basis for BIS's principal authorities and serves as the authority under which BIS issues this rule. In particular, and as noted elsewhere, Section 1753 of ECRA (50 U.S.C. 4812) authorizes the regulation of exports, reexports, and transfers (in-country) of items subject to U.S. jurisdiction. Further, Section 1754(a)(1)-(16) of ECRA (50 U.S.C. 4813(a)(1)-(16)) authorizes,
+inter alia,
+the establishment of a list of controlled items; the prohibition of unauthorized exports, reexports, and transfers (in-country); the requirement of licenses or other authorizations for exports, reexports, and transfers (in-country) of controlled items; apprising the public of changes in policy, regulations, and procedures; and any other action necessary to carry out ECRA that is not otherwise prohibited by law. Pursuant to Section 1762(a) of ECRA (50 U.S.C. 4821(a)), these changes can be imposed in a final rule without prior notice and comment.
+Rulemaking Requirements
+1. This final rule has been determined to be not significant for purposes of Executive Order 12866. This final rule is not a regulatory action pursuant to E.O. 14192 because it is not a significant rule under E.O. 12866.
+2. Notwithstanding any other provision of law, no person is required to respond to, nor shall any person be subject to a penalty for failure to comply with, a collection of information subject to the requirements of the Paperwork Reduction Act of 1995 (44 U.S.C. 3501
+et seq.
+) (PRA), unless that collection of information displays a currently valid Office of Management and Budget (OMB) Control Number. This rule involves the following OMB-approved collections of information subject to the PRA:
+• 0694-0088, “Simple Network Application Process and Multipurpose Application Form,” which carries a burden hour estimate of 29.7 minutes for a manual or electronic submission;
+• 0694-0096 “Five Year Records Retention Period,” which carries a burden hour estimate of less than 1 minute; and
+• 0607-0152 “Automated Export System (AES) Program,” which carries a burden hour estimate of 3 minutes per electronic submission.
+BIS estimates that these new removal of these entities from the VEU program under the EAR will result in the submission of an additional 1,000 license applications annually, which would be an increase of 495 burden hours. This burden hour increase is within existing estimates for these collections. Additional information regarding these collections of information—including all background materials—can be found at:
+https://www.reginfo.gov/public/do/PRAMain
+by using the search function to enter either the title of the collection or the OMB Control Number.
+3. This rule does not contain policies with federalism implications as that term is defined in Executive Order 13132.
+4. Pursuant to section 1762 of the Export Control Reform Act of 2018, this action is exempt from the Administrative Procedure Act (5 U.S.C. 553) requirements for notice of proposed rulemaking, opportunity for public participation, and delay in effective date.
+5. Because a notice of proposed rulemaking and an opportunity for public comment are not required to be given for this rule by 5 U.S.C. 553, or by any other law, the analytical requirements of the Regulatory Flexibility Act, 5 U.S.C. 601
+et seq.,
+are not applicable. Accordingly, no regulatory flexibility analysis is required, and none has been prepared.
+List of Subjects in 15 CFR Part 748
+Administrative practice and procedure, Exports, Reporting and recordkeeping requirements.
+For the reasons stated in the preamble, part 748 of the EAR (15 CFR parts 730 through 774) is amended as follows:
+PART 748—APPLICATIONS (CLASSICATION, ADVISORY, AND LICENSE) AND DOCUMENTATION
+1. The authority citation for part 748 is revised to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228.
+Supplement No. 7 to Part 748—[Amended]
+2. Amend supplement no. 7 to part 748 by removing the entries for “Intel Semiconductor (Dalian) Ltd”, “Samsung China Semiconductor Co. Ltd”, and “SK hynix Semiconductor (China) Ltd” under “China (People's Republic of)”.
+Julia A. Khersonsky,
+Deputy Assistant Secretary for Strategic Trade.
+[FR Doc. 2025-16735 Filed 8-29-25; 8:45 am]
+BILLING CODE 3510-33-P

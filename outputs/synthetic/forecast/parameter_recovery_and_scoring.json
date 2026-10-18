@@ -1,0 +1,54 @@
+{
+  "evidence_class": "fully_synthetic",
+  "training_n": 30000,
+  "test_n": 10000,
+  "known_true_rates": {
+    "Q->O": 0.25,
+    "Q->X": 0.08
+  },
+  "estimated_rates": {
+    "Q->O": 0.25202504805169995,
+    "Q->X": 0.08121242605958359
+  },
+  "optimizer_success": true,
+  "heldout_scores": {
+    "estimated_constant_hazard": {
+      "brier": 0.1700323777777778,
+      "negative_log_score": 0.5233655035274323,
+      "n": 10000
+    },
+    "known_truth": {
+      "brier": 0.17004233687303766,
+      "negative_log_score": 0.5233951492569761,
+      "n": 10000
+    },
+    "uninformative_half": {
+      "brier": 0.25,
+      "negative_log_score": 0.6931471805599454,
+      "n": 10000
+    },
+    "zero_new_build": {
+      "brier": 0.2172,
+      "negative_log_score": {
+        "nonfinite": "positive_infinity"
+      },
+      "n": 10000
+    },
+    "certain_on_time": {
+      "brier": 0.7828,
+      "negative_log_score": {
+        "nonfinite": "positive_infinity"
+      },
+      "n": 10000
+    }
+  },
+  "continuous_score_check": {
+    "samples": [
+      0,
+      1
+    ],
+    "observation": 0.5,
+    "crps": 0.25
+  },
+  "interpretation": "Software recovery/score validation only; not historical forecast performance."
+}

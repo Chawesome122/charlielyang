@@ -1,0 +1,616 @@
+{
+  "blueprint_ab": {
+    "activities": [
+      {
+        "capacity": 60.0,
+        "groups": [
+          "A"
+        ],
+        "id": "separate_A",
+        "inputs": {
+          "feed": 1
+        },
+        "kind": "process",
+        "node": "A",
+        "outputs": {
+          "oxide": 1
+        }
+      },
+      {
+        "capacity": 50.0,
+        "groups": [
+          "A"
+        ],
+        "id": "alloy_A",
+        "inputs": {
+          "oxide": 1.1111111111111112
+        },
+        "kind": "process",
+        "node": "A",
+        "outputs": {
+          "alloy": 1
+        }
+      },
+      {
+        "capacity": 40.0,
+        "groups": [
+          "A"
+        ],
+        "id": "magnet_A",
+        "inputs": {
+          "alloy": 1.0526315789473684
+        },
+        "kind": "process",
+        "node": "A",
+        "outputs": {
+          "magnet": 1
+        }
+      },
+      {
+        "capacity": 45.0,
+        "groups": [
+          "B"
+        ],
+        "id": "separate_B",
+        "inputs": {
+          "feed": 1
+        },
+        "kind": "process",
+        "node": "B",
+        "outputs": {
+          "oxide": 1
+        }
+      },
+      {
+        "capacity": 40.0,
+        "groups": [
+          "B"
+        ],
+        "id": "alloy_B",
+        "inputs": {
+          "oxide": 1.1111111111111112
+        },
+        "kind": "process",
+        "node": "B",
+        "outputs": {
+          "alloy": 1
+        }
+      },
+      {
+        "capacity": 35.0,
+        "groups": [
+          "B"
+        ],
+        "id": "magnet_B",
+        "inputs": {
+          "alloy": 1.0526315789473684
+        },
+        "kind": "process",
+        "node": "B",
+        "outputs": {
+          "magnet": 1
+        }
+      }
+    ],
+    "commodities": [
+      {
+        "elements": {
+          "Nd": 0.75,
+          "Pr": 0.25
+        },
+        "form": "concentrate",
+        "id": "feed",
+        "origin_groups": [],
+        "unit": "tonne_contained_element"
+      },
+      {
+        "elements": {
+          "Nd": 0.75,
+          "Pr": 0.25
+        },
+        "form": "oxide",
+        "id": "oxide",
+        "origin_groups": [],
+        "unit": "tonne_contained_element"
+      },
+      {
+        "elements": {
+          "Nd": 0.75,
+          "Pr": 0.25
+        },
+        "form": "alloy",
+        "id": "alloy",
+        "origin_groups": [],
+        "unit": "tonne_contained_element"
+      },
+      {
+        "elements": {
+          "Nd": 0.75,
+          "Pr": 0.25
+        },
+        "form": "magnet",
+        "id": "magnet",
+        "origin_groups": [],
+        "unit": "tonne_contained_element"
+      }
+    ],
+    "demands": [
+      {
+        "essential": true,
+        "id": "NdPr_service",
+        "node": "bloc",
+        "quantity": 70.0,
+        "recipe": {
+          "magnet": 1
+        },
+        "weight": 1.0
+      }
+    ],
+    "facilities": [
+      {
+        "groups": [
+          "A"
+        ],
+        "id": "A"
+      },
+      {
+        "groups": [
+          "B"
+        ],
+        "id": "B"
+      },
+      {
+        "groups": [],
+        "id": "bloc"
+      }
+    ],
+    "feeds": [
+      {
+        "capacity": 60.0,
+        "commodity": "feed",
+        "cost": 1.0,
+        "groups": [
+          "A"
+        ],
+        "id": "feed_A",
+        "node": "A"
+      },
+      {
+        "capacity": 45.0,
+        "commodity": "feed",
+        "cost": 1.0,
+        "groups": [
+          "B"
+        ],
+        "id": "feed_B",
+        "node": "B"
+      }
+    ],
+    "label": "SYNTHETIC blueprint A/B contained-equivalent fixture",
+    "opening_inventory": {},
+    "resources": [],
+    "routes": [
+      {
+        "capacity": 40.0,
+        "commodity": "magnet",
+        "cost": 1.0,
+        "groups": [
+          "A"
+        ],
+        "id": "magnet_A_bloc",
+        "source": "A",
+        "target": "bloc"
+      },
+      {
+        "capacity": 35.0,
+        "commodity": "magnet",
+        "cost": 1.0,
+        "groups": [
+          "B"
+        ],
+        "id": "magnet_B_bloc",
+        "source": "B",
+        "target": "bloc"
+      },
+      {
+        "capacity": 105.0,
+        "commodity": "oxide",
+        "cost": 1.0,
+        "groups": [],
+        "id": "oxide_A_B",
+        "source": "A",
+        "target": "B"
+      },
+      {
+        "capacity": 105.0,
+        "commodity": "alloy",
+        "cost": 1.0,
+        "groups": [],
+        "id": "alloy_A_B",
+        "source": "A",
+        "target": "B"
+      },
+      {
+        "capacity": 105.0,
+        "commodity": "oxide",
+        "cost": 1.0,
+        "groups": [],
+        "id": "oxide_B_A",
+        "source": "B",
+        "target": "A"
+      },
+      {
+        "capacity": 105.0,
+        "commodity": "alloy",
+        "cost": 1.0,
+        "groups": [],
+        "id": "alloy_B_A",
+        "source": "B",
+        "target": "A"
+      }
+    ],
+    "storage_limits": {}
+  },
+  "classification": "SYNTHETIC mathematical fixtures, not empirical networks",
+  "four_elements": {
+    "activities": [
+      {
+        "capacity": 100.0,
+        "groups": [
+          "A"
+        ],
+        "id": "mine_activity",
+        "inputs": {
+          "ore": 2
+        },
+        "kind": "process",
+        "node": "mine",
+        "outputs": {
+          "concentrate": 1
+        }
+      },
+      {
+        "capacity": 100.0,
+        "groups": [
+          "B"
+        ],
+        "id": "separation_activity",
+        "inputs": {
+          "concentrate": 1
+        },
+        "kind": "process",
+        "node": "separate",
+        "outputs": {
+          "Dy2O3": 0.009181464615384617,
+          "Nd2O3": 0.20994779606494643,
+          "Pr6O11": 0.051346848709289475,
+          "Tb4O7": 0.0017642585024981857
+        }
+      },
+      {
+        "capacity": 50.0,
+        "groups": [
+          "B"
+        ],
+        "id": "alloy_activity",
+        "inputs": {
+          "Dy2O3": 0.01812131174089069,
+          "FeB": 0.692,
+          "Nd2O3": 0.2701082756391124,
+          "Pr6O11": 0.08902240023901582,
+          "Tb4O7": 0.0037142284263119705
+        },
+        "kind": "process",
+        "node": "alloy",
+        "outputs": {
+          "alloy": 1
+        }
+      },
+      {
+        "capacity": 40.0,
+        "groups": [
+          "B"
+        ],
+        "id": "magnet_activity",
+        "inputs": {
+          "alloy": 1.0526315789473684
+        },
+        "kind": "process",
+        "node": "magnet",
+        "outputs": {
+          "magnet": 1
+        }
+      },
+      {
+        "capacity": 100.0,
+        "groups": [
+          "B"
+        ],
+        "id": "dispose_Nd2O3",
+        "inputs": {
+          "Nd2O3": 1
+        },
+        "kind": "disposal",
+        "node": "separate",
+        "outputs": {}
+      },
+      {
+        "capacity": 100.0,
+        "groups": [
+          "B"
+        ],
+        "id": "dispose_Pr6O11",
+        "inputs": {
+          "Pr6O11": 1
+        },
+        "kind": "disposal",
+        "node": "separate",
+        "outputs": {}
+      },
+      {
+        "capacity": 100.0,
+        "groups": [
+          "B"
+        ],
+        "id": "dispose_Dy2O3",
+        "inputs": {
+          "Dy2O3": 1
+        },
+        "kind": "disposal",
+        "node": "separate",
+        "outputs": {}
+      },
+      {
+        "capacity": 100.0,
+        "groups": [
+          "B"
+        ],
+        "id": "dispose_Tb4O7",
+        "inputs": {
+          "Tb4O7": 1
+        },
+        "kind": "disposal",
+        "node": "separate",
+        "outputs": {}
+      }
+    ],
+    "commodities": [
+      {
+        "elements": {
+          "Dy": 0.005,
+          "Nd": 0.1,
+          "Pr": 0.025,
+          "Tb": 0.001
+        },
+        "form": "ore",
+        "id": "ore",
+        "origin_groups": [],
+        "unit": "tonne_native"
+      },
+      {
+        "elements": {
+          "Dy": 0.01,
+          "Nd": 0.2,
+          "Pr": 0.05,
+          "Tb": 0.002
+        },
+        "form": "concentrate",
+        "id": "concentrate",
+        "origin_groups": [],
+        "unit": "tonne_native"
+      },
+      {
+        "elements": {
+          "B": 0.014450867052023123,
+          "Fe": 0.9855491329479771
+        },
+        "form": "other",
+        "id": "FeB",
+        "origin_groups": [],
+        "unit": "tonne_native"
+      },
+      {
+        "elements": {
+          "B": 0.01,
+          "Dy": 0.015,
+          "Fe": 0.682,
+          "Nd": 0.22,
+          "Pr": 0.07,
+          "Tb": 0.003
+        },
+        "form": "alloy",
+        "id": "alloy",
+        "origin_groups": [],
+        "unit": "tonne_native"
+      },
+      {
+        "elements": {
+          "B": 0.01,
+          "Dy": 0.015,
+          "Fe": 0.682,
+          "Nd": 0.22,
+          "Pr": 0.07,
+          "Tb": 0.003
+        },
+        "form": "qualified_magnet",
+        "id": "magnet",
+        "origin_groups": [],
+        "unit": "tonne_native"
+      },
+      {
+        "elements": {
+          "Nd": 0.857355987410879
+        },
+        "form": "oxide",
+        "id": "Nd2O3",
+        "origin_groups": [],
+        "unit": "tonne_native"
+      },
+      {
+        "elements": {
+          "Pr": 0.8277041545552739
+        },
+        "form": "oxide",
+        "id": "Pr6O11",
+        "origin_groups": [],
+        "unit": "tonne_native"
+      },
+      {
+        "elements": {
+          "Dy": 0.8713206808633849
+        },
+        "form": "oxide",
+        "id": "Dy2O3",
+        "origin_groups": [],
+        "unit": "tonne_native"
+      },
+      {
+        "elements": {
+          "Tb": 0.850215542606712
+        },
+        "form": "oxide",
+        "id": "Tb4O7",
+        "origin_groups": [],
+        "unit": "tonne_native"
+      }
+    ],
+    "demands": [
+      {
+        "essential": true,
+        "id": "grade_G",
+        "node": "bloc",
+        "quantity": 60.0,
+        "recipe": {
+          "magnet": 1
+        },
+        "weight": 1.0
+      }
+    ],
+    "facilities": [
+      {
+        "groups": [
+          "A",
+          "AUS"
+        ],
+        "id": "mine"
+      },
+      {
+        "groups": [
+          "B",
+          "USA"
+        ],
+        "id": "separate"
+      },
+      {
+        "groups": [
+          "B",
+          "USA"
+        ],
+        "id": "alloy"
+      },
+      {
+        "groups": [
+          "B",
+          "USA"
+        ],
+        "id": "magnet"
+      },
+      {
+        "groups": [],
+        "id": "bloc"
+      }
+    ],
+    "feeds": [
+      {
+        "capacity": 200.0,
+        "commodity": "ore",
+        "cost": 1.0,
+        "groups": [
+          "A",
+          "AUS"
+        ],
+        "id": "ore_feed",
+        "node": "mine"
+      },
+      {
+        "capacity": 100.0,
+        "commodity": "FeB",
+        "cost": 1.0,
+        "groups": [
+          "C"
+        ],
+        "id": "other_constituents",
+        "node": "alloy"
+      }
+    ],
+    "label": "SYNTHETIC four-element native-mass recipe fixture",
+    "opening_inventory": {},
+    "resources": [],
+    "routes": [
+      {
+        "capacity": 100.0,
+        "commodity": "concentrate",
+        "cost": 1.0,
+        "groups": [],
+        "id": "concentrate_route",
+        "source": "mine",
+        "target": "separate"
+      },
+      {
+        "capacity": 50.0,
+        "commodity": "alloy",
+        "cost": 1.0,
+        "groups": [],
+        "id": "alloy_route",
+        "source": "alloy",
+        "target": "magnet"
+      },
+      {
+        "capacity": 40.0,
+        "commodity": "magnet",
+        "cost": 1.0,
+        "groups": [],
+        "id": "magnet_route",
+        "source": "magnet",
+        "target": "bloc"
+      },
+      {
+        "capacity": 100.0,
+        "commodity": "Nd2O3",
+        "cost": 1.0,
+        "groups": [],
+        "id": "route_Nd2O3",
+        "source": "separate",
+        "target": "alloy"
+      },
+      {
+        "capacity": 100.0,
+        "commodity": "Pr6O11",
+        "cost": 1.0,
+        "groups": [],
+        "id": "route_Pr6O11",
+        "source": "separate",
+        "target": "alloy"
+      },
+      {
+        "capacity": 100.0,
+        "commodity": "Dy2O3",
+        "cost": 1.0,
+        "groups": [],
+        "id": "route_Dy2O3",
+        "source": "separate",
+        "target": "alloy"
+      },
+      {
+        "capacity": 100.0,
+        "commodity": "Tb4O7",
+        "cost": 1.0,
+        "groups": [],
+        "id": "route_Tb4O7",
+        "source": "separate",
+        "target": "alloy"
+      }
+    ],
+    "storage_limits": {}
+  }
+}

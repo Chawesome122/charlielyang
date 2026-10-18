@@ -1,0 +1,18 @@
+{
+  "classification": "engineering_diagnostics_not_empirical_results",
+  "events": [
+    {
+      "phase": "initial_5_node_smoke_test",
+      "observation": "Some starts stalled at approximately 2.8e-6 best-response action residual despite a 3.9e-12 payoff gap.",
+      "diagnosis": "Improvement chose the nearest nearly optimal kink within payoff tolerance instead of the exact maximizing stationary action.",
+      "repair": "Rank feasible candidates first by unilateral gain, then policy proximity. Retain exact action-residual acceptance. Rerun smoke and refinement experiments."
+    },
+    {
+      "phase": "first_17_21_six_start_attempt",
+      "observation": "Interrupted before first completed start after excessive CPU time from unbounded BLAS threads.",
+      "diagnosis": "Sparse memory-bound solves suffered from thread-pool reduction overhead on shared CPUs.",
+      "repair": "Set default OPENBLAS_NUM_THREADS, OMP_NUM_THREADS and MKL_NUM_THREADS to 1 before importing NumPy; restart same validated algorithm. User-specified thread settings remain respected.",
+      "result": "No scientific result was claimed from the interrupted attempt."
+    }
+  ]
+}

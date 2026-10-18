@@ -1,0 +1,1775 @@
+27 March 2026                                                                                              LSE: PRE
+
+                                                 Pensana Plc
+                                   (“Pensana”, “the company” or “the group”)
+
+
+
+                     Unaudited Interim results for the six months ended 31 December 2025
+
+
+
+The board is pleased to present its review of Pensana Plc, the rare earth exploration, mining and processing group,
+whose flagship assets are the Longonjo Rare Earth Mine and the Coola exploration project in Angola alongside its
+downstream strategy to establish a U.S. mine-to-magnet supply chain.
+
+Highlights
+
+    •   Main construction activities at the Longonjo Rare Earth Mine continue at pace with commissioning
+        scheduled for 2027.
+
+    •   Strategic investment of US$165 million by Cascade Natural Resources (Cascade).
+
+    •   Detailed evaluation of the Longonjo flowsheet has identified the scope to increase the Heavy Rare Earth
+        Oxides (HREO) up to fivefold contained in the Mixed Rare Earth Carbonate (MREC).
+
+    •   Advanced engagement with the Export-Import Bank of the United States (U.S.-EXIM) to accelerate the
+        company's mine-to-magnet supply chain and support the US$160 million debt funding of the Longonjo Rare
+        Earth Mine (Longonjo).
+
+    •   Equity placing of ~US$10 million from long-term major shareholder M&G Investment Management (~US$7
+        million) and other institutional investors (~US$3 million).
+
+    •   Ongoing support from major shareholder FSDEA via the partial conversion of their US$15 million loan into
+        equity.
+
+    •   Memorandum of understanding with Vacuumschmelze GmbH & Co. KG to support the production of its
+        recently commissioned eVAC Magnetics (eVAC) facility in Sumter, South Carolina, targeting 2,000 tonnes
+        per annum of rare earth magnets.
+
+    •   Major drill programme announced to increase Longonjo resource to over one billion tonnes.
+
+    •   Completion of Coola drilling programme to test the potential for a deeply weathered and supergene
+        enrichment central diatreme, as occurs at the Longonjo carbonatite.
+
+    •   Appointment of rare earths industry expert Karen Brown as chief operating officer, effective 1 October 2025.
+CEO’s Review
+
+Dear Pensana Shareholders,
+
+It is with great pleasure that I can confirm the significant progress that has been made on multiple fronts over the
+Period.
+
+With the engineering team, ably led by Project Manager Kevin Botha, the world class Longonjo Rare Earth project
+has now been taken through design, engineering and pre-construction and into main construction.
+
+The main pre-construction facilities have been installed on-site and are operational, including the camp and
+accommodation, construction and site power and water treatment facilities. The process plant terrace and
+contractor’s laydown areas have been completed with preparations for piling operations well advanced. Bulk
+earthworks and starter walls for the tailing’s storage facility are underway following completion of site clearing. At
+the time of writing, the aggregate and concrete batching plants are being commissioned for the first concrete pours
+scheduled for April 2026. Major equipment vendor packages are progressing on schedule.
+
+Ongoing community and camp-related activities continue to form a major element of our on-site development with
+continued focus on the Resettlement Action Plan (RAP) and the Livelihood Restoration Programme (LRP) supported
+by the demonstration plots under cultivation. The Transitional Support Programme for Project Affected Households
+also focussed on the training of local residents in accommodation and messing-related activities in the camp as well
+as training in minor maintenance works associated with the camp and other project-related activities.
+
+These on-site developments have all been taking place against a backdrop of continuing tightening in supply chains,
+with the Company experiencing increased market interest in expanding the Longonjo Project beyond the planned
+2,400 tonnes per annum of NdPr production and further leveraging the scale of the Longonjo resource base.
+
+Since Q4 2025, the quoted Neodymium/Praseodymium oxide price (CIF North America) has seen a c. 62% increase
+and this anticipated strengthening price environment confirms our view that there will be sustained growth in
+demand for secure, independent Western-facing supply of rare earth materials. It has served to reinforce the
+strategic importance of our current focus on delivering first production in 2027.
+
+Over the Period, our engagement with US-based magnet producers has further intensified, particularly in relation to
+heavy rare earth supply. This has led to the identification of an enhanced heavy rare earth recovery stream with the
+potential to increase Dy and Tb output by up to fivefold, as announced in November 2025. At full scale, this would
+position Pensana as one of the significant producers of heavy rare earths in the Western market.
+
+This combination of increased heavy rare earth production potential and the substantial scale of the Longonjo
+orebody, positions Pensana at the centre of the emerging US-focused rare earth supply chain. It also highlights the
+strategic significance of the Project as it enters a period of intensive construction over the next twelve months, ahead
+of the 2027 U.S. ban on the use of Chinese-origin rare earth magnets and materials in defence systems.
+
+Post-period end we announced a US$165 million strategic investment with Cascade. This strategic funding milestone
+represents a significant inflection point in the Company’s development and will unlock several key workstreams that
+are contingent on securing this capital. Once complete, the funds will be used to further advance the Longonjo mine
+development, satisfy the equity funding conditions precedent for the Absa debt financing facility, fund additional
+drilling programmes to extend the Longonjo life of mine, progress the developing co-products including HREOs
+alongside the currently contemplated magnet metals, and supporting the Nasdaq listing process.
+
+I would once again like to thank our largest shareholder the Angolan Sovereign Wealth Fund for their continued
+support and their alignment with our long-term mine-to-magnet strategy, M&G for their backing and recent equity
+investment and the Pensana team for continued commitment in addressing the complexities of developing a world-
+class operation and delivering on our mine-to-magnet vision.
+
+
+
+
+                                                           2
+Principal activities
+
+Pensana is currently constructing one of the world’s largest rare earth mines at the Longonjo Rare Earth Mine. Having
+successfully advanced the Longonjo Project in Angola through its development phase, the Company has established
+itself as one of the most important rare earth developers in over a decade. This progress comes against the backdrop
+of a strong Western drive to secure critical minerals, particularly rare earths for permanent magnets, as part of the
+biggest energy and technological transition in history.
+
+Also included in the current portfolio of assets is the Coola Exploration Project in Angola and a downstream rare
+earth separation facility. The timing around the development of these assets is largely dependent on strategic
+sequencing in line with the relevant financing frameworks being secured and evidence of ongoing support from the
+relevant governments and associated development agencies.
+
+Activities conducted in the current period were centred around the main construction of Longonjo which commenced
+in July 2025, optimisation of the overall funding structure which resulted in the initial deployment of US$25 million
+equity invested by FSDEA and the announcement of a US$165 million strategic investment by Cascade combined
+with a strategic shift to establish a mine-to-magnet supply chain in the United States of America (U.S.) through the
+potential of a NASDAQ listing, advanced engagement with U.S.-EXIM and partnering with ReElement and eVAC to
+support the growing demand in the U.S. market.
+
+The Longonjo construction programme is supported by a fully executed feasibility study and a JORC-compliant Ore
+Reserve. The reserve has an average grade of 3.04% total rare earth oxide (TREO) containing 139,000 tonnes of
+neodymium and praseodymium (NdPr) oxide for a mine life of over 20 years. The Project is underpinned by an
+execution plan centred around an optimised, industry leading low capital envelope. All of these elements have been
+subject to a full technical due diligence review as part of the various funding approval processes. The current
+financing package amounts to c. US$268 million for the Longonjo Rare Earth Project, through the majority owned
+subsidiary Ozango which owns 100% of the Longonjo Project.
+
+Exploration activities mainly revolve around mineralogical studies to confirm processing potential of the rare earth
+host minerals at the Coola carbonatite and Sulima West exploration targets, with future plans to advance
+metallurgical testwork programmes on the Coola concession orebodies and initial focus on the surface Sulima West
+laterite deposit to accelerate plans to use this as additional feedstock for the Longonjo processing plant.
+
+Strategic equity placement
+
+During March 2026 the company announced a US$165 million strategic investment to support U.S. mine-to-magnet
+strategy, by Cascade. This is further to the announcements of 9 December 2025 and 10 February 2026 and the Notice
+of General Meeting dated 10 February 2026 which concluded in an increased total investment amount of
+US$165 million.
+
+Cascade intends to advance the strategic investment to Pensana and its group companies by way of:
+    • Investment of US$15 million into Pensana by way of a subscription for 13.55 million new ordinary shares at
+        80 pence per share representing a 3.8 % interest in the Company.
+    • Investment of US$150 million into the Company's wholly owned subsidiary Sable Min Unipessoal Lda (Sable)
+        which is a majority shareholder in Ozango Minerais S.A. (Ozango) the developer of the Longonjo Rare Earth
+        Mine for a 38.2% interest in Sable.
+    • As a result of the strategic investment, Cascade will own 3.8% of Pensana and 38.2% of Sable.
+
+The strategic investment remains subject to long-form documentation and share applications which is currently
+underway.
+
+Alongside the proposed US$160 million Absa debt funding package (U.S.-EXIM guaranteed) the strategic investment
+would provide for the construction of the Longonjo mine, including execution of the recently announced drill
+programme and HREE recovery facility, early downstream development initiatives and the costs associated with the
+proposed NASDAQ listing along with all corporate costs ahead of Longonjo’s first production scheduled for 2027.
+
+ABG Sundal Collier, a leading independent Nordic investment bank, has acted as Pensana’s financial advisor for the
+strategic investment.
+
+                                                         3
+Operating and Financial Review
+
+During the period ended 31 December 2025, the Group reported a consolidated total comprehensive loss of
+US$4,521,717 (2024: US$3,191,700). This comprised administration expenses of US$4,668,792 (2024:
+US$2,545,911), finance costs of US$725,908 (2024: US$nil), and net foreign exchange gains of US$321,588 (2024:
+US$704,864 loss).
+
+The increase in total comprehensive loss of US$1,330,017 (42%) compared to the prior period was primarily
+attributable to:
+
+    •    An increase in administration expenses of US$2,122,881 (83%), largely driven by increased site activity and
+         corporate activity, including customs and other tax payments at Ozango (US$249k), equity raising fees at
+         corporate level (US$403k), higher legal fees (US$209k), an increased share-based payment charge
+         (US$608k), and higher employee benefit costs due to additional staff (US$421k); and
+
+    •    Partially offset by a favourable movement in foreign exchange of US$1,026,452, from a loss of US$704,864
+         in the prior period to a gain of US$321,588 in the current period. These gains and losses arose from the
+         settlement of invoices in currencies other than the relevant functional currencies (USD, GBP, AUD and AOA),
+         as well as the translation of foreign currency denominated balances.
+
+Net assets as at 31 December 2025 amounted to US$96,855,684 (30 June 2025: US$50,525,938), primarily comprising
+capitalised property, plant and equipment relating to the development of the Longonjo Project. The increase in net
+assets of US$46.3 million (92%) compared to 30 June 2025 was principally attributable to capital injections during
+the period and continued investment in the Longonjo project execution.
+
+The Group raised total capital of approximately US$38.4 million during the period, comprising US$36.7 million of
+equity and US$1.7 million of short-term debt. The equity funding included a US$25.0 million investment in Ozango
+Minerais S.A. by FSDEA, US$6.7 million from M&G Investments, and US$3.5 million from other institutional investors.
+
+The capital raised were primarily applied towards:
+
+    •    Investment in property, plant and equipment relating to the continued roll-out of the Longonjo capital
+         programme (US$16.0 million);
+    •    Cash outflows supporting ongoing operations (US$3.7 million); and
+    •    Increase in cash on hand at 31 December 2025 (US$19.6 million).
+
+Going concern
+
+The directors have prepared a cash flow forecast for the period ending 30 June 2027 to support the going concern
+assessment, including estimated timing and sources of funds to support ongoing operations and project
+development.
+
+In assessing the going concern basis of preparation, the directors have also considered the availability of funding
+and its impact on the progression of the Longonjo and separation facility projects. Similarly, the directors have also
+considered the impact of the ongoing geopolitical landscape, including ongoing global wars as it relates to
+availability of funding, costs, marketability of our product and the potential volatility in the debt and equity
+markets.
+
+The balance sheet position as at 31 December 2025 reflects a significant improvement compared to prior periods,
+with a net current asset position of US$9.5 million (30 June 2025: US$ 29.1 million net current liability), with the
+movement of US$38.6 million mainly a result of net changes in net creditors/debtors of US$13.8 million driven by
+settlement of long outstanding creditors and conversion of US$7.5 million of the FSDEA bridging loan facility
+combined with cash available at year-end of US$19.6 million consisting of US$10.2 million Ozango equity available
+and US$7.0 million available to support ongoing corporate expenditure (net of short term borrowings, excluding
+FSDEA debt). The overall increase in cash position was mainly a result of equity raises to the value of US$10 million
+as announced in December 2025 and the deployment of US$25 million equity by FSDEA as part of the first tranche
+of equity funding deployed at Ozango subsidiary level.
+
+As at 31 December 2025, the uncertainty around going concern is limited to the company’s ability to settle the
+remaining balance outstanding under the FSDEA bridging loan (US$ 8.7 million) as well as the deployment of the
+
+                                                           4
+remaining funds towards the construction of the Longonjo Rare Earth Mine, currently underway. The Board is of
+the opinion that these uncertainties are sufficiently mitigated based on the staged conversion of the bridging loan
+as agreed with FSDEA along with existing funding approvals in place to support construction of the Longonjo Rare
+Earth Mine.
+
+It is anticipated that the contemplated financing across the group may include further issues of equity, export
+credit-backed debt financing and/or issuing a green bond. The ability of the company and group to continue as a
+going concern is dependent on securing such additional funding given the forecast expenditure.
+
+Although conditions regarding the financing and cash flow mentioned above indicate a material uncertainty which
+may result in the Group being unable to realise its assets and discharge its liabilities in the normal course of
+business, the funding approvals received have provided comfort to the Board of the Group’s ability to continue as
+a going concern and work towards raising the requisite funding as outlined above.
+
+Refer to note 3 to the financial statements for more details on the going concern statement.
+
+Update on construction activities at Longonjo
+
+Main construction activities at the Longonjo Rare Earth Mine continue at pace with a twelve-month period of intense
+activity currently planned as we work towards commissioning scheduled for 2027.
+
+Initial annual production will be 2,400 tonnes of light magnet metals (NdPr) accompanied by 73 tonnes heavy magnet
+metals (DyTb) in the form of clean high value mixed rare earth carbonate with plans to double production to 4,200
+tonnes NdPr and 122 tonnes DyTb post 2030.
+
+Current resources are over 300 million tonnes and as previously announced an 11,000-metre drill programme has
+been planned which is designed to increase resources towards one billion tonnes, which would make Longonjo one
+of the world’s largest rare earth deposits ever developed.
+
+The mine will be powered by low cost sustainable hydro-electricity supplied from the Laúca dam hydropower project.
+A Power Purchase Agreement (PPA) is in place with RNT, for the supply of renewable hydropower, providing the
+Project with a reliable source of low-carbon energy and further strengthening its sustainability credentials.
+
+The mine is connected to the Port of Lobito via the U.S. Government backed Lobito corridor rail and services which
+are connecting Ivanhoe’s recently commissioned Kamoa-Kakula copper smelter in the DRC to the Atlantic seaboard.
+
+Discussions are well advanced with a number of parties to establish a U.S. mine-to-magnet supply chain realigning a
+major long term supply chain of critical minerals from Angola to OEM backed magnet producers in the U.S.
+
+Key milestones completed to date are summarised below:
+
+    •    The main pre-construction facilities have been installed and are operational, including the camp and
+         accommodation, construction and site power and water treatment facilities;
+    •    The process plant terrace and contractor’s laydown areas have been completed with preparations for piling
+         operations well advanced;
+    •    Bulk earthworks and starter walls for the tailings storage facility are underway following completion of site
+         clearing;
+    •    The aggregate and concrete batching plants are being commissioned for the first large concrete pours
+         scheduled for March; and
+    •    Major equipment vendor packages are progressing on schedule.
+
+The immediate focus areas over the coming months include TSF bulk excavation and construction as well as process
+plant piling and civil construction. This follows the topsoil stripping completed at the TSF and successful compaction
+of the 68,000m2 plant terrace area which was independently verified by SRK undertaking DPSH/DCP testing across
+the entire area, mapping load bearing characteristics in detail to inform final civil design and piling requirements for
+individual major equipment installation.
+
+Ongoing community and camp related activities include successful execution of the Resettlement Action Plan (RAP),
+the Livelihood Restoration Programme (LRP) supported by the demonstration plots under cultivation and the
+Transitional Support Programme for Project Affected Households (PAH).
+
+
+                                                           5
+Strong demand for product and rare earth prices boasting economics
+
+Since Q4 2025, the quoted NdPr oxide price (CIF North America) has increased materially, rising from approximately
+US$83/kg in November 2025 to over US$135/kg in March 2026.
+
+This strengthening price environment reflects sustained growth in demand for secure, independent Western-facing
+supply of rare earth materials and reinforces the strategic importance of delivering first production in 2027 as
+scheduled. The improving pricing backdrop has a direct and favourable impact on projected project economics.
+
+Against a backdrop of tightening supply chains, the company is experiencing increasing market interest in expanding
+beyond the planned 2,400 tonnes per annum of NdPr production and further leveraging the scale of the Longonjo
+resource base.
+
+In particular, engagement with US-based magnet producers has intensified around heavy rare earth supply. This has
+led to the identification of an enhanced heavy rare earth recovery stream with the potential to increase dysprosium
+and terbium output up to fivefold as announced in November 2025.
+
+At full scale, this would position Pensana as one of the significant producers of heavy rare earths in the Western
+market. The technical team continues to assess additional recovery pathways to further optimise output. The review
+has shown installing a selective Heavy Rare Earth Oxide (HREO) recovery circuit upstream of product precipitation
+could materially increase the recovery of Dy and Tb into the MREC product.
+
+The combination of increased heavy rare earth production potential and the substantial scale of the Longonjo
+orebody, positions Pensana at the centre of the emerging U.S.-focused rare earth supply chain.
+
+Following the partnerships signed in June 2025 with ReElement Technologies, Hanwa and Toyota Tsusho, and the
+cooperation agreement executed in October 2025 with Vacuumschmelze, the Company continues to receive interest
+from additional magnet producers, including Vulcan Elements, which has partnered directly with the U.S.
+Department of War.
+
+Importantly, demand signals are increasingly originating downstream from OEM sectors spanning defence,
+automotive, aerospace and hyperscale data infrastructure, including companies such as Amazon and Microsoft. This
+structural pull from end users underscores the strategic relevance of establishing large-scale, secure and transparent
+rare earth supply chains aligned to Western industrial policy priorities.
+
+Environment Social Governance (ESG)
+
+The Group continues to embed ESG at the core of its strategy, underpinned by its objective of delivering a sustainable
+source of rare earth materials to the global market. A strong HSE culture remains central to project execution, with
+zero recordable injuries and zero environmental incidents during the period.
+
+Environmental compliance remains robust, with no licence breaches recorded. The Project has received the required
+water abstraction licence and an extension to its environmental installation licence, with broader environmental
+permitting progressing in accordance with the development schedule. A Power Purchase Agreement (PPA) is in place
+with RNT, for the supply of renewable hydropower, providing the Project with a reliable source of low-carbon energy
+and further strengthening its sustainability credentials.
+
+The Resettlement Action Plan (RAP) continues to advance positively, with strong stakeholder engagement and over
+140 resettlement plots now acquired with full consent. Following completion of Phase One of the RAP in October
+2022, the 28 project-affected households continue to receive transitional livelihood support through food
+supplementation packages. Regular engagement is maintained through the community advisory committee,
+traditional leadership structures and authorities at regional, provincial and national levels.
+
+Investment in agricultural test and demonstration plots has progressed, with the facilities now operational and
+serving as a hub for community agricultural training and skills development. The programme continues to evaluate
+optimal crop selection and cultivation techniques to enhance productivity and support sustainable livelihoods. Work
+has also expanded to include development of the site tree line, in line with environmental licence requirements.
+                                                          6
+The Group remains committed to maximising local procurement and employment opportunities wherever feasible
+and practical, supporting long-term socio-economic development in the host region. In parallel, the Company
+continues to leverage innovative research to strengthen its sustainability approach, including ongoing collaboration
+with leading academic and industry partners to better understand and quantify the broader societal value of rare
+earth development.
+
+Exploration
+During the period, Pensana Plc advanced exploration and resource development activities across its Angolan
+portfolio, with a primary focus on Longonjo and the Coola Exploration Project.
+
+   i.   Longonjo
+        Preparation has commenced for a 7,000 metre infill drill programme at Longonjo, designed to provide
+        detailed geological and grade control information ahead of the planned commencement of mining and
+        stockpiling/blending activities in early 2027. The programme will run in parallel with the previously
+        announced resource expansion drilling campaign.
+
+        Two reverse circulation drilling rigs are expected to be mobilised for drilling activities during the dry season
+        from May to October 2026. The programme targets completion of a 10 x 10 metre drill grid across the
+        weathered run-of-mine material within the initial production zones.
+
+        The Longonjo deposit comprises a near-surface blanket of high-grade, NdPr-rich total rare earth oxides
+        (“TREO”), with an average depth of approximately 30 metres. Previous drilling has confirmed that
+        mineralisation extends to depths exceeding 100 metres beneath the current resource envelope, highlighting
+        significant resource expansion potential.
+
+        The campaign will also include deeper sampling to better define the full vertical extent of mineralisation and
+        to assess the potential to increase inferred resources from the current 313 million tonnes at 1.43% TREO
+        towards a conceptual target of up to one billion tonnes at a similar grade.
+
+        To support the programme, a containerised on-site laboratory is being procured, incorporating sample
+        preparation facilities and an automated XRF analyser to enable timely and cost-efficient multi-element
+        analysis. Grade control drilling is expected to remain ongoing throughout most of the life of mine,
+        maintaining a position approximately one year ahead of mine planning.
+
+        The results of the infill and expansion drilling programmes will further support and refine the current mine
+        and stockpile blending strategy developed with Practara, strengthening the dataset well in advance of
+        commissioning.
+
+  ii.   Coola Exploration Project
+        The Coola Exploration Project licence is located approximately 160km east of the Port of Lobito in Angola.
+        Pensana, through Coola Mining Lda (in which it holds an effective 90% interest), was granted the licence in
+        May 2020. The licence area was initially 7,456km² and has since been reduced to 824km² following three
+        years of intensive prospecting.
+
+        Systematic phased exploration over the past four years has identified two prospective REE-bearing
+        complexes: the Sulima West alkaline complex and the Coola carbonatite, located approximately 90km and
+        40km north of Longonjo, respectively.
+
+              a.   Sulima West
+                   Metallurgical testwork on the monazite-rich Sulima West laterite continued during 2025 with the
+                   objective to assess physical separation techniques (gravity and/or magnetic separation) to produce
+                   a concentrate exceeding 35% TREO on site, which could potentially be economically transported to
+                   Longonjo for further processing.
+
+
+                                                          7
+    Results indicate that magnetic separation is more effective than gravity separation in upgrading the
+    TREO content. However, thus far, both techniques have failed to achieve the target of 35% TREO at
+    satisfactory recoveries. Consequently, other alternative processing routes are under consideration.
+
+b. Coola Carbonatite
+   The Coola carbonatite ring dyke is composed predominantly of dolomite and ankerite, with minor
+   gangue minerals including iron oxides, barite and quartz. The principal REE mineral is bastnaesite,
+   with minor monazite and florencite. A representative sample grading 3.98% TREO was subjected to
+   extensive metallurgical testwork.
+
+    Testwork, including magnetic, enhanced gravity separation and flotation processes, indicated that
+    the material is not amenable to conventional beneficiation techniques. Mineralogical analysis
+    demonstrated that REE minerals are disseminated and largely locked within the dolomite matrix,
+    limiting upgrading potential.
+
+    During 2025, exploration focused on drilling the central sand- and ferricrete-covered diatreme,
+    identified as a compelling magnetic target from ground geophysical surveys and interpreted as a
+    potential deeply weathered, supergene-enriched carbonatite. Seven reverse circulation boreholes
+    were completed. Drilling intersected shallow transported sands and alluvium overlying nodular
+    ferricrete, beneath which a serpentinised dunite pipe was encountered intruding the carbonatitic
+    breccias. TREO grades within the dunite were low (<1,000 ppm).
+
+    The drilling programme concluded that the central diatreme represents a weathered mafic dunite
+    plug with low rare earth element tenor, rather than a supergene-enriched carbonatite system, and
+    is surrounded by only weakly mineralised carbonatitic breccias.
+
+
+
+
+                                            8
+Principal Business Risks
+
+The Group is exposed to several risks and uncertainties which could have a material impact on its long-term
+development and performance, management of these risks is an integral part of the management of the Group. An
+overview of the key risks, and risk management procedures, which could affect the Group’s operational and financial
+performance was included in the company’s 2025 Annual Report, which can be accessed at www.pensana.co.uk.
+These may impact the Group over the medium to long term; however, the following key risks have been identified
+which may impact the Group over the short term.
+
+   i.   Financing and liquidity
+        The group is in pre-production phase and therefore has no revenue from operations currently. There is a
+        risk that funding may not be available and/or the cost of financing may be higher than expected.
+
+        The company notes that, alternative sources of funding will be required in the event that the contemplated
+        funding is delayed or the associated conditions precedent are not met. Additional funding will be required
+        to settle existing project-related contractor balances in the UK. Continuing support of these contractors will
+        be required until such funding is secured.
+
+        Additionally, the group would need to refinance or restructure the FSDEA facility in the event that the main
+        financing, which will include the appropriate restructuring of the FSDEA loan, is not achieved. Given the
+        support provided by the Angolan Government for the Longonjo Project to date along with recent approvals
+        received for Longonjo main financing, the directors anticipate such a restructuring to be successfully
+        concluded.
+
+        It is anticipated that the contemplated financing across the group may include further issues of equity,
+        export credit-backed debt financing and/or issuing a green bond. The ability of the company and group to
+        continue as a going concern is dependent on securing additional funding given the forecast expenditure.
+
+  ii.   Geopolitical Risk
+        Ongoing global geopolitical tensions and conflicts, including the war in the Middle East, continue to
+        contribute to uncertainty in global financial and commodity markets. This may impact the availability and
+        cost of funding, as well as investor risk appetite, which could affect the timing and terms of future capital
+        raises and project financing.
+
+        In addition, such conflicts may disrupt global supply chains and logistics, potentially leading to increased
+        costs, extended lead times, and reduced availability of key equipment and materials required for project
+        development. These factors could, in turn, impact the timing, execution and overall cost of the group’s
+        capital programme.
+
+        The group continues to monitor geopolitical developments closely and, where possible, implements
+        mitigation measures including early procurement strategies, supplier diversification and ongoing
+        engagement with financing partners.
+
+ iii.   Development of the Longonjo and separation facility projects
+        The group’s operations are at an early stage of construction development and future success will depend
+        on the group’s ability to manage the Longonjo and separation facility projects (the projects) and the
+        production of a mixed rare earth product at Longonjo for offtake to the separation facility processing plant
+        into a rare earth oxide. In particular, the group’s success is dependent upon the directors’ ability to develop
+        the projects by commencing and maintaining production at the sites, and there is no certainty that funding
+        will be available. Development of the projects could be delayed or could experience interruptions or
+        increased costs as a result of supply chain or inflationary pressures or may not be completed at all due to a
+        number of factors.
+
+        There can therefore be no assurance that the group will complete the various stages of development
+        necessary to begin generating revenue for the group at the projects and any of these factors may have a
+        material adverse effect on the group’s business, results of operations and activities, financial condition and
+        prospects.
+                                                          9
+  iv.   Logistical challenges and delays
+        Global supply chain challenges could result in logistical risks relating to availability, potential delays and
+        increased costs of equipment and material both for the project and operations phase.
+
+  v.    Commodity price and market supply concentration
+        If the group is able to develop the Longonjo and separation facility projects and/or the Coola Project for
+        production and the market price of rare earth oxide decreases significantly for an extended period of time,
+        the ability for the group to continue to attract finance, meet debt service requirements and ultimately
+        generate profits could be adversely affected.
+
+        Currently, China is the dominant producer of the world’s rare earth magnets. China could manipulate market
+        prices of rare earth oxides to control the number of new entrants into the market.
+
+  vi.   Attracting skilled employees
+        The group’s ability to compete in the competitive natural resources and specialist rare earth chemical
+        processing sectors depends upon its ability to retain and attract highly qualified management, geological
+        and technical personnel.
+
+        The loss of key management and/or technical personnel could delay the development of the Longonjo
+        Project, exploration at the Longonjo Project and the Coola Project and development and commissioning of
+        the separation facility project thereby negatively impacting on the ability of the group to compete in the
+        resources and chemical processing sectors.
+
+        In addition, the group will need to recruit key personnel to develop its business as and when it moves to
+        construction and ultimately operation of a mine, each of which requires additional skills.
+
+
+
+
+Mr. Tim George
+
+Chief Executive Officer
+
+27 March 2026
+
+
+
+
+                                                         10
+Condensed Consolidated Statement of Comprehensive Income
+for the six months ended 31 December 2025
+
+
+
+
+                                                                                         Unaudited            Unaudited
+                                                                                  31 December 2025     31 December 2024
+                                                                         Note                  US$                  US$
+
+  Administration expenses                                                  5             (4,668,792)         (2,545,911)
+
+  Impairment gains on financial assets                                                      551,395              59,075
+
+  Foreign currency exchange gains/(losses)                                 5              1,577,896           (409,504)
+
+  Loss from operations                                                                   (2,539,501)         (2,896,340)
+
+  Finance costs                                                                           (725,908)                    -
+
+  Loss before income tax                                                                 (3,265,409)         (2,896,340)
+
+  Income tax                                                               6                       -                   -
+
+  Total loss for the period                                                              (3,265,409)         (2,896,340)
+
+
+
+  Other comprehensive loss
+
+  Items that may be reclassified subsequently to profit or loss
+
+  Foreign currency translation                                                           (1,256,308)          (295,360)
+
+  Total comprehensive loss for the period                                                (4,521,717)         (3,191,700)
+
+
+
+  Net loss for the period is attributable to:
+
+  Owners of Pensana Plc                                                                  (3,265,409)         (2,896,340)
+
+
+
+  Total comprehensive loss is attributable to:
+
+  Owners of Pensana Plc                                                                  (4,521,717)         (3,191,700)
+
+
+
+  Loss per share attributable to owners of Pensana Plc:
+
+  Basic (cents per share)                                                 17                  (1.07)              (1,00)
+
+  Diluted (cents per share)                                               17                  (1.07)              (1,00)
+
+
+
+
+                       Notes to the interim financial statements are included on pages 16 to 31.
+
+
+
+                                                              11
+Condensed Consolidated Statement of Financial Position
+as at 31 December 2025
+                                                                                        Unaudited
+                                                                                             As at         As at
+                                                                                      31 December        30 June
+                                                                                             2025          2025
+                                                                   Note                       US$            US$
+
+  ASSETS
+
+  NON-CURRENT ASSETS
+
+  Property, plant and equipment                                     10                  72,308,847    63,708,542
+
+  Intangible assets                                                  9                  14,951,647    15,019,794
+
+  Trade and other receivables                                        8                     141,607       870,137
+
+  TOTAL NON-CURRENT ASSETS                                                              87,402,101    79,598,473
+
+
+
+  CURRENT ASSETS
+
+  Cash and cash equivalents                                          7                  19,618,406       811,049
+
+  Trade and other receivables                                        8                  10,622,262     1,504,136
+
+  TOTAL CURRENT ASSETS                                                                  30,240,668     2,315,185
+
+
+
+  TOTAL ASSETS                                                                         117,642,769    81,913,658
+
+
+
+  LIABILITIES
+
+  CURRENT LIABILITIES
+
+  Trade and other payables                                          11                   9,528,076    14,227,604
+
+  Loans and borrowings                                              12                  11,259,009    17,160,116
+
+  TOTAL CURRENT LIABILITIES                                                             20,787,085    31,387,720
+
+  TOTAL LIABILITIES                                                                     20,787,085    31,387,720
+
+  NET ASSETS                                                                            96,855,684    50,525,938
+
+  EQUITY
+
+  Issued capital                                                    13                     426,511       372,767
+
+  Share premium                                                                         98,459,997    73,047,517
+
+  Reserves                                                                              63,285,101    53,428,255
+
+  Accumulated losses                                                                  (65,315,925)   (76,322,601)
+
+  TOTAL EQUITY                                                                          96,855,684    50,525,938
+
+
+
+
+                        Notes to the interim financial statements are included on pages 16 to 31.
+
+
+
+
+                                                          12
+Condensed Consolidated Statement of Changes in Equity
+for the six months ended 31 December 2025
+
+
+
+                                      Fully paid         Share        Accumulated        Merger           Foreign           Non-           Warrant        Share based         Equity           Total
+                                       ordinary        premium           Losses          Reserve         Exchange        controlling       Reserve2        Payments          Reserve
+                                        shares                                                            Reserve         interest                          Reserve
+
+                                         US$             US$              US$              US$             US$              US$                               US$              US$              US$
+ Unaudited                                                                                                                                   US$
+
+
+
+
+ Balance at 1 July 2025                      372,767   73,047,517     (76,322,601)      45,748,045         4,426,781                   -              -      3,753,429         (500,000)     50,525,938
+
+ Loss for the period                               -             -     (3,265,409)                 -                -                  -              -                 -              -      (3,265,409)
+
+ Other comprehensive loss                          -             -                -                -     (1,256,308)                   -              -                 -              -      (1,256,308)
+
+ Total comprehensive loss for
+                                                   -             -     (3,265,409)                 -     (1,256,308)                                  -                 -              -      (4,521,717)
+ the period                                                                                                                            -
+
+ Issue of shares (note 13)                    53,744   25,871,5171        (11,712)                 -                -                         490,739                   -      (876,081)     25,528,207
+
+ Capital raising costs                             -     (459,037)                -                -                                   -              -                 -              -       (459,037)
+
+ Subscription of shares by
+                                                   -             -      14,283,797                 -                      10,716,203                  -                 -              -     25,000,000
+ FSDEA in Ozango3
+ Share based payments                              -             -                -                -                -                  -              -        782,293                 -        782,293
+
+ Balance at 31 December 2025                 426,511   98,459,997      (65,315,925)     45,748,045         3,170,473      10,716,203          490,739        4,535,722      (1,376,081)      96,855,684
+
+
+
+1 The issuance of shares include 4.8 million shares which have been applied towards the settlement of the Wood contractor. It further includes 23.1 million shares issued to FSDEA with the conversion of
+
+ US$7.5 million of their loan into equity.
+2 Warrants were issued to a UK-based investment house as part of the lending agreements during the period.          These warrants were assessed under IAS 32 and determined to meet the fixed-for-fixed criterion.
+    Accordingly, they have been classified as equity instruments and recognised in equity at fair value on initial recognition. Equity-classified warrants are not subsequently re-measured. On 18 December 2025,
+    474,356 £0.001 fully paid ordinary shares were issued on exercise of the UK-based investment house ’s warrants as per the contractual agreement.
+
+3   Pursuant to receipt by Ozango of US$25 million by FSDEA, the Company’s majority ownership in Ozango reduced from 84% to 68.4%. However, as part of the remaining equity to be deployed, it is anticipated
+    that the effective ownership positions will be subject to further change, and as a result Pensana’s ownership is expected to increase and this will be communicated to the market accordingly in due course.
+
+
+
+
+                                       Fully paid          Share        Accumulated          Merger              Foreign       Share based        Equity         Total
+                                        ordinary         premium           Losses            Reserve            Exchange        Payments         Reserve
+                                         shares                                                                  Reserve         Reserve
+
+    Unaudited                             US$              US$              US$               US$                 US$             US$                             US$
+
+                                                                                                                                                   US$
+    Balance at 1 July 2023                 361,440       70,826,007      (65,960,831)        45,748,045         (1,198,621)      1,679,774        (500,000)    50,955,814
+
+    Loss for the period                             -               -     (2,896,340)                  -                   -                 -             -   (2,896,340)
+    Other comprehensive loss                        -               -                -                 -         (295,360)                   -             -     (295,360)
+
+    Total comprehensive loss for                                          (2,896,340)                            (295,360)                   -             -   (3,191,700)
+    the period
+    Issue of shares (note 13)                 (518)         321,063                  -                 -                   -                 -             -      320,545
+
+    Share-based payments                            -               -                    -             -                   -       174,645                 -      174,645
+
+    Balance at 31 December 2024            360,922       71,147,070       (68,857,171)       45,748,045         (1,493,981)      1,854,419        (500,000)    48,259,304
+
+
+
+
+Notes to the interim financial statements are included on pages 16 to 31.
+
+
+
+                                                                                                           14
+Condensed Consolidated Statement of Cash Flows
+for the six months ended 31 December 2025
+
+
+                                                                                      Unaudited        Unaudited
+                                                                                    31 December      31 December
+                                                                                           2025             2024
+
+
+
+                                                                          Note               US$             US$
+
+Cash flows from operating activities
+
+Operating cash flows                                                       19         (6,325,443)     (2,393,764)
+
+Net cash used in operating activities                                      19         (6,325,443)     (2,393,764)
+
+
+
+Cash flows from investing activities
+
+R&D tax credit                                                                             9,083         509,503
+
+Product development funding received                                                    1,015,084               -
+
+Technical assistance and government grants received                                     1,635,345        340,000
+
+Payments for property, plant and equipment and intangibles                 19        (15,998,614)     (4,369,954)
+
+Net cash used in investing activities                                                (13,339,102)     (3,520,451)
+
+
+
+Cash flows from financing activities
+
+Proceeds from short-term debt                                              12           1,700,000      4,118,468
+
+Net proceeds from issues of equity securities, net of share issue costs    13         11,819,103         320,544
+
+Proceeds from subscription of shares by FSDEA in Ozango                               25,000,000                -
+
+Interest paid                                                              12            (46,904)               -
+
+Net cash provided by financing activities                                             38,472,199       4,439,012
+
+
+
+Net increase/(decrease) in cash and cash equivalents                                  18,807,654      (1,475,203)
+
+
+
+Cash and cash equivalents at beginning of the period                                     811,049       1,515,378
+
+Effects of exchange rate changes on the balance of cash held in foreign
+                                                                                            (297)            (42)
+currencies
+
+Cash and cash equivalents at the end of the period                         7          19,618,406          40,133
+
+
+
+
+                         Notes to the interim financial statements are included on pages 16 to 31.
+Notes to the financial statements
+
+1. General information
+
+The consolidated financial statements present the financial information of Pensana Plc and its subsidiaries (collectively,
+the group) for the six months ended 31 December 2025 in United States dollars (US$). Pensana Plc (the company or
+the parent) is a public company limited by shares listed on the Main Market of the London Stock Exchange (LSE) and
+incorporated in England & Wales on 13 September 2019. The registered office is located at 107 Cheapside, Second
+Floor, London, EC2V 6DN, United Kingdom.
+
+The company is focused on rare earth exploration, mining and processing, whose flagship development assets are the
+Longonjo Rare Earth Mine and the Coola exploration project in Angola alongside the Saltend rare earth processing hub
+in the UK.
+
+In early 2020, Pensana Metals Ltd redomiciled the group to the UK pursuant to a scheme of arrangement in which
+Pensana Metals Limited became a wholly owned subsidiary of Pensana Plc. Prior to the transaction, the company was
+incorporated on 13 September 2019 and was a wholly owned subsidiary of Pensana Metals Limited.
+
+2. New accounting standards and interpretations
+
+(a) Changes in accounting policies and disclosures
+
+a) New standards, interpretations and amendments adopted from 1 July 2025
+
+The following amendments are effective for the period beginning 1 July 2025:
+
+    •    Lack of exchangeability (Amendment to IAS 21 The Effects of Changes in Foreign Exchange Rates)
+
+On 15 August 2023, the IASB issued Lack of Exchangeability which amended IAS 21 The Effects of Changes in Foreign
+Exchange Rates (the Amendments). The Amendments introduce requirements to assess when a currency is
+exchangeable into another currency and when it is not. The Amendments require an entity to estimate the spot
+exchange rate when it concludes that a currency is not exchangeable into another currency.
+
+These amendments had no effect on the consolidated financial statements of the Group.
+
+b) New standards, interpretations and amendments not yet effective
+
+There are a number of standards, amendments to standards, and interpretations which have been issued by the IASB
+that are effective in future accounting periods that the Group has decided not to adopt early.
+
+The following amendments are effective for the annual reporting period beginning 1 July 2026:
+
+    •    Amendments to the Classification and Measurement of Financial Instruments (Amendments to IFRS 9
+         Financial Instruments and IFRS 7 Financial Instruments: Disclosures)
+    •    Contracts Referencing Nature-dependent Electricity (Amendments to IFRS 9 and IFRS 7)
+
+The following standards and amendments are effective for the annual reporting period beginning 1 July 2027:
+
+    •    IFRS 18 Presentation and Disclosure in Financial Statements
+    •    IFRS 19 Subsidiaries without Public Accountability: Disclosures.
+
+The Group is currently assessing the effect of these new accounting standards and amendments.
+
+IFRS 18 Presentation and Disclosure in Financial Statements, which was issued by the IASB in April 2024 supersedes IAS
+1 and will result in major consequential amendments to IFRS Accounting Standards including IAS 8 Basis of Preparation
+of Financial Statements (renamed from Accounting Policies, Changes in Accounting Estimates and Errors). Even though
+IFRS 18 will not have any effect on the recognition and measurement of items in the consolidated financial statements,
+it is expected to have a significant effect on the presentation and disclosure of certain items. These changes include
+
+
+                                                           16
+categorisation and sub-totals in the statement of profit or loss, aggregation/disaggregation and labelling of
+information, and disclosure of management-defined performance measures.
+
+The Group does not expect to be eligible to apply IFRS 19.
+
+3. Material accounting policies and Going Concern
+
+Basis of preparation
+The condensed interim report, which is unaudited, has been prepared in accordance with UK-adopted International
+Accounting Standard 34 Interim Financial Reporting and the Disclosure Guidance and Transparency Rules sourcebook of
+the United Kingdom’s Financial Conduct Authority. This condensed interim report does not include all the notes of the
+type normally included in an annual financial report. This condensed interim report is to be read in conjunction with
+the annual report for the year ended 30 June 2025, and any public announcements made by the group during the
+interim reporting period. The comparative financial information for the year ended 30 June 2025 in this interim report
+does not constitute statutory accounts for that year. The statutory accounts for 30 June 2025 have been delivered to
+the Registrar of Companies.
+The auditors' report on those accounts was unqualified but drew attention to a material uncertainty in relation to going
+concern. It did not contain a statement under 498(2) or 498(3) of the Companies Act 2006. The financial report for the
+six months ended 31 December 2025 was prepared in accordance with the annual financial statements of the group
+and are prepared in accordance with UK adopted International Accounting Standards (IFRSs).
+The accounting policies applied in this condensed interim report are consistent with the polices applied in the annual
+financial statements for the year ended 30 June 2025 and were prepared in accordance with UK adopted International
+Financial Reporting Standards (IFRSs).
+As disclosed in the 30 June 2025 Annual Report, the company was incorporated on 13 September 2019 as a wholly
+owned subsidiary of Pensana Metals Limited. The company subsequently acquired 100% of the share capital of Pensana
+Metals Limited and its subsidiary companies for the effective issuance of 152,973,315 shares to the shareholders of
+Pensana Metals further to the scheme of arrangement approved on 22 January 2020 and completed on 5 February
+2020.
+The shares issued to the former shareholders of Pensana Metals Limited comprised 50,000,000 shares with a nominal
+value of £0.001 per share subscribed for incorporation of the company by Pensana Metals Ltd which were transferred
+to CHESS Depositary Nominees Pty Ltd (a subsidiary of the Australian Securities Exchange (ASX)) for use in the scheme
+of arrangement and 102,973,314 shares with a nominal value of £0.001 per share additionally issued by the company
+to CHESS Depositary Nominees Pty Ltd for use in the scheme of arrangement. CHESS Depositary Nominees Ltd
+subsequently issued CHESS Depositary Instruments in proportion to the interests the former shareholders of Pensana
+Metals held in that company for trading on the ASX with 152,973,315 CHESS Depositary Instruments issued for trading.
+The transaction represented a group reconstruction and common control transaction.
+The accounting for common control transactions is scoped out of IFRS 3 and, accordingly the Group has developed an
+accounting policy with reference to methods applied in alternative generally accepted accounting principles (GAAPs).
+Consequently, the consolidated financial statements are presented as if the company has always been the holding
+company for the group and the group has elected to apply merger accounting principles. Under this policy, the
+company and its subsidiaries are treated as if they had always been a group.
+The results are included from the date the subsidiaries joined the group and the comparatives reflect the results of the
+company and its subsidiaries. No fair value adjustments occur as a result of the transaction, and the assets and liabilities
+are incorporated at their predecessor carrying values.
+The policies have been consistently applied to all the periods presented, unless otherwise stated.
+
+Going Concern
+
+The group financial statements have been prepared on a going concern basis. In assessing the going concern basis of
+preparation, the directors have also considered the availability of funding and its impact on the progression of the
+Longonjo and separation facility projects. Similarly, the directors have also considered the impact of the ongoing
+geopolitical landscape, including ongoing global wars as it relates to availability of funding, costs, marketability of our
+product and the potential volatility in the debt and equity markets.
+                                                            17
+The directors are of the opinion that the group will be able to meet their obligations as and when they fall due for a
+period of at least 12 months from the date of approval of the financial statements.
+
+As at 31 December 2025, the group was in a net asset position of US$96.8 million (June 2025: US$50.5 million) and net
+current asset position of US$9.5 million (June 2025: US$29.1 million net current liability). In addition, the group
+reported a net loss after income tax of US$3.3 million (2024: US$2.9 million loss) and experienced cumulative net cash
+outflows from operating and investing activities of US$19.7 million (2024: US$5.9 million).
+
+Cash and cash equivalents totalled US$19.6 million at 31 December 2025 (June 2025: US$0.8 million).
+
+The directors have prepared a cash flow forecast for the period ending 30 June 2027 to support the going concern
+assessment, including estimated timing and sources of funds to support ongoing operations and project
+development.
+
+In assessing the going concern basis of preparation, the directors have also considered the availability of funding and
+its impact on the progression of the Longonjo and separation facility projects. Similarly, the directors have also
+considered the impact of the ongoing geopolitical landscape, including ongoing global wars as it relates to availability
+of funding, costs, marketability of our product and the potential volatility in the debt and equity markets.
+
+The balance sheet position as at 31 December 2025 reflects a significant improvement compared to prior periods,
+with a net current asset position of US$9.5 million (30 June 2025: US$ 29.1 million net current liability), with the
+movement of US$38.6 million mainly a result of net changes in net creditors/debtors of US$13.8 million driven by
+settlement of long outstanding creditors and conversion of US$7.5 million of the FSDEA bridging loan facility
+combined with cash available at year-end of US$19.6 million consisting of US$10.2 million Ozango equity available
+and US$7.0 million available to support ongoing corporate expenditure (Net of short term borrowings, excluding
+FSDEA debt). The overall increase in cash position was mainly a result of equity raises to the value of US$10 million
+as announced in December 2025 and the deployment of US$25 million equity by FSDEA as part of the first tranche
+of equity funding deployed at Ozango subsidiary level.
+
+As at 31 December 2025, the uncertainty around going concern is limited to the company’s ability to settle the
+remaining balance outstanding under the FSDEA bridging loan (US$ 8.7 million) as well as the deployment of the
+remaining funds towards the construction of the Longonjo Rare Earth Mine, currently underway. The Board is of the
+opinion that these uncertainties are sufficiently mitigated based on the staged conversion of the bridging loan as
+agreed with FSDEA along with existing funding approvals in place to support construction of the Longonjo Rare Earth
+Mine.
+
+It is anticipated that the contemplated financing across the group may include further issues of equity, export credit-
+backed debt financing and/or issuing a green bond. The ability of the company and group to continue as a going
+concern is dependent on securing such additional funding given the forecast expenditure.
+
+Although conditions regarding the financing and cash flow mentioned above indicate a material uncertainty which
+may result in the Group being unable to realise its assets and discharge its liabilities in the normal course of business,
+the funding approvals received have provided comfort to the Board of the Group’s ability to continue as a going
+concern and work towards raising the requisite funding as outlined above.
+
+The group and the parent company financial statements do not include the adjustments that would result if the group
+and the parent company were unable to continue as going concerns.
+
+Critical accounting judgements and key sources of estimation uncertainty
+ In applying the Group’s accounting policies, management continually evaluates judgements, estimates and
+assumptions based on experience and other factors, including expectations of future events that may have an impact
+on the group. All judgments, estimates and assumptions made are believed to be reasonable based on the most current
+set of circumstances available to management. Actual results may differ from the judgements, estimates and
+assumptions.
+
+Significant judgements, estimates and assumptions made by management in the preparation of these financial
+statements are outlined below:
+
+
+
+
+                                                            18
+(i)   Significant accounting judgements
+Impairment indicator assessment of development assets
+
+The ultimate recovery of the value of the group’s development assets as at 31 December 2025 is dependent on the
+successful development and commercial exploitation of the Longonjo Project. Judgement was exercised in assessing
+the extent to which impairment indicators existed as at 31 December 2025 in respect of the Longonjo Project. In
+forming this assessment, internal and external factors were evaluated.
+
+Management determined that no impairment indicators existed having considered the steadiness in rare earth
+pricing, the Longonjo funding approvals being obtained and the contemplated staged development of Longonjo.
+
+Impairment indicator assessment of assets under construction
+
+The ultimate recovery of the value of the Saltend development assets as at 31 December 2025 is dependent on the
+successful development and commercial exploitation of the Saltend facility.
+
+Judgement was exercised in assessing the extent to which impairment indicators existed as at 31 December 2025 in
+respect of the Saltend Project.
+
+In forming this assessment, internal and external factors were evaluated. As detailed below, the underlying financial
+model involves estimates regarding commodity prices, production and reserves, operating costs and capital
+development together with discount rates and demonstrates significant headroom. Management therefore
+determined that no impairment indicator existed.
+
+Climate change
+
+Management has considered the impact of climate change in preparing these consolidated financial statements. These
+considerations, which are integral to the group’s strategy and operations, were considered in the following areas:
+
+      •   The judgements involved in the evaluation of indicators of impairment for the group’s development assets
+          and assets under construction);
+      •   The judgements used in the evaluation of the group’s exploration and evaluation assets for impairment; and
+      •   The evaluation of the residual values and economic useful lives of property, plant and equipment.
+
+The effects of climate-related strategic decisions are incorporated into management’s judgements and estimates, as
+these relate to the future cash flow projections underpinning the recoverable amounts of mining interests, when the
+decisions have been approved by the board, and the implementation of these is likely to occur. The considerations
+with respect to climate change did not have a material impact on the key accounting judgements and estimates noted
+above in the current year, however, the emphasis on climate-related strategic decisions, such as a focus on
+decarbonisation, further electrification and sourcing of renewable power may have a significant impact in future
+periods.
+
+(ii) Significant accounting estimates and assumptions
+
+Share-based payment transactions
+
+The group measures the cost of equity-settled transactions with directors and others by reference to the fair value of
+the equity instruments at the date on which they are granted. The fair value is determined using a stochastic model to
+value awards with market-based conditions and a Black-Scholes valuation model for awards that are not subject to
+market-based performance conditions. These models require estimates for inputs such as share price volatility and
+total shareholder return. The share-based payment arrangements are expensed on a straight-line basis over the vesting
+period, based on the group’s estimate of shares that will eventually vest. At each reporting date, vesting assumptions
+are reviewed to ensure they reflect current expectations and immediately recognise any impact of the revision to
+original estimates. Judgement is required as to the likelihood of the vesting conditions being met, such as the progress
+of financing of various projects, the lost time injury frequency rate, progress of construction of the projects, etc. If fully
+vested share options are not exercised and expire, then the accumulated expense in respect of these is reclassified to
+accumulated losses.
+
+
+
+
+                                                             19
+Impairment assessment of Saltend intangibles
+
+The ultimate recovery of the value of the Saltend intangibles as at 31 December 2025 is dependent on the successful
+development and commercial exploitation of the Saltend facility.
+
+An impairment assessment is performed annually. Judgement was exercised in assessing the extent to which
+impairment existed as at 31 December 2025 in respect of the Saltend Project. In forming this assessment, management
+performed an impairment assessment based on the feasibility studies at Saltend. The underlying financial model
+involves estimates regarding commodity prices, production and reserves, operating costs and capital development
+together with discount rates and demonstrates significant headroom. Management therefore determined that no
+impairment existed.
+
+4. Operating Segments
+Description of segments
+The group has identified its operating segments based on the internal reports that are used by the chief operating
+decision maker in assessing performance and determining the allocation of resources.
+The group has identified that it has two operating segments being related to the activities in Angola and Saltend (UK).
+Corporate relates to operations in Australia and Portugal which consist of corporate and head office-related costs.
+Any property, plant and equipment included in the Australian and Portuguese entities which relates to Longonjo, has
+been included in the Angolan reporting segment.
+
+
+
+
+                                                          20
+ 31 December 2025                                       Angola             UK        Corporate            Total
+                                                          US$             US$             US$              US$
+
+ Non-current assets – opening balance               59,763,506     19,834,967                 -      79,598,473
+
+ Non-current assets – additions/movements           10,499,953     (2,696,325)                -       7,803,628
+
+ Non-current assets – closing balance               70,263,459     17,138,642                        87,402,101
+
+
+ Current assets                                     12,533,187     16,438,168        1,269,313       30,240,668
+
+ Current and non-current liabilities                (1,201,504)   (18,536,770)      (1,048,811)    (20,787,085)
+
+ Cash and cash equivalents                           9,049,814      9,195,634        1,372,958       19,618,406
+
+ Six months ended 31 December 2025
+
+ Administration expenses                            (1,050,904)    (4,247,147)         629,259      (4,668,792)
+
+ Depreciation                                           18,775            433                 -         19,208
+
+ Operating (loss)/gain                               (659,502)     (3,333,099)       1,453,100      (2,539,501)
+
+ Material non-cash items – share-based payments               -      (782,293)                -       (782,293)
+
+ Material non-cash items – foreign exchange gains      391,402      1,088,560           97,934        1,577,896
+
+ Loss before tax                                     (659,502)     (4,059,007)       1,453,100      (3,265,409)
+
+ Loss for the period                                 (659,502)     (4,059,007)       1,453,100      (3,265,409)
+
+
+ 30 June 2025                                           Angola             UK        Corporate            Total
+                                                          US$             US$             US$              US$
+
+ Non-current assets – opening balance               53,039,521     17,927,154                –       70,966,675
+
+ Non-current assets – additions                      6,723,985      1,907,813                –        8,631,798
+
+ Non-current assets – closing balance               59,763,506     19,834,967                –       79,598,473
+
+ Current assets                                        884,146      2,264,544           36,632        3,185,322
+
+ Current and non-current liabilities                (1,371,717)   (28,330,874)      (1,685,129)    (31,387,720)
+
+ Cash and cash equivalents                               2,910        800,401            7,738         811,049
+
+
+
+ Six months ended 31 December 2024
+
+ Administration expenses                             (837,410)     (1,601,266)       (107,235)      (2,545,911)
+
+ Depreciation                                         (16,952)         (2,045)                -        (18,997)
+
+ Operating (loss)/gain                              (3,579,949)      (762,152)       1,445,761      (2,896,340)
+
+ Material non-cash items – share-based payments               -      (174,645)                -       (174,645)
+
+ Material non-cash items – foreign exchange gains    (153,800)       (780,039)       1,343,343        (409,504)
+ and losses
+
+
+
+ Loss before tax                                    (3,579,949)      (762,152)       1,445,761      (2,896,340)
+
+ Loss for the period                                (3,579,949)      (762,152)       1,445,761      (2,896,340)
+
+
+Non-current assets consist mainly of development assets and assets under construction. Additions and depreciation
+of non-current assets are disclosed in note 10.
+
+                                                         21
+5. Other Expenses
+
+                                                                                 Six months       Six months
+                                                                                      ended            ended
+                                                                               31 December      31 December
+                                                                                       2025             2024
+                                                                                       US $             US $
+ Administration expenses
+
+ General administration costs                                                     1,387,822          568,118
+
+ Audit and non-audit fees                                                          151,620            93,906
+
+ Consultant Fees                                                                   211,180           194,701
+
+ Travel expenses                                                                   116,665            85,012
+
+ Legal fees                                                                        211,337             2,411
+
+
+
+ Operating lease rental expenses:
+
+ Lease payments (short-life leases)                                                 46,333            47,460
+
+
+
+ Depreciation on non-current assets:
+
+ Property, plant and equipment                                                      19,208            18,997
+
+
+
+ Employee Benefits
+
+ Performance rights and options granted to
+ directors, officers and employees                                                 782,293           174,645
+
+ Directors’ fees and employee benefits                                            1,578,468        1,282,053
+
+ Social security costs                                                             163,866            78,608
+
+ Total administration expenses                                                    4,668,792        2,545,911
+
+
+
+Foreign currency exchange gains/losses:
+Foreign exchange gain of $1,577,896 (2024: $409,504 loss) comprises realised foreign exchange movements on
+retranslation of monetary balances and unrealised foreign exchange movements on inter-company loans which are
+considered repayable in the foreseeable future.
+
+
+
+
+                                                     22
+6. Income Taxes
+
+                                                                                                            Consolidated
+
+                                                                                                6 months ending       6 months ending
+                                                                                                  31 December           31 December
+                                                                                                      2025                  2024
+                                                                                                      US $                  US $
+ Current taxation
+
+ Current tax charge/ (credit)                                                                          -                     -
+
+No Liability to corporation tax arose in ordinary activities for the half year ended 31 December 2025 or 31 December 2024.
+The tax assessed for the year utilised the standard rate of tax in the UK of 25% (2024: 25%).
+
+Tax rate reconciliation:
+
+
+
+                                                                                                      Six months           Six months
+                                                                                                           ended                ended
+                                                                                                    31 December          31 December
+                                                                                                            2025                 2024
+                                                                                                             US $                 US $
+   Loss from continuing operations before tax                                                         (3,265,409)          (2,896,340)
+
+
+
+   Loss on continuing activities multiplied by the rate of
+   corporation tax in the UK of 25% (2024:25%)                                                         (816,352)            (724,085)
+
+
+
+   Tax effects of:
+
+   Different tax rates in overseas jurisdictions                                                             3,477                 2,539
+
+   Amounts which are not deductible/(taxable)                                                              195,720                46,928
+
+   Unrecognised tax losses                                                                                 617,155               674,618
+
+   Total tax charge/(credit)                                                                                      -                    -
+
+
+
+
+7. Cash and Cash Equivalents
+
+
+                                                                                                            As at                  As at
+                                                                                                     31 December                 30 June
+                                                                                                            2025                   2025
+                                                                                                             US$                     US$
+
+
+
+   Cash at bank and on hand                                                                            19,618,406                811,049
+
+                                                                                                       19,618,406                811,049
+
+
+
+
+                                                                 23
+8. Trade and Other Receivables
+
+
+                                                                                               As at             As at
+                                                                                        31 December            30 June
+                                                                                               2025              2025
+                                                                                                US$                US$
+
+
+
+ Trade receivables                                                                            27,529            29,771
+
+ Prepayments                                          1                                    2,679,688           193,776
+
+ Value added tax (VAT) receivables                                                         1,709,995         1,493,655
+
+ Other receivables                                    2                                    6,346,657           657,071
+
+                                                                                          10,763,869         2,374,273
+
+ Less: Non-current VAT receivable                                                           (141,607)        (870,137)
+
+ Total current receivables                                                                10,622,262         1,504,136
+
+
+1) Prepayments include an amount of US$2.5 million relating to the down-payments on long lead items for Ozango.
+
+2) Other receivables of US$6.3 million include an amount of $5.8 million relating to the issuance of 4.8 million new
+   ordinary shares of £0.001 each in October 2025 at a price of £1.20. Proceeds of the sale of these shares were applied
+   towards the settlement of the outstanding creditor balance with Wood Plc. Unsold shares at 31 December 2025
+   amounted to 3.6 million shares, with the outstanding shares to be sold and the creditor fully settled in due course.
+
+
+9. Intangible assets
+
+                                                                                               As at             As at
+                                                                                        31 December            30 June
+                                                                                               2025              2025
+                                                                                                US$                US$
+     Saltend intangible assets
+
+     Carrying value
+
+     Balance at the beginning of the year                                                 14,562,880        13,215,564
+
+     Additions                                                                                      -          223,690
+
+     Adjustment on currency translation                                                     (293,249)        1,123,626
+
+     Balance at the end of the period                                                     14,269,631        14,562,880
+
+     Coola exploration and evaluation expenditure
+
+     Carrying value
+
+     Balance at the beginning of the year                                                    456,914           396,697
+
+     Additions                                                                               225,102            60,217
+
+     Balance at the end of the period                                                        682,016           456,914
+
+     Total intangibles                                                                    14,951,647        15,019,794
+
+
+
+
+                                                          24
+10. Property, plant and equipment
+
+
+                              Buildings        Plant and   Development        Assets under    Motor           Office      Computer       Total
+                                              equipment       asset           construction   vehicles       equipment     equipment
+
+                                US$              US$           US$                US$          US$            US$           US$           US$
+
+
+
+Cost
+Balance at 1 July 2025           38,526           39,984     59,191,332          4,374,567     216,395           7,983        41,905   63,910,692
+
+Additions                       375,120          115,276     10,182,235                  -      91,368                -        9,621   10,773,620
+
+R&D tax credits                           -            -         (9,083)                 -              -             -            -       (9,083)
+
+Technical assistance grants
+                                          -            -     (1,441,242)         (194,103)              -             -            -   (1,635,345)
+received
+
+Product development funding
+                                          -            -                  -      (508,609)              -             -            -    (508,609)
+received
+
+Adjustment on currency
+                                          -            -         92,232           (93,285)              -             -        (465)       (1,518)
+translation
+
+Balance at 31 December 2025     413,646          155,260     68,015,474          3,578,570     307,763           7,983        51,061   72,529,757
+
+
+
+Depreciation
+
+Balance at 1 July 2025           10,068           17,839                  -              -     136,579           5,072        32,592      202,150
+
+Charge for the year                   890          2,571                  -              -      12,769              282        2,696       19,208
+
+ Adjustment on currency
+                                          -            -                  -              -              -             -        (448)        (448)
+ translation
+
+Balance at 31 December 2025      10,958           20,410                  -              -     149,348           5,354        34,840      220,910
+
+
+
+Net Book Value
+
+At 1 July 2025                   28,458           22,145     59,191,332          4,374,567      79,816           2,911         9,313   63,708,542
+
+ At 31 December 2025            402,688          134,850     68,015,474          3,578,570     158,415           2,629        16,221   72,308,847
+
+
+
+
+                                                                     25
+11. Trade and other Payables
+
+                                                                           As at         As at
+                                                                    31 December        30 June
+                                                                           2025          2025
+                                                                            US$            US$
+
+
+    Trade and other payables                                           8,059,804    12,278,293
+
+    Accrued expenses                                                   1,410,968     1,906,951
+
+    Statutory liabilities                                                57,304         42,360
+
+                                                                       9,528,076    14,227,604
+
+
+
+12. Loans and borrowings
+
+                                                                           As at         As at
+                                                                    31 December        30 June
+                                                                           2025          2025
+                                                                            US$            US$
+
+
+    Interest bearing liabilities (current)
+
+    Bridging loan facility                                             8,656,270    16,320,116
+
+    External loan facility                                             2,602,739       840,000
+
+    Total                                                             11,259,009    17,160,116
+
+
+
+    Net debt reconciliation
+
+    Cash and cash equivalents                                         19,618,406       811,049
+
+    Borrowings                                                      (11,259,009)   (17,160,116)
+
+                                                                       8,359,397   (16,349,067)
+
+
+
+                                                      Borrowings           Cash           Total
+                                                             US$            US$            US$
+    Net (borrowings)/cash at 1 July 2025             (17,160,116)       811,049    (16,349,067)
+
+    Net cash used in operating activities                       -   (14,560,078)   (14,560,078)
+
+    Net cash used in investing activities                       -   (10,854,534)   (10,854,534)
+
+    Net proceeds from loans and borrowings            (1,700,000)      1,700,000              -
+
+    Accrual of interest, net on borrowings               101,107               -       101,107
+
+    Proceeds from issues of equity securities                   -     25,069,170    25,069,170
+
+    FSDEA bridging loan conversion to equity           7,500,000     (7,500,000)              -
+
+    FSDEA investment in Ozango                                  -     25,000,000    25,000,000
+
+    Interest paid                                               -       (46,904)       (46,904)
+
+    Foreign exchange movements                                  -          (297)          (297)
+
+    Net cash/(borrowings) at 31 December 2025        (11,259,009)     19,618,406     8,359,397
+
+
+                                                26
+A portion of the FSDEA loan facility was converted into equity during the period. There was no interest charged during the period
+on the remaining FSDEA loan (31 Dec 2024: 6.95%).
+
+The group received an additional US$1.7 million during the period from an external loan facility. A fixed coupon rate of 5% was
+payable on the facility. Repayment was initially scheduled for four months following the drawdown, however, the loan was
+restructured in August 2025 into a new facility that carries interest at 12% per annum on the outstanding principal amount, to be
+paid quarterly in arrears. The term of the facility is 12 months for each drawdown.
+
+The company’s shareholding in Ozango acts as security for the bridging loan facility from FSDEA.
+
+In terms of the external loan facility, the company charged its shares in its subsidiaries as security for the facility. The charge covers
+the shares held by the company in Sable Min Unipessoal Lda, SBLRTHS Unipessoal Lda and Saltend Magnet Metals Limited.
+
+
+
+13. Issued Capital
+                                                                  As at 31           As at 31
+                                                                December           December          As at 30 June        As at 30 June
+
+                                                                        2025             2025                 2025                 2025
+
+                                                                   Number                 US$             Number                    US$
+
+      Fully paid ordinary shares
+
+      Balance at the beginning of the period                  299,171,989             372,767         288,772,873              361,440
+
+      Shares issued 10 September 2025                            3,290,476              4,457            2,098,223                2,667
+
+      Share Placement 15 October 2025                            4,828,970              6,483            1,500,000                1,938
+
+      Share Placement 18 December 2025                           8,208,750             11,013                     -                    -
+
+      Shares issued 18 December 2025                            23,148,148             30,989                     -                    -
+
+      Correction                                                           -                 -                    -             (2,457)
+
+      Shares issued on STI and LTI awards                                  -                 -           3,943,750                5,320
+
+      Share Placement 18 December 2025                             125,000                167            2,857,143                3,859
+
+      Share Placement on exercise of warrants 18                   474,356                635                     -                    -
+      December 2025
+
+      Balance at period end                                   339,247,689             426,511         299,171,989              372,767
+
+
+
+
+Placements during half year ending 31 December 2025:
+On 10 September 2025, the company issued 2,857,143 £0.001 fully paid ordinary shares to Open Source Capital at a
+price of £0.35 per share and raised US$1,354,600. The company also issued 433,333 £0.001 fully paid ordinary shares
+to Quark Financial Limited for the settlement of equity raising fees.
+
+On 15 October 2025, the company issued 4,828,970 £0.001 fully paid ordinary shares at a price of £1.20 per share. The
+proceeds of these shares were applied towards the settlement of one of the company’s major contractors, Wood Plc.
+
+On 18 December 2025, the company issued 8,208,750 £0.001 fully paid ordinary shares to a consortium of investors
+at a price of £0.80 per share and raised US$8,809,185. Of this amount, 6.3 million shares were issued to M&G for
+US$6.7 million.
+
+On 18 December 2025, US$7.5 million of the FSDEA loan was converted into equity by the issuance of 23,148,148
+£0.001 fully paid ordinary shares at a price of £0.24 per share.
+
+On 18 December 2025, 125,000 £0.001 fully paid ordinary shares were issued to Quark Financial Limited at the
+following prices: 50,000 shares at £1.00, 50,000 shares at £1.20 and 25,000 shares at £1.50 as per the contractual
+obligation with them. On 18 December 2025, 474,356 £0.001 fully paid ordinary shares were issued on exercise of the
+UK-based investment house’s warrants as per the contractual agreement.
+
+                                                                   27
+Placements during half year ending 31 December 2024:
+On 26 July 2024, the company issued 1,500,000 fully paid ordinary shares to the Chairman at a price of £0.16 per share
+and raised US$323,000. This was part of the funding facilitated by the chairman under the £2 million working capital
+Facility made available to the company on 28 March 2024. Refer to note 20 for further information.
+
+Share options on issue
+As at 31 December 2024, there were nil shares under option (31 December 2023: nil).
+
+Performance rights on issue
+There are no performance rights outstanding as at period end.
+
+14. Commitments for Expenditure
+
+The group has certain obligations to perform exploration work and expend minimum amounts of money on mineral
+exploration tenements.
+
+No provision is required for minimum expenditure requirements in respect of tenements.
+
+(i)    Exploration Commitments
+There were no commitments for payments under exploration permits and mineral leases in existence at the reporting
+date, but not recognised as liabilities payable, as well as at 31 December 2025.
+(ii)   Capital Commitments
+       Capital expenditure contracted for at the reporting date but not yet incurred was as follows:
+                                                                                              As at             As at
+                                                                                       31 December            30 June
+                                                                                              2025              2025
+                                                                                               US$                US$
+
+
+       Capital expenditure                                                                22,303,840        2,502,588
+
+The expenditure relates primarily to the Longonjo Project in Angola.
+
+
+15. Contingent Liabilities and Contingent Assets
+
+The Directors are not aware of any other contingent liabilities or contingent assets that are likely to have a material
+effect on the results of the Group as disclosed in these financial statements.
+
+
+16. Share-based Payments
+
+Half year ended 31 December 2025
+During the period, no share awards and no short-term bonus share awards were issued to directors, senior
+management and employees.
+US$782,293 was charged to the statement of comprehensive income relating to existing share awards (31 Dec 2024:
+US$174,645.)
+No legacy awards remained to vest during the period.
+Half year ended 31 December 2024
+During the period, no share awards and no short-term bonus share awards were issued to directors, senior
+management and employees.
+No legacy awards remained to vest during the period.
+
+
+
+                                                                28
+17. Loss per share
+
+                                                                                             Six months      Six months
+                                                                                              ended 31        ended 31
+                                                                                             December        December
+                                                                                                2025            2024
+
+                                                                                              cents per      cents per
+                                                                                                share          share
+
+   Basic loss per share
+
+   From continuing operations                                                                    1.07          1.00
+
+   Total basic loss per share                                                                    1.07          1.00
+
+   Diluted loss per share
+
+   From continuing operations                                                                    1.07          1.00
+
+   Total diluted loss per share                                                                  1.07          1.00
+
+
+
+Basic loss per share
+
+The net loss and weighted average number of ordinary shares used in the calculation of basic loss per share are as
+follows:
+                                                                                          Unaudited          Unaudited
+
+                                                                                              As at              As at
+                                                                                       31 December        31 December
+                                                                                              2025               2024
+                                                                                               US$                US$
+
+     Net loss                                                                            (3,265,409)        (2,896,340)
+
+     Losses used in the calculation of basic loss per share from
+                                                                                         (3,265,409)        (2,896,340)
+     continuing operations
+
+     Losses used in the calculation of diluted loss per share
+                                                                                         (3,265,409)        (2,896,340)
+     attributable to ordinary shareholders
+
+
+
+                                                                                              As at               As at
+                                                                                       31 December         31 December
+                                                                                              2025                2024
+                                                                                               No.                 No.
+
+     Weighted average number of ordinary shares for the purposes
+     of calculating basic loss per share and diluted loss per share                     305,579,476         290,125,332
+
+
+
+No options (31 December 2024: nil) or performance rights (31 December 2024: nil) have been included in the diluted
+earnings per share calculations.
+Potential ordinary shares that could dilute basic earnings per share in the future but were anti-dilutive for the period,
+amounted to 21,847,141 shares (31 Dec 2024: none).
+
+
+
+
+                                                                   29
+18. Related party transactions
+
+During the previous year, Mr Kaplan provided funding of £293,307 to the company under the facility. The company
+settled an amount of £5,271 during the period. The net amount owing to Mr Kaplan as at 31 December 2025 was
+£420,642. (30 June 2025: £291,831.)
+During the period, US$7.5 million of the FSDEA loan was converted into equity in Ozango Minerais SA. The loan balance
+owed to FSDEA at 31 December 2025 was US$8,656,270 (30 June 2025: US$16,320,116).
+
+
+
+19. Notes to the Consolidated Statement of Cashflows
+
+Reconciliation of loss for the period to net cash flows from operating activities
+
+
+
+
+                                                                                                        Six months
+                                                                                    Six months ended         ended
+
+                                                                                        31 December    31 December
+                                                                                               2025           2024
+
+                                                                                                US$            US$
+
+
+
+ Net loss                                                                                (3,265,409)    (2,896,340)
+
+ Add/less non-cash items
+
+ Depreciation                                                                                19,208         18,997
+
+ Share based payments                                                                       782,293        174,645
+
+ Reversal of impairment loss on financial assets                                           (551,395)       (59,075)
+
+ Foreign exchange (gains)/losses                                                         (1,577,896)       409,504
+
+ Finance costs – interest accrued and costs associated with lender warrants                 725,908               -
+
+ VAT written off                                                                            158,507               -
+
+ Changes in Trade and other receivables                                                     237,928        (94,614)
+
+ Changes in Trade and other payables                                                     (2,854,587)        53,119
+
+ Net cash used in operating activities                                                   (6,325,443)    (2,393,764)
+
+
+
+
+                                                               30
+Reconciliation of additions to property, plant and equipment and intangibles to payments for property, plant and
+equipment and intangibles used in investing activities
+
+
+
+
+                                                                                                         Six months
+                                                                                Six months ended              ended
+
+                                                                                    31 December        31 December
+                                                                                           2025               2024
+
+                                                                                             US$                US$
+
+
+
+ Additions to property, plant and equipment                               10         (10,773,620)        (4,160,534)
+
+ Additions to Saltend intangible assets                                   9             (225,102)          (143,570)
+
+ Total additions                                                                     (10,998,722)        (4,304,104)
+
+ Capital items included in working capital                                            (4,999,892)           (65,850)
+
+ Payments for property, plant and equipment and intangibles
+ (cash flow investing activities)                                                    (15,998,614)        (4,369,954)
+
+
+
+
+20. Subsequent events
+
+On 21 January 2026 the company issued 275,000 new ordinary shares of £0.001 each to Quark Financial Limited as
+part of the Subscription Agreement with Quark Financial Limited concluded on 9 December 2025. Following the issue
+the total number of voting rights of the Company is 339,522,689.
+On 4 March 2026 the company announced a strategic investment of US$165 million by Cascade by way of
+US$15 million subscription for 3.8% share in Pensana Plc and US$150 million investment for a 38.2% interest in Sable,
+the Company's wholly owned subsidiary and majority shareholder in Ozango the developer of the Longonjo Rare Earth
+Mine. The strategic investment remains subject to long-form documentation and share applications which is currently
+underway. Upon completion of the strategic investment it is anticipated that the effective ownership position of Sable
+in Ozango will be subject to change, and as a result Pensana’s ownership is expected to increase and this will be
+communicated to the market accordingly in due course.
+No other matters or circumstances have arisen since 31 December 2025 that have significantly affected, or may
+significantly affect:
+    •     The Group’s operations in future financial years;
+    •     The results of those operations in future financial years; or
+    •     The Group’s state of affairs in future financial years.
+
+
+
+
+                                                              31
+RESPONSIBILITY STATEMENT
+We confirm that to the best of our knowledge: a. the Condensed Interim Report have been prepared in accordance
+with IAS 34 Interim Financial Reporting and give a true and fair view of the assets, liabilities, financial position and
+profit of the Group; and b. the Interim Management Report includes a fair review of the information required by FCA’s
+Disclosure and Transparency Rules (DTR 4.2.7 R and 4.2.8 R).
+
+
+
+
+By order of the Board
+Mr Paul Atherley
+27 March 2026
+
+
+
+
+                                                          32
+

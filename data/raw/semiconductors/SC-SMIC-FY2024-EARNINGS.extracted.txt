@@ -1,0 +1,585 @@
+Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no
+responsibility for the contents of this announcement, make no representation as to its accuracy or
+completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in
+reliance upon the whole or any part of the contents of this document.
+
+
+
+
+             SEMICONDUCTOR MANUFACTURING INTERNATIONAL CORPORATION
+                            中 芯 國 際 集 成 電 路 製 造 有 限 公 司*
+                   (Incorporated in the Cayman Islands with limited liability)
+                                     (STOCK CODE: 00981)
+
+SMIC REPORTS UNAUDITED RESULTS FOR THE THREE MONTHS ENDED DECEMBER 31, 2024
+
+The consolidated financial information is prepared and presented in accordance with International
+Financial Reporting Standards (“IFRSs”), unless otherwise stated below.
+
+    Revenue was $2,207.3 million in 4Q24, compared to $2,171.2 million in 3Q24, and $1,678.3
+     million in 4Q23.
+
+    Gross profit was $499.0 million in 4Q24, compared to $444.2 million in 3Q24, and $275.0 million in
+     4Q23.
+
+    Gross margin was 22.6% in 4Q24, compared to 20.5% in 3Q24 and 16.4% in 4Q23.
+
+    Unaudited revenue was $8,029.9 million in 2024, compared to $6,321.6 million in 2023.
+
+    Unaudited profit attributable to owners of the Company was $492.7 million in 2024, a decrease of
+     45.4% from $902.5 million in 2023, mainly due to the decrease of investment income and financial
+     income.
+
+Set out below is a copy of the full text of the release by the Company and its subsidiaries (the “Group”)
+on February 11, 2025, in relation to its unaudited results for the three months ended December 31, 2024.
+
+All currency figures stated in this report are in US Dollars unless stated otherwise.
+
+Shanghai, China – February 11, 2025 – Semiconductor Manufacturing International Corporation (SEHK:
+00981; SSE STAR MARKET: 688981) (“SMIC”, the “Company” or “we”), one of the leading
+semiconductor foundries in the world, today announced its consolidated results of operations for the
+three months ended December 31, 2024.
+
+
+
+
+* For identification purposes only
+
+                                                    -1-
+The following statements are forward looking statements based on current expectations and involved
+risks and uncertainties.
+
+First Quarter 2025 Guidance
+The Company expects (in accordance with IFRSs):
+
+   Revenue to increase by 6% to 8% QoQ.
+   Gross margin to range from 19% to 21%.
+
+
+The Management Comments
+The Company's revenue in the fourth quarter increased by 1.7% sequentially to exceed $2.2 billion.
+Gross margin increased by 2.1 percentage points sequentially to 22.6%.
+
+According to the unaudited financial results, the Company’s revenue in 2024 increased by 27% year-
+over-year to $8.03 billion, and gross margin was 18%. The Company’s capital expenditure in 2024 was
+$7.33 billion. Monthly capacity was 948 thousand standard logic 8-inch equivalent wafers by the end of
+the year. Total wafer shipment exceeded 8 million and annualized capacity utilization rate was 85.6%.
+
+The Company’s first quarter guidance is as follows: revenue is expected to grow 6% to 8% sequentially,
+and the gross margin is expected to be in the range of 19% to 21%.
+
+Based on the premise that there are no significant changes in the external environment, the Company's
+guidance for the year 2025 is: the revenue growth is expected to be higher than industry average in the
+same markets. The capital expenditure is expected to maintain roughly flat compared to that of previous
+year.
+
+
+
+
+                                                 -2-
+Conference Call / Webcast Announcement
+
+Date: Wednesday, February 12, 2025
+Time: 8:30 A.M. - 9:30 A.M.
+
+WEBCAST
+The call will be webcast live at:
+https://edge.media-server.com/mmc/p/ibhnk4ps
+
+CONFERENCE CALL
+Please register in advance for the conference call at:
+https://register.vevent.com/register/BIb8860a75a7634636b8d789d5bc063b86
+
+REPLAY
+Recording will be available 1 hour after the event and it will be archived for 12 months.
+https://www.smics.com/tc/site/company_financialSummary
+
+
+
+
+About SMIC
+Semiconductor Manufacturing International Corporation (SEHK: 00981; SSE STAR MARKET: 688981)
+is one of the leading foundries in the world and is the front runner in manufacturing capability,
+manufacturing scale, and comprehensive service in the Chinese Mainland. SMIC Group provides
+semiconductor foundry and technology services to global customers on 8-inch and 12-inch wafers.
+Headquartered in Shanghai, China, SMIC Group has an international manufacturing and service base,
+with 8-inch and 12-inch wafer fabrication facilities in Shanghai, Beijing, Tianjin and Shenzhen. SMIC
+Group also has marketing and customer service offices in the U.S., Europe, Japan, and Taiwan, China.
+
+For more information, please visit www.smics.com.
+
+
+Forward-Looking Statements
+
+This release may contain, in addition to historical information, forward-looking statements. These
+forward-looking statements are based on SMIC's current assumptions, expectations, beliefs, plans,
+objectives, and projections about future events or performance. SMIC uses words including but not
+limited to “believe”, “anticipate”, “intend”, “estimate”, “expect”, “project”, “target”, “going forward”,
+“continue”, “ought to”, “may”, “seek”, “should”, “plan”, “could”, “vision”, “goal”, “aim”, “aspire”, “objective”,
+“schedule”, “outlook” and other similar expressions to identify forward looking statements. These
+forward-looking statements are estimates made by SMIC's senior management based on their best
+judgment and involve significant risks, both known and unknown, uncertainties and other factors that
+may cause SMIC's actual performance, financial condition or results of operations to be materially
+different from those suggested by the forward-looking statements including, among others, risks
+associated with cyclicality and market conditions in the semiconductor industry, intense competition in
+the semiconductor industry, timely wafer acceptance by SMIC's customers, timely introduction of new
+technologies, SMIC's ability to ramp new products into volume, supply and demand for semiconductor
+foundry services, shortages in equipment, parts, raw materials, software and service supports, orders or
+judgments from pending litigation, common intellectual property litigation in the semiconductor industry,
+macro-economic conditions, fluctuations in currency exchange rates and the risk of geopolitics.
+
+
+
+
+                                                      -3-
+                       Summary of Fourth Quarter 2024 Operating Results
+
+Amounts in US$ thousands, except for earnings per share
+                                                              4Q24             3Q24          QoQ             4Q23          YoY
+    Revenue                                              2,207,281        2,171,188        1.7%         1,678,299       31.5%
+    Cost of sales                                      (1,708,270)      (1,727,028)       -1.1%       (1,403,344)       21.7%
+    Gross profit                                           499,011          444,160       12.3%           274,955       81.5%
+    Operating expenses                                   (284,544)        (274,273)        3.7%         (167,677)       69.7%
+    Profit from operations                                 214,467          169,887       26.2%           107,278       99.9%
+    Other income, net                                      140,791            72,985      92.9%           140,703        0.1%
+    Profit before tax                                      355,258          242,872       46.3%           247,981       43.3%
+    Income tax expense                                     (84,312)         (19,602)     330.1%           (10,713)     687.0%
+    Profit for the period                                  270,946          223,270       21.4%           237,268       14.2%
+
+    Profit for the period attributable to:
+     Owners of the Company                                 107,587          148,800      -27.7%           174,678      -38.4%
+     Non-controlling interests                             163,359           74,470      119.4%            62,590      161.0%
+    Profit for the period                                  270,946          223,270       21.4%           237,268       14.2%
+
+    Gross margin                                             22.6%            20.5%                         16.4%
+
+    Earnings per share(1)
+     Basic                                                    $0.01            $0.02                         $0.02
+     Diluted                                                  $0.01            $0.02                         $0.02
+
+
+Note:
+(1) Based on weighted average ordinary shares of 7,975 million (basic) and 7,998 million (diluted) in 4Q24, 7,960 million (basic)
+    and 7,981 million (diluted) in 3Q24, and 7,946 million (basic) and 7,968 million (diluted) in 4Q23.
+
+      Revenue was $2,207.3 million in 4Q24, an increase of 1.7% QoQ from $2,171.2 million in 3Q24.
+
+      Cost of sales was $1,708.3 million in 4Q24, compared to $1,727.0 million in 3Q24.
+
+      Gross profit was $499.0 million in 4Q24, compared to $444.2 million in 3Q24.
+
+      Gross margin was 22.6% in 4Q24, compared to 20.5% in 3Q24.
+
+      Operating expenses were $284.5 million in 4Q24, compared to $274.3 million in 3Q24. The change
+       was mainly due to the reasons stated in Operating Expenses below.
+
+      Other income, net was $140.8 million gain in 4Q24, compared to $73.0 million gain in 3Q24. The
+       change was mainly due to the reasons stated in Other Income, Net below.
+
+
+
+
+                                                            -4-
+Analysis of Revenue
+
+    Revenue Analysis
+    By Geography                                                 4Q24          3Q24    4Q23
+    China                                                       89.1%          86.4%   80.8%
+    America                                                      8.9%          10.6%   15.7%
+    Eurasia                                                      2.0%           3.0%    3.5%
+    By Service Type                                              4Q24           3Q24    4Q23
+    Wafers                                                      92.5%          94.4%   92.9%
+    Others                                                       7.5%           5.6%    7.1%
+    Wafer Revenue Analysis
+    By Application                                               4Q24          3Q24    4Q23
+    Smartphone                                                  24.2%          24.9%   30.2%
+    Computer and Tablet                                         19.1%          16.4%   30.6%
+    Consumer Electronics                                        40.2%          42.6%   22.8%
+    Connectivity and IoT                                         8.3%           8.2%    8.8%
+    Industrial and Automotive                                    8.2%           7.9%    7.6%
+    By Size                                                      4Q24           3Q24    4Q23
+    8” wafers                                                   19.4%          21.5%   25.8%
+    12” wafers                                                  80.6%          78.5%   74.2%
+
+Capacity
+      Monthly capacity increased to 947,625 standard logic 8-inch equivalent wafers for the ended 4Q24
+       from 884,250 standard logic 8-inch equivalent wafers for the ended 3Q24.
+
+Shipment and Utilization
+                                                                4Q24            3Q24    QoQ        4Q23     YoY
+Wafer shipments(1)                                         1,991,761      2,122,266    -6.1%   1,675,002   18.9%
+Utilization rate(2)                                           85.5%          90.4%                76.8%
+
+Notes:
+(1) Based on standard logic 8-inch equivalent
+(2) Based on total wafers out divided by estimated total quarterly capacity.
+
+Capex Summary
+      Capital expenditure was $1,660.1 million in 4Q24, compared to $1,178.8 million in 3Q24. The total
+       capital expenditure in 2024 was $7.33 billion.
+
+
+
+
+                                                              -5-
+Detailed Financial Analysis
+Gross Profit
+Amounts in US$ thousands                            4Q24        3Q24        QoQ         4Q23       YoY
+Cost of sales                                  1,708,270    1,727,028      -1.1%   1,403,344      21.7%
+ Depreciation and amortisation                   788,055      686,719      14.8%     602,245      30.9%
+ Other manufacturing costs                       920,215    1,040,309     -11.5%     801,099      14.9%
+Gross profit                                     499,011      444,160      12.3%     274,955      81.5%
+Gross margin                                      22.6%        20.5%                  16.4%
+
+Depreciation and Amortisation
+Amounts in US$ thousands                            4Q24        3Q24        QoQ         4Q23        YoY
+Depreciation and amortisation                    849,263     831,097       2.2%       700,034     21.3%
+
+Operating Expenses
+Amounts in US$ thousands                            4Q24        3Q24        QoQ         4Q23        YoY
+Operating expenses                               284,544     274,273       3.7%       167,677     69.7%
+ Research and development expenses               217,035     179,386      21.0%       189,138     14.7%
+ General and administrative expenses             166,851     136,182      22.5%       147,821     12.9%
+ Selling and marketing expenses                   11,466        9,601     19.4%         9,348     22.7%
+ Impairment losses on financial assets, net        (502)          620       N/A         (990)    -49.3%
+ Other operating income                        (110,306)     (51,516)    114.1%     (177,640)    -37.9%
+
+      General and administrative expenses increased to $166.9 million in 4Q24 from $136.2 million in
+       3Q24. The change was mainly due to the increase in new fab start-up costs in 4Q24.
+
+Other Income, Net
+    Amounts in US$ thousands                       4Q24        3Q24       QoQ         4Q23          YoY
+    Other income, net                           140,791        72,985    92.9%      140,703         0.1%
+     Interest income                            107,850      131,868    -18.2%      176,919       -39.0%
+     Finance costs                              (75,342)     (83,302)    -9.6%      (62,905)       19.8%
+     Foreign exchange gain/(loss)                  4,215      (2,065)      N/A         7,255      -41.9%
+     Other gains/(losses), net                    97,363      (2,927)      N/A         7,203    1,251.7%
+     Share of gain of associates and a joint       6,705       29,411   -77.2%        12,231      -45.2%
+       venture
+
+The change in other gains/(losses), net in 4Q24 was primarily caused by the change in the fair value of
+the investments in securities recognised as financial assets at fair value through profit or loss and the
+gain on disposal of an associate.
+
+
+
+
+                                                  -6-
+EBITDA
+ Amounts in US$ thousands                                           4Q24             3Q24         4Q23
+ Profit for the period                                          270,946            223,270      237,268
+ Finance costs                                                   75,342             83,302       62,905
+ Depreciation and amortisation                                  849,263            831,097      700,034
+ Income tax expense                                              84,312             19,602       10,713
+ EBITDA                                                       1,279,863          1,157,271    1,010,920
+ Profit margin                                                   12.3%              10.3%        14.1%
+ EBITDA margin                                                   58.0%              53.3%        60.2%
+
+Liquidity
+ Amounts in US$ thousands                                         4Q24                3Q24
+ Inventories                                                  2,958,350           2,877,125
+ Prepayment and prepaid operating                                56,394              78,827
+   expenses
+ Trade and other receivables                                     840,153           938,800
+ Financial assets at fair value through profit                   272,257           232,983
+   or loss
+ Financial assets at amortised cost                           4,206,926           2,869,070
+ Derivative financial instruments                                66,054              70,518
+ Restricted cash                                                      -             285,876
+ Cash and cash equivalents                                    6,364,189           3,651,385
+ Assets classified as held-for-sale                              19,392              22,030
+ Total current assets                                        14,783,715          11,026,614
+
+ Trade and other payables                                     3,278,966           3,351,346
+ Contract liabilities                                         1,185,932           1,019,979
+ Borrowings                                                   2,926,311           1,436,334
+ Lease liabilities                                               18,529              23,168
+ Bonds payable                                                  605,258             601,027
+ Deferred government funding                                    198,645             157,027
+ Accrued liabilities                                            363,353             353,592
+ Derivative financial instruments                                97,865              73,020
+ Current tax liabilities                                         84,828              12,376
+ Total current liabilities                                    8,759,687           7,027,869
+
+ Cash ratio(1)                                                         0.7              0.5
+ Quick ratio(2)                                                        1.3              1.2
+ Current ratio(3)                                                      1.7              1.6
+
+Notes:
+(1) Cash and cash equivalents divided by total current liabilities.
+(2) Current assets excluding inventories divided by total current liabilities.
+(3) Total current assets divided by total current liabilities.
+
+
+
+
+                                                                 -7-
+Capital Structure
+ Amounts in US$ thousands                                           4Q24         3Q24
+ Cash and cash equivalents                                    6,364,189     3,651,385
+ Restricted cash                                                372,514       379,314
+ Financial assets at fair value through
+                                                                272,257       232,983
+     profit or loss - current(1)
+ Financial assets at amortised cost(2)                        7,954,060     8,368,227
+ Total cash on hand                                          14,963,020    12,631,909
+
+ Borrowings - current                                         2,926,311     1,436,334
+ Borrowings - non-current                                     8,038,148     8,322,826
+ Lease liabilities                                               26,280        34,387
+ Bonds payable                                                  605,258       601,027
+ Total debt                                                  11,595,997    10,394,574
+
+ Net debt(3)                                                 (3,367,023)   (2,237,335)
+ Equity                                                      31,869,658    31,426,011
+ Debt to equity ratio(4)                                          36.4%         33.1%
+ Net debt to equity ratio(5)                                     -10.6%         -7.1%
+
+Notes:
+(1) Mainly contain structural deposits and monetary funds.
+(2) Mainly contain bank deposits over 3 months.
+(3) Total debt minus total cash on hand.
+(4) Total debt divided by equity.
+(5) Net debt divided by equity.
+
+
+Cash Flow
+ Amounts in US$ thousands                                           4Q24         3Q24
+ Net cash generated from operating activities                 1,449,842      1,236,416
+ Net cash used in investing activities                        (207,300)    (1,345,115)
+ Net cash generated from/(used in) financing                  1,614,792        (97,009)
+   activities
+ Effect of exchange rate changes                              (144,530)       162,816
+ Net increase/(decrease) in cash and cash                     2,712,804       (42,892)
+   equivalents
+
+
+
+
+                                                              -8-
+                     Semiconductor Manufacturing International Corporation
+ CONDENSED CONSOLIDATED STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+                                                        (In US$ thousands)
+
+
+                                                                                   For the three months ended
+                                                                             December 31, 2024      September 30, 2024
+                                                                                  (Unaudited)              (Unaudited)
+
+Revenue                                                                               2,207,281               2,171,188
+Cost of sales                                                                       (1,708,270)             (1,727,028)
+  Gross profit                                                                          499,011                 444,160
+Research and development expenses                                                     (217,035)               (179,386)
+Selling and marketing expenses                                                          (11,466)                 (9,601)
+General and administration expenses                                                   (166,851)               (136,182)
+Impairment losses on financial assets, net                                                   502                   (620)
+Other operating income                                                                  110,306                   51,516
+  Operating expenses                                                                  (284,544)               (274,273)
+Profit from operations                                                                  214,467                 169,887
+Other income, net                                                                       140,791                   72,985
+Profit before tax                                                                       355,258                 242,872
+Income tax expense                                                                      (84,312)                (19,602)
+Profit for the period                                                                   270,946                 223,270
+
+
+Other comprehensive income:
+Items that may be reclassified to profit or loss in subsequent periods
+  Exchange differences on translating foreign operations                              (26,897)                  31,479
+  Cash flow hedges                                                                   (103,537)                 146,558
+Total comprehensive income for the period                                              140,512                 401,307
+
+
+Profit for the period attributable to:
+ Owners of the Company                                                                 107,587                 148,800
+ Non-controlling interests                                                             163,359                  74,470
+                                                                                       270,946                 223,270
+Total comprehensive income for the period
+ attributable to:
+ Owners of the Company                                                                 (22,683)                326,735
+ Non-controlling interests                                                             163,195                  74,572
+                                                                                       140,512                 401,307
+
+
+
+
+                                                                -9-
+                               Semiconductor Manufacturing International Corporation
+                         CONDENSED CONSOLIDATED STATEMENT OF FINANCIAL POSITION
+                                                         (In US$ thousands)
+
+
+
+
+                                                                                              As of
+                                                                          December 31, 2024           September 30, 2024
+                                                                                (Unaudited)                  (Unaudited)
+ASSETS
+Non-current assets
+ Property, plant and equipment                                                   28,092,037                   27,274,634
+ Right-of-use assets                                                                432,148                      442,924
+ Intangible assets                                                                   24,268                       25,942
+ Investments in associates                                                        1,252,507                    2,076,372
+ Investment in a joint venture                                                          13                          970
+ Deferred tax assets                                                                 29,212                       13,128
+ Financial assets at fair value through profit or loss                              427,373                      466,007
+ Financial assets at amortised cost                                               3,747,134                    5,499,157
+ Derivative financial instruments                                                         -                        5,812
+ Restricted cash                                                                    372,514                      379,314
+ Other assets                                                                          327                          269
+Total non-current assets                                                         34,377,533                   36,184,529
+
+
+Current assets
+ Inventories                                                                      2,958,350                    2,877,125
+ Prepayment and prepaid operating expenses                                           56,394                       78,827
+ Trade and other receivables                                                        840,153                      938,800
+ Financial assets at fair value through profit or loss                              272,257                      232,983
+ Financial assets at amortised cost                                               4,206,926                    2,869,070
+ Derivative financial instruments                                                    66,054                       70,518
+ Restricted cash                                                                          -                      285,876
+ Cash and cash equivalents                                                        6,364,189                    3,651,385
+                                                                                 14,764,323                   11,004,584
+ Assets classified as held-for-sale                                                  19,392                       22,030
+Total current assets                                                             14,783,715                   11,026,614
+TOTAL ASSETS                                                                     49,161,248                   47,211,143
+
+
+
+
+                                                               - 10 -
+                                  Semiconductor Manufacturing International Corporation
+                            CONDENSED CONSOLIDATED STATEMENT OF FINANCIAL POSITION
+                                                  (In US$ thousands)
+
+
+                                                                                     As of
+                                                                 December 31, 2024           September 30, 2024
+                                                                       (Unaudited)                  (Unaudited)
+EQUITY AND LIABILITIES
+Capital and reserves
+ Ordinary shares                                                            31,905                       31,887
+   Share premium                                                        14,266,359                   14,251,767
+  Other reserves                                                           142,470                      268,311
+ Retained earnings                                                       6,173,075                    6,065,488
+ Equity attributable to owners of the Company                           20,613,809                   20,617,453
+ Non-controlling interests                                              11,255,849                   10,808,558
+Total equity                                                            31,869,658                   31,426,011
+
+
+Non-current liabilities
+ Borrowings                                                              8,038,148                    8,322,826
+ Lease liabilities                                                           7,751                       11,219
+ Deferred tax liabilities                                                   73,627                       58,863
+ Deferred government funding                                               374,801                      337,730
+ Derivative financial instruments                                           37,576                       26,625
+Total non-current liabilities                                            8,531,903                    8,757,263
+
+
+Current liabilities
+ Trade and other payables                                                3,278,966                    3,351,346
+ Contract liabilities                                                    1,185,932                    1,019,979
+ Borrowings                                                              2,926,311                    1,436,334
+ Lease liabilities                                                          18,529                       23,168
+ Bonds payable                                                             605,258                      601,027
+ Deferred government funding                                               198,645                      157,027
+ Accrued liabilities                                                       363,353                      353,592
+ Derivative financial instruments                                           97,865                       73,020
+ Current tax liabilities                                                    84,828                       12,376
+Total current liabilities                                                8,759,687                    7,027,869
+Total liabilities                                                       17,291,590                   15,785,132
+TOTAL EQUITY AND LIABILITIES                                            49,161,248                   47,211,143
+
+
+
+
+                                                        - 11 -
+                                 Semiconductor Manufacturing International Corporation
+                              CONDENSED CONSOLIDATED STATEMENT OF CASH FLOWS
+                                                           (In US$ thousands)
+
+
+                                                                                    For the three months ended
+                                                                            December 31, 2024           September 30, 2024
+                                                                                  (Unaudited)                    (Unaudited)
+Operating activities:
+ Profit for the period                                                                270,946                       223,270
+ Depreciation and amortisation                                                        849,263                       831,097
+ Share of profit of associates and a joint venture                                     (6,705)                      (29,411)
+ Other (gains)/losses, net                                                           (97,363)                          2,927
+ Changes in working capital and others                                                433,701                       208,533
+Net cash generated from operating activities                                        1,449,842                      1,236,416
+
+
+Investing activities:
+ Acquisition of financial assets at fair value through profit or                    (220,744)                      (291,812)
+  loss
+ Proceeds from sale of financial assets at fair value through                         212,525                       162,945
+  profit or loss
+ Acquisition of financial assets at amortised cost                                   (41,731)                        (8,458)
+ Proceeds from maturity of financial assets at amortised cost                         421,541                       577,279
+ Acquisition of property, plant and equipment                                      (1,516,058)                   (1,880,836)
+ Proceeds from disposal of property, plant and equipment                               15,953                        11,419
+ Acquisition of intangible assets                                                      (1,048)                       (1,078)
+ Acquisition of land-use right                                                            (84)                            -
+ Proceeds from sale of equity interests in associates and a                           920,588                        49,797
+  joint venture
+ Dividends received from associates                                                          -                         1,612
+ Proceeds from settlement of derivative financial instruments                           1,758                        34,017
+Net cash used in investing activities                                               (207,300)                    (1,345,115)
+
+
+Financing activities:
+ Proceeds from borrowings                                                           1,658,024                       127,683
+ Repayment of borrowings                                                            (224,108)                      (305,139)
+ Repayment of the principal portion of the lease liabilities                           (8,108)                       (8,100)
+ Proceeds from issue of shares under share incentive plans                              9,879                        41,935
+ Capital injection from non-controlling interests                                     281,865                              -
+Payments for non-controlling interests                                                 (6,950)                             -
+(Payment of)/proceeds from settlement of derivative financial
+                                                                                     (95,810)                        46,612
+  instruments
+ Net cash generated from/(used in) financing activities                             1,614,792                       (97,009)
+
+
+Effects of exchange rate changes on cash and cash                                   (144,530)                       162,816
+   equivalents
+
+Net increase/(decrease) in cash and cash equivalents                                2,712,804                       (42,892)
+Cash and cash equivalents, beginning of the period                                  3,651,385                      3,694,277
+Cash and cash equivalents, end of the period                                        6,364,189                      3,651,385
+
+
+
+
+                                                                   - 12 -
+                                                       By order of the Board
+                                        Semiconductor Manufacturing International Corporation
+                                                Company Secretary / Board Secretary
+                                                           Guo Guangli
+
+Shanghai, February 11, 2025
+
+As at the date of this announcement, the directors of the Company are:
+
+Executive Director
+LIU Xunfeng
+
+
+Non-executive Directors
+LU Guoqing
+CHEN Shanzhi
+YANG Lumin
+HUANG Dengshan
+
+
+Independent Non-executive Directors
+FAN Ren Da Anthony
+LIU Ming
+WU Hanming
+CHEN Xinyuan
+
+
+
+
+                                               - 13 -
+

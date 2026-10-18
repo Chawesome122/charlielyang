@@ -1,0 +1,20 @@
+freeze: '2026-10-11'
+rare_earth_origins: ['2016-12-31', '2018-12-31', '2020-12-31', '2022-12-31', '2024-12-31']
+rare_earth_horizons_years: [2, 4, 6]
+block_future_endpoints: true
+require_outcome_publication_by_freeze: true
+exclude_missing_public_dates: true
+event_definition: four_consecutive_quarters_of_physically_feasible_china_free_nminus1_service
+distinguish_start_and_recognition: true
+thresholds: [0.5, 0.75, 0.9, 1.0]
+forecast_targets: [2028Q4, 2031Q4, 2035Q4]
+simulation_lookahead_quarters: 3
+mc_standard_error_tolerance: 0.005
+minimum_independent_equal_weight_draws_worst_case: 10000
+baseline_set: [zero_new_build, announced_on_time, historical_mean_delay, linear_trend, aggregate_logistic_trend]
+scores: [brier, negative_log_score, crps, interval_coverage]
+uncertainty_clusters: [project_parent, calendar_origin]
+estimability:
+  minimum_exits_per_parameter: 10
+  minimum_events_per_cause: 5
+  note: Engineering guard; not proof of independent information or adequate identification.

@@ -1,0 +1,890 @@
+[
+  {
+    "threshold": 0.5,
+    "target_quarter_index": 8115,
+    "start_by_target": {
+      "probability": 0.9493,
+      "mc_standard_error": 0.002193843886879829,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.9448249795339455,
+        0.9534299595301644
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.8604,
+      "mc_standard_error": 0.0034657155105403555,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.8534688237958383,
+        0.8670543901785781
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8107,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8108,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8111,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8110,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8111,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8114,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      }
+    },
+    "target": "2028Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 0.5,
+    "target_quarter_index": 8127,
+    "start_by_target": {
+      "probability": 0.996,
+      "mc_standard_error": 0.0006311893535223803,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.9945580873540203,
+        0.9970609862622684
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.9939,
+      "mc_standard_error": 0.0007786391975748456,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.9921727895693172,
+        0.9952478968401285
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8107,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8108,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8111,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8110,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8111,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8114,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      }
+    },
+    "target": "2031Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 0.5,
+    "target_quarter_index": 8143,
+    "start_by_target": {
+      "probability": 0.9984,
+      "mc_standard_error": 0.0003996798718975032,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.997402363083803,
+        0.9990148673403064
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.9982,
+      "mc_standard_error": 0.00042388205906832433,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.9971563120149708,
+        0.9988610720084868
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8107,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8108,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8111,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8110,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8111,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8114,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      }
+    },
+    "target": "2035Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 0.75,
+    "target_quarter_index": 8115,
+    "start_by_target": {
+      "probability": 0.4845,
+      "mc_standard_error": 0.004997596922521864,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.47471272102236833,
+        0.49429918292712255
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.2738,
+      "mc_standard_error": 0.004459075688974117,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.26514847912765976,
+        0.28262524173523423
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8122,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8115,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8125,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "target": "2028Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 0.75,
+    "target_quarter_index": 8127,
+    "start_by_target": {
+      "probability": 0.8298,
+      "mc_standard_error": 0.0037580840863397406,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.822307973376452,
+        0.8370387412982496
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.7914,
+      "mc_standard_error": 0.004063078143476938,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.783325358916319,
+        0.7992508468332505
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8122,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8115,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8125,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "target": "2031Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 0.75,
+    "target_quarter_index": 8143,
+    "start_by_target": {
+      "probability": 0.8863,
+      "mc_standard_error": 0.0031744654668148468,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.8799292497441491,
+        0.8923740731146661
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.8829,
+      "mc_standard_error": 0.0032153940660516246,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.8764504052586609,
+        0.889055528789075
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8122,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8115,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8125,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "target": "2035Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 0.9,
+    "target_quarter_index": 8115,
+    "start_by_target": {
+      "probability": 0.4845,
+      "mc_standard_error": 0.004997596922521864,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.47471272102236833,
+        0.49429918292712255
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.2738,
+      "mc_standard_error": 0.004459075688974117,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.26514847912765976,
+        0.28262524173523423
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8122,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8115,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8125,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "target": "2028Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 0.9,
+    "target_quarter_index": 8127,
+    "start_by_target": {
+      "probability": 0.8298,
+      "mc_standard_error": 0.0037580840863397406,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.822307973376452,
+        0.8370387412982496
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.7914,
+      "mc_standard_error": 0.004063078143476938,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.783325358916319,
+        0.7992508468332505
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8122,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8115,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8125,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "target": "2031Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 0.9,
+    "target_quarter_index": 8143,
+    "start_by_target": {
+      "probability": 0.8863,
+      "mc_standard_error": 0.0031744654668148468,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.8799292497441491,
+        0.8923740731146661
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.8829,
+      "mc_standard_error": 0.0032153940660516246,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.8764504052586609,
+        0.889055528789075
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8122,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8115,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8125,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "target": "2035Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 1.0,
+    "target_quarter_index": 8115,
+    "start_by_target": {
+      "probability": 0.4845,
+      "mc_standard_error": 0.004997596922521864,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.47471272102236833,
+        0.49429918292712255
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.2738,
+      "mc_standard_error": 0.004459075688974117,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.26514847912765976,
+        0.28262524173523423
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8122,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8115,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8125,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "target": "2028Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 1.0,
+    "target_quarter_index": 8127,
+    "start_by_target": {
+      "probability": 0.8298,
+      "mc_standard_error": 0.0037580840863397406,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.822307973376452,
+        0.8370387412982496
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.7914,
+      "mc_standard_error": 0.004063078143476938,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.783325358916319,
+        0.7992508468332505
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8122,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8115,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8125,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "target": "2031Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  },
+  {
+    "threshold": 1.0,
+    "target_quarter_index": 8143,
+    "start_by_target": {
+      "probability": 0.8863,
+      "mc_standard_error": 0.0031744654668148468,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.8799292497441491,
+        0.8923740731146661
+      ]
+    },
+    "recognized_by_target": {
+      "probability": 0.8829,
+      "mc_standard_error": 0.0032153940660516246,
+      "n": 10000,
+      "effective_sample_size": 10000,
+      "worst_case_mc_standard_error": 0.005,
+      "mc_tolerance_met": true,
+      "mc_wilson_95": [
+        0.8764504052586609,
+        0.889055528789075
+      ]
+    },
+    "start_quantiles": {
+      "0.05": {
+        "quarter_index": 8109,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8116,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8122,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "recognition_quantiles": {
+      "0.05": {
+        "quarter_index": 8112,
+        "no_crossing_within_horizon": false
+      },
+      "0.25": {
+        "quarter_index": 8115,
+        "no_crossing_within_horizon": false
+      },
+      "0.5": {
+        "quarter_index": 8119,
+        "no_crossing_within_horizon": false
+      },
+      "0.75": {
+        "quarter_index": 8125,
+        "no_crossing_within_horizon": false
+      },
+      "0.95": {
+        "quarter_index": null,
+        "no_crossing_within_horizon": true
+      }
+    },
+    "target": "2035Q4",
+    "evidence_class": "fully_synthetic_engineering_validation"
+  }
+]

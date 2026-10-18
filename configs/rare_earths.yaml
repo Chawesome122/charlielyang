@@ -1,0 +1,16 @@
+freeze: '2026-10-11'
+elements: [Nd, Pr, Dy, Tb]
+stages: [mine, separation, metal_alloy, magnet]
+output_basis: quarter-total contained-element flows with explicit native-product conversion
+targets: ['2028Q4', '2031Q4', '2035Q4']
+thresholds: [0.50, 0.75, 0.90, 1.00]
+persistence_quarters: 4
+monte_carlo_error_target: 0.005
+empirical_network_ready: false
+empirical_transition_estimates_available: false
+unknown_feed_policy: prohibit
+missing_routes: unknown; do not assume zero or infinite physical route
+synthetic_validation_paths: 10000
+synthetic_output_directory: outputs/synthetic/forecast
+empirical_forecast_status_path: outputs/diagnostics/empirical_forecast_targets.csv
+completion_gate: audit/remaining_requirements.md

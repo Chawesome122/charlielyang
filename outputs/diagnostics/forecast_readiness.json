@@ -1,0 +1,14 @@
+{
+  "freeze": "2026-10-11",
+  "status": "BLOCKED",
+  "empirical_probabilities_computed": false,
+  "missing_requirements": [
+    "Defined historical project universe including cancelled/suspended projects and archived revisions",
+    "Verified per-activity native capacities, ownership and material provenance as of each origin",
+    "Verified element recipes, recovery yields, transport routes, finite feeds, inventories and magnet demand",
+    "Project transition observations with event intervals, public dates and complete-surveillance/reporting assumptions",
+    "Enough independent cause-specific transition events to estimate hazards and commissioning/ramp uncertainty",
+    "Released historical physical-service outcomes and frozen training/model-selection vintages"
+  ],
+  "reason": "Available project/source records do not establish a verified physical network and project risk set; no substitution of synthetic inputs permitted."
+}

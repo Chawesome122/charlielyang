@@ -1,0 +1,71 @@
+"""Validate actual archived observations and keep evidence gaps distinct from errors."""
+import json
+from pathlib import Path
+import pandas as pd
+from weaponized.io.archive import sha256_file
+from weaponized.io.schemas import Claim
+
+ROOT=Path(__file__).resolve().parents[1]
+
+
+def main():
+    failures=[];checks=0
+    observations=pd.read_csv(ROOT/"data/processed/rare_earths/observations.csv").replace({float('nan'):None})
+    sources=json.loads((ROOT/"data/processed/rare_earths/source_index.json").read_text())
+    for row in observations.to_dict("records"):
+        try:
+            Claim(**{key:row.get(key) for key in Claim.model_fields})
+            assert sha256_file(ROOT/sources[row["source_id"]]["archive_path"])==row["source_sha256"]
+            checks+=1
+        except Exception as error:
+            failures.append(f"{row.get('record_version_id')}: {type(error).__name__}: {error}")
+    for file,pathcol in [("metadata/semiconductor_sources.csv","path"),("metadata/additional_rare_earth_sources.csv","archive_path"),("metadata/literature_sources.csv","path"),("metadata/literature_sources_additional.csv","path")]:
+        data=pd.read_csv(ROOT/file)
+        for row in data.to_dict("records"):
+            if not isinstance(row.get(pathcol),str) or not isinstance(row.get("sha256"),str):continue
+            checks+=1
+            if sha256_file(ROOT/row[pathcol])!=row["sha256"]:failures.append(f"Artifact hash mismatch:{row[pathcol]}")
+    for file in ["data/processed/rare_earths_additional/lynas_annual_production.csv","data/processed/semiconductors/reported_financial_inputs.csv","data/processed/semiconductors/legal_events.csv"]:
+        data=pd.read_csv(ROOT/file)
+        checks+=1
+        if not (data.info_public_date.notna() & data.info_public_date.le("2026-10-11")).all():failures.append(f"Source cutoff/missing clock:{file}")
+    discovery=ROOT/"metadata/legal_discovery_acquisitions.jsonl"
+    if discovery.exists():
+        unique={}
+        for line in discovery.read_text().splitlines():
+            row=json.loads(line)
+            if row['status']=='downloaded':unique[(row['archive_path'],row['sha256'])]=row
+        for (path,digest),row in unique.items():
+            checks+=1
+            if sha256_file(ROOT/path)!=digest:failures.append(f"Discovery artifact hash mismatch:{path}")
+            if row.get('publication_date') and row['publication_date']>'2026-10-11':failures.append(f"Future discovery document:{row['source_id']}")
+    revision=ROOT/"data/processed/rare_earths_additional/lynas_observed_revisions.csv"
+    if revision.exists():
+        rows=pd.read_csv(revision)
+        checks+=1
+        if not (rows.info_public_date.le('2026-10-11')).all():failures.append('Future Lynas revision admitted')
+    additional = pd.read_csv(ROOT/"metadata/additional_rare_earth_sources.csv").set_index("source_id")
+    for filename in ["lynas_project_history.csv", "lynas_quarterly_production_versions.csv", "lynas_documented_material_links.csv"]:
+        data = pd.read_csv(ROOT/"data/processed/rare_earths_additional"/filename).fillna("")
+        for row in data.to_dict("records"):
+            checks += 1
+            source = additional.loc[row["source_id"]]
+            if row["source_sha256"] != source.sha256 or sha256_file(ROOT/source.archive_path) != source.sha256:
+                failures.append(f"Lynas claim/source hash mismatch:{filename}")
+            if not row["info_public_date"] or row["info_public_date"] > "2026-10-11":
+                failures.append(f"Lynas historical clock missing/future:{filename}")
+            if filename == "lynas_project_history.csv":
+                page = (ROOT/source.archive_path).with_suffix(".extracted.txt").read_text().split("\f")[int(row["pdf_page"])-1]
+                if row["quote"] not in " ".join(page.split()):
+                    failures.append(f"Lynas milestone quote mismatch:{row['claim_id']}")
+    reconcile = pd.read_csv(ROOT/"data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv")
+    checks += len(reconcile)
+    if not reconcile.difference.eq(0).all():failures.append("Lynas quarterly/annual production mismatch")
+    result=dict(passed=not failures,checked_claims_and_artifacts=checks,failures=failures,freeze="2026-10-11",
+                scientific_gaps_are_not_validation_passes=["empirical physical network","population project hazards","causal semiconductor response","historical headline SPOI","continuous MPE"])
+    (ROOT/"outputs/diagnostics/data_validation.json").write_text(json.dumps(result,indent=2))
+    print(json.dumps(result,indent=2))
+    return int(bool(failures))
+
+
+if __name__=="__main__":raise SystemExit(main())

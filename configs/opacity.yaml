@@ -1,0 +1,22 @@
+freeze: '2026-10-11'
+sector: China_rare_earth_policy
+pillars: {disclosure: 0.40, predictability: 0.35, clarity: 0.25}
+event_memory_days: 90
+sensitivity_event_memory_days: [30, 180]
+release_grace_days: 30
+sensitivity_release_grace_days: [0, 90]
+min_daily_indicators: 8
+min_disclosure_indicators: 3
+min_predictability_indicators: 2
+min_clarity_indicators: 1
+min_valid_quarter_days_fraction: 0.80
+allow_headline_imputation: false
+require_adjudicated_search_coverage: true
+legal_rule_aggregation: worst
+reliability:
+  required_independent_coders: 2
+  blind_to_project_outcomes: true
+  target_weighted_kappa: 0.75
+  bootstrap_seed: 505
+  principal_weighting: quadratic
+  weighting_sensitivity: linear

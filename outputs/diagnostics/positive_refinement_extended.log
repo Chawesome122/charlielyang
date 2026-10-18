@@ -1,0 +1,27 @@
+RUN scenario=adaptation_positive grid=17 nodes=83521 starts=['zero', 'one', 'us_only', 'china_only', 'mid', 'random']
+CHECKPOINT adaptation_positive_n17_zero: verified_finite_grid_candidate; seconds=19.05
+CHECKPOINT adaptation_positive_n17_one: verified_finite_grid_candidate; seconds=19.35
+CHECKPOINT adaptation_positive_n17_us_only: verified_finite_grid_candidate; seconds=19.73
+CHECKPOINT adaptation_positive_n17_china_only: verified_finite_grid_candidate; seconds=19.18
+CHECKPOINT adaptation_positive_n17_mid: verified_finite_grid_candidate; seconds=19.48
+CHECKPOINT adaptation_positive_n17_random: verified_finite_grid_candidate; seconds=22.81
+RESULT adaptation_positive_n17_zero: verified_finite_grid_candidate; gap=4.65e-15; action_residual=9.66e-08; seconds=19.05
+RESULT adaptation_positive_n17_one: verified_finite_grid_candidate; gap=1.89e-14; action_residual=9.96e-08; seconds=19.35
+RESULT adaptation_positive_n17_us_only: verified_finite_grid_candidate; gap=1.89e-14; action_residual=8.97e-08; seconds=19.73
+RESULT adaptation_positive_n17_china_only: verified_finite_grid_candidate; gap=3.89e-14; action_residual=9.41e-08; seconds=19.18
+RESULT adaptation_positive_n17_mid: verified_finite_grid_candidate; gap=2.36e-14; action_residual=9.14e-08; seconds=19.48
+RESULT adaptation_positive_n17_random: verified_finite_grid_candidate; gap=3.18e-15; action_residual=7.98e-08; seconds=22.81
+RUN scenario=adaptation_positive grid=21 nodes=194481 starts=['zero', 'one', 'us_only', 'china_only', 'mid', 'random']
+CHECKPOINT adaptation_positive_n21_zero: verified_finite_grid_candidate; seconds=118.09
+CHECKPOINT adaptation_positive_n21_one: verified_finite_grid_candidate; seconds=122.92
+CHECKPOINT adaptation_positive_n21_us_only: verified_finite_grid_candidate; seconds=124.82
+CHECKPOINT adaptation_positive_n21_china_only: verified_finite_grid_candidate; seconds=123.15
+CHECKPOINT adaptation_positive_n21_mid: verified_finite_grid_candidate; seconds=119.93
+CHECKPOINT adaptation_positive_n21_random: verified_finite_grid_candidate; seconds=124.72
+RESULT adaptation_positive_n21_zero: verified_finite_grid_candidate; gap=4.95e-15; action_residual=9.94e-08; seconds=118.09
+RESULT adaptation_positive_n21_one: verified_finite_grid_candidate; gap=4.75e-15; action_residual=9.75e-08; seconds=122.92
+RESULT adaptation_positive_n21_us_only: verified_finite_grid_candidate; gap=4.6e-15; action_residual=9.59e-08; seconds=124.82
+RESULT adaptation_positive_n21_china_only: verified_finite_grid_candidate; gap=4.62e-15; action_residual=9.59e-08; seconds=123.15
+RESULT adaptation_positive_n21_mid: verified_finite_grid_candidate; gap=4.81e-15; action_residual=9.81e-08; seconds=119.93
+RESULT adaptation_positive_n21_random: verified_finite_grid_candidate; gap=4.59e-15; action_residual=9.57e-08; seconds=124.72
+Wrote outputs/scenario/game/summary_adaptation_positive_17_21.json

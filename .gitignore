@@ -1,0 +1,18 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+.cache/
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+# NBER permits only short attributed quotations, not this full-text reprint.
+data/raw/literature/R02_pdf.pdf
+data/raw/literature/R02_pdf.txt
+# Local publication/transport logs are not source data.
+outputs/diagnostics/git_push.log
+data/quarantine/

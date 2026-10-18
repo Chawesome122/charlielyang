@@ -1,0 +1,8 @@
+layer,target_version,as_of,z,z_lower,z_upper,z_source_id,z_status,f,f_lower,f_upper,f_source_id,f_status,a_residual_gap,a_residual_gap_lower,a_residual_gap_upper,a_complementary,a_complementary_lower,a_complementary_upper
+eda,provisional_compute_stack_v1,2026-10-11,,0.0,1.0,,unverified,,0.0,1.0,,unverified,,0.0,1.0,,0.0,1.0
+lithography,provisional_compute_stack_v1,2026-10-11,,0.0,1.0,,unverified,,0.0,1.0,,unverified,,0.0,1.0,,0.0,1.0
+deposition_etch_implant,provisional_compute_stack_v1,2026-10-11,,0.0,1.0,,unverified,,0.0,1.0,,unverified,,0.0,1.0,,0.0,1.0
+metrology_clean_control,provisional_compute_stack_v1,2026-10-11,,0.0,1.0,,unverified,,0.0,1.0,,unverified,,0.0,1.0,,0.0,1.0
+foundry_integration,provisional_compute_stack_v1,2026-10-11,,0.0,1.0,,unverified,,0.0,1.0,,unverified,,0.0,1.0,,0.0,1.0
+hbm,provisional_compute_stack_v1,2026-10-11,,0.0,1.0,,unverified,,0.0,1.0,,unverified,,0.0,1.0,,0.0,1.0
+advanced_packaging,provisional_compute_stack_v1,2026-10-11,,0.0,1.0,,unverified,,0.0,1.0,,unverified,,0.0,1.0,,0.0,1.0

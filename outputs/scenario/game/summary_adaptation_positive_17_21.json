@@ -1,0 +1,1597 @@
+{
+  "classification": "hypothetical_scenarios_not_empirical_results",
+  "information_freeze": "2026-10-11",
+  "algorithm": {
+    "method": "joint",
+    "max_iterations": 120,
+    "starts": [
+      "zero",
+      "one",
+      "us_only",
+      "china_only",
+      "mid",
+      "random"
+    ]
+  },
+  "config_sha256": "8c36ca06ed22e8ca42516c2b677cadea4b0a82e21065b77c103538cc2e0c0d3b",
+  "benchmark": {
+    "unconstrained_nonnegative_root": 0.46557123187676797,
+    "policy": 0.46557123187676797,
+    "polynomial_residual": -1.1102230246251565e-16,
+    "myopic": 1.0,
+    "objective": 0.20929391019635504,
+    "scope": "one_sided_constant_control_scenario"
+  },
+  "runs": [
+    {
+      "start": "zero",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 19.045768556999974,
+      "peak_process_rss_kib": 181016,
+      "max_deviation_gain": 4.649058915617843e-15,
+      "best_response_action_residual": 9.655607435821167e-08,
+      "hjb_residuals": [
+        4.0837694337270136e-11,
+        9.693253144593683e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 4.0837694337270136e-11,
+            "reward_inf": 0.531805607389111
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 9.693253144593683e-11,
+            "reward_inf": 0.5318994852752448
+          }
+        ],
+        "matrix_nnz": 417571,
+        "sparse_bytes": 5344940,
+        "elapsed_seconds": 0.022237580000364687
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n17_zero.npz",
+      "archive_sha256": "a3dfb7092a626ea0b4c7ee8f70e099cb8519214f24e7e4f8088f689716bc7d41",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512372585663292,
+          0.6413050654600599,
+          0.3128815044699692,
+          0.32051151173225095
+        ],
+        "drift_residual": 6.540948338518149e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22938230061602147,
+            0.0,
+            0.036469286479564766,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19515190558870574,
+            0.0,
+            0.03142394820809435
+          ],
+          [
+            -0.39029107142996,
+            -0.05811904676160467,
+            -0.500888791838737,
+            -4.6505874151623445e-05
+          ],
+          [
+            -0.0580458034723929,
+            -0.3914230544345193,
+            -9.677148943278183e-05,
+            -0.5005411694661833
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.2412552394180812,
+          -0.30372210986098347,
+          -0.42399989023626405,
+          -0.45698692799431906
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.00038150446996920717,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.37552823300101756,
+            0.47340821313596193
+          ],
+          "csv": "outputs/scenario/game/adaptation_positive_n17_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.24125180438639626,
+            0.3474435704656281
+          ],
+          "csv": "outputs/scenario/game/adaptation_positive_n17_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.4640220964033559,
+            0.549155576057719
+          ],
+          "csv": "outputs/scenario/game/adaptation_positive_n17_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.3428260634935691,
+            0.4254637857098645
+          ],
+          "csv": "outputs/scenario/game/adaptation_positive_n17_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "one",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 19.345642567997857,
+      "peak_process_rss_kib": 183744,
+      "max_deviation_gain": 1.8882465036007545e-14,
+      "best_response_action_residual": 9.956254320986346e-08,
+      "hjb_residuals": [
+        4.087774563288349e-11,
+        4.346457915804791e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 4.087774563288349e-11,
+            "reward_inf": 0.5318056073838356
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 4.346457915804791e-11,
+            "reward_inf": 0.531899485293333
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.02187983000112581
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 1.2285024841851566e-07
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n17_one.npz",
+      "archive_sha256": "9619d7dc593a5659ca60b1b54f961aecfc04570ed4cf427cbc69d8b99f336997",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512372585743758,
+          0.6413050654669769,
+          0.3128815045205804,
+          0.320511511775207
+        ],
+        "drift_residual": 6.540948338518149e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22938230062191953,
+            0.0,
+            0.036469286479564766,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19515190559252213,
+            0.0,
+            0.03142394820878824
+          ],
+          [
+            -0.39029107024340914,
+            -0.05811904505463677,
+            -0.5008887920691083,
+            -4.650601154172274e-05
+          ],
+          [
+            -0.05804580267025677,
+            -0.39142305212386763,
+            -9.67716143328721e-05,
+            -0.5005411697576169
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.24125523910218216,
+          -0.30372210917003095,
+          -0.42399989138680905,
+          -0.45698692838214494
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0003815045205803891,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    },
+    {
+      "start": "us_only",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 19.72808971699851,
+      "peak_process_rss_kib": 186360,
+      "max_deviation_gain": 1.8882465036007545e-14,
+      "best_response_action_residual": 8.971254816803054e-08,
+      "hjb_residuals": [
+        3.204819742919085e-11,
+        3.3751626493661036e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 3.204819742919085e-11,
+            "reward_inf": 0.5318056073875466
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 3.3751626493661036e-11,
+            "reward_inf": 0.5318994852896402
+          }
+        ],
+        "matrix_nnz": 417588,
+        "sparse_bytes": 5345144,
+        "elapsed_seconds": 0.020945090996974614
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 5.4137294425160576e-08,
+        "one": 7.570041948845585e-08
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n17_us_only.npz",
+      "archive_sha256": "f26973797ee99085736a393c4a9662dfff8a45fd42e0853b8cabbe9299b91df1",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512372585721854,
+          0.6413050654640142,
+          0.31288150450680335,
+          0.3205115117568078
+        ],
+        "drift_residual": 6.541017727457188e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22938230062053175,
+            0.0,
+            0.036469286479564766,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19515190559113435,
+            0.0,
+            0.03142394820878824
+          ],
+          [
+            -0.3902910706500283,
+            -0.058119045605584944,
+            -0.5008887919900049,
+            -4.650596713280176e-05
+          ],
+          [
+            -0.05804580293948585,
+            -0.3914230528593904,
+            -9.67715713117299e-05,
+            -0.5005411696576968
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.24125523920394876,
+          -0.3037221094045032,
+          -0.4239998909988741,
+          -0.4569869282520415
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.000381504506803354,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    },
+    {
+      "start": "china_only",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 19.17818608699963,
+      "peak_process_rss_kib": 189004,
+      "max_deviation_gain": 3.89011739487799e-14,
+      "best_response_action_residual": 9.409301499063716e-08,
+      "hjb_residuals": [
+        6.329003987559645e-11,
+        6.993956802592294e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 6.329003987559645e-11,
+            "reward_inf": 0.5318056073756727
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 6.993956802592294e-11,
+            "reward_inf": 0.5318994852760566
+          }
+        ],
+        "matrix_nnz": 417589,
+        "sparse_bytes": 5345156,
+        "elapsed_seconds": 0.022677935001411242
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 1.6854914064445836e-07,
+        "one": 6.808866959140403e-08,
+        "us_only": 1.1441184621929779e-07
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n17_china_only.npz",
+      "archive_sha256": "ea89e901e257d3df7aba6b37b57663abf42c962de78c546a064f2397014182d4",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.651237258573993,
+          0.6413050654690695,
+          0.3128815045181725,
+          0.3205115117882026
+        ],
+        "drift_residual": 6.54087894957911e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22938230062157258,
+            0.0,
+            0.03646928647991171,
+            0.0
+          ],
+          [
+            0.0,
+            -0.1951519055939099,
+            0.0,
+            0.03142394820878824
+          ],
+          [
+            -0.3902910700352423,
+            -0.058119044831204385,
+            -0.5008887921079661,
+            -4.6506032358404454e-05
+          ],
+          [
+            -0.058045802546744456,
+            -0.3914230518365974,
+            -9.677163098621747e-05,
+            -0.5005411697923113
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.24125523906489293,
+          -0.3037221090573617,
+          -0.423999891565479,
+          -0.4569869284280263
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0003815045181724819,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 19.479210823999892,
+      "peak_process_rss_kib": 191724,
+      "max_deviation_gain": 2.360308129500943e-14,
+      "best_response_action_residual": 9.13951962999704e-08,
+      "hjb_residuals": [
+        3.23111259969977e-11,
+        5.6823407090789146e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 3.23111259969977e-11,
+            "reward_inf": 0.531805607390691
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 5.6823407090789146e-11,
+            "reward_inf": 0.5318994852721566
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.023104748001060216
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 1.0415037698940921e-07,
+        "one": 6.974242228174887e-08,
+        "us_only": 6.821147013891249e-08,
+        "china_only": 6.89854026125758e-08
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n17_mid.npz",
+      "archive_sha256": "a168ed222c1831f9882e4c821ce0544e5a87e692ef29d968e2b9c19239eb1088",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512372585679228,
+          0.6413050654614858,
+          0.31288150447999263,
+          0.3205115117411054
+        ],
+        "drift_residual": 6.54087894957911e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22938230061740925,
+            0.0,
+            0.036469286479564766,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19515190558939963,
+            0.0,
+            0.03142394820809435
+          ],
+          [
+            -0.3902910712453854,
+            -0.05811904650902893,
+            -0.5008887918720437,
+            -4.6505894968305156e-05
+          ],
+          [
+            -0.058045803357207264,
+            -0.39142305408341127,
+            -9.67715060861272e-05,
+            -0.50054116951198
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.24125523936932763,
+          -0.30372210975750596,
+          -0.4239998904075588,
+          -0.45698692805644
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0003815044799926337,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    },
+    {
+      "start": "random",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 22.8120007610014,
+      "peak_process_rss_kib": 194560,
+      "max_deviation_gain": 3.1780134079895106e-15,
+      "best_response_action_residual": 7.977610844145389e-08,
+      "hjb_residuals": [
+        9.061723593717375e-12,
+        6.593797730047868e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 9.061723593717375e-12,
+            "reward_inf": 0.5318056073885853
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 6.593797730047868e-11,
+            "reward_inf": 0.531899485271703
+          }
+        ],
+        "matrix_nnz": 417588,
+        "sparse_bytes": 5345144,
+        "elapsed_seconds": 0.02300383599867928
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 1.1489999152125563e-07,
+        "one": 1.499917511305071e-07,
+        "us_only": 1.0822636709040268e-07,
+        "china_only": 1.9230381331780677e-07,
+        "mid": 1.4913801271720928e-07
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n17_random.npz",
+      "archive_sha256": "884ccee1c090896d229c7f6fc9e8f6bc80dc0bcd35618d03d7608ba8a5a64825",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.651237258562696,
+          0.641305065457118,
+          0.3128815044471176,
+          0.32051151171398023
+        ],
+        "drift_residual": 6.540948338518149e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22938230061359285,
+            0.0,
+            0.03646928647887088,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19515190558731796,
+            0.0,
+            0.03142394820809435
+          ],
+          [
+            -0.39029107203641933,
+            -0.05811904760537417,
+            -0.500888791719388,
+            -4.6505803374905625e-05
+          ],
+          [
+            -0.05804580387207319,
+            -0.3914230556058046,
+            -9.677142559495792e-05,
+            -0.5005411693190788
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.24125523958009026,
+          -0.30372211021159734,
+          -0.4239998896513594,
+          -0.4569869277963303
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0003815044471175977,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    },
+    {
+      "start": "zero",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 21,
+      "nodes": 194481,
+      "elapsed_seconds": 118.08571995000239,
+      "peak_process_rss_kib": 286232,
+      "max_deviation_gain": 4.947431353485854e-15,
+      "best_response_action_residual": 9.942720047284581e-08,
+      "hjb_residuals": [
+        8.034711784787874e-11,
+        3.166339412885577e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 8.034711784787874e-11,
+            "reward_inf": 0.531808337141236
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 3.166339412885577e-11,
+            "reward_inf": 0.531902976770565
+          }
+        ],
+        "matrix_nnz": 972274,
+        "sparse_bytes": 12445216,
+        "elapsed_seconds": 0.04841059799946379
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n21_zero.npz",
+      "archive_sha256": "10c4bda61967795c8737693944a6a3b9add5056ef3f0e213514e257b454bf743",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512830270755601,
+          0.6411637929164417,
+          0.3131693852689205,
+          0.3196342440019839
+        ],
+        "drift_residual": 7.358003095703225e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.2294124066565988,
+            0.0,
+            0.036471849517194115,
+            0.0
+          ],
+          [
+            0.0,
+            -0.1950750749718368,
+            0.0,
+            0.03141702585269712
+          ],
+          [
+            -0.39425650980625243,
+            -0.05806272711821105,
+            -0.4999627419630666,
+            -7.041312810589126e-05
+          ],
+          [
+            -0.05849409713292151,
+            -0.39239867774027826,
+            3.7516700857016755e-05,
+            -0.5005791944562844
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.24129601675861884,
+          -0.3055343964996151,
+          -0.42148846836667797,
+          -0.456710536422875
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0012830270755600504,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.37567216862926917,
+            0.47345214729951407
+          ],
+          "csv": "outputs/scenario/game/adaptation_positive_n21_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.24142872723668388,
+            0.3475698909225553
+          ],
+          "csv": "outputs/scenario/game/adaptation_positive_n21_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.4640807544548837,
+            0.5492175398068072
+          ],
+          "csv": "outputs/scenario/game/adaptation_positive_n21_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.34298816955246075,
+            0.42551093010461244
+          ],
+          "csv": "outputs/scenario/game/adaptation_positive_n21_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "one",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 21,
+      "nodes": 194481,
+      "elapsed_seconds": 122.92289834999974,
+      "peak_process_rss_kib": 295748,
+      "max_deviation_gain": 4.7531423241764514e-15,
+      "best_response_action_residual": 9.750392104823646e-08,
+      "hjb_residuals": [
+        4.305661382986159e-11,
+        1.1745507344507189e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 4.305661382986159e-11,
+            "reward_inf": 0.5318083371412775
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 1.1745507344507189e-11,
+            "reward_inf": 0.5319029767724323
+          }
+        ],
+        "matrix_nnz": 972316,
+        "sparse_bytes": 12445720,
+        "elapsed_seconds": 0.051469402002112474
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 2.2804011956534254e-08
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n21_one.npz",
+      "archive_sha256": "c5876b282835d134b307a05c42a743a00a12af6efc1120982cea428a3c8644be",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512830271089226,
+          0.6411637929250082,
+          0.313169385478775,
+          0.31963424405517576
+        ],
+        "drift_residual": 7.357933706764186e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22941240667880325,
+            0.0,
+            0.03647184951858189,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19507507497634707,
+            0.0,
+            0.03141702585304407
+          ],
+          [
+            -0.3942565325214155,
+            -0.05806272908191802,
+            -0.49996274169383753,
+            -7.041314753479419e-05
+          ],
+          [
+            -0.05849411134655178,
+            -0.39239867736002687,
+            3.751662452918381e-05,
+            -0.5005791943688543
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.2412960164141862,
+          -0.30553440442737984,
+          -0.42148846026410214,
+          -0.45671053661217403
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0012830271089225853,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    },
+    {
+      "start": "us_only",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 21,
+      "nodes": 194481,
+      "elapsed_seconds": 124.81949005899878,
+      "peak_process_rss_kib": 300416,
+      "max_deviation_gain": 4.6004866582904924e-15,
+      "best_response_action_residual": 9.585635984965535e-08,
+      "hjb_residuals": [
+        4.6455117530541656e-11,
+        2.892580619473506e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 4.6455117530541656e-11,
+            "reward_inf": 0.5318083371413603
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 2.892580619473506e-11,
+            "reward_inf": 0.5319029767734069
+          }
+        ],
+        "matrix_nnz": 972295,
+        "sparse_bytes": 12445468,
+        "elapsed_seconds": 0.04810288500084425
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 4.221798161063717e-08,
+        "one": 1.9413969654102914e-08
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n21_us_only.npz",
+      "archive_sha256": "1b19bb9272c56c7dafaa1c125a8e24685ebde989805ede2fb458415e5761f795",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512830271381695,
+          0.6411637929333469,
+          0.3131693856627421,
+          0.319634244106952
+        ],
+        "drift_residual": 7.358072484642264e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.2294124066978852,
+            0.0,
+            0.03647184952031662,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19507507498085735,
+            0.0,
+            0.03141702585339101
+          ],
+          [
+            -0.39425655191007286,
+            -0.05806273084578485,
+            -0.4999627414620785,
+            -7.041319888260908e-05
+          ],
+          [
+            -0.058494123509045017,
+            -0.3923986772281879,
+            3.7516541262456965e-05,
+            -0.5005791943577521
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.2412960161335779,
+          -0.30553441119462904,
+          -0.4214884533719311,
+          -0.45671053679843476
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0012830271381695235,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    },
+    {
+      "start": "china_only",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 21,
+      "nodes": 194481,
+      "elapsed_seconds": 123.1519532559978,
+      "peak_process_rss_kib": 311176,
+      "max_deviation_gain": 4.621303340002214e-15,
+      "best_response_action_residual": 9.594786926081511e-08,
+      "hjb_residuals": [
+        8.45692960105282e-11,
+        3.08619796385301e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 8.45692960105282e-11,
+            "reward_inf": 0.531808337141309
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 3.08619796385301e-11,
+            "reward_inf": 0.5319029767737269
+          }
+        ],
+        "matrix_nnz": 972296,
+        "sparse_bytes": 12445480,
+        "elapsed_seconds": 0.04833080800017342
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 4.118487345605715e-08,
+        "one": 1.8380861499522894e-08,
+        "us_only": 5.313273099272209e-09
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n21_china_only.npz",
+      "archive_sha256": "53963481a709d22fc21e4fd736b460ef3e2aded03c4b516d581f89c593d11218",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512830271362756,
+          0.6411637929324834,
+          0.3131693856508289,
+          0.31963424410158997
+        ],
+        "drift_residual": 7.358141873581303e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22941240669719132,
+            0.0,
+            0.03647184952066356,
+            0.0
+          ],
+          [
+            0.0,
+            -0.1950750749805104,
+            0.0,
+            0.03141702585339101
+          ],
+          [
+            -0.39425655085813655,
+            -0.05806273071394587,
+            -0.4999627414787318,
+            -7.041317945370615e-05
+          ],
+          [
+            -0.05849412283458453,
+            -0.3923986771560234,
+            3.751654820135087e-05,
+            -0.5005791943299965
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.24129601614405033,
+          -0.3055344108279476,
+          -0.42148845373902194,
+          -0.4567105367754101
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.001283027136275594,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 21,
+      "nodes": 194481,
+      "elapsed_seconds": 119.92810963400188,
+      "peak_process_rss_kib": 318864,
+      "max_deviation_gain": 4.808653475407709e-15,
+      "best_response_action_residual": 9.80560074803627e-08,
+      "hjb_residuals": [
+        3.707865958713086e-11,
+        3.929512271128033e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 3.707865958713086e-11,
+            "reward_inf": 0.5318083371413607
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 3.929512271128033e-11,
+            "reward_inf": 0.531902976771448
+          }
+        ],
+        "matrix_nnz": 972316,
+        "sparse_bytes": 12445720,
+        "elapsed_seconds": 0.07139795900002355
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 1.6065446584168086e-08,
+        "one": 2.8061713563953816e-08,
+        "us_only": 3.863940289949852e-08,
+        "china_only": 4.080808307938e-08
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n21_mid.npz",
+      "archive_sha256": "b64e11d9ec31655557cbc0684aa5774fb6a5c7b03085ed174ad18cf1e49f8757",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512830271006874,
+          0.6411637929245235,
+          0.3131693854269742,
+          0.31963424405216573
+        ],
+        "drift_residual": 7.357933706764186e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22941240667359908,
+            0.0,
+            0.03647184951858189,
+            0.0
+          ],
+          [
+            0.0,
+            -0.19507507497600013,
+            0.0,
+            0.03141702585339101
+          ],
+          [
+            -0.39425652587950627,
+            -0.058062728666972166,
+            -0.49996274177710426,
+            -7.041322663818469e-05
+          ],
+          [
+            -0.05849410726370661,
+            -0.392398677848525,
+            3.751661897806869e-05,
+            -0.5005791945409389
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.2412960165372641,
+          -0.30553440210104665,
+          -0.421488462705533,
+          -0.45671053662379896
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.001283027100687395,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    },
+    {
+      "start": "random",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.7,
+        "beta_u": 0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 21,
+      "nodes": 194481,
+      "elapsed_seconds": 124.72117804300069,
+      "peak_process_rss_kib": 325088,
+      "max_deviation_gain": 4.593547764386585e-15,
+      "best_response_action_residual": 9.571284859122287e-08,
+      "hjb_residuals": [
+        4.6294856836937015e-11,
+        6.88446522012498e-12
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 4.6294856836937015e-11,
+            "reward_inf": 0.5318083371436947
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 0,
+            "linear_residual_inf": 6.88446522012498e-12,
+            "reward_inf": 0.5319029767735709
+          }
+        ],
+        "matrix_nnz": 972295,
+        "sparse_bytes": 12445468,
+        "elapsed_seconds": 0.05043838900019182
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 4.481266435707454e-08,
+        "one": 2.5881473297850732e-08,
+        "us_only": 2.8096144466527306e-08,
+        "china_only": 3.040647644780847e-08,
+        "mid": 2.8747217772906453e-08
+      },
+      "scenario": "adaptation_positive",
+      "archive": "outputs/scenario/game/adaptation_positive_n21_random.npz",
+      "archive_sha256": "7b2c7a3128d66634cd2da4a87afe21fcc53f0a5599ec3725906631015bd13d2d",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6512830271368338,
+          0.6411637929280464,
+          0.3131693856543404,
+          0.3196342440740399
+        ],
+        "drift_residual": 7.358211262520342e-13,
+        "full_closed_loop_jacobian": [
+          [
+            -0.22941240669719132,
+            0.0,
+            0.03647184952066356,
+            0.0
+          ],
+          [
+            0.0,
+            -0.1950750749780818,
+            0.0,
+            0.03141702585339101
+          ],
+          [
+            -0.39425655424709233,
+            -0.058062730534922405,
+            -0.49996274141905733,
+            -7.041294769464975e-05
+          ],
+          [
+            -0.05849412475527036,
+            -0.3923986760430248,
+            3.751661620251113e-05,
+            -0.500579193944194
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.24129601602454034,
+          -0.3055344120386902,
+          -0.42148845232540616,
+          -0.4567105366498873
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0012830271368338142,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      }
+    }
+  ],
+  "grid_refinement": [
+    {
+      "scenario": "adaptation_positive",
+      "coarse": 17,
+      "fine": 21,
+      "u_sup_change": 0.0013516158086037677,
+      "c_sup_change": 0.0013343854418685908,
+      "comparison": "coarse_multilinear_policy_evaluated_at_fine_grid_nodes"
+    }
+  ]
+}

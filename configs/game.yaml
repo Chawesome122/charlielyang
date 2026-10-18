@@ -1,0 +1,55 @@
+classification: hypothetical_scenario_not_empirical_calibration
+time_unit: year
+quarter_year_fraction: 0.25
+freeze: '2026-10-11'
+dynamics: exponential_growth_with_bounded_pipelines
+beta_sign_free: true
+state_order: [x, y, m, n]
+parameters:
+  g_c: 0.12
+  g_u: 0.10
+  beta_c: 0.7
+  beta_u: 0.7
+  delta_c: 0.08
+  delta_u: 0.07
+  kappa_c: 0.5
+  kappa_u: 0.5
+  rho_u: 0.2
+  rho_c: 0.2
+  a_u: 0.8
+  a_c: 0.8
+  d_u: 0.5
+  d_c: 0.5
+  k_u: 1.0
+  k_c: 1.0
+  h_u: 0.05
+  h_c: 0.05
+  b_u: 0.2
+  b_c: 0.2
+  q_u: 0.15
+  q_c: 0.15
+state_grid: [17, 21]
+starts: [zero, one, us_only, china_only, mid, random]
+seed: 101
+scenarios:
+  adaptation_negative: {beta_c: -0.7, beta_u: -0.7}
+  adaptation_zero: {beta_c: 0.0, beta_u: 0.0}
+  adaptation_positive: {beta_c: 0.7, beta_u: 0.7}
+  patient: {rho_c: 0.10, rho_u: 0.10}
+  impatient: {rho_c: 0.40, rho_u: 0.40}
+  substitution: {q_c: -0.15, q_u: -0.15}
+  complementarity: {q_c: 0.4, q_u: 0.4}
+  industrial_subsidy_growth: {g_u: 0.15}
+  foreign_licensing_relaxation: {a_u: 0.5}
+tolerances:
+  hjb_scaled: 1.0e-8
+  best_response_action: 1.0e-7
+  deviation_gain: 1.0e-8
+  linear_rtol: 1.0e-11
+  max_iterations: 80
+  damping: 0.6
+nonidentification:
+  - No empirical state, legal-intensity or strategic-payoff calibration is available.
+  - Growth subsidy and licensing scenarios are theoretical parameter mappings only.
+  - Observable opacity cannot enter the four-state game structurally without independent estimation.
+  - Continuous-state pure MPE existence, uniqueness and convergence are not certified.

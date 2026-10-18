@@ -1,0 +1,213 @@
+{
+  "passed": true,
+  "scope": "full_recomputation",
+  "freeze": "2026-10-11",
+  "network_required": false,
+  "steps": [
+    {
+      "command": [
+        "scripts/build_rare_earths.py"
+      ],
+      "exit_code": 0,
+      "seconds": 7.850903188002121,
+      "log": "outputs/diagnostics/replication_logs/00_build_rare_earths.log"
+    },
+    {
+      "command": [
+        "scripts/build_project_registry.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.5468517910012451,
+      "log": "outputs/diagnostics/replication_logs/01_build_project_registry.log"
+    },
+    {
+      "command": [
+        "scripts/fetch_additional_rare_earths.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.36971976600034395,
+      "log": "outputs/diagnostics/replication_logs/02_fetch_additional_rare_earths.log"
+    },
+    {
+      "command": [
+        "scripts/build_citation_audit.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.04212960900258622,
+      "log": "outputs/diagnostics/replication_logs/03_build_citation_audit.log"
+    },
+    {
+      "command": [
+        "scripts/run_semiconductors.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.563711347997014,
+      "log": "outputs/diagnostics/replication_logs/04_run_semiconductors.log"
+    },
+    {
+      "command": [
+        "scripts/run_opacity.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.5068729369995708,
+      "log": "outputs/diagnostics/replication_logs/05_run_opacity.log"
+    },
+    {
+      "command": [
+        "scripts/run_physical.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.7709905929987144,
+      "log": "outputs/diagnostics/replication_logs/06_run_physical.log"
+    },
+    {
+      "command": [
+        "scripts/run_forecast.py",
+        "--draws",
+        "10000"
+      ],
+      "exit_code": 0,
+      "seconds": 49.81367896499796,
+      "log": "outputs/diagnostics/replication_logs/07_run_forecast.log"
+    },
+    {
+      "command": [
+        "scripts/run_empirical_baselines.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.3694938429980539,
+      "log": "outputs/diagnostics/replication_logs/08_run_empirical_baselines.log"
+    },
+    {
+      "command": [
+        "scripts/run_game.py",
+        "--grids",
+        "5",
+        "7",
+        "--scenarios",
+        "adaptation_positive"
+      ],
+      "exit_code": 0,
+      "seconds": 10.641579291001108,
+      "log": "outputs/diagnostics/replication_logs/09_run_game.log"
+    },
+    {
+      "command": [
+        "scripts/run_game.py",
+        "--grids",
+        "17",
+        "21",
+        "--max-iterations",
+        "120",
+        "--scenarios",
+        "adaptation_positive"
+      ],
+      "exit_code": 0,
+      "seconds": 919.0349421379979,
+      "log": "outputs/diagnostics/replication_logs/10_run_game.log"
+    },
+    {
+      "command": [
+        "scripts/run_game.py",
+        "--grids",
+        "17",
+        "21",
+        "--starts",
+        "mid",
+        "--scenarios",
+        "adaptation_negative",
+        "adaptation_zero"
+      ],
+      "exit_code": 0,
+      "seconds": 236.79288660300517,
+      "log": "outputs/diagnostics/replication_logs/11_run_game.log"
+    },
+    {
+      "command": [
+        "scripts/run_game.py",
+        "--grids",
+        "17",
+        "--starts",
+        "mid",
+        "--scenarios",
+        "adaptation_negative",
+        "--method",
+        "alternating",
+        "--max-iterations",
+        "60",
+        "--out",
+        "outputs/scenario/game/alternate_attempt"
+      ],
+      "exit_code": 0,
+      "seconds": 66.34907591000228,
+      "log": "outputs/diagnostics/replication_logs/12_run_game.log"
+    },
+    {
+      "command": [
+        "scripts/run_game.py",
+        "--grids",
+        "7",
+        "--starts",
+        "mid",
+        "--scenarios",
+        "adaptation_negative",
+        "adaptation_zero",
+        "patient",
+        "impatient",
+        "substitution",
+        "complementarity",
+        "industrial_subsidy_growth",
+        "foreign_licensing_relaxation"
+      ],
+      "exit_code": 0,
+      "seconds": 27.22413851699821,
+      "log": "outputs/diagnostics/replication_logs/13_run_game.log"
+    },
+    {
+      "command": [
+        "scripts/audit_game.py"
+      ],
+      "exit_code": 0,
+      "seconds": 13.890405327998451,
+      "log": "outputs/diagnostics/replication_logs/14_audit_game.log"
+    },
+    {
+      "command": [
+        "scripts/validate.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.0679653439947288,
+      "log": "outputs/diagnostics/replication_logs/15_validate.log"
+    },
+    {
+      "command": [
+        "-m",
+        "pytest",
+        "-q",
+        "--junitxml=outputs/diagnostics/pytest.xml"
+      ],
+      "exit_code": 0,
+      "seconds": 5.193183553994459,
+      "log": "outputs/diagnostics/replication_logs/16_-m.log"
+    },
+    {
+      "command": [
+        "scripts/report.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.3667335830032243,
+      "log": "outputs/diagnostics/replication_logs/17_report.log"
+    },
+    {
+      "command": [
+        "latexmk",
+        "main.tex"
+      ],
+      "exit_code": 0,
+      "log": "outputs/diagnostics/replication_logs/manuscript.log"
+    }
+  ],
+  "total_seconds": 1352.5557131140013,
+  "independent_machine": false,
+  "note": "Expected negative-beta nonconvergence is a scientific result recorded by successful scripts, not a passing equilibrium."
+}

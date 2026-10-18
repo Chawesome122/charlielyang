@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "milestone_claims": 23,
+  "projects": 4,
+  "activities": 7,
+  "quarterly_versions": 66,
+  "distinct_quarterly_observations": 30,
+  "annual_reconciliations": [
+    {
+      "fiscal_year": 2024,
+      "product_basis": "NdPr_oxide_product_family",
+      "quarterly_sum": 5655,
+      "annual_report_value": 5655,
+      "difference": 0,
+      "passed": true
+    },
+    {
+      "fiscal_year": 2024,
+      "product_basis": "total_REO",
+      "quarterly_sum": 10908,
+      "annual_report_value": 10908,
+      "difference": 0,
+      "passed": true
+    },
+    {
+      "fiscal_year": 2025,
+      "product_basis": "NdPr_oxide_product_family",
+      "quarterly_sum": 6558,
+      "annual_report_value": 6558,
+      "difference": 0,
+      "passed": true
+    },
+    {
+      "fiscal_year": 2025,
+      "product_basis": "total_REO",
+      "quarterly_sum": 10462,
+      "annual_report_value": 10462,
+      "difference": 0,
+      "passed": true
+    },
+    {
+      "fiscal_year": 2026,
+      "product_basis": "NdPr_oxide_product_family",
+      "quarterly_sum": 7260,
+      "annual_report_value": 7260,
+      "difference": 0,
+      "passed": true
+    },
+    {
+      "fiscal_year": 2026,
+      "product_basis": "total_REO",
+      "quarterly_sum": 13089,
+      "annual_report_value": 13089,
+      "difference": 0,
+      "passed": true
+    }
+  ],
+  "source_pdfs_checked": 17,
+  "freeze": "2026-10-11",
+  "complete_risk_set": false,
+  "empirical_network_ready": false,
+  "qualification_and_unit_conversion": "not inferred from first production or oxide totals"
+}

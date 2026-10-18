@@ -1,0 +1,2718 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh_en" lang="zh_en">
+
+<head>
+	<meta http-equiv=X-UA-Compatible content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="zh_en" />
+	<meta name="renderer" content="webkit" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=640,user-scalable=no">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<link rel="shortcut icon" href="/images/title-logo.png" type="image/x-icon" />
+
+	<script type="text/javascript" src="/assets/692efc88/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/692efc88/jui/js/jquery-ui.min.js"></script>
+<title>SMIC-Financials</title>
+
+
+
+	<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/global.css?v=1.71" />
+	<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/layout.css?v=3">
+	<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/media.css?v=2.11">
+	<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/iframe_style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="< ?php echo WfPageHelper::getThemeBaseUrl(); ?>/skin/css/selectbox.css" /> -->
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/default/ie6.css" media="screen, projection" />
+	<![endif]-->
+
+	<!--[if IE 8]>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/default/ie.css" media="screen, projection" />
+	<![endif]-->
+
+
+
+	<script type="text/javascript" src="https://smic.cdn.shwebspace.com/themes/basicen/skin/js/jquery.min.js"></script>
+	<script type="text/javascript" src="https://smic.cdn.shwebspace.com/themes/basicen/skin/js/common.js"></script>
+	<script type="text/javascript" src="https://smic.cdn.shwebspace.com/themes/basicen/skin/js/swiper.js"></script>
+	<script type="text/javascript" src="https://smic.cdn.shwebspace.com/themes/basicen/skin/js/jquery.selectBox.min.js"></script>
+	<script type="text/javascript" src="https://smic.cdn.shwebspace.com/themes/basicen/skin/js/jquery.carouFredSel.js"></script>
+	<script type="text/javascript" src="https://smic.cdn.shwebspace.com/themes/basicen/skin/js/webfoss.fullscreenstage.js"></script>
+
+
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?4ede7a0a64474805edcc331c87c24583";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
+
+</head>
+
+
+<body class="action--site-company_financialSummary controller--site">
+	<!-- <div id="go_home_logo">
+	    <a href="/">
+	        <img src="/skin/images/home2.png" alt="">
+	    </a>
+	</div> -->
+	<div class="wrapper" id="page">
+
+		<div class="pageinner">
+			<div class="shadow shadow2"> </div>
+			<div class="container">
+				<link rel="stylesheet" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/menu.css?v=1.1">
+
+<div class="container">
+
+    <div class="header clearfix">
+        <div class="header-nav">
+            <div class="header-nav-top">
+                <div class="nav-toggle-con">
+                    <div class="nav-toggle">
+                        <div class="icon"></div>
+                    </div>
+                    <p class="nav-toggle-p"><img src='/themes/basicen/skin/images/menu.png'></p>
+                </div>
+                <div class="nav-anguage">
+                    <p class="nav-anguage-p"><img src='/themes/basicen/skin/images/language.png'></p>
+                    <div id="languages">
+                        <div class="buttons"><a href="/site/company_financialSummary">简体中文</a><a href="/tc/site/company_financialSummary">繁体中文</a><a href="/en/site/company_financialSummary">ENGLISH</a><a href="/jp/site/company_financialSummary">日本语</a></div>
+                    </div>
+                </div>
+                <div class="nav-search">
+                    <a href="javascript:;" title=""></a>
+                    <p class="nav-search-p"><img src='/themes/basicen/skin/images/serach.png'></p>
+                    <form action="/en/site/search" accept-charset="UTF-8" method="get">
+                        <input type="text" name="keyword" />
+                        <input type="submit" value="" />
+                    </form>
+                </div>
+            </div>
+            <div class="header-nav-bottom">
+                <iframe width="100%" height="144px" style="border: 0;" src="https://asia.tools.euroland.com/tools/ticker/html/?companycode=cn-smi&lang=en-GB"></iframe>
+                <div>
+                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/sticker-1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="header-menu-list">
+                <ul class="menu_a">
+                    <li>
+                        <a href="/en">Home</a>
+                    </li>
+                </ul>
+                <ul class="nav_a">
+                    <li>
+                        <a href="/en/site/solution">Foundry Solutions</a>
+                    </li>
+                    <li>
+                        <a href="/en/site/design">Design Service</a>
+                    </li>
+                    <li>
+                        <a href="/en/site/investor">Investor Relations</a>
+                    </li>
+                    <li>
+                        <a href="/en/site/news">Press Center</a>
+                    </li>
+                    <li>
+                        <a href="/en/site/human">Career </a>
+                    </li>
+                    <li>
+                        <a href="/en/site/responsibility_social">Corporate Social Responsibility</a>
+                    </li>
+                    <li>
+                        <a href="/en/site/about_summary">About SMIC</a>
+                    </li>
+                    <!-- <li>
+                    	                                                	<a href="">Majority - Owned JV</a>
+                    	                    </li> -->
+
+                </ul>
+                <div class="nav_b_container">
+                    <ul class="nav_b">
+
+                        <li>
+                            <div class="nav_c_container">
+                                                                <a href="/en/site/productdetail/2886">Technology Platform</a>
+                                <ul class="nav_c">
+                                    <ul class="third_child">
+                                                                                    <li>
+                                                <a href="/en/site/productdetail/2886">Analog&Power</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="/en/site/productdetail/2921">DDIC</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="/en/site/productdetail/2940">IGBT</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="/en/site/productdetail/2964">eNVM</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="/en/site/productdetail/2970">NVM</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="/en/site/productdetail/2991">Mixed Signal & RF</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="/en/site/productdetail/3020">IoT Solutions</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="/en/site/productdetail/3023">Automotive</a>
+                                            </li>
+                                                                            </ul>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/factory_summary">Fab Information</a>
+                                <ul class="nav_c"></ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/one_stop_service">Backend Turnkey Service</a>
+                                <ul class="nav_c">
+                                    <!--<li>
+                                        <a href="/en/site/long_power" title="">SJSemi</a>
+                                        <ul class="nav_d"></ul>
+                                    </li>-->
+                                    <li>
+                                        <a href="/en/site/posterior_segment" title="">SMIC Backend Service</a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/mask">Mask Operation</a>
+                                <ul class="nav_c">
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/online_service">SMIC Now</a>
+                                <ul class="nav_c">
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/multi_project">Multi-Project Wafer Service</a>
+                                <ul class="nav_c">
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav_c_container">
+                                <a href="/en/site/design_chain">Service Chain</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/design_platform" title="">Technology Platform</a>
+                                        <ul class="nav_d">
+                                            <li>
+                                                <a href="/en/site/design_process">Process/PDK</a>
+                                            </li>
+                                            <li>
+                                                <a href="/en/site/design_maturity">IP Design/Service/Maturity</a>
+                                            </li>
+                                            <li>
+                                                <a href="/en/site/design_application">
+                                                    Application Platform
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/design_support" title="">Design Support</a>
+                                        <ul class="nav_d">
+                                            <li>
+                                                <a href="/en/site/design_applicationSupport">AE Support for Customer</a>
+
+                                            </li>
+                                            <li>
+                                                <a href="/en/site/design_application_flow">Reference Flow</a>
+
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/design_test" title="">Tape Out/Assembly/Testing</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/design_ecosphere">IP Ecosystem</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/design_union" title="">IP Ecosystem</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/design_test_chip" title="">Chip Assembly/Testing</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="nav_c_container">
+                                <a href="/en/site/company_info">Company Information</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/company_info#page_slide_0" title="">Overview</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <!--<li>
+                                        <a href="/en/site/company_info#page_slide_1" title="">Fact Sheet</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>-->
+                                    <li>
+                                        <a href="/en/site/company_info#page_slide_2" title="">Management Team</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/company_info#page_slide_3" title="">SMIC Worldwide</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/company_control">Corporate Governance</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/company_control#page_slide_0" title="">Board of Directors</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/company_control#page_slide_1" title="">Board Committees</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/company_control#page_slide_2" title="">Constitutional
+                                            Documents and Terms of Reference</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/company_control#page_slide_3" title="">Code of Ethics</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/company_control#page_slide_4" title="">Policy and
+                                            Procedures</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/company_activity">IR Calendar</a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/company_financialSummary">Financials</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/company_financialSummary#page_slide_0">Quarterly Earnings</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/company_financialSummary#page_slide_1">Interim / Annual
+                                            Report</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/company_financialSummary#page_slide_2">Historical
+                                            Financials</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/company_stockInformation">Shareholder Information</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/company_stockInformation#page_slide_0" title="">Share
+                                            Price</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/company_stockInformation#page_slide_2" title="">FAQ</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="/en/site/company_stockInformation#page_slide_1" title="">Analyst
+                                            Coverage</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>-->
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/company_statutoryDocuments">Regulatory Fillings</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/company_statutoryDocuments?type=h_share" title="">Hong Kong
+                                            Stock Exchange</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/company_statutoryDocuments?type=a_share" title="">SSE STAR MARKET</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/company_contact">IR Contacts</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/company_contact#page_slide_0" title="">IR Contacts</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                    <!--<li>
+                                        <a href="/en/site/company_contact#page_slide_1" title="">Request Information</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>-->
+                                    <li>
+                                        <a href="/en/site/company_contact#page_slide_2" title="">E-mail Alerts</a>
+                                        <ul class="nav_d">
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="nav_c_container">
+                                <a href="/en/site/news">Press Releases</a>
+                                <ul class="nav_c">
+                                </ul>
+                            </div>
+                            <!--<div class="nav_c_container">
+                                <a href="/en/site/news_media_coverage">SMIC in the News</a>
+                                <ul class="nav_c">
+                                </ul>
+                            </div>-->
+                            <!--<div class="nav_c_container">
+                                <a href="/en/site/news_activity" >Upcoming Events</a>
+                                <ul class="nav_c">
+                                </ul>
+                            </div>-->
+                            <div class="nav_c_container">
+                                <a href="/en/site/news_informationCenter">Media Kit</a>
+                                <ul class="nav_c">
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/news_mediaContacts">Media Contacts</a>
+                                <ul class="nav_c">
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="nav_c_container">
+                                                                <a href="http://www.hotjob.cn/wt/smichr/web/index/social" target="_blank">Social
+                                    Recruitment</a>
+                            </div>
+                            <div class="nav_c_container">
+                                                                <a href="http://campus.51job.com/smic/" target="_blank">Campus
+                                    Recruitment</a>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/human_train">Training and Development</a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/human_welfare">Life and Welfare</a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav_c_container">
+                                <a href="/en/site/responsibility_social">CSR Policy/Strategy/Mechanism</a>
+                                <ul class="nav_c">
+                                    <!-- <li>
+                                        <a href="/en/site/responsibility_criterion">
+                                            RBA
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="/en/site/responsibility_products">
+                                            Responsible Minerals Management
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/responsibility_system">
+                                            Management System
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/responsibility_report_honor">
+                                            CSR Reports and Awards
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/care">Care for People</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/care">
+                                            Safeguarding of Rights and Interests
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_development">
+                                            Careere Development
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_health">
+                                            Health
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_living">
+                                            SMIC Living Quarter
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_school">
+                                            SMIC School
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/care_environment">Care for Environment</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/care_security">
+                                            Environment Protection Measures
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_cleaner">
+                                            Cleaner Production
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_water">
+                                            Water Conservation
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_gases">
+                                            Greenhouse Gas and Energy Management
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_gas">
+                                            Air Pollution Prevention and Control
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_waste">
+                                            Waste Management
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/care_benefit">Care for Society</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/care_benefit">
+                                            Public Benefit Activities
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/care_donation">
+                                            Social Donations
+                                        </a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="nav_c_container">
+                                <a href="/en/site/about_summary">About Us</a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+
+                            <div class="nav_c_container">
+                                <a href="/en/site/about_vision">Our Vision&Values</a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/about_team">Our Management</a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/about_quality">Quality & Reliability</a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/about_risk_management">Risk Management</a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/about_ESH">Health, Safety & Environment </a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/about_supplier">Vendor Management</a>
+                                <ul class="nav_c">
+                                    <li>
+                                        <a href="/en/site/about_supplier#page_slide_0" title="">Vendor Management
+                                            Policy</a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/about_supplier#page_slide_1" title="">Announcements</a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="/en/site/about_supplier#page_slide_2" title="">Potential Supplier
+                                            Registration</a>
+                                        <ul class="nav_d"></ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="/en/site/about_supplier#page_slide_3" title="">Documents Download</a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/about_supplier#page_slide_4" title="">Supply Portal</a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                    <li>
+                                        <a href="/en/site/about_supplier#page_slide_5" title="">Contact Us</a>
+                                        <ul class="nav_d"></ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav_c_container">
+                                <a href="/en/site/about_contact">Contact Us</a>
+                                <ul class="nav_c">
+
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li>
+                        	                                                    	<div class="nav_c_container">
+                        		<a href=""></a>
+                        		<ul class="nav_c">
+
+                        		</ul>
+                        	</div>
+                        	                        </li> -->
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile_menu">
+        <div class="menu_container clearfix">
+            <div class="menu_button">
+                <div class="icon"></div>
+            </div>
+            <div class="lan">
+                <div class="lan_slide">
+                    <p>
+                        <a href="/site/company_financialSummary">简体中文</a>
+                    </p>
+                    <p>
+                        <a href="/tc/site/company_financialSummary">繁体中文</a>
+                    </p>
+                    <p>
+                        <a href="/en/site/company_financialSummary">ENGLISH</a>
+                    </p>
+                    <p>
+                        <a href="/jp/site/company_financialSummary">日本语</a>
+                    </p>
+                </div>
+            </div>
+            <div class="search">
+                <form action="/en/site/search" accept-charset="UTF-8" method="get">
+                    <input type="text" name="keyword" />
+                    <input type="submit" value="" />
+                </form>
+                <button></button>
+            </div>
+            <div class="mobile_logo">
+                <a href="/en">
+                    <img src="https://smic.cdn.shwebspace.com/uploads/logo2022.png?v=1.2" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="menu_list">
+            <ul class="first_child">
+                <li class="backgroundNone">
+                    <a href="/en">Home</a>
+                    <ul class="second_child">
+                        <li class="upper">
+                            <a href="javascript:;">Home</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/en/site/solution">Foundry Solutions</a>
+                    <ul class="second_child">
+                        <li class="upper">
+                            <a href="javascript:;">Foundry Solutions</a>
+                        </li>
+                        <li class="">
+                                                        <a href="/en/site/productdetail/2886">Technology Platform</a>
+                            <ul class="third_child">
+                                                                    <li>
+                                        <a href="/en/site/productdetail/2886">Analog&Power</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/en/site/productdetail/2921">DDIC</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/en/site/productdetail/2940">IGBT</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/en/site/productdetail/2964">eNVM</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/en/site/productdetail/2970">NVM</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/en/site/productdetail/2991">Mixed Signal & RF</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/en/site/productdetail/3020">IoT Solutions</a>
+                                    </li>
+                                                                    <li>
+                                        <a href="/en/site/productdetail/3023">Automotive</a>
+                                    </li>
+                                                            </ul>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/factory_summary">Fab Information</a>
+                        </li>
+                        <li>
+                            <a href="/en/site/one_stop_service">Backend Turnkey Service</a>
+                            <ul class="third_child">
+                                <!--<li class="backgroundNone">
+                                    <a href="/en/site/long_power" title="">SJSemi</a>
+                                </li>-->
+                                <li class="backgroundNone">
+                                    <a href="/en/site/posterior_segment" title="">SMIC Backend Service</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/mask">Mask Service</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/online_service">SMIC Now</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/multi_project">Multi-Project Wafer Service</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/en/site/design">Design Service</a>
+                    <ul class="second_child">
+                        <li class="upper">
+                            <a href="javascript:;">Design Service</a>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/design_chain">Service Chain</a>
+                            <ul class="third_child">
+                                <li class="">
+                                    <a href="/en/site/design_platform" title="">Technology Platform</a>
+                                    <ul class="last-child">
+                                        <li>
+                                            <a href="/en/site/design_process">Process/PDK</a>
+                                        </li>
+                                        <li>
+                                            <a href="/en/site/design_maturity">IP Design/Service/Maturity</a>
+                                        </li>
+                                        <li>
+                                            <a href="/en/site/design_application">
+                                                Application Platform
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="/en/site/design_support" title="">Design Support</a>
+                                    <ul class="last-child">
+                                        <li>
+                                            <a href="/en/site/design_applicationSupport">AE Support for Customer</a>
+                                        </li>
+                                        <li>
+                                            <a href="/en/site/design_application_flow">Reference Flow</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/design_test" title="">Tape Out/Assembly/Testing</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/design_ecosphere">IP Ecosystem</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/design_union" title="">IP Ecosystem</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/design_test_chip" title="">Chip Assembly/Testing</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/en/site/investor">Investor Relations</a>
+                    <ul class="second_child">
+                        <li class="upper">
+                            <a href="javascript:;">Investor Relations</a>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/company_info">Company Information</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_info#page_slide_0" title="">Overview</a>
+                                </li>
+                                <!--<li class="backgroundNone">
+                                    <a href="/en/site/company_info#page_slide_1" title="">Fact Sheet</a>
+                                </li>-->
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_info#page_slide_2" title="">Management Team</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_info#page_slide_3" title="">SMIC Worldwide</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/company_control">Corporate Governance</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_control#page_slide_0" title="">Board of Directors</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_control#page_slide_1" title="">Board Committees</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_control#page_slide_2" title="">Constitutional Documents
+                                        and Terms of Reference</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_control#page_slide_3" title="">Code of Ethics</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_control#page_slide_4" title="">Policy and Procedures </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/company_activity">IR Calendar</a>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/company_financialSummary">Financials</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_financialSummary#page_slide_0">Quarterly Earnings</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_financialSummary#page_slide_1">Interim / Annual Report</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_financialSummary#page_slide_2">Historical Financials</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/company_stockInformation">Shareholder Information</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_stockInformation#page_slide_0" title="">Share Price</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_stockInformation#page_slide_2" title="">FAQ</a>
+                                </li>
+                                <!--<li class="backgroundNone">
+                                    <a href="/en/site/company_stockInformation#page_slide_1" title="">Analyst
+                                        Coverage</a>
+                                </li>-->
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/company_statutoryDocuments">Regulatory Fillings</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_statutoryDocuments?type=h_share" title="">Hong Kong Stock
+                                        Exchange</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_statutoryDocuments?type=a_share" title="">SSE STAR MARKET</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/company_contact">IR Contacts</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_contact#page_slide_0" title="">IR Contacts</a>
+                                </li>
+                                <!--<li class="backgroundNone">
+                                    <a href="/en/site/company_contact#page_slide_1" title="">Request Information</a>
+                                </li>-->
+                                <li class="backgroundNone">
+                                    <a href="/en/site/company_contact#page_slide_2" title="">E-mail Alerts</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/en/site/news">Press Center</a>
+                    <ul class="second_child">
+                        <li class="upper">
+                            <a href="javascript:;">Press Center</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/news">Press Releases</a>
+                        </li>
+                        <!--<li class="backgroundNone">
+                            <a href="/en/site/news_media_coverage">SMIC in the News</a>
+                        </li>-->
+                        <!--<li class="backgroundNone">
+                            <a href="/en/site/news_activity" >Upcoming Events</a>
+                        </li>-->
+                        <li class="backgroundNone">
+                            <a href="/en/site/news_informationCenter">Media Kit</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/news_mediaContacts">Media Contacts</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/en/site/human">Career </a>
+                    <ul class="second_child">
+                        <li class="upper">
+                            <a href="javascript:;">Career </a>
+                        </li>
+                        <li class="backgroundNone">
+                                                        <a href="http://www.hotjob.cn/wt/smichr/web/index/social" target="_blank">Social
+                                Recruitment</a>
+                        </li>
+                        <li class="backgroundNone">
+                                                        <a href="http://campus.51job.com/smic/" target="_blank">Campus
+                                Recruitment</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/human_train">Training and Development</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/human_welfare">Life and Welfare</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="/en/site/responsibility_social">Corporate Social Responsibility</a>
+                    <ul class="second_child">
+                        <li class="upper">
+                            <a href="javascript:;">Corporate Social Responsibility</a>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/responsibility_social">CSR Policy/Strategy/Mechanism</a>
+                            <ul class="third_child">
+                                <!-- <li class="backgroundNone">
+                                    <a href="/en/site/responsibility_criterion">
+                                        RBA
+                                    </a>
+                                </li> -->
+                                <li class="backgroundNone">
+                                    <a href="/en/site/responsibility_products">
+                                        Responsible Minerals Management
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/responsibility_system">
+                                        Management System
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/responsibility_report_honor">
+                                        CSR Reports and Awards
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/care">Care for People</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care">
+                                        Safeguarding of Rights and Interests
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_development">
+                                        Careere Development
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_health">
+                                        Health
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_living">
+                                        SMIC Living Quarter
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_school">
+                                        SMIC School
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/care_environment">Care for Environment</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_security">
+                                        Environment Protection Measures
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_cleaner">
+                                        Cleaner Production
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_water">
+                                        Water Conservation
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_gases">
+                                        Greenhouse Gas and Energy Management
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_gas">
+                                        Air Pollution Prevention and Control
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_waste">
+                                        Waste Management
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/care_benefit">Care for Society</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_benefit">
+                                        Public Benefit Activities
+                                    </a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/care_donation">
+                                        Social Donations
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="/en/site/about_summary">About SMIC</a>
+                    <ul class="second_child">
+                        <li class="upper">
+                            <a href="javascript:;">About SMIC</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/about_summary">About Us</a>
+
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/about_vision">Our Vision&Values</a>
+
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/about_team">Our Management</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/about_quality">Quality & Reliability</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/about_risk_management">Risk Management</a>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/about_ESH">Health, Safety & Environment</a>
+                        </li>
+                        <li class="">
+                            <a href="/en/site/about_supplier">Vendor Management</a>
+                            <ul class="third_child">
+                                <li class="backgroundNone">
+                                    <a href="/en/site/about_supplier#page_slide_0" title="">Vendor Management Policy</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/about_supplier#page_slide_1" title="">Announcements</a>
+                                </li>
+                                <!-- <li class="backgroundNone">
+                                    <a href="/en/site/about_supplier#page_slide_2" title="">Potential Supplier
+                                        Registration</a>
+                                </li> -->
+                                <li class="backgroundNone">
+                                    <a href="/en/site/about_supplier#page_slide_3" title="">Documents Download</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/about_supplier#page_slide_4" title="">Supply Portal</a>
+                                </li>
+                                <li class="backgroundNone">
+                                    <a href="/en/site/about_supplier#page_slide_5" title="">Contact Us</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="backgroundNone">
+                            <a href="/en/site/about_contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- <li >
+					                                    		<a href="">Majority - Owned JV</a>
+                						<ul class="second_child">
+						<li class="upper">
+							<a href="javascript:;">Majority - Owned JV</a>
+						</li>
+						                    							<li class="backgroundNone">
+							<a href=""></a>
+						</li>
+											</ul>
+				</li> -->
+            </ul>
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $(function() {
+
+        $(".nav-toggle").mouseenter(function() {
+            $("body").addClass("sideopen");
+            $(".header-menu").stop().animate({
+                width: "680px"
+            })
+        }).click(function(e) {
+            e.stopPropagation();
+            if ($("body").hasClass("sideopen")) {
+                $("body").removeClass("sideopen");
+                $(".header-menu").stop().animate({
+                    width: "0px"
+                })
+            } else {
+                $("body").addClass("sideopen");
+                $(".header-menu").stop().animate({
+                    width: "680px"
+                })
+            }
+        })
+
+        $(".header-menu-list .menu_a").hover(function() {
+            $(".header-menu .nav_b_container").removeClass('active');
+            $(".header-menu .nav_b_container").stop().animate({
+                width: "0"
+            });
+        });
+
+        $(".header-menu .header-menu-list .nav_a li").hover(function() {
+            $(".header-menu .nav_b_container").addClass('active');
+            $(".header-menu .nav_b_container").stop().animate({
+                width: "350px"
+            });
+            $(".header-menu .nav_b_container .nav_b>li").hide();
+            $(".header-menu .nav_b_container .nav_b>li").eq($(this).index()).show();
+
+        })
+
+        // $(".header-menu .nav_b_container .nav_c_container").hover(function() {
+        // 	$(this).children('.nav_c').stop().show();
+        // 	$(this).siblings(".nav_c_container").children('.nav_c').hide();
+        // }, function() {
+        // 	$(this).children('.nav_c').stop().show();
+        // });
+
+        // $(".header-menu .nav_b_container .nav_b li .nav_c li").hover(function() {
+        // 	$(this).children('.nav_d').stop().fadeIn()
+        // 	$(this).siblings('li').children('.nav_d').stop().fadeOut();
+        // }, function() {
+        // 	$(this).children('.nav_d').stop().fadeOut();
+        // });
+
+
+        $("body").click(function() {
+            $("body").removeClass("sideopen");
+            $(".header-menu .nav_b_container").removeClass('active');
+            $(".header-menu .nav_b_container").stop().animate({
+                width: "0"
+            });
+            $(".header-menu").stop().animate({
+                width: "0"
+            })
+        })
+
+        // 手机
+
+        // 语言
+        $(".mobile_menu .menu_container .lan").click(function(event) {
+            event.stopPropagation();
+            if (!$(this).hasClass('active')) {
+                $(this).addClass('active');
+                $(this).children('.lan_slide').stop().slideDown();
+            } else {
+                $(this).removeClass('active');
+                $(this).children('.lan_slide').stop().slideUp();
+            }
+            $(".mobile_menu .menu_list").stop().animate({
+                left: "100%"
+            });
+            $(".mobile_menu .menu_list .first_child li .second_child").stop().animate({
+                left: "100%"
+            });
+            $(".mobile_menu .menu_container .menu_button").removeClass('active');
+            $(".mobile_menu .menu_container .search form").hide();
+            $(".mobile_menu .menu_container .search button").hide();
+        });
+
+
+        // 搜索
+        $(".mobile_menu .menu_container .search").click(function(event) {
+            $(this).children('form').show();
+            $(this).children('button').show();
+            $(".mobile_menu .menu_container .lan").removeClass('active');
+            $(".mobile_menu .menu_container .lan .lan_slide").stop().slideUp();
+            $(".mobile_menu .menu_list").stop().animate({
+                left: "100%"
+            });
+            $(".mobile_menu .menu_list .first_child li .second_child").stop().animate({
+                left: "100%"
+            });
+            event.stopPropagation();
+        });
+
+        $(".mobile_menu .menu_container .search button").click(function(event) {
+            event.stopPropagation();
+            $(this).siblings('form').hide();
+            $(this).hide();
+        });
+
+        $("body").click(function() {
+            $(".mobile_menu .menu_container .menu_button").removeClass('active');
+            $(".mobile_menu .menu_list").stop().animate({
+                left: "100%"
+            })
+            $(".mobile_menu .menu_list .first_child li .second_child").stop().animate({
+                left: "100%"
+            })
+            $(".mobile_menu .menu_container .search form").hide();
+            $(".mobile_menu .menu_container .search button").hide();
+            $(".mobile_menu .menu_container .lan").removeClass('active');
+            $(".mobile_menu .menu_container .lan .lan_slide").stop().slideUp();
+        });
+
+        // menu
+        $(".mobile_menu .menu_container .menu_button").click(function(event) {
+            event.stopPropagation();
+            if (!$(this).hasClass('active')) {
+                $(this).addClass('active');
+                $(".mobile_menu .menu_list").stop().animate({
+                    left: "0"
+                })
+
+            } else {
+                $(this).removeClass('active');
+                $(".mobile_menu .menu_list").stop().animate({
+                    left: "100%"
+                })
+                $(".mobile_menu .menu_list .first_child li .second_child").stop().animate({
+                    left: "100%"
+                })
+            }
+            $(".mobile_menu .menu_container .search form").hide();
+            $(".mobile_menu .menu_container .search button").hide();
+            $(".mobile_menu .menu_container .lan").removeClass('active');
+            $(".mobile_menu .menu_container .lan .lan_slide").stop().slideUp();
+
+        });
+
+        $(".mobile_menu .menu_list .first_child>li").click(function(event) {
+            event.stopPropagation();
+
+            $(this).addClass('active');
+            // $(this).children('.second_child').addClass('active');
+            $(this).children('.second_child').stop().animate({
+                left: "0"
+            })
+        })
+
+
+        $(".mobile_menu .menu_list .second_child>li").click(function(event) {
+
+            event.stopPropagation();
+
+            if ($(this).children(".third_child").length == 0) {
+                return;
+            } else {
+                if (!$(this).hasClass('active')) {
+                    $(this).addClass('active');
+                    $(this).children('.third_child').show();
+                    $(this).siblings('li').removeClass('active');
+                    $(this).siblings('li').children('.third_child').hide();
+                } else {
+                    $(this).removeClass('active');
+                    $(this).children('.third_child').hide();
+                }
+            }
+
+        });
+
+        $(".mobile_menu .menu_list .second_child .upper").click(function(event) {
+            event.stopPropagation();
+            $(".mobile_menu .menu_list .first_child>li").removeClass('active');
+            $(".mobile_menu .menu_list .second_child").removeClass('active');
+            $(this).parent('.second_child').stop().animate({
+                left: "100%"
+            })
+            $(".mobile_menu .menu_list .second_child li").removeClass('active');
+            $(".mobile_menu .menu_list .second_child li .third_child").hide();
+            $(".mobile_menu .menu_list .third_child li .last-child").hide();
+            $(this).removeClass('active');
+        });
+
+        $(".mobile_menu .menu_list .third_child>li").click(function(event) {
+            event.stopPropagation();
+
+            if ($(this).children(".last-child").length == 0) {
+                return;
+            } else {
+                if (!$(this).hasClass('active')) {
+                    $(this).addClass('active');
+                    $(this).children('.last-child').show();
+                    $(this).siblings('li').removeClass('active');
+                    $(this).siblings("li").children('.last-child').hide();
+                } else {
+                    $(this).removeClass('active');
+                    $(this).children('.last-child').hide();
+                }
+            }
+
+        });
+
+
+        $(".mobile_menu .menu_list a").click(function(event) {
+            event.stopPropagation();
+        });
+
+        var menuHeight = $(window).height() + 100;
+
+        // console.log(menuHeight)
+        $(".mobile_menu .menu_list").height(menuHeight);
+
+
+    })
+</script>
+
+<script>
+    // var swiper = new Swiper('.swiper-container', {
+    // 	direction: 'vertical',
+    // 	slidesPerView: 'auto',
+    // 	freeMode: true,
+    // 	scrollbar: {
+    // 	el: '.swiper-scrollbar',
+    // 	},
+    // 	mousewheel: true,
+    // });
+</script>
+			</div>
+		</div>
+
+
+
+		
+<div id="company_activity">
+    <div class="inner_ban">
+                <div class="bgImg">
+            <img src="https://smic.cdn.shwebspace.com/uploads/files-banner.jpg" />
+        </div>
+        <div class="bannerFont">
+            <div class="page_cell">
+                <p>Financials</p>
+                            </div>
+        </div>
+    </div>
+    <div class="page_cell">
+        <div class="inner_nav">
+            <a href="/en" class="pages_go_home"></a>
+            <div class="inner_nav01">
+                <a href="/en">Home</a>&nbsp;&gt;
+                <a href="/en/site/investor">Investor Relations</a>&nbsp;&gt;
+                <a href="javascript:void(0)" class="active">Financials</a>
+            </div>
+            <div class="inner_nav02">
+                <ul class="clearAfter">
+                    <li class="backroundNone">
+                        <a href="/en/site/company_info">
+                            <p>Company Information</p>
+                        </a>
+
+                    </li>
+                    <li class="backroundNone">
+                        <a href="/en/site/company_control">
+                            <p>Corporate Governance</p>
+                        </a>
+
+                    </li>
+                    <li class="backroundNone">
+                        <a href="/en/site/company_activity">
+                            <p>IR Calendar  </p>
+                        </a>
+
+                    </li>
+                    <li class="backroundNone active">
+                        <a href="/en/site/company_financialSummary">
+                            <p>Financials</p>
+                        </a>
+                    </li>
+                    <li class="backroundNone">
+                        <a href="/en/site/company_stockInformation">
+                            <p>Shareholder Information</p>
+                        </a>
+                    </li>
+                    <li class="backroundNone">
+                        <a href="/en/site/company_statutoryDocuments">
+                            <p>Regulatory Fillings</p>
+                        </a>
+                    </li>
+                    <li class="backroundNone">
+                        <a href="/en/site/company_contact">
+                            <p>IR Contacts </p>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="neirong">
+
+        <div class="section section01" id="page_slide_0">
+            <div class="page_cell">
+                <div class="sec_title">
+                    <p>Quarterly Earnings </p>
+                </div>
+                <div class="sec01_con clearAfter">
+                                        <div class="sec01_inner clearAfter">
+                        <div class="sec01_left">
+                            <div class="sec02_th">
+                                <p>Year</p>
+                            </div>
+                            <div class="select_dataWrap">
+
+
+                                <div class="select_data">
+    								    	                            <div class="sele_d_ele active">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2026#page_slide_0">2026</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2025#page_slide_0">2025</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2024#page_slide_0">2024</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2023#page_slide_0">2023</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2022#page_slide_0">2022</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2021#page_slide_0">2021</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2020#page_slide_0">2020</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2019#page_slide_0">2019</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2018#page_slide_0">2018</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2017#page_slide_0">2017</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2016#page_slide_0">2016</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2015#page_slide_0">2015</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2014#page_slide_0">2014</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2013#page_slide_0">2013</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2012#page_slide_0">2012</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2011#page_slide_0">2011</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2010#page_slide_0">2010</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2009#page_slide_0">2009</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2008#page_slide_0">2008</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2007#page_slide_0">2007</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2006#page_slide_0">2006</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2005#page_slide_0">2005</a>
+    	                                </p>
+    	                            </div>
+    	                                	                            <div class="sele_d_ele ">
+    	                                <p>
+    	                                   <a href="/en/site/company_financialSummary?year=2004#page_slide_0">2004</a>
+    	                                </p>
+    	                            </div>
+    	                            
+                                    <div class="sele_d_more">
+                                        <p>Click for more</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <style>
+                            .yearSelect{
+                                display: none;
+                            }
+                            .section01 .yearSelect{
+                                top: -50px;
+                            }
+                            .yearSelect .select>p{
+                                background: url(/themes/basic/skin/images/more_icon.png) 95% center no-repeat;
+                            }
+                            @media only screen and (max-width:640px) {
+                                .yearSelect{
+                                    display: block;
+                                }
+                            }
+                        </style>
+                        <div class="yearSelect yearSelect1">
+                            <div class="select">
+                                <p>
+                                                                            2026                                                                    </p>
+                                <div class="slide">
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2026#page_slide_0">2026</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2025#page_slide_0">2025</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2024#page_slide_0">2024</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2023#page_slide_0">2023</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2022#page_slide_0">2022</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2021#page_slide_0">2021</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2020#page_slide_0">2020</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2019#page_slide_0">2019</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2018#page_slide_0">2018</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2017#page_slide_0">2017</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2016#page_slide_0">2016</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2015#page_slide_0">2015</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2014#page_slide_0">2014</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2013#page_slide_0">2013</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2012#page_slide_0">2012</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2011#page_slide_0">2011</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2010#page_slide_0">2010</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2009#page_slide_0">2009</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2008#page_slide_0">2008</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2007#page_slide_0">2007</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2006#page_slide_0">2006</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2005#page_slide_0">2005</a>
+                                    </p>
+                                                                        <p style="border-left: 0px;">
+                                        <a href="/en/site/company_financialSummary?year=2004#page_slide_0">2004</a>
+                                    </p>
+                                                                    </div>
+                            </div>
+                        </div>
+
+    					<script>
+                            $(function(){
+                                var size = $(".select_data .sele_d_ele").length;
+
+                                var active = $(".select_data .sele_d_ele.active").index();
+                                for (var i = 0; i < size; i++) {
+                                    if ( i < active + 2 ) {
+                                        $(".select_data .sele_d_ele").eq(i).addClass("show");
+                                    }
+
+                                }
+
+                                $("#company_activity .sele_d_more").click(function(){
+                                    var showSize = $("#company_activity .sec01_left .select_data .sele_d_ele.show").length;
+                                    var num = showSize + 2;
+                                    for (var i = 0; i < size; i++) {
+                                        if ( i < num ) {
+                                            $(".select_data .sele_d_ele").eq(i).addClass("show");
+                                        }
+                                        if ( showSize >= size ){
+                                            $(this).stop().hide();
+                                        }
+                                    }
+                                })
+
+                            })
+
+                        </script>
+
+
+                        <div class="sec01_right">
+                            <table>
+                                <tr>
+                                    <th>
+                                        <div class="sec02_th">
+                                            <p>Quarter</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="sec02_th">
+                                            <p>&nbsp;</p>
+                                        </div>
+                                    </th>
+                                </tr>
+                                                                                                <tr>
+                                    <td class="td_title">
+                                        <p>2026 Second Quarter </p>
+                                                                            </td>
+                                    <td>
+                                        <p class="h"><strong>2026 Second Quarter</strong></p>
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border_bottom">
+
+                                    </td>
+                                    <td class="financial border_bottom">
+                                    	                                    	                                        <p>
+                                            <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_01.png" alt="">
+                                            <a href="https://smic.cdn.shwebspace.com/uploads/SMIC's Second Quarter 2026 Webcast Conference Call.ics " target="_blank">Add to my calendar</a>
+                                        </p>
+                                                                                                                        <p>
+                                            <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_04.png" alt="">
+                                            <a href="https://smic.cdn.shwebspace.com/uploads/2Q2026 Conference Call Webcast Announcement(en).pdf " target="_blank">Announcement of Webcast Conference Call</a>
+                                        </p>
+                                                                                                                            <p>
+                                                <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_02.png" alt="">
+                                                <a href="https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf " target="_blank">Earnings Release</a>
+                                            </p>
+                                                                                                                                                                                                                                                                                                                                                                        <p>
+                                            <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_03.png" alt="">
+                                            <a href="https://edge.media-server.com/mmc/p/ew6dh658" target="_blank">
+                                            	   Investor Conference Call Audio Webcast
+                                                                                          —  14 August 2026</a>
+                                                                                     </p>
+                                        
+                                                                                                                    </td>
+                                </tr>
+                                                                <tr>
+                                    <td class="td_title">
+                                        <p>2026 First Quarter </p>
+                                                                            </td>
+                                    <td>
+                                        <p class="h"><strong>2026 First Quarter</strong></p>
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border_bottom">
+
+                                    </td>
+                                    <td class="financial border_bottom">
+                                    	                                    	                                        <p>
+                                            <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_01.png" alt="">
+                                            <a href="https://smic.cdn.shwebspace.com/uploads/69f32e70/SMIC's First Quarter 2026 Webcast Conference Call.ics " target="_blank">Add to my calendar</a>
+                                        </p>
+                                                                                                                        <p>
+                                            <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_04.png" alt="">
+                                            <a href="https://smic.cdn.shwebspace.com/uploads/69f32e77/1Q2026 Conference Call Webcast Announcement(en).pdf " target="_blank">Announcement of Webcast Conference Call</a>
+                                        </p>
+                                                                                                                            <p>
+                                                <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_02.png" alt="">
+                                                <a href="https://smic.cdn.shwebspace.com/uploads/6a057e3f/ER_EN.pdf " target="_blank">Earnings Release</a>
+                                            </p>
+                                                                                                                                                                                                                                                                                                                                                                        <p>
+                                            <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_03.png" alt="">
+                                            <a href="https://edge.media-server.com/mmc/p/p7kfyhtx" target="_blank">
+                                            	   Investor Conference Call Audio Webcast
+                                                                                          —  15 May 2026</a>
+                                                                                     </p>
+                                        
+                                                                                                                    </td>
+                                </tr>
+                                
+
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <style>
+            .yearSelect2{
+                top: 116px;
+            }
+            .yearSelect2,.yearSelect2 .select .slide{
+                border: 1px solid #fff;
+            }
+            .yearSelect2 .select>p{
+                color: #fff;
+            }
+
+            .yearSelect2 .select>p{
+                background: url(/themes/basic/skin/images/more_icon_white.png) 95% center no-repeat;
+            }
+
+        </style>
+
+        <div class="annual_report" id="page_slide_1">
+            <div class="annual_container page_cell">
+                <div class="annual_title">
+                    <p>
+                        Interim <br> Annual Report
+                    </p>
+                </div>
+                <div class="clearfix">
+                    <div class="annual_left ">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <ul>
+                                                                                <li class="hide active">
+                                            <p> <a href="/en/site/company_financialSummary?year=2026#page_slide_1">2026</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2025#page_slide_1">2025</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2024#page_slide_1">2024</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2023#page_slide_1">2023</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2022#page_slide_1">2022</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2021#page_slide_1">2021</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2020#page_slide_1">2020</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2019#page_slide_1">2019</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2018#page_slide_1">2018</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2017#page_slide_1">2017</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2016#page_slide_1">2016</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2015#page_slide_1">2015</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2014#page_slide_1">2014</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2013#page_slide_1">2013</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2012#page_slide_1">2012</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2011#page_slide_1">2011</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2010#page_slide_1">2010</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2009#page_slide_1">2009</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2008#page_slide_1">2008</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2007#page_slide_1">2007</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2006#page_slide_1">2006</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2005#page_slide_1">2005</a></p>
+                                        </li>
+                                                                                <li class="hide ">
+                                            <p> <a href="/en/site/company_financialSummary?year=2004#page_slide_1">2004</a></p>
+                                        </li>
+                                                                                <!-- <li class="more">
+                                            <p><a href="javascript:;">Click for more</a></p>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="yearSelect yearSelect2">
+                        <div class="select">
+                            <p>
+                                                                    2026                                                            </p>
+                            <div class="slide">
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2026#page_slide_1">2026</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2025#page_slide_1">2025</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2024#page_slide_1">2024</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2023#page_slide_1">2023</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2022#page_slide_1">2022</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2021#page_slide_1">2021</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2020#page_slide_1">2020</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2019#page_slide_1">2019</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2018#page_slide_1">2018</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2017#page_slide_1">2017</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2016#page_slide_1">2016</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2015#page_slide_1">2015</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2014#page_slide_1">2014</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2013#page_slide_1">2013</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2012#page_slide_1">2012</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2011#page_slide_1">2011</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2010#page_slide_1">2010</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2009#page_slide_1">2009</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2008#page_slide_1">2008</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2007#page_slide_1">2007</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2006#page_slide_1">2006</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2005#page_slide_1">2005</a>
+                                </p>
+                                                                <p style="border-left: 0px;">
+                                    <a href="/en/site/company_financialSummary?year=2004#page_slide_1">2004</a>
+                                </p>
+                                                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                    	$(function(){
+                            var swiper = new Swiper('.annual_left .swiper-container', {
+                                direction: 'vertical',
+                                slidesPerView: 'auto',
+                                freeMode: true,
+                                scrollbar: {
+                                    el: '.swiper-scrollbar',
+                                },
+                                mousewheel: true,
+                            });
+
+
+                 //    		var hideSize = $(".annual_report .annual_container .annual_left ul li.hide").length,
+                 //    		 	select = $(".annual_report .annual_container .annual_left ul li.active").index();
+                 //    		for (var i = 0; i < hideSize; i++) {
+                 //    			if ( i < select + 2 ) {
+                 //    				$(".annual_report .annual_container .annual_left ul li.hide").eq(i).addClass("show");
+                 //    			}
+                 //    		}
+
+                 //    		if( select > 4 ){
+                 //    			$(".annual_report .annual_container .annual_left ul").css({
+                 //    				marginTop : -$(".annual_report .annual_container .annual_left ul li").height()*(select - 1) + "px"
+                 //    			})
+                 //    		}
+                 //    		$(".annual_report .annual_container .annual_left ul li.more").click(function(){
+                 //    			var showL = $(".annual_report .annual_container .annual_left ul li.show").length;
+                 //    			var num = showL + 2;
+
+                 //    			for (var i = 0; i < hideSize; i++) {
+                 //    				if( i < num ) {
+                 //    					$(".annual_report .annual_container .annual_left ul li.hide").eq(i).addClass("show");
+                 //    				}
+                 //    			}
+
+                 //    			var ulT = $(".annual_report .annual_container .annual_left ul").css("marginTop"),
+                 //    				ulT2 = ulT.split(),
+                 //    				spliceI = ulT2.length - 2;
+                 //    				ulT3 = ulT2.splice(spliceI,2),
+                 //    				ulT4 = ulT3.join();
+                 //    				ulT5 = parseInt(ulT4);
+
+                 //    			if( showL >= 4 ){
+                	// 				$(this).parent("ul").stop().animate({
+            					// 		marginTop :  -$(this).height()*2 + ulT5 + "px"
+            					// 	})
+
+            					// }
+                 //    			if ( showL >= hideSize - 2 ) {
+                 //    				$(this).stop().fadeOut();
+                 //    			}
+                 //    		})
+                    	})
+                    </script>
+                                        <div class="annual_right">
+                        <table style="word-break : break-all;">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Date as of</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            	                                                                <tr>
+                                    <td>
+                                        <p class="pic">
+                                            <img src="https://smic.cdn.shwebspace.com/uploads/6a9a89f1/EN&e5&b0&81&e9&9d&a2.PNG" alt="">
+                                        </p>
+                                    </td>
+                                    <td>
+                                    	                                        <p class="t">04 Sep 2026</p>
+                                    </td>
+                                    <td>
+                                        <p class="t">
+                                            2026 Interim Report                                        </p>
+                                        <p>
+                                            <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_06.png" alt="">
+                                            <a href="https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf" target="_blank">View</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                                                                <tr>
+                                    <td>
+                                        <p class="pic">
+                                            <img src="https://smic.cdn.shwebspace.com/uploads/&e8&8b&b1&e6&96&87&e5&b0&81&e9&9d&a2.png" alt="">
+                                        </p>
+                                    </td>
+                                    <td>
+                                    	                                        <p class="t">09 Apr 2026</p>
+                                    </td>
+                                    <td>
+                                        <p class="t">
+                                            2025 Annual Report                                        </p>
+                                        <p>
+                                            <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_06.png" alt="">
+                                            <a href="https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf" target="_blank">View</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="historical_financial page_cell" id="page_slide_2">
+            <div class="title">
+                <p>Historical Financials</p>
+            </div>
+                        <div class="historical_f_container">
+
+                <table style="word-break : break-all;">
+                    <thead>
+                        <tr>
+                            <th>
+                                <p>Document</p>
+                            </th>
+                            <th>
+                                <p>Income Statement</p>
+                            </th>
+                            <th>
+                                <p>Balance Sheet</p>
+                            </th>
+                            <th>
+                                <p>Cash Flows</p>
+                            </th>
+                            <!--<th>
+                                <p>Capacity Utilization</p>
+                            </th>-->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="j">
+                                <p>Quarterly</p>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <!--<td></td>-->
+                        </tr>
+
+                                                                        <tr>
+                            <td class="w">
+                                                                <p>
+                                    IFRS <br>
+                                    <span>(2013 - current)</span>
+                                </p>
+                            </td>
+
+                             <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/6a7d7c5e/2Q2026_PL.xlsx" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/6a7d7c63/2Q2026_BS.xlsx" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/6a7d7c6a/2Q2026-CF.xlsx" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <!--<td>
+                                                                <p>
+                                    <img src="/skin/images/icon_08.png" alt="">
+                                    <a href="" target="_blank">Download</a>
+                                </p>
+                                                            </td>-->
+                        </tr>
+                                                <tr>
+                            <td class="w">
+                                                                <p>
+                                    U.S. GAAP  <br>
+                                    <span></span>
+                                </p>
+                            </td>
+
+                             <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/doc004.xls" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/doc005.xls" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/doc006.xls" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <!--<td>
+                                                                <p>
+                                    <img src="/skin/images/icon_08.png" alt="">
+                                    <a href="" target="_blank">Download</a>
+                                </p>
+                                                            </td>-->
+                        </tr>
+                                                <tr>
+                            <td class="w">
+                                                                <p>
+                                    Non-financial  <br>
+                                    <span>(2013 – current)</span>
+                                </p>
+                            </td>
+
+                             <td>
+                                                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                                            </td>
+                            <!--<td>
+                                                                <p>
+                                    <img src="/skin/images/icon_08.png" alt="">
+                                    <a href="" target="_blank">Download</a>
+                                </p>
+                                                            </td>-->
+                        </tr>
+                                                <tr>
+                            <td class="j">
+                                <p>Annual</p>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <!--<td></td>-->
+                        </tr>
+                                                                        <tr>
+
+                            <td class="w">
+                                                                <p>
+                                    PRC <br>
+                                    <span>(2017 - current)</span>
+                                </p>
+                            </td>
+
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/6a018de8/2025_IS_PRC.xlsx" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/6a018df0/2025_BS_PRC.xlsx" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/6a018df8/2025_CF_PRC.xlsx" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <!--<td>
+                                                                 <p>
+                                    <img src="/skin/images/icon_08.png" alt="">
+                                    <a href="" target="_blank">Download</a>
+
+                                </p>
+
+                                                            </td>-->
+
+                        </tr>
+                                                <tr>
+
+                            <td class="w">
+                                                                <p>
+                                    IFRS <br>
+                                    <span>(2012 – current)</span>
+                                </p>
+                            </td>
+
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/69d75834/2025_IS.xls" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/69d7583a/2025_BS.xls" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/69d75840/2025_CF.xls" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <!--<td>
+                                                                 <p>
+                                    <img src="/skin/images/icon_08.png" alt="">
+                                    <a href="" target="_blank">Download</a>
+
+                                </p>
+
+                                                            </td>-->
+
+                        </tr>
+                                                <tr>
+
+                            <td class="w">
+                                                                <p>
+                                    U.S. GAAP <br>
+                                    <span>(2004-2011)</span>
+                                </p>
+                            </td>
+
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/doc011.xls" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/doc012.xls" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <td>
+                                                                <p>
+                                    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/icon_08.png" alt="">
+                                    <a href="https://smic.cdn.shwebspace.com/uploads/doc013.xls" target="_blank">Download</a>
+                                </p>
+                                                            </td>
+                            <!--<td>
+                                                                 <p>
+                                    <img src="/skin/images/icon_08.png" alt="">
+                                    <a href="" target="_blank">Download</a>
+
+                                </p>
+
+                                                            </td>-->
+
+                        </tr>
+                        
+                    </tbody>
+                </table>
+
+                <div class="notes_june">
+                    <div class='layout-area'><p>Note: The Company started to prepare consolidated financial statements in accordance with International Financial Reporting Standards (&ldquo;IFRS&rdquo;) in SMIC&rsquo;s 2012 Annual Report and First Quarter 2013 Earnings Release. SMIC no longer reports financial statements using U.S. GAAP. IFRS improves comparability with peers within the semiconductor industry and reduces the cost of financial reporting.</p></div>                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="media_con">
+        <div class="page_cell">
+            <p>
+                <a href="/en/site/company_info">
+                    Company Information
+                </a>
+            </p>
+            <p>
+                <a href="/en/site/company_control">
+                    Corporate Governance
+                </a>
+            </p>
+            <p>
+                <a href="/en/site/company_activity">
+                    IR Calendar
+                </a>
+            </p>
+            <p>
+                <a href="/en/site/company_financialSummary">
+                    Financials
+                </a>
+            </p>
+            <p>
+                <a href="/en/site/company_stockInformation">
+                    Shareholder Information
+                </a>
+            </p>
+            <p>
+                <a href="/en/site/company_statutoryDocuments">
+                    Regulatory Fillings
+                </a>
+            </p>
+            <p>
+                <a href="/en/site/company_contact">
+                    IR Contacts
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+    <div class="footer-bottom">
+        <div class="footer-cen">
+            <div class="footer_b_con clearAfter">
+                <div class="footer_b_left  clearAfter">
+                    <p>
+                        <a href="javascript:void(0)">
+                            © 2026 SMIC
+                        </a>&nbsp;&nbsp;&nbsp;
+                        <a href="/en/site/sitemap">
+                            Sitemap
+                        </a>&nbsp;&nbsp;&nbsp;
+                        <a href="/en/site/legal_declaration">
+                            Legal Notice
+                        </a>
+                    </p>
+                </div>
+                <!--<div class="footer_b_right">
+                    <p>
+                        <a target="_blank" href="http://www.webfoss.com">
+                            Powered by Webfoss
+                        </a>
+                    </p>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<div id="go_top">
+    <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/TOP1.png" alt="">
+</div>
+<div class="suspend_container">
+    <div class="clearfix">
+        <a href="/en/" class="go_home_s">Home</a>
+        <a href="/en/site/sitemap" class="sitemap_s">Sitemap</a>
+        <a href="/en/site/about_contact" class="contacts_s">Contact Us</a>
+        <a href="javascript:;" class="wx_s">
+            Follow Us
+            <img src="https://smic.cdn.shwebspace.com/themes/basicen/skin/images/smic_code.jpg" alt="">
+        </a>
+    </div>
+</div>
+<script>
+    $(function(){
+        $(window).scroll(function() {
+            var _scroll = $(window).scrollTop();
+            if( _scroll > 6 ){
+                $(".suspend_container div a").addClass('on');
+                $(".suspend_container").addClass('scroll');
+            } else {
+                $(".suspend_container div a").removeClass('on');
+                $(".suspend_container").removeClass('scroll');
+            }
+        });
+    })
+</script>
+</div>
+
+<script>
+    $(function() {
+
+        method.index_gd_home(".inner_ban .bgImg",".inner_ban .bgImg ",1920,480);
+
+
+        var yearSzie1 = $(".yearSelect1 .select .slide p").length,
+            yearSzie2 = $(".yearSelect2 .select .slide p").length;
+
+        if( yearSzie1 > 1 ){
+            $(".yearSelect1 .select").click(function() {
+                if ( !$(this).hasClass('on') ) {
+                    $(this).addClass('on');
+                    $(this).children(".slide").stop().slideDown();
+                } else {
+                    $(this).removeClass('on');
+                    $(this).children(".slide").stop().slideUp();
+                }
+            });
+        }
+
+        if( yearSzie2 > 1 ){
+            $(".yearSelect2 .select").click(function() {
+                if ( !$(this).hasClass('on') ) {
+                    $(this).addClass('on');
+                    $(this).children(".slide").stop().slideDown();
+                } else {
+                    $(this).removeClass('on');
+                    $(this).children(".slide").stop().slideUp();
+                }
+            });
+        }
+
+        $(".yearSelect .select .slide p:even").css({
+            borderLeft : 0
+        })
+
+    })
+</script>
+
+
+<!-- <script>
+    $(function() {
+        if ($(window).width() > 1000) {
+            $(".inner_nav .inner_nav02 ul li").hover(function() {
+                $(this).children(".class_b").stop().animate({
+                    width: "100%"
+                });
+                $(this).siblings("li").children(".class_b").stop().animate({
+                    width: "0%"
+                });
+            }, function() {
+                $(this).children(".class_b").stop().animate({
+                    width: "0%"
+                });
+            })
+        }
+    })
+</script> -->
+
+
+	</div>
+	<!-- page -->
+	<!-- <div id="go_top">
+    <img src="/skin/images/TOP1.png" alt="">
+</div> -->
+	<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/media.css">
+	<script>
+		// isIE();
+
+		// function isIE() {
+		//     if(!!window.ActiveXObject || "ActiveXObject" in window) {
+		//     	console.log("ie");
+		//     	//$("head").after("<link rel='stylesheet' type='text/css' href='/themes/basic/skin/css/ie_style.css?v=1' />");
+		//     };
+		// }
+	</script>
+	<script>
+		$(function() {
+			function menuWidth(sel) {
+				var width_nav = $(sel).width();
+				var width_li = 0;
+				var width_li_div = 0;
+				var index = 0;
+				var num = 0;
+				$(sel + '>ul li').each(function() {
+					var self = $(this);
+					index = self.index();
+					width_li += self.width();
+					width_li_div += self.width();
+					if (width_li_div > width_nav) {
+						index = index - 1;
+					}
+
+				});
+
+				if (width_nav < width_li) {
+					var sum = 0;
+					var sums = 0;
+					$(sel + '>ul').width(width_li + 50);
+					$(sel + '>ul li').each(function() {
+						var self = $(this);
+						var i = self.index();
+						sum += self.width();
+						if (sel == '.inner_nav02') {
+							if (i <= index) {
+								sums = sum;
+							}
+						} else {
+							if (i < index) {
+								sums = sum;
+							}
+						}
+
+					});
+					$(sel).wrap("<div class='n-p-box'></div>");
+					$(sel + '>ul').wrap("<div class='n-p-ul'></div>");
+					$('.n-p-ul').width(sums);
+					$('.n-p-box').append('<div class="btn-tabs btn-prev"></div>');
+					$('.n-p-box').append('<div class="btn-tabs btn-next"></div>');
+					$('.btn-prev').addClass('active');
+					$('body').on('click', '.btn-next', function() {
+						$('.n-p-ul').width(width_li);
+						var size = $(sel + ' ul li').length;
+						var sum = 0;
+						var sumw = 0;
+						for (var i = 1; i < size; i++) {
+							sum += $(sel + ' ul li').eq(size - i).width();
+							if (sum > width_nav) {
+								break;
+							} else {
+								sumw = sum;
+							}
+						}
+						num = width_li - sumw;
+
+						$(sel + ' ul').stop().animate({
+							left: -num
+						}, 500, function() {
+							$('.btn-next').addClass('active');
+							$('.btn-prev').removeClass('active');
+
+						});
+					});
+					$('body').on('click', '.btn-prev', function() {
+						$('.n-p-ul').width(sums);
+						$(sel + ' ul').stop().animate({
+							left: 0
+						}, 500, function() {
+							$('.btn-next').removeClass('active');
+							$('.btn-prev').addClass('active');
+						});
+					});
+				}
+			};
+
+			menuWidth('.nav_page');
+			menuWidth('.inner_nav02');
+
+
+
+
+
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(function() {
+			isIPhoneX();
+		})
+
+		function isIPhoneX(fn) {
+			var u = navigator.userAgent;
+			var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+			if (isIOS) {
+				var agent = navigator.userAgent.toLowerCase();
+				if (agent.match(/MicroMessenger/i) == "micromessenger") {
+					if (screen.height == 812 && screen.width == 375) {
+						$("head").append('<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/iphone-x.css"/>');
+					} else {
+						$("head").append('<link rel="stylesheet" type="text/css" href="https://smic.cdn.shwebspace.com/themes/basicen/skin/css/iphone.css"/>');
+					}
+				}
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u = "//smicpiwik.webfoss.com/";
+			_paq.push(['setTrackerUrl', u + 'piwik.php']);
+			_paq.push(['setSiteId', '1']);
+			var d = document,
+				g = d.createElement('script'),
+				s = d.getElementsByTagName('script')[0];
+			g.type = 'text/javascript';
+			g.async = true;
+			g.defer = true;
+			g.src = u + 'piwik.js';
+			s.parentNode.insertBefore(g, s);
+		})();
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130899935-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-130899935-1');
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "RE-MP-10K2022",
+    "table_index": 15,
+    "row": "REO production volume (MTs) 42,499 42,413 38,503 86 3,910 \u2014 % 10 %",
+    "observations": 3
+  },
+  {
+    "source_id": "RE-MP-10K2022",
+    "table_index": 17,
+    "row": "REO production volume (MTs) 10,485 10,886 10,300 10,828 10,261 11,998 10,305 9,849 9,337 10,197 9,287 9,682",
+    "observations": 12
+  },
+  {
+    "source_id": "RE-MP-10K2023",
+    "table_index": 15,
+    "row": "REO Production Volume (MTs) 41,557 42,499 42,413 (942) 86 (2) % \u2014 %",
+    "observations": 3
+  },
+  {
+    "source_id": "RE-MP-10K2023",
+    "table_index": 15,
+    "row": "NdPr Production Volume (MTs) 200 N/A N/A N/A N/A N/A N/A",
+    "observations": 3
+  },
+  {
+    "source_id": "RE-MP-10K2023",
+    "table_index": 17,
+    "row": "REO Production Volume (MTs) 9,257 10,766 10,863 10,671 10,485 10,886 10,300 10,828 10,261 11,998 10,305 9,849",
+    "observations": 12
+  },
+  {
+    "source_id": "RE-MP-10K2023",
+    "table_index": 17,
+    "row": "NdPr Production Volume (MTs) 150 50 N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A",
+    "observations": 12
+  },
+  {
+    "source_id": "RE-MP-10K2024",
+    "table_index": 27,
+    "row": "REO Production Volume (MTs) 45,455 41,557 42,499 3,898 (942) 9 % (2) %",
+    "observations": 3
+  },
+  {
+    "source_id": "RE-MP-10K2024",
+    "table_index": 27,
+    "row": "NdPr Production Volume (MTs) 1,294 200 N/A 1,094 N/A 547 % N/A",
+    "observations": 3
+  },
+  {
+    "source_id": "RE-MP-10K2024",
+    "table_index": 31,
+    "row": "REO Production Volume (MTs) 11,478 13,742 9,084 11,151 9,257 10,766 10,863 10,671 10,485 10,886 10,300 10,828",
+    "observations": 12
+  },
+  {
+    "source_id": "RE-MP-10K2024",
+    "table_index": 31,
+    "row": "NdPr Production Volume (MTs) 413 478 272 131 150 50 N/A N/A N/A N/A N/A N/A",
+    "observations": 12
+  },
+  {
+    "source_id": "RE-MP-10K2025",
+    "table_index": 28,
+    "row": "REO Production Volume (MTs) 50,692 45,455 41,557 5,237 3,898 12 % 9 %",
+    "observations": 3
+  },
+  {
+    "source_id": "RE-MP-10K2025",
+    "table_index": 28,
+    "row": "NdPr Production Volume (MTs) 2,599 1,294 200 1,305 1,094 101 % 547 %",
+    "observations": 3
+  }
+]

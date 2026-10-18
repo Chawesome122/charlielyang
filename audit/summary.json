@@ -1,0 +1,10 @@
+{
+  "requirements": 85,
+  "counts": {
+    "PARTIAL": 58,
+    "VERIFIED": 22,
+    "BLOCKED": 4,
+    "NOT ATTEMPTED": 1
+  },
+  "publication_ready": false
+}

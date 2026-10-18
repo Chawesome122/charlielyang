@@ -1,0 +1,23 @@
+parameter,value,unit,classification,empirically_identified,source,uncertainty
+g_c,0.12,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+g_u,0.1,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+beta_c,0.7,dimensionless,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+beta_u,0.7,dimensionless,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+delta_c,0.08,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+delta_u,0.07,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+kappa_c,0.5,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+kappa_u,0.5,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+rho_u,0.2,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+rho_c,0.2,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+a_u,0.8,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+a_c,0.8,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+d_u,0.5,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+d_c,0.5,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+k_u,1.0,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+k_c,1.0,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+h_u,0.05,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+h_c,0.05,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+b_u,0.2,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+b_c,0.2,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+q_u,0.15,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+q_c,0.15,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval

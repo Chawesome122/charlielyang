@@ -1,0 +1,270 @@
+table,column,dtype_in_current_extract,nullable_count,definition,row_count
+data/processed/opacity/blueprint_unverified_candidates.csv,candidate_id,object,0,See module codebook/source schema and source locator; field retained as reported,2
+data/processed/opacity/blueprint_unverified_candidates.csv,instrument,object,0,See module codebook/source schema and source locator; field retained as reported,2
+data/processed/opacity/blueprint_unverified_candidates.csv,claimed_public_date,object,0,See module codebook/source schema and source locator; field retained as reported,2
+data/processed/opacity/blueprint_unverified_candidates.csv,claimed_effective_date,object,1,See module codebook/source schema and source locator; field retained as reported,2
+data/processed/opacity/blueprint_unverified_candidates.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,2
+data/processed/opacity/blueprint_unverified_candidates.csv,evidence_class,object,0,Empirical/calibrated/partial/scenario/synthetic scope,2
+data/processed/opacity/blueprint_unverified_candidates.csv,admissible_for_estimation,bool,0,See module codebook/source schema and source locator; field retained as reported,2
+data/processed/opacity/blueprint_unverified_candidates.csv,limitation,object,0,See module codebook/source schema and source locator; field retained as reported,2
+data/processed/opacity/legal_events.csv,event_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,record_version_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,event_type,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,publication_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,effective_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,0
+data/processed/opacity/legal_events.csv,end_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,material,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,substantive,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,intervention_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,explicit_scope_fields,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,resolution_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,resolution_info_public_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,materiality,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,material_no_resolution,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,frozen_exposure_weight,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,weight_info_public_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/legal_events.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,obligation_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,record_version_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,0
+data/processed/opacity/obligations.csv,due_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,observation_end_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,next_due_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,indicators,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,denominator_source_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,release_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,release_info_public_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,affirmatively_absent,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,absence_verified_on,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,missing_required_fields,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,required_fields,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,available_license_metrics,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,expected_license_metrics,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,classifiable_throughput,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,total_documented_throughput,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,measurement_unit,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,measurement_basis,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/obligations.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/source_events.csv,coverage_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/source_events.csv,kind,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/source_events.csv,indicator,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/source_events.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,0
+data/processed/opacity/source_events.csv,valid_from,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/source_events.csv,valid_until,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/source_events.csv,adjudicated,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/opacity/source_events.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/rare_earths/activity_discovery_registry.csv,record_id,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,project_id,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,activity_id,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,site_country,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,owner_parent,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,control_group_uncertainty,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,stage,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,state,object,0,A/F/I/C/Q/O/S/X reported state; not necessarily independent commercial verification,19
+data/processed/rare_earths/activity_discovery_registry.csv,state_evidence,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,event_date_lower,object,10,Lower bound of interval-censored event; not an exact transition date,19
+data/processed/rare_earths/activity_discovery_registry.csv,event_date_upper,object,10,Upper bound; retain interval width,19
+data/processed/rare_earths/activity_discovery_registry.csv,exact_event_date,float64,19,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,valid_date,object,10,Event or accounting-period date; never substitutes for publication,19
+data/processed/rare_earths/activity_discovery_registry.csv,info_public_date,object,1,Verified public availability; filter before selecting revisions; signature date alone insufficient,19
+data/processed/rare_earths/activity_discovery_registry.csv,date_precision,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,first_public_date_verified,bool,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,publication_basis,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,capacity_native,float64,9,Conditional nameplate or campaign quantity; see native_unit and quotation,19
+data/processed/rare_earths/activity_discovery_registry.csv,native_unit,object,9,Reported native physical/financial basis; no implicit stage conversion,19
+data/processed/rare_earths/activity_discovery_registry.csv,product_form,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,feedstock_origin,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,financing,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,routes,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,process_yield,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,utilization,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,source_sha256,object,0,Immutable original-source byte digest,19
+data/processed/rare_earths/activity_discovery_registry.csv,locator,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,quote,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,eligible_for_asof,bool,0,Requires verified public date before freeze; does not certify full empirical risk set,19
+data/processed/rare_earths/activity_discovery_registry.csv,commercial_network_ready,bool,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/activity_discovery_registry.csv,cancelled_projects_coverage,object,0,See module codebook/source schema and source locator; field retained as reported,19
+data/processed/rare_earths/observations.csv,observation_id,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,record_version_id,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,entity_id,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,variable,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,value,float64,19,Nullable observed or registered quantity; see evidence_class and native_unit,87
+data/processed/rare_earths/observations.csv,native_unit,object,0,Reported native physical/financial basis; no implicit stage conversion,87
+data/processed/rare_earths/observations.csv,product_basis,object,0,Product form and composition; do not add unlike stages,87
+data/processed/rare_earths/observations.csv,valid_date,object,0,Event or accounting-period date; never substitutes for publication,87
+data/processed/rare_earths/observations.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,87
+data/processed/rare_earths/observations.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,source_sha256,object,0,Immutable original-source byte digest,87
+data/processed/rare_earths/observations.csv,locator,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,evidence_class,object,0,Empirical/calibrated/partial/scenario/synthetic scope,87
+data/processed/rare_earths/observations.csv,missing_reason,object,68,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,event_kind,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,quote,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,independent_corroboration,bool,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,observation_status,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,public_date_basis,object,0,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations.csv,historical_vintage_caveat,object,84,See module codebook/source schema and source locator; field retained as reported,87
+data/processed/rare_earths/observations_asof_freeze.csv,observation_id,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,record_version_id,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,entity_id,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,variable,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,value,float64,12,Nullable observed or registered quantity; see evidence_class and native_unit,53
+data/processed/rare_earths/observations_asof_freeze.csv,native_unit,object,0,Reported native physical/financial basis; no implicit stage conversion,53
+data/processed/rare_earths/observations_asof_freeze.csv,product_basis,object,0,Product form and composition; do not add unlike stages,53
+data/processed/rare_earths/observations_asof_freeze.csv,valid_date,object,0,Event or accounting-period date; never substitutes for publication,53
+data/processed/rare_earths/observations_asof_freeze.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,53
+data/processed/rare_earths/observations_asof_freeze.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,source_sha256,object,0,Immutable original-source byte digest,53
+data/processed/rare_earths/observations_asof_freeze.csv,locator,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,evidence_class,object,0,Empirical/calibrated/partial/scenario/synthetic scope,53
+data/processed/rare_earths/observations_asof_freeze.csv,missing_reason,object,41,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,event_kind,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,quote,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,independent_corroboration,bool,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,observation_status,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,public_date_basis,object,0,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/observations_asof_freeze.csv,historical_vintage_caveat,object,50,See module codebook/source schema and source locator; field retained as reported,53
+data/processed/rare_earths/project_state_evidence.csv,record_id,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,project_id,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,activity_id,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,site_country,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,owner_parent,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,control_group_uncertainty,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,stage,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,state,object,0,A/F/I/C/Q/O/S/X reported state; not necessarily independent commercial verification,21
+data/processed/rare_earths/project_state_evidence.csv,state_evidence,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,event_date_lower,object,10,Lower bound of interval-censored event; not an exact transition date,21
+data/processed/rare_earths/project_state_evidence.csv,event_date_upper,object,10,Upper bound; retain interval width,21
+data/processed/rare_earths/project_state_evidence.csv,exact_event_date,float64,21,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,valid_date,object,10,Event or accounting-period date; never substitutes for publication,21
+data/processed/rare_earths/project_state_evidence.csv,info_public_date,object,1,Verified public availability; filter before selecting revisions; signature date alone insufficient,21
+data/processed/rare_earths/project_state_evidence.csv,date_precision,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,first_public_date_verified,bool,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,publication_basis,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,capacity_native,float64,11,Conditional nameplate or campaign quantity; see native_unit and quotation,21
+data/processed/rare_earths/project_state_evidence.csv,native_unit,object,11,Reported native physical/financial basis; no implicit stage conversion,21
+data/processed/rare_earths/project_state_evidence.csv,product_form,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,feedstock_origin,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,financing,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,routes,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,process_yield,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,utilization,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,source_sha256,object,0,Immutable original-source byte digest,21
+data/processed/rare_earths/project_state_evidence.csv,locator,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,quote,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,eligible_for_asof,bool,0,Requires verified public date before freeze; does not certify full empirical risk set,21
+data/processed/rare_earths/project_state_evidence.csv,commercial_network_ready,bool,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths/project_state_evidence.csv,cancelled_projects_coverage,object,0,See module codebook/source schema and source locator; field retained as reported,21
+data/processed/rare_earths_additional/lynas_annual_production.csv,facility_id,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,issuer,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,period_end,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,frequency,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,stage,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,measure,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,product_basis,object,0,Product form and composition; do not add unlike stages,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,native_unit,object,0,Reported native physical/financial basis; no implicit stage conversion,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,value,int64,0,Nullable observed or registered quantity; see evidence_class and native_unit,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,event_date,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,source_sha256,object,0,Immutable original-source byte digest,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,source_url,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,locator,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_annual_production.csv,limitations,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,facility_id,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,period_end,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,product_basis,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,native_unit,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,value,int64,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,info_public_date,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,source_id,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,source_sha256,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,version,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/rare_earths_additional/lynas_observed_revisions.csv,quote_or_locator,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",4
+data/processed/semiconductors/capability_evidence.csv,record_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,layer,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,target_version,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,channel,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,score,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,lower,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,upper,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,event_date,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,0
+data/processed/semiconductors/capability_evidence.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,source_verified,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,coder,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,confidence,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/capability_evidence.csv,evidence_memo,object,0,See module codebook/source schema and source locator; field retained as reported,0
+data/processed/semiconductors/legal_claims.csv,claim_id,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_claims.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_claims.csv,source_sha256,object,0,Immutable original-source byte digest,22
+data/processed/semiconductors/legal_claims.csv,source_locator,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_claims.csv,claim,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_claims.csv,exact_supporting_text,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_claims.csv,event_date,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_claims.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,22
+data/processed/semiconductors/legal_claims.csv,independent_second_coder,bool,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_discovery_candidates.csv,document_number,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",58
+data/processed/semiconductors/legal_discovery_candidates.csv,title,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",58
+data/processed/semiconductors/legal_discovery_candidates.csv,publication_date,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",58
+data/processed/semiconductors/legal_discovery_candidates.csv,document_type,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",58
+data/processed/semiconductors/legal_discovery_candidates.csv,url,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",58
+data/processed/semiconductors/legal_discovery_candidates.csv,query_sources,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",58
+data/processed/semiconductors/legal_discovery_candidates.csv,status,object,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",58
+data/processed/semiconductors/legal_discovery_candidates.csv,in_reviewed_event_corpus,bool,0,"See source-specific schema, native-unit field and original extraction locator; no inference from missing values.",58
+data/processed/semiconductors/legal_events.csv,policy_id,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,instrument_id,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,version_id,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,jurisdiction,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,issuer,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,official_language,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,publication_date,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,effective_date,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,end_date,float64,22,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,22
+data/processed/semiconductors/legal_events.csv,retrieval_timestamp,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,sha256,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,technology_layer,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,product_code,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,legal_citation,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,destination,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,end_user,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,end_use,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,person_scope,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,license_requirement,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,review_presumption,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,exemption,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,status,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,severity_ordinal,float64,22,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,scope_coverage,float64,22,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,confidence,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,adjudication_id,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,supersedes_version,float64,22,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,evidence_verified,bool,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,event_type,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,compliance_date,object,19,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,source_locator,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,first_public_clock_basis,object,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/legal_events.csv,current_law_consolidation_verified,bool,0,See module codebook/source schema and source locator; field retained as reported,22
+data/processed/semiconductors/reported_financial_inputs.csv,observation_id,object,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,firm_id,object,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,year,int64,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,variable,object,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,period_frequency,object,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,valid_date,object,0,Event or accounting-period date; never substitutes for publication,8
+data/processed/semiconductors/reported_financial_inputs.csv,info_public_date,object,0,Verified public availability; filter before selecting revisions; signature date alone insufficient,8
+data/processed/semiconductors/reported_financial_inputs.csv,native_value,float64,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,native_unit,object,0,Reported native physical/financial basis; no implicit stage conversion,8
+data/processed/semiconductors/reported_financial_inputs.csv,value_USD,float64,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,price_basis,object,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,source_id,object,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,source_sha256,object,0,Immutable original-source byte digest,8
+data/processed/semiconductors/reported_financial_inputs.csv,source_locator,object,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,financial_status,object,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,qualifying_capability_evidence,bool,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,causal_effect,bool,0,See module codebook/source schema and source locator; field retained as reported,8
+data/processed/semiconductors/reported_financial_inputs.csv,independent_second_coder,bool,0,See module codebook/source schema and source locator; field retained as reported,8

@@ -1,0 +1,3 @@
+supplier_removed,quarter,served_fraction,min_essential_fraction,exclusions,max_abs_balance_residual,is_worst_outage
+A,0,0.49999999990000005,0.49999999990000005,A;CN,0.0,True
+B,0,0.5714285713285714,0.5714285713285714,B;CN,0.0,False

@@ -1,0 +1,4 @@
+baseline,n_origins,mean_absolute_error,mean_squared_error,interpretation
+historical_mean,2,6882.833333333332,53958606.055555545,descriptive_n_2_single_mine_no_statistical_skill_claim
+linear_trend,2,3944.7666666666773,20702437.97555571,descriptive_n_2_single_mine_no_statistical_skill_claim
+zero_new_build_persistence,2,6045.5,46093080.5,descriptive_n_2_single_mine_no_statistical_skill_claim

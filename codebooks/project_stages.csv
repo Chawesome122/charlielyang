@@ -1,0 +1,9 @@
+state,meaning,observation_requirement
+A,announced,verifiable named owner/site project announcement
+F,feasibility_or_permitting,documented technical study or permit progression
+I,financing_or_FID,verified committed financing or financial investment decision; grant announcement alone insufficient
+C,construction,documented physical construction; not a target announcement
+Q,testing_or_commissioning,documented start/testing; demonstration separate from stable commercial operation
+O,operating,verified operating output for defined stage and product; independent corroboration status explicit
+S,suspended,dated suspension/care-and-maintenance; reversible only with evidenced restart
+X,cancelled,documented cancellation; absorbing unless a separately recorded relaunch

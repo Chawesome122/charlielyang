@@ -1,0 +1,4 @@
+source_id,decision,reason
+RE-MOLYCORP-SUBMISSIONS,REJECT_ENTITY_MISMATCH,"CIK1287121 resolves to Canada Jetlines, not Molycorp; no claim uses this archive"
+RE-USARE-10K2023;RE-USARE-10K2024,EXCLUDE_INDUSTRIAL_PANEL,pre-merger SPAC observations are not operating-company history
+RE-LYNAS-REPORTS;RE-LYNAS-ANNUAL2025,EXCLUDE_CHALLENGE_RESPONSE,short HTTP200 response is not the requested report

@@ -1,0 +1,62 @@
+DEPARTMENT OF COMMERCE
+Bureau of Industry and Security
+15 CFR Part 748
+[Docket No. 231010-0244]
+RIN 0694-AJ39
+Existing Validated End-User Authorizations in the People's Republic of China: Samsung China Semiconductor Co. Ltd. and SK hynix Semiconductor (China)) Ltd; Correction
+AGENCY:
+Bureau of Industry and Security, Commerce.
+ACTION:
+Correcting amendment.
+SUMMARY:
+The Bureau of Industry and Security (BIS) published a rule in the
+Federal Register
+on October 17, 2023, that amended the Export Administration Regulations (EAR) to revise the existing Validated End-User (VEU) list for the People's Republic of China (PRC) for Samsung China Semiconductor Co. Ltd. and SK hynix Semiconductor (China) Ltd. That rule inadvertently omitted two amendments to the list of VEUs, which resulted in failure to add a word to the description of eligible items for SK Hynix Semiconductor (China) Ltd.; as well as the failure to remove the entry for SK hynix Semiconductor (Wuxi), which was necessary because SK hynix Semiconductor (Wuxi) recently merged with SK hynix Semiconductor (China) Ltd. This rule corrects both omissions.
+DATES:
+This rule is effective November 8, 2023.
+FOR FURTHER INFORMATION CONTACT:
+Chair, End-User Review Committee, Office of the Assistant Secretary, Export Administration, Bureau of Industry and Security, U.S. Department of Commerce, Phone: 202-482-5991; Email:
+ERC@bis.doc.gov.
+SUPPLEMENTARY INFORMATION:
+The Bureau of Industry and Security (BIS) published in the
+Federal Register
+of October 17, 2023, in FR Doc. 2023-22873, starting on page 71478, amendments to the Export Administration Regulations (EAR) to revise the existing Validated End-User (VEU) list for the People's Republic of China (PRC) for Samsung China Semiconductor Co. Ltd. and SK hynix Semiconductor (China)) Ltd.
+This rule corrects for two inadvertently omitted amendments to update the list of VEUs: the first correction adds a word to the description of eligible items for SK Hynix Semiconductor (China) Ltd.; and the second removes the entry for SK hynix Semiconductor (Wuxi) Ltd., which recently merged with SK hynix Semiconductor (China) Ltd., thereby making the entry for SK hynix Semiconductor (Wuxi) Ltd. duplicative.
+Correction
+BIS amends the EAR's “Supplement No. 7 to Part 748—Authorization Validated End-User (VEU): List of Validated End-Users, Respective Items Eligible for Export, Reexport and Transfer (In-Country), and Eligible Destinations”:
+• by adding the word “therefor,” after the word “technology” in the description in the “Eligible items (by ECCN)” column for “SK hynix Semiconductor (China) Ltd.”; and
+• by removing the entry for “SK hynix Semiconductor (Wuxi) Ltd.” in “China (People's Republic of)”.
+List of Subjects in 15 CFR Part 748
+Administrative practice and procedure, Exports, Reporting and recordkeeping requirements.
+Accordingly, part 748 of the EAR (15 CFR parts 730-774) is corrected by making the following correcting amendments:
+PART 748—[AMENDED]
+1. The authority citation for part 748 continues to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783; Notice of August 4, 2022, 87 FR 48077 (August 5, 2021).
+2. Amend supplement no. 7 to part 748 under “China (People's Republic of)” by:
+a. Revising the entry for “SK hynix Semiconductor (China) Ltd”; and
+b. Removing the entry for “SK hynix Semiconductor (Wuxi) Ltd”.
+The revision reads as follows:
+Supplement No. 7 to Part 748—Authorization Validated End-User (VEU): List of Validated End-Users, Respective Items Eligible for Export, Reexport and Transfer (In-Country), and Eligible Destinations
+Country
+Validated end-user
+Eligible items (by ECCN)
+Eligible destination
+Federal Register
+citation
+*         *         *         *         *         *         *
+China
+* * * * *
+SK hynix Semiconductor (China) Ltd
+All items subject to the Export Administration Regulations, except “extreme ultraviolet” (“EUV”) equipment and “specially designed” “parts,” “components,” “software,” and “technology” therefor, necessary for the “development” or “production” of dynamic random-access memory (DRAM). Excluded from §§ 744.6(c)(2)(i)-(iii) and 744.23(a)(1)(iii) and (a)(2)(iii) of the EAR. See § 748.15(d)
+SK hynix Semiconductor (China) Ltd., Lot K7, Wuxi High-tech Zone, Comprehensive Bonded Zone, Wuxi New District, Jiangsu Province, China 214028
+78 FR 41291, 7/10/13. 78 FR 69535, 11/20/13. 79 FR 30713, 5/29/14. 80 FR 11863, 3/5/15. 88 FR 71478, 10/17/23.
+*         *         *         *         *         *         *
+Karen H. Nies-Vogel,
+Director, Office of Exporter Services.
+[FR Doc. 2023-23312 Filed 11-7-23; 8:45 am]
+BILLING CODE 3510-33-P

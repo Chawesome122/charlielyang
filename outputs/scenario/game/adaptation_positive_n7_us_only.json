@@ -1,0 +1,711 @@
+{
+  "start": "us_only",
+  "status": "verified_finite_grid_candidate",
+  "continuous_mpe_certified": false,
+  "parameters": {
+    "g_c": 0.12,
+    "g_u": 0.1,
+    "beta_c": 0.7,
+    "beta_u": 0.7,
+    "delta_c": 0.08,
+    "delta_u": 0.07,
+    "kappa_c": 0.5,
+    "kappa_u": 0.5,
+    "rho_u": 0.2,
+    "rho_c": 0.2,
+    "a_u": 0.8,
+    "a_c": 0.8,
+    "d_u": 0.5,
+    "d_c": 0.5,
+    "k_u": 1.0,
+    "k_c": 1.0,
+    "h_u": 0.05,
+    "h_c": 0.05,
+    "b_u": 0.2,
+    "b_c": 0.2,
+    "q_u": 0.15,
+    "q_c": 0.15
+  },
+  "grid_size": 7,
+  "nodes": 2401,
+  "elapsed_seconds": 0.34639558599997144,
+  "peak_process_rss_kib": 147172,
+  "max_deviation_gain": 2.1353468602700043e-10,
+  "best_response_action_residual": 7.958634584692703e-08,
+  "hjb_residuals": [
+    1.6702514371580435e-11,
+    3.8681946534779854e-11
+  ],
+  "evaluation": {
+    "players": [
+      {
+        "bicgstab_code": 0,
+        "iterations": 0,
+        "linear_residual_inf": 1.6702514371580435e-11,
+        "reward_inf": 0.5317587744508239
+      },
+      {
+        "bicgstab_code": 0,
+        "iterations": 0,
+        "linear_residual_inf": 3.8681946534779854e-11,
+        "reward_inf": 0.5318468442219769
+      }
+    ],
+    "matrix_nnz": 11998,
+    "sparse_bytes": 153584,
+    "elapsed_seconds": 0.0013683139999329796
+  },
+  "failure": null,
+  "history": [
+    {
+      "iteration": 0,
+      "max_deviation_gain": 0.5140614359497839,
+      "action_change": 1.0,
+      "best_response_action_residual": 1.0,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 27,
+            "linear_residual_inf": 5.133893310471649e-12,
+            "reward_inf": 0.525
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 28,
+            "linear_residual_inf": 1.3121559394591031e-11,
+            "reward_inf": 0.525
+          }
+        ],
+        "matrix_nnz": 11319,
+        "sparse_bytes": 145436,
+        "elapsed_seconds": 0.005084820999968542
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 1,
+      "max_deviation_gain": 0.08171650746577946,
+      "action_change": 0.4,
+      "best_response_action_residual": 0.4,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 25,
+            "linear_residual_inf": 1.4439366369245477e-11,
+            "reward_inf": 0.5275691683562852
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 24,
+            "linear_residual_inf": 5.101596922685303e-11,
+            "reward_inf": 0.5061704662276576
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.0048821849999285405
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 2,
+      "max_deviation_gain": 0.013323592110050905,
+      "action_change": 0.16000000000000003,
+      "best_response_action_residual": 0.16000000000000003,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 24,
+            "linear_residual_inf": 1.7495338511253067e-11,
+            "reward_inf": 0.5305447274710656
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 23,
+            "linear_residual_inf": 1.5624140869974212e-11,
+            "reward_inf": 0.5344003172078255
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.004775655000003098
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 3,
+      "max_deviation_gain": 0.002248345153493701,
+      "action_change": 0.06400000000000002,
+      "best_response_action_residual": 0.06400000000000002,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 23,
+            "linear_residual_inf": 3.1335017913747265e-11,
+            "reward_inf": 0.5313238358109322
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 25,
+            "linear_residual_inf": 5.252971668756601e-11,
+            "reward_inf": 0.5346964617514394
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.005110680000029788
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 4,
+      "max_deviation_gain": 0.0004071907837604918,
+      "action_change": 0.025600000000000008,
+      "best_response_action_residual": 0.025600000000000008,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 23,
+            "linear_residual_inf": 3.387509023289326e-11,
+            "reward_inf": 0.5315951260495555
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 24,
+            "linear_residual_inf": 3.0261335104420084e-11,
+            "reward_inf": 0.5332615696043513
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.004728182999997443
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 5,
+      "max_deviation_gain": 8.423077036526271e-05,
+      "action_change": 0.010240000000000004,
+      "best_response_action_residual": 0.010240000000000004,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 22,
+            "linear_residual_inf": 2.7956983950083725e-11,
+            "reward_inf": 0.5316963854698582
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 24,
+            "linear_residual_inf": 5.526998303473363e-11,
+            "reward_inf": 0.5324513480739673
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.004791367999928298
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 6,
+      "max_deviation_gain": 2.1112682581687567e-05,
+      "action_change": 0.0040960000000000015,
+      "best_response_action_residual": 0.004687969857648411,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 22,
+            "linear_residual_inf": 2.9010436414234064e-11,
+            "reward_inf": 0.5317349419071364
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 23,
+            "linear_residual_inf": 2.9671112788953735e-11,
+            "reward_inf": 0.5320925128359446
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.004556243000024551
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 7,
+      "max_deviation_gain": 6.432558545006479e-06,
+      "action_change": 0.0016384000000000008,
+      "best_response_action_residual": 0.0016384000000000008,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 21,
+            "linear_residual_inf": 2.6172886774533666e-11,
+            "reward_inf": 0.5317496874422534
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 23,
+            "linear_residual_inf": 1.6952550474513828e-11,
+            "reward_inf": 0.5319447521287353
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.004585206999990987
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 8,
+      "max_deviation_gain": 2.251043659784544e-06,
+      "action_change": 0.0006553600000000003,
+      "best_response_action_residual": 0.0006553600000000003,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 21,
+            "linear_residual_inf": 9.767797681803359e-12,
+            "reward_inf": 0.5317553229969912
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 22,
+            "linear_residual_inf": 2.1841778385933708e-11,
+            "reward_inf": 0.5318855464508475
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.0045060070000317864
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 9,
+      "max_deviation_gain": 8.489027905037201e-07,
+      "action_change": 0.0002621440000000001,
+      "best_response_action_residual": 0.0002621440000000001,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 21,
+            "linear_residual_inf": 4.865673489118372e-11,
+            "reward_inf": 0.5317574715267154
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 22,
+            "linear_residual_inf": 8.387546213128871e-11,
+            "reward_inf": 0.5318620871409151
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.004319126000041251
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 10,
+      "max_deviation_gain": 3.313190036001272e-07,
+      "action_change": 0.00010485760000000006,
+      "best_response_action_residual": 0.00010485760000000006,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 19,
+            "linear_residual_inf": 3.40517787578154e-11,
+            "reward_inf": 0.5317582862787075
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 21,
+            "linear_residual_inf": 4.828287769598205e-11,
+            "reward_inf": 0.5318528362052669
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.004105424000044877
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 11,
+      "max_deviation_gain": 1.3120889478211717e-07,
+      "action_change": 4.1943040000000025e-05,
+      "best_response_action_residual": 4.1943040000000025e-05,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 19,
+            "linear_residual_inf": 1.6694812199347098e-11,
+            "reward_inf": 0.5317585933079104
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 20,
+            "linear_residual_inf": 2.7508870181769396e-11,
+            "reward_inf": 0.5318491961906682
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.0041868260000228474
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 12,
+      "max_deviation_gain": 5.2272569488632376e-08,
+      "action_change": 1.677721600000001e-05,
+      "best_response_action_residual": 1.677721600000001e-05,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 18,
+            "linear_residual_inf": 3.6964729888122605e-11,
+            "reward_inf": 0.5317587080839863
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 19,
+            "linear_residual_inf": 5.197321739647265e-11,
+            "reward_inf": 0.5318477655521016
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.003950669999994716
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 13,
+      "max_deviation_gain": 2.0875270370385862e-08,
+      "action_change": 6.7108864000000044e-06,
+      "best_response_action_residual": 6.723975734174159e-06,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 17,
+            "linear_residual_inf": 3.341231111231302e-11,
+            "reward_inf": 0.5317587505550246
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 19,
+            "linear_residual_inf": 5.918046608321959e-11,
+            "reward_inf": 0.5318472036679317
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.004128767999986849
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 14,
+      "max_deviation_gain": 8.344707075509661e-09,
+      "action_change": 2.684354560000002e-06,
+      "best_response_action_residual": 2.696714010624879e-06,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 16,
+            "linear_residual_inf": 5.972556824107578e-11,
+            "reward_inf": 0.5317587660649199
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 18,
+            "linear_residual_inf": 2.443095725723765e-11,
+            "reward_inf": 0.5318469831178005
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.004923837999967873
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 15,
+      "max_deviation_gain": 3.337018677010417e-09,
+      "action_change": 1.073741824000001e-06,
+      "best_response_action_residual": 1.0823812413573997e-06,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 16,
+            "linear_residual_inf": 4.203973280603179e-11,
+            "reward_inf": 0.5317587716307226
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 18,
+            "linear_residual_inf": 3.6954730942007075e-11,
+            "reward_inf": 0.531846896601959
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.0037292260000185706
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 16,
+      "max_deviation_gain": 1.3346692093532675e-09,
+      "action_change": 4.294967296000004e-07,
+      "best_response_action_residual": 4.3518649686657973e-07,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 15,
+            "linear_residual_inf": 3.827655553623188e-11,
+            "reward_inf": 0.5317587735804434
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 16,
+            "linear_residual_inf": 3.410008386772745e-11,
+            "reward_inf": 0.5318468626907712
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.003546660999973028
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 17,
+      "max_deviation_gain": 5.33845562374069e-10,
+      "action_change": 1.7179869184000017e-07,
+      "best_response_action_residual": 1.8275341567841608e-07,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 14,
+            "linear_residual_inf": 4.130482414432812e-11,
+            "reward_inf": 0.5317587742397701
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 16,
+            "linear_residual_inf": 1.7157164577952244e-11,
+            "reward_inf": 0.5318468494128823
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.0036805729999969117
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    },
+    {
+      "iteration": 18,
+      "max_deviation_gain": 2.1353468602700043e-10,
+      "action_change": 7.131483015232476e-08,
+      "best_response_action_residual": 7.958634584692703e-08,
+      "damping": 0.6,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 14,
+            "linear_residual_inf": 1.6702514371580435e-11,
+            "reward_inf": 0.5317587744508239
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 15,
+            "linear_residual_inf": 3.8681946534779854e-11,
+            "reward_inf": 0.5318468442219769
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.0034820530000843064
+      },
+      "improvement": {
+        "no_verified_pure_action_candidate_nodes": 0,
+        "max_fallback_gap": 0.0,
+        "singular_interior_enumeration": false
+      }
+    }
+  ],
+  "pairwise_policy_sup_distances": {
+    "zero": 1.2872849941558684e-07,
+    "one": 6.949562059155312e-08
+  },
+  "scenario": "adaptation_positive",
+  "archive": "outputs/scenario/game/adaptation_positive_n7_us_only.npz",
+  "archive_sha256": "e9d2a41800fa56bd378e3e2e7b4c7e96e7298c942539695e2a57079193dd9661",
+  "closed_loop_stability": {
+    "verified_stationary_point": true,
+    "state": [
+      0.6508874753946058,
+      0.6409621958104115,
+      0.3106819714239265,
+      0.3183826389327385
+    ],
+    "drift_residual": 8.586187316694804e-14,
+    "full_closed_loop_jacobian": [
+      [
+        -0.22915247767339925,
+        0.0,
+        0.03644969862288091,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1949655417424747,
+        0.0,
+        0.031407147594416325
+      ],
+      [
+        -0.3885910081911558,
+        -0.057607152660883613,
+        -0.5002127863094057,
+        -5.378807538253433e-05
+      ],
+      [
+        -0.057817923075894624,
+        -0.38781126941205246,
+        -1.7665938156756863e-06,
+        -0.5005638391822876
+      ]
+    ],
+    "eigenvalues_real": [
+      -0.24049421181625477,
+      -0.3031184782916082,
+      -0.4238474100038301,
+      -0.45743454479587464
+    ],
+    "eigenvalues_imag": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "locally_stable": true,
+    "stability_status": "locally_stable_interpolated_policy",
+    "jacobian_is_local_derivative": true,
+    "distance_to_grid_knot": 0.014950694400594822,
+    "nonsmooth_warning": null,
+    "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+  }
+}

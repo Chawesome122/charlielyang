@@ -1,0 +1,75 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 958B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12.14-slim-bookworm@sha256:392307d22300de8b5986851a12d9176dfc0fc073e65bf6523ebd7dcbeb23564e
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 235B done
+#3 DONE 0.0s
+
+#4 [dependencies 1/7] FROM docker.io/library/python:3.12.14-slim-bookworm@sha256:392307d22300de8b5986851a12d9176dfc0fc073e65bf6523ebd7dcbeb23564e
+#4 DONE 0.0s
+
+#5 [dependencies 2/7] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 6.94kB done
+#6 DONE 0.0s
+
+#7 [dependencies 3/7] RUN sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list.d/debian.sources     && apt-get update && apt-get install -y --no-install-recommends     poppler-utils latexmk texlive-latex-recommended texlive-latex-extra     && rm -rf /var/lib/apt/lists/*
+#7 1.250 Ign:1 https://deb.debian.org/debian bookworm InRelease
+#7 6.256 Ign:2 https://deb.debian.org/debian bookworm-updates InRelease
+#7 6.258 Ign:3 https://deb.debian.org/debian-security bookworm-security InRelease
+#7 11.27 Ign:1 https://deb.debian.org/debian bookworm InRelease
+#7 16.27 Ign:2 https://deb.debian.org/debian bookworm-updates InRelease
+#7 16.28 Ign:3 https://deb.debian.org/debian-security bookworm-security InRelease
+#7 21.28 Ign:1 https://deb.debian.org/debian bookworm InRelease
+#7 26.29 Ign:2 https://deb.debian.org/debian bookworm-updates InRelease
+#7 26.29 Ign:3 https://deb.debian.org/debian-security bookworm-security InRelease
+#7 31.30 Err:1 https://deb.debian.org/debian bookworm InRelease
+#7 31.30   Temporary failure resolving 'proxy'
+#7 36.30 Err:2 https://deb.debian.org/debian bookworm-updates InRelease
+#7 36.30   Temporary failure resolving 'proxy'
+#7 36.31 Err:3 https://deb.debian.org/debian-security bookworm-security InRelease
+#7 36.31   Temporary failure resolving 'proxy'
+#7 36.31 Reading package lists...
+#7 36.32 W: Failed to fetch https://deb.debian.org/debian/dists/bookworm/InRelease  Temporary failure resolving 'proxy'
+#7 36.32 W: Failed to fetch https://deb.debian.org/debian/dists/bookworm-updates/InRelease  Temporary failure resolving 'proxy'
+#7 36.32 W: Failed to fetch https://deb.debian.org/debian-security/dists/bookworm-security/InRelease  Temporary failure resolving 'proxy'
+#7 36.32 W: Some index files failed to download. They have been ignored, or old ones used instead.
+#7 36.32 Reading package lists...
+#7 36.33 Building dependency tree...
+#7 36.33 Reading state information...
+#7 36.33 E: Unable to locate package poppler-utils
+#7 36.33 E: Unable to locate package latexmk
+#7 36.33 E: Unable to locate package texlive-latex-recommended
+#7 36.33 E: Unable to locate package texlive-latex-extra
+#7 ERROR: process "/bin/sh -c sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list.d/debian.sources     && apt-get update && apt-get install -y --no-install-recommends     poppler-utils latexmk texlive-latex-recommended texlive-latex-extra     && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
+------
+ > [dependencies 3/7] RUN sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list.d/debian.sources     && apt-get update && apt-get install -y --no-install-recommends     poppler-utils latexmk texlive-latex-recommended texlive-latex-extra     && rm -rf /var/lib/apt/lists/*:
+36.32 W: Failed to fetch https://deb.debian.org/debian/dists/bookworm-updates/InRelease  Temporary failure resolving 'proxy'
+36.32 W: Failed to fetch https://deb.debian.org/debian-security/dists/bookworm-security/InRelease  Temporary failure resolving 'proxy'
+36.32 W: Some index files failed to download. They have been ignored, or old ones used instead.
+36.32 Reading package lists...
+36.33 Building dependency tree...
+36.33 Reading state information...
+36.33 E: Unable to locate package poppler-utils
+36.33 E: Unable to locate package latexmk
+36.33 E: Unable to locate package texlive-latex-recommended
+36.33 E: Unable to locate package texlive-latex-extra
+------
+Dockerfile:3
+--------------------
+   2 |     WORKDIR /app
+   3 | >>> RUN sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list.d/debian.sources \
+   4 | >>>     && apt-get update && apt-get install -y --no-install-recommends \
+   5 | >>>     poppler-utils latexmk texlive-latex-recommended texlive-latex-extra \
+   6 | >>>     && rm -rf /var/lib/apt/lists/*
+   7 |     RUN python -m pip install --no-cache-dir uv==0.12.23
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/sh -c sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list.d/debian.sources     && apt-get update && apt-get install -y --no-install-recommends     poppler-utils latexmk texlive-latex-recommended texlive-latex-extra     && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100

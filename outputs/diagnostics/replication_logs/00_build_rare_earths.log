@@ -1,0 +1,11 @@
+{
+  "freeze": "2026-10-11",
+  "versioned_observations": 87,
+  "latest_observations": 53,
+  "downloaded_artifacts": 48,
+  "artifacts_used_for_observations": 6,
+  "observed_project_universe": "selected documented subset, not a statistical risk set",
+  "empirical_service": "BLOCKED: recipes, full supplier routes, target-grade demand, inventories and qualification evidence missing",
+  "forecast": "BLOCKED: no calibrated risk set and no validated empirical network",
+  "failed_acquisitions": 33
+}

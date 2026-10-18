@@ -1,0 +1,30 @@
+[
+  {
+    "original_diagnostic": "outputs/diagnostics/initial_positive_21_iteration_limit/adaptation_positive_n21_random.json",
+    "original_archive_path": "outputs/scenario/game/adaptation_positive_n21_random.npz",
+    "preserved_archive_path": "outputs/diagnostics/initial_positive_21_iteration_limit/adaptation_positive_n21_random.npz",
+    "sha256": "efab3ab442524af72efaebe33b575f73c544816940fbb5b51a9f54d0279ccf8e",
+    "original_metadata_unchanged": true
+  },
+  {
+    "original_diagnostic": "outputs/diagnostics/initial_positive_21_iteration_limit/adaptation_positive_n21_us_only.json",
+    "original_archive_path": "outputs/scenario/game/adaptation_positive_n21_us_only.npz",
+    "preserved_archive_path": "outputs/diagnostics/initial_positive_21_iteration_limit/adaptation_positive_n21_us_only.npz",
+    "sha256": "7f5f8107fab51081a7fcb60b98afaa62d93f594cbf2fb95fd3c6370515a010cd",
+    "original_metadata_unchanged": true
+  },
+  {
+    "original_diagnostic": "outputs/diagnostics/initial_positive_21_iteration_limit/adaptation_positive_n21_china_only.json",
+    "original_archive_path": "outputs/scenario/game/adaptation_positive_n21_china_only.npz",
+    "preserved_archive_path": "outputs/diagnostics/initial_positive_21_iteration_limit/adaptation_positive_n21_china_only.npz",
+    "sha256": "c222d70487f5b992b5ec2d1c83369b0ae1efaf912f30f0716e6e9f3dccfdd137",
+    "original_metadata_unchanged": true
+  },
+  {
+    "original_diagnostic": "outputs/diagnostics/initial_positive_21_iteration_limit/adaptation_positive_n21_one.json",
+    "original_archive_path": "outputs/scenario/game/adaptation_positive_n21_one.npz",
+    "preserved_archive_path": "outputs/diagnostics/initial_positive_21_iteration_limit/adaptation_positive_n21_one.npz",
+    "sha256": "2d63e80b6f4e7df23ac8161c479d4a52974bb39a8218367994d3fadfaccb04ae",
+    "original_metadata_unchanged": true
+  }
+]

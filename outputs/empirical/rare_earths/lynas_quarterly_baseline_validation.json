@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "evidence_class": "empirical_descriptive_hindcast",
+  "scores": [
+    {
+      "product_basis": "NdPr_oxide_product_family",
+      "method": "available_history_mean",
+      "n_origins": 8,
+      "mae": 292.9842195998446,
+      "rmse": 333.18924551022405,
+      "signed_mean_error": -178.41887869075367
+    },
+    {
+      "product_basis": "NdPr_oxide_product_family",
+      "method": "latest_available_persistence",
+      "n_origins": 8,
+      "mae": 355.625,
+      "rmse": 447.5755522813997,
+      "signed_mean_error": -78.125
+    },
+    {
+      "product_basis": "NdPr_oxide_product_family",
+      "method": "seasonal_previous_year",
+      "n_origins": 8,
+      "mae": 310.125,
+      "rmse": 346.3020718967763,
+      "signed_mean_error": -200.625
+    },
+    {
+      "product_basis": "total_REO",
+      "method": "available_history_mean",
+      "n_origins": 8,
+      "mae": 637.2671398046398,
+      "rmse": 778.473399542194,
+      "signed_mean_error": 340.47194749694756
+    },
+    {
+      "product_basis": "total_REO",
+      "method": "latest_available_persistence",
+      "n_origins": 8,
+      "mae": 928.625,
+      "rmse": 1041.7617889901703,
+      "signed_mean_error": -122.625
+    },
+    {
+      "product_basis": "total_REO",
+      "method": "seasonal_previous_year",
+      "n_origins": 8,
+      "mae": 961.625,
+      "rmse": 1066.572372134212,
+      "signed_mean_error": -272.625
+    }
+  ],
+  "horizon": "next calendar quarter after quarter-end origin; publication lags respected",
+  "information_set": "archived quarterly front-page tables only; not all contemporary public information",
+  "statistical_skill_established": false,
+  "causal_effect_identified": false,
+  "system_service_forecast": false,
+  "limitations": [
+    "one issuer",
+    "eight dependent origins",
+    "changing commissioning and operating conditions",
+    "partial historical source universe"
+  ]
+}

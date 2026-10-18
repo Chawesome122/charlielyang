@@ -1,0 +1,22 @@
+{
+  "empirical_network_status": "BLOCKED",
+  "empirical_resilience_estimates": null,
+  "reason": "No fully evidenced element-specific recipes, routes, ownership, finite feedstock, stocks and grade demand network is registered.",
+  "nonlinear_feedback_estimation_status": "BLOCKED",
+  "missing_evidence": [
+    "Matched historical project progression and lagged network-density exposures",
+    "Common-shock and endogenous-siting controls",
+    "Sufficient state transitions and out-of-sample outcomes"
+  ],
+  "implemented": [
+    "multi-commodity multi-quarter LP",
+    "supplier-wide exclusions",
+    "explicit finite feedstocks",
+    "native oxide stoichiometry",
+    "joint recipes",
+    "inventory conservation",
+    "LP dual diagnostics",
+    "bounded resilience exact/numerical ODE",
+    "logistic folds and cubic beta=4 degeneracy"
+  ]
+}

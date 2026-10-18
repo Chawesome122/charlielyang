@@ -1,0 +1,80 @@
+{
+  "beta4_theta_minus2": [
+    {
+      "eigenvalue": 0.0,
+      "residual": 0.0,
+      "stability": "nonhyperbolic_asymptotically_stable_cubic",
+      "state": 0.5000000000000001
+    }
+  ],
+  "classification": "SCENARIO mathematical diagnostics; no estimated parameters",
+  "constant_effort": [
+    {
+      "crossing_status": "not_finitely_reached",
+      "effort": 0.1,
+      "eigenvalue": -0.12000000000000001,
+      "max_numeric_exact_error": 5.123734769796329e-12,
+      "stability": "globally_asymptotically_stable",
+      "state": 0.33333333333333337,
+      "threshold_075_time_years": null
+    },
+    {
+      "crossing_status": "not_finitely_reached",
+      "effort": 0.6,
+      "eigenvalue": -0.32,
+      "max_numeric_exact_error": 1.492428403082613e-11,
+      "stability": "globally_asymptotically_stable",
+      "state": 0.75,
+      "threshold_075_time_years": null
+    },
+    {
+      "crossing_status": "finite",
+      "effort": 1.2,
+      "eigenvalue": -0.5599999999999999,
+      "max_numeric_exact_error": 1.7067236512957606e-11,
+      "stability": "globally_asymptotically_stable",
+      "state": 0.8571428571428572,
+      "threshold_075_time_years": 3.4917658803747442
+    }
+  ],
+  "delta": 0.08,
+  "eta": 0.4,
+  "folds_beta5": [
+    {
+      "second_state_derivative": 2.2360679774997894,
+      "state": 0.27639320225002106,
+      "theta": -2.344389661369312
+    },
+    {
+      "second_state_derivative": -2.2360679774997894,
+      "state": 0.7236067977499789,
+      "theta": -2.655610338630688
+    }
+  ],
+  "initial": 0.1,
+  "roots_beta5_theta_minus2_5": [
+    {
+      "eigenvalue": -0.3808561276480207,
+      "residual": -2.7755575615628914e-17,
+      "stability": "asymptotically_stable",
+      "state": 0.1447941082560649
+    },
+    {
+      "eigenvalue": 0.25,
+      "residual": 2.220446049250313e-16,
+      "stability": "unstable",
+      "state": 0.500000000000001
+    },
+    {
+      "eigenvalue": -0.38085612764802157,
+      "residual": 0.0,
+      "stability": "asymptotically_stable",
+      "state": 0.8552058917439354
+    }
+  ],
+  "zero_rate_case": {
+    "eigenvalue": 0.0,
+    "stability": "continuum_of_neutral_equilibria",
+    "state": null
+  }
+}

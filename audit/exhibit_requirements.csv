@@ -1,0 +1,17 @@
+exhibit,requirement,evidence_path,status,limitation
+1,Policy chronology,outputs/empirical/semiconductors/legal_chronology.pdf,PARTIAL,Selected original U.S./Dutch records; China/Japan consolidation incomplete
+2,Rare-earth chain and concentration,outputs/empirical/rare_earths/stage_constraints.pdf,PARTIAL,Structural schematic; IEA aggregate shares observed; empirical flows not solved
+3,Project risk set/transitions,data/processed/rare_earths/project_state_evidence.csv,PARTIAL,Documented discovery subset; not complete risk population
+4,Commissioning/ramp curves,outputs/synthetic/forecast/synthetic_forecast_service.pdf,PARTIAL,Synthetic engineering execution only; empirical ramp fitting unavailable
+5,Element-specific physical flows,outputs/synthetic/physical/physical_scenarios.pdf,PARTIAL,Validated artificial flows; missing empirical recipes/routes/demand
+6,China-free and N1 service heatmaps,outputs/synthetic/physical/ab_outages.csv,PARTIAL,Synthetic fixture; no observed China-free service
+7,First-passage probabilities,outputs/diagnostics/empirical_forecast_targets.csv,BLOCKED,12 real-world probabilities missing; synthetic file physically separate
+8,Historical baseline skill,outputs/empirical/rare_earths/baseline_scores.csv,PARTIAL,Two mine-output origins descriptive only; no system-level forecast skill
+9,Jurisdiction/layer legal intensity,data/processed/semiconductors/legal_events.csv,PARTIAL,Ordinal severity not inferred supply loss; frozen dependency weights missing
+10,Domestic/foreign/effective capability,outputs/empirical/semiconductors/separate_capability_access.csv,BLOCKED,No target-approved qualifying capability/access evidence
+11,Causal event-study effects,outputs/empirical/semiconductors/summary.json,BLOCKED,No defensible comparison panel or treatment identification
+12,Opacity and coverage,outputs/empirical/opacity/quarterly_coverage.csv,PARTIAL,Coverage audit complete; no valid headline quarter
+13,Opacity/hazard turning point,outputs/empirical/opacity/status.json,BLOCKED,No coverage-valid index and linked risk set
+14,Constant-control benchmark,outputs/scenario/game/constant_control_benchmark.pdf,VERIFIED,"Executed analytical hypothetical benchmark, not empirical estimate"
+15,Feedback policies and trajectories,outputs/scenario/game/adaptation_positive_n21_trajectories.pdf,PARTIAL,Finite-grid scenario candidates; fine negative failures and continuum residuals
+16,Identification and sensitivities,metadata/parameter_registry.csv,PARTIAL,Scenario registry and source gaps recorded; empirical uncertainty unestimated

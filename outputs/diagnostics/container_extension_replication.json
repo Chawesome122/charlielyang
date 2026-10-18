@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "scope": "rebuild_plus_independent_saved_game_verification",
+  "freeze": "2026-10-11",
+  "network_required": false,
+  "steps": [
+    {
+      "command": [
+        "scripts/build_rare_earths.py"
+      ],
+      "exit_code": 0,
+      "seconds": 10.988813246999825,
+      "log": "outputs/diagnostics/replication_logs/00_build_rare_earths.log"
+    },
+    {
+      "command": [
+        "scripts/fetch_additional_rare_earths.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.4662763310000173,
+      "log": "outputs/diagnostics/replication_logs/01_fetch_additional_rare_earths.log"
+    },
+    {
+      "command": [
+        "scripts/build_lynas_history.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.51061609400017,
+      "log": "outputs/diagnostics/replication_logs/02_build_lynas_history.log"
+    },
+    {
+      "command": [
+        "scripts/build_lynas_revisions.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.3987192130000494,
+      "log": "outputs/diagnostics/replication_logs/03_build_lynas_revisions.log"
+    },
+    {
+      "command": [
+        "scripts/build_project_registry.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.7166705360000378,
+      "log": "outputs/diagnostics/replication_logs/04_build_project_registry.log"
+    },
+    {
+      "command": [
+        "scripts/build_citation_audit.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.057475381000131165,
+      "log": "outputs/diagnostics/replication_logs/05_build_citation_audit.log"
+    },
+    {
+      "command": [
+        "scripts/run_semiconductors.py"
+      ],
+      "exit_code": 0,
+      "seconds": 4.784073353999929,
+      "log": "outputs/diagnostics/replication_logs/06_run_semiconductors.log"
+    },
+    {
+      "command": [
+        "scripts/run_opacity.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.9340422080001645,
+      "log": "outputs/diagnostics/replication_logs/07_run_opacity.log"
+    },
+    {
+      "command": [
+        "scripts/run_physical.py"
+      ],
+      "exit_code": 0,
+      "seconds": 4.729224374000069,
+      "log": "outputs/diagnostics/replication_logs/08_run_physical.log"
+    },
+    {
+      "command": [
+        "scripts/run_forecast.py",
+        "--draws",
+        "10000"
+      ],
+      "exit_code": 0,
+      "seconds": 56.304173753999976,
+      "log": "outputs/diagnostics/replication_logs/09_run_forecast.log"
+    },
+    {
+      "command": [
+        "scripts/run_empirical_baselines.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.4296428739999101,
+      "log": "outputs/diagnostics/replication_logs/10_run_empirical_baselines.log"
+    },
+    {
+      "command": [
+        "scripts/run_lynas_baselines.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.5419100110000272,
+      "log": "outputs/diagnostics/replication_logs/11_run_lynas_baselines.log"
+    },
+    {
+      "command": [
+        "scripts/audit_game.py"
+      ],
+      "exit_code": 0,
+      "seconds": 7.244314903000031,
+      "log": "outputs/diagnostics/replication_logs/12_audit_game.log"
+    },
+    {
+      "command": [
+        "scripts/validate.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.0413964360000136,
+      "log": "outputs/diagnostics/replication_logs/13_validate.log"
+    },
+    {
+      "command": [
+        "-m",
+        "pytest",
+        "-q",
+        "--junitxml=outputs/diagnostics/pytest.xml"
+      ],
+      "exit_code": 0,
+      "seconds": 7.260493869000129,
+      "log": "outputs/diagnostics/replication_logs/14_-m.log"
+    },
+    {
+      "command": [
+        "scripts/report.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.62246094000011,
+      "log": "outputs/diagnostics/replication_logs/15_report.log"
+    },
+    {
+      "command": [
+        "latexmk",
+        "main.tex"
+      ],
+      "exit_code": 0,
+      "log": "outputs/diagnostics/replication_logs/manuscript.log"
+    }
+  ],
+  "total_seconds": 103.74487684299993,
+  "independent_machine": false,
+  "note": "Expected negative-beta nonconvergence is a scientific result recorded by successful scripts, not a passing equilibrium."
+}

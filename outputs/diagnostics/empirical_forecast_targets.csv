@@ -1,0 +1,13 @@
+target,threshold,p_start_by_target,p_recognized_by_target,status,reason
+2028Q4,0.5,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2028Q4,0.75,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2028Q4,0.9,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2028Q4,1.0,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2031Q4,0.5,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2031Q4,0.75,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2031Q4,0.9,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2031Q4,1.0,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2035Q4,0.5,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2035Q4,0.75,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2035Q4,0.9,,,BLOCKED,verified_network_and_transition_risk_set_unavailable
+2035Q4,1.0,,,BLOCKED,verified_network_and_transition_risk_set_unavailable

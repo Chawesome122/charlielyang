@@ -1,0 +1,215 @@
+RUN scripts/build_rare_earths.py
+RUN scripts/build_project_registry.py
+RUN scripts/fetch_additional_rare_earths.py
+RUN scripts/build_citation_audit.py
+RUN scripts/run_semiconductors.py
+RUN scripts/run_opacity.py
+RUN scripts/run_physical.py
+RUN scripts/run_forecast.py --draws 10000
+RUN scripts/run_empirical_baselines.py
+RUN scripts/run_game.py --grids 5 7 --scenarios adaptation_positive
+RUN scripts/run_game.py --grids 17 21 --max-iterations 120 --scenarios adaptation_positive
+RUN scripts/run_game.py --grids 17 21 --starts mid --scenarios adaptation_negative adaptation_zero
+RUN scripts/run_game.py --grids 17 --starts mid --scenarios adaptation_negative --method alternating --max-iterations 60 --out outputs/scenario/game/alternate_attempt
+RUN scripts/run_game.py --grids 7 --starts mid --scenarios adaptation_negative adaptation_zero patient impatient substitution complementarity industrial_subsidy_growth foreign_licensing_relaxation
+RUN scripts/audit_game.py
+RUN scripts/validate.py
+RUN -m pytest -q --junitxml=outputs/diagnostics/pytest.xml
+RUN scripts/report.py
+{
+  "PARTIAL": 59,
+  "VERIFIED": 20,
+  "BLOCKED": 5,
+  "NOT ATTEMPTED": 1
+}
+{
+  "passed": true,
+  "scope": "full_recomputation",
+  "freeze": "2026-10-11",
+  "network_required": false,
+  "total_seconds": 1352.5557131140013,
+  "independent_machine": false,
+  "note": "Expected negative-beta nonconvergence is a scientific result recorded by successful scripts, not a passing equilibrium."
+}
+{
+  "PARTIAL": 60,
+  "VERIFIED": 20,
+  "BLOCKED": 4,
+  "NOT ATTEMPTED": 1
+}
+{
+  "passed": true,
+  "scope": "clean_container_full_recomputation",
+  "network": "none",
+  "pipeline_exit_code": 0,
+  "checks": [
+    {
+      "kind": "source_derived_table_byte_identity",
+      "path": "data/processed/rare_earths/observations_asof_freeze.csv",
+      "passed": true
+    },
+    {
+      "kind": "source_derived_table_byte_identity",
+      "path": "data/processed/rare_earths_additional/lynas_annual_production.csv",
+      "passed": true
+    },
+    {
+      "kind": "source_derived_table_byte_identity",
+      "path": "data/processed/semiconductors/reported_financial_inputs.csv",
+      "passed": true
+    },
+    {
+      "kind": "source_derived_table_byte_identity",
+      "path": "outputs/empirical/rare_earths/baseline_scores.csv",
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_positive_n17_zero.npz",
+      "field": "u",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_positive_n17_zero.npz",
+      "field": "c",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_positive_n17_zero.npz",
+      "field": "value_u",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_positive_n17_zero.npz",
+      "field": "value_c",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_positive_n21_zero.npz",
+      "field": "u",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_positive_n21_zero.npz",
+      "field": "c",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_positive_n21_zero.npz",
+      "field": "value_u",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_positive_n21_zero.npz",
+      "field": "value_c",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_zero_n21_mid.npz",
+      "field": "u",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_zero_n21_mid.npz",
+      "field": "c",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_zero_n21_mid.npz",
+      "field": "value_u",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "recomputed_game_array",
+      "path": "adaptation_zero_n21_mid.npz",
+      "field": "value_c",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "kind": "scientific_summary",
+      "field": "rare_earth_versioned_observations",
+      "expected": 87,
+      "actual": 87,
+      "passed": true
+    },
+    {
+      "kind": "scientific_summary",
+      "field": "lynas_annual_observations",
+      "expected": 22,
+      "actual": 22,
+      "passed": true
+    },
+    {
+      "kind": "scientific_summary",
+      "field": "legal_event_rows",
+      "expected": 22,
+      "actual": 22,
+      "passed": true
+    },
+    {
+      "kind": "scientific_summary",
+      "field": "financial_input_rows",
+      "expected": 8,
+      "actual": 8,
+      "passed": true
+    },
+    {
+      "kind": "scientific_summary",
+      "field": "finite_grid_candidate_runs",
+      "expected": 34,
+      "actual": 34,
+      "passed": true
+    },
+    {
+      "kind": "scientific_summary",
+      "field": "not_solved_runs",
+      "expected": 3,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "kind": "scientific_summary",
+      "field": "test_failures",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    }
+  ],
+  "independent_machine": false,
+  "float_comparison_note": "1e-6 absolute tolerance for separately recomputed approximate finite-grid values/policies; empirical table bytes must match exactly",
+  "source_base_image": "python:3.12.14-slim-bookworm@sha256:392307d22300de8b5986851a12d9176dfc0fc073e65bf6523ebd7dcbeb23564e"
+}

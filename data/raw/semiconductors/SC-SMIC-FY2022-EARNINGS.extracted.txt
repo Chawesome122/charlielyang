@@ -1,0 +1,755 @@
+Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no
+responsibility for the contents of this announcement, make no representation as to its accuracy or
+completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in
+reliance upon the whole or any part of the contents of this document.
+
+
+
+
+               SEMICONDUCTOR MANUFACTURING INTERNATIONAL CORPORATION
+                              中 芯 國 際 集 成 電 路 製 造 有 限 公 司*
+                     (Incorporated in the Cayman Islands with limited liability)
+                                       (STOCK CODE: 00981)
+
+  SMIC REPORTS UNAUDITED RESULTS FOR THE THREE MONTHS ENDED DECEMBER 31, 2022
+
+ The consolidated financial information is prepared and presented in accordance with International
+ Financial Reporting Standards (“IFRS”), unless otherwise stated below.
+
+     Revenue was $1,621.3 million in 4Q22, compared to $1,907.0 million in 3Q22, and $1,580.1
+      million in 4Q21.
+
+     Gross profit was $518.7 million in 4Q22, compared to $742.2 million in 3Q22, and $552.8
+      million in 4Q21.
+
+     Gross margin was 32.0% in 4Q22, compared to 38.9% in 3Q22 and 35.0% in 4Q21.
+
+     Revenue was $7,273.3 million in 2022, an increase of 33.6% YoY from $5,443.1 million in
+      2021.
+
+     Profit attributable to owners of the Company was $1,817.9 million in 2022, an increase of
+      6.8% YoY from $1,701.8 million in 2021.
+
+
+Set out below is a copy of the full text of the release by the Company and its subsidiaries (the “Group”) on
+February 9, 2023, in relation to its unaudited results for the three months ended December 31, 2022.
+
+All currency figures stated in this report are in US Dollars unless stated otherwise.
+
+Shanghai, China – February 9, 2023 – Semiconductor Manufacturing International Corporation (SEHK:
+00981; SSE STAR MARKET: 688981) (“SMIC”, the “Company” or “we”), one of the leading semiconductor
+foundries in the world, today announced its consolidated results of operations for the three months ended
+December 31, 2022.
+
+
+
+
+* For identification purposes only
+
+
+                                                     -1-
+The following statements are forward looking statements based on current expectations and involved risks
+and uncertainties.
+
+First Quarter 2023 Guidance
+The Company expects (in accordance with IFRS):
+
+   Revenue to decrease by 10% to 12% QoQ.
+   Gross margin to range from 19% to 21%.
+
+
+The Management Comments
+In the fourth quarter of 2022, the Company’s revenue was $1,621 million, down 15% sequentially, and
+gross margin was 32%, which were both in line with the Company’s guidance and expectation.
+
+According to the unaudited financial results, the Company’s revenue for 2022 full year crossed to $7.2
+billion, up 34% year-over-year，with annual growth rate of more than 30% for two consecutive years in
+2021 and 2022. The gross margin in 2022 increased to 38%, hit a record high. Capital expenditures in
+2022 was $6.35 billion. By the end of the year, monthly capacity increased to 714 thousand 8-inch
+equivalent wafers. The annual capacity utilization rate was 92%. By the end of 2022, SMIC Shenzhen
+entered into production, SMIC Jingcheng entered into pilot production, SMIC Lingang completed
+construction of main fab shell, and SMIC Xiqing started the construction. The mass production of SMIC
+Jingcheng is scheduled to postpone by one to two quarters due to the delay of bottleneck equipment.
+
+Looking forward to 2023, in the first half of the year, the industry cycle is still at the bottom, the impact of
+external uncertainties is still complex. The Company’s first quarter guidance is as follows: revenue is
+expected to be down 10% to 12% sequentially, and the gross margin is expected to decline to the range
+from 19% to 21%. Based on the premise that the external environment is relatively stable, for the full year
+of 2023:
+
+   Revenue is expected to decline by low-teens percentage year-over-year, and the gross margin is
+    expected to be around 20%.
+   Depreciation is expected to increase by more than 20% year-over-year, the capital expenditures is
+    expected to maintain roughly flat compared to previous year.
+   Incremental monthly capacity by the end of the year is expected to be similar to that of previous year.
+
+During the process of continuous high investments, gross margin is under the pressure of high
+depreciation. The Company will always target sustained profitability, strive to grasp the pace of capacity
+expansion to ensure a certain level of gross margin.
+
+
+
+
+                                                     -2-
+Conference Call / Webcast Announcement
+
+Date: Friday, February 10, 2023
+Time: 8:30 A.M. - 9:30 A.M.
+
+WEBCAST
+The call will be webcast live at:
+https://edge.media-server.com/mmc/p/rjw8n9xc
+
+CONFERENCE CALL
+Please register in advance for the conference call at:
+https://register.vevent.com/register/BIf148856846c94545ab37b672b82f4ecf
+
+REPLAY
+Recording will be available 1 hour after the event and it will be archived for 12 months.
+https://www.smics.com/en/site/company_financialSummary
+
+
+
+
+About SMIC
+Semiconductor Manufacturing International Corporation (SEHK: 00981; SSE STAR MARKET: 688981)
+and its subsidiaries is one of the leading foundries in the world and is the front runner in manufacturing
+capability, manufacturing scale, and comprehensive service in the Chinese Mainland. SMIC Group
+provides semiconductor foundry and technology services to global customers on 0.35 micron to FinFET
+process node technologies. Headquartered in Shanghai, China, SMIC Group has an international
+manufacturing and service base, with three 8-inch wafer fabrication facilities (“fabs”) and four 12-inch
+fabs in Shanghai, Beijing, Tianjin and Shenzhen, and three 12-inch fabs under construction in Shanghai,
+Beijing and Tianjin. SMIC Group also has marketing and customer service offices in the U.S., Europe,
+Japan, and Taiwan, China, and a representative office in Hong Kong, China.
+
+For more information, please visit www.smics.com.
+
+
+Forward-Looking Statements
+
+This release contains, in addition to historical information, forward-looking statements. These forward-
+looking statements are based on SMIC's current assumptions, expectations, beliefs, plans, objectives,
+and projections about future events or performance. SMIC uses words including but not limited to
+“believe”, “anticipate”, “intend”, “estimate”, “expect”, “project”, “target”, “going forward”, “continue”,
+“ought to”, “may”, “seek”, “should”, “plan”, “could”, “vision”, “goal”, “aim”, “aspire”, “objective”,
+“schedule”, “outlook” and other similar expressions to identify forward looking statements. These
+forward-looking statements are necessary estimates reflecting judgment of SMIC's senior management
+and involve significant risks, both known and unknown, uncertainties and other factors that may cause
+SMIC's actual performance, financial condition or results of operations to be materially different from
+those suggested by the forward-looking statements including, among others, risks associated with
+cyclicality and market conditions in the semiconductor industry, intense competition in the
+semiconductor industry, SMIC's reliance on a small number of customers, timely wafer acceptance by
+SMIC's customers, timely introduction of new technologies, SMIC's ability to ramp new products into
+volume, supply and demand for semiconductor foundry services, industry overcapacity, shortages in
+equipment, components, raw materials and software, availability of manufacturing capacity, financial
+stability in end markets, orders or judgments from pending litigation, intensive intellectual property
+litigation in the semiconductor industry, general economic conditions and fluctuations in currency
+exchange rates.
+
+
+
+
+                                                     -3-
+In addition to the information contained in this release, you should also consider the information
+contained in our other filings with The Stock Exchange of Hong Kong Limited (“SEHK”) and Shanghai
+Stock Exchange (“SSE”) from time to time. Other unknown or unpredictable factors also could have
+material adverse effects on our future results, performance or achievements. In light of these risks,
+uncertainties, assumptions and factors, the forward-looking events discussed in this release may not
+occur. You are cautioned not to place undue reliance on these forward-looking statements, which speak
+only as of the date stated or, if no date is stated, as of the date of this release. Except as required by
+applicable laws, SMIC undertakes no obligation and does not intend to update any forward-looking
+statement to reflect events or circumstances after the date on which such statement is made, or to
+reflect the possible or actual occurrence of unanticipated events after the date on which such statement
+is made, whether as a result of new information, future events or otherwise.
+
+
+About Non-International Financial Reporting Standards (“non-IFRS”) Financial
+Measures
+To supplement SMIC’s consolidated financial results presented in accordance with IFRS, SMIC uses
+the presentation of non-IFRS financial measures, including EBITDA, EBITDA margin and non-IFRS
+operating expenses in this release. The presentation of non-IFRS financial measures is not intended to
+be considered in isolation or as a substitute for the financial information prepared and presented in
+accordance with IFRS. These non-IFRS financial measures are not calculated or presented in
+accordance with, and are not alternatives or substitutes for financial measures prepared in accordance
+with IFRS, and should be read only in conjunction with the Group's financial measures prepared in
+accordance with IFRS. The Group's non-IFRS financial measures may be different from similarly-titled
+non-IFRS financial measures used by other companies.
+
+SMIC believes that use of these non-IFRS financial measures facilitates investors’ and management’s
+comparisons to SMIC’s historical performance. The Group’s management regularly uses these non-
+IFRS financial measures to understand, manage and evaluate the Group's business and make financial
+and operational decisions.
+
+The accompanying table has more information and reconciliations of each non-IFRS financial measure
+to its most directly comparable IFRS financial measure.
+
+
+
+
+                                                  -4-
+                       Summary of Fourth Quarter 2022 Operating Results
+
+Amounts in US$ thousands, except for earnings per share and operating data
+                                                              4Q22              3Q22        QoQ              4Q21            YoY
+    Revenue                                               1,621,270        1,906,956      -15.0%        1,580,059           2.6%
+    Cost of sales                                       (1,102,581)      (1,164,740)       -5.3%      (1,027,276)           7.3%
+    Gross profit                                            518,689          742,216      -30.1%          552,783          -6.2%
+    Operating expenses                                    (236,343)        (264,297)      -10.6%        (132,669)          78.1%
+    Profit from operations                                  282,346          477,919      -40.9%          420,114         -32.8%
+    Other income, net                                       136,777          106,666       28.2%          211,276         -35.3%
+    Profit before tax                                       419,123          584,585      -28.3%          631,390         -33.6%
+    Income tax expense                                        6,351          (10,211)        N/A          (53,037)           N/A
+    Profit for the period                                   425,474          574,374      -25.9%          578,353         -26.4%
+
+    Other comprehensive income:
+    Exchange differences on translating                      35,616          (98,939)         N/A           23,461         51.8%
+     foreign operations
+    Cash flow hedges                                         26,458           51,658      -48.8%              432      6,024.5%
+    Total comprehensive income                              487,548          527,093       -7.5%          602,246        -19.0%
+     for the period
+
+    Profit for the period attributable to:
+     Owners of the Company                                  385,534          470,849      -18.1%          533,773         -27.8%
+     Non-controlling interests                               39,940          103,525      -61.4%           44,580         -10.4%
+    Profit for the period                                   425,474          574,374      -25.9%          578,353         -26.4%
+
+    Gross margin                                              32.0%            38.9%                        35.0%
+
+    Earnings per share(1)
+     Basic                                                     $0.05            $0.06                        $0.07
+     Diluted                                                   $0.05            $0.06                        $0.07
+
+    Wafers shipped (in 8” equivalent wafers)              1,574,068       1,797,671       -12.4%        1,723,360          -8.7%
+    Capacity utilization(2)                                  79.5%           92.1%                         99.4%
+
+Notes:
+(1) Based on weighted average ordinary shares of 7,915 million (basic) and 7,939 million (diluted) in 4Q22, 7,907 million (basic)
+    and 7,923 million (diluted) in 3Q22, and 7,904 million (basic) and 7,944 million (diluted) in 4Q21.
+(2) Based on total 8’’ equivalent wafers out divided by estimated total quarterly capacity.
+
+      Revenue was $1,621.3 million in 4Q22, a decrease of 15.0% QoQ from $1,907.0 million in 3Q22. The
+       decline was mainly due to the decrease in capacity utilization and sales volume in 4Q22.
+
+      Cost of sales was $1,102.6 million in 4Q22, compared to $1,164.7 million in 3Q22.
+
+      Gross profit was $518.7 million in 4Q22, compared to $742.2 million in 3Q22.
+
+      Gross margin was 32.0% in 4Q22, compared to 38.9% in 3Q22 due to the decrease in capacity
+       utilization and sales volume in 4Q22.
+
+      Operating expenses were $236.3 million in 4Q22, compared to $264.3 million operating expenses in
+       3Q22. The change was mainly due to the reasons stated in Operating Expenses/(Income) below.
+
+      Other income, net was $136.8 million gain in 4Q22, compared to $106.7 million gain in 3Q22. The
+       change was mainly due to the reasons stated in Other Income, Net below.
+
+
+
+                                                            -5-
+Analysis of Revenue
+ Revenue Analysis
+ By Geography(1)                                                                    4Q22           3Q22            4Q21
+ China                                                                             69.1%          75.1%           74.4%
+ America                                                                           25.3%          20.5%           19.6%
+ Eurasia                                                                            5.6%           4.4%            6.0%
+ By Service Type                                                                    4Q22           3Q22            4Q21
+ Wafers                                                                            91.1%          92.5%           89.5%
+ Others                                                                             8.9%           7.5%           10.5%
+ Wafer Revenue Analysis
+ By Application                                                                     4Q22           3Q22            4Q21
+ Smart Phone                                                                       28.6%          26.0%           31.2%
+ Smart Home                                                                        10.8%          14.9%           12.7%
+ Consumer Electronics                                                              21.6%          23.3%           23.7%
+ Others                                                                            39.0%          35.8%           32.4%
+ By Size                                                                            4Q22           3Q22            4Q21
+ 8” wafers                                                                         35.6%          31.6%           35.5%
+ 12” wafers                                                                        64.4%          68.4%           64.5%
+
+ Note:
+(1) Presenting the revenue to those companies whose headquarters are in this area, but ultimately selling and shipping the
+     products to their global customers.
+
+
+
+
+                                                           -6-
+Capacity
+     Monthly capacity increased to 714,000 8’’ equivalent wafers in 4Q22 from 706,000 8” equivalent
+      wafers in 3Q22.
+
+Shipment and Utilization
+8” equivalent wafers                                             4Q22            3Q22           QoQ        4Q21      YoY
+Wafer shipments                                            1,574,068       1,797,671          -12.4%   1,723,360    -8.7%
+Utilization rate(1)                                           79.5%           92.1%                       99.4%
+
+Note:
+(1) Based on total 8’’ equivalent wafers out divided by estimated total quarterly capacity.
+
+Detailed Financial Analysis
+Gross Profit
+Amounts in US$ thousands                                         4Q22            3Q22           QoQ        4Q21      YoY
+Cost of sales                                              1,102,581       1,164,740           -5.3%   1,027,276     7.3%
+ Depreciation and amortisation                               411,367         413,448           -0.5%     392,221     4.9%
+ Other manufacturing costs                                   691,214         751,292           -8.0%     635,055     8.8%
+Gross profit                                                 518,689         742,216          -30.1%     552,783    -6.2%
+Gross margin                                                  32.0%           38.9%                       35.0%
+
+Depreciation and Amortisation
+Amounts in US$ thousands                                        4Q22            3Q22            QoQ        4Q21      YoY
+Depreciation and amortisation                                 604,324         575,870           4.9%     508,266   18.9%
+
+Operating Expenses/(Income)
+Amounts in US$ thousands                                         4Q22           3Q22            QoQ        4Q21       YoY
+Operating expenses                                            236,343        264,297          -10.6%     132,669    78.1%
+ Research and development expenses                            197,455        182,888            8.0%     172,105    14.7%
+ General and administrative expenses                          127,338        152,671          -16.6%     104,097    22.3%
+ Selling and marketing expenses                                  7,850          7,357           6.7%       8,164    -3.8%
+ Impairment losses on financial assets, net                        617             87         609.2%       (115)      N/A
+ Other operating income                                       (96,917)       (78,706)          23.1%   (151,582)   -36.1%
+
+     Research and development expenses increased to $197.5 million in 4Q22 from $182.9 million in
+      3Q22. The change was primarily attributable to the higher level of R&D activities in 4Q22.
+
+     General and administrative expenses decreased to $127.3 million in 4Q22 from $152.7 million in
+      3Q22. The change was mainly because a new majority-owned fab entered into production in 4Q22
+      and as a result, the start-up cost decreased in 4Q22.
+
+     The change in other operating income was primarily caused by the change in the income
+      recognized in relation to government funding and profit from disposal of fixed assets.
+
+
+
+
+                                                                -7-
+Other Income, Net
+    Amounts in US$ thousands                                4Q22          3Q22          QoQ       4Q21       YoY
+    Other income, net                                    136,777       106,666         28.2%   211,276    -35.3%
+     Interest income                                     120,615       101,899         18.4%     59,205   103.7%
+     Finance costs                                       (39,336)      (31,394)        25.3%   (27,204)    44.6%
+     Foreign exchange (loss)/gain                        (10,793)         4,110          N/A        913      N/A
+     Other gains/(losses), net                             32,253       (4,224)          N/A     41,577   -22.4%
+     Share of profits and losses of joint                  34,038        36,275        -6.2%   136,785    -75.1%
+       venture and associates
+
+       The change in other gains/(losses), net in 4Q22 was primarily caused by the change in the fair
+        value of the investments in equity securities recognised as financial assets at fair value through
+        profit or loss.
+
+Liquidity
+    Amounts in US$ thousands                                4Q22            3Q22
+    Inventories                                         1,911,487       1,698,158
+    Prepayment and prepaid operating                      143,121          47,766
+     expenses
+    Trade and other receivables                         1,302,642       1,254,720
+    Financial assets at fair value through profit         375,776         292,749
+     or loss
+    Financial assets at amortised cost                 5,122,706       6,794,305
+    Derivative financial instruments                     146,669         375,548
+    Restricted cash                                      676,937         663,631
+    Cash and cash equivalents                          6,932,587       7,544,774
+    Assets classified as held-for-sale                    22,030          26,213
+    Total current assets                              16,633,955      18,697,864
+
+    Trade and other payables                            3,021,841       2,860,991
+    Contract liabilities                                2,172,218       2,049,803
+    Borrowings                                          1,268,218         967,705
+    Lease liabilities                                      51,849          63,072
+    Deferred government funding                           153,812         135,161
+    Accrued liabilities                                   309,183         274,303
+    Derivative financial instruments                       45,217          38,917
+    Current tax liabilities                                 2,591          16,596
+    Total current liabilities                           7,024,929       6,406,548
+
+    Cash ratio(1)                                               1.0              1.2
+    Quick ratio(2)                                              2.1              2.7
+    Current ratio(3)                                            2.4              2.9
+
+Notes:
+(1) Cash and cash equivalent divided by total current liabilities.
+(2) Current assets excluding inventories divided by total current liabilities.
+(3) Total current assets divided by total current liabilities.
+
+
+
+
+                                                          -8-
+Capital Structure
+    Amounts in US$ thousands                                      4Q22           3Q22
+    Cash and cash equivalents                                 6,932,587      7,544,774
+    Restricted cash - current                                   676,937        663,631
+    Financial assets at fair value through                      375,776        292,749
+      profit or loss - current(1)
+    Financial assets at amortised cost(2)                    10,676,151      9,917,224
+    Total cash on hand                                       18,661,451     18,418,378
+
+    Borrowings - current                                      1,268,218        967,705
+    Borrowings - non-current                                  6,718,304      6,277,993
+    Lease liabilities                                           109,531        128,735
+    Bonds payable                                               598,379        598,197
+    Total debt                                                8,694,432      7,972,630
+
+    Net debt(3)                                              (9,967,019)   (10,445,748)
+    Equity                                                   28,961,421      27,919,123
+    Debt to equity ratio(4)                                       30.0%           28.6%
+    Net debt to equity ratio(5)                                  -34.4%          -37.4%
+
+Notes:
+(1) Mainly contain structural deposits and monetary funds.
+(2) Mainly contain bank deposits over 3 months.
+(3) Total debt minus total cash on hand.
+(4) Total debt divided by equity.
+(5) Net debt divided by equity.
+
+
+Cash Flow
+    Amounts in US$ thousands                                       4Q22           3Q22
+    Net cash generated from operating activities                 563,308      1,069,149
+    Net cash used in investing activities                    (2,419,975)    (3,024,132)
+    Net cash generated from financing activities               1,135,197      1,062,529
+    Effect of exchange rate changes                              109,283      (197,267)
+    Net decrease in cash and cash equivalents                  (612,187)    (1,089,721)
+
+
+
+Capex Summary
+      Capital expenditure was $1,987.1 million in 4Q22, compared to $1,822.3 million in 3Q22.
+
+      The total capital expenditure in 2022 was $6.35 billion. The total capital expenditure in 2023
+       maintains roughly flat compared to 2022, which will be mainly used for mature capacity
+       expansion, and the infrastructures for new fabs.
+
+
+
+
+                                                              -9-
+Recent Highlights and Announcements
+   Advance Announcement on Performance Meeting in 4th Quarter of 2022 （2023-1-10）
+   Notification of Board Meeting （2023-1-10）
+   3rd Quarter Report of 2022 （2022-11-10）
+   SMIC Reports Unaudited Results for the Three Months Ended September 30, 2022
+    （2022-11-10）
+   List of Directors and their Roles and Functions （2022-11-10）
+   Change of Non-Executive Director （2022-11-10）
+   Advance Announcement on Performance Meeting in 3rd Quarter of 2022 （2022-10-11）
+   Notification of Board Meeting （2022-10-11）
+
+
+                                     Please visit SMIC’s website at
+                               https://www.smics.com/en/site/news and
+                  https://www.smics.com/en/site/company_statutoryDocuments
+                      for further details regarding the recent announcements.
+
+
+
+
+                                             - 10 -
+                     Semiconductor Manufacturing International Corporation
+ CONDENSED CONSOLIDATED STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+                                               (In US$ thousands except share data)
+
+
+                                                                                    For the three months ended
+                                                                             December 31, 2022      September 30, 2022
+                                                                                (Unaudited)              (Unaudited)
+
+Revenue                                                                                   1,621,270           1,906,956
+Cost of sales                                                                           (1,102,581)         (1,164,740)
+  Gross profit                                                                              518,689             742,216
+Research and development expenses                                                         (197,455)           (182,888)
+Sales and marketing expenses                                                                 (7,850)             (7,357)
+General and administration expenses                                                       (127,338)           (152,671)
+Impairment losses on financial assets, net                                                     (617)                 (87)
+Other operating income                                                                       96,917               78,706
+  Operating expenses                                                                      (236,343)           (264,297)
+Profit from operations                                                                      282,346             477,919
+Other income, net                                                                           136,777             106,666
+Profit before tax                                                                           419,123             584,585
+Income tax expense                                                                             6,351            (10,211)
+Profit for the period                                                                       425,474             574,374
+
+Other comprehensive income:
+Items that may be reclassified to profit or loss in subsequent periods
+  Exchange differences on translating foreign operations                                    35,616             (98,939)
+  Cash flow hedges                                                                          26,458               51,658
+Total comprehensive income for the period                                                  487,548             527,093
+
+Profit for the period attributable to:
+ Owners of the Company                                                                     385,534             470,849
+ Non-controlling interests                                                                  39,940             103,525
+                                                                                           425,474             574,374
+Total comprehensive income for the period
+ attributable to:
+ Owners of the Company                                                                     447,608             423,810
+ Non-controlling interests                                                                  39,940             103,283
+                                                                                           487,548             527,093
+
+Earnings per share
+ Basic                                                                                        $0.05               $0.06
+ Diluted                                                                                      $0.05               $0.06
+
+Shares used in calculating basic earnings per share                                   7,914,977,437       7,907,014,342
+Shares used in calculating diluted earnings per share                                 7,938,862,418       7,922,835,632
+
+Non-IFRS Financial Measures
+Non-IFRS operating expenses(1)                                                           (324,591)            (329,510)
+EBITDA(2)                                                                                1,062,783            1,191,849
+EBITDA margin(2)                                                                            65.6%                62.5%
+
+
+
+
+                                                               - 11 -
+                      Semiconductor Manufacturing International Corporation
+  CONDENSED CONSOLIDATED STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+                                            (In US$ thousands except share data)
+
+Notes:
+(1) Non-IFRS operating expenses are defined as operating expenses adjusted to exclude the effect of items listed in
+    the following table. SMIC reviews non-IFRS operating expenses together with operating expenses to understand,
+    manage and evaluate its business and make financial and operational decisions. The Group also believes it is
+    useful supplemental information for investors and analysts to assess its operating performance. However, the use
+    of non-IFRS financial measures has material limitations as an analytical tool. One of the limitations of using non-
+    IFRS financial measures is that they do not include all items that impact our net profit for the period. In addition,
+    because non-IFRS financial measures are not calculated in the same manner by all companies, they may not be
+    comparable to other similarly titled measures used by other companies. In light of the foregoing limitations, you
+    should not consider the non-IFRS operating expenses in isolation from or as an alternative to operating expenses
+    prepared in accordance with IFRS.
+
+    The following table sets forth the reconciliation of the non-IFRS operating expenses to its most directly
+    comparable financial measure presented in accordance with IFRS, for the periods indicated.
+
+
+                                                                    For the three months ended
+                                                December 31, 2022         September 30, 2022        December 31, 2021
+                                                   (Unaudited)                (Unaudited)              (Unaudited)
+      Operating expenses                                 (236,343)                   (264,297)                (132,669)
+      Employee bonus accrued                                  8,669                     13,493                    4,807
+      Government funding                                   (49,405)                   (93,859)                (126,112)
+      (Gain)/loss on the disposal of                       (47,512)                     15,153                  (25,470)
+        machinery and equipment and other
+        assets
+      Non-IFRS operating expenses                          (324,591)                 (329,510)                 (279,444)
+
+
+
+
+                                                           - 12 -
+                          Semiconductor Manufacturing International Corporation
+      CONDENSED CONSOLIDATED STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+                                              (In US$ thousands except share data)
+
+    (2) EBITDA is defined as profit for the period excluding the impact of the finance cost, depreciation and amortisation,
+        and income tax credit and expense. EBITDA margin is defined as EBITDA divided by revenue. SMIC uses
+        EBITDA margin as a measure of operating performance; for planning purposes, including the preparation of the
+        Group’s annual operating budget; to allocate resources to enhance the financial performance of the Group’s
+        business; to evaluate the effectiveness of the Group’s business strategies; and in communications with SMIC’s
+        board of directors concerning the Group’s financial performance. Although EBITDA is widely used by investors to
+        measure a company’s operating performance without regard to items, such as finance cost, income tax expense
+        and credit and depreciation and amortisation that can vary substantially from company to company depending
+        upon their respective financing structures and accounting policies, the book values of their assets, their capital
+        structures and the methods by which their assets were acquired, EBITDA has limitations as an analytical tool, and
+        you should not consider it in isolation or as a substitute for analysis of the Group’s results of operations as
+        reported under IFRS. Some of these limitations are: it does not reflect the Group’s capital expenditures or future
+        requirements for capital expenditures or other contractual commitments; it does not reflect changes in, or cash
+        requirements for, the Group’s working capital needs; it does not reflect finance cost; it does not reflect cash
+        requirements for income taxes; that, although depreciation and amortisation are non-cash charges, the assets
+        being depreciated or amortised will often have to be replaced in the future, and these measures do not reflect any
+        cash requirements for these replacements; and that other companies in SMIC’s industry may calculate these
+        measures differently than SMIC does, limiting their usefulness as comparative measures.
+
+        The following table sets forth the reconciliation of EBITDA and EBITDA margin to their most directly comparable
+        financial measures presented in accordance with IFRS, for the periods indicated.
+
+                                                                        For the three months ended
+                                                  December 31, 2022         September 30, 2022        December 31, 2021
+                                                     (Unaudited)                (Unaudited)              (Unaudited)
+         Profit for the period                               425,474                     574,374                 578,353
+         Finance costs                                        39,336                      31,394                  27,204
+         Depreciation and amortisation                       604,324                     575,870                 508,266
+         Income tax expense                                   (6,351)                     10,211                  53,037
+         EBITDA                                            1,062,783                   1,191,849               1,166,860
+         Profit margin                                         26.2%                      30.1%                    36.6%
+         EBITDA margin                                         65.6%                      62.5%                    73.8%
+
+
+.
+
+
+
+
+                                                             - 13 -
+                               Semiconductor Manufacturing International Corporation
+                         CONDENSED CONSOLIDATED STATEMENT OF FINANCIAL POSITION
+                                                         (In US$ thousands)
+
+
+
+
+                                                                                              As of
+                                                                          December 31, 2022           September 30, 2022
+                                                                                (Unaudited)                  (Unaudited)
+ASSETS
+Non-current assets
+ Property, plant and equipment                                                   18,855,532                   17,291,250
+ Right-of-use assets                                                                529,795                      550,941
+ Intangible assets                                                                   45,331                       48,892
+ Investments in associates                                                        1,912,042                    1,838,807
+ Investment in joint venture                                                          9,051                        8,943
+ Deferred tax assets                                                                 14,244                       14,896
+ Financial assets at fair value through profit or loss                              208,307                      170,957
+ Financial assets at amortised cost                                               5,553,445                    3,122,919
+ Derivative financial instruments                                                    32,958                       25,538
+ Other assets                                                                        13,124                         379
+Total non-current assets                                                         27,173,829                   23,073,522
+
+
+Current assets
+ Inventories                                                                      1,911,487                    1,698,158
+ Prepayment and prepaid operating expenses                                          143,121                       47,766
+ Trade and other receivables                                                      1,302,642                    1,254,720
+ Financial assets at fair value through profit or loss                              375,776                      292,749
+ Financial assets at amortised cost                                               5,122,706                    6,794,305
+ Derivative financial instruments                                                   146,669                      375,548
+ Restricted cash                                                                    676,937                      663,631
+ Cash and cash equivalents                                                        6,932,587                    7,544,774
+                                                                                 16,611,925                   18,671,651
+ Assets classified as held-for-sale                                                  22,030                       26,213
+Total current assets                                                             16,633,955                   18,697,864
+TOTAL ASSETS                                                                     43,807,784                   41,771,386
+
+
+
+
+                                                               - 14 -
+                       Semiconductor Manufacturing International Corporation
+                 CONDENSED CONSOLIDATED STATEMENT OF FINANCIAL POSITION
+                                               (In US$ thousands)
+
+
+                                                                                 As of
+                                                         December 31, 2022               September 30, 2022
+                                                            (Unaudited)                     (Unaudited)
+EQUITY AND LIABILITIES
+Capital and reserves
+ Ordinary shares                                                        31,651                           31,610
+ Share premium                                                      13,868,089                      13,886,299
+ Treasure stock                                                              -                         (21,127)
+ Reserves                                                              472,435                         388,879
+ Retained earnings                                                   4,777,801                       4,392,267
+Equity attributable to owners of the Company                        19,149,976                      18,677,928
+Non-controlling interests                                            9,811,445                       9,241,195
+Total equity                                                        28,961,421                      27,919,123
+
+Non-current liabilities
+ Borrowings                                                          6,718,304                       6,277,993
+ Lease liabilities                                                      57,682                          65,663
+ Bonds payable                                                         598,379                         598,197
+ Deferred tax liabilities                                               34,980                          22,969
+ Deferred government funding                                           396,803                         443,773
+ Derivative financial instruments                                       15,286                          37,120
+Total non-current liabilities                                        7,821,434                       7,445,715
+
+Current liabilities
+ Trade and other payables                                            3,021,841                       2,860,991
+ Contract liabilities                                                2,172,218                       2,049,803
+ Borrowings                                                          1,268,218                         967,705
+ Lease liabilities                                                      51,849                          63,072
+ Deferred government funding                                           153,812                         135,161
+ Accrued liabilities                                                   309,183                         274,303
+ Derivative financial instruments                                       45,217                          38,917
+ Current tax liabilities                                                 2,591                          16,596
+Total current liabilities                                            7,024,929                       6,406,548
+Total liabilities                                                   14,846,363                      13,852,263
+TOTAL EQUITY AND LIABILITIES                                        43,807,784                      41,771,386
+
+
+
+
+                                                     - 15 -
+                                Semiconductor Manufacturing International Corporation
+                             CONDENSED CONSOLIDATED STATEMENT OF CASH FLOWS
+                                                         (In US$ thousands)
+
+
+                                                                               For the three months ended
+                                                                         December 31, 2022       September 30, 2022
+                                                                              (Unaudited)               (Unaudited)
+Operating activities:
+ Profit for the period                                                             425,474                  574,374
+ Depreciation and amortisation                                                     604,324                  575,870
+ Share of profits and losses of joint venture and associates                      (34,038)                  (36,275)
+ Changes in working capital and others                                           (432,452)                  (44,820)
+Net cash generated from operating activities                                       563,308                1,069,149
+
+Investing activities:
+ Payments to acquire financial assets at fair value through profit               (315,637)                 (26,352)
+   or loss
+  Proceeds from sale of financial assets at fair value through                     226,901                   38,061
+   profit or loss
+ Payments to acquire financial assets at amortised cost                         (8,257,376)              (4,172,267)
+ Proceeds from maturity of financial assets at amortised cost                     7,750,521                3,349,069
+ Payments for property, plant and equipment                                     (2,004,517)              (2,144,167)
+ Proceeds from disposal of property, plant and equipment and                         14,549                   13,892
+  assets classified as held-for-sale
+ Payments for intangible assets                                                    (1,062)                  (2,349)
+ Payments for land use right                                                             -                 (78,940)
+ Payments for investment of associates                                            (17,977)                 (31,898)
+ Proceeds from disposal of joint venture and associates                             16,990                   23,789
+ Distributions received from associates                                                881                    7,072
+ Proceeds from/(payments for) settlement of derivative financial                  166,752                       (42)
+  instruments
+Net cash used in investing activities                                           (2,419,975)              (3,024,132)
+
+Financing activities:
+ Proceeds from borrowings                                                          709,982                1,371,287
+ Repayment of borrowings                                                           (90,895)               (314,784)
+ Principal elements of lease payments                                              (15,179)                 (27,251)
+ Payment for shares repurchased                                                           -                 (21,127)
+ Proceeds from exercise of employee stock options                                     1,313                   55,534
+ Capital injection from non-controlling interests                                  527,400                         -
+ Proceeds from settlement of derivative financial instruments                         2,576                    5,988
+ Payments for deposit relating to financing activities                                    -                  (7,118)
+Net cash generated from financing activities                                     1,135,197                1,062,529
+
+Effects of exchange rate changes on the balance of cash held in                    109,283                (197,267)
+ foreign currencies
+
+Net decrease in cash and cash equivalents                                        (612,187)               (1,089,721)
+Cash and cash equivalents, beginning of the period                               7,544,774                 8,634,495
+Cash and cash equivalents, end of the period                                     6,932,587                 7,544,774
+
+
+
+
+                                                                - 16 -
+                                                       By order of the Board
+                                        Semiconductor Manufacturing International Corporation
+                                                Company Secretary / Board Secretary
+                                                           Guo Guangli
+
+Shanghai, February 9, 2023
+
+As at the date of this announcement, the directors of the Company are:
+
+Executive Directors
+GAO Yonggang
+
+
+Non-executive Directors
+LU Guoqing
+CHEN Shanzhi
+YANG Lumin
+HUANG Dengshan
+
+
+Independent Non-executive Directors
+LAU Lawrence Juen-Yee
+FAN Ren Da Anthony
+LIU Ming
+WU Hanming
+
+
+
+
+                                               - 17 -
+

@@ -1,0 +1,211 @@
+{
+  "all_model_and_computation_code_unchanged": false,
+  "checks": [
+    {
+      "path": "scripts/build_project_registry.py",
+      "unchanged_from_full_container": false
+    },
+    {
+      "path": "scripts/report.py",
+      "unchanged_from_full_container": false
+    },
+    {
+      "path": "scripts/run_empirical_baselines.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "scripts/run_forecast.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "scripts/run_game.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "scripts/run_physical.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/__init__.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/dynamics/__init__.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/dynamics/resilience.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/dynamics/tipping.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/forecast/__init__.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/forecast/bootstrap.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/forecast/calibration.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/forecast/origins.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/forecast/scoring.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/game/__init__.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/game/active_set.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/game/benchmark.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/game/calibration.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/game/hjb.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/game/policy_iteration.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/game/primitives.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/game/stability.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/io/__init__.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/io/archive.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/io/provenance.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/io/schemas.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/io/vintages.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/opacity/__init__.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/opacity/coding.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/opacity/events.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/opacity/index.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/opacity/obligations.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/opacity/reliability.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/opacity/sensitivity.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/rare_earths/lp.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/rare_earths/materials.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/rare_earths/projects.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/rare_earths/ramps.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/rare_earths/resilience.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/rare_earths/simulate.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/rare_earths/transitions.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/reporting/__init__.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/reporting/manifest.py",
+      "unchanged_from_full_container": false
+    },
+    {
+      "path": "src/weaponized/semiconductors/__init__.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/semiconductors/access.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/semiconductors/capability.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/semiconductors/crosswalk.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/semiconductors/events.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/semiconductors/evidence.py",
+      "unchanged_from_full_container": true
+    },
+    {
+      "path": "src/weaponized/semiconductors/legal.py",
+      "unchanged_from_full_container": true
+    }
+  ],
+  "numerical_game_physical_forecast_core_unchanged": true,
+  "post_container_additions": "New issuer-output extraction/baselines and discovery-roster/manuscript extensions. Earlier full container does not certify the added code; separate extension rebuild verifies it. Final manifest-only extension adds root license/notices digests; no numerical code changed."
+}

@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="/favicon.ico">
+<title>指定されたページまたはファイルは存在しません （METI/経済産業省）</title>
+<link rel="stylesheet" media="screen" href="/css_2017/style.css">
+<link rel="stylesheet" media="print" href="/css_2017/print.css">
+<link rel="stylesheet" href="/icomoon/style.css">
+<script src="/js_2017/jquery-3.2.1.min.js"></script>
+<script src="/js_2017/jquery-migrate.js"></script>
+<script src="/js_2017/jquery.matchHeight-min.js"></script>
+<script src="/js_2017/base.js"></script>
+
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^="#"]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      if (href == "#pagetop") {
+        $('h1.top_logo a').focus();
+      }
+      return false;
+   });
+});
+</script>
+</head>
+
+
+<body id="pagetop">
+	<script src="/js_2017/header.js"></script>
+	<script src="/js_2017/msearch.js"></script>
+	<noscript><div class="jsOn">すべての機能をご利用いただくにはJavascriptを有効にしてください。Javascriptを無効のまま閲覧される方は<a href="/sitemap/index.html">サイトマップからページをご覧ください。</a></div></noscript>	
+
+	<div id="main" tabindex="120">
+    <div class="bg-g">
+      <div class="w1000">
+        <div class="clearfix">
+          <div class="btn pc">
+            <div class="border-btn"><a href="javascript:void(0)" onclick="window.print();return false;" tabindex="110"><span class="icon-copy"></span>印刷</a></div>
+          </div>
+          <!-- Breadcrumb List --><!-- Breadcrumb List -->
+          <div class="pan">
+            
+          </div>
+          </div>
+        <h1 id="MainContentsArea">指定されたページまたはファイルは存在しません</h1>
+      </div>
+    </div>
+    <div class="w1000 sp clearfix">
+    </div>
+    <div id="__main_contents" class="main w1000">
+
+      
+      <p>アクセスしていただいたページは、削除もしくは移動した可能性があります。<br>
+大変お手数ですが、アドレス（URL）をご確認の上再度お探しいただくか、 トップページやサイトマップ、またはページ上部のサイト内検索をご利用ください。</p>
+
+
+                  
+      
+    <ul class="lnkLst">
+                          <li>
+      <a href="/index.html">経済産業省ウェブサイトトップページ</a></li>
+                  <li>
+      <a href="/sitemap/index.html">サイトマップ</a></li>
+            </ul>
+                                                                                                                              
+      
+      <p>お探しのページが国立国会図書館の「インターネット資料収集保存事業（Web Archiving Project）」ホームページに保存されている場合がありますのでご利用下さい。</p>
+
+
+                        
+      
+    <ul class="lnkLst">
+                          <li>
+      <a href="http://warp.da.ndl.go.jp/">「インターネット資料収集保存事業（Web Archiving Project）」ホームページ<img src="/img_2017/template/icon_link.gif" width="16" height="16" alt="外部リンク"></a></li>
+            </ul>
+
+             <!-- Breadcrumb List -->
+          <div class="pan">
+          </div>
+        </div>
+        <h1 id="MainContentsArea">Page Not Found</h1>
+        
+      </div>
+    </div>
+    <div class="w1000 sp clearfix">
+    </div>
+
+    <div id="__main_contents" class="main w1000">
+                                                                                                                        
+<p>We apologize for the inconvenience. The page you are trying to reach could not be found.<br>
+The page may have been moved or deleted.<br>
+To find what you are looking for, please try using our site search, or visit our site map.</p>
+
+
+                  
+            <ul class="lnkLst">
+                <li><a href="/english/search_ex.html">To METI site search</a></li>
+                  <li><a href="/english/other/sitemap.html">To METI site map</a></li>
+                  <li><a href="/english/index.html">To METI home page</a></li>
+                        </ul>
+
+
+      <!-- update info -->
+      
+    </div>
+  </div>
+<script src="/js_2017/footer.js"></script></body>
+</html>
+

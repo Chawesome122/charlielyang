@@ -1,0 +1,50 @@
+[
+  {
+    "claim": "MP NdPr oxide annual output 200/1294/2599 tonnes in calendar2023/24/25",
+    "classification": "company_reported_empirical",
+    "evidence": "data/processed/rare_earths/observations_asof_freeze.csv",
+    "sha256": "e4eb7b91e315209e691ddef0905dbebd67361961a6473baefbc3ba75a88382f7"
+  },
+  {
+    "claim": "Lynas NdPr family 5655/6558/7260 tonnes in fiscal2024/25/26",
+    "classification": "company_reported_empirical",
+    "evidence": "data/processed/rare_earths_additional/lynas_annual_production.csv",
+    "sha256": "4ca95c58eeb2ffd43355a48bc30db266e77556608e9917efee52d8955d7713f3"
+  },
+  {
+    "claim": "Issuer reports Texas HRE facility will no longer proceed; first Dy/Tb production is not stable qualified throughput",
+    "classification": "company_reported_empirical",
+    "evidence": "data/processed/rare_earths_additional/lynas_project_history.csv",
+    "sha256": "57f2b17d1095214d02ad8fc139f269d3035d950911a029243bbe69a66fd5ee1a"
+  },
+  {
+    "claim": "Six quarterly/annual native-product totals reconcile exactly for FY2024-2026",
+    "classification": "empirical_accounting_check",
+    "evidence": "data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv",
+    "sha256": "cf3ceb3f33f233875e5e166f01a4d5f8f1aba133616a28dae8ded3edc93025b7"
+  },
+  {
+    "claim": "Eight-origin issuer-output baseline comparisons are descriptive, not system forecasting skill",
+    "classification": "empirical_descriptive_hindcast",
+    "evidence": "outputs/empirical/rare_earths/lynas_quarterly_baseline_scores.csv",
+    "sha256": "0d574a2da239178aa595262a464ecc0ed1a7c6e65b03aa90bd4232d6a6271b61"
+  },
+  {
+    "claim": "SMIC investment spending is an input, not identified substitution",
+    "classification": "descriptive_empirical",
+    "evidence": "data/processed/semiconductors/reported_financial_inputs.csv",
+    "sha256": "1ebbecdd2aa5e74b428cd14100b512336cc8c4e3dc6e41d386f49458a7b30c9f"
+  },
+  {
+    "claim": "Constant-control root approximately0.4655712319",
+    "classification": "analytical_scenario",
+    "evidence": "outputs/scenario/game/constant_control_benchmark.json",
+    "sha256": "9d6f0ac172c6ea200b5b730b51f150cf2e972eb6dd33219d2775ba195781cdf8"
+  },
+  {
+    "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
+    "classification": "numerical_scenario",
+    "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
+    "sha256": "5f8c87f0153a1193f9e21d2717f68279152b46f3210b5e36984c1ae6e7d931c1"
+  }
+]

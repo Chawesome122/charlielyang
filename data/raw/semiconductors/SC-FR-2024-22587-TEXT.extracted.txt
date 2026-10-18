@@ -1,0 +1,336 @@
+DEPARTMENT OF COMMERCE
+Bureau of Industry and Security
+15 CFR Parts 748
+[Docket No. 240926-0254]
+RIN 0694-AJ82
+Expansion of Validated End User Authorization: Data Center Validated End User Authorization
+AGENCY:
+Bureau of Industry and Security, Department of Commerce.
+ACTION:
+Final rule.
+SUMMARY:
+In this rule, the Department of Commerce, Bureau of Industry and Security (BIS), amends the Export Administration Regulations (EAR) to expand the Validated End User Authorization (VEU) program to include VEU Authorization for data centers located in specified destinations (“Data Center VEU” or “Data Center VEU Authorization”). This expansion of the VEU program to include Data Center VEU is intended to facilitate quick and reliable export or reexport of items on the Commerce Control List necessary for a data center, including advanced computing items, to preapproved trusted end users. Data Center VEU adopts much of the framework of the existing VEU program, with additional requirements. This expansion of eligibility is intended to update the VEU program to recognize the advancement and benefits of artificial intelligence. As under the original VEU Authorization Program, the U.S. government will rigorously review Data Center VEU candidates' applications subject to detailed and verifiable criteria.
+DATES:
+This rule is effective on October 2, 2024.
+FOR FURTHER INFORMATION CONTACT:
+Chair, End-User Review Committee, Office of the Assistant Secretary for Export Administration, Bureau of Industry and Security, Department of Commerce, Phone: (202) 482-5991, Email:
+ERC@bis.doc.gov.
+SUPPLEMENTARY INFORMATION:
+Background
+In this rule, the Department of Commerce, Bureau of Industry and Security (BIS), amends the Export
+Administration Regulations (EAR) (15 CFR 730-774) to expand the Validated End-User (VEU) program in 15 CFR 748.15 to enable VEU Authorization for data centers (“Data Center VEU” or “Data Center VEU Authorization”). Data Center VEU is intended to cultivate trusted ecosystems for the responsible use of advanced computing integrated circuits. Foreign adversaries seek to use advanced computing integrated circuits and supercomputing capacity in the development and deployment of AI models to further their military capabilities, contrary to U.S. national security and foreign policy interests. For this reason, BIS imposed controls on these items in October, 2022 (87 FR 62186, October 13, 2022) and October, 2023 (88 FR 73424, October 25, 2023 and 88 FR 73458, October 25, 2023). Although BIS strictly controls the export of advanced integrated circuits, BIS also recognizes that in certain destinations where a license is currently required, advanced computing integrated circuits can be deployed in highly trusted environments, enabling the use of AI for technological discoveries and the development of new tools that improve the world. Specifically, BIS has determined that there could be significant benefits from authorizing the export and reexport of advanced computing integrated circuits to end users who operate data centers that implement certain security measures and satisfy other criteria. Accordingly, BIS is amending the EAR to establish a new authorization `Data Center VEU' that is intended to facilitate export or reexport of all items on the Commerce Control List that require a license to the destination excluding “600 series” items and are necessary for a data center, including advanced computing integrated circuits and electronic assemblies, to trusted end users that meet certain prerequisites.
+As a quintessential dual-use technology, AI comes with many benefits and risks. This cutting-edge technology holds the potential to increase access to healthcare, education, and food and assist with combatting complex problems such as climate change. For example, AI-enabled virtual learning systems can be tailored to a student's needs to bridge the education gap in regions that lack resources or qualified teachers. AI can also improve access to healthcare by facilitating remote-patient monitoring.
+At the same time, AI is revolutionizing the military and intelligence capabilities of adversaries. Advanced AI models, trained on advanced computing integrated circuits, have the potential to diffuse dangerous capabilities by lowering the barrier to develop cyberweapons or chemical, biological, radiological, or nuclear weapons. Advanced AI capabilities can lead to improved speed and accuracy of military decision-making, planning, and logistics. They can also be used for cognitive electronic warfare, radar, signals intelligence, mass surveillance, and jamming. For example, the February, 2024, Annual Threat Assessment of the U.S. Intelligence Community states that the People's Republic of China (PRC) is pursuing AI for mass surveillance and intelligent weapons platforms. In response to the national security and foreign policy risks of AI, as noted above, in October, 2022, BIS published an interim final rule (87 FR 62186) which made critical changes to the EAR in two areas. First, the rule imposed additional export controls on certain advanced computing semiconductor chips (chips, advanced computing chips, integrated circuits (ICs)), transactions for supercomputer end uses, and transactions involving certain entities on the Entity List (supplement no. 4 to part 744). Second, the rule adopted additional controls on certain semiconductor manufacturing items and transactions for certain IC production end uses. In October, 2023, BIS broadened the scope of destinations for these controls to cover other destinations of concern (such as Country Groups D:1 and D:5 for newly added semiconductor manufacturing equipment controls, and D:1, D:4, and D:5 for the advanced computing controls). Similarly, BIS imposed worldwide license requirements for certain specified end-uses when conducted on behalf of entities headquartered in, or with an ultimate parent company headquartered in, Macau or a destination in Country Group D:5. Due to the rapid nature of technological change in AI, BIS has been closely studying these developments and updating its rules accordingly to ensure that they remain as targeted and effective as possible.
+Data Centers play a vital role in global AI development, and the United States is committed to facilitating international AI development in a way that minimizes risk to national security. Accordingly, this rule expands the VEU program to facilitate the export or reexport of items necessary for a data center to preapproved trusted validated end users in destinations that require a license for items classified under Export Control Classification Numbers (ECCNs) 3A090.a and 4A090.a, and .z items in Categories 3, 4, and 5, excluding D:5 countries. Data Center VEU adopts much of the framework of the existing VEU program, with additional requirements appropriate for a data center environment. In addition, this action includes appropriate safeguards to address the implications of risks AI might impose on U.S. and allies' national security and foreign policy objectives. As under the original VEU Authorization Program, the U.S. government will rigorously review Data Center VEU candidates' applications subject to detailed and verifiable criteria consistent with facilitating U.S. exports.
+Addition of Authorization Data Center VEU to the EAR
+To implement Data Center VEU, BIS amends the EAR to refer to the existing VEU program that currently applies to India and China as `General VEU Authorization' and to refer to the new program as `Data Center VEU Authorization.' The framework for both programs is similar, although the requirements are different. All VEU authorizations allow exports and reexports to the VEUs. However, a separate authorization is needed if a VEU reexports to a third party. Although in country transfers are permitted under General VEU Authorization, in country transfers are not permitted under Data Center VEU Authorization unless the transfer (in-country) is to a VEU authorized location by the same VEU. Section 748.15 maintains the following subsections: (a) Eligible end-users; (b) Eligible destinations; (c) Item restrictions; (d) End-use restrictions; (e) Certification and recordkeeping; (f) Reporting and review requirements; (g) Notification requirement; (h) Termination of Conditions on VEU Authorizations; and (i) Records. Supplement no. 7 to part 748 includes a list of end users who have been approved through the VEU program and are eligible for exports or reexports under Data Center VEU Authorization or exports, reexports, or transfers (in-country) under General VEU Authorization. Supplement no. 8 to part 748 describes information required in requests for both types of VEU authorization.
+Eligibility and Application Requirements
+The introduction to section 748.15 (Authorization Validated End-User (VEU)) is amended to include references to both `General VEU Authorization' and `Data Center VEU Authorization.' Revised section 748.15(a)(1), includes the eligibility criteria for the current VEU program, now called `General VEU Authorization,' and the eligibility criteria for `Data Center VEU
+Authorization.' Some requirements are the same for both types of VEU authorizations, as described in sections 748.15(a)(2) through (5). Paragraphs (b) and (d) are each now bifurcated to distinguish between the two VEU Authorizations, each with a new paragraph (1) discussing General VEU Authorizations and a new paragraph (2) discussing Data Center VEU Authorizations. Paragraph (c) of section 748.15 now includes a new paragraph (1) indicating that neither VEU authorization is authorized for items controlled under the EAR for missile technology or crime control reasons, consistent with current restrictions, and a new paragraph (2) providing that all items on the Commerce Control List are eligible for Data Center VEU Authorizations if those items require a license to the destination (excluding “600 series” items) and are necessary for a data center.
+Requests for authorization for General VEU Authorizations or Data Center VEU must be submitted in the form of an advisory opinion request, as described in sections 748.15(a)(2), 748.3(c)(2), and in accordance with revised Supplement No. 8 (Information Required in Requests for Validated End-User (VEU) Authorization) and existing Supplement No. 9 (End-User Review Committee Procedures) to part 748. In the request for authorization, as provided in revised Supplement No. 8 to part 748, in addition to the information required under the General VEU program, now in paragraph A of that supplement, particular information related to the data center is required, as described in new paragraph B of that supplement. The following information will assist BIS and its interagency partners in the Departments of Defense, Energy, and State in an evaluation of the data center's VEU eligibility:
+• Absent a legal prohibition or other such exceptional circumstances, a list of current and potential customers of the data center;
+• An overview of business activities or corporate relationships that the candidate has with any organization designated on the Entity List or Military End-User List, the Department of the Treasury's Specially Designated Nationals and Blocked Persons List, Foreign Sanctions Evaders List, or U.S. Sectoral Sanctions Identifications List, or the Department of State's Nonproliferation Sanctions determinations.
+• A description of physical, and logical security requirements, including access restrictions for each location the controlled items will be housed (
+e.g.,
+around the clock monitoring, cybersecurity requirements, third-party monitoring; and/or physical security);
+• A description of the policies and procedures governing employees physical and logical access to the VEU data center;
+• An overview of the data center's information security plan, which should include:
+○ Cybersecurity plan, including compliance with relevant NIST standards;
+○ Logging and monitoring plan;
+○ Technology control plan that describes how much compute is required for the various end uses involved;
+○ Baseline cloud configuration and identity and access management process for tenants, if a cloud provider;
+○ Personnel security plan; and
+○ An incident, identification, investigation, and reporting plan;
+• An explanation of the network infrastructure and architecture and service providers;
+• An overview of the applicant's supply chain risk management plan that will ensure no prohibited technology enters the environment and no prohibited vendors are in the supply chain; and
+• An overview of the applicant's export control training program and compliance program procedures.
+In conjunction with other relevant agencies on the End User Review Committee (ERC), consistent with the process identified in existing Supplement No. 9 to Part 748, the U.S. government will evaluate prospective Data Center VEU applicants based on a range of factors. Included in this evaluation will be whether the VEU host country has provided assurances to the U.S. government regarding the safe and secure use of the technology to be provided under Authorization VEU. Should an entity be interested in obtaining Data Center VEU status, its national government will need to engage the Commerce and State Departments to make such assurances.
+In addition, as described in revised section 748.15(a)(3), the agencies will examine the entity's record of the party's compliance with U.S. export controls; the entity's capability to comply with the requirements for VEU; the entity's agreement to on-site compliance reviews by representatives of the United States Government, including to guard against both the misuse and diversion of computing resources; the entity's relationships with U.S and foreign companies; the party's technology roadmap, and technology control plan. When evaluating the eligibility of an end-user, agencies would consider the status of export controls in the eligible destination and adherence to multilateral export control regimes of the government of the eligible destination; this information, among other things, may also be the subject of government-to-government assurances.
+Approval Process and VEU Conditions
+Consistent with the procedures described in existing Supplement No. 9 to part 748, if the ERC approves the request, BIS will issue a response in the form of a letter granting VEU status. The letter will state the items that are permitted for export or reexport to the VEU, along with any conditions required of the VEU. Conditions will be tailored to the national security and foreign policy risks presented. Examples of conditions include a commitment to:
+• Implement physical and logical security requirements;
+• Prohibit access to individuals working for entities and/or countries of concern;
+• Prohibit access to any national working for or on behalf of a party on BIS's Entity List;
+• Ensure inspection/onsite reviews by U.S. government officials as necessary, to determine whether VEU authorization conditions are being met; and/or
+• Not provide computing power above prohibited thresholds to entities or countries of concern.
+Certification and Reporting Requirements
+As provided in revised section 748.15(e), prior to an initial export or reexport under General or Data Center VEU authorizations, exporters or reexporters must obtain certifications from validated end-users regarding the end use and compliance with VEU requirements. Such certifications must include the information set forth in Supplement no. 8 to part 748. Certifications and all records related to VEU must be retained by the exporters or reexporters in accordance with recordkeeping requirements set forth in part 762 of the EAR.
+In addition to the certification requirements, as provided in revised section 748.15(f)(1)(i), reexporters who make use of either VEU Authorization must file reports to BIS. Reexporters using the General VEU Authorization must file reports annually while reexporters using the Data Center VEU Authorizations must file reports semiannually. For reexporters, these reports must include, for each validated end user to whom the exporter or reexporter exported or reexported
+eligible items: (1) the name and address of each validated end-user to who eligible items were reexported; (2) a list of any intermediate consignees; (3) the eligible destination to which the items were reexported; (4) the quantity of such items; (5) the value of such items; and (6) the ECCNs of such items.;
+In addition, as provided in revised paragraph 748.15(f)(1)(ii), Data Center Validated End Users must submit reports to BIS semiannually. For Data Center Validated End Users, Authorizations will specify that each report must include, as appropriate, information such as: (1) a record of current inventory of eligible items received; (2) dates of when eligible items were received and by whom; (3) a description of how current compute is being utilized; and (4) a list of current customers with a description of their utilization.
+Deadlines for the various reports are set forth in revised section 748.15(f)(1)(iii).
+In addition to reporting obligations, under revised section 748.15(f)(2), exporters, reexporters, and validated end users who make use of Data Center VEU must maintain and allow review of relevant records, including on-site reviews of information set forth in section 748.15(e) and (f)(1).
+Conforming Amendments
+This rule also makes conforming amendments to paragraphs (g) through (i) of section 748.15 to reference Data Center VEU Authorization. Similarly, supplement No. 7 to Part 748 is amended by adding a column indicating the type of VEU authorization.
+Export Control Reform Act of 2018
+On August 13, 2018, the President signed into law the John S. McCain National Defense Authorization Act for Fiscal Year 2019, which included the Export Control Reform Act of 2018 (ECRA) (codified, as amended, at 50 U.S.C. 4801-4852). ECRA provides the legal basis for BIS's principal authorities and serves as the authority under which BIS issues this rule. In particular, and as noted elsewhere, Section 1753 of ECRA (50 U.S.C. 4812) authorizes the regulation of exports, reexports, and transfers (in-country) of items subject to U.S. jurisdiction. Further, Section 1754(a)(1)-(16) of ECRA (50 U.S.C. 4813(a)(1)-(16)) authorizes,
+inter alia,
+the establishment of a list of controlled items; the prohibition of unauthorized exports, reexports, and transfers (in-country); the requirement of licenses or other authorizations for exports, reexports, and transfers (in-country) of controlled items; apprising the public of changes in policy, regulations, and procedures; and any other action necessary to carry out ECRA that is not otherwise prohibited by law. Pursuant to Section 1762(a) of ECRA (50 U.S.C. 4821(a)), these changes can be implemented through rulemaking without prior notice and comment.
+Rulemaking Requirements
+1. This rule is not a significant regulatory action for purposes of Executive Order 12866, as amended by Executive Order 14094.
+2. Notwithstanding any other provision of law, no person is required to respond to nor be subject to a penalty for failure to comply with a collection of information, subject to the requirements of the Paperwork Reduction Act of 1995 (44 U.S.C. 3501
+et seq.
+) (PRA), unless that collection of information displays a currently valid Office of Management and Budget (OMB) Control Number. This regulation involves collections previously approved by OMB under control number 0694-0088, Simplified Network Application Processing System, which includes, among other things, license applications and commodity classifications, and carries a burden estimate of 29.4 minutes for a manual or electronic submission for a total burden estimate of 33,133 hours. Total license applications associated with the PRA and OMB control number 0694-0088 are expected to be ten as a result of this rule. Therefore, the change in burden hours associated with the information collection requirements of this rule is not expected to exceed that approved for OMB control number 0694-0088.
+This rule does not contain policies with Federalism implications as that term is defined in Executive Order 13132.
+4. Pursuant to section 1762 of the Export Control Reform Act of 2018 (50 U.S.C. 4801-4852), this action is exempt from the Administrative Procedure Act (5 U.S.C. 553) requirements for notice of proposed rulemaking, opportunity for public participation, and delay in effective date.
+5. Because a notice of proposed rulemaking and an opportunity for public comment are not required to be given for this rule by 5 U.S.C. 553, or by any other law, the analytical requirements of the Regulatory Flexibility Act, 5 U.S.C. 601,
+et seq.,
+are not applicable. Accordingly, no regulatory flexibility analysis is required, and none has been prepared.
+List of Subjects in 15 CFR Part 748
+Administrative practice and procedure, Exports, Reporting and recordkeeping requirements.
+Accordingly, part 748 of the EAR (15 CFR parts 730-774) is amended as follows:
+PART 748—[AMENDED]
+1. The authority citation for part 748 continues to read as follows:
+Authority:
+50 U.S.C. 4801-4852; 50 U.S.C. 4601
+et seq.;
+50 U.S.C. 1701
+et seq.;
+E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783.
+2. Revise § 748.15 to read as follows:
+§ 748.15
+Authorization Validated End-User (VEU).
+Authorization Validated End-user (VEU) includes two types of VEUs: General VEU Authorization and Data Center VEU Authorization. General VEU Authorizations permit the export, reexport, and transfer to validated end-users of any eligible items that will be used in a specific eligible destination. Data Center VEU Authorizations permit the export and reexport to validated end-users of any eligible items that will be used in specific data centers. In country transfers are not permitted under Data Center VEU Authorization unless the transfer (in-country) is to a VEU authorized location by the same VEU. Reexports by a VEU require separate authorization. Validated end-users are those who have been previously approved by BIS pursuant to the requirements of this section. To be eligible for authorization VEU, exporters, reexporters, and validated end-user applicants must adhere to the conditions and restrictions set forth in paragraphs (a) through (f) of this section. If a request for VEU authorization for a particular end-user is not granted, no new license requirement is triggered. In addition, such a result does not render the end-user ineligible for license approvals from BIS.
+(a)(1)
+Eligible end-users for General VEU Authorizations and Data Center VEU Authorizations.
+The only end-users to whom eligible items may be exported, reexported, or transferred under a General VEU Authorization or exported or reexported under a Data Center VEU Authorization are those validated end-users identified in supplement no. 7 to part 748, according to the provisions in this section and those set forth in supplement nos. 8 and 9 to this part that have been granted VEU status by the End-User Review Committee (ERC) according to the process set forth in supplement no. 9 to this part.
+(2)
+Requests for authorizations.
+To apply for a General VEU Authorizations or Data Center VEU Authorization requests for authorization must be submitted in the form of an advisory opinion request, as described in § 748.3(c), and must include a list of items (items for purposes of authorization VEU include commodities, software and technology, except as excluded by paragraph (c) of this section), identified by ECCN, that exporters or reexporters intend to export, reexport or transfer to an eligible end-user, once approved. To ensure a thorough review, requests for VEU authorization must include the information described in supplement no. 8 to this part. Requests for authorization will be accepted from exporters, reexporters, or end-users. Submit the request to: The Office of Exporter Services, Bureau of Industry and Security, U.S. Department of Commerce, 14th Street and Pennsylvania Avenue NW, Room 2099B, Washington, DC 20230. Mark the package “Request for [insert either “General” or “Data Center,” as appropriate] Authorization Validated End-user.”
+(3)
+Conditions and Restrictions.
+In evaluating an end user for eligibility under authorization VEU, the ERC will consider a range of information, including but not limited to such factors as: the end user's record of exclusive engagement in appropriate end-use activities; the end user's compliance with U.S. export controls; the need for an on-site review prior to approval; the end user's capability of complying with the requirements of authorization VEU, the ability of the end user to guard against both the misuse and diversion of computing resources; the end user's technology roadmap; the end user's technology control plan; the end user's agreement to on-site reviews by representatives of the U.S. Government to ensure adherence to the conditions of the VEU authorization; and the end user's relationships with U.S. and foreign companies. In addition, when evaluating the eligibility of an end user, the ERC will consider the status of the eligible destination country's export controls and the support and adherence to multilateral export control regimes of the government of the eligible destination.
+(4)
+VEU Status.
+The VEU authorization is subject to revision, suspension, or revocation entirely or in part.
+(5)
+Continuing Representations.
+Information submitted in a VEU request is deemed to constitute continuing representations of existing facts or circumstances. Any material or substantive change relating to the authorization must be promptly reported to BIS, whether VEU authorization has been granted or is still under consideration.
+(b)
+Eligible destinations
+—(1) General VEU Authorizations. General VEU Authorizations may be used for the following destinations:
+(i) The People's Republic of China.
+(ii) India.
+(2)
+Data Center VEU Authorizations.
+Data Center VEU Authorizations may be used for any destination for which a license is required for ECCN 3A090, 4A090 items, and .z items in Categories 3, 4, and 5, except for destinations in Country Groups D:5 countries.
+(c)
+Item restrictions.
+(1) Items controlled under the EAR for missile technology (MT) and crime control (CC) reasons may not be exported or reexported under General or Data Center VEU Authorizations.
+(2) Eligible items for Data Center VEU Authorizations are all those items on the Commerce Control List, that require a license to the destination excluding “600 series” items, and are necessary for a data center.
+(d)
+End-use restrictions
+—(1)
+General VEU Authorizations.
+Items obtained under General VEU Authorizations in China may be used only for civil end uses and may not be used for any activities described in part 744 of the EAR. The restrictions of §§ 744.6(c)(2)(i) through (iii) and 744.23(a)(1) and (a)(2) of the EAR do not apply to VEUs identified in supplement no. 7 to part 748 as excluded from §§ 744.6(c)(2)(i) through (iii) and 744.23(a)(1) and (a)(2) of the EAR. Items obtained under General VEU Authorizations in India may be used for either civil or military end uses and may not be used for any activities described in part 744 of the EAR. Exports, reexports, or transfers made under authorization VEU may be made to an end user listed in supplement No. 7 to this part only if the items will be consigned to and for use by the validated end user. Eligible end-users who obtain items under VEU may only:
+(i) Use such items at the end-user's own facility located in an eligible destination or at a facility located in an eligible destination over which the end-user demonstrates effective control;
+(ii) Consume such items during use; or
+(iii) Transfer or reexport such items only as authorized by BIS.
+(2)
+Data Center VEU Authorizations.
+Items obtained under Data Center VEU Authorizations may not be used for any activities described in part 744 of the EAR. Eligible validated end users who obtain items under VEU may only:
+(i) Use such items at the end user's own facility located in an authorized destination;
+(ii) Consume such items during use; or
+(iii) Reexport such items by a Data Center VEU is permitted only as specifically authorized by BIS. In country transfers are not permitted under Data Center VEU Authorization unless the transfer (in-country) is to a VEU authorized location by the same VEU.
+Note 1 to paragraph (d):
+Authorizations set forth in supplement no. 7 to this part are country-specific. Authorization as a validated end-user for one country specified in paragraph (b) of this section does not constitute authorization as a validated end-user for any other country specified in that paragraph.
+(e)
+Certification and recordkeeping.
+Prior to an initial export or reexport to a validated end-user under General or Data Center VEU Authorization, exporters or reexporters must obtain certifications from the validated end-user regarding end-use and compliance with VEU requirements. Such certifications must include the contents set forth in supplement no. 8 to this part. Certifications and all records relating to VEU must be retained by exporters or reexporters in accordance with the recordkeeping requirements set forth in part 762 of the EAR.
+(f)
+Reporting and review requirements
+—(1)
+Reports.
+(i) Reexport Information Required for both Types of VEU Authorizations. Reexporters who make use of General VEU Authorizations are required to submit annual reports to BIS. Reexporters who make use of Data Center VEU Authorizations are required to submit semi-annual reports to BIS. For either authorization, reexporters must include, for each validated end user to whom the exporter or reexporter exported or reexported eligible items:
+(A) The name and address of each validated end-user to whom eligible items were reexported;
+(B) The eligible destination to which the items were reexported;
+(C) The quantity of such items;
+(D) The value of such items; and
+(E) The ECCN(s) of such items.
+(ii)
+End User Reports for Data Center VEU Authorizations.
+End users who make use of Data Center VEU Authorizations must submit reports to BIS semi-annually. End users must submit the following information, including, as appropriate:
+(A) A record of current inventory of eligible items received;
+(B) Dates of when eligible items were received and by whom;
+(C) A description of how current compute is being utilized; and
+(D) A list of current customers with a description of their utilization.
+(iii)
+Deadlines.
+For reexporters making use of General VEU Authorization, reports are due by February 15 of each year, and must cover the period of January 1 through December 31 of the prior year. For reexporters and end users making use of Data Center VEU Authorization, reports are due semiannually:
+(
+1
+) The first report is due July 15 of each year and must cover the period of January 1 through June 30;
+(2) The second report is due January 15 and must cover the period from June 30 to December 31 of the previous year.
+(iii) Reports must be sent to: Office of Exporter Services, Bureau of Industry and Security, U.S. Department of Commerce, 14th Street and Constitution Avenue NW, Room 2099B, Washington, DC 20230. Mark the package “General Authorization Validated End-User Report” or “Data Center Authorization Validated End-user Report.”
+(2)
+Reviews.
+Records related to activities covered by General or Data Center VEU Authorizations that are maintained by exporters, reexporters, transferors, and validated end-users who make use of authorization VEU will be reviewed on a periodic basis. Upon request by BIS, exporters, reexporters, transferors, and validated end-users must allow review of records, including on-site reviews covering the information set forth in paragraphs (e) and (f)(1) of this section.
+(g)
+Notification requirement.
+Exporters and reexporters shipping under General or Data Center VEU Authorizations and persons transferring (in-country) under General VEU Authorization are required to provide the VEUs to which they are shipping or transferring notice of the shipment or transfer. Such notification must be conveyed to the VEU in writing and must include a list of the VEU-authorized contents of the shipment or transfer and a list of the ECCNs under which the VEU-authorized items in the shipment or transfer are classified, as well as a statement that the items are being, will be, or were shipped or transferred pursuant to relevant VEU Authorization. Notification of the export, reexport or transfer (in-country) to the VEU must be made within a timeframe agreed to in writing by the VEU and the person exporting, reexporting or transferring (in-country). The VEU and the person exporting, reexporting or transferring (in-country) must agree to the notification timeframe prior to the initial shipment or transfer under the VEU Authorizations. Depending on the agreement between the VEU and the person exporting, reexporting or transferring (in-country), a notification may be for individual shipments or for multiple shipments. Exporters, reexporters and VEUs are required to maintain the notifications they send or receive in accordance with their recordkeeping requirements.
+(h)
+Termination of Conditions on VEU Authorizations.
+VEUs that are subject to item-specific conditions and have received items subject to such conditions under General or Data Center VEU Authorizations are no longer bound by the conditions associated with the items if the items no longer require a license for export or reexport to the PRC, India, or data center location, as applicable, or become eligible for shipment under a license exception to the destination. Items that become eligible for a license exception are subject to the terms and conditions of the applicable license exception and the restrictions in § 740.2 of the EAR. Items that become eligible for export without a license and that remain subject to the EAR may only be exported, reexported, transferred (in-country) or disposed of in accordance with the requirements of the EAR. Termination of VEU conditions does not relieve a validated end-user of its responsibility for violations that occurred prior to the availability of a license exception or prior to the removal of license requirements.
+(i)
+Records.
+Records of items that were shipped under General or Data Center VEU Authorizations prior to the removal of a license requirement or the availability of a license exception remain subject to the review requirements of paragraph (f)(2) of this section on and after the date that the license requirement was removed or the license exception became applicable.
+3. Revise Supplement No. 7 to part 748 to read as follows:
+Supplement No. 7 to Part 748—Validated End-User (VEU) Authorization: List of Validated End-Users, Respective Items Eligible for Export, Reexport, and Transfer (In-Country), and Eligible Destinations
+VEU Type
+Country
+Validated end-user
+Eligible items
+(by ECCN)
+Eligible destination
+Federal Register
+citation
+Nothing in this Supplement shall be deemed to supersede other provisions in the EAR, including but not limited to § 748.15(c).
+General
+China (People's Republic of)
+Advanced Micro Devices China, Inc
+3D002, 3D003, 3E001 (limited to “technology” for items classified under 3C002 and 3C004 and “technology” for use during the International Technology Roadmap for Semiconductors (ITRS) process for items classified under ECCNs 3B001 and 3B002), 3E002 (limited to “technology” for use during the ITRS process for items classified under ECCNs 3B001 and 3B002), 3E003.e (limited to the “development” and “production” of integrated circuits for commercial applications), 4D001 and 4E001 (limited to the “development” of products under ECCN 4A003.b through .g)
+Advanced Micro Devices (Shanghai) Co., Ltd., Buildings 33 (Unit 1), 46, 47, 48 & 49, River Front Harbor, Zhangjiang Hi-Tech Park, No. 1387 Zhang Dong Road, Pudong District, Shanghai, China 201203
+AMD Technology Development (Beijing) Co., Ltd., North and South Buildings, RaycomInfotech, Park Tower C, No. 2 Science Institute South Rd., Zhong Guan Cun, Haidian District, Beijing, China 100190
+AMD Products (China) Co. Ltd., North and South Buildings, RaycomInfotech Park Tower C, No. 2 Science Institute South Rd., Zhong Guan Cun, Haidian District, Beijing, China 100190
+75 FR 25763, 5/10/10.
+76 FR 2802, 1/18/11.
+78 FR 3319, 1/16/13.
+81 FR 40785, 6/23/16.
+88 FR 73496, 10/25/23.
+General
+Advanced Micro-Fabrication Equipment, Inc., China
+2B230, 3B001.a.2, and 3B001.e (items classified under ECCNs 3B001.a.2, and 3B001.e are limited to components and accessories)
+Advanced Micro-Fabrication Equipment, Inc., 188 Taihua Road, Jinqiao Export Processing Zone (South Area), Pudong, Shanghai 201201, China
+78 FR 41291, 7/10/13. 80 FR 65932, 10/28/15.
+General
+Applied Materials (China), Inc
+These Items Authorized for those Applied Materials Destinations Identified by one asterisk (*):
+2B006.b, 2B230, 2B350.g.3, 2B350.i, 3B001.a, 3B001.b, 3B001.e, 3B001.f, 3C001, 3C002, 3D002 (limited to “software” specially designed for the “use” of stored program controlled items classified under ECCN 3B001)
+* Applied Materials South East Asia Pte. Ltd.—Shanghai Depot, c/o Shanghai Applied Materials Technical Service Center, No. 2667 Zuchongzhi Road, Shanghai, China 201203
+* Applied Materials South East Asia Pte. Ltd.—Beijing Depot, c/o Beijing Applied Materials Technical Service Center, No. 1 North Di Sheng Street, BDA, Beijing, China 100176
+72 FR 59164, 10/19/07. 74 FR 19382, 4/29/09. 75 FR 27185, 5/14/10. 77 FR 10953, 2/24/12.
+80
+FR 65932, 10/28/15.
+* Applied Materials South East Asia Pte. Ltd.—Wuxi Depot, c/o Sinotrans Jiangsu Fuchang Logistics Co., Ltd., 1 Xi Qin Road, Wuxi Export Processing Zone, Wuxi, Jiangsu, China 214028
+* Applied Materials South East Asia Pte. Ltd.—Wuhan Depot, c/o Wuhan Optics Valley Import & Export Co., Ltd., No. 101 Guanggu Road, East Lake High-Tec Development Zone, Wuhan, Hubei, China 430074
+* Applied Materials (China), Inc.—Shanghai Depot, No. 2667, Zuchongzhi Road, Shanghai, China 201203
+* Applied Materials (China), Inc.—Beijing Depot, No. 1 North Di Sheng Street, BDA, Beijing, China 100176
+These Items Authorized for the Applied Materials Destination Identified by two asterisks (**):
+2B006.b, 2B230, 2B350.g.3, 2B350.i, 3B001.a, 3B001.b, 3B001.e, 3B001.f, 3C001, 3C002, 3D002 (limited to “software” specially designed for the “use” of stored program controlled items classified under ECCN 3B001), and 3E001 (limited to “technology” according to the General Technology Note for the “development” or “production” of items controlled by ECCN 3B001)
+** Applied Materials (Xi'an) Ltd., No. 28 Xin Xi Ave., Xi'an High Tech Park, Export Processing Zone, Xi'an, Shaanxi, China 710075
+This item is authorized for those Applied Materials Destination Identified by three asterisks (***):
+3E001 (limited to “technology” according to the General Technology Note for the “development” or “production” of items controlled by ECCN 3B001)
+*** Applied Materials (China), Inc.—Headquarters, 1388 Zhangdong Road, Bldg. 22, Zhangjiang Hi-Tech Park, Pudong, Shanghai, 201203, China
+General
+Boeing Tianjin Composites Co. Ltd
+1B001.f, 1D001 (limited to “software” specially designed or modified for the “use” of equipment controlled by 1B001.f), 2B001.b.2 (limited to machine tools with accuracies no better than (
+i.e.,
+not less than) 13 microns), 2D001 (limited to “software,” other than that controlled by 2D002, specially designed or modified for the “use” of equipment controlled by 2B001.b.2), and 2D002 (limited to “software” for electronic devices, even when residing in an electronic device or system, enabling such devices or systems to function as a “numerical control” unit, capable of coordinating simultaneously more than 4 axes for “contouring control” controlled by 2B001.b.2)
+Boeing Tianjin Composites Co. Ltd., 4566 Hebei Road, Marine Hi-Tech Development Area, Tanggu District, Tianjin, China 300451
+72 FR 59164, 10/19/07. 74 FR 19382, 4/29/09. 77 FR 10953, 2/24/12. 77 FR 40258, 7/9/12. 81 FR 61106, 9/6/16.
+General
+CSMC Technologies Corporation
+1C350.c.4, 1C350.c.12, 2B230.a, 2B230.b, 2B350.f, 2B350.g, 2B350.h, 3B001.e, 3B001.h (except for multilayer masks with a phase shift layer designed to produce “space qualified” semiconductor devices), 3C002.a, and 3C004
+CSMC Technologies Fab 1 Co., Ltd., 14 Liangxi Road, Wuxi, Jiangsu 214061, China CSMC Technologies Fab 2 Co., Ltd., 8 Xinzhou Rd., Wuxi National New Hi-Tech Industrial Development Zone, Wuxi, Jiangsu 214028, China
+76 FR 2802, 1/18/11. 76 FR 37634, 6/28/11. 77 FR 10953, 2/24/12. 78 FR 23472, 4/19/13. 78 FR 32981, 6/3/13.
+General
+Intel Semiconductor (Dalian) Ltd
+These items authorized for the Intel destination identified by one asterisk (*):
+1A004, 1C006.d, 2A226, 2B006.b, 2B230, 2B231, 2B350, 3A233.a, 3B001 (except for multilayer masks with a phase shift layer designed to produce “space qualified” semiconductor devices), 3C002, 3E002 (excluding development and production technology specific to digital signal processors and digital array processors and further limited to “technology” based on the international technology roadmap for semiconductors (ITRS)), and 4E001(limited to technology for computer products or components not exceeding an adjusted peak performance (APP) level of 12.0 weighted teraflops)
+* Intel Semiconductor (Dalian) Ltd., No. 109 Huai He Road East, Dalian Economic and Technology Development Area, Dalian, Liao Ning Province, 116600, China
+78 FR 54754, 9/6/13. 81 FR 85145, 11/25/16.
+These items authorized for the Intel destination identified by two asterisks (**):
+1A004, 1C006.d, 2A226, 2B006.b, 2B230, 2B231, 2B350, 3A233.a, 3B001 (except for multilayer masks with a phase shift layer designed to produce “space qualified” semiconductor devices), and 3C002
+** Intel Semiconductor (Dalian) Ltd., c/o Dalian Kintetsu Logistics Co., Ltd, Dayaowan Bonded Port No. 6 Road W4 Unit A1, Dalian Economic and Technology Development Area, Dalian, Liao Ning Province, 116601, China
+General
+Lam Research Service Co., Ltd
+These Items Authorized for those Lam's Destinations Identified by a single asterisk (*):
+2B230, 2B350.c, 2B350.d, 2B350.g, 2B350.h, 2B350.i, and 3B001.e (limited to installation, warranty maintenance/repair, or maintenance/repair service of semiconductor manufacturing equipment manufactured by Lam, and items classified under ECCN 3B001.e are limited to specially designed components and accessories), 3D001 (limited to “software” (excluding source code) specially designed for the “development” or “production” of equipment controlled by ECCN 3B001.e)), 3D002 (limited to “software” (excluding source code) specially designed for the “use” of equipment controlled by ECCN 3B001.e)), and 3E001 (limited to “development” “technology” according to the General Technology Note of a type of equipment classified under ECCN 3B001.e)
+* Lam Research International Sarl (Lam Beijing Warehouse), c/o Beijing Lam Electronics Tech Center, 1 Building, No. 28, Jinghai Second Road, BDA, Beijing, China 100176
+* Lam Research International Sarl (Lam Beijing Warehouse), c/o Beijing STE International Logistics Co., Ltd., Building 3, No. 9 Ke Chuang Er Street Beijing Economic & Technological Development Area, Beijing, China 100176
+* Lam Research International Sarl (Lam Beijing Warehouse), c/o China International Electronic Service Company, 1 Building, No. 28, Jinghai Second Road, BDA, Beijing, China 100176
+* Lam Research International Sarl (Lam Beijing Warehouse), c/o HMG Hi-Tech Logistics (Beijing) Co., Ltd., Building 3, No. 9 Ke Chuang Er Street, Beijing Economic & Technological Development Area, Beijing, China 100176
+* Lam Research International Sarl (Lam Dalian Warehouse), c/o Liaoning JD Logistics International Co., Ltd., Dalian Bonded Logistics Port, W5-B8, No. 6, Road #3, Dalian, China 116600
+72 FR 59164, 10/19/07, 74 FR 19382, 4/29/09. 77 FR 10953, 2/24/12. 77 FR 40258, 7/9/12. 82 FR 48929, 10/23/17.
+* Lam Research International Sarl (Lam Dalian Warehouse), c/o Liaoning JD Logistics International Co., Ltd., Dalian Bonded Logistics Zone No. 1 Public Warehouse Dalian, China 116600
+* Lam Research International Sarl (Lam Shanghai Warehouse), c/o HMG Supply Chain (Shanghai) Co., Ltd., No. 633, Shangfeng Road, Pudong New District, Shanghai, China 201201
+* Lam Research International Sarl (Lam Shanghai Warehouse), c/o Regal Harmony Logistics Co., Ltd., No. 799, Yihua Road, Pudong New District, Shanghai, China 201299
+* Lam Research International Sarl (Lam Shanghai Warehouse Operator), c/o Shanghai Well-Win Logistics Co., Ltd., No. 2667 Zuchongzhi Road, Pudong New District, Shanghai, China
+* Lam Research International Sarl (Lam Shanghai Warehouse; WGQ Bonded Warehouse), c/o HMG Supply Chain (Shanghai) Co., Ltd., No. 55, Fei La Road, Waigaoqiao Free Trade Zone Pudong New Area, Shanghai, China 200131
+* Lam Research International Sarl (Lam Wuhan Warehouse), c/o Wuhan HMG Logistics Co., Ltd., Factory C101/201, 1-2F Building 1, Central China Normal, University Park Road, Wuhan, China 430223
+* Lam Research International Sarl (Lam Wuxi Warehouse), c/o HMG WHL Logistics (Wuxi) Co., Ltd., Plot J3-4, No. 5 Gaolang East Road, CBZ, New District Wuxi, Wuxi, China 214208
+* Lam Research International Sarl (Lam Xiamen Warehouse), c/o VR Int'l Logistics (Xiamen) Co., Ltd., C3 Area No. 3 Warehouse, No. 1007 West Fangshan Road, Bonded Logistics Center (Type B) Xiang'an District, Xiamen, China 361101
+* Lam Research International Sarl (Lam Xi'an Warehouse), c/o VR International Logistics (Xi'an) Co., Ltd., No. 28 Information Road, EPZ B Zone, Xi'an New District, Xi'an, China 710119
+* Lam Research International Sarl (Wuxi EPZ Bonded Warehouse), c/o HMG WHL Logistics (Wuxi) Co., Ltd., 1st Floor, Area 4, No. 1, Plot J3, No. 5 Gaolang East Road, Export Processing Zone, Wuxi, Jiangsu, China 214028
+These Items Authorized for those Lam's Destinations Identified by double asterisks (**):
+2B230, 2B350.c, 2B350.d, 2B350.g, 2B350.h, 2B350.i, and 3B001.e (limited to installation, warranty maintenance/repair, or maintenance/repair service of semiconductor manufacturing equipment manufactured by Lam, and items classified under ECCN 3B001.e are limited to specially designed components and accessories), 3D001 (limited to “software” (excluding source code) specially designed for the “development” or “production” of equipment controlled by ECCN 3B001.e)), 3D002 (limited to “software” (excluding source code) specially designed for the “use” of equipment controlled by ECCN 3B001.e)), and 3E001 (limited to “development” “technology” or “production” “technology” according to the General Technology Note of a type to support integration, assembly (mounting), inspection, testing, and quality assurance of equipment classified under ECCN 3B001.e))
+** Lam Research Service Co., Ltd. (Shanghai), 1st Floor, Area C, Hua Hong Science & Technology Park, 177 Bi Bo Road, Zhangjiang Hi-Tech Park, Pudong New District, Shanghai, China 201203
+** Lam Research Service Co., Ltd. (Xiamen), Room 705A, Qiangye Building, Xiang'an Industrial Park, Xiamen Torch Hi-tech Zone, Xiamen, China 361115
+** Lam Research Service Co., Ltd. (Beijing Branch), 6th Floor, Building 52, No. 2, Jingyuan North Street, Beijing Economic & Technological Development Area, Beijing, China 100176
+** Lam Research Service Co., Ltd. (Dalian Branch), Units 01, 02, 13, 10th Floor, Jinma International Building, No. 1 Yongde Street, Dalian, China 116620
+** Lam Research Service Co., Ltd. (Lam Dalian Representative Office), c/o Intel Semiconductor (Dalian) Ltd., No. 109 Huaihe Road East, Dalian Economic & Technical Development Area, Dalian, China 116600
+** Lam Research Service Co., Ltd. (Wuhan Representative Office), Room 302, Guanggu Software Park Building E4, No. 1 Guanshan Road, Wuhan, Hubei Province, China 430074
+** Lam Research Service Co., Ltd. (Wuxi Branch), Room 302, Building 6, Singapore International Park, No. 89 Xing Chuang Si Road, Wuxi New District, Wuxi, Jiangsu, China 214028
+** Lam Research Service (Shanghai) Co., Ltd. (Xi'an Branch), Room 602, Building G, Wangzuo Xiandai City, 35 Tangyan Road, Gaoxin District, Xi'an, China 710065
+General
+Samsung China Semiconductor Co. Ltd
+All items subject to the Export Administration Regulations (EAR), except “extreme ultraviolet” (“EUV”) equipment and “specially designed” “parts,” “components,” “software,” and “technology” therefor, necessary for the “development” or “production” of NAND memory. Excluded from §§ 744.6(c)(2)(i-iii) and 744.23(a)(1)(iii) and (a)(2)(iii) of the EAR. See § 748.15(d)
+Samsung China Semiconductor Co., Ltd., No. 1999, North Xiaohe Road, Xi'an, China 710119
+78 FR 41291, 7/10/13. 78 FR 69535, 11/20/13. 79 FR 30713, 5/29/14. 80 FR 11863, 3/5/15. 88 FR 71480, 10/17/23.
+General
+Shanghai Huahong Grace Semiconductor Manufacturing Corporation
+1C350.c.4, 1C350.d.14, 2B230, 2B350.d.2, 2B350.g.3, 2B350.i.4, 3B001.a.1, 3B001.b, 3B001.e, 3B001.f, 3B001.h, 3C002, 3C004, 5B002, and 5E002 (controlled by ECCNs 5A002.a through .e, 5A004.a through .b, or 5A992.c that have been successfully reviewed under the encryption review process specified in Sections 740.17(b)(2) or 740.17(b)(3) of the EAR)
+Shanghai Huahong Grace Semiconductor Manufacturing Corporation—HFab 2, 668 Guoshoujing Road, Zhangjiang Hi-Tech Park, Shanghai 201203 China
+Shanghai Huahong Grace Semiconductor Manufacturing Corporation—HFab 1, 1188 Chuanqiao Road, Pudong, Shanghai 201206 China
+Shanghai Huahong Grace Semiconductor Manufacturing Corporation—GFab1, 1399 Zuchongzhi Road, Zhangjiang Hi-Tech Park, Shanghai 201203 China
+78 FR 32981, 6/3/13. 88 FR 73496, 10/25/23.
+General
+SK hynix Semiconductor (China) Ltd
+All items subject to the Export Administration Regulations, except “extreme ultraviolet” (“EUV”) equipment and “specially designed” “parts,” “components,” “software,” and “technology” therefor, necessary for the “development” or “production” of dynamic random-access memory (DRAM). Excluded from §§ 744.6(c)(2)(i)-(iii) and 744.23(a)(1)(iii) and (a)(2)(iii) of the EAR. See § 748.15(d)
+SK hynix Semiconductor (China) Ltd., Lot K7, Wuxi High-tech Zone, Comprehensive Bonded Zone, Wuxi New District, Jiangsu Province, China 214028
+78 FR 41291, 7/10/13. 78 FR 69535, 11/20/13. 79 FR 30713, 5/29/14. 80 FR 11863, 3/5/15. 88 FR 71478, 10/17/23.
+General
+India
+GE India Industrial Pvt Ltd
+1C002.a.1, 1C002.a.2, 1C002.b.1.a, 1C002.b.1.b, 1E001, 2E003.f, 9E003.a.1, 9E003.a.2, 9E003.a.4, 9E003.a.5, 9E003.a.6, 9E003.a.8, and 9E003.c
+GE India Technology Centre Private Limited (GEITC), No. 122, EPIP, Phase II, Hoodi Village, Whitefield Road, Bangalore 560066, Karnataka, India
+Bangalore Engineering Center (BEC), c/o GE India Technology Centre Private Limited (GEITC), No. 122, EPIP, Phase II, Hoodi Village, Whitefield Road, Bangalore 560066, Karnataka, India
+74 FR 31620, 7/2/09. 74 FR 68147, 12/23/09. 77 FR 10953, 2/24/12.
+4. Revise Supplement No. 8 to part 748 to read as follows:
+Supplement No. 8 to Part 748—Information Required in Requests for VEU Authorization
+VEU authorization applicants must provide to BIS certain information about the prospective and related respective validated end-user. This information must be included in requests for authorization submitted by prospective validated end-users, or exporters or reexporters who seek to have certain entities approved as validated end-users. BIS may, in the course of its evaluation, request additional information.
+A. Required Information for Both General and Data Center Validated End-user Authorization Requests
+(1) Name of proposed VEU candidates, including all names under which the candidate conducts business; complete company physical address (simply listing a post office box is insufficient); telephone number; fax number; email address; company website (if available); and name of individual who should be contacted if BIS has any questions. If the entity submitting the application is different from the prospective validated end-user identified in the application, this information must be submitted for both entities. If the candidate has multiple locations, all physical addresses located in the eligible destination must be listed.
+(2) Provide an overview of the structure, ownership and business of the prospective validated end-user. Include a description of the entity, including type of business activity, ownership, subsidiaries, and joint-venture projects, as well as an overview of any business activity or corporate relationship that the entity has with either government or military organizations.
+(3) List the items proposed for VEU authorization approval and their intended end-uses. Include a description of the items; the ECCN for all items, classified to the subparagraph level, as appropriate; technical parameters for the items including performance specifications; and end-use description for the items. If BIS has previously classified the item, the Commodity Classification Automated Tracking System (CCATS) number may be provided in lieu of the information listed in the foregoing provisions of this paragraph.
+(4) Provide the physical address(es) of the location(s) where the item(s) will be used, if this address is different from the address of the prospective validated end-user provided in paragraph (1) of this supplement.
+(5) If the prospective validated end-user plans to reexport the item, specify the destination to which the items will be reexported.
+(6) Specify how the prospective validated end-user's record keeping system will allow compliance with the recordkeeping requirements set forth in § 748.15(e) of the EAR. Describe the system that is in place to ensure compliance with VEU requirements.
+(7) Include an original statement on letterhead of the prospective validated end-user, signed and dated by a person who has authority to legally bind the prospective validated end-user, certifying that the end-user will comply with all VEU requirements. This statement must include acknowledgement that the prospective end-user:
+(i) Has been informed of and understands that the item(s) it may receive as a validated end-user will have been exported in accordance with the EAR and that use or diversion of such items contrary to the EAR is prohibited;
+(ii) Understands and will abide by all authorization VEU end-use restrictions, including the requirement that items received under authorization VEU will only be used for authorized end-uses and may not be used for any activities described in part 744 of the EAR unless authorized by § 748.15(d);
+(iii) Will comply with VEU recordkeeping requirements; and
+(iv) Agrees to allow on-site reviews by U.S. Government officials to verify the end-user's compliance with the conditions of the VEU authorization.
+B. Additional Required Information for Data Center Validated End-User Authorization Requests
+(1) A description of controlled items required in the data center and an accompanying rationale for why these items are required;
+(2) An overview of any business activity or corporate relationship that the candidate has with either government or military organizations;
+(3) An overview of business activities or corporate relationships that the candidate has with any organization designated on the Entity List in Supp. No. 4 to part 744 and/or Military End-User List in Supp. No. 7 to part 744;
+(4) Describe physical and logical security requirements for each location the controlled items will be housed (
+e.g.,
+around the clock monitoring, cybersecurity requirements, third-party monitoring; and/or physical security);
+(5) A description of the policies and procedures governing employees physical and logical access to the VEU data center;
+(6) Absent a legal prohibition or other such exceptional circumstances, a list of current and potential customers of the data center;
+(7) An overview of the data center's information security plan, which should include:
+(i) Cybersecurity plan;
+(ii) Logging and monitoring plan;
+(iii) Technology control plan that describes how much compute is required for the various end uses involved;
+(iv) Baseline cloud configuration and identity and access management process for tenants, if a cloud provider;
+(v) Personnel security plan; and
+(vi) An incident, identification, investigation, and reporting plan;
+(8) An explanation of the network infrastructure and architecture and service providers;
+(9) An overview of the applicant's supply chain risk management plan that will prevent PRC-origin equipment entering the data-center environment and no PRC vendors are in the supply chain; and
+(10) An overview of the applicant's export control training program and compliance program procedures.
+Thea D. Rozman Kendler,
+Assistant Secretary for Export Administration.
+[FR Doc. 2024-22587 Filed 9-30-24; 8:45 am]
+BILLING CODE 3510-33-P

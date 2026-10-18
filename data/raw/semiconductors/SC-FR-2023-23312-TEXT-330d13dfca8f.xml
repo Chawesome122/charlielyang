@@ -1,0 +1,120 @@
+<RULE>
+            <PREAMB>
+                <AGENCY TYPE="N">DEPARTMENT OF COMMERCE</AGENCY>
+                <SUBAGY>Bureau of Industry and Security</SUBAGY>
+                <CFR>15 CFR Part 748</CFR>
+                <DEPDOC>[Docket No. 231010-0244]</DEPDOC>
+                <RIN>RIN 0694-AJ39</RIN>
+                <SUBJECT>Existing Validated End-User Authorizations in the People's Republic of China: Samsung China Semiconductor Co. Ltd. and SK hynix Semiconductor (China)) Ltd; Correction</SUBJECT>
+                <AGY>
+                    <HD SOURCE="HED">AGENCY:</HD>
+                    <P>Bureau of Industry and Security, Commerce.</P>
+                </AGY>
+                <ACT>
+                    <HD SOURCE="HED">ACTION:</HD>
+                    <P>Correcting amendment.</P>
+                </ACT>
+                <SUM>
+                    <HD SOURCE="HED">SUMMARY:</HD>
+                    <P>
+                        The Bureau of Industry and Security (BIS) published a rule in the 
+                        <E T="04">Federal Register</E>
+                         on October 17, 2023, that amended the Export Administration Regulations (EAR) to revise the existing Validated End-User (VEU) list for the People's Republic of China (PRC) for Samsung China Semiconductor Co. Ltd. and SK hynix Semiconductor (China) Ltd. That rule inadvertently omitted two amendments to the list of VEUs, which resulted in failure to add a word to the description of eligible items for SK Hynix Semiconductor (China) Ltd.; as well as the failure to remove the entry for SK hynix Semiconductor (Wuxi), which was necessary because SK hynix Semiconductor (Wuxi) recently merged with SK hynix Semiconductor (China) Ltd. This rule corrects both omissions.
+                    </P>
+                </SUM>
+                <EFFDATE>
+                    <HD SOURCE="HED">DATES:</HD>
+                    <P>This rule is effective November 8, 2023.</P>
+                </EFFDATE>
+                <FURINF>
+                    <HD SOURCE="HED">FOR FURTHER INFORMATION CONTACT:</HD>
+                    <P>
+                        Chair, End-User Review Committee, Office of the Assistant Secretary, Export Administration, Bureau of Industry and Security, U.S. Department of Commerce, Phone: 202-482-5991; Email: 
+                        <E T="03">ERC@bis.doc.gov.</E>
+                    </P>
+                </FURINF>
+            </PREAMB>
+            <SUPLINF>
+                <HD SOURCE="HED">SUPPLEMENTARY INFORMATION:</HD>
+                <P>
+                    The Bureau of Industry and Security (BIS) published in the 
+                    <E T="04">Federal Register</E>
+                     of October 17, 2023, in FR Doc. 2023-22873, starting on page 71478, amendments to the Export Administration Regulations (EAR) to revise the existing Validated End-User (VEU) list for the People's Republic of China (PRC) for Samsung China Semiconductor Co. Ltd. and SK hynix Semiconductor (China)) Ltd.
+                </P>
+                <P>This rule corrects for two inadvertently omitted amendments to update the list of VEUs: the first correction adds a word to the description of eligible items for SK Hynix Semiconductor (China) Ltd.; and the second removes the entry for SK hynix Semiconductor (Wuxi) Ltd., which recently merged with SK hynix Semiconductor (China) Ltd., thereby making the entry for SK hynix Semiconductor (Wuxi) Ltd. duplicative.</P>
+                <HD SOURCE="HD1">Correction</HD>
+                <P>BIS amends the EAR's “Supplement No. 7 to Part 748—Authorization Validated End-User (VEU): List of Validated End-Users, Respective Items Eligible for Export, Reexport and Transfer (In-Country), and Eligible Destinations”:</P>
+                <P>• by adding the word “therefor,” after the word “technology” in the description in the “Eligible items (by ECCN)” column for “SK hynix Semiconductor (China) Ltd.”; and</P>
+                <P>• by removing the entry for “SK hynix Semiconductor (Wuxi) Ltd.” in “China (People's Republic of)”.</P>
+                <LSTSUB>
+                    <HD SOURCE="HED">List of Subjects in 15 CFR Part 748</HD>
+                    <P>Administrative practice and procedure, Exports, Reporting and recordkeeping requirements.</P>
+                </LSTSUB>
+                <P>Accordingly, part 748 of the EAR (15 CFR parts 730-774) is corrected by making the following correcting amendments:</P>
+                <PART>
+                    <HD SOURCE="HED">PART 748—[AMENDED]</HD>
+                </PART>
+                <REGTEXT TITLE="15" PART="748">
+                    <AMDPAR>1. The authority citation for part 748 continues to read as follows:</AMDPAR>
+                    <AUTH>
+                        <HD SOURCE="HED">Authority:</HD>
+                        <P>
+                             50 U.S.C. 4801-4852; 50 U.S.C. 4601 
+                            <E T="03">et seq.;</E>
+                             50 U.S.C. 1701 
+                            <E T="03">et seq.;</E>
+                             E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001 Comp., p. 783; Notice of August 4, 2022, 87 FR 48077 (August 5, 2021).
+                        </P>
+                    </AUTH>
+                </REGTEXT>
+                <REGTEXT TITLE="15" PART="748">
+                    <AMDPAR>2. Amend supplement no. 7 to part 748 under “China (People's Republic of)” by:</AMDPAR>
+                    <AMDPAR>a. Revising the entry for “SK hynix Semiconductor (China) Ltd”; and</AMDPAR>
+                    <AMDPAR>b. Removing the entry for “SK hynix Semiconductor (Wuxi) Ltd”.</AMDPAR>
+                    <P>The revision reads as follows:</P>
+                    <GPOTABLE COLS="5" OPTS="L1,nj,i1" CDEF="xs46,r50,r100,r75,r75">
+                        <TTITLE>Supplement No. 7 to Part 748—Authorization Validated End-User (VEU): List of Validated End-Users, Respective Items Eligible for Export, Reexport and Transfer (In-Country), and Eligible Destinations</TTITLE>
+                        <BOXHD>
+                            <CHED H="1">Country</CHED>
+                            <CHED H="1">Validated end-user</CHED>
+                            <CHED H="1">Eligible items (by ECCN)</CHED>
+                            <CHED H="1">Eligible destination</CHED>
+                            <CHED H="1">
+                                <E T="02">Federal Register</E>
+                                 citation
+                            </CHED>
+                        </BOXHD>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="28">*         *         *         *         *         *         *</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">China</ENT>
+                            <ENT O="xl">* * * * *</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>SK hynix Semiconductor (China) Ltd</ENT>
+                            <ENT>All items subject to the Export Administration Regulations, except “extreme ultraviolet” (“EUV”) equipment and “specially designed” “parts,” “components,” “software,” and “technology” therefor, necessary for the “development” or “production” of dynamic random-access memory (DRAM). Excluded from §§ 744.6(c)(2)(i)-(iii) and 744.23(a)(1)(iii) and (a)(2)(iii) of the EAR. See § 748.15(d)</ENT>
+                            <ENT>SK hynix Semiconductor (China) Ltd., Lot K7, Wuxi High-tech Zone, Comprehensive Bonded Zone, Wuxi New District, Jiangsu Province, China 214028</ENT>
+                            <ENT>78 FR 41291, 7/10/13. 78 FR 69535, 11/20/13. 79 FR 30713, 5/29/14. 80 FR 11863, 3/5/15. 88 FR 71478, 10/17/23.</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                        </ROW>
+                        <ROW>
+                            <PRTPAGE P="76991"/>
+                            <ENT I="28">*         *         *         *         *         *         *</ENT>
+                        </ROW>
+                    </GPOTABLE>
+                </REGTEXT>
+                <SIG>
+                    <NAME>Karen H. Nies-Vogel,</NAME>
+                    <TITLE>Director, Office of Exporter Services.</TITLE>
+                </SIG>
+            </SUPLINF>
+            <FRDOC>[FR Doc. 2023-23312 Filed 11-7-23; 8:45 am]</FRDOC>
+            <BILCOD>BILLING CODE 3510-33-P</BILCOD>
+        </RULE>

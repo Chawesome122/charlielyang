@@ -1,0 +1,2597 @@
+Weaponizing Interdependence
+Master Research Blueprint: Reciprocal Semiconductor Controls, Rare-Earth Supply
+Resilience, Strategic Opacity, and Endogenous Leverage Erosion
+
+
+
+
+Consolidated research design | synthesis of Drafts 0–5 and the final executive-summary revision
+
+Research information freeze: 11 October 2026 | master synthesis: 2026
+ Weaponizing Interdependence
+
+
+ Contents
+
+ 1. Theoretical foundation and falsifiable contributions
+
+ 2. Institutional history and as-of legal coding
+
+ 3. Rare-earth supply-chain accounting and physical optimization
+
+ 4. Project transitions, uncertainty and vintage-valid forecasting
+
+ 5. Differential equations: viability thresholds versus true tipping
+
+ 6. Semiconductor controls, access and indigenous capability
+
+ 7. Strategic Policy Opacity Index
+
+ 8. Reciprocal dynamic game: bounded states, HJB and Nash regimes
+
+ 9. Counterfactuals and publication exhibits
+
+10. Source acquisition, chronology and provenance
+
+11. Replication and computational implementation contract
+
+12. Staged implementation roadmap
+
+13. Annotated bibliography and source registry
+
+14. Final acceptance audit and remaining execution requirements
+
+
+
+
+                                                      1
+Weaponizing Interdependence
+
+
+Certification, reading guide, and status
+
+Document type: methodological master blueprint, not an empirical paper and not a claim
+that numerical results have been obtained. This edition reconciles the uploaded seven iterations
+and is deliberately self-critical. Each specification is identified as fixed design, conditional theorem,
+to be estimated, scenario-only, or unverified implementation. An attractive formula is not an
+observed result; a source URL is not an extracted dataset; a repository diagram is not working software.
+No status box in this document implies otherwise.
+Research question. How does the exercise of asymmetric U.S.-led semiconductor controls and Chinese
+rare-earth restrictions change the opponent's short-run technological or material access, induce or suppress
+long-run adaptation, and thereby change the equilibrium value and use of economic coercion? When,
+if ever, does rare-earth diversification cross a durable physical-resilience threshold or a genuinely self-
+reinforcing economic tipping point?
+Thesis. Coercion can create contemporaneous leverage because a target relies on hard-to-substitute pro-
+duction capabilities. But the same coercion can change future investment, disclosure incentives, policy
+support, supply-chain topology, and technological progress. The sign and size of that feedback are em-
+pirical questions. With positive induced adaptation, a suﬀiciently patient coercer may optimally restrain
+current pressure because pressure consumes the future value of the chokepoint. With negative induced
+adaptation, no general 'self-eroding' conclusion follows; this is a meaningful falsification possibility, not
+a failure of the research.
+Nonnegotiable scope. The empirical chapters are genuinely separate before integration. Rare
+earths: China versus physically feasible non-Chinese supply for magnet-related elements, tracked by
+mine/feedstock, oxide separation, metallurgy/alloys, and finished magnets. Semiconductors: U.S.-led
+and allied controls by item, use case and jurisdiction, differentiating Chinese domestic production
+capability, foreign supply access, and the combined functional bottleneck. The third component
+is an observable policy-opacity covariate, not a third industrial chokepoint. An independent AI-
+model/adoption ecosystem game is excluded. Demand from AI-related applications may enter as an
+exogenous semiconductor demand variable.
+Deliverable hierarchy. D1 = clean conceptual theory and complete variable definitions; D2 = source-
+and vintage-correct data architecture; D3 = project and layer estimates; D4 = properly evaluated prob-
+ability forecasts; D5 = empirically disciplined dynamic game with verified numerical diagnostics; D6 =
+reproducible paper. This document aims to settle D1 and specify D2–D6. It does not assert that D2–D6
+have been executed. A genuine publication-ready empirical paper requires an independently checked
+dataset, code, results, robustness and references. The completion audit at the end distinguishes those
+tasks explicitly.
+
+
+How the drafts were synthesized
+
+Source              Material retained                                  Material superseded or corrected
+
+Draft 0 (30 pp.)    Structural tipping-versus-threshold taxonomy;        Financial contagion/bank-crisis case studies are
+                    logistic positive feedback with critical             a methodological analogy, not an extra
+                    interaction coeﬀicient 4; network cascades;          empirical paper.
+                    historical-vintage validation; empirical feasibility
+                    discipline.
+
+
+                                                          2
+Weaponizing Interdependence
+
+
+Source                    Material retained                                   Material superseded or corrected
+
+Draft 1 (45 pp.)          Equal analytical status for both chokepoints;       Early game variants with inconsistent state
+                          contemporaneous policy chronology; payoff           derivatives, ambiguous timing, or unconstrained
+                          interpretation; realistic limits on structural      equilibrium claims.
+                          identification; optional beliefs.
+Draft 2 (43 pp.)          Correct bounded saturation dynamics;                Independent clipping of coupled interior Nash
+                          one-player coercion benchmark; open-loop            solutions; incompletely specified pipelines.
+                          versus feedback clarity; independent
+                          semiconductor bottlenecks.
+Draft 3 (55 pp.)          Four-state Markov game; project-stage schema;       Incomplete physical feedstock routing; invalid
+                          opacity pillars; source vintages and software       backtest endpoints; positivity restrictions left
+                          architecture.                                       implicit.
+Draft 4 (52 pp.)          Explicit nine-regime constrained Nash cases;        Stage-by-stage subtraction treated as one N-1
+                          stepwise physical inputs; full indicator scale;     outage; signed investment pipelines without
+                          data dictionaries.                                  positivity guard.
+Draft 5 (54 pp.)          Single-supplier all-stage removal; legal-vintage    Linear game dynamics inconsistent with their
+                          table; strong programming and forecasting           own invariant-domain proof; ambiguous map
+                          protocol; academic positioning.                     between physical and game states; unfinished
+                                                                              end-to-end executable package.
+Executive Summary         Reminder to present a concise public-facing         Its revised player/state meanings, steady states,
+(11 pp.)                  overview alongside technical report.                fabricated numeric 'equilibria,' loss of
+                                                                              definitions, and unverifiable sources are rejected.
+
+
+
+Locked design decisions and registered sensitivity choices
+
+Issue                          Primary                                          Alternatives / falsification
+
+Mineral elements               Nd, Pr, Dy, Tb; distinct element identities      Sm/other controlled REEs in a separate
+                               and grade recipes                                policy appendix; expanded 17-REE case only
+                                                                                if data support it
+Critical mineral outcome       Delivered finished-magnet services supported     Separate oxide-only and Dy/Tb-only
+                               through all upstream stages; report              adequacy; import-inclusive and full-China-free
+                               separated-oxide and alloy throughput             cases
+                               alongside
+Resilience jurisdiction        Defined U.S.-aligned importing bloc B;           Strict non-China global, U.S. only, geographic
+                               China-origin-controlled inputs removed           versus ownership origin
+Outage severity               First remove China (strategic coercion            Country, corporate group, logistics hub, two
+                              scenario); then a separate                        concurrent failures
+                              worst-single-non-China-supplier N-1 test
+Historical panel              Project-stage-quarter with two time clocks        Monthly for observed dates; annual if
+                              (event time; publication date)                    information sparse
+Forecast targets               2028Q4, 2031Q4, 2035Q4; 4 consecutive            0.5, 0.75, 0.9, 1.0 service fractions;
+                               quarters of required service                     single-quarter and 8-quarter thresholds
+Semiconductor layer            Advanced logic production and enabling           Mature-node use cases; separate consumer
+domain                         inputs plus HBM/packaging conditional on         versus high-end computing target
+                               target architecture
+Semiconductor slow game        Chinese domestic functional substitutability     Differentiable surrogate; alternative
+state                          of prescribed technology stack                   architecture-specific aggregations
+
+
+
+
+                                                                 3
+Weaponizing Interdependence
+
+
+Issue                   Primary                                        Alternatives / falsification
+
+Game state y            Fraction of bloc final magnet-service demand   Stronger China-free-plus-one-other-supplier
+                        deliverable without Chinese                    outage
+                        material/processing
+Game adaptation delay   First-order bounded Markov pipelines           Two-stage Erlang, fixed-delay history model
+                                                                       only outside four-state HJB
+Positive adaptation     A testable restriction, not a default fact     Negative and zero responses explicitly allowed
+Opacity                 Ten scored observability measures, fixed       Equal weights, validity-calibrated latent
+                        40/35/25 pillar weights                        factor, policy-sector variants
+Game solution           Four-state stationary Markov-perfect           Finite-state mixed strategy; open-loop /
+                        equilibrium candidate through coupled          constant-policy benchmarks separately
+                        discounted HJB, active-set control updates,
+                        multi-start, refinement
+Forecast inference      Cause-specific multistate project hazards with Pooled parametric hazards, Bayesian
+                        stochastic ramps/network reoptimization        hierarchical, model averaging
+Research freeze         Facts publicly knowable by October 11, 2026    New frozen release after explicit documented
+                                                                       source update
+
+
+
+
+1. Theoretical foundation and falsifiable contributions
+
+1.1 Why the two chokepoints are asymmetric
+
+China's advantage in magnet rare earths is much more pronounced in refining and permanent-magnet
+production than in raw ore extraction. The IEA's 2026 assessment reports approximate Chinese shares
+of 60% of 2024 magnet-REE mining, 91% of refined output, and 94% of sintered permanent
+magnets, and substantially thinner announced non-Chinese pipelines downstream than upstream [R25].
+The policy object is not simply a Chinese endowment of minerals: it is a multi-stage input-processing
+system with specific chemical, engineering, feedstock and qualification constraints. Announced capacity
+in one stage cannot freely replace missing capacity in another. The empirical target is physically feasible
+service to specified end users under a China-removal stress test, not mining tonnes or a generic supply
+concentration ratio.
+By contrast, U.S.-led semiconductor leverage is a technology/access network. It involves semiconductor
+design and process software, lithography, deposition/etch/implant equipment, inspection and metrology,
+foundry process mastery, HBM, advanced packaging, American extraterritorial rules and U.S.-person
+requirements, and controls adopted independently by allies. The BIS December 2024 package, for exam-
+ple, added controls on 24 categories of semiconductor-manufacturing equipment, three types of software,
+and HBM; Dutch 2025 controls also expanded to some measurement and inspection equipment; Japan's
+advanced equipment rules cover 23 classes [R26–R29]. A legal licensing requirement should never be
+automatically coded as a complete embargo. In January 2026 BIS shifted certain advanced-chip licenses
+to conditional case-by-case review [R30]. Every control variable must be time-varying, product-specific,
+and as-of-date correct.
+This asymmetry shapes the data and mathematics. Rare-earth resilience may be reconstructed from
+project histories, conversion yields, physical capacity and feasible network throughput. Semiconductor
+resilience requires target-specific performance evidence, distinct from money spent, patents filed, wafers
+started or overall chip shipment values. Reciprocal-game equations are intentionally lower-dimensional
+
+                                                         4
+Weaponizing Interdependence
+
+
+approximations to these separately measured mechanisms, not exact identities inherited automatically
+from physical laws.
+
+
+1.2 The closest existing research and genuine novelty
+
+Farrell and Newman [R01] theorize how central nodes of international networks can become coercive as-
+sets. Zou, Poncin and Bertinelli [R04] already formulate a U.S.–China rare-earth differential game. Clay-
+ton, Maggiori and Schreger [R02] explicitly model the coercion/integration/security trade-off. Woods
+[R03] offers a dynamic opacity/signaling framework for rare-earth policy with illustrative, not exter-
+nally estimated, simulation parameters. The semiconductor firm-level literature [R05–R07] does not
+unanimously establish that restrictions increase actual capabilities: R&D, patenting, learning and op-
+erating substitutability may move differently. Consequently this project must not claim originality for
+inventing economic coercion, mineral differential games, or uncertainty itself.
+The defensible contribution is a joint empirical-theoretical chain: (i) vintage-correct probability distri-
+butions of actual non-Chinese project completion and stage-feasible magnet production; (ii) distinct
+estimates of immediate Chinese semiconductor access shocks and lagged indigenous adaptation, by layer;
+(iii) an auditable observability-only measure of policy opacity and tests of investment delay or overreac-
+tion; (iv) a reciprocal, constrained dynamic game whose state and adaptation parameters are disciplined
+by, but not presumed fully identified from, the empirical chapters; and (v) forecasts and policy counter-
+factuals that quantify the erosion of future leverage under explicit uncertainty.
+
+
+1.3 Hypotheses, direction of evidence, and null outcomes
+
+H1 - Rare-earth implementation. Verified finance, permitting, engineering readiness, offtake and
+government support predict commissioning beyond announced nominal capacity and target date. This
+is primarily a predictive result, not necessarily a causal effect.
+H2 - Strategic pressure and diversification. Greater Chinese restriction exposure changes initiation,
+financing, commissioning or subsequent capacity for non-Chinese projects; the sign and lag may differ
+by stage and geography.
+H3 - Semiconductor first impact. U.S./allied restrictions cause or predict immediate access losses
+in the targeted layer, conditional on remaining foreign substitutes, stockpiles, exemptions, and shipment
+adjustment.
+H4 - Semiconductor induced capability. Restriction exposure changes subsequent domestic R&D,
+capex, patents and independently verified functional capability. Effects may be positive, zero, or negative,
+with distinct lag distributions.
+H5 - Direct opacity drag. Greater observable ambiguity or regulatory nondisclosure, separately from
+prices, technological uncertainty and geopolitical risk, changes industrial project progression hazards.
+The positive quadratic/overreaction variant is secondary and may be rejected.
+H6 - Endogenous resilience feedback. Existing operating non-Chinese projects help or fail to help
+subsequent projects pass financing, technical qualification and commissioning barriers. An observed
+positive interaction is not by itself a bistable phase transition; true multiplicity requires the separate
+nonlinear test in Section 5.
+
+
+
+
+                                                     5
+Weaponizing Interdependence
+
+
+H7 - Self-eroding leverage. Conditional on positive restriction-induced adaptation and an intertem-
+poral payoff trade-off, forward-looking optimal restriction intensity may be below the equivalent myopic
+optimum. This is provable in the constant-control benchmark; its generality and magnitude in the full
+reciprocal game require numerical verification.
+H8 - Reciprocal strategic interaction. Estimated or scenario-based contemporaneous complemen-
+tarity/retaliation can increase restrictions, while greater adaptation responsiveness and strategic patience
+can offset it. No theorem guarantees universal restraint in every two-player specification.
+
+
+1.4 What 'tipping' is allowed to mean
+
+We distinguish four phenomena that earlier drafts sometimes conflated. Physical adequacy thresh-
+old: modeled feasible service crosses, for example, 75% or 100% of required demand; this is a first-
+passage/viability event, not a bifurcation. Steady-state feasibility threshold: investment is suf-
+ficient to sustain a selected normalized resilience level in a saturating ODE; still not necessarily a bi-
+furcation. Dynamical tipping: a feedback parameter creates multiple steady states and an unstable
+threshold, fold, or hysteresis; this needs a formally derived condition and empirical support. Network
+propagation/cascade: loss of a supplier changes feasible downstream production through physical
+edges or induces correlated finance decisions; cascading input shortfalls do not establish a macroeconomic
+critical transition unless additional nonlinearities are demonstrated. Keep the terms visibly separate in
+the manuscript.
+
+
+2. Institutional history and as-of legal coding
+
+The master legal timeline is a table of policy instruments, not a collection of timeless assertions.
+Each instrument has publication, effective and suspension/replacement times; scope, licensing standard,
+affected technical classification, destinations and end uses; oﬀicial-language canonical reference; and
+frozen source artifact/hash. The April 4, 2025 MOFCOM/GACC Announcement No.18 covered specified
+samarium-, gadolinium-, terbium-, dysprosium-, lutetium-, scandium- and yttrium-related materials and
+required export licensing [R31]. November 7, 2025 Announcement No.70 suspended separately numbered
+measures 55, 56, 57, 58, 61, and 62 until November 10, 2026 [R32]. The April No.18 is not on that
+suspension list; treat it as operative on the research freeze unless a different superseding law is identified.
+That conclusion is an explicit inference, not a blanket legal opinion. Nd and Pr are central to magnet
+recipes, but the April measure cannot be summarized as a blanket prohibition of all Nd/Pr exports.
+The U.S. series begins with October 2022 advanced-computing/manufacturing restrictions, continues
+through October 2023 and 2024 refinements, the December 2024 controls of software, HBM and equip-
+ment, subsequent 2025 changes affecting foreign-owned fabs, and January 2026 advanced-chip licensing
+revisions [R26, R30]. The Netherlands' authorization requirement was expanded in April 2025, explic-
+itly not a categorical ban [R28]. Japan amended equipment controls covering 23 high-performance
+categories with implementation from July 2023 [R29]. The legal codebook must respect that allied
+rules are national actions and do not necessarily carry the same destinations, criteria or extraterritorial
+jurisdiction as BIS instruments.
+
+Minimum legal-event schema
+
+
+
+                                                      6
+Weaponizing Interdependence
+
+
+Field                                    Type / rule                      Why indispensable
+
+policy_id, instrument_id, version_id     Immutable string keys            Keeps amendment/suspension separate
+                                                                          from initial rule
+jurisdiction, issuer,                    Controlled categorical           Allied controls are not interchangeable
+official_language
+
+publication_date, effective_date,        ISO date, nullable               Legal timing versus public information
+end_date
+
+info_public_date, retrieval_timestamp,   Point-in-time traceability       No-lookahead backtests
+sha256
+
+technology_layer, product_code,          Many-to-many normalized          Specific ECCN / Chinese dual-use / Dutch
+legal_citation                           mapping                          / Japanese codes
+destination, end_user, end_use,          Scope fields                     Authorization depends on transaction
+person_scope
+
+license_requirement,                     Explicit coded values            Do not equate a license rule with
+review_presumption, exemption                                             prohibition
+status                                   Proposed / in force / stayed /   Correct historical treatment
+                                         repealed / superseded
+severity_ordinal, scope_coverage,        Separate measures                Severity score alone is not treatment
+confidence                                                                intensity
+source_id, adjudication_id               Foreign keys                     Source audit and disputed readings
+
+
+Pre-policy treatment exposure uses frozen 2021 or earlier weights, never quantities that may have
+changed because of the restriction. Because ECCNs and HS classifications are not one-to-one, maintain
+a manual technical crosswalk with uncertainty flags and source evidence. A HS heading alone cannot
+show whether the imported machine or chip is at the relevant controlled technology frontier.
+
+
+3. Rare-earth supply-chain accounting: objects, geography, and units
+
+3.1 Supply scope and critical element bookkeeping
+
+Fixed base basket: E = {Nd, Pr, Dy, Tb}. Preserve each element's identity through the physical
+network and publish element-level bottlenecks. A practical base geography B includes U.S. and agreed
+aligned consuming/processing jurisdictions; the membership table is a frozen input, not a verbal as-
+sertion that everything outside China is allied. Track three distinct properties: facility location,
+ownership/control (including ultimate parent), and feedstock origin. A processing facility in one country
+may require feedstock from another; Chinese-origin material processed in a friendly jurisdiction cannot
+be counted as wholly China-independent in a China-removal scenario. Alternate geographic definitions
+are published as sensitivities.
+Stages: s = 0 mineral extraction/concentrate, s = 1 separated element-specific oxide, s = 2 converted
+metal/alloy or magnet powder, and s = 3 finished qualified magnet. An oxide is not the same physi-
+cal object as a magnet. Raw native reported quantities include ore tonnes, mixed-REE oxide tonnes,
+contained Nd tonnes, mixed NdPr oxide tonnes, metal tonnes, alloy tonnes and finished magnet tonnes.
+Every source observation carries native_unit and product_basis; transformations occur only through
+a versioned recipe/conversion table with evidence and uncertainty. For example, an idealized Nd2 O3
+mass is not one-for-one Nd metal mass; conversion follows molecular weights and actual recovery. A
+
+
+                                                              7
+Weaponizing Interdependence
+
+
+new stage does not create additional contained rare-earth element. A recycling feed counts only at its
+external entry point; internal returns must not be added again as exogenous supply.
+Quarterly principal clock. Project statuses, shocks and output are evaluated at quarter end, but
+source events retain exact dates. Choose whether quarterly operating capacity means average quarter
+production or quarter-end run-rate; headline feasible supply is quarter-total output in tonnes of
+contained element, not an annual capacity divided ad hoc across studies. Store nameplate as reported
+per year and transform annual to a quarterly capacity ceiling using operating days/seasonality, such as
+C Q = C A /4 only under explicit uniform-calendar assumptions. Ramps then apply to attainable quarter-
+level capacity. Stockpiles are opening inventories with flow conservation and no free replenishment.
+
+
+3.2 Project-stage capacity before physical routing
+                                                native denote rated throughput or output, Ū
+For a project-stage activity a, quarter t, let Cat                                           at ∈ [0, 1]
+maximum achievable utilization, Ta independently verified commercial commissioning quarter, ra > 0 a
+ramp speed per quarter, and ωa,e the proportion or conversion into contained element e. The available
+stage activity bound is
+
+                                             
+                                        CaA
+                          q̄a,t =                 Ūa,t (1 − exp[−ra (t − Ta )+ ]) 1{t ≥ Ta },
+                                         4
+
+where (t − Ta )+ counts elapsed quarters. This makes activity zero before verified commissioning; an
+operational datum at quarter Ta may require a measured initial-ramp offset or a discrete observation rule
+if observed output is already positive. Do not use this ramp formula mechanically for activities
+with an immediate step-change: registered ramp classes include step, exponential, logistic and
+observed output trajectory, chosen by out-of-sample validation. For each facility at multiple stages,
+activities get different Ta , ra and input recipes. If installed nameplate changes after expansion, version
+capacity rather than silently replacing the earlier history.
+Useful discrete project states are A announced, F feasibility/permitting, I financing/financial investment
+decision, C construction, Q testing/commissioning, O operating, S suspended, X cancelled. Suspension
+is potentially reversible; cancellation may be absorbing absent an independently coded relaunch. FID is
+not commercial commissioning, and a company press release is not equal to independent confirmation of
+stable qualified output. Existing operating sites should be left-truncated or initialized in the risk state
+observed when reliable surveillance begins.
+
+
+3.3 A network-flow production model rather than stage totals
+
+Use a directed multi-commodity process-and-transport network.           A commodity is a pair k =
+(product form, e) where valid; for nonseparable alloy/magnet grades, keep a vector recipe rather
+than pretend every element can be independently manufactured. A physical site has one or more
+production activities a. Each unit of activity requires bak ≥ 0 units of commodity k and generates
+dak ≥ 0 output units of commodities. These coeﬀicients incorporate grade-specific recovery yields and
+stoichiometric conversion. Joint-product processes that yield multiple elements share the same activity
+variable, avoiding the common mistake of running independent Nd, Pr, Dy and Tb capacity at full
+nameplate simultaneously.
+
+
+                                                               8
+Weaponizing Interdependence
+
+
+Let qa,t ≥ 0 be activity throughput; Fh,k,t ≥ 0 be commodity flow on admissible transport edge h;
+Zv,k,t ≥ 0 be end-of-quarter inventory; Mv,k,t verifiable external imported supply (not already an edge);
+and dg,t ∈ [0, Dg,t ] quantity of final magnet service grade g served to bloc demand. For each node v,
+commodity k, quarter t, impose
+
+                                             X                  X                  X                  X
+              Zv,k,t = Zv,k,t−1 + Mv,k,t +           Fh,k,t +         dak qa,t −           Fh,k,t −         bak qa,t − Lv,k,t ,
+                                             h:h→v              a∈v                h:v→h              a∈v
+
+
+with nonnegative stocks, physically meaningful storage limits and Lv,k,t final-use deliveries. Finished
+grade demand satisfies 0 ≤ dg,t ≤ Dg,t , L corresponding to magnet quantities or application-service
+units. Process capacity: 0 ≤ qa,t ≤ q̄a,t . Routing: 0 ≤ Fh,k,t ≤ F̄h,k,t and unavailable edges fixed to
+                                           P
+zero. Shared machine/electricity limits:     a∈A(v) ϕa,r qa,t ≤ Rv,r,t for resource r. A magnet grade with
+required element mass θg,e consumes θg,e dg,t of that element, with appropriate other inputs, scrap/waste
+and recovery entered in activity matrices. Recipes may vary only within preregistered metallurgical
+feasibility bounds; arbitrary zero-Dy substitution is not assumed.
+Principal linear program, single quarter:
+
+
+          X         dg,t
+max            wg        ,   subject to all node balances, activity capacities, trade edges, grades, and inventories.
+q,F,Z,d
+          g
+                    Dg,t
+
+                     P
+Predefine wg ≥ 0, g wg = 1, using frozen priority/service weights. In a second lexicographic solve (fix
+primary maximum to within tolerance), minimize shipping and imported-input use to produce a deter-
+ministic preferred feasible allocation. Publish also the minimum fraction across strategically essential
+grades, ming∈G∗ dg,t /Dg,t , because weighted service can mask a single high-importance bottleneck. If
+all final services are substitutable across grades, record that technological assumption explicitly; other-
+wise keep separate demand bounds. For rolling forecasts, the multi-quarter optimization also constrains
+intertemporal inventory and cannot consume the same stockpile every quarter.
+Solver acceptance: all commodities nonnegative; every node balance residual below a unit-scaled tol-
+erance; no production above capacity; recovery never creates contained element; joint activity constraint
+never double counts mixed feed; row/column dimensional checks; predicted completed magnet grade is
+supported by upstream oxides, metals and alloy quantities. An LP infeasibility is a diagnostic; do not
+fill the gap by inserting unconstrained imported feed. Mixed-integer variables are warranted only for in-
+divisible plant on/off decisions or batch qualification, and complexity must be measured before choosing
+them as the headline model.
+
+
+3.4 Distinguish three resilience outcomes precisely
+
+The drafts used the word resilience for three different objects. The master fixes:
+
+1. Uncapped potential coverage Ck,t     raw = K feasible potential /D
+                                                 k,t                  k,t at a particular stage/product k. It
+   can exceed one; it describes surplus potential. Do not impose the unit interval on it.
+                                             P        (remove China)
+2. China-free deliverability YtCN0 =            g wg dg,t             /Dg,t ∈ [0, 1], with all country-of-
+   origin/control and routing exclusions explicitly implemented and demand fixed. This is the
+   primary game state mapping yt = YtCN0 for the U.S.-aligned bloc.
+
+                                                                 9
+Weaponizing Interdependence
+
+                                                                          P
+3. China-free-plus-one-outage robustness YtCN0,N−1 = minr∈RexCN g wg dg,t
+                                                                                (−China,−r)
+                                                                                            /Dg,t ∈ [0, 1],
+   with a single additional supplier r removed from all stages, edges and ownership links and the entire
+   LP re-solved. This is the main operational redundancy stress metric, and an alternative game
+   state in robustness analysis.
+
+The phrase ”China-free” does not mean ”non-Chinese downstream plant regardless of upstream feed-
+stock.” Demand Dg,t remains the same when supply is removed. Unlike a global IEA-style N-1 country-
+accounting convention that may remove both a country's supply and demand, the counterfactual here
+specifically asks whether the importing bloc's demand is serviceable after losing an external supplier.
+Geographical and ownership stress definitions must be shown side by side. A policy control scenario may
+license certain Chinese material instead of fully removing it; parameterize export approval fractions by
+product and time rather than treating controls as a deterministic full outage.
+Definition of worst-one-supplier: for each country-group or corporate control group r, simultaneously
+deactivate its upstream and downstream assets and aﬀiliated routing rights, then solve the alternative
+feasible flow problem. Never subtract the largest provider independently for every stage. If a supplier is
+only a transport/logistics provider, its affected edges are removed and nodes remain when appropriate.
+For uncertainty about ultimate ownership, compute adversarial upper/lower resilience scenarios; do not
+silently classify mixed-control sites.
+
+
+3.5 Fully traceable synthetic capacity example
+
+All figures in this paragraph are toy assumptions, not data. All amounts are tonnes of contained NdPr
+element per quarter, and the final product is defined in NdPr-contained-equivalent tonnes, so conversions
+are directly comparable. Supplier groups A and B have separation-oxide output ceilings 60 and 45,
+metal/alloy output ceilings 50 and 40, and finished magnets (contained-NdPr equivalent) ceilings 40 and
+35. Oxide-to-alloy element recovery is 0.90; alloy-to-finished-magnet element recovery is 0.95. Assume
+inter-group routing is feasible and enough other magnet constituents, energy and manufacturing inputs
+exist. Bloc final demand is 70 tonnes contained-equivalent per quarter. No inventory or other supplier
+exists.
+                              Available    Max alloy element after    Max magnet-contained     Deliverable service /
+Scenario              separated element     recovery and capacity                  element                 demand
+
+A and B functioning                105    min(90, 0.90 × 105) = 90   min(75, 0.95 × 90) = 75      min(75,70)/70 =
+                                                                                                            1.000
+Remove A from all                   45     min(40, 0.90 × 45) = 40   min(35, 0.95 × 40) = 35                 0.500
+stages
+Remove B from all                   60     min(50, 0.90 × 60) = 50   min(40, 0.95 × 50) = 40                0.5714
+stages
+
+
+The N-1 robust served fraction is min(0.5, 0.5714) = 0.5. The no-outage raw final-capacity coverage
+is 75/70 = 1.0714, while delivered service fraction is capped at one. These are different, compatible
+facts. Stage capacity sums (105 + 90 + 75) would be a categorical double-counting error. This ex-
+ample intentionally uses identical contained-element units; the production repository must test richer
+oxide/metal/magnet conversions and joint Nd/Pr/Dy/Tb recipes. Note that the actual LP may choose
+routing optimally; this simplified example is a closed-form test fixture for its maximum output, not a
+substitute for optimization in the real network.
+
+
+                                                         10
+Weaponizing Interdependence
+
+
+3.6 Data dictionary: project, activity and material-flow tables
+
+                                                        Source hierarchy and as-of        Validation and treatment of
+Key variable(s)                  Type / unit            requirement                       missing values
+
+project_id, facility_id,         Persistent strings     Corporate filings, oﬀicial        One activity per independently
+activity_id                                             permitting and commissioning      capacity-limited stage; entity
+                                                                                          resolution manual log
+site_country, owner_parent,      ISO3 / entity IDs      Audited subsidiaries, oﬀicial     Ambiguous beneficial control
+control_group, origin_group                             records, customs origin where     preserved as scenario
+                                                        available
+stage, product_code, element,    Versioned              Technical company documents,      Never silently convert product
+magnet_grade                     controlled             chemistry specs                   form
+                                 categories
+nameplate_native,                t/year or native       Audited annual report >           Missing nameplate remains
+capacity_basis, native_units     throughput             regulatory filing > company IR    missing with explicit
+                                                                                          capacity-interval prior
+oxide_to_element, composition,   Dimensionless /        Technical source/specification,   Hierarchical interval/posterior;
+yield                            interval               verified production evidence      reject wrong unit conversions
+commission_q,                    Quarter / bool         Audited operations and            Interval censor uncertain dates;
+verified_operating,                                     government filings                never overwrite old targets
+target_commission
+
+status, stage_age,               Categorical/date       Archived dated milestone          Dual source for subjective
+transition_date,                                        announcements                     milestones; competing-risks
+suspension_relaunch                                                                       interpretation
+ramp_speed, utilization,         1/quarter, fraction,   Filings and production data       Separate rated maximum from
+actual_output                    t/q                                                      realized production
+input_node, output_node,         IDs, t/q               Transport, offtake, licensing,    Missing route = unknown, not
+flow_commodity, max_route                               technical disclosures             zero or infinite; use scenario
+                                                                                          bounds
+inventory_open,                  t contained element Audited inventories where            Unknown treated with explicit
+inventory_close, stock_age                           obtainable                           bounds, not free supply
+demand_grade, magnet_recipe,     t/q, elemental         IEA                               Lock grade weights before
+strategic_weight                 fractions              demand/engineering/industry       outcomes; report interval
+                                                        scenario                          uncertainty
+announcement, FID, financing,    dates, USD real,       Government award, EDGAR,          Announced grants ̸= disbursed
+subsidy, offtake                 status                 exchange announcement             funds; signed ̸= aspirational
+                                                                                          MOU
+price_element, policy_event,     USD/kg, score,         Oﬀicial price series/archived     Source and date alignment; do
+spoi, geo_risk, tech_risk        controls               legal sources                     not claim opacity is identical to
+                                                                                          risk
+valid_date, info_public_date,    ISO date, hash         Every observation                 Exclude origin if information
+retrieval_date, source_sha256                                                             publication date not known
+
+
+Archive eligibility. All projects with at least one verifiable public announcement of an extrac-
+tive/separation/metallurgy/magnet capacity asset in the defined geography, and with usable project
+ownership/stage/date evidence, enter the candidate universe, including cancelled and delayed projects.
+Exclude purely speculative media mentions without a discoverable owner/site/capacity project identity
+from the statistical risk set but retain them in a nonqualifying discovery log. Do not remove projects
+ex post because they failed. Freeze eligibility rules and historical cohort definitions before fitting event
+histories. Expansion phases are separate capacity activities under the same project parent to avoid
+
+                                                             11
+Weaponizing Interdependence
+
+
+counting both original and expansion aggregate nameplate twice. Confidential deals are a coverage
+limitation, not evidence they did not occur.
+
+
+4. Project transitions, uncertainty, and rare-earth probabilistic forecasting
+
+4.1 Multistate competing-risks estimation
+
+Project j enters state a at quarter t. Let pj,a→b,t be the probability of transition a → b during that
+quarter, conditional on being in state a at the beginning. The main model is a discrete-time cause-specific
+hazard built from a shared competing-risk structure, with duration since state entry and calendar-quarter
+baseline:
+
+                                                              ′
+                    λj,a→b,t = exp{αab (agej,a,t ) + ζab,t + Xj,t−1 βab + ucountry + vstage }.
+
+
+A coherent joint-quarter categorical transition law is
+
+                                         λj,a→b,t                                            X
+         pj,a→b,t = {1 − exp[−Λja,t ]}            ,   pj,a→a,t = exp[−Λja,t ],     Λja,t =          λj,a→b,t .
+                                          Λja,t
+                                                                                             b̸=a
+
+
+This treats the λ's as piecewise-constant within-quarter cause-specific intensities; it ensures probabilities
+sum to one, unlike naively estimating many independent cloglog hazards and adding them. When
+only one transition is eligible, log[− log(1 − p)] = log λ, recovering the familiar complementary-log-log
+link. Do not permit impossible transitions (e.g., planned directly to commercial operation without
+evidence) unless retrospective reporting is represented as a separate observation model. Registered time-
+varying covariates include FID, committed financing, permit status, binding offtake, subsidy type, prices,
+input scarcity, equipment readiness, project age, revision/slippage, policy events, regulatory opacity and
+calendar shocks. Include country/stage random intercepts if sample permits. Correct for calendar
+clustering and common project group exposures.
+Right censoring: a project announced in 2025 and still building at the 2026 freeze has not failed just
+because it has no observed output. Interval censoring: operation publicly confirmed in September
+2024 after a December 2023 update may have commenced anywhere in between. Delayed public
+reporting: information about a March 2025 commissioning event published in June 2025 cannot be
+used in forecasts made in April 2025. Use the first independently public confirmation rather than
+retrofitting the true operating date to earlier vintages. Cancellation/long suspension: cancellation
+is a competing event; choose how long an indefinite suspension remains at risk using explicit rules. Fine–
+Gray may summarize cumulative incidence but its subdistribution hazard is not substituted mechanically
+as transition probabilities in the project simulator [R12–R13].
+Large technical projects are a small, heterogeneous population. Model complexity is limited by observed
+transitions, not by number of rows after quarterly expansion. Predefine a small covariate baseline, shrink-
+age or hierarchical pooling, and a protocol for dropping unidentifiable categories. Do not manufacture
+precise delay parameters if only a handful of refineries or metallization plants ever reached commercial
+operation.
+
+
+
+                                                        12
+Weaponizing Interdependence
+
+
+4.2 Sources of dependence and forecast uncertainty
+
+Separate at least four uncertainty levels: Θ project-transition model and estimation uncertainty; Zt
+common shocks (price, regulation, financing, technology, geopolitical block); Tjs , rjs , Ujs project-specific
+commissioning and ramp; and A, Y, θ physical network-routing, process yields, demand, recipes and
+inventories. Simulation draw d proceeds sequentially:
+
+                                                                        (d)
+1. Draw admissible model parameters and shared scenario path Zt , conditioned on information avail-
+   able at forecast origin o.
+2. Simulate every project's next allowed state, including suspension and cancellation, conditional on
+   common and idiosyncratic covariates; preserve ownership-stage correlations.
+3. Draw stage-specific commissioning, output qualification, ramp and utilization; treat a downstream
+   plant dependent on a shared upstream input as jointly exposed.
+4. Draw physically plausible yields, elemental mix, inventories and demand by grade; reject inconsistent
+   units/recipes and explicitly track data gaps.
+5. Solve the joint flow network in every quarter and under each registered policy/outage scenario, in-
+   cluding one-outage reruns.
+6. Record raw surplus coverage, capped served fractions, bottleneck identity, missing-input diagnostics,
+   and first-passage history.
+
+The Monte Carlo headline event is
+
+
+                              τhCN0,N1 = inf{q : Yq+i
+                                                   CN0,N1
+                                                          ≥ h for i = 0, 1, 2, 3},
+
+
+with h ∈ {0.5, 0.75, 0.9, 1}. Define the recognition date as quarter q + 3, the fourth confirmed quarter,
+not retrospectively represent q as public knowledge of future persistence. Reports must distinguish
+P (τh ≤ T ) from probability the four-quarter persistence has been verified by date T ; the latter requires
+q + 3 ≤ T . The forecast state and horizon always include the chosen distinction. If the theoretical ODE's
+target 1 is asymptotically unattainable from below for finite constant effort with positive depreciation,
+that is a property of the ODE, not evidence the physical LP cannot produce full quarterly service. Never
+use the ODE to overwrite a project simulation's physical first passage.
+                                                                   p
+Monte Carlo accuracy: for binary hitting probabilities require p̂(1 − p̂)/N ≤ 0.005 before stopping
+and account for effective sample size under correlated weighted draws. Report predictive 5/25/50/75/95%
+quantiles of completion dates including right-censored/no-crossing mass, not falsely finite medians. Re-
+port 50%, 80%, 95% uncertainty intervals for final physical throughput and bottleneck layer, and sen-
+sitivity to Chinese material present in allied plants. Baselines must include zero-new-build, announced-
+on-time, historical mean delay, linear trend, and aggregate logistic trend. If sophisticated model does
+not improve valid historical prediction, report that negative result.
+
+
+4.3 Historical-vintage backtests and correct scoring windows
+
+The data freeze is 2026-10-11, and future end dates are not yet observed. An as-of forecast reconstructed
+at origin o may use only records with info_public_date ≤ o. A revision published in 2025 about a 2021
+quantity may inform a 2025-origin fit but not a 2022-origin fit. Freeze training labels, project universes,
+
+
+                                                      13
+Weaponizing Interdependence
+
+
+covariates and model-selection decisions at each origin. The following endpoints are mechanically eligible
+subject to the actual outcome's release lag:
+
+Origin           +2-year endpoint              +4-year endpoint                    +6-year endpoint
+
+2016-12-31        2018-12-31: potentially       2020-12-31: potentially            2022-12-31: potentially
+                  scoreable                     scoreable                          scoreable
+2018-12-31        2020-12-31: potentially       2022-12-31: potentially            2024-12-31: potentially
+                  scoreable                     scoreable                          scoreable
+2020-12-31        2022-12-31: potentially       2024-12-31: potentially            2026-12-31: unobserved
+                  scoreable                     scoreable
+2022-12-31        2024-12-31: potentially       2026-12-31: unobserved             2028-12-31: unobserved
+                  scoreable
+2024-12-31        2026-12-31: unobserved        2028-12-31: unobserved             2030-12-31: unobserved
+
+
+A four-quarter sustained threshold observed through the endpoint may not be confirmed at the endpoint
+unless all four requisite quarters have elapsed. For an event defined by its start date, only confirm
+retrospectively if the final quarter has ended and the source has been published by freeze. Project-level
+hazard event counts usually permit more informative proper scoring than the handful of overlapping
+system-level rare-earth threshold realizations. Cluster/block-bootstrap by project parent and common
+calendar origin to avoid treating heavily overlapping forecasts as independent observations. Reliability
+diagrams on three or five system forecasts are descriptive at best; do not claim statistical calibration or
+tight confidence bands. Use Brier and log score for fixed-horizon events, CRPS and empirical interval
+coverage for continuous capacity, and time-dependent Brier/CIF calibration for commissioning risks
+[R17–R18]. Sample availability failures must be logged, not selectively discarded after seeing which
+forecasts were accurate.
+
+
+4.4 The actual turning-point deliverables
+
+The rare-earth chapter must produce: quarterly projects-at-risk inventory; achieved and anticipated ca-
+pacity by stage with credible intervals; graph of feasible element flows, not sums; demand assumptions and
+scenario registry; China-free service; China-free+N1 service; worst-hit supplier and stage/element/grade
+bottleneck; forecast P (τh ≤ T ) at 2028Q4, 2031Q4, 2035Q4; historical-vintage forecast scores relative
+to baseline; and the distribution of required financing, commissioning and offtake milestones. Define
+”China's chokepoint ended” only as a scenario-specific service adequacy finding; model cannot infer all
+geopolitical leverage is eliminated by crossing one physical threshold.
+
+
+5. Differential equations: viability threshold versus true bifurcation
+
+5.1 A deliberately reduced-form physical resilience ODE
+
+A useful aggregate approximation after the project model is
+
+
+                     ṙ = ηI(t)(1 − r) − δr,    0 ≤ r ≤ 1,     η > 0,     I ≥ 0,    δ ≥ 0.
+
+
+
+
+                                                    14
+Weaponizing Interdependence
+
+
+Here r is a normalized, bounded adaptation proxy, not the raw K/D ratio and not guaranteed to
+equal the network LP service fraction at every date. Model validation must compare the proxy to the
+latter: if residuals show systematic bottleneck shifts, use stage-specific states or discard the ODE as a
+physical forecast. For constant I, with A = ηI and λ = A + δ,
+
+                             A                                                    ∂ ṙ
+                     r∗ =       ,         r(t) = r∗ + [r(0) − r∗ ]e−λt ,               = −λ < 0.
+                            A+δ                                                   ∂r
+
+The interval is invariant: ṙ|0 = A ≥ 0 and ṙ|1 = −δ ≤ 0. For a threshold 0 < h < 1, a finite, upward
+crossing from r0 < h requires strictly r∗ > h, not merely equality. The suﬀicient and necessary constant-
+effort inequality is I > δh/[η(1 − h)]; if equality holds, the system approaches h asymptotically and never
+crosses it from below. The crossing time is
+
+                                               ∗     
+                                       1       r − r0
+                               Th =        log ∗        ,              r0 < h < r ∗ .
+                                    ηI + δ     r −h
+
+For δ > 0 and finite I, r∗ < 1: the exact target h = 1 is not attainable from below in finite time.
+Even with δ = 0 and I > 0, r(t) < 1 at every finite t starting below one. This mathematical limit is
+why the physical network's 100% service event and a bounded reduced-form ODE must be maintained
+as distinct objects. Re-labeling the ODE threshold ”tipping” does not establish multiple steady states
+or hysteresis.
+
+
+5.2 A genuine economic tipping model recovered from Draft 0
+
+Exploratory second model for adoption/completion propensity z ∈ [0, 1]:
+
+                                                                         1
+                            ż = κ{Λ(θ + βz) − z},           Λ(v) =           ,     κ > 0.
+                                                                      1 + e−v
+
+Interpret z as a normalized propensity for follow-on projects to be completed or financed, not as tonnes
+of actually constructed capacity. θ includes fundamentals such as prices, availability of public support,
+technological feasibility and measured opacity. β is a scale-dependent strength of endogenous positive
+feedback: existing network learning, qualified skilled labor, counterparties, offtakes, finance confidence
+or shared processing infrastructure may make later investments more likely. Under these normalizations,
+fixed points obey z = Λ(θ + βz), equivalently θ = log[z/(1 − z)] − βz.
+The fixed-point curve has stationary points when 1/[z(1 − z)] − β = 0. Since z(1 − z) ≤ 1/4, three fixed
+points are possible only when β > 4. For β > 4, fold coordinates are
+
+                                                                                
+                                         p                              z±
+                        z± = 12       1 ± 1 − 4/β ,          θ± = log                  − βz± .
+                                                                      1 − z±
+
+The two outer fixed points are stable when βz(1 − z) < 1; the middle point is unstable when βz(1 −
+z) > 1. The exact θ interval supporting three fixed points is between the two fold values (ordered
+numerically). Hysteresis requires θ to change through the folds without other structural rules invalidating
+the model. Example: β = 5 gives z− ≈ 0.2764, z+ ≈ 0.7236. This threshold is a property of a
+
+                                                        15
+Weaponizing Interdependence
+
+
+specifically normalized logistic interaction, not a universal industrial tipping coeﬀicient. More
+robust parameterizations have other critical values.
+Empirical test plan. Predict later financing/commissioning transitions conditional on previously estab-
+lished regional/stage-relevant operating supply-network density and interaction with financing/support;
+report correlated regional shocks, spatial contagion, and endogenous project siting as alternative ex-
+planations. Fit a hierarchical discrete-choice/transition model with frozen exposure windows and as-of
+observed network density; simulate the implied aggregate Λ(θ + βz) only if its micro-to-macro assump-
+tions are tenable. Estimate P (β > 4 | D) or a confidence region; compare monotonic non-tipping
+alternatives and out-of-sample predictions. A large estimated positive β without adequately controlled
+location selection, state dependence, and common macro factors does not show causal tipping. If the
+estimated β ≤ 4 or no robust feedback is present, conclude that forecast project buildout is gradual
+rather than hysteretic. This is a legitimate and publishable negative outcome.
+
+
+5.3 Shock propagation does not automatically imply coordination tipping
+
+The material LP already permits physical cascading shortages: losing oxide feed can propagate
+to alloy then magnet output through conservation constraints. Reserve a separate, optional finan-
+cial/expectational contagion network for observed common financiers, technology licensors and offtake
+                                                                        P
+partners. For node i, a stylized threshold response is vi,t+1 = 1{ai + j wij vj,t ≥ ci }. This is a con-
+ceptual mechanism; it cannot be calibrated faithfully without a substantial directed exposure map. A
+local linear approximation rt+1 = Art + εt amplifies perturbations when the spectral radius ρ(A) > 1
+in that linear system, but neither calculation makes a physical LP outage a behavioral contagion event.
+The rare-earth empirical study should not expand into an unrelated bank/financial crisis research paper
+merely because Draft 0 surveyed that literature. The key additional question is whether the success of
+one real industrial project causally makes subsequent projects more viable.
+
+
+6. Semiconductor controls, foreign access, and indigenous capability
+
+6.1 Define a target, not an abstract national 'technology level'
+
+A well-defined semiconductor target is a vector of uses/performance requirements and production steps.
+Before measuring anything, register a strategic target architecture a: advanced-node logic with a specified
+production-volume, energy/performance, reliability, yield and memory/packaging envelope. Different
+targets (e.g., advanced AI compute, military aerospace, mature automotive controllers) require different
+technology stacks and may not have the same weakest link. Do not infer advanced-chip capabilities
+from aggregate integrated-circuit unit production or from patent counts. Avoid a single national ”nm”
+measure spanning different foundries, architectures and yield rates.
+Registered layer set L: (1) design automation, verification and essential design/process intellectual
+property; (2) lithography and critical masks; (3) deposition, etch, ion implantation and annealing; (4)
+metrology/inspection, cleaning and process control; (5) qualified advanced foundry integration and com-
+mercially usable yield/throughput; (6) relevant advanced memory/HBM; and (7) advanced packaging,
+interconnect and integration. A target may require only a subset (e.g., HBM may not bottleneck all
+products); set L(a) separately and before observing outcome. The data must be granular enough to
+
+
+
+                                                    16
+Weaponizing Interdependence
+
+
+distinguish indigenous production of critical layers from temporary foreign equipment already installed
+or parts sourced abroad.
+For each ℓ, a, t, record distinct bounded states: zℓ,a,t ∈ [0, 1], demonstrated domestic capability
+toward that fixed target; fℓ,a,t ∈ [0, 1], foreign capability still accessible and usable under contempora-
+neous rules and commercial/logistical constraints; and aℓ,a,t ∈ [0, 1], effective availability. The principal
+illustrative combination is
+
+
+                        aℓ,a,t = 1 − (1 − zℓ,a,t )(1 − fℓ,a,t ) = zℓ,a,t + (1 − zℓ,a,t )fℓ,a,t .
+
+
+The formula assumes foreign access can fill the portion of the target not achieved domestically. This
+is a substitutability approximation, not an engineering identity for every production step. Where
+domestic and foreign inputs are complementary rather than substitutes, estimate a target-specific pro-
+duction possibility function aℓ,a,t = Hℓ (z, f ; ψℓ ), potentially min{z, f } or a constrained recipe. Publish
+both and flag layers where the simple formula is unjustified. The strict bottleneck targets are
+
+                               domestic                         effective
+                              Sa,t      = min zℓ,a,t ,         Sa,t       = min aℓ,a,t .
+                                           ℓ∈L(a)                            ℓ∈L(a)
+
+
+These serve two different questions: what can China make indigenously? and what can the target
+production system obtain at present? Only domestic capability is mapped to the slow Chinese
+adaptation game state xt , because the immediate legal access shock should not be misidentified as
+delayed learning. A differentiable harmonic/soft-min is a computational sensitivity, not the descriptive
+                                                 P
+standard. Define, for positive zℓ + ϵ, Sq (z) = [ ℓ wℓ (zℓ + ϵ)−q ]−1/q , and optionally remove the ϵ bias
+with a documented correction or use a smooth log-sum-exp approximation. Pre-register weights and q;
+don't retune them to fit policy outcomes. The literal min must remain reported.
+
+
+6.2 Frozen legal-intensity map and exposure
+
+Let Cr,ℓ,a,t ∈ {0, 0.25, 0.50, 0.75, 1} be an ordinal severity coding for restriction by jurisdiction r, layer
+ℓ, target/user a, quarter t, with anchors: 0 no special control; 0.25 documentation/limited permission;
+0.50 individual application with meaningful possible approval; 0.75 broad authorization with restrictive
+review; 1 functional denial or near-prohibition for the specified transaction. Separately code item cover-
+age and share of supplier-dependent target input; do not assert a 0.75 rule creates exactly 75% supply
+loss. Denote frozen pre-2022 dependence shares wrℓa   0   summing to one for relevant foreign supply. The
+                                                 P 0
+dimension-reduced legal exposure is Cℓat =         r wrℓa Crℓat . It is a legal treatment index whose oper-
+ational meaning requires empirical validation against actual access. Record direct-denial rules, FDPR
+applicability, U.S.-person restrictions, national-rule exemptions, licenses, servicing restrictions and main-
+tenance/parts separately.
+Identification risk: rules target strategically advanced firms and products; simple treated-versus-
+untreated comparisons can reverse causality. Only within a well-defined overlapping firm/product risk
+set can staggered event-study comparisons support conditional causal interpretations. Anticipatory pur-
+chasing before controls means the effect at publication may differ from the effect at legal entry into force.
+Public reports of illegal transshipment, licenses or underreported shipments have severe selection and
+observability limits. Don't classify a high observed import series as proof the legal regime is ineffective
+without checking whether technology, vintage and end use were actually controlled.
+
+                                                          17
+Weaponizing Interdependence
+
+
+6.3 Strong operational evidence anchors for z and f
+
+Use a versioned evidence adjudication scale for domestic capability at every layer/target. Base anchors
+are 0 no independently verified domestic qualifying capability; 0.25 laboratory/prototype or unqualified
+isolated system; 0.50 qualified limited commercial operation below frontier or limited throughput; 0.75
+repeatable substantial production approaching the registered target with material capacity constraints;
+1 independent evidence of the specified target quality, repeatability and throughput. Only assign a score
+when a source supports the specific target; a 0.75 in one frontier year is not automatically 0.75 after
+changing requirements. Maintain fixed-target and moving-frontier versions, with the difference itself
+reflecting technological obsolescence.
+                                                                                  Low-quality proxies (never suﬀicient
+Layer                    Highest-value capability observations                    alone)
+
+EDA/design IP            Verified production tapeouts for registered class;       Software announcement; patent family
+                         functioning sign-off, verification and IP ecosystem      count
+Lithography              Qualified wafer layer critical-dimension capability,     Installed tool count; lab resolution claim
+                         stable overlay and throughput at target
+Etch / deposition /      Qualified share of critical process steps at target      General machinery shipments; import
+implantation             yield and repetition; reliability                        value
+Metrology / inspection / Qualified measurement/defect-control throughput          Inspection-equipment import aggregate
+clean                    to sustain process yield
+Foundry integration      Repeatable commercial yield, target-node volume,         Announced nm label; gross wafers
+                         qualification for specified chip
+HBM/advanced memory      Usable memory bandwidth, stacks, yields and              Aggregate DRAM unit production
+                         compatible product qualification
+Advanced packaging       Qualified package scale, interconnect density,           Patent filings or demo package
+                         thermal/yield and production availability
+
+
+For foreign access f , triangulate authorized shipments, licensing rules, supplier disclosures, installed
+equipment and maintenance, inventory drawdown, partner substitution, and evidenced ability to use
+imported systems. Treat confidential licenses and diversion as partially unobservable; report bounds.
+Negative evidence (no disclosed indigenous tool) means ”unverified” rather than proof zero capability
+when public disclosure is systematically selective. Each rating record has as_of, source_id, coder,
+confidence, target_version, and a written evidence memo. Two coders adjudicate borderline functional
+scores.
+
+
+6.4 Keep negative policy effects and physical state bounds compatible
+
+Previous drafts simultaneously allowed θℓ < 0 in a linear investment pipeline and assumed pℓ ≥ 0, which
+is invalid unless explicitly constrained. Fix this by distinguishing signed policy effects on effort from
+nonnegative realized effort. For the layer-level adaptation model use
+
+
+                        ṗℓ = κℓ {Jℓ (Cℓ , Xℓ ) − pℓ },      żℓ = [gℓ + ηℓ pℓ ](1 − zℓ ) − δℓ zℓ ,
+
+where κℓ > 0, gℓ ≥ 0, ηℓ ≥ 0, δℓ ≥ 0, and the realized nonnegative effort intensity is
+
+
+        Jℓ (C, X) = Jmin,ℓ + softplus(αℓ + θℓ C + X ′ βℓ ),          softplus(v) = log(1 + ev ),       Jmin,ℓ ≥ 0.
+
+                                                           18
+Weaponizing Interdependence
+
+
+Choose and document effort units and normalization (e.g., investment/R&D intensity relative to an
+ex ante baseline). θℓ is sign-unrestricted. If negative, greater restrictions can reduce effort, but
+cannot make realized physical investment negative. With pℓ (0) ≥ 0, the pipeline stays nonnegative
+because its target is nonnegative. zℓ ∈ [0, 1] is forward invariant: at zero, żℓ = gℓ + ηℓ pℓ ≥ 0; at one,
+żℓ = −δℓ ≤ 0. The physical conversion eﬀiciency ηℓ and policy-on-effort elasticity θℓ are different
+parameters and should not be conflated. If sanctions also impair learning directly (equipment service
+withheld, knowledge network disrupted), register a second nonnegative inhibitory channel in η or δ, with
+sign estimates informed by evidence. The softplus response and its elasticities are models to estimate,
+not empirical findings.
+Alternative transparent parameterization: use a log-link Jℓ = J0,ℓ exp(θℓ C + X ′ β) when J0,ℓ > 0;
+it has identical positivity and sign properties but stronger multiplicative assumptions. Compare out-
+of-sample, monotonicity/curvature and effect sizes before choosing. The game below uses a normalized
+policy-adaptation rate function, not unscaled dollars or patent counts.
+
+
+6.5 Two-step empirical program
+
+Step A: immediate access effect. Define firm-by-product/month and destination-layer panels from
+oﬀicial customs/trade, firm financials, regulation/event mappings and supplier reports; outcome variables
+can include log(1+quantity), real unit value, inventory, non-coalition sourcing share, equipment service
+continuity, and well-documented legal license approvals. Use exposure frozen pre-policy and distinguish
+publication from implementation. The pre-registered estimation estimand is group-time ATT for first
+treatment Gi = g, ATT(g, t) = E[Yt (1) − Yt (0) | Gi = g], under conditional parallel trends with
+matched or not-yet-treated controls, if the treatment design supports it. Estimate cohort-time effects
+with Callaway–Sant'Anna or an appropriate Sun–Abraham implementation, not a naive heterogeneous-
+treatment TWFE lead/lag alone [R14–R15]. Cluster by treatment assignment (firm parent/sector where
+appropriate), allow event clustering, and use wild/bootstrap or randomization checks if few treated
+clusters. Plot pretrends, leads, overlap and attrition. If exposure is continuous, consider dose-specific
+designs [R16] rather than interpreting an ordinal 0/0.25/… index as exact physical dosage.
+Step B: delayed domestic adaptation. Outcomes are separately R&D spending, capex, training,
+quality-adjusted patent families, qualified tool substitution, process yields, and evidence-coded capability
+z. The effects may have different signs and lags; e.g. spending can rise as actual frontier capability stalls.
+Pre-register windows of 0–6, 6–12, 12–24 and >24 months, subject to realized observability. A positive
+effect on R&D is not a positive effect on z. Model dynamic capability levels using the bounded state
+law and a measurement equation for the coarse 0/0.25/… ratings with coder uncertainty. If capability
+data are too thin, do not pretend to identify ηℓ structurally: report estimated effort responses, observed
+milestones, and scenario intervals for the conversion into functional capability.
+Threats to causal interpretation: selection into Entity List treatment; treatment anticipation; simul-
+taneous Chinese industrial subsidies; COVID/global cyclical equipment shortages; direct effect of U.S.
+rules on American supplier revenue and R&D; policy spillovers to ostensibly untreated Chinese firms;
+heterogeneous treatment timing; globally moving technology frontier; record-based selection; and non-
+equivalent HS/technology crosswalk. Mitigation requires contemporaneous controls, event-time placebos,
+technology negative-control groups, exposure perturbations, sensitivity to Chinese subsidy announce-
+ments, and candid limits on causal language.
+
+
+
+
+                                                     19
+Weaponizing Interdependence
+
+
+6.6 Semiconductor forecast schedule (release-lag conditional)
+
+Origin                                 +6 months        +12 months                           +24 months
+
+2022-12-31                               2023-06-30     2023-12-31 possible                  2024-12-31 possible
+                                         possible
+2023-12-31                               2024-06-30     2024-12-31 possible                  2025-12-31 possible
+                                         possible
+2024-12-31                               2025-06-30     2025-12-31 possible                  2026-12-31 unobserved
+                                         possible
+2025-12-31                               2026-06-30     2026-12-31 unobserved                2027-12-31 unobserved
+                                         possible
+
+
+”Possible” means the end date is before the data freeze, not that every necessary datum was actually
+published by then. A machine-checkable availability mask must check outcome public-release dates
+and target-version matching before scoring. Because the post-2022 observation window is short, forecasts
+should be short-horizon and clearly separate event-study estimation from predictive capability scores.
+Uncertainty intervals for latent capability must incorporate coder and source uncertainty; binary licensing
+policy changes alone do not establish technology substitution.
+
+
+6.7 Semiconductor data dictionary
+
+Fields                 Units/frequency                Source / extraction logic           Important limitation
+
+policy_id, eccn,       rule/event-date                BIS EAR/Federal Register;           English summaries are not always
+national_control_c                                    METI oﬀicial controls; Dutch        definitive law
+ode, jurisdiction,                                    government orders
+scope, review, FDPR,
+in_force
+
+frozen_dependency_     normalized share               2021/pre-shock supplier/firm        Exposure may be unobserved or
+w, base_year,                                         dependence                          proprietary
+supplier
+
+layer,                 categories/text                frozen technical specification      Moving frontier must be
+target_version,                                       and product evidence                separately versioned
+architecture,
+evidence_memo
+
+z_capability,          0–1 quarterly                  source-adjudicated functional       Proxy measurement, uncertainty
+f_foreign_access,                                     tests and shipment/licensing        and substitutability assumptions
+a_effective                                           evidence
+firm_parent,           ID/date                        BIS listings + securities filings   Sanctions are selected, not
+firm_id,                                                                                  random
+entity_list_event,
+treatment_cohort
+
+r_and_d, capex,        real currency, q/y             audited SEC/exchange filings        Cross-currency conversion; parent
+government_support,                                   and oﬀicial grants                  subsidiary duplication
+inventory
+
+exports_value,         USD, kg/units, month           USITC DataWeb; UN                   HS ̸= ECCN; shipment quantities
+imports_quantity,                                     Comtrade; customs                   often incomparable
+hs_version, crossw
+alk_confidence
+
+
+
+                                                           20
+Weaponizing Interdependence
+
+
+Fields                Units/frequency           Source / extraction logic        Important limitation
+
+patent_family,        count/quality, event      WIPO PATENTSCOPE and             Patents are an activity indicator,
+citation_quality,                               patent oﬀices                    not proof of industrial mastery
+ipc_cpc,
+priority_date
+
+frontier_target,      tech metric / q           filings, independent technical   Sparse public verification
+qualified_yield,                                reports where admissible
+qualified_volume
+
+valid_date,           date/hash                 immutable source archive         Without as-of date, not
+info_public_date,                                                                admissible to hindcast
+source_hash, coder,
+confidence
+
+
+
+
+7. Strategic Policy Opacity Index: measurement rather than imputed intent
+
+7.1 Separate observability from the unobserved strategic motive
+
+Woods [R03] explores a dynamic signaling mechanism in which Chinese information policy affects be-
+liefs and diversification. The present study must not turn that theory into a presupposition that every
+missing statistic was withheld deliberately. SPOI measures the objective information conditions
+facing an external investor: timeliness, completeness and precision of relevant public information,
+licensing transparency, legal lead time, unexplained material policy reversals and regulatory consistency.
+It does not identify a policymaker's intent to deceive. Technological unknowns Tt and generic geopo-
+litical/market volatility Gt are separate controls, and technology-related missingness without an insti-
+tutional disclosure obligation is not automatically ”strategic opacity.” Build jurisdiction × policy-sector
+daily event panels; the primary empirical score is China/rare-earth-related policy opacity, with the
+U.S./semiconductor version a separately coded comparison.
+
+
+7.2 Locked ten-indicator codebook and meaning of 0–4
+
+Higher ordinal values mean less observability, anchored by prespecified thresholds. If an institutional
+obligation has no objective baseline, score not applicable (NA with reason), not 4. A score of 0 is
+aﬀirmative measured timeliness/precision, not a guess that no problem exists.
+
+
+
+
+                                                    21
+                                                                                                                                             Weaponizing Interdependence
+     Code   Measurement universe / anchor                 0               1         2                    3            4
+
+     O1     Mandatory scheduled disclosure lateness       by due date     1–30 d    31–90 d              91–180 d     >180 d / absent
+                                                                                                                      next reporting cycle
+     O2     Fraction of required fields missing from a    ≤5%             >5–15%    >15–30%              >30–50%      >50%
+            scheduled release
+     O3     Core export-license statistics available      ≥90%            70–<90%   50–<70%              25–<50%      <25%
+            (applica-
+            tions/approvals/denials/pending/processing
+            time), only if expected
+     O4     Public-policy announcement-to-effective       ≥90 d           60–89 d   30–59 d              7–29 d       <7 d / retroactive
+            lead time
+     O5     Fraction of 4 legal scope fields explicit:    4/4             3/4       2/4                  1/4          0/4
+            product, target/use, procedure, review
+            criteria
+     O6     Lead time before material adverse reversal    none or ≥90 d   60–89 d   30–59 d              7–29 d       <7 d / retroactive
+     O7     Still unresolved oﬀicial-source               none            1 minor   1 material / 2 minor 2 material   ≥3 material /
+            inconsistencies (classified by materiality)                                                               material no
+                                                                                                                      resolution
+22
+
+
+
+
+     O8     Fraction of scheduled/obligatory releases     0%              >0–10%    >10–25%              >25–50%      >50%
+            entirely absent
+     O9     Share of reported throughput/capacity         ≥90%            70–<90%   50–<70%              25–<50%      <25%
+            publicly classifiable by stage/product
+     O10    Count of material legal amendments in         0               1         2                    3            ≥4
+            prior rolling 90 days
+Weaponizing Interdependence
+
+
+Denominators are indispensable. O1, O2 and O8 rely on a dated release calendar with a docu-
+mented duty or announced regular publication; O3 relies on a documented statistical series or duty to
+disclose. O9's total consists of a frozen universe of oﬀicially documented capacity/output records, not
+unobservable plants inferred by the researcher. If the expected denominator cannot be established, mark
+NA. O4/O6 measure actual public policy-event lead times, not volatility in news coverage. O7
+requires written materiality rules; two coders cannot improvise ”contradiction” after seeing project out-
+comes. O10 excludes purely typographical corrections. O1 and O8 overlap but measure different degrees
+of lateness/completeness: explicitly assess redundancy in construct validity tests.
+
+
+7.3 Deterministic daily update and no-event rules
+
+The earlier drafts left event scores undefined in quarters with no new announcement. This edition fixes
+the daily algorithm:
+
+• Scheduled disclosure stocks (O1, O2, O3, O8, O9): calculate from the set of active known
+  obligations at day d. O1 accumulates days overdue from the original due date. After release, retain
+  its most recent disclosed completeness and lateness score only until the next scheduled release or a
+  declared report-observation window ends. Define the principal reporting window as current active
+  period, with all due series separately observed; if no required series exists for an indicator, return
+  NA, not an imputed zero. O8 is a rolling 365-day share of scheduled releases entirely missed by
+  each due-plus-grace checkpoint (grace 30 days principal; 0/90 sensitivity). O9 is computed from the
+  contemporaneously public stage-granular series, not from ex post actual production.
+• New-policy shock O4: on the first public release of a substantive policy with a known effective
+  date, compute calendar-day lead time max(0, effective − publication), with retroactivity placed in 4.
+  The daily policy-shock score equals the worst still-active event whose public-release date lies in the
+  previous 90 days. If none, O4=0, interpreted only as no recent lead-time shock, not as a claim every
+  latent policy is transparent. Sensitivity windows: 30, 180 days, plus exponential decay. A future
+  effective date never makes information retroactively public.
+• Current legal rule O5: the scope clarity score of currently effective policy instruments persists
+  until an instrument is clarified, expires or is superseded. If multiple simultaneously active rules exist,
+  compute the weighted worst or exposure-weighted mean using frozen pre-exposure weights and
+  publish the aggregation selected in advance; report individual instrument scores alongside the mean.
+  No rule with no public record is not necessarily 0; document the coverage universe and score NA if it
+  cannot be determined.
+• Material reversals O6: on public announcement of an adverse reversal, compute the warning gap
+  from publication to the change's effective date, and keep the event's severity for 90 days from the
+  later of publication and effective date (with no retroactive leakage). Without a qualifying reversal in
+  the window O6=0. A reversal quietly anticipated in markets but not publicly announced does not
+  earn an invented warning date.
+• Unresolved conflicts O7: material oﬀicial contradictions persist only while unresolved and for a
+  preregistered 90-day post-resolution impact window; code the originating evidence. No known conflict
+  after an actual adjudication process means O7=0; missing search coverage means NA.
+• Rolling churn O10: count independent material amendments with public-effective status in (d −
+  90, d], de-duplicating amendments across agencies when one instrument is substantively one interven-
+  tion. No events means 0.
+
+
+                                                    23
+Weaponizing Interdependence
+
+
+For each day compute pillar scores only from observed indicators:
+
+              1                                      1                                1
+       Dd =     mean(O1, O2, O3, O8, O9),     Pd =     mean(O4, O6, O10),      Ld =     mean(O5, O7).
+              4                                      4                                4
+
+The principal daily index is SPOId = 100(0.40Dd + 0.35Pd + 0.25Ld ). A day is valid only if ≥8 of 10
+indicators observed, including ≥3 of 5 disclosure indicators, ≥2 of 3 predictability indicators and ≥1 of
+2 legal clarity indicators. Daily NA is not silently redistributed across pillar weights: normalize
+each pillar by its observed denominator if valid and record coverage. The principal quarter score is the
+average across valid calendar days, requiring at least 80% of days in the quarter to qualify, and reporting
+coverage as a separate outcome. Also report quarter maximum as event-shock intensity, number of legal
+events and indicator counts. If quarterly coverage is <80%, return missing headline SPOI rather than
+LOCF or midpoint imputation. Regression models should use lagged SPOIq−1 to reduce mechanical
+simultaneity with project transitions, unless a publication-date event-study estimand requires a daily
+contemporaneous event.
+
+
+7.4 Two full synthetic scores, reliability and missingness
+
+Illustrative opaque-quarter daily constant vector (O1, . . . , O10) = (1, 2, 4, 4, 1, 3, 1, 2, 2, 3). The
+normalized pillar scores are D = (1 + 2 + 4 + 2 + 2)/(5 × 4) = 0.55, P = (4 + 3 + 3)/(3 × 4) = 0.833333,
+L = (1 + 1)/(2 × 4) = 0.25; therefore SPOI = 100(0.40 × 0.55 + 0.35 × 0.833333 + 0.25 × 0.25) = 57.4167.
+If this exact vector persists every day, the quarterly mean is 57.4167; this is not a coded historical
+quarter.
+Illustrative transparent-quarter vector (0, 1, 2, 1, 0, 1, 0, 0, 1, 1). Then D = (0+1+2+0+1)/(5×4) =
+0.20, P = (1+1+1)/(3×4) = 0.25, L = (0+0)/(2×4) = 0; index = 100(0.40×0.20+0.35×0.25) = 16.75.
+The labels only describe the relative synthetic scores; they make no claim about policy intent.
+Reliability: double code O5, O6, O7 and a stratified sample of every other item; coders are blind
+to eventual project performance. Before full coding, preregister a target weighted Cohen κ ≥ 0.75 for
+subjective categories and publish raw agreement and confidence intervals. If κ fails, revise the codebook,
+document the revision, independently recode, and prevent overfitting code definitions to investment
+outcomes. When statistical staff cannot access a scheduled source or determine an obligation, tag
+researcher-missing with reason; do not transform into highest opacity. Report alternative weighting and
+factor model separately. Validate against predictable dimensions (published license statistics, objective
+warning windows) and negative controls (irrelevant policy sectors); control for common calendar risk and
+source digitization trends.
+
+
+7.5 Estimation of opacity drag and 'overreach'
+
+Let ot = SPOIt /100, Sjt contractually documented government de-risking support, and Tt , Gt indepen-
+dent technological uncertainty and geopolitical/market uncertainty. In a registered project transition
+cause-specific intensity include
+
+                                                                                                 ′
+        log λj,a→b,t = αab (age) + β1 ot−1 + β2 o2t−1 + βS Sjt + βOS ot−1 Sjt + βT Tt + βG Gt + Xjt γ.
+
+For commissioning/progression, negative β1 and positive β2 may imply an ”overreach” reversal at
+o∗ = −β1 /(2β2 ); do not report a meaningful turning point unless β2 > 0, o∗ lies within the observed
+
+                                                     24
+Weaponizing Interdependence
+
+
+support (ideally 5th–95th percentile), uncertainty bands exclude key opposite patterns, and alternative
+nonparametric shapes/missingness rules do not overturn it. Government support is not randomly as-
+signed; the interaction is descriptive/conditional without a credible instrument or natural experiment.
+Stratify decisions by financing initiation versus successful commissioning: opacity could increase hedg-
+ing announcements while decreasing physical completion, and a single hazard coeﬀicient would
+obscure that distinction.
+A theoretical investment heuristic I(O, G) = I0 + γG − aO + bO2 + hOG is useful for deriving hypotheses
+but can be negative. For physical simulations use either I = max(0, I0 + γG − aO + bO2 + hOG) and
+acknowledge its kink or I = softplus(I0 + γG − aO + bO2 + hOG), with observation-scaled covariates.
+A positive fitted quadratic is insuﬀicient to prove strategic nondisclosure; the SPOI is observability,
+and identification of intent needs separate credible archival evidence or a partially observed signaling
+model. Woods' illustrative numerical probabilities must never be presented as actual estimated resilience
+forecasts.
+
+
+8. Reciprocal dynamic game: coherent, bounded and empirically anchored
+
+8.1 Meaning of every variable and time unit
+
+The empirical problems are not mirror images, but the final reciprocal game should be as small as possible
+while retaining the strategic feedback:
+
+• u(t) ∈ [0, 1]: standardized U.S.-led semiconductor restriction policy intensity, anchored to a frozen
+  policy basket and observed U.S./allied legal severity; one unit is not ”100% of all Chinese chip imports
+  prohibited.”
+• c(t) ∈ [0, 1]: standardized Chinese restriction intensity on the defined magnet-REE product/service
+  basket, allowing licensing, partial approval and scope changes.
+• x(t) ∈ [0, 1]: China's slow-moving, domestically produced functional semiconductor substitutability
+  for the registered stack, anchored to xobs
+                                         t   = minℓ∈L(a) zℓ,a,t with measurement uncertainty and a
+  differentiable alternative.
+• y(t) ∈ [0, 1]: U.S.-aligned China-free magnet-service resilience, anchored to the LP-delivered share
+  YtCN0 ; the stronger YtCN0,N1 is a separately estimated robustness version.
+• m(t), n(t) ∈ [0, 1]: dimensionless delayed policy-exposure/adaptation pipelines caused by u, c, respec-
+  tively; neither is physical dollar investment and both should not be fitted as observed production.
+
+Continuous game time t is in years; quarterly empirical data are mapped via ∆t = 0.25 years. All
+g, δ, κ, ρ are per year; β parameters below are dimensionless per unit normalized pipeline. Normalized
+payoff units are discounted utility or chosen monetary equivalents per year. All numerical values later
+specified are hypothetical examples unless explicitly backed by an empirical estimate.
+
+
+8.2 Fixing the inherited mathematical inconsistency with sign-free responses
+
+The common form in Draft 5, ẋ = gC + bC m − δC x, is not constrained to [0, 1]: at x = 1, its derivative is
+gC +bC m−δC , which may be positive. Draft 5's fixed-policy state equilibrium was mistakenly taken from
+
+
+
+                                                    25
+Weaponizing Interdependence
+
+
+a different saturating equation. The master chooses one coherent law, with a nonnegative growth
+rate even when sanctions suppress domestic adaptation:
+
+
+                          ṁ = κC (u − m),                              ṅ = κU (c − n),
+                          ẋ = GC (m)(1 − x) − δC x,                     ẏ = GU (n)(1 − y) − δU y,
+                    GC (m) = gC exp(βC m),                         GU (n) = gU exp(βU n).
+
+
+Primitive restrictions: κC , κU > 0, gC , gU > 0, δC , δU ≥ 0; βC , βU ∈ R are sign-unrestricted. A
+negative βC means U.S. controls reduce the effective growth/learning rate of Chinese domestic capability
+(relative to the baseline), without asserting that technical effort becomes negative. Positive βC means
+controls accelerate it. The main game still allows a zero response βC = 0. A negative βU similarly means
+Chinese restrictions impede allied diversification rather than induce it. In applications where a linear
+growth function is empirically preferred, GC (m) = gC + bC m may be used only with explicitly tested
+gC + min(0, bC ) ≥ 0 and analogously for the other player. Do not splice that linear function into an HJB
+derived for an exponential function without recomputing derivatives and steady states.
+Invariance proof. At m = 0, ṁ = κC u ≥ 0, and at m = 1, ṁ = κC (u − 1) ≤ 0. Same for n. At
+x = 0, ẋ = gC eβC m > 0; at x = 1, ẋ = −δC ≤ 0. Same for y. The vector field is locally Lipschitz on the
+compact hypercube; by the inward-pointing boundary condition, [0, 1]4 is forward invariant for admissible
+measurable policies u, c ∈ [0, 1]. The game cannot generate negative measured capability or above-unity
+resilience by integration if the numerical method preserves positivity and the solver diagnostics test it.
+Finite differences in a value-function solver must also enforce state-constrained, inward-looking stencils
+rather than arbitrary zero-value Dirichlet conditions.
+Fixed controls: if u, c are constant, m∗ = u, n∗ = c and
+
+                                             g C e βC u                             g U e βU c
+                              x∗ (u) =                    ,         y ∗ (c) =                    .
+                                         g C e βC u + δ C                       g U e βU c + δ U
+
+The fixed-policy Jacobian is block triangular (after ordering pipelines before states) with eigenvalues
+−κC , −κU , −[gC eβC u + δC ], −[gU eβU c + δU ], strictly negative for gC , gU > 0. This proves asymptotic
+stability under constant policy; it says nothing by itself about the stability of equilibrium feedback
+policies u = σU (s), c = σC (s), whose full Jacobian must include ∂σ/∂s. The time constant is an
+adjustment half-life log 2/[GC (u) + δC ], not necessarily the literal half-life of remaining U.S. coercive
+leverage if baseline adaptation and depreciation alter the limiting vulnerability.
+Model adequacy and falsification. Because a strict minimum across semiconductor layers can switch
+its binding layer abruptly and a physical network can open a discrete large plant, the projected empirical
+xt , yt need not follow a smooth four-state ODE exactly. Fit the reduced-form law as an approximation to
+annualized changes, test leave-out and regime-shift errors, and compare a stage/layer-augmented state-
+space model. If approximation errors systematically dominate the hypothesized coercive effect, abandon
+quantitative point predictions from the four-state game; retain it as a transparent scenario theory. A
+low-state Markov approximation is defensible only with explicit fit and predictive error accounting.
+
+
+8.3 Discounted payoffs and what can realistically be identified
+
+Keep the payoff structure from the mature drafts while maintaining sign-free complementarity:
+
+                                                              26
+Weaponizing Interdependence
+
+               πU (s, u, c) = AU u(1 − x) − DU c(1 − y) − 12 kU u2 − 12 hU n2 + BU y + qU uc,
+               πC (s, u, c) = AC c(1 − y) − DC u(1 − x) − 21 kC c2 − 12 hC m2 + BC x + qC uc.
+
+Here Ai is marginal immediate strategic value from exploiting the opponent's current vulnerability; Di
+is exposure to the opponent's coercion; ki > 0 is convex marginal policy cost; hi ≥ 0 a cost of adaptation
+mobilization borne by the vulnerable side; Bi ≥ 0 benefit from own resilience; qi ∈ R net strategic
+coupling (retaliatory complementarity if positive; cost/substitution if negative). A positive qi is not a
+structural theorem that retaliation always occurs. Each state s = (x, y, m, n) has an objective
+
+                                  Z ∞                                                     
+                                              −ρi t
+                     Vi (s) = E           e           πi (s(t), u(t), c(t)) dt s(0) = s ,          ρi > 0.
+                                   0
+
+
+The expectation is redundant in the deterministic base game but prepares for stochastic versions. Com-
+pact state/actions and continuous bounded payoffs guarantee finite discounted objective, but do not
+alone prove global pure stationary feedback MPE existence or uniqueness. It is intellectually
+honest to normalize one payoff scale such as kU = 1 in scenario analysis because actions alone cannot
+identify the absolute cardinal scale of strategic preferences; payoff parameters from sparse policy
+episodes are likely weakly or not identified. Avoid claiming the effect of a 2010 rare-earth episode recov-
+ers China's strategic cost curvature in a modern two-control game. Country strategic payoffs depend on
+more than observed shipping quantities.
+
+
+8.4 Coupled stationary HJB and exact statewise constrained Nash
+
+For s = (x, y, m, n), let f (s, u, c) be the four transition derivatives above. A stationary Markov-perfect
+candidate comprises differentiable/viscosity-appropriate value functions VU , VC and feedback controls
+σU , σC satisfying
+
+
+                      ρU VU (s) = max {πU (s, u, σC (s)) + ∇VU (s) · f (s, u, σC (s))},
+                                   u∈[0,1]
+
+
+
+
+                       ρC VC (s) = max {πC (s, σU (s), c) + ∇VC (s) · f (s, σU (s), c)}.
+                                    c∈[0,1]
+
+
+These are feedback HJB equations. Open-loop Nash strategies chosen as functions of time or initial
+conditions are a different equilibrium concept and cannot be labeled the same solution. Because the policy
+control u enters the Markov dynamics directly only through ṁ = κC (u − m), and c only through ṅ =
+κU (c − n), the HJB first-order conditions, conditional on fixed continuation gradients, are independent
+of the exponential functional form of GC , GU :
+
+
+               MU (s) = AU (1 − x) + κC ∂m VU (s),                      MC (s) = AC (1 − y) + κU ∂n VC (s).
+
+Thus the simultaneous exact best responses are
+
+                                                                                                         
+                                          MU + q U c                                           MC + q C u
+                   BRU (c) = Π[0,1]                            ,        BRC (u) = Π[0,1]                        .
+                                            kU                                                   kC
+
+                                                                   27
+Weaponizing Interdependence
+
+
+Here projection truncates each conditional best response, not the pair of unconstrained simultaneous
+first-order solutions. If both controls are interior, kU u − qU c = MU , −qC u + kC c = MC , determinant
+∆ = kU kC − qU qC and
+
+                               k C MU + q U MC            k U MC + q C M U
+                        uI =                   ,   cI =                    ,   ∆ ̸= 0.
+                                      ∆                          ∆
+
+This pair is an interior candidate only if 0 < uI < 1 and 0 < cI < 1. A nonzero ∆ is merely algebraic
+invertibility of the unconstrained linear equations, not proof that a unique bounded Nash equilibrium or
+a unique global dynamic MPE exists.
+
+All nine KKT active-set regimes
+
+An action pair is a statewise Nash candidate if both players' concave action Hamiltonians satisfy their
+proper boundary inequalities. Exactly one candidate may fail or multiple may coexist on knife-edge
+parameters; record all matches.
+
+U regime           C regime                         Candidate pair                       Joint KKT feasibility
+
+0                  0                                (0, 0)                               MU ≤ 0; MC ≤ 0
+1                  0                                (1, 0)                               M U ≥ kU ; M C + q C ≤ 0
+0                  1                                (0, 1)                               MU + qU ≤ 0; MC ≥ kC
+1                  1                                (1, 1)                               M U + qU ≥
+                                                                                         kU ; M C + q C ≥ kC
+interior           0                                (MU /kU , 0)                         0 < MU <
+                                                                                         kU ; M C + q C u ≤ 0
+interior           1                                ((MU + qU )/kU , 1)                  0 < M U + qU <
+                                                                                         kU ; M C + q C u ≥ kC
+0                  interior                         (0, MC /kC )                         0 < MC <
+                                                                                         kC ; M U + q U c ≤ 0
+1                  interior                         (1, (MC + qC )/kC )                  0 < M C + qC <
+                                                                                         kC ; M U + q U c ≥ kU
+interior           interior                         (uI , cI )                           ∆ ̸= 0; 0 < uI , cI < 1
+
+
+This table is the implementation contract for solve_active_set; at equality the solver must allow
+neighboring regimes to share an identical equilibrium without double counting it. Verify numerically that
+|u − BRU (c)| and |c − BRC (u)| fall below tolerance, and if desired compute one-sided payoff deviation
+maxima. Counterexample to naive pair clipping: take kU = kC = 1, qU = qC = 0.8, MU = 1.2,
+MC = 0.1. The unconstrained pair is approximately (3.5556, 2.9444), whose independent clipping gives
+(1, 1). But China's best response to u = 1 is c = 0.9: therefore (1, 1) is not Nash; (1, 0.9) is.
+For fixed value gradients, the continuous map T (u, c) = (BRU (c), BRC (u)) sends compact convex [0, 1]2
+into itself, so Brouwer gives at least one statewise action fixed point. A suﬀicient condition for
+uniqueness is |qU qC |/(kU kC ) < 1 from contraction of the two-step composed best-response map; the
+raw simultaneous map may use an appropriate weighted norm for contraction. Local stability under
+a hypothetical continuous-time unconstrained policy adjustment u̇ = λU [(MU + qU c)/kU − u], ċ =
+λC [(MC + qC u)/kC − c] requires qU qC < kU kC , which differs from the absolute-product contraction
+condition. Neither result automatically settles existence, uniqueness or stability of the entire coupled
+HJB system.
+
+                                                   28
+Weaponizing Interdependence
+
+
+8.5 Central analytical proposition: constant-control benchmark only
+
+For a deliberately one-sided constant restriction u ∈ [0, 1], let ẋ = bu(1 − x), b > 0, v(t) = 1 − x(t),
+v0 = 1 − x0 , immediate coercive payoff π = Auv − ku2 /2, A, k, ρ > 0. The exact constant-control
+objective is
+
+                                                   Auv0     ku2
+                                          J(u) =          −     .
+                                                   ρ + bu   2ρ
+
+The first derivative is J ′ (u) = Av0 ρ/(ρ + bu)2 − ku/ρ; an interior constant-policy optimum solves
+
+                                           ku(ρ + bu)2 = Av0 ρ2 .
+
+The left side increases strictly in u ≥ 0, ensuring a unique nonnegative root. With Av0 > 0, J ′ (0) =
+Av0 /ρ > 0, so optimum is not zero. If the unconstrained root is < 1, it is the optimum; otherwise the
+optimum is 1. A myopic decision optimizes Auv0 −ku2 /2, giving umyopic = Π[0,1] (Av0 /k). At the forward-
+looking interior optimum, ku = Av0 [ρ/(ρ + bu)]2 < Av0 , so uforward < umyopic when the relevant myopic
+comparator is interior, and no stronger claim than weak inequality is made under saturated boundaries.
+Holding the other parameters fixed, the interior optimum rises with A, v0 , ρ and falls with b, k; parameters
+entering the bounds can make derivative zero in boundary regimes. This is a mathematically valid
+example of self-eroding leverage, but does not prove a general two-player MPE theorem or solve the
+unrestricted time-varying one-player problem.
+Recomputable toy benchmark: A = v0 = k = ρ = b = 1 produces u(1+ u)2 = 1, with unique interior
+root approximately 0.465571, less than the myopic bound of one. The exact residual of that claimed
+root must be tested in the reference code. Numerical claims from the 11-page summary that purported
+to solve full feedback laws without explicit payoffs are rejected.
+
+
+8.6 HJB numerical method, algorithm and admissibility diagnostics
+
+A candidate pure feedback MPE is obtained iteratively, not just by solving nine algebraic regimes at one
+state. A reproducible deterministic base algorithm is:
+
+1. Primitive registry. Freeze g, β, δ, κ, ρ, A, D, k, h, B, q with estimation/calibration/scenario labels.
+   Reject impossible input domains before solver start.
+2. Tensor state grid. Start Nx = Ny = Nm = Nn = 17 (83,521 nodes), then 21 (194,481 nodes) and
+   31 (923,521 nodes) only if memory/time feasibility demonstrated; record sparse matrix sizes
+   and measured runtime/memory, not assume a workstation handles a 31^4 nonlinear solve cheaply.
+3. Initial policy pairs. Start from zero/zero, one/one, one/zero, zero/one, midpoint/midpoint and
+   seeded random smooth policies. A single convergence path cannot establish uniqueness.
+4. Policy evaluation. Holding σU , σC fixed, solve two separate sparse discounted linear equations
+   (ρi I −Lσ )Vi = πiσ . The generator Lσ uses dimension-wise upwind first differences: forward derivative
+   when state drift is positive, backward when negative, state-constrained inward stencils at endpoints.
+   The diagonal discount term ensures a proper monotone discounted discretization under admissibility.
+5. Policy improvement. Derive VU,m and VC,n from grid-consistent one-sided differences; compute
+   MU , MC , enumerate all nine KKT regimes at each grid point, record every distinct candidate, and
+   update σ with damping/line search if the joint step oscillates. Re-evaluate until fixed point.
+
+                                                     29
+ Weaponizing Interdependence
+
+
+ 6. Residual. Define Ri = ρi Vi − {πi (s, σ) + Lσ Vi } as the discrete continuous-time HJB
+    residual (units utility/year), and separately compute each unilateral deviation advantage
+    GU = maxu∈[0,1] HU (s, u, σC ; VU ) − HU (s, σU , σC ; VU ), analogously for China. Do not write an
+    undefined ∥B(V ) − V ∥ without defining B.
+ 7. Acceptance thresholds. Scale numerical residual tolerances by the payoff magnitude, e.g. ∥Ri ∥∞ ≤
+    10−8 (1 + ∥πi ∥∞ ) and action KKT ≤ 10−7 at the selected mesh if precision permits, plus grid-
+    refinement changes and held-out-policy verification. A small residual on a coarse grid is not proof of
+    the exact continuous solution.
+ 8. Verification and equilibrium multiplicity. Starting from each initial pair, classify distinct poli-
+    cies by sup norm and economically relevant policy decisions; if no pure candidate converges, refine,
+    change damping or use a finite-state/action approximation and compute a stationary mixed Markov
+    equilibrium under suitable discounted-game assumptions. Fink [R20] provides the existence basis
+    for finite discounted stochastic games in mixed strategies, not an existence proof for continuous pure
+    MPE.
+ 9. Closed-loop dynamics. Form f (s, σU (s), σC (s)), solve stationary points and compute its full Jaco-
+    bian, including policy gradients; report eigenvalues, basins of attraction where relevant, and robustness
+    across grids/parameters. A fixed-control eigenvalue table is not a substitute.
+10. Numerical reproducibility. Repeat deterministic toy cases, negative-beta invariance, naive-
+    clipping counterexample, constant-control benchmark, and randomized admissible parameters before
+    fitting the game to empirical state trajectories. Explicitly label whether a run is a toy solution, a
+    calibrated counterfactual or a genuine empirical state estimate.
+
+ Global existence caveat. If an appropriately defined coupled policy/HJB map is a contraction on a
+ closed admissible function space with compatible boundary conditions, that can suﬀice for uniqueness of
+ a fixed point, but this is a conditional assumption to verify, not a theorem obtained merely from
+ ρi > 0 and compact actions. Otherwise report computed candidate MPE, verification gaps and possible
+ multiplicity. Mixed-strategy existence in a discretized finite stochastic game does not prove it survives
+ mesh refinement to a smooth pure feedback solution.
+
+
+ 8.7 Exact empirical-to-game mapping and calibration protocol
+
+ This was the largest unresolved conceptual bridge in prior drafts. The mapping is now procedural and
+ falsifiable, though coeﬀicients still require data:
+(i) Semiconductor observation to game state. Freeze architecture a and essential layers L(a). For
+each quarter, construct xobs
+                         t   = minℓ∈L(a) zℓ,a,t with posterior/coder uncertainty and record the binding
+                                           (q)
+ layer. For a differentiable alternative, xt = Sq (z1,t , ..., zL,t ) with the approximation error. DO NOT
+ map Seffective to slow x: it contains the immediate foreign-access shock. Compute x under both fixed
+ frontier and moving frontier and show divergence. Weight different target architectures only when the
+ objective explicitly defines multi-architecture exposure, with frozen demand weights.
+(ii) Rare-earth observation to game state. For the same quarter, use the stage/grade-feasible LP
+                                                              P
+under Chinese-material/processing exclusion to obtain ytobs =         CN0                         N1
+                                                                g wg dg,t /Dg,t ∈ [0, 1]. Report yt
+as a distinct stress series; do not confuse raw K/D surplus with this bounded fraction. Align bloc
+membership, demand weights and network version before estimating annualized drift.
+
+
+
+
+                                                     30
+Weaponizing Interdependence
+
+
+(iii) Control histories. Aggregate the frozen jurisdiction/layer legal series into ut , using fixed target-
+layer dependence weights and observed scope; likewise aggregate element/product Chinese legal restric-
+tions into ct , using frozen pre-control Chinese-input dependencies. Because legal severity is ordinal,
+publish a binary event-model sensitivity and interval-valued restrictions; do not assume a half-step in
+legal category has half the economic effect of a ban. Version annualized quarterly control ut , ct and
+documentation for amendments/suspensions.
+(iv) Pipelines and transition parameters. For a candidate κC , the discrete-time solution under
+constant quarterly uq is mq+1 = uq +(mq −uq )e−κC ∆ ; similarly n, ∆ = 0.25. Estimate κ from independent
+lagged investment/commissioning/capability response evidence where possible; if unidentifiable, register
+a grid of lag half-lives (e.g., 1, 2, 4, 8 years) and mark scenario. Conditional on piecewise-constant
+mq , the exact one-quarter model transition for x is xq+1 = x∗C,q + (xq − x∗C,q ) exp[−(GC (mq ) + δC )∆],
+x∗C,q = GC (mq )/(GC (mq ) + δC ), with a corresponding formula for y. For varying m within quarter
+integrate with a stable ODE solver; report approximation error of the piecewise-constant simplification.
+Fit (gC , βC , δC , κC ) to observed x posteriors with measurement-error-aware likelihood or generalized
+method of moments; y analogously. If the minimum switches binding layers or a large plant creates an
+abrupt step, use a jump/observation-error extension or label the four-state approximation invalid for
+that interval.
+(v) Parameter observability hierarchy. x, y are noisy constructed states; u, c are legal-intensity
+constructed controls; effort/capability effects θℓ , ηℓ , project hazards and G(m) are estimable only
+when observables suﬀice; g, β, δ, κ may be partially identified; and Ai , Di , ki , hi , Bi , qi , ρi are
+mostly strategic/calibrated/scenario parameters. Without independent outcome prices, costs
+and revealed preference variation, observed policy history generally cannot identify separate payoff coef-
+ficients. Explicitly label identifiability and posterior/prior sensitivity in the registry. When estimating
+payoffs by inverse game calibration, normalize a scale, account for policy noise and multiple equilibria,
+and show a profile objective ridge; no point estimate can be promoted to causal structural proof merely
+because an optimizer returned it.
+                                                                                                  P
+(vi) Calibration objective and validation. Register an errors-in-variables criterion                q [(xq −
+x̂q ) /σxq + (yq − ŷq ) /σyq ] + regularizer(θ), or a state-space likelihood including observation model,
+     2  2               2  2
+
+time aggregation and common shocks. Run multiple starting values and simulation-based calibration
+on synthetic data with known parameters to check recovery. Hold out post-event years where feasible;
+report observed and predicted drift, confidence intervals, sensitivity to frontier definitions and whether
+the simple dynamic law beats random-walk and autoregressive baselines. Reject any parameterization
+whose predicted state violates its empirical measurement range or sign constraints. For payoff scenarios,
+define transparent economically interpretable grids of coercion value, domestic cost, discount factor and
+strategic complementarity; never describe scenario-only restraints as an estimated U.S./China optimal
+foreign policy.
+
+
+9. Counterfactuals and publication exhibits
+
+The counterfactual analysis should distinguish direct short-run access, delayed technology/plant
+adaptation and optimal strategic response, rather than presenting one composite outcome as a pol-
+icy verdict. Pre-register: (A) observed-policy baseline; (B) exogenous 25% higher/lower controls within
+observed scope; (C) unilateral control shock with opponent policy frozen for one year; (D) two-player
+endogenous response from the candidate MPE; (E) announced China-free industrial subsidy with contrac-
+
+
+                                                    31
+Weaponizing Interdependence
+
+
+tually backed input/outtake; (F) lower/higher observable opacity holding geopolitical volatility constant;
+(G) adverse bottleneck/plant/country outage; (H) credible rapid licensing relaxation; (I) high versus low
+induced-adaptation elasticity, including a negative-effect scenario; (J) stricter and more flexible Chinese
+access/alternative architecture specifications. Do not compare policies on incompatible information sets
+or change the frontier between scenarios.
+Outputs. Present quarterly probabilities of final magnet-service adequacy; stage bottleneck identity;
+fraction of supply dependent on Chinese feedstock; conditional rare-earth first passage; immediate semi-
+conductor effective availability and slow domestic capability by layer; time paths of u, c, x, y, m, n; the
+U.S. and China's discounted scenario payoffs in normalized utility units; conditional alternative equilib-
+rium paths; local stability/attraction diagnostics; and 10/50/90% parameter-sensitivity envelopes. The
+notion of a ”leverage half-life” should be defined from a specific observed or modeled coercive benefit
+LU (t) = AU ut (1 − xt ), conditional on a specified policy path. If the flow payoff is nonmonotone, no single
+half-life exists; report time to half the initial level only when well-defined. Treat projected bilateral game
+payoffs as normative modeling assumptions, not estimates of geopolitical welfare.
+A publication-ready paper should ideally have these figures/tables: (1) dated policy chronology with
+revision/suspension statuses; (2) rare-earth value-chain schematic with stage concentration source and
+year; (3) registered project risk set and observed transition table; (4) fitted commissioning/ramp curves;
+(5) physical network material balances by element and product; (6) China-free service and N-1 worst-
+case heat maps; (7) first-passage cumulative probabilities with credible intervals; (8) vintage backtest
+skill relative to baselines; (9) legal-control severity by U.S./NL/JP layer; (10) domestic versus foreign
+versus effective Chinese semiconductor availability; (11) robust event-study coeﬀicient plot; (12) opacity
+index and source-coverage panel; (13) opacity-hazard curve with turning-point uncertainty; (14) self-
+eroding benchmark versus myopic control; (15) feedback MPE policy maps and closed-loop trajectories;
+and (16) identifiability and sensitivity table. Do not manually modify plots after scripts generate them.
+Distinguish analytical/synthetic curves from empirical estimates with captions and legend text.
+
+
+10. Source acquisition, chronology, provenance and ethics
+
+10.1 Priority-source registry with concrete access constraints
+
+The source list below is a starting registry, not a claim that any requested firm-level, technical-grade, li-
+censing or company-contract dataset has already been downloaded. Dated events must be retrieved from
+authoritative archived artifacts whenever available. As-of forecasting needs old versions, so a contempo-
+rary live endpoint cannot substitute for historical publication history. Source IDs should be immutable;
+each version has HTTP URL/file path, publisher, title, content hash, original language, publication
+date, first seen date, retrieval time, access terms, column extraction map, and duplicate/adjudication
+log. The specific primary-policy and principal aggregate source URLs listed here were located in public
+oﬀicial/publisher resources during this synthesis; granular extraction remains a future execution task.
+
+
+
+
+                                                     32
+Weaponizing Interdependence
+
+                                                                                                  Frequency, restrictions
+Registry ID            Exact entry point                       Target variables                   and fidelity
+
+S01                    IEA, Rare Earth Elements (2026):        Stage definitions, published       Report year,
+                       https://www.iea.org/reports/rare        baseline country shares,           scenario-based; not a
+                      -earth-elements/executive-summary        demand/project scenario            project-by-project
+                                                               benchmarks                         realized-output
+                                                                                                  substitute
+S02                    IEA, Global Critical Minerals           Announced-pipeline stage       Announced project
+                       Outlook 2026: https://www.iea.or        bottlenecks and mineral demand scenarios,
+                       g/reports/global-critical-mineral       assumptions                    license/availability to
+                       s-outlook-2026/outlook                                                 check
+S03                    USGS MCS 2026: https:                   Countries' mineral production,    Annual; does not
+                       //www.usgs.gov/publications/mine        prices, trade and import reliance directly measure every
+                       ral-commodity-summaries-2026                                              refining/magnet stage
+S04                    USGS data release: https:               Machine-readable USGS CSV          Released Sept. 18, 2026;
+                       //www.usgs.gov/data/mineral-commo       tables and metadata                freeze excludes future
+                       dity-summaries-2026-data-release                                           corrections
+S05                    MOFCOM/GACC No.18, April 4              Legal products, classifications,   English for reference;
+                       2025: https://english.mofcom.gov        export license scope and           archive authoritative
+                       .cn/Policies/AnnouncementsOrders        effective date                     Chinese instrument if
+                       /art/2025/art_0dd87cbee7b045bf93                                           ambiguity
+                       fabe6ab2faceee.html%3A11
+
+S06                    MOFCOM No.70, Nov. 7 2025:              Suspension list and end date       Specific
+                       https://www.mofcom.gov.cn/zfxxgk                                           55,56,57,58,61,62
+                       /gkml/art/2025/art_b1bff63a6bdd4                                           suspension; no inferred
+                       12a99c84203dd30fd39.html                                                   rescission of No.18
+S07                    BIS December 2024 controls:             SME/software/HBM/entity            Press release
+                       https:                                  additions                          discoverability;
+                       //www.bis.gov/press-release/comme                                          authoritative regulatory
+                       rce-strengthens-export-controls-r                                          text needed for ECCNs
+                       estrict-chinas-capability-produce
+                      -advanced-semiconductors-military
+
+S08                    BIS January 2026 revision:              H200/MI325X case-by-case rules Check Federal
+                       https://www.bis.gov/press-release                                      Register/EAR exact
+                       /department-commerce-revises-lic                                       effective/legal language
+                       ense-review-policy-semiconductor
+                       s-exported-china
+
+S09                    BIS Export Administration               ECCN/end-use/end-user and          Version by Federal
+                       Regulations: https:                     section 744 interpretation         Register amendment
+                       //www.bis.gov/regulations/ear/744                                          and effective date; live
+                                                                                                  site overwrites history
+S10                    Dutch government April 2025:            Controlled classes, national       Dutch oﬀicial legal
+                       https://www.government.nl/latest        authorization, effective Apr 1     instrument controls final
+                       /news/2025/01/15/klever-export-c                                           scope; not blanket ban
+                       ontrols-on-advanced-semiconductor
+                      -manufacturing-equipment-to-be-t
+                       ightened
+
+S11                    METI 2023 equipment controls:           23 equipment items,                Japanese statute
+                       https://www.meti.go.jp/policy/an        amendments and effective July      controls final detail;
+                       po/law09-2.html                         23 2023                            assess native
+                                                                                                  text/translation
+
+
+
+
+                                                          33
+Weaponizing Interdependence
+
+                                                                                                   Frequency, restrictions
+Registry ID            Exact entry point                       Target variables                    and fidelity
+
+S12                    UN Comtrade API guide:                  Monthly/annual                      Free preview limited;
+                       https://uncomtrade.org/docs/un-c        reporter-partner-product            full API
+                       omtrade-api/                            quantities and value                authentication/tiers; HS
+                                                                                                   revision crosswalk
+S13                    USITC DataWeb API: https:               U.S. detailed import/export and Registered account/API
+                       //www.usitc.gov/applications/dat        partner/product data            key; vintage statistical
+                       aweb/api/dataweb_query_api.html                                         revisions; access audit
+S14                    SEC EDGAR:                              Public filings, ownership, capex,   Filing date critical;
+                       https://www.sec.gov/edgar/search/       revenue and R&D                     company fiscal years
+                                                                                                   differ; automated access
+                                                                                                   rules
+S15                    WIPO PATENTSCOPE: https:                Patent-family dates, IPC/CPC        Patent ̸= verified
+                       //www.wipo.int/en/web/patentscope       technical activity                  qualified equipment
+                                                                                                   capability; publication
+                                                                                                   lag
+S16                    IEA critical-minerals data viewer:      Published scenario series           Some downloadable
+                       https:                                                                      components subject to
+                       //www.iea.org/data-and-statistics                                           terms; units/scope must
+                                                                                                   be checked
+S17                    Corporate stock-exchange and            Stage dates, FID, construction,     Manual registry with
+                       audited filings, national               commercial ramp, grants,            evidence URL and
+                       planning/permit agencies                technical grades                    disclosure priority
+                       (case-specific)                                                             required
+S18                    WSTS / SIA market publications,         Aggregate semiconductor             Subscription and
+                       https://www.wsts.org/                   cycle/market size                   aggregation; cannot by
+                                                                                                   itself identify advanced
+                                                                                                   node/capability
+
+
+Do not assert missing licensed private data can be downloaded. If WSTS, proprietary equipment
+technology, technical yield, project commercial contract terms, or customs-record detail is inaccessible,
+write a feasibility memo: public fallback, variables lost, resulting estimands, and whether the module
+must narrow scope. Scraped sources are not permission to redistribute personal or restricted data;
+replication packages should include code and lawful pointers/hash manifests when raw redistribution is
+prohibited. Do not publish internal company personal contacts or proprietary industrial process recipes.
+
+
+10.2 Historical evidence protocol: two clocks plus source revisions
+
+Every table has at least valid_date and info_public_date. Example: a facility starts commercial pro-
+duction on 2023-09-01; that fact is first publicly documented 2024-02-10. The full-information analytical
+panel may use September as the retrospectively observed event date, but a December 2023 historical
+forecast must not contain that fact. It must treat the project as unresolved as of December 2023.
+Any observed revision is retained as a new record_version_id with its own source hash/publication date;
+the earlier record stays immutable. If the earliest public date is unknown, exclude it from the relevant
+vintage forecast or conservatively place it after the earliest verifiable availability date and quantify the
+resulting loss of sample.
+
+
+
+
+                                                          34
+Weaponizing Interdependence
+
+
+Link tables via explicit keys: source artifact → dated claim → facility/activity → project state →
+ownership/route/feedstock → scenario → LP output → forecast draw → figure. Every generated output
+should record the exact source and model registry. In the manuscript's main tables include universe sizes
+and attrition: announced projects, eligible projects, those with trustworthy stage capacity, those with
+technical composition, those with inferred routing, and those reaching operational confirmation. Missing
+industrial information is itself a substantive limitation, but missingness cannot be silently transformed
+into Chinese opacity.
+
+
+11. Replication and computational implementation contract
+
+11.1 Reproducible repository and clean build principle
+
+The architecture below is what the eventual research project must build. This blueprint includes a
+separately packaged minimal tested mathematical reference fixture for limited components, but
+the full empirical pipeline is not yet implemented; the repository map is a contract, not evidence that
+every listed module exists or passes.
+
+
+ weaponizing-interdependence/
+   README.md                       # scope, install, lawful data requirements
+   pyproject.toml                   # src-layout package + pinned, resolved dependencies
+   uv.lock                          # generated and frozen on build machine
+   Dockerfile                      # verified base-image digest stored at release
+   Makefile
+   LICENSE     CITATION.cff    manuscript/
+   configs/
+     scope.yaml                    # bloc, strategic grades, targets, thresholds
+     data_sources.yaml             # official URLs + extraction obligations
+     rare_earths.yaml              # process / ownership / loss scenarios
+     semiconductors.yaml           # technology universe and legal crosswalk
+     opacity.yaml                  # 10-indicator rubric and validity rules
+     game.yaml                     # year units, parameters and scenario registry
+     backtests.yaml                # origins, release/censor masks, scoring
+     seeds.yaml                    # independent reproducible RNG streams
+   codebooks/
+     project_stages.csv       process_coefficients.csv
+     legal_policy_codes.csv       technical_targets.csv
+     spoi_codebook.csv        grade_recipes.csv
+   data/
+     raw/                          # immutable, access-controlled source artifacts
+     vintages/                     # frozen as-of snapshots and release calendar
+     interim/ processed/ fixtures/
+   metadata/
+     sources.csv hashes.csv adjudications.csv vintages.csv
+     project_inclusion_log.csv parameter_registry.csv
+   src/weaponized/
+     io/{archive,vintages,provenance,schemas}.py
+     rare_earths/{projects,transitions,ramps,materials,lp,resilience,simulate}.py
+     semiconductors/{legal,crosswalk,access,evidence,capability,events}.py
+     opacity/{obligations,events,coding,index,reliability}.py
+     forecast/{origins,scoring,calibration,bootstrap}.py
+
+
+                                                          35
+Weaponizing Interdependence
+
+
+     game/{primitives,benchmark,active_set,hjb,policy_iteration,stability}.py
+     reporting/{figures,tables,manifest}.py
+   scripts/{fetch,validate,build,fit,backtest,forecast,solve,report}.py
+   tests/{unit,integration,property,regression}/
+   outputs/{tables,figures,forecasts,equilibria,diagnostics}/
+
+
+
+
+Exact interface contracts
+
+ load_asof(table_name: str, as_of: date) -> DataFrame
+ # Requires info_public_date <= as_of, with versioned de-duplication.
+
+
+ solve_material_flow(
+     facilities, activities, input_output_coefficients,
+     routes, demand, initial_inventories, policy_access,
+     failed_groups, quarter, solver_config
+ ) -> FlowResult
+ # Returns facility/commodity/quarter balance residuals, delivered services,
+ # bottlenecks, primal and dual diagnostics and integrity flags.
+
+
+ nminus1_resilience(network: Network, demand: Demand,
+                    initial_exclusions: set[str],
+                    candidate_suppliers: list[str]) -> DataFrame
+ # On every candidate outage, REBUILDS/re-solves full network LP.
+
+
+ simulate_projects(asof_snapshot, transition_model, ramp_model,
+                   demand_scenarios, rng_streams, n_draws) -> DrawPanel
+ # Maintains common shocks, joint site risk, and individual project correlation.
+
+
+ spoi_daily(obligations, legal_events, source_events,
+            codebook, start, end) -> DataFrame
+ # Ten explicit codes + NA reasons + daily validity; no future events.
+
+
+ estimate_semiconductor_states(evidence, rule_panel, target_version,
+                               measurement_config) -> StatePosterior
+ # Returns separate z, f and a layers; can't conflate access with capability.
+
+
+ solve_stage_nash(mu, mc, k_u, k_c, q_u, q_c) -> list[ActionSolution]
+ # Enumerates all nine regimes and validates conditional best responses.
+
+
+ solve_feedback_game(state_grid, primitives, starts, tolerances) -> MPEResults
+ # Returns BOTH values, policies, residuals, deviation gaps, runtime,
+ # stability eigenvalues and grid-refinement audit; may return 'not solved'.
+
+
+ run_backtests(vintage_registry, endpoints, outcome_release_registry,
+               scoring_config, baseline_set) -> BacktestReport
+ # Rejects future endpoints and outcomes not known by the assessment freeze.
+
+
+
+
+Hard invariants: all state/service/capability/control values are within [0,1]; raw supply-to-demand
+ratios are allowed above 1; no activity output exceeds capacity or yield-adjusted feed; stage capacities
+cannot be added as equivalent commodities; only one supplier removed per N-1 scenario; source-vintage
+rule never violated; all policy controls have effective/publication/suspension dates; any mathematical
+
+                                                    36
+Weaponizing Interdependence
+
+
+singularity or negative investment is an explicit error or constrained transform. Define floating-point
+tolerances in dimensionful units for balances (e.g. relative tolerance 10−8 times throughput plus an
+absolute 10−8 tonne-equivalent for toy fixtures), not one arbitrary bound for every unit scale.
+
+
+11.2 Minimal locked configuration
+
+ freeze: '2026-10-11'
+ clock:
+   empirical: quarter
+   game: year
+   quarter_year_fraction: 0.25
+ rare_earths:
+   elements: [Nd, Pr, Dy, Tb]
+   stages: [mine, separation, metal_alloy, magnet]
+   service_scope: china_free
+   n_minus_one: extra_supplier_group_after_china_removed
+   targets: [0.50, 0.75, 0.90, 1.00]
+   require_consecutive_quarters: 4
+   freeze_grade_weights: true
+   prohibit_unknown_imports_by_default: true
+ semiconductors:
+   capability_state: literal_minimum_domestic_by_architecture
+   access_function: residual_gap_approximation_with_recipe_robustness
+   target_version: SET_BEFORE_CODING
+   freeze_exposure_base_year: 2021
+ opacity:
+   pillars: {disclosure: 0.40, predictability: 0.35, clarity: 0.25}
+   event_memory_days: 90
+   min_daily_indicators: 8
+   min_valid_quarter_days_fraction: 0.80
+   allow_headline_imputation: false
+ game:
+   dynamics: exponential_growth_with_bounded_pipelines
+   beta_sign_free: true
+   state_grid: [17, 21]       # add 31 only if runtime feasible
+   tolerance_hjb_scaled: 1.0e-8
+   tolerance_best_response: 1.0e-7
+ backtests:
+   rare_earth_origins: ['2016-12-31','2018-12-31','2020-12-31',
+                           '2022-12-31','2024-12-31']
+   rare_earth_horizons_years: [2, 4, 6]
+   semiconductor_horizons_months: [6, 12, 24]
+   block_future_endpoints: true
+   require_outcome_publication_by_freeze: true
+ seeds:
+   parameters: 101
+   projects: 202
+   process_yields: 303
+   common_shocks: 404
+   graphics: 505
+
+
+
+
+                                                        37
+Weaponizing Interdependence
+
+
+target_version:SET_BEFORE_CODING is intentionally unresolved; publication-grade criteria require
+the user/researcher to register actual commercial technology requirements, and no responsible synthesis
+can invent them. Other unresolved empirical data such as route capacities, company relationships
+and material recipes must similarly be entered before full execution. Avoid placeholder version pins
+masquerading as a frozen release. On creation, choose Python 3.12 if dependencies/solver bindings
+support it, run a version resolver, commit a valid uv.lock, validate licenses, then freeze PYTHON_IMAGE by
+container registry digest and UV_VERSION as an exact verified version. uvsync--frozen must not modify
+the lock; the artifact must build without retrieving new sources during analysis. Existing Draft 5 versions
+were proposals, not a furnished checked dependency environment.
+
+
+11.3 End-to-end DAG, provenance and execution
+
+The data flow is registersource→downloadormanualarchivewithoriginaltimestamp→hash→parse→valid
+ateunits,datesandkeys→adjudicateduplicatesandtechnicalclassifications→freezeas-ofsnapshot→est
+imateprojecthazardsandsemiconductoroutcomes→constructSPOI→simulateproject/flowforecasts→backt
+est→mapx,yandfitreducedstatetransitions→calibratescenario-onlypayoffs→solvecoupledHJBcandidat
+es→computerobustness,exhibitsandmanuscript.        Scripts should be idempotent. In CI, data acquisition
+is mocked with immutable fixtures and there are no live Web requests; historical as-of sources are
+archived in separate signed, versioned collections. Every reproducibility run produces run_manifest.json
+with Git commit, Python/dependency and container digests, input and output source checksums, as-of
+cutoff, hypothesis registry version, data dictionary version, model settings, RNG seeds and generated
+figure/table hashes. Controlled raw data can have a non-redistributable manifest and access procedure
+rather than unauthorized redistribution.
+Example production command contract (not presented as already executed):
+
+
+  uv sync --frozen
+  uv run pytest -q
+  uv run python scripts/validate.py --freeze 2026-10-11
+  uv run python scripts/build.py --freeze 2026-10-11
+  uv run python scripts/fit.py --config configs/rare_earths.yaml
+  uv run python scripts/fit.py --config configs/semiconductors.yaml
+  uv run python scripts/backtest.py --config configs/backtests.yaml
+  uv run python scripts/forecast.py --config configs/rare_earths.yaml
+  uv run python scripts/solve.py --config configs/game.yaml --multi-start
+  uv run python scripts/report.py --freeze 2026-10-11 --verify-manifest
+
+
+
+
+Dockerized replication uses an exact pinned base image and correct src-layout installation (e.g. uvsync
+--frozen--no-dev with project installed, or explicitly PYTHONPATH=/app/src when executing standalone
+scripts). Every build is checked in a clean container and, before submission, on a second indepen-
+dent machine. An archive stored with the paper must contain legally shareable inputs or reproducible
+source retrieval instructions, code, tests, lockfile, config, manifest, and figure/table regeneration workflow.
+Merely naming .py modules in a PDF does not establish a runnable codebase.
+
+
+11.4 Mandatory tests and failure semantics
+
+
+
+                                                       38
+Weaponizing Interdependence
+
+
+Test                      Exact test scenario             Required result                Current status
+
+Bounded dynamics          Random m, n, x, y ∈ [0, 1], β   Forward ODE stays [0,1];       Analytically proved; full
+                          negative and positive,          boundary vector inward         solver unexecuted
+                          admissible controls
+Reduced-form steady       Constant controls with          ODE tends to geβu /(geβu + δ) Analytically derived; software
+state                     analytic fixed points                                         future
+Correct active-set Nash   MU = 1.2, MC = 0.1, qi =        (1, 0.9), not independently    Analytically verified;
+                          0.8, ki = 1                     clipped (1, 1)                 demonstrator fixture provided
+                                                                                         separately
+One-sided coercion root   A = v0 = k = ρ = b = 1          Interior u ≈ 0.4655712319,     Numerically verified for this
+                                                          below myopic 1                 document
+Element/grade material    Positive yield and shared       Output never exceeds           Conceptually specified; full
+conservation              activity                        resource input and nameplate   LP model pending
+Supplier outage           Toy A/B oxide/alloy/magnet      Base served 1, remove A 0.5,   Analytically verified; fixture
+                          fixture                         remove B 4/7, N1=0.5           provided separately
+Ownership cascade         A supplies B downstream         Removing A changes B's         Full network test required,
+                                                          achievable production          not yet performed
+Uncapped/raw versus       75 / 70 potential               Raw 1.0714286, served          Analytically verified
+capped service                                            fraction 1.0
+Opacity arithmetic        All 10 indicators, two          57.4167 and 16.75              Recomputed; synthetic only
+                          synthetic vectors
+Opacity nonevent          90 days no new adverse event    O4/O6/O10 = 0 under            Test rule specified; not yet
+                                                          prescribed windows             run against events
+Historical vintage        Record valid 2023, first public 2023-origin forecast rejects   Test contract specified; full
+                          2024                            record                         data absent
+Future endpoint           Origin 2020 +6 years            2026-12-31 endpoint not        Schedule fixed; software
+                                                          scoreable Oct 11 2026          validation pending
+MPE verification          Two sparse HJB solves /         Residual and KKT checks        Not executed
+                          multi-start / deviation gaps    pass and mesh refinement
+                                                          stable
+Forecast calibration      Vintage-eligible project events Proper scores beat or honestly Not executed
+                                                          fail baselines
+Reproducible release      Build exact source snapshot     Every manuscript exhibit       Not executed
+                          in clean pinned container       reproduced
+
+
+The acceptance convention is intentionally asymmetric: a proved symbolic identity is not a validated
+empirical model; an executed toy script is not a full research reproduction; and a mathematically correct
+active-set stage game does not prove a continuous-state feedback equilibrium. Any failure produces a
+logged FAIL or NOTYETTESTED, not a silently green completion report.
+
+
+12. Staged implementation roadmap and decision gates
+
+Gate 1 — scientific feasibility and scope (first). Freeze technology target envelopes; define bloc
+B/ownership country scenarios; choose magnet grades/demand and product units; verify primary le-
+gal timeline and baseline IEA/USGS statistics; establish a preliminary inclusive universe of candidate
+projects and identify missing public documents. Deliver a one-page evidence-availability dashboard by
+
+
+
+                                                          39
+Weaponizing Interdependence
+
+
+stage/layer. A project that cannot distinguish actual operation from announcements cannot proceed to
+probabilistic capacity inference without major caveats.
+Gate 2 — physical project registry and network (weeks 2–10, schedule contingent). Manu-
+ally adjudicate project/stage dates and source-vintage versions; build product/element conversion tests
+and physically feasible routes; construct and validate base/China-removal/N1 network examples; add
+conservative ambiguity bounds. Produce an audit showing how gross announced capacity differs from
+feasible final magnet service and which missing stage blocks it. Do not fit hazards before validating
+risk-set definition and censoring.
+Gate 3 — semiconductor legal and functional evidence (in parallel). Freeze control-item
+and technology-layer maps, collect firm/product exposure and imports, and independently code actual
+indigenous milestones. Construct balanced and unbalanced panels with missingness reasons. Pre-trend
+and treatment-overlap checks are gating conditions for strong causal conclusions; if unsuitable, frame
+estimates as associative descriptive panel evidence or focus on shorter event-window descriptive access
+changes.
+Gate 4 — opacity codebook reliability. Establish release obligations and policy event universe;
+perform coder training; reach reliability target or revise rules without conditioning on project outcomes.
+Only then produce headline quarterly SPOI. If too few obligations exist for certain indicators, disclose
+limited coverage and narrow scope instead of fabricating apparent regulatory transparency.
+Gate 5 — estimates and forecasts. Estimate multistate transition probabilities with shrinkage;
+generate correlated commissioning, ramp, yield, stock and demand draws; solve network for all registered
+outages; run origin-valid backtests with proper scores and compare alternatives. Show model inadequacy
+if the forecast systematically understates failures or exceeds plausible IEA pipeline scale without technical
+evidence.
+Gate 6 — measured dynamics and theory. Map layer and network observations into x, y with
+uncertainty; fit or bound g, β, δ, κ. If reduced states are too discontinuous or poorly identified, expand
+state dimension or present the differential game as partial-identification scenarios. Derive analytical
+properties and run the full coupled HJB from multiple starts; report NOVERIFIEDPUREMPEFOUND honestly if
+the solver cannot establish a reliable result.
+Gate 7 — paper writing, independent review and submission. Freeze code and data; review
+all policy/legal and technical claims from original sources; write Introduction, Institutional Background,
+Prior Literature, Research Design, Mineral Results, Semiconductor Results, Opacity Results, Game
+& Counterfactual Results, Robustness, Limitations, Conclusion and complete references. A separate
+technical appendix contains proofs, schemas, figures, source eligibility rules, tests and reproducibility
+manifest. Invite an economist familiar with dynamic games, an operations-research/material-processing
+specialist, and a semiconductor controls specialist to challenge separate components before submitting.
+Publication contingency if data access is poor. Rather than fabricate a symmetric full struc-
+tural result, retain a high-quality modular paper: project-based rare-earth backtests and physically
+grounded forecasting as principal empirical result; documented control chronology and carefully qualified
+semiconductor adaptation evidence as independent second study; opacity measurement as exploratory;
+and a scenario/calibrated reciprocal model whose identified and unidentifiable parameters are visibly dis-
+tinct. The paper remains intellectually coherent with this narrower evidentiary claim; failure to collect
+confidential reactor yields or firm revenues is not fixed by increasing mathematical complexity.
+
+
+
+
+                                                     40
+Weaponizing Interdependence
+
+
+13. Annotated literature and source bibliography
+
+The bibliography below uses author–date conventions with DOI or an oﬀicial link, and tracks source
+status. For the core papers and primary-policy entries explicitly checked against publisher/agency pages
+during this synthesis, mark P (publisher/agency entry checked). D indicates a plausible citation retained
+from the uploaded mature drafts whose bibliographic metadata or exact claim correspondence still needs
+manuscript-stage verification; it must not be promoted to ”fully verified APA7” until the final audit is
+carried out. M denotes a data/manual entry where the relevant table or live information still needs
+extraction by the research team. DOI metadata may change as accepted papers receive final issue/pages.
+Scholarly source type is identified: peer-reviewed article, working paper, book, or oﬀicial document. This
+is a usable working bibliography, not a fabrication of a completed source-to-claim replication audit.
+
+
+13.1 Foundational network power, resource competition and coercion
+
+[R01 | P, journal] Farrell, H., & Newman, A. L. (2019). Weaponized interdependence: How global
+economic networks shape state coercion. International Security, 44(1), 42–79. https://doi.org/10.1
+162/isec_a_00351. Contribution: Foundational network-topology/chokepoint concept. Difference:
+Does not deliver this paper's joint industrial project-level forecasts and adaptation-conditioned feedback
+equilibrium. Use: theoretical introduction and precise novelty boundary.
+[R02 | P, working paper] Clayton, C., Maggiori, M., & Schreger, J. (2024; revised April 2025). A
+theory of economic coercion and fragmentation (NBER Working Paper No. 33309). National Bureau of
+Economic Research. https://doi.org/10.3386/w33309. Contribution: Formal economic coercion and
+integration–security trade-off, with sector concentration and substitute availability. Difference: The
+intended empirical innovation here is time-resolved technology and material adaptation with physical
+completion uncertainty, not simply reconfirming fragmentation costs. Use: core theoretical competitor.
+[R03 | P, journal] Woods, D. (2026). The “black box” strategy: China's opacity signaling game
+in rare earths (REES). Asian Review of Political Economy, 5, Article 5. https://doi.org/10.1007/
+s44216- 026- 00073-z. Contribution: Pooling/nondisclosure signaling and stochastic diversification
+simulation; simulation assumptions are explicitly illustrative. Difference: Present project constructs
+an auditable observable-policy index, estimates association with actual project transitions and does
+not treat hypothetical Monte Carlo probabilities as forecasts validated against completed plants. Use:
+closest opacity precedent; distinguish observable uncertainty from presumed intent.
+[R04 | P, journal] Zou, B., Poncin, S., & Bertinelli, L. (2022). The U.S.–China supply competition for
+rare earth elements: A dynamic game view. Environmental Modeling & Assessment, 27, 883–900. https:
+//doi.org/10.1007/s10666- 022- 09819-4. Contribution: Published rare-earth resource-competition
+differential game, including open-loop and Markovian strategic behavior. Difference: The new game
+links different reciprocal chokepoints and estimated adaptation; it must not claim to be the first rare-
+earth differential game. Use: closest resource-game comparison, especially equilibrium concepts.
+[R36 | P, accepted journal manuscript] Liu, J., Rotemberg, M., & Traiberman, S. (2026). Sabotage
+as industrial policy. The Economic Journal, Advance online publication, Article ueag111. https://
+doi.org/10.1093/ej/ueag111. Contribution: Formal conditions under which foreign productivity
+impairment can have non-monotone terms-of-trade and welfare effects. Difference: Reciprocal future
+adaptation and the destruction of coercive leverage over time, rather than only the contemporaneous
+
+
+
+                                                   41
+Weaponizing Interdependence
+
+
+industrial-policy welfare consequence. Use: theory positioning and caution on treating restrictions as
+automatically good or bad.
+
+
+13.2 Semiconductor adaptation: disagreement is substantive
+
+[R05 | P, journal] Anwar, S., Hu, B., Luan, Q., & Wang, K. (2024). Export controls and innovation
+performance: Unravelling the complex relationship between blacklisted Chinese firms and U.S. suppli-
+ers. The World Economy, 47 (7), 2995–3033. https://doi.org/10.1111/twec.13570. Contribution:
+Matching/difference-in-differences evidence of innovation responses among blacklisted Chinese firms and
+impacts on U.S. suppliers. Limit: Innovation indicators and treatment selection do not automatically
+demonstrate qualified substitution at leading technology layers. Data caveat: underlying CSMAR data
+subject to license per publisher.
+[R06 | D, journal] Hu, H., Yang, S., Zeng, L., & Zhang, X. (2024). U.S.–China trade conflicts and
+R&D investment: Evidence from the BIS entity lists. Humanities and Social Sciences Communications,
+11, Article 829. https://doi.org/10.1057/s41599- 024- 03369-8. Contribution: Firm R&D/input
+response to restrictions. Limit: R&D is not functioning semiconductor capability. Action: confirm
+exact authors/metadata and its effect definitions with publisher PDF before final manuscript.
+[R07 | P, journal] Hayakawa, K., & Yang, C.-H. (2026). Technology sanctions and firm R&D: Evidence
+from the U.S.–China trade dispute. Economics & Politics, 38(2), 406–419. https://doi.org/10.1111/ec
+po.70033. Contribution: A matching analysis that does not find a significant positive R&D increase
+for treated firms. Interpretation: sign of induced effort must be estimated rather than structurally as-
+sumed positive. Limit: Firm-level sample and R&D do not directly measure foundry yield or equipment
+qualification.
+
+
+13.3 Investment uncertainty, project duration and causal designs
+
+[R08 | D, journal] Bloom, N. (2009). The impact of uncertainty shocks. Econometrica, 77 (3), 623–
+685. https://doi.org/10.3982/ECTA6248. Use: macro uncertainty/shock controls; not itself a measure
+of strategic nondisclosure.
+[R09 | D, journal] Gulen, H., & Ion, M. (2016). Policy uncertainty and corporate investment. The
+Review of Financial Studies, 29(3), 523–564. https://doi.org/10.1093/rfs/hhv050. Use: irreversibil-
+ity/uncertainty and investment response; retain confounding risks when applying to REEs.
+[R10 | D, journal] Handley, K., & Limão, N. (2015). Trade and investment under policy uncertainty:
+Theory and firm evidence. American Economic Journal: Economic Policy, 7 (4), 189–222. https:
+//doi.org/10.1257/pol.20140068. Use: trade-policy uncertainty and firm investment; check the transfer
+from tariff uncertainty to licensing ambiguity.
+[R11 | D, book] Dixit, A. K., & Pindyck, R. S. (1994). Investment under uncertainty. Princeton
+University Press. Use: real-option delay intuition. Limit: no direct rare-earth project-hazard parameter
+estimated in this book.
+[R12 | D, journal] Cox, D. R. (1972). Regression models and life-tables. Journal of the Royal Statistical
+Society: Series B (Methodological), 34(2), 187–202. https://doi.org/10.1111/j.2517-6161.1972.tb00899
+.x. Use: cause-specific duration-model robustness, proportional-hazards diagnostics.
+
+
+
+
+                                                   42
+Weaponizing Interdependence
+
+
+[R13 | D, journal] Fine, J. P., & Gray, R. J. (1999). A proportional hazards model for the sub-
+distribution of a competing risk. Journal of the American Statistical Association, 94(446), 496–509.
+https://doi.org/10.1080/01621459.1999.10474144. Use: cumulative incidence robustness when cancel-
+lation competes with commissioning; not a substitute for the full transition simulator.
+[R14 | D, journal] Callaway, B., & Sant'Anna, P. H. C. (2021). Difference-in-differences with multiple
+time periods. Journal of Econometrics, 225(2), 200–230. https://doi.org/10.1016/j.jeconom.2020.12.
+001. Use: heterogeneous cohort-specific treatment effects.
+
+[R15 | D, journal] Sun, L., & Abraham, S. (2021). Estimating dynamic treatment effects in event
+studies with heterogeneous treatment effects. Journal of Econometrics, 225(2), 175–199. https://doi.
+org/10.1016/j.jeconom.2020.09.006. Use: avoiding misleading TWFE event-time averages.
+
+[R16 | D, working paper] Callaway, B., Goodman-Bacon, A., & Sant'Anna, P. H. C. (2024).
+Difference-in-differences with a continuous treatment (NBER Working Paper No. 32117). https:
+//doi.org/10.3386/w32117. Use: thinking about dose/exposure when a well-meaning continuous treat-
+ment measure is defensible. Ordinal rule category scores by themselves are not naturally continuous
+dosages.
+[R17 | D, journal] Gneiting, T., & Raftery, A. E. (2007). Strictly proper scoring rules, prediction, and
+estimation. Journal of the American Statistical Association, 102(477), 359–378. https://doi.org/10
+.1198/016214506000001437. Use: CRPS/log-score/probability forecast calibration; explicit error score
+definition.
+[R18 | D, journal] Brier, G. W. (1950). Verification of forecasts expressed in terms of probability.
+Monthly Weather Review, 78(1), 1–3. Use: binary forecast scoring; time-to-event scoring must address
+censoring.
+
+
+13.4 Game theory, computation and nonlinear tipping
+
+[R19 | D, journal] Maskin, E., & Tirole, J. (2001). Markov perfect equilibrium: I. Observable actions.
+Journal of Economic Theory, 100(2), 191–219. https://doi.org/10.1006/jeth.2000.2785. Use:
+equilibrium concepts; not a global existence theorem for the specialized continuous-state game.
+[R20 | D, journal] Fink, A. M. (1964). Equilibrium in a stochastic n-person game. Journal of Science
+of the Hiroshima University, Series A-I, 28, 89–93. Use: stationary mixed equilibria in finite discounted
+stochastic games; the pure continuous feedback game remains conditional.
+[R21 | D, journal] Pakes, A., & McGuire, P. (2001). Stochastic algorithms, symmetric Markov perfect
+equilibrium, and the “curse” of dimensionality. Econometrica, 69(5), 1261–1281. https://doi.org/10.1
+111/1468-0262.00241. Use: computational caution and MPE methods.
+
+[R22 | D, book] Bardi, M., & Capuzzo-Dolcetta, I. (1997). Optimal control and viscosity solutions of
+Hamilton–Jacobi–Bellman equations. Birkhäuser. https://doi.org/10.1007/978-0-8176-4755-1. Use:
+PDE/state constraint/upwinding mathematics. Verify edition metadata before final BibTeX.
+[R23 | D, journal] Granovetter, M. (1978). Threshold models of collective behavior. American Journal
+of Sociology, 83(6), 1420–1443. https://doi.org/10.1086/226707. Use: individual adoption thresholds
+generating aggregate regimes; analogy, not data from mineral projects.
+
+
+
+
+                                                   43
+Weaponizing Interdependence
+
+
+[R24 | D, journal] Watts, D. J. (2002). A simple model of global cascades on random networks.
+Proceedings of the National Academy of Sciences, 99(9), 5766–5771. https://doi.org/10.1073/pnas.082
+090499. Use: distinguishes local cascade thresholds from ordinary physical loss propagation.
+
+[R37 | D, journal] Schelling, T. C. (1971). Dynamic models of segregation. Journal of Mathematical
+Sociology, 1(2), 143–186. https://doi.org/10.1080/0022250X.1971.9989794. Use: path dependence and
+nonlinear collective composition; methodological analogy only.
+[R38 | D, journal] Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by
+historical events. The Economic Journal, 99(394), 116–131. https://doi.org/10.2307/2234208. Use:
+positive feedback and technological lock-in, motivating but not proving industrial REE tipping.
+
+
+13.5 Oﬀicial baseline, legal instruments and data entries
+
+[R25 | P, agency report] International Energy Agency. (2026). Rare earth elements. https://ww
+w.iea.org/reports/rare- earth- elements/executive- summary. Use: primary chain taxonomy, 2024
+production-concentration baselines, 2035 announced capacity comparators. Constraint: its pipeline is
+a forecast/scenario, not realized operating output.
+[R26 | P, federal news / linked legal instrument] U.S. Bureau of Industry and Security. (2024,
+December 2). Commerce strengthens export controls to restrict China's capability to produce advanced
+semiconductors for military applications. https://www.bis.gov/press-release/commerce-strengthens-e
+xport-controls-restrict-chinas-capability-produce-advanced-semiconductors-military. Use: 24
+equipment classes, three software controls, HBM; use linked Federal Register for binding ECCNs.
+[R27 | P, agency release] U.S. Geological Survey, National Minerals Information Center. (2026).
+Mineral commodity summaries 2026. https://doi.org/10.3133/mcs2026. Data release: https:
+//www.usgs.gov/data/mineral-commodity-summaries-2026-data-release. Use: oﬀicial mineral statistics
+and reproducible data baseline. Constraint: incomplete all-stage technical manufacturing coverage.
+[R28 | P, Dutch government] Government of the Netherlands. (2025, January 15). Klever: Export
+controls on advanced semiconductor manufacturing equipment to be tightened. https://www.government
+.nl/latest/news/2025/01/15/klever-export-controls-on-advanced-semiconductor-manufacturing-equip
+ment-to-be-tightened. Use: April 2025 expansion of national authorization, not blanket ban.
+
+[R29 | P, Japanese government] Ministry of Economy, Trade and Industry. (2023). Export control
+amendments on semiconductor manufacturing equipment [Oﬀicial amendments and implementation no-
+tices]. https://www.meti.go.jp/policy/anpo/law09-2.html. Use: 23 classes and legal effective date.
+Action: final manuscript verify Japanese legal title and translation rather than treating this English
+description as the statute.
+[R30 | P, federal agency] U.S. Bureau of Industry and Security. (2026, January 13). Department of
+Commerce revises license review policy for semiconductors exported to China. https://www.bis.gov/pres
+s-release/department-commerce-revises-license-review-policy-semiconductors-exported-china. Use:
+case-by-case standards for specified H200/MI325X-class export license requests.
+[R31 | P, Chinese government] Ministry of Commerce of the People's Republic of China & General
+Administration of Customs. (2025, April 4). Announcement No. 18 of 2025: Export control on some
+medium and heavy rare-earth-related items. https://english.mofcom.gov.cn/Policies/AnnouncementsOr
+ders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html%3A11. Use: item-specific scope/licensing;
+oﬀicial Chinese version authoritative if translation ambiguity.
+
+
+                                                 44
+Weaponizing Interdependence
+
+
+[R32 | P, Chinese government] Ministry of Commerce of the People's Republic of China & General
+Administration of Customs. (2025, November 7). Announcement No. 70 of 2025: Suspension of specified
+announcements. https://www.mofcom.gov.cn/zfxxgk/gkml/art/2025/art_b1bff63a6bdd412a99c84203d
+d30fd39.html. Use: six suspended instruments (55,56,57,58,61,62), current-through 10 November 2026.
+Constraint: does not automatically determine status of every separate older export rule.
+[R33 | P, oﬀicial data guide] U.S. International Trade Commission. (n.d.). DataWeb API user guide.
+https://www.usitc.gov/applications/dataweb/api/dataweb_query_api.html. Use: oﬀicial U.S. trade
+data extraction; requires DataWeb account and valid API key.
+[R34 | P, oﬀicial data guide] UN Comtrade. (n.d.). UN Comtrade API. https://uncomtrade.org
+/docs/un-comtrade-api/.    Use: bilateral product trades with publication/version awareness; free API
+preview restricted and fuller extraction may require subscription.
+[R35 | P, oﬀicial database] World Intellectual Property Organization. (n.d.). PATENTSCOPE.
+https://www.wipo.int/en/web/patentscope. Use: published patent families and dates; not directly
+evidence of industrial qualified output.
+[R39 | M, institutional data] U.S. Securities and Exchange Commission. (n.d.). EDGAR filings.
+https://www.sec.gov/edgar/search/. Use: ownership/financial statements, reported capacities, source
+and filing timestamps.
+[R40 | P, oﬀicial outlook] International Energy Agency. (2026). Global Critical Minerals Outlook
+2026: Outlook. https://www.iea.org/reports/global-critical-minerals-outlook-2026/outlook. Use:
+annual published global stage pipeline and demand scenario benchmark.
+
+Closest-source differentiation table
+
+                           What this blueprint attempts that source
+Existing contribution      does not settle                                 Needed evidence before claiming success
+
+Farrell & Newman (2019)    Computes endogenous destruction of choke        Verified model and physical/access state
+                           leverage through real adaptation                paths
+Zou, Poncin & Bertinelli   Joins mineral and semiconductor                 Two independent empirical modules and
+(2022)                     vulnerabilities with stage/layer empirical      game bridge
+                           evidence
+Woods (2026)               Replaces illustrative opacity parameters with   Valid SPOI coding and adequate
+                           an independently coded observable index and     project-event sample
+                           investment transition estimates
+Anwar et al. (2024) /      Adjudicates mixed findings by separating        Technical milestone data plus legal/firm
+Hayakawa & Yang (2026)     effort, usable foreign access and verified      causal design
+                           domestic capability
+IEA (2026)                 Produces transparent probability               Actual project/element/route histories;
+                           distributions for commissioned, routed, usable validated demand
+                           supply and vintage backtests
+Clayton et al. (2024/25)   Quantifies policy adaptation and future         Honest scenario strategic payoffs and HJB
+                           leverage in a more granular reciprocal          verification
+                           mechanism
+
+
+Bibliography status: high-priority journal titles/publisher claims and oﬀicial policy entries were cross-
+checked selectively; the bibliography is not yet fully independently audited source by source.
+
+
+                                                          45
+Weaponizing Interdependence
+
+
+A publication submission must resolve every D/M flag with publisher metadata, source-to-claim reading,
+exact legal-effective-date records and an exported references.bib. Unknown or dubious citations from
+the eleven-page summary have deliberately not been carried forward merely to pad the reference count.
+
+
+14. Final audit: exact completion boundary and release blockers
+
+A request to ”make this complete” must distinguish a coherent master design from an implemented,
+empirically publishable study. A master document may fully specify methods while honestly lacking
+observed data and solved model coeﬀicients; an empirical results section cannot be completed from un-
+supported guesses. Some pre-data methodological choices are intentionally registered but require domain-
+specific evidence: target performance envelopes, verified magnet recipes, ownership/capacity and supplier-
+route data, accessible license statistics, payoffs. The audit therefore lists specified/proved, partially
+specified, and unverified/execution required rather than certifying everything with an unchecked
+”complete” stamp.
+                                           Where
+Requirement from drafts/requests           resolved here   Blueprint assessment         Execution verification
+
+Both original chokepoints remain           §§1, 3–7, 8     Specified                    Datasets not built
+separate, equally substantive
+No independent AI ecosystem game           §§0–1           Specified                    N/A
+As-of October 11, 2026 policy              §§2,10,13       Specified; oﬀicial sources   Legal-code item-by-item audit
+chronology; Chinese suspended vs                           located                      outstanding
+active rules
+Rare-earth feedstock → separation →   §3.3                 Specified as LP              Industrial recipes/routes/data
+metal/alloy → magnet process balances                                                   missing; full LP not yet run
+China-free versus N-1, one supplier        §§3.4–3.5       Specified, synthetic         Real network/outage fixture
+removed across stages                                      example verified             still required
+Raw coverage may exceed 1; capped          §§3.4, 5, 8     Reconciled                   Real supply/demand
+final service/game y bounded                                                            extraction pending
+Commissioning, competing risks, ramp, §4                   Specified                    Estimates/forecast backtests
+common shocks, forecasts                                                                unrun
+Avoid invalid future historical backtest   §§4.3, 6.6      Corrected                    Per-variable publication masks
+endpoints                                                                               unbuilt
+Distinguish threshold/viability from       §5              Derived, conditional         Feedback parameter
+genuine bifurcation                                                                     unestimated
+Semiconductor legal exposure vs            §6              Specified                    Technical target and evidence
+foreign access vs actual domestic                                                       panel not frozen
+capability
+Negative policy effect with nonnegative    §§6.4, 8.2      Mathematically repaired      Empirical θ, β unestimated
+effort and bounded capability
+Strategic opacity 10 indicators,           §7              Operationally specified      Historic coding and
+event/no-event rules, missingness, two                                                  double-coder reliability unrun
+examples
+Correct Markov four-state game and         §8.2            Derived and proved           Numerical solver unbuilt
+inward state dynamics
+Exact HJB gradient/control FOCs and        §§8.4–8.6       Derived, stagewise           Grid verification unrun
+all nine constrained Nash regimes
+Do not mistake pair-clipped interior       §8.4            Corrected with               Fixture verification included
+solution for Nash                                          counterexample
+
+                                                            46
+Weaponizing Interdependence
+
+                                          Where
+Requirement from drafts/requests          resolved here   Blueprint assessment         Execution verification
+
+Distinguish fixed-policy stability, action §8.6           Distinguished                Full closed-loop eigenvalues
+adjustment and full feedback stability                                                 unknown
+Honest dynamic-game equilibrium           §§8.4–8.6       Conditional                  No global pure MPE certified
+existence, uniqueness and multiplicity
+Constant-control self-eroding             §8.5            Derived and numerically      No unrestricted optimum
+benchmark                                                 checked                      claimed
+Exact physically/evidentially grounded    §8.7            Operational formulas         Fit and adequacy testing
+game state maps                                           specified                    outstanding
+All strategic payoff parameters           §8.7            Not feasible to certify ex   Mostly scenario-only, partial
+genuinely identified from data                            ante                         identification must be assessed
+Full source hierarchy, release clocks,    §§2–4, 6, 10    Specified                    Historical snapshots/rights
+variable dictionary and provenance                                                     pending
+Runnable complete empirical repository, §11               Design contract only         Not delivered / not
+pinned environment, all CI tests                                                       executed
+Full mathematically validated software    §§8,11          Algorithms specified;        Not implemented
+HJB & project LP                                          partial toy fixture
+Verified complete APA7 bibliography       §13             Working 35+ source           D/M entries need final checks
+and source-to-claim audit                                 registry
+Publication-quality estimated             §§4,6–9         Not yet research output      Not performed
+coeﬀicients, probabilities, equilibrium
+comparisons
+
+
+
+Requirements that remain genuinely outstanding
+
+1. Full implementation and validation. The end-to-end material-flow LP, adaptive capability infer-
+   ence, cause-specific competing-risk estimator, as-of source loader, daily opacity event processor, four-
+   dimensional coupled HJB solver, and reproducible manuscript builder have not been coded/executed
+   together. The optional demonstrator tests only specified toy mathematical components and cannot
+   certify these modules. No real network or value function has been solved.
+2. Source and technical scope verification. Company-by-company historical stage inputs, elemen-
+   tal compositions, process yields, facility ownership, foreign feedstock, exact magnet-grade recipes,
+   commercial throughput and accessible license data must be independently assembled. Critical semi-
+   conductor architecture/frontier targets must be frozen with expert input before a z = 1 score is
+   meaningful. Source/license permissions constrain replication availability.
+3. Empirical estimability and true forecast backtests. The number of rare-earth projects reaching
+   each state, amount of independent 2016–2024 public-vintage material, length of post-2022 semiconduc-
+   tor exposure, and quality of non-treated comparisons cannot be presumed suﬀicient. If underpowered,
+   simplify rather than report spurious precision. Backtesting cannot be certified without outcomes and
+   timestamps.
+4. Game identification and verified equilibria. Future state adaptation functions can be estimated
+   or bounded, but national strategic payoff magnitudes are unlikely to be point-identified from a handful
+   of restrictions. Pure feedback MPE existence and convergence are not proved for the calibrated full
+   game merely by showing an action-level Nash fixed point. Report parameter-region and numerical
+   equilibria conditionally after implementation.
+
+
+
+                                                           47
+Weaponizing Interdependence
+
+
+5. Final citation and external review. Sources flagged D/M in Section 13 need original-
+   document/bibliographic verification. Unpublished company announcements and claims about
+   technologies need at least corroborating admissible sources. Publication-ready copy editing and
+   specialist review remain.
+
+Explicit certification decision
+
+MASTER SYNTHESIS / MATHEMATICAL DESIGN: coherent and substantially more com-
+plete than any single provided draft, with the principal historical mathematical contradictions fixed and
+operational questions made explicit.
+COMPLETE, EXECUTED IMPLEMENTATION-READY REPLICATION PACKAGE:
+NOT YET VERIFIED AND NOT CLAIMED. The full code, industrial dataset, model estimates
+and manuscript outputs do not yet exist in this deliverable.
+PUBLISHABLE EMPIRICAL RESEARCH PAPER: NOT COMPLETE. Publication status
+depends on actual evidence, successful historical validation, credible identification, tested numerical
+equilibria and references. No manuscript can honestly announce the future probability of Chinese supply
+leverage ending by a given year without those calculations.
+What success will look like: the corresponding named modules in the acceptance matrix will change
+from NOTEXECUTED to PASS, with source digests, public data manifests, figure hashes, independent numerical
+tolerances and cross-machine reproduction logs. Until then, the conclusion is a carefully qualified
+master research blueprint, not a certified empirical result.
+
+
+
+
+                                                    48
+

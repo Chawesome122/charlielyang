@@ -1,0 +1,7 @@
+# Source material and redistribution
+
+`LICENSE` applies to the project's software and original documentation. It does not relicense company filings, issuer reports, agency publications, bibliographic metadata, the supplied blueprint, or cited research. Source URLs, checksums and retrieval records identify their providers; original notices remain in archived documents.
+
+The full NBER Working Paper 33309 by Christopher Clayton, Matteo Maggiori and Jesse Schreger (December 2024, revised April 2025) states: “© 2024 by Christopher Clayton, Matteo Maggiori, and Jesse Schreger. All rights reserved.” Its permission is for short attributed quotations of at most two paragraphs. Consequently its full PDF and extracted full text remain local research evidence and are omitted from Git. The bibliography, source metadata and the project's own claim summary are included.
+
+For complete local source-integrity replication, run `uv run python scripts/restore_omitted_sources.py --fetch`. This obtains the original directly from the publisher and requires the exact recorded SHA256. A revised PDF or error response is quarantined rather than silently accepted. If the publisher cannot supply those bytes, source-integrity replication is blocked for that original; the numerical models do not depend on its contents. The local working archive and the earlier disconnected-container validation retained the original, and neither implies permission to redistribute it.

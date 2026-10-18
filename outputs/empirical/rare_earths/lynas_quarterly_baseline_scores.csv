@@ -1,0 +1,7 @@
+product_basis,method,n_origins,mae,rmse,signed_mean_error
+NdPr_oxide_product_family,available_history_mean,8,292.9842195998446,333.18924551022405,-178.41887869075367
+NdPr_oxide_product_family,latest_available_persistence,8,355.625,447.5755522813997,-78.125
+NdPr_oxide_product_family,seasonal_previous_year,8,310.125,346.3020718967763,-200.625
+total_REO,available_history_mean,8,637.2671398046398,778.473399542194,340.47194749694756
+total_REO,latest_available_persistence,8,928.625,1041.7617889901703,-122.625
+total_REO,seasonal_previous_year,8,961.625,1066.572372134212,-272.625

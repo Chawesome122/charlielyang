@@ -1,0 +1,22 @@
+{
+  "classification": "synthetic mathematical verification, not historical evidence",
+  "input_sha256": {
+    "references/master_blueprint.pdf": "b0e4911e7d30b87755f000f19013297a858cb7e013c822322475b9cc54419cf5"
+  },
+  "numpy": "2.5.4",
+  "output_sha256": {
+    "outputs/synthetic/physical/ab_outages.csv": "be89361d13c6961ca8181f1566d27c131be9b34abef2222c8d7913244dfb566d",
+    "outputs/synthetic/physical/flow_results.json": "969a887a809bbfe70130e81bfa47be600c1912c35af0a76f34851d0644af4303",
+    "outputs/synthetic/physical/logistic_bifurcation.csv": "cb42b29369b28427d52887f88a8a1ea2d54d998a65718856f38418333a0fcba6",
+    "outputs/synthetic/physical/networks.json": "b4e5909aa6148344b6efc68e1b62090ee2e69e06fbaef7b79c3d98f3c1f646ac",
+    "outputs/synthetic/physical/ode_diagnostics.json": "1f805580a6ec6b7601157c12cbc4d8c902451730e494404ae7e93654588304c9",
+    "outputs/synthetic/physical/physical_scenarios.pdf": "4b2808d5ac3efd474e44367c65b3409c09f2b60ab65edcafde5d42a318bffbb1",
+    "outputs/synthetic/physical/physical_scenarios.png": "26439333c9bd68860f1a45c3ed3bbc2c100148a2696b26303ad2194b5367f6b3",
+    "outputs/synthetic/physical/resilience_bifurcation.pdf": "161c5cb5d6d031839af5626260d3325b54189b3bf985847737b5355b73ab3f48",
+    "outputs/synthetic/physical/resilience_bifurcation.png": "5989bbc3a9df3a0a6d5054b2417376ec4a4ddd0b0709bfbe675fd8e286b0de9f"
+  },
+  "python": "3.12.14",
+  "research_freeze": "2026-10-11",
+  "scipy": "1.18.1",
+  "timestamp_utc": "2026-10-18T16:06:18.856251+00:00"
+}

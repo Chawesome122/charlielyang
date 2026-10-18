@@ -1,0 +1,3 @@
+fixture,evidence_class,O1,O2,O3,O4,O5,O6,O7,O8,O9,O10,observed_indicators,daily_valid,disclosure_count,disclosure,predictability_count,predictability,clarity_count,clarity,spoi,principal,equal_pillars,equal_ten_indicators,equal_ten_reason
+opaque_illustrative,fully_synthetic,1,2,4,4,1,3,1,2,2,3,10,True,5,0.55,3,0.8333333333333334,2,0.25,57.41666666666667,57.41666666666667,54.44444444444445,57.49999999999999,complete_ten_indicators
+transparent_illustrative,fully_synthetic,0,1,2,1,0,1,0,0,1,1,10,True,5,0.2,3,0.25,2,0.0,16.75,16.75,15.0,17.5,complete_ten_indicators

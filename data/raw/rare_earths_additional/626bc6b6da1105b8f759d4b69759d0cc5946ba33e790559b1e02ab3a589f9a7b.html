@@ -1,0 +1,149 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta name="viewport" content="width=device-width, user-scalable=no" /><title>
+
+</title><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet" />
+    <style type="text/css">
+
+       
+
+        .investor-tabs .active a {
+            background-color: #17327F;
+        }
+        .investor-tabs .date {
+            color: #17327F;
+        }
+        table td img {
+            vertical-align: middle;
+            margin-right: 0px;
+        }
+        body,input,select {
+            font-family: 'Roboto', sans-serif !important;
+            font-size:15px;            
+        }
+        body{
+            margin:0px;
+        }
+        
+        .investor-tabs li > a, .wp-pagenavi a {
+            font-weight: 400 !important;
+        }
+
+        #wl_tabUL, #wl_CatOptionsDiv {
+            display: inline-block !important;
+        }
+
+        .wl-tab-tr td{
+                padding: 0px 0px 10px 0px !important;
+        }
+    </style>
+    <style>
+        .wl-size-span {
+            display: block;
+            padding-right: 15px;
+        }
+        
+        /* Added serach */
+        .wl-main-search{
+            font-family: 'Roboto', sans-serif;
+            text-align:right;
+            color:#666666;
+            padding:22px 0px 15px 0px;
+        }
+        .wl-input-search{
+            height:32px;
+            margin-right:10px;
+            border:1px solid #808080 ;
+            padding-left:5px;
+        }
+        .wl-search-btn{
+            padding:5px 15px 5px 15px;
+            border:1px solid #808080 ;
+            text-decoration:none;
+            font-family: 'Roboto', sans-serif;
+            font-weight:600;
+            font-size:14px;
+            color:#9c9c9c ;
+            text-transform:uppercase;
+        }
+        .wl-search-lbl{
+            margin-right:10px;
+        }
+        .wl-date-div2 {
+            display:none;
+        }
+        .wl-select-cat {
+                display:none;
+            }
+
+        @media screen and (max-width: 600px) {
+              .wl-date-div1 {
+                    display:none;
+              }
+              .wl-date-div2 {
+                    display:inline;
+              }
+              
+              .wl-date-td  {
+                  vertical-align:top;
+              }
+          
+        }
+
+         @media screen and (max-width: 390px) {
+            .wl-select-cat {
+                display:none;
+            }
+
+            .wl-main-search {
+                text-align:left;
+                margin-bottom:15px;
+            }
+            .wl-search-btn {
+                position:absolute;
+                top:100px;
+                left:115px;
+                
+            }
+        }
+
+        @media screen and (max-width: 330px) {
+            .wl-select-cat {
+                display:none;
+            }
+           
+            .wl-main-search {
+                text-align:left;
+                margin-bottom:53px;
+            }
+             .wl-input-search {
+                position:absolute;
+                top:85px;
+                left:0px;
+            }
+            .wl-search-btn {
+                position:absolute;
+                top:123px;
+                left:0px;
+            }
+        }
+    </style>
+</head>      
+<body>
+    
+    <link rel="stylesheet" type="text/css" href="https://wcsecure.weblink.com.au/Clients/lynascorp/css/headline.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://wcsecure.weblink.com.au/Clients/lynascorp/css/pagenav.css" />
+    <script type="text/javascript" src="/scripts/dateformat.js"></script>
+    
+    <script type="text/javascript" src="/Scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://wcsecure.weblink.com.au/Clients/lynascorp/headlineJS.aspx"></script> 
+    <script type="text/javascript">
+        weblinkHeadlines.requestWeblinkData(1, 0);
+       
+    </script>
+    <div  class="investor-tabs" id="wl_headlineDiv"></div>
+    <nav id="wl_nav" class='navigation paging-navigation row' style="line-height:30px;" role='navigation'></nav>   
+</body>
+     
+</html>

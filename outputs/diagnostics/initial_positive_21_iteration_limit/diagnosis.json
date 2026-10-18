@@ -1,0 +1,4 @@
+{
+  "diagnosis": "Four positive-response starts reached the 80-iteration budget with decreasing action error1.02e-7\u20131.10e-7; extend to120 iterations without relaxing1e-7 acceptance. Original failed attempts preserved.",
+  "rerun_max_iterations": 120
+}

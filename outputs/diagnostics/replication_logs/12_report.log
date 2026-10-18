@@ -1,0 +1,23 @@
+{
+  "freeze": "2026-10-11",
+  "tests": 133,
+  "test_failures": 0,
+  "rare_earth_versioned_observations": 87,
+  "rare_earth_latest_observations": 53,
+  "lynas_annual_observations": 22,
+  "project_evidence_records": 21,
+  "project_count": 15,
+  "activity_count": 19,
+  "legal_event_rows": 22,
+  "financial_input_rows": 8,
+  "valid_opacity_quarters": 0,
+  "valid_opacity_days": 0,
+  "finite_grid_candidate_runs": 34,
+  "not_solved_runs": 3,
+  "all_saved_candidates_verified": true,
+  "continuous_mpe_certified": false,
+  "constant_control_root": 0.46557123187676797,
+  "empirical_threshold_probabilities_available": false,
+  "causal_adaptation_effects_identified": false,
+  "publication_ready": false
+}

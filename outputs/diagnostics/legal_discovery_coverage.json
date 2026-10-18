@@ -1,0 +1,22 @@
+{
+  "freeze": "2026-10-11",
+  "queries": [
+    {
+      "source_id": "LEGAL-DISCOVERY-1",
+      "status": "query_traversed",
+      "count": 52,
+      "sha256": "b761e426dedaab192bcfe2a98167291b24abb30118aff635583b683405cb2255"
+    },
+    {
+      "source_id": "LEGAL-DISCOVERY-2",
+      "status": "query_traversed",
+      "count": 25,
+      "sha256": "049924ce2ebc834e9db50044f3f620f0b16649917d2c48a53bc99e06485cd423"
+    }
+  ],
+  "unique_candidates": 58,
+  "reviewed_document_matches": 17,
+  "not_scope_adjudicated": 41,
+  "completeness": "Complete traversal of these two queries only, not a complete legal universe or consolidated law",
+  "additional_original_issued_texts_acquired": 41
+}

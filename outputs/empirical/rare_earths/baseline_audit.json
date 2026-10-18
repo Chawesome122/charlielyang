@@ -1,0 +1,108 @@
+{
+  "freeze": "2026-10-11",
+  "research_type": "empirical_company_reported_output_descriptive_hindcast",
+  "n_origins": 2,
+  "origins": [
+    "2023-12-31",
+    "2024-12-31"
+  ],
+  "horizon_years_from_origin": 1,
+  "source_dataset_sha256": "46ad65ca7b9fb8b58ca716d01d62677d8e2da63e1c5469907a8119345a7da953",
+  "product_scope": "total_REO_content_in_concentrate",
+  "unit": "metric_tonnes_per_observed_year",
+  "limitations": [
+    "Two extra micro origins, outside the blueprint's system-level 2/4/6-year schedule",
+    "Retrospectively registered untuned baselines; no prospective model-selection or forecast-skill certification",
+    "Company-reported output; no independent operating-output corroboration",
+    "Conservative verified source availability may omit earlier public information",
+    "Repeated source versions are not independent observations",
+    "Annual total REO in concentrate is not NdPr output, China-free processing, alloy, qualified magnets, or physical service",
+    "No stochastic production model, calibrated forecast distribution, or uncertainty intervals estimated"
+  ],
+  "blocked": [
+    {
+      "origin": "2023-12-31",
+      "target_year": 2024,
+      "component": "aggregate_logistic",
+      "reason": "fewer_than_six_unique_annual_observations_and_no_independently_fixed_carrying_capacity"
+    },
+    {
+      "origin": "2023-12-31",
+      "target_year": 2024,
+      "component": "NdPr_separation",
+      "training_n_unique_years": 0,
+      "reason": "too_few_training_observations_for_inferential_model; no_substitution_of_mining_REO"
+    },
+    {
+      "origin": "2024-12-31",
+      "target_year": 2025,
+      "component": "aggregate_logistic",
+      "reason": "fewer_than_six_unique_annual_observations_and_no_independently_fixed_carrying_capacity"
+    },
+    {
+      "origin": "2024-12-31",
+      "target_year": 2025,
+      "component": "NdPr_separation",
+      "training_n_unique_years": 1,
+      "reason": "too_few_training_observations_for_inferential_model; no_substitution_of_mining_REO"
+    }
+  ],
+  "vintage_scoring_audit": [
+    {
+      "origin": "2023-12-31",
+      "horizon_years": 1,
+      "endpoint": "2024-12-31",
+      "outcome_public_date": "2026-02-26",
+      "scoreable": true,
+      "reason": "eligible",
+      "vintage_id": "df2e34d9e09a815ccb7a40091be5e8ded106e0bf837e421c3a9fa5bc95497405",
+      "prediction_as_of": "2023-12-31",
+      "latest_input_public_date": "2023-02-28",
+      "model": {
+        "absolute_error": 2956.0,
+        "squared_error": 8737936.0,
+        "n": 1
+      },
+      "baselines": {
+        "historical_mean": {
+          "absolute_error": 4316.666666666664,
+          "squared_error": 18633611.11111109,
+          "n": 1
+        },
+        "linear_trend": {
+          "absolute_error": 1677.3333333333285,
+          "squared_error": 2813447.1111110947,
+          "n": 1
+        }
+      }
+    },
+    {
+      "origin": "2024-12-31",
+      "horizon_years": 1,
+      "endpoint": "2025-12-31",
+      "outcome_public_date": "2026-02-26",
+      "scoreable": true,
+      "reason": "eligible",
+      "vintage_id": "86070dbdcae827ba8be0fdc905d39e0ede53f75999c82cda8ba96f16a7362405",
+      "prediction_as_of": "2024-12-31",
+      "latest_input_public_date": "2024-02-28",
+      "model": {
+        "absolute_error": 9135.0,
+        "squared_error": 83448225.0,
+        "n": 1
+      },
+      "baselines": {
+        "historical_mean": {
+          "absolute_error": 9449.0,
+          "squared_error": 89283601.0,
+          "n": 1
+        },
+        "linear_trend": {
+          "absolute_error": 6212.200000000026,
+          "squared_error": 38591428.840000324,
+          "n": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "command": ".venv/bin/python scripts/run_opacity.py",
+  "freeze": "2026-10-11",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "inputs_and_outputs_sha256": {
+    "codebooks/spoi_codebook.csv": "3b3a6aaaf2bda7d995e2c13e6586f08685ce84139adedd5cbb3a6ea36667d5f3",
+    "configs/opacity.yaml": "68fa983dfc083093061aa0db0eede23bd5114044d6d701c829d96cf64d0cce54",
+    "data/processed/opacity/blueprint_unverified_candidates.csv": "a1ea26a33f56275c4952e9ba1e1548a5c5b1324d353b92acad4dcf30e2d43115",
+    "data/processed/opacity/legal_events.csv": "69d7a6e4d7a7928b888cf94a97a3061a6927fc1ce7b31cd795f58178eb93399c",
+    "data/processed/opacity/obligations.csv": "b04f47497de087e681f79b52d5b65edcfabfe110323383d66b724ca0b1c8d10f",
+    "data/processed/opacity/source_events.csv": "8f9be74dc9499675d041f192765321a31121c0d30e5a3f76d60c44fcd0eb0352",
+    "docs/opacity_evidence.md": "a54c170e4f5e09a5854e34a169dfde7d73d800b02fbfeac6cb600e36d2076011",
+    "metadata/opacity_sources.csv": "84b8142f489dfca92b93717f96d8b71813b37a961dfdb853dfb8a4d1fbd53692",
+    "outputs/empirical/opacity/daily_coverage.csv": "33b3c0d405f13c98615f80f112d35bca9c35c12d92f3580f55965a0b0029cf6e",
+    "outputs/empirical/opacity/quarterly_coverage.csv": "7c0edb7db371158309286790042ece995e9d217ccb6048661e38b2930ecc0850",
+    "outputs/empirical/opacity/status.json": "fee832e6839026660ebb3c1a409f002454fd7f9580569f1c2852b70e87646cd0",
+    "outputs/empirical/opacity/window_sensitivity_coverage.csv": "948bac0f8f16ff21fb7f613bb2f9f9bb180be095a98436b959aa177f138457de",
+    "outputs/synthetic/opacity/blueprint_arithmetic.csv": "af0d4c49717abe501b157a12a12b47db9e2857c0b11a7b1ebb681a3a046983a3",
+    "outputs/synthetic/opacity/blueprint_arithmetic.pdf": "9b7badda17127e89c63fc6ac679caaca9587bf71968b9f550d7c3ed31259a617",
+    "outputs/synthetic/opacity/blueprint_arithmetic.png": "1ea6e94a87fdb7b1a898124cd6116a8d37da535e26cd96bffdad9803ffdaf09c",
+    "scripts/run_opacity.py": "54c4b0d26aaf6af99b417eab9b8c723822e5873d6d277794079f785249eec4a1",
+    "src/weaponized/opacity/__init__.py": "755d64768100e67232d3c685301ef82ccde9604de08fb6cc37ca34d278c8b3ca",
+    "src/weaponized/opacity/coding.py": "646a7a1ddfbf232fabf93cf364f8c890502a9cef1c337eca686dc467817f9547",
+    "src/weaponized/opacity/events.py": "37b1afe0a1f77cd29d0e5c946c1c14da43b18bb77a2ed797134bd8e2de92ee57",
+    "src/weaponized/opacity/index.py": "a72b1dc34668e43beae9e1b50f2f9e204fa0cf4cf1725a83cfc5c602cfe7d948",
+    "src/weaponized/opacity/obligations.py": "a9107c9930678894564336b30e2b75de1a16d3f5fe55a9cd5bbaec4fc088e1b7",
+    "src/weaponized/opacity/reliability.py": "234c882bd231cbbfea451e23f87700d60da8a92da2c5d7703eab07f4fa0e2bde",
+    "src/weaponized/opacity/sensitivity.py": "babb869171d6ddedb69291e3fa29cea5d64f18b243da235190d0268ef6ba15a1",
+    "tests/test_opacity.py": "81b6968916a83bc22ecb2a5dcb32d3d0be205523cf22b51dad788dbd48c71e5f"
+  },
+  "synthetic_outputs_separate": true
+}

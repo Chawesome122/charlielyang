@@ -1,0 +1,24 @@
+freeze: '2026-10-11'
+clock: {empirical: quarter, game: year, quarter_year_fraction: 0.25}
+rare_earths:
+  elements: [Nd, Pr, Dy, Tb]
+  stages: [mine, separation, metal_alloy, magnet]
+  primary_scope: China-origin material and processing excluded
+  bloc_scenario: [USA, CAN, AUS, JPN, KOR, GBR, FRA, DEU, EST, MYS]
+  bloc_status: registered sensitivity definition; demand not yet measured
+  thresholds: [0.5, 0.75, 0.9, 1.0]
+  persistence_quarters: 4
+  targets: ['2028Q4', '2031Q4', '2035Q4']
+  prohibit_unknown_imports_by_default: true
+  recipes_status: missing commercial target-grade recipes; synthetic fixtures separate
+semiconductors:
+  target_status: provisional alternatives require engineering review
+  exposure_base_year: 2021
+  no_missing_as_zero: true
+opacity:
+  pillars: {disclosure: 0.40, predictability: 0.35, clarity: 0.25}
+  min_indicators: 8
+  min_valid_quarter_days_fraction: 0.80
+integration:
+  empirical_calibration_status: blocked pending independently validated x/y panels
+  national_payoffs: scenario only

@@ -1,0 +1,10 @@
+{
+  "ab_service": {
+    "A+B": 0.9999999999,
+    "Remove A": 0.49999999990000005,
+    "Remove B": 0.5714285713285714
+  },
+  "four_element_installed": 0.6666666665666666,
+  "max_ode_error": 1.7067125490655144e-11,
+  "output_dir": "/workspace/charlielyang/outputs/synthetic/physical"
+}

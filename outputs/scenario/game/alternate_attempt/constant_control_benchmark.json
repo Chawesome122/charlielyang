@@ -1,0 +1,8 @@
+{
+  "unconstrained_nonnegative_root": 0.46557123187676797,
+  "policy": 0.46557123187676797,
+  "polynomial_residual": -1.1102230246251565e-16,
+  "myopic": 1.0,
+  "objective": 0.20929391019635504,
+  "scope": "one_sided_constant_control_scenario"
+}

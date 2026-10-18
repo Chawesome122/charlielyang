@@ -1,0 +1,453 @@
+{
+  "classification": "hypothetical_scenarios_not_empirical_results",
+  "information_freeze": "2026-10-11",
+  "config_sha256": "8c36ca06ed22e8ca42516c2b677cadea4b0a82e21065b77c103538cc2e0c0d3b",
+  "benchmark": {
+    "unconstrained_nonnegative_root": 0.46557123187676797,
+    "policy": 0.46557123187676797,
+    "polynomial_residual": -1.1102230246251565e-16,
+    "myopic": 1.0,
+    "objective": 0.20929391019635504,
+    "scope": "one_sided_constant_control_scenario"
+  },
+  "runs": [
+    {
+      "start": "mid",
+      "status": "not_solved",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": -0.7,
+        "beta_u": -0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 55.957263332000025,
+      "peak_process_rss_kib": 180724,
+      "max_deviation_gain": 0.00012687676032391293,
+      "best_response_action_residual": 0.016319068675657467,
+      "hjb_residuals": [
+        1.0787282178625901e-10,
+        1.7535614627028906e-10
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 44,
+            "linear_residual_inf": 1.0787282178625901e-10,
+            "reward_inf": 0.5349454473580663
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 42,
+            "linear_residual_inf": 1.7535614627028906e-10,
+            "reward_inf": 0.5351344600115279
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.11816511800009266
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "adaptation_negative",
+      "archive": "outputs/scenario/game/adaptation_negative_n17_mid.npz",
+      "archive_sha256": "42b89ff1b0ddcc65c00581b9508f2c39335a137ad2f03ca5c4acdf8c746e22e8"
+    },
+    {
+      "start": "mid",
+      "status": "not_solved",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": -0.7,
+        "beta_u": -0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 21,
+      "nodes": 194481,
+      "elapsed_seconds": 122.78428306,
+      "peak_process_rss_kib": 253308,
+      "max_deviation_gain": 0.0024822236914257,
+      "best_response_action_residual": 0.07045883466855929,
+      "hjb_residuals": [
+        1.294117590866506e-10,
+        2.556915790208336e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 51,
+            "linear_residual_inf": 1.294117590866506e-10,
+            "reward_inf": 0.5349337533626911
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 51,
+            "linear_residual_inf": 2.556915790208336e-11,
+            "reward_inf": 0.5351222524756466
+          }
+        ],
+        "matrix_nnz": 972405,
+        "sparse_bytes": 12446788,
+        "elapsed_seconds": 0.4640870090000817
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "adaptation_negative",
+      "archive": "outputs/scenario/game/adaptation_negative_n21_mid.npz",
+      "archive_sha256": "99cb6fa595166415f38a89e4f029b97ddc9e5c23a0ace6027a94b389030377ee"
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.0,
+        "beta_u": 0.0,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 8.590545403999954,
+      "peak_process_rss_kib": 253308,
+      "max_deviation_gain": 2.669739429528306e-15,
+      "best_response_action_residual": 7.301832344319692e-08,
+      "hjb_residuals": [
+        4.6916318052758754e-11,
+        4.0860370642548105e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 4.6916318052758754e-11,
+            "reward_inf": 0.5349010093888038
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 4.0860370642548105e-11,
+            "reward_inf": 0.5349010093887672
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.02177954800004045
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "adaptation_zero",
+      "archive": "outputs/scenario/game/adaptation_zero_n17_mid.npz",
+      "archive_sha256": "5febb5234b7bfde0636d2512c43f0cf3ef086d02e4fb30e34a875cc9bf514cd1",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6,
+          0.5882352941176471,
+          0.3779148697780406,
+          0.386099011594515
+        ],
+        "drift_residual": 5.551115123125783e-17,
+        "full_closed_loop_jacobian": [
+          [
+            -0.19999999999972246,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.1699999999997641,
+            0.0,
+            0.0
+          ],
+          [
+            -0.4092070908239569,
+            -0.06138106362518948,
+            -0.4999999999986122,
+            0.0
+          ],
+          [
+            -0.061381063623801704,
+            -0.40920709082118134,
+            0.0,
+            -0.5
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.4999999999986122,
+          -0.5,
+          -0.19999999999972246,
+          -0.1699999999997641
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": true,
+        "stability_status": "locally_stable_interpolated_policy",
+        "jacobian_is_local_derivative": true,
+        "distance_to_grid_knot": 0.0029148697780406185,
+        "nonsmooth_warning": null,
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.2933360741684311,
+            0.3936893840830191
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n17_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.09414340510999827,
+            0.2039846049335296
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n17_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.4239130760687437,
+            0.5104946955520486
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n17_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.25964271551042295,
+            0.33294061792437923
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n17_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    },
+    {
+      "start": "mid",
+      "status": "verified_finite_grid_candidate",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": 0.0,
+        "beta_u": 0.0,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 21,
+      "nodes": 194481,
+      "elapsed_seconds": 28.711460351000028,
+      "peak_process_rss_kib": 274968,
+      "max_deviation_gain": 2.6706067912662945e-15,
+      "best_response_action_residual": 7.302868482161884e-08,
+      "hjb_residuals": [
+        9.937107386948085e-11,
+        1.2634623902663122e-10
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 9.937107386948085e-11,
+            "reward_inf": 0.534901009388884
+          },
+          {
+            "bicgstab_code": 0,
+            "iterations": 0,
+            "linear_residual_inf": 1.2634623902663122e-10,
+            "reward_inf": 0.5349010093885871
+          }
+        ],
+        "matrix_nnz": 972405,
+        "sparse_bytes": 12446788,
+        "elapsed_seconds": 0.04852996699992218
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "adaptation_zero",
+      "archive": "outputs/scenario/game/adaptation_zero_n21_mid.npz",
+      "archive_sha256": "e13bfd9173dfa5a551aed7e136eafe9a903b9ff506a1de8d41f1bc94a61416d9",
+      "closed_loop_stability": {
+        "verified_stationary_point": true,
+        "state": [
+          0.6,
+          0.5882352941176471,
+          0.377914869778054,
+          0.38609901159451526
+        ],
+        "drift_residual": 2.7755575615628914e-17,
+        "full_closed_loop_jacobian": [
+          [
+            -0.19999999999972246,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.1699999999997641,
+            0.0,
+            0.0
+          ],
+          [
+            -0.4092070908253447,
+            -0.061381063623801704,
+            -0.5,
+            1.3877787807800577e-12
+          ],
+          [
+            -0.06138106362518948,
+            -0.4092070908239569,
+            1.3877787807800577e-12,
+            -0.5
+          ]
+        ],
+        "eigenvalues_real": [
+          -0.4999999999986122,
+          -0.5000000000013878,
+          -0.19999999999972246,
+          -0.1699999999997641
+        ],
+        "eigenvalues_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "locally_stable": null,
+        "stability_status": "inconclusive_at_interpolation_knot",
+        "jacobian_is_local_derivative": false,
+        "distance_to_grid_knot": 1.1102230246251565e-16,
+        "nonsmooth_warning": "Central secant spectrum at an interpolation knot cannot establish local stability; one-sided or nonsmooth analysis required.",
+        "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+      },
+      "counterfactuals": {
+        "candidate_feedback": {
+          "discounted_30_year_payoffs": [
+            0.29333607416849383,
+            0.39368938408309523
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n21_candidate_feedback.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_higher": {
+          "discounted_30_year_payoffs": [
+            0.09414340511007348,
+            0.20398460493360537
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n21_controls_25pct_higher.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "controls_25pct_lower": {
+          "discounted_30_year_payoffs": [
+            0.42391307606875994,
+            0.5104946955520508
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n21_controls_25pct_lower.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        },
+        "us_shock_one_year": {
+          "discounted_30_year_payoffs": [
+            0.25964271551072393,
+            0.3329406179243948
+          ],
+          "csv": "outputs/scenario/game/adaptation_zero_n21_us_shock_one_year.csv",
+          "payoff_scope": "finite_30_year_integral_no_terminal_continuation"
+        }
+      }
+    }
+  ],
+  "grid_refinement": [
+    {
+      "scenario": "adaptation_zero",
+      "coarse": 17,
+      "fine": 21,
+      "u_sup_change": 3.7670422337043874e-11,
+      "c_sup_change": 3.700562078989833e-11,
+      "comparison": "coarse_multilinear_policy_evaluated_at_fine_grid_nodes"
+    }
+  ]
+}

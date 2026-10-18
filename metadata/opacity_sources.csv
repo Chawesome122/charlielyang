@@ -1,0 +1,3 @@
+source_id,info_public_date,retrieval_timestamp,source_url,archive_path,sha256,status,error,claim_status,final_url,blueprint_claimed_public_date,admissible_historical_evidence
+OP-18-EN,,2026-10-18T06:20:50.078955+00:00,https://english.mofcom.gov.cn/Policies/AnnouncementsOrders/art/2025/art_0dd87cbee7b045bf93fabe6ab2faceee.html,,,FAILED,HTTP Error 503: Service Unavailable,not_read,,2025-04-04,false
+OP-70-ZH,,2026-10-18T06:20:52.983837+00:00,https://www.mofcom.gov.cn/zfxxgk/gkml/art/2025/art_b1bff63a6bdd412a99c84203dd30fd39.html,,,FAILED,HTTP Error 403: Forbidden,not_read,,2025-11-07,false
