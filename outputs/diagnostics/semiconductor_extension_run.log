@@ -1,0 +1,37 @@
+{
+  "freeze": "2026-10-11",
+  "label": "empirical_evidence_availability_audit",
+  "aggregate": {
+    "domestic_strict_min": null,
+    "effective_residual_gap_strict_min": null,
+    "effective_complementary_strict_min": null,
+    "domestic_soft_min_sensitivity": null,
+    "domestic_lower": 0.0,
+    "domestic_upper": 1.0,
+    "bound_type": "evidence_or_logical_bounds_not_confidence_intervals"
+  },
+  "diagnostics": {
+    "target_expert_approved": false,
+    "input_evidence_rows": 0,
+    "eligible_evidence_rows": 0,
+    "unknown_domestic_layers": 7,
+    "unknown_foreign_layers": 7,
+    "coder_conflicts": [],
+    "legal_records_separate_from_access": 27,
+    "causal_effect_estimated": false,
+    "game_x_available": false
+  },
+  "identification": {
+    "causal_estimation_permitted": false,
+    "reasons": [
+      "no_observed_firm_product_panel",
+      "required_panel_fields_missing",
+      "conditional_parallel_trends_unjustified",
+      "policy_spillovers_unresolved"
+    ],
+    "estimand_if_identified": "cohort-time ATT(g,t), publication and effective event clocks separate"
+  },
+  "verified_legal_event_rows": 27,
+  "capability_scores_are_empirical_estimates": false,
+  "no_numeric_national_capability_inferred_from_legal_rules": true
+}

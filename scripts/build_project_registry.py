@@ -91,6 +91,8 @@ def main():
                          utilization="not inferred from nameplate", source_id=item["source_id"], source_sha256=item["source_sha256"],
                          locator=item["locator"], quote=item["quote"], eligible_for_asof=True,
                          commercial_network_ready=False, cancelled_projects_coverage="Texas cancellation retained; global failure discovery incomplete"))
+    industrial = pd.read_csv(ROOT/"data/processed/industrial_evidence/project_milestones.csv")
+    rows.extend(industrial.to_dict("records"))
     frame = pd.DataFrame(rows)
     target = ROOT/"data/processed/rare_earths"
     frame.to_csv(target/"project_state_evidence.csv", index=False)
@@ -111,6 +113,11 @@ def main():
     ]
     log = pd.DataFrame(pending, columns=["candidate_project", "evidence_gap"]).assign(status="discovery candidate; not admitted to risk set")
     log.loc[log.candidate_project.str.startswith("Lynas"), "status"] = "dated discovery histories extracted; population hazard risk set still inadmissible"
+    added = industrial.drop_duplicates("project_id", keep="last")
+    extra = pd.DataFrame({"candidate_project":added.project_id,
+                          "evidence_gap":"operator corroboration, entry/exit history, technical recipe, route capacity and independent qualified rate incomplete",
+                          "status":"source-linked discovery snapshot; not admitted to representative risk set"})
+    log = pd.concat([log, extra], ignore_index=True)
     log.to_csv(ROOT/"metadata/project_inclusion_log.csv", index=False)
     pd.DataFrame([dict(source_id="RE-MOLYCORP-SUBMISSIONS",decision="REJECT_ENTITY_MISMATCH",reason="CIK1287121 resolves to Canada Jetlines, not Molycorp; no claim uses this archive"),
                   dict(source_id="RE-USARE-10K2023;RE-USARE-10K2024",decision="EXCLUDE_INDUSTRIAL_PANEL",reason="pre-merger SPAC observations are not operating-company history"),

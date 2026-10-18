@@ -15,3 +15,6 @@ exhibit,requirement,evidence_path,status,limitation
 14,Constant-control benchmark,outputs/scenario/game/constant_control_benchmark.pdf,VERIFIED,"Executed analytical hypothetical benchmark, not empirical estimate"
 15,Feedback policies and trajectories,outputs/scenario/game/adaptation_positive_n21_trajectories.pdf,PARTIAL,Finite-grid scenario candidates; fine negative failures and continuum residuals
 16,Identification and sensitivities,metadata/parameter_registry.csv,PARTIAL,Scenario registry and source gaps recorded; empirical uncertainty unestimated
+17,Industrial documentation coverage by stage,outputs/empirical/rare_earths/evidence_coverage.pdf,PARTIAL,Selected roster; documentation counts are not industry capacity or a complete risk set
+18,Finite historical batch evidence and mass accounting,outputs/empirical/rare_earths/finite_batch_evidence.json,PARTIAL,"Issuer self-report; approximate quantities, unnamed processor, unknown other inputs and no annual rate or China-free service"
+19,MP consolidated nominal cash PPE inputs,outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf,PARTIAL,SEC company-facts tags; no project allocation or original quarterly XBRL context reconciliation; not physical capacity or causal policy effects

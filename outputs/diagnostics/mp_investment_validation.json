@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "versioned_records": 53,
+  "distinct_reported_durations": 28,
+  "halfyear_values_usd": {
+    "2021": 44691000.0,
+    "2022": 122584000.0,
+    "2023": 130236000.0,
+    "2024": 98326000.0,
+    "2025": 59473000.0,
+    "2026": 307711000.0
+  },
+  "quarter_halfyear_reconciliations": [
+    {
+      "year": 2024,
+      "q1_plus_q2_minus_h1_usd": 0.0,
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "q1_plus_q2_minus_h1_usd": 0.0,
+      "passed": true
+    },
+    {
+      "year": 2026,
+      "q1_plus_q2_minus_h1_usd": 0.0,
+      "passed": true
+    }
+  ],
+  "input_class": "actual reported nominal cash-flow input, not project spending allocation or output",
+  "causal_response_identified": false,
+  "forecast_skill_established": false,
+  "limitation": "official archived companyfacts representation; original quarterly filing/XBRL context reconciliation remains blocked"
+}

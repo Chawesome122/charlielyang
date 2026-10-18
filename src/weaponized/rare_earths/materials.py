@@ -47,3 +47,21 @@ def contained_elements(mass: float, composition: dict[str, float]) -> dict[str, 
     if sum(composition.values()) > 1 + 1e-12:
         raise ValueError("Element mass fractions sum above one")
     return {e: mass * fraction for e, fraction in composition.items()}
+
+
+def reported_batch_summary(oxide_input_tonnes: float, magnet_output_tonnes: float) -> dict:
+    """Describe a finite reported batch without inventing process yield or rate.
+
+    The numerator and denominator are different products; iron, boron and other
+    inputs are not observed here. Product expansion above one is not element
+    creation, and a batch is not an annual production capacity.
+    """
+    if any(not math.isfinite(x) or x <= 0 for x in [oxide_input_tonnes, magnet_output_tonnes]):
+        raise ValueError("Finite positive reported batch amounts are required")
+    return dict(oxide_input_tonnes=oxide_input_tonnes, magnet_output_tonnes=magnet_output_tonnes,
+                magnet_to_oxide_product_mass_ratio=magnet_output_tonnes/oxide_input_tonnes,
+                minimum_additional_input_mass_tonnes=max(0.0, magnet_output_tonnes-oxide_input_tonnes),
+                additional_input_bound_basis="aggregate batch mass conservation; assumes nonnegative other outputs; reported masses are approximate",
+                quantity_basis="total finite batch, not a rate",
+                elemental_recovery_estimate=None, annual_capacity_estimate=None,
+                china_free_service_estimate=None)

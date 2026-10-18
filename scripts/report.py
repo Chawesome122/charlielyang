@@ -74,10 +74,10 @@ def source_registry():
     trace=[]
     for row in pd.read_csv(ROOT/"data/processed/rare_earths/observations.csv").to_dict("records"):
         trace.append(dict(claim_id=row["record_version_id"],evidence_class=row["evidence_class"],source_id=row["source_id"],sha256=row["source_sha256"],locator=row["locator"],table="data/processed/rare_earths/observations.csv"))
-    for file in ["data/processed/semiconductors/legal_claims.csv","data/processed/semiconductors/reported_financial_inputs.csv","data/processed/rare_earths_additional/lynas_annual_production.csv", "data/processed/rare_earths_additional/lynas_project_history.csv", "data/processed/rare_earths_additional/lynas_quarterly_production_versions.csv"]:
+    for file in ["data/processed/semiconductors/legal_claims.csv","data/processed/semiconductors/reported_financial_inputs.csv","data/processed/rare_earths_additional/lynas_annual_production.csv", "data/processed/rare_earths_additional/lynas_project_history.csv", "data/processed/rare_earths_additional/lynas_quarterly_production_versions.csv", "data/processed/industrial_evidence/technical_claims.csv", "data/processed/industrial_evidence/project_milestones.csv", "data/processed/industrial_evidence/mp_cash_ppe_versions.csv"]:
         data=pd.read_csv(ROOT/file)
         for i,row in enumerate(data.to_dict("records")):
-            trace.append(dict(claim_id=row.get("claim_id",row.get("observation_id",f"LYNAS-{i}")),evidence_class="empirical_reported",source_id=row["source_id"],sha256=row["source_sha256"],locator=row.get("source_locator",row.get("locator")),table=file))
+            trace.append(dict(claim_id=row.get("claim_id",row.get("observation_id",row.get("record_id",f"LYNAS-{i}"))),evidence_class="empirical_reported",source_id=row["source_id"],sha256=row["source_sha256"],locator=row.get("source_locator",row.get("locator")),table=file))
     pd.DataFrame(trace).to_csv(ROOT/"metadata/claims_to_sources.csv",index=False)
 
 
@@ -96,9 +96,16 @@ def summary_and_tables():
     lynas=pd.read_csv(ROOT/"data/processed/rare_earths_additional/lynas_annual_production.csv")
     financial=pd.read_csv(ROOT/"data/processed/semiconductors/reported_financial_inputs.csv")
     quarterly=pd.read_csv(ROOT/"data/processed/rare_earths_additional/lynas_quarterly_production_versions.csv")
+    industrial=read("outputs/diagnostics/industrial_evidence_validation.json")
+    coverage=read("outputs/diagnostics/evidence_coverage_validation.json")
+    batch=read("outputs/empirical/rare_earths/finite_batch_evidence.json")
+    investment=read("outputs/diagnostics/mp_investment_validation.json")
     result=dict(freeze="2026-10-11",tests=test_count,test_failures=failures,
                 rare_earth_versioned_observations=rare["versioned_observations"], rare_earth_latest_observations=rare["latest_observations"],
                 lynas_annual_observations=len(lynas),lynas_quarterly_versions=len(quarterly),project_evidence_records=len(projects),project_count=projects.project_id.nunique(),activity_count=projects.activity_id.nunique(),
+                industrial_technical_claims=industrial["technical_claims"], industrial_project_records=industrial["project_records"],
+                mp_cash_ppe_versions=investment["versioned_records"], mp_cash_ppe_durations=investment["distinct_reported_durations"],
+                documentary_coverage=coverage["documentation_counts"],
                 legal_event_rows=semiconductor["verified_legal_event_rows"],financial_input_rows=len(financial),
                 valid_opacity_quarters=opacity["valid_quarters"],valid_opacity_days=opacity["valid_days"],
                 finite_grid_candidate_runs=game["claimed_candidate_count"],not_solved_runs=game["not_solved_count"],
@@ -107,6 +114,12 @@ def summary_and_tables():
                 causal_adaptation_effects_identified=False, publication_ready=False)
     (ROOT/"outputs/research_summary.json").write_text(json.dumps(result,indent=2))
     macros={"TestCount":test_count,"RareObs":rare["versioned_observations"],"LynasObs":len(lynas),"ProjectCount":projects.project_id.nunique(),"ActivityCount":projects.activity_id.nunique(),"LegalRows":semiconductor["verified_legal_event_rows"],"FinancialRows":len(financial),"GameCandidates":game["claimed_candidate_count"],"GameFailures":game["not_solved_count"],"BenchmarkRoot":f"{benchmark['policy']:.10f}"}
+    macros.update(ProjectRecords=len(projects), PublicClockActivities=coverage["documentation_counts"]["public_clock_eligible"],
+                  AnnualCapacityActivities=coverage["documentation_counts"]["annual_native_capacity_documented"],
+                  BatchOxideInput=f"{batch['oxide_input_tonnes']:.1f}", BatchMagnetOutput=f"{batch['magnet_output_tonnes']:.1f}",
+                  BatchAdditionalInput=f"{batch['minimum_additional_input_mass_tonnes']:.1f}", BatchProductRatio=f"{batch['magnet_to_oxide_product_mass_ratio']:.1f}")
+    macros.update(MPCashVersions=investment["versioned_records"], MPCashDurations=investment["distinct_reported_durations"],
+                  MPCashPrevious=f"{investment['halfyear_values_usd']['2025']/1e6:.3f}", MPCashCurrent=f"{investment['halfyear_values_usd']['2026']/1e6:.3f}")
     (ROOT/"manuscript/results.tex").write_text("% Automatically generated by scripts/report.py\n"+"\n".join(f"\\newcommand{{\\{key}}}{{{value}}}" for key,value in macros.items())+"\n")
     rows=[]
     for run in game["runs"]:
@@ -133,6 +146,10 @@ def summary_and_tables():
             dict(claim="Issuer reports Texas HRE facility will no longer proceed; first Dy/Tb production is not stable qualified throughput",classification="company_reported_empirical",evidence="data/processed/rare_earths_additional/lynas_project_history.csv"),
             dict(claim="Six quarterly/annual native-product totals reconcile exactly for FY2024-2026",classification="empirical_accounting_check",evidence="data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv"),
             dict(claim="Eight-origin issuer-output baseline comparisons are descriptive, not system forecasting skill",classification="empirical_descriptive_hindcast",evidence="outputs/empirical/rare_earths/lynas_quarterly_baseline_scores.csv"),
+            dict(claim="Issuer reports finite1.2tonne oxide to3.0tonne magnet batch; no annual capacity or complete China-free service inferred",classification="empirical_issuer_reported_finite_batch",evidence="outputs/empirical/rare_earths/finite_batch_evidence.json"),
+            dict(claim="Documentation attrition counts distinguish annual nameplates from campaign totals and missing engineering inputs",classification="empirical_archive_coverage",evidence="outputs/empirical/rare_earths/evidence_coverage_by_stage.csv"),
+            dict(claim="MP first-half2026 cash PPE payments307.711millionUSD vs59.473million in2025; consolidated nominal inputs, not physical output or causal effects",classification="empirical_SEC_cashflow_input",evidence="outputs/empirical/rare_earths/mp_halfyear_cash_ppe.csv"),
+            dict(claim="Forty-one additional legal originals screened; procedural notices do not create control events; complete current law remains unverified",classification="primary_legal_scope_screen",evidence="data/processed/semiconductors/legal_discovery_screening.csv"),
             dict(claim="SMIC investment spending is an input, not identified substitution",classification="descriptive_empirical",evidence="data/processed/semiconductors/reported_financial_inputs.csv"),
             dict(claim="Constant-control root approximately0.4655712319",classification="analytical_scenario",evidence="outputs/scenario/game/constant_control_benchmark.json"),
             dict(claim="Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",classification="numerical_scenario",evidence="outputs/scenario/game/independent_saved_candidate_audit.json")]

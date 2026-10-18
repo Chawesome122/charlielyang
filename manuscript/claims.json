@@ -30,6 +30,30 @@
     "sha256": "0d574a2da239178aa595262a464ecc0ed1a7c6e65b03aa90bd4232d6a6271b61"
   },
   {
+    "claim": "Issuer reports finite1.2tonne oxide to3.0tonne magnet batch; no annual capacity or complete China-free service inferred",
+    "classification": "empirical_issuer_reported_finite_batch",
+    "evidence": "outputs/empirical/rare_earths/finite_batch_evidence.json",
+    "sha256": "bb4b0d3ceb04b1a80174623d6376f63f9df7e608f2eeef6e25b6770ad46503f3"
+  },
+  {
+    "claim": "Documentation attrition counts distinguish annual nameplates from campaign totals and missing engineering inputs",
+    "classification": "empirical_archive_coverage",
+    "evidence": "outputs/empirical/rare_earths/evidence_coverage_by_stage.csv",
+    "sha256": "778f53bcf0cd511e740f22548cc4ead4f6ad3c1be437a06ba2eaab8b8029c63d"
+  },
+  {
+    "claim": "MP first-half2026 cash PPE payments307.711millionUSD vs59.473million in2025; consolidated nominal inputs, not physical output or causal effects",
+    "classification": "empirical_SEC_cashflow_input",
+    "evidence": "outputs/empirical/rare_earths/mp_halfyear_cash_ppe.csv",
+    "sha256": "0e6b8e0c2018feac1e23a9ac47879dc774390c76a0922d47349d513bb141fac6"
+  },
+  {
+    "claim": "Forty-one additional legal originals screened; procedural notices do not create control events; complete current law remains unverified",
+    "classification": "primary_legal_scope_screen",
+    "evidence": "data/processed/semiconductors/legal_discovery_screening.csv",
+    "sha256": "c2b599fc0b602623f06601b7512f6570719e625733aee65453cc4f5860469998"
+  },
+  {
     "claim": "SMIC investment spending is an input, not identified substitution",
     "classification": "descriptive_empirical",
     "evidence": "data/processed/semiconductors/reported_financial_inputs.csv",
@@ -45,6 +69,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "5f8c87f0153a1193f9e21d2717f68279152b46f3210b5e36984c1ae6e7d931c1"
+    "sha256": "5b2211d2a8c2133ac6f855a43c5257cee344605b5cb29c4c6ad206f9fb479cfd"
   }
 ]

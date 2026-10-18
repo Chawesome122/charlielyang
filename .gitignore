@@ -10,6 +10,7 @@ manuscript/*.bbl
 manuscript/*.blg
 manuscript/*.fls
 manuscript/*.fdb_latexmk
+manuscript/*.toc
 # NBER permits only short attributed quotations, not this full-text reprint.
 data/raw/literature/R02_pdf.pdf
 data/raw/literature/R02_pdf.txt

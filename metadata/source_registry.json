@@ -907,5 +907,32 @@
     "status": "failed",
     "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
     "group": "rare_earths"
+  },
+  {
+    "source_id": "RE-MP-10Q2026Q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000048/mp-20260630.htm",
+    "publication_date": "2026-08-07",
+    "retrieval_timestamp": "2026-10-18T17:20:46.256491+00:00",
+    "status": "failed",
+    "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "group": "rare_earths"
+  },
+  {
+    "source_id": "RE-EF-10Q2026Q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1385849/000138584926000029/efr-20260630.htm",
+    "publication_date": "2026-08-05",
+    "retrieval_timestamp": "2026-10-18T17:20:46.257407+00:00",
+    "status": "failed",
+    "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "group": "rare_earths"
+  },
+  {
+    "source_id": "RE-USARE-10Q2026Q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000057/usar-20260630.htm",
+    "publication_date": "2026-08-10",
+    "retrieval_timestamp": "2026-10-18T17:20:46.284116+00:00",
+    "status": "failed",
+    "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "group": "rare_earths"
   }
 ]

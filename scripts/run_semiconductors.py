@@ -134,8 +134,19 @@ def _source(source_id):
     manifest = pd.read_csv(MANIFEST)
     found = manifest.loc[manifest.source_id.eq(source_id) & manifest.status.eq("retrieved")]
     if found.empty:
-        raise ValueError(f"Missing acquired primary source: {source_id}")
-    row = found.iloc[-1]
+        # Archived systematic discovery sources are originals too. Keep their
+        # existing content-addressed paths and identities instead of copying or
+        # pretending to have performed another download.
+        lookup = source_id.replace("SC-FR-", "LEGAL-DOC-")
+        log = ROOT/"metadata/legal_discovery_acquisitions.jsonl"
+        discoveries = [json.loads(line) for line in log.read_text().splitlines()] if log.exists() else []
+        candidates = [row for row in discoveries if row["source_id"] == lookup and row["status"] == "downloaded"]
+        if not candidates:
+            raise ValueError(f"Missing acquired primary source: {source_id}")
+        row = pd.Series(candidates[-1])
+        row["path"] = row["archive_path"]
+    else:
+        row = found.iloc[-1]
     if hashlib.sha256((ROOT / row.path).read_bytes()).hexdigest() != row.sha256:
         raise ValueError("Source checksum mismatch")
     return row
@@ -153,9 +164,17 @@ def build_legal_events():
     records, claims = [], []
     for coded in pd.read_csv(adjudications_path).fillna("").to_dict("records"):
         source = _source(coded["source_id"])
-        text = (RAW / (source.source_id + ".extracted.txt")).read_text()
+        aid = RAW / (source.source_id + ".extracted.txt")
+        if aid.exists():
+            text = aid.read_text()
+        else:
+            from weaponized.semiconductors.legal import issued_xml_text
+            text = issued_xml_text((ROOT/source.path).read_bytes(), coded["document_number"])
         if coded["required_text"] not in re.sub(r"\s+", " ", text):
             raise RuntimeError(f"Reviewed claim text missing from {source.source_id}: {coded['required_text']}")
+        date_support = coded.get("effective_date_support", "")
+        if date_support and date_support not in re.sub(r"\s+", " ", text):
+            raise RuntimeError(f"Effective-date support absent for {coded['claim_id']}")
         document_number = coded["document_number"]
         if document_number:
             meta = json.loads((ROOT / _source(f"SC-FR-{document_number}-META").path).read_text())

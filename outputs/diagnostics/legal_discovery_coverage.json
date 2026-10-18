@@ -15,8 +15,8 @@
     }
   ],
   "unique_candidates": 58,
-  "reviewed_document_matches": 17,
-  "not_scope_adjudicated": 41,
+  "reviewed_document_matches": 21,
+  "not_in_reviewed_event_corpus": 37,
   "completeness": "Complete traversal of these two queries only, not a complete legal universe or consolidated law",
   "additional_original_issued_texts_acquired": 41
 }

@@ -33,8 +33,13 @@ uv run pytest -q
 uv run python scripts/build_rare_earths.py
 uv run python scripts/fetch_additional_rare_earths.py  # cached original reports, no refresh
 uv run python scripts/build_lynas_history.py
+uv run python scripts/build_industrial_evidence.py
+uv run python scripts/build_mp_investment.py
 uv run python scripts/build_project_registry.py
+uv run python scripts/build_evidence_coverage.py
 uv run python scripts/run_semiconductors.py
+uv run python scripts/discover_legal.py
+uv run python scripts/review_legal_discovery.py
 uv run python scripts/run_opacity.py
 uv run python scripts/run_physical.py
 uv run python scripts/run_forecast.py --draws 10000
@@ -92,11 +97,15 @@ The second command additionally compares regenerated primary-data tables and sel
 
 Normal replication preserves archived vintages. Live retrieval is a separate operation and may produce new versions; never overwrite an old claim with a revised value. `scripts/fetch.py --retry-failures`, `scripts/run_semiconductors.py --fetch`, `scripts/fetch_literature.py`, and `scripts/fetch_additional_rare_earths.py --refresh` record actual successes and failures. New research information after the freeze must be quarantined until a separately authorized new frozen release.
 
-`uv run python scripts/discover_legal.py` rebuilds the additional cached legal-discovery registry. Its two date-limited BIS queries identify 58 unique candidates, of which 17 documents are in the reviewed corpus; 41 additional original issued texts were archived but have **not** been item-scope adjudicated. `--fetch` refreshes query artifacts and `--fetch-texts` acquires missing originals. Discovery matches never automatically enter the reviewed chronology or capability/access measures.
+`uv run python scripts/discover_legal.py` rebuilds the additional cached legal-discovery registry. Its two date-limited BIS queries identify 58 candidates, of which 21 documents now match the reviewed corpus. `uv run python scripts/review_legal_discovery.py` verifies scope screening for all 41 additional archived originals: four add five reviewed phases; eight are procedural; the remaining records require item/entity mapping or remain other policy context. The complete corpus has 27 phases and is not consolidated current law. `--fetch` refreshes query artifacts and `--fetch-texts` acquires missing originals. Discovery matches never automatically become access-loss or capability measures.
 
 `uv run python scripts/build_lynas_revisions.py` reproduces the separate observed-revision table. The main Lynas series retains each fiscal year's own annual-report values. The FY2017 report gives FY2016 comparatives of 3896 NdPr / 12631 total-REO tonnes, versus 3897/12630 in the original FY2016 report; both versions are retained, and the cause of the discrepancy is not assumed. This is not an exhaustive restatement audit.
 
-`uv run python scripts/build_lynas_history.py` checks 23 additional milestone claims and extracts 66 quarterly source-vintage cells. `uv run python scripts/run_lynas_baselines.py` produces eight-origin publication-safe comparisons. Both run in the main replication pipeline. The combined 47-record/19-project/26-activity roster includes the reported Texas cancellation and retrospectively disclosed Mountain Pass cold-idle/relaunch, but remains insufficient for population hazards. Six quarter/annual reconciliations match exactly; see `docs/lynas_history_review.md` and `outputs/diagnostics/lynas_history_validation.json`.
+`uv run python scripts/build_lynas_history.py` checks 23 milestone claims and extracts 66 quarterly source-vintage cells. `uv run python scripts/run_lynas_baselines.py` produces eight-origin publication-safe comparisons. Both run in the main replication pipeline. The reported Texas cancellation and retrospectively disclosed Mountain Pass cold-idle/relaunch remain in the roster. Six quarter/annual reconciliations match exactly; see `docs/lynas_history_review.md` and `outputs/diagnostics/lynas_history_validation.json`.
+
+`uv run python scripts/build_industrial_evidence.py` checks eight more downstream milestone records and five technical claims. The combined roster is now 55 records/24 projects/32 activities. The Energy Fuels finite-batch disclosure reports approximately 1.2 tonnes of oxide processed into 3.0 tonnes of magnets; this is not annual capacity or complete China-free service. `uv run python scripts/build_evidence_coverage.py` generates per-activity flags, stage coverage counts and a figure. It finds 31 source-public clocks and 11 native annual capacity mentions; missing industrial recipes, route limits, independent sustained qualification and demand still block physical service estimation. See `docs/industrial_evidence_review.md` and `outputs/empirical/rare_earths/finite_batch_evidence.json`.
+
+The archived SEC MP company-facts extension supplies 53 cash-PPE filing versions over 28 overlapping reported durations. Six first-half totals and three exact quarter/half-year reconciliations are regenerated by `scripts/build_mp_investment.py`. These nominal consolidated financial inputs do not measure project capacity or policy effects. Eight new issuer requests and three exact Q2 2026 original SEC filings failed at the proxy; source logs and the review memo retain precise pointers and missing corroboration. No inaccessible filing text is presented as read.
 
 Required source hosts are recorded in acquisition manifests and the environment configuration. Some agency/CDN downloads remain denied or unavailable. Restricted/commercial data must be supplied legally; a URL, an API account requirement, or a blueprint assertion is not an acquired dataset. Access terms for each publisher remain relevant. The continuation request authorizes Git push; no journal submission or external research review is implied.
 

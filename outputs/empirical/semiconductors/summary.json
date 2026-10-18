@@ -17,7 +17,7 @@
     "unknown_domestic_layers": 7,
     "unknown_foreign_layers": 7,
     "coder_conflicts": [],
-    "legal_records_separate_from_access": 22,
+    "legal_records_separate_from_access": 27,
     "causal_effect_estimated": false,
     "game_x_available": false
   },
@@ -31,7 +31,7 @@
     ],
     "estimand_if_identified": "cohort-time ATT(g,t), publication and effective event clocks separate"
   },
-  "verified_legal_event_rows": 22,
+  "verified_legal_event_rows": 27,
   "capability_scores_are_empirical_estimates": false,
   "no_numeric_national_capability_inferred_from_legal_rules": true
 }

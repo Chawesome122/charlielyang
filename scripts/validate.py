@@ -61,6 +61,40 @@ def main():
     reconcile = pd.read_csv(ROOT/"data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv")
     checks += len(reconcile)
     if not reconcile.difference.eq(0).all():failures.append("Lynas quarterly/annual production mismatch")
+    for filename in ["project_milestones.csv", "technical_claims.csv"]:
+        data = pd.read_csv(ROOT/"data/processed/industrial_evidence"/filename).fillna("")
+        for row in data.to_dict("records"):
+            checks += 1
+            source = sources.get(row["source_id"])
+            if source is None:
+                source = additional.loc[row["source_id"]].to_dict()
+            if row["source_sha256"] != source["sha256"] or sha256_file(ROOT/source["archive_path"]) != source["sha256"]:
+                failures.append(f"Industrial evidence source mismatch:{row.get('record_id', row.get('observation_id'))}")
+            if not row["info_public_date"] or row["info_public_date"] > "2026-10-11":
+                failures.append("Industrial evidence source-public clock missing/future")
+            if filename == "technical_claims.csv":
+                try:
+                    Claim(**{key:(None if row.get(key) == "" else row.get(key)) for key in Claim.model_fields})
+                except Exception as error:
+                    failures.append(f"Industrial claim schema:{row['observation_id']}:{error}")
+    screenings = pd.read_csv(ROOT/"data/processed/semiconductors/legal_discovery_screening.csv")
+    checks += len(screenings)
+    if not screenings.info_public_date.le("2026-10-11").all():failures.append("Future legal scope screen")
+    cash_source=sources["RE-MP-FACTS"]
+    cash_payload=json.loads((ROOT/cash_source["archive_path"]).read_text())
+    tag="PaymentsToAcquirePropertyPlantAndEquipment"
+    cash=pd.read_csv(ROOT/"data/processed/industrial_evidence/mp_cash_ppe_versions.csv").replace({float('nan'):None})
+    for row in cash.to_dict("records"):
+        checks+=1
+        fact=cash_payload["facts"]["us-gaap"][tag]["units"]["USD"][int(row["source_array_index"])]
+        try:
+            Claim(**{key:row.get(key) for key in Claim.model_fields})
+            assert row["source_sha256"]==cash_source["sha256"]
+            assert row["period_start"]==fact["start"] and row["period_end"]==fact["end"]
+            assert row["value"]==fact["val"] and row["info_public_date"]==fact["filed"]
+            assert row["info_public_date"]<="2026-10-11"
+        except Exception as error:
+            failures.append(f"Cash PPE fact provenance:{row['record_version_id']}:{error}")
     result=dict(passed=not failures,checked_claims_and_artifacts=checks,failures=failures,freeze="2026-10-11",
                 scientific_gaps_are_not_validation_passes=["empirical physical network","population project hazards","causal semiconductor response","historical headline SPOI","continuous MPE"])
     (ROOT/"outputs/diagnostics/data_validation.json").write_text(json.dumps(result,indent=2))

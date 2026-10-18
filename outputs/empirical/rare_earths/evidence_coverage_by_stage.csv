@@ -1,0 +1,5 @@
+stage,documented_activities,public_clock_eligible,native_capacity_documented,annual_native_capacity_documented,finite_campaign_limit_documented,complete_element_recipe_verified,finite_route_capacity_verified,independent_stable_qualified_rate_verified,final_grade_demand_matched
+mine,10,10,1,1,0,0,0,0,0
+separation,11,10,4,3,1,0,0,0,0
+metal_alloy,6,6,2,2,0,0,0,0,0
+magnet,5,5,5,5,0,0,0,0,0

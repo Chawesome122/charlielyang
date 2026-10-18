@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import pandas as pd
+import xml.etree.ElementTree as ET
 
 LEGAL_COLUMNS = [
     "policy_id", "instrument_id", "version_id", "jurisdiction", "issuer",
@@ -13,6 +14,17 @@ LEGAL_COLUMNS = [
     "status", "severity_ordinal", "scope_coverage", "confidence", "source_id",
     "adjudication_id", "supersedes_version", "evidence_verified",
 ]
+
+
+def issued_xml_text(payload: bytes, document_number: str) -> str:
+    """Read original issued XML, rejecting a mismatched document or HTML page."""
+    root = ET.fromstring(payload)
+    if root.tag not in {"RULE", "NOTICE", "PRORULE"}:
+        raise ValueError("Expected original Federal Register issued-document XML")
+    text = " ".join(" ".join(root.itertext()).split())
+    if f"[FR Doc. {document_number} Filed " not in text:
+        raise ValueError("Federal Register document identity mismatch")
+    return text
 
 
 def validate_legal_events(frame):

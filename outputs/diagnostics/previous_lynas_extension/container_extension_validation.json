@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "scope": "clean_container_continuation_rebuild_and_saved_game_audit",
+  "network": "none",
+  "independent_machine": false,
+  "pipeline_exit_code": 0,
+  "tables_byte_identity": [
+    {
+      "path": "data/processed/rare_earths/project_state_evidence.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/rare_earths_additional/lynas_project_history.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/rare_earths_additional/lynas_quarterly_production_versions.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/rare_earths/lynas_quarterly_baseline_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/rare_earths/lynas_quarterly_baseline_scores.csv",
+      "passed": true
+    }
+  ],
+  "large_games_recomputed": false,
+  "full_prior_numerical_run": "outputs/diagnostics/container_validation.json",
+  "current_numerical_core_comparison": "outputs/diagnostics/scientific_code_comparison.json"
+}

@@ -20,6 +20,15 @@ def main():
         "data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv",
         "outputs/empirical/rare_earths/lynas_quarterly_baseline_predictions.csv",
         "outputs/empirical/rare_earths/lynas_quarterly_baseline_scores.csv",
+        "data/processed/industrial_evidence/project_milestones.csv",
+        "data/processed/industrial_evidence/technical_claims.csv",
+        "data/processed/industrial_evidence/activity_coverage.csv",
+        "outputs/empirical/rare_earths/evidence_coverage_by_stage.csv",
+        "outputs/empirical/rare_earths/finite_batch_evidence.json",
+        "data/processed/semiconductors/legal_events.csv",
+        "data/processed/semiconductors/legal_discovery_screening.csv",
+        "data/processed/industrial_evidence/mp_cash_ppe_versions.csv",
+        "outputs/empirical/rare_earths/mp_halfyear_cash_ppe.csv",
     ]
     before = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in paths}
     run = subprocess.run([sys.executable, "scripts/replicate.py"], cwd=ROOT)
@@ -31,6 +40,11 @@ def main():
                   tables_byte_identity=checks, large_games_recomputed=False,
                   full_prior_numerical_run="outputs/diagnostics/container_validation.json",
                   current_numerical_core_comparison="outputs/diagnostics/scientific_code_comparison.json")
+    current = json.loads((ROOT/"outputs/research_summary.json").read_text())
+    report["test_results"] = {key:current[key] for key in ["tests", "test_failures"]}
+    report["extension_scope"] = "downstream finite-batch and project evidence; MP cash-PPE filing vintages; attrition audit; original legal scope screening and event extension"
+    report["executed_script_sha256"] = {str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
+                                       for path in sorted((ROOT/"scripts").glob("*.py"))}
     (ROOT/"outputs/diagnostics/container_extension_validation.json").write_text(json.dumps(report, indent=2))
     print(json.dumps(report, indent=2))
     return 0 if report["passed"] else 1

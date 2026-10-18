@@ -1,0 +1,29 @@
+Empirical forecasts: BLOCKED (no numerical probabilities reported)
+{
+  "evidence_class": "fully_synthetic",
+  "n_independent_draws": 10000,
+  "quarters": [
+    "2026Q4",
+    "2036Q3"
+  ],
+  "simulation_seconds": 50.4421246919992,
+  "unique_physical_capacity_patterns": 8,
+  "nminus1_solver_calls": 24,
+  "max_physical_balance_residual": 0.0,
+  "all_target_mcse_at_most_005": true,
+  "threshold_service_tolerance": 1e-08,
+  "uncertainty_included": [
+    "common AR(1) shocks",
+    "supplier-group shocks",
+    "idiosyncratic shocks",
+    "competing project transitions"
+  ],
+  "uncertainty_excluded": [
+    "estimated parameter posterior",
+    "uncertain engineering recipes",
+    "demand growth",
+    "empirical reporting delays"
+  ],
+  "physical_conditions": "Finite all-four-stage Nd/Pr/Dy/Tb recipes, finite feedstocks and disposal, no stock carryover; only final-magnet commissioning uncertain; each supplier outage removes its complete chain.",
+  "not_empirical": true
+}

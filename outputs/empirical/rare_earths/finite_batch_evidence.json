@@ -1,0 +1,29 @@
+{
+  "oxide_input_tonnes": 1.2,
+  "magnet_output_tonnes": 3.0,
+  "magnet_to_oxide_product_mass_ratio": 2.5,
+  "minimum_additional_input_mass_tonnes": 1.8,
+  "additional_input_bound_basis": "aggregate batch mass conservation; assumes nonnegative other outputs; reported masses are approximate",
+  "quantity_basis": "total finite batch, not a rate",
+  "elemental_recovery_estimate": null,
+  "annual_capacity_estimate": null,
+  "china_free_service_estimate": null,
+  "source_id": "RE-EF-10K2025",
+  "source_sha256": "c07b98629f07eee431f828d03b4216370375530437cbe8c24f4bf9325ef34d1a",
+  "info_public_date": "2026-02-26",
+  "evidence_class": "empirical_issuer_reported_finite_batch",
+  "claimed_earlier_announcement": "2025-09-09; original release not archived here",
+  "known_NdPr_feed_origin": "Florida and Georgia monazite, according to filing",
+  "processor": "unnamed South Korean counterparty; not equated with ASM KMP",
+  "qualification": "issuer reports automotive QA/QC; independent customer verification unavailable",
+  "amount_precision": "approximately reported quantities; measurement-error distribution unavailable",
+  "inventory_treatment": "historical consumed batch is not a future opening stock or replenishable feed",
+  "missing_inputs": [
+    "batch start/end production dates",
+    "Nd/Pr composition and process recoveries",
+    "other rare-earth and non-REE inputs/origins",
+    "named processor and line capacity",
+    "stable repeated qualified throughput",
+    "final-grade bloc demand"
+  ]
+}

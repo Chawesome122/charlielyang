@@ -1,5 +1,8 @@
 # Executed continuation: industrial histories and output vintages
 
+This memo records the earlier Lynas-only checkpoint. For the expanded downstream roster and legal review, see `docs/industrial_evidence_review.md` and the current `RESEARCH_STATUS.md`.
+
+
 Research freeze: 2026-10-11. All source PDFs were acquired in the earlier session; this continuation extracted and checked additional evidence against their recorded bytes. A new attempt to obtain a candidate Molycorp SEC identity document failed at the network proxy and supplied no observation. It remains logged as failed.
 
 `scripts/build_lynas_history.py` checks 23 manually specified milestone claims against exact pages in 17 SHA-verified issuer PDFs. It checks target wording separately from observed milestones. Original issuer-index public-release clocks are preserved, without asserting that each is the earliest discoverable release. The codebook is `codebooks/lynas_project_milestones.csv`.

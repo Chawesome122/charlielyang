@@ -1,6 +1,6 @@
 {
   "exit_code": 0,
-  "tag": "weaponized-research-continuation",
+  "tag": "weaponized-research-downstream-legal",
   "target": "research",
   "existing_proxy_forwarded": {
     "http": true,
@@ -10,5 +10,5 @@
   "platform_public_ca_used": true,
   "tls_verification_disabled": false,
   "log": "outputs/diagnostics/docker_build.log",
-  "image_id": "sha256:badb326d4af8f1758c8ab872220281ef99695897f3ca56acf52ead3bfc927dc7"
+  "image_id": "sha256:6874400af7945bf5b18d10e5dde7c870c5374691565297e0eef83460878aa220"
 }

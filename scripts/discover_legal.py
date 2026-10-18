@@ -80,13 +80,14 @@ def main():
     for row in matched.values():
         row["query_sources"]=";".join(row["query_sources"])
         row["in_reviewed_event_corpus"]=row["document_number"] in reviewed
+        row["status"]="IN_REVIEWED_EVENT_CORPUS" if row["in_reviewed_event_corpus"] else "NOT_IN_REVIEWED_EVENT_CORPUS"
         rows.append(row)
     target=ROOT/"data/processed/semiconductors/legal_discovery_candidates.csv"
     columns=['document_number','title','publication_date','document_type','url','query_sources','status','in_reviewed_event_corpus']
     pd.DataFrame(rows,columns=columns).sort_values(["publication_date","document_number"]).to_csv(target,index=False)
     report=dict(freeze="2026-10-11",queries=query_audit,unique_candidates=len(rows),
                 reviewed_document_matches=sum(row["in_reviewed_event_corpus"] for row in rows),
-                not_scope_adjudicated=sum(not row["in_reviewed_event_corpus"] for row in rows),
+                not_in_reviewed_event_corpus=sum(not row["in_reviewed_event_corpus"] for row in rows),
                 completeness="Complete traversal of these two queries only, not a complete legal universe or consolidated law")
     refreshed=[json.loads(line) for line in log.read_text().splitlines()] if log.exists() else []
     originals=[row for row in refreshed if row['source_id'].startswith('LEGAL-DOC-') and row['source_id'].endswith('-TEXT') and row['status']=='downloaded']

@@ -10,10 +10,6 @@
       "unchanged_from_full_container": false
     },
     {
-      "path": "scripts/run_empirical_baselines.py",
-      "unchanged_from_full_container": true
-    },
-    {
       "path": "scripts/run_forecast.py",
       "unchanged_from_full_container": true
     },
@@ -147,7 +143,7 @@
     },
     {
       "path": "src/weaponized/rare_earths/materials.py",
-      "unchanged_from_full_container": true
+      "unchanged_from_full_container": false
     },
     {
       "path": "src/weaponized/rare_earths/projects.py",
@@ -203,9 +199,37 @@
     },
     {
       "path": "src/weaponized/semiconductors/legal.py",
-      "unchanged_from_full_container": true
+      "unchanged_from_full_container": false
     }
   ],
   "numerical_game_physical_forecast_core_unchanged": true,
-  "post_container_additions": "New issuer-output extraction/baselines and discovery-roster/manuscript extensions. Earlier full container does not certify the added code; separate extension rebuild verifies it. Final manifest-only extension adds root license/notices digests; no numerical code changed."
+  "core_files": [
+    "scripts/run_forecast.py",
+    "scripts/run_game.py",
+    "scripts/run_physical.py",
+    "src/weaponized/dynamics/__init__.py",
+    "src/weaponized/dynamics/resilience.py",
+    "src/weaponized/dynamics/tipping.py",
+    "src/weaponized/forecast/__init__.py",
+    "src/weaponized/forecast/bootstrap.py",
+    "src/weaponized/forecast/calibration.py",
+    "src/weaponized/forecast/origins.py",
+    "src/weaponized/forecast/scoring.py",
+    "src/weaponized/game/__init__.py",
+    "src/weaponized/game/active_set.py",
+    "src/weaponized/game/benchmark.py",
+    "src/weaponized/game/calibration.py",
+    "src/weaponized/game/hjb.py",
+    "src/weaponized/game/policy_iteration.py",
+    "src/weaponized/game/primitives.py",
+    "src/weaponized/game/stability.py",
+    "src/weaponized/rare_earths/lp.py",
+    "src/weaponized/rare_earths/projects.py",
+    "src/weaponized/rare_earths/ramps.py",
+    "src/weaponized/rare_earths/resilience.py",
+    "src/weaponized/rare_earths/simulate.py",
+    "src/weaponized/rare_earths/transitions.py"
+  ],
+  "original_material_function_bodies_unchanged": true,
+  "post_container_additions": "Source-checked downstream batch/project evidence, documentary coverage and legal screening/corrections. Separate current container extension executes all new modules and the default scientific pipeline. Large-game primitives/solvers and original material conversion functions unchanged."
 }

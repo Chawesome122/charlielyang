@@ -24,8 +24,10 @@ def main():
     for i,row in audit.iterrows():
         old=str(row.executed_evidence).split(marker)[0]
         audit.loc[i,"executed_evidence"]=old+marker+f" {summary['tests']} tests, {summary['test_failures']} failures; outputs/diagnostics/pytest.xml."
-    def update(key,status,paths,evidence,remaining):
+    def update(key,status,paths,evidence,remaining,expected_requirement=None):
         mask=audit.requirement_id.eq(key)
+        if mask.sum() != 1 or (expected_requirement is not None and audit.loc[mask,"requirement"].iloc[0] != expected_requirement):
+            raise ValueError(f"Audit identifier/requirement mismatch:{key}")
         audit.loc[mask,["status","evidence_paths","executed_evidence","remaining_requirement"]]=[status,paths,evidence,remaining]
     update("C39","VERIFIED","manuscript/main.tex;manuscript/main.pdf;manuscript/claims.json;outputs/diagnostics/manuscript_build.log",
            f"Prescribed sections and technical appendices written; {pages}-page PDF compiled. Evidence-limited draft, explicitly not publication-ready.",
@@ -46,9 +48,16 @@ def main():
         update("14-O1","PARTIAL","scripts/replicate.py;outputs/diagnostics/end_to_end_replication.json;manuscript/main.pdf",
                f"Offline end-to-end pipeline executed successfully:scope={end.get('scope')}. It regenerates evidence, validation/scenarios, exhibits and manuscript; no missing empirical coefficient is manufactured.",
                "Full hierarchical empirical transition fit, measured x/y and complete physical/demand network still unavailable.")
-    update("C04","PARTIAL","data/processed/rare_earths/project_state_evidence.csv;data/processed/rare_earths_additional/lynas_project_history.csv;outputs/diagnostics/lynas_history_validation.json",
-           f"{summary['project_evidence_records']} source-checked records across {summary['project_count']} projects/{summary['activity_count']} activities. Includes Texas cancellation and retrospectively disclosed Mountain Pass cold-idle/relaunch; two-clock histories retained.",
+    update("C04","PARTIAL","data/processed/rare_earths/project_state_evidence.csv;data/processed/industrial_evidence/project_milestones.csv;outputs/diagnostics/evidence_coverage_validation.json",
+           f"{summary['project_evidence_records']} source-checked records across {summary['project_count']} projects/{summary['activity_count']} activities. Includes unsuccessful histories and additional downstream disclosures; counterparty roles, target/operation distinctions and two-clock histories retained.",
            "Discovery roster is nonrepresentative. Complete historical eligibility/cohort, original state entries/exits, ownership dependence and independent qualification remain unresolved; no empirical hazards fitted.")
+    update("14-21","PARTIAL","data/processed/industrial_evidence;outputs/diagnostics/industrial_evidence_validation.json;outputs/diagnostics/evidence_coverage_validation.json;metadata/claims_to_sources.csv",
+           "Finite batch, pilot purity, grade statements and planned facilities checked against original quotes/hashes; annual native capacity distinguished from total campaign amounts. Coverage counts expose missing recipes, route limits, independent stable rates and demand.",
+           "More inclusive original operator sources, full historical ownership and engineering evidence remain missing. Issuer batch qualification is not independent commercial throughput certification.")
+    update("14-03","PARTIAL","data/processed/semiconductors/legal_events.csv;data/processed/semiconductors/legal_discovery_screening.csv;outputs/diagnostics/legal_discovery_screening_validation.json",
+           f"{summary['legal_event_rows']} reviewed phases;41additional XML originals scope-screened. Entity licenses, correcting amendment, conditional UAE authorization and retained controls distinguished; administrative comment extensions excluded from new-control events.",
+           "Term-limited discovery and single-coder screening do not consolidate current law. Remaining item/entity crosswalk, China/Japan originals, exemptions, suspensions and independent legal review remain incomplete.",
+           expected_requirement="As-of October 11, 2026 policy chronology; Chinese suspended versus active rules")
     update("14-O3","PARTIAL","outputs/empirical/rare_earths/lynas_quarterly_baseline_scores.csv;outputs/empirical/rare_earths/lynas_quarterly_baseline_predictions.csv;outputs/empirical/rare_earths/baseline_scores.csv;tests/test_reported_output.py",
            "Eight publication-safe quarterly origins per Lynas product; three naive baselines; six exact annual/quarterly reconciliations. Two earlier MP annual origins retained. Historical-revision leakage test executed.",
            "Small dependent single-issuer output exercises do not establish structural forecasting skill, system-service calibration or identifiable population project hazards.")
@@ -63,6 +72,9 @@ Information freeze: **2026-10-11**. Research execution date:2026-10-18. Methodol
 - Locked Python3.12 package; immutable archives/checksums; schemas; two-clock as-of selection; unit, vintage and provenance validation.
 - Rare-earth primary-data extraction: **{summary['rare_earth_versioned_observations']} versioned numerical records**, {summary['rare_earth_latest_observations']} latest observations, **{summary['lynas_annual_observations']} additional Lynas annual output observations** and **{summary['lynas_quarterly_versions']} quarterly KPI versions**; {summary['project_evidence_records']} project-state records across **{summary['project_count']}projects/{summary['activity_count']}activities** in a nonexhaustive documented subset. Suspended, cancelled and delayed cases retained. Native units preserved.
 - Semiconductor primary chronology: **{summary['legal_event_rows']} legal-event phases**, separately dated and classified; **{summary['financial_input_rows']} SMIC nominal investment-input observations**. These are not target-capability scores or causal effects.
+- Additional industrial evidence: **{summary['industrial_project_records']} project records and {summary['industrial_technical_claims']} technical claims**. Documentation coverage: {summary['documentary_coverage']['public_clock_eligible']} source-public clocks and {summary['documentary_coverage']['annual_native_capacity_documented']} native annual capacity mentions among {summary['activity_count']} activities. No complete recipe, finite route-capacity, independent stable-rate or matched-demand evidence is verified.
+- Archived SEC cash-flow inputs: **{summary['mp_cash_ppe_versions']} MP filing vintages over {summary['mp_cash_ppe_durations']} reported durations**, with six first-half observations and three exact quarter/H1 reconciliations. They are nominal consolidated cash payments, not project allocation, physical capacity or a causal restriction response.
+- All 41 additional archived legal originals scope-screened; 4 documents add 5 reviewed phases. Eight procedural records do not add export requirements. Current-law consolidation and numerical access effects remain unverified.
 - Multi-commodity multi-quarter LP, joint products, finite feeds/resources/stocks, origin/control tags, consistent supplier N-1, primal/dual diagnostics; exact blueprint and richer synthetic fixtures executed.
 - Competing-risk laws and pooled rate estimator, exact/right/interval first-exit likelihoods, ramp models, common shocks, proper scores, censor/release/persistence guards;10,000synthetic network paths and parameter-recovery experiment executed.
 - Two extra MP mine-output retrospective baseline origins computed with source-vintage masks; n=2 is descriptive and does not establish forecasting skill.
@@ -77,7 +89,7 @@ Information freeze: **2026-10-11**. Research execution date:2026-10-18. Methodol
 
 - Current-instance end-to-end passed:{end.get('passed',False)}. Scope:{end.get('scope','not yet executed')}. Exact command exits/logs:`outputs/diagnostics/end_to_end_replication.json`.
 - Earlier full clean-container passed:{container.get('passed',False)}. Scope:{container.get('scope','not yet executed')}. The continuation's additional empirical extraction is separately covered by current-instance replication and `outputs/diagnostics/container_extension_validation.json` when present. A current-host container is not an independent second machine.
-- Continuation clean-container passed:{extension.get('passed',False)}. Scope:{extension.get('scope','not yet executed')}. Six source-derived tables are compared byte for byte; large games are audited, not re-solved in this extension check.
+- Earlier/current extension clean-container passed:{extension.get('passed',False)}. Scope:{extension.get('scope','not yet executed')}. {len(extension.get('tables_byte_identity', []))} source-derived artifacts compared byte for byte; consult its code/input hashes to distinguish the current extension from an earlier run. Large games are audited, not re-solved in this check.
 - Environment setup is recorded separately from research publication. Git push is authorized; remote branch history records the actual released commit.
 
 ## Actual empirical findings
@@ -86,11 +98,15 @@ Information freeze: **2026-10-11**. Research execution date:2026-10-18. Methodol
 - Lynas reported NdPr product-family5655/6558/7260tonnes in fiscal2024/25/26. Calendar/product definitions are retained, with no cross-company physical-service sum.
 - Primary disclosures demonstrate project-state heterogeneity and important nonadditivity: combined expansions, mixed-output capacities, finite demonstration campaigns, shared processing and four-year offtake quantities.
 - Lynas reports the Texas HRE facility will no longer proceed; its exact cancellation decision date remains unknown. Dy/Tb first production in May/June2025 and two observed Australian--Malaysian material links remain distinct from stable qualified output and complete physical feasibility.
+- Energy Fuels reports approximately 1.2 tonnes NdPr oxide converted into 3.0 tonnes automotive-qualified magnets in a finite Korean-processed batch. These are issuer claims, with unknown production interval, unnamed processor and incomplete auxiliary-input origins; not annual capacity, elemental recovery or complete China-free service. Aggregate mass accounting requires approximately 1.8 tonnes or more other inputs, conditional on reported masses and nonnegative other outputs.
 - SMIC's reported capex and Q4R&D vary over2022–25; no causal restriction response or successful substitution is identified.
+- MP's tagged first-half cash PPE payments are USD 59.473 million in 2025 and USD 307.711 million in 2026, according to the archived SEC facts. This is an investment-input observation, not a measured gain in magnet resilience or evidence of policy causation.
 
 ## Failed checks and repairs preserved
 
 - Primary-source proxy/CDN denials and challenge pages remain logged; USGS full data/PDF and China/Japan legal coverage remain incomplete.
+- Current continuation attempted 8 additional rare-earth issuer sites; all failed at the proxy with CONNECT 403. Exact attempts are in`metadata/rare_earth_expansion_acquisitions.jsonl`; no source or observation is claimed from them.
+- Exact Q2 2026 SEC filing requests for MP, Energy Fuels and USA Rare Earth also failed with CONNECT 403. Filing pointers/public dates come from archived submission metadata; the inaccessible texts are not treated as read. The pre-existing MP company-facts archive provides a distinct financial-data fallback.
 - Incorrect attempted legacy company identifier rejected; premerger SPAC records excluded from industrial history.
 - Independent review repaired inventory reuse/NaN in a stateless bridge, unauditable forecast-input vintages and false stability at nonsmooth interpolation knots.
 - A real BiCGSTAB stagnation was repaired by recorded GMRES recovery without disabling verification or relaxing residual tolerances.
@@ -105,11 +121,11 @@ Full requirements:`audit/remaining_requirements.md`. The85-row acceptance ledger
 
 ## Exact next milestone
 
-1.Read the audit and source-review memos; finish risk-set discovery and historically dated plant/route/recipe/demand evidence.
+1.Read the audit and source-review memos; prioritize the Q2 2026 original filings identified in `docs/industrial_evidence_review.md`, original operator corroboration, and historically dated plant/route/recipe/demand evidence before estimating hazards or physical service.
 2.Obtain engineering review and qualified semiconductor z/f observations; finish primary legal consolidation.
 3.Establish opacity obligations and blinded independent coding before estimating project associations.
 4.Fit empirical transitions/state laws only when these gates pass; continue negative-beta solver work with truthful failure labels.
-5.Run`uv sync --frozen` then`uv run python scripts/replicate.py --full`; inspect each diagnostic and the manuscript claim manifest.
+5.Run`uv sync --frozen` then`uv run python scripts/replicate.py`; inspect each diagnostic and the manuscript claim manifest. Use`--full` when changing game primitives/solvers or independently recomputing the numerical release.
 
 Use the existing isolated checkout, not a new worktree. Every unfinished input stays missing rather than being replaced with a synthetic coefficient.
 """
