@@ -23,6 +23,7 @@ def main():
         "data/processed/project_histories/milestone_versions.csv",
         "data/processed/finance_material/observations.csv",
         "data/processed/engineering_inputs/observations.csv",
+        "data/processed/white_mesa/observations.csv",
     ]
     checks = []
     for table in tables:

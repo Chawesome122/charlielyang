@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "source_claims": 49,
+  "original_sources": 3,
+  "paired_flow_comparisons": 5,
+  "unit_matched_descriptive_ratios": 4,
+  "stock_disclosures": 5,
+  "stock_origin_checks": 20,
+  "admissible_opening_stocks": 0,
+  "capacity_component_checks": 3,
+  "product_form_origin_checks": 3,
+  "legacy_basis_corrections": 3,
+  "chemical_recovery_estimated": false,
+  "current_stock_at_freeze_identified": false,
+  "commissioning_definition_adjudicated": false,
+  "new_project_hazard_spells": 0,
+  "empirical_service_or_forecast_identified": false,
+  "historical_byte_vintage_certified": false,
+  "freeze": "2026-10-11"
+}

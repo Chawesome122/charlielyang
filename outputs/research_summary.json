@@ -1,6 +1,6 @@
 {
   "freeze": "2026-10-11",
-  "tests": 241,
+  "tests": 260,
   "test_failures": 0,
   "rare_earth_versioned_observations": 87,
   "rare_earth_latest_observations": 53,
@@ -24,8 +24,13 @@
   "engineering_conditional_constraints": 4,
   "selected_legal_provisions": 41,
   "structured_legal_bounds": 24,
-  "original_quote_checks": 335,
+  "original_quote_checks": 384,
   "rejected_auxiliary_date_candidates": 18,
+  "white_mesa_claims": 49,
+  "white_mesa_stock_checks": 20,
+  "white_mesa_basis_corrections": 3,
+  "original_quote_tables": 10,
+  "original_quote_sources": 34,
   "documentary_coverage": {
     "public_clock_eligible": 31,
     "native_capacity_documented": 12,

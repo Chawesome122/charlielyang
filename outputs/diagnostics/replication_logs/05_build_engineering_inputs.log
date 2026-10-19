@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "original_source_files": 2,
+  "source_claims": 32,
+  "numerical_claims": 28,
+  "conditional_constraints": 4,
+  "normalized_finite_feed_LP_checks": 12,
+  "joint_distribution_sum_checked": true,
+  "resource_reserve_contexts_preserved": true,
+  "independent_operating_recovery_estimated": false,
+  "annual_output_identified": false,
+  "Nd_Pr_split_identified": false,
+  "Dy_Tb_flow_identified": false,
+  "China_free_service_identified": false,
+  "historical_byte_vintage_certified": false,
+  "freeze": "2026-10-11"
+}

@@ -1,0 +1,4 @@
+product_basis,source_id,native_unit,dash_treatment,component_sum,reported_combined,residual,passed,combined_must_not_be_added_again,verified_table_arithmetic_only,observed_operating_capacity_verified
+DY,RE-EF-10K2025,native_table_tpa,zero only for displayed table arithmetic; not measured production,200,200,0,True,True,True,False
+NdPr_table_native_product,RE-EF-10K2025,native_table_tpa,zero only for displayed table arithmetic; not measured production,6562,6562,0,True,True,True,False
+TB,RE-EF-10K2025,native_table_tpa,zero only for displayed table arithmetic; not measured production,60,60,0,True,True,True,False

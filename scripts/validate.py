@@ -156,6 +156,7 @@ def main():
             failures.append(f"Finance/material claim schema:{row['claim_id']}:{error}")
     for diagnostic, count_fields in [
         ("original_quote_validation.json", ["checks"]),
+        ("white_mesa_validation.json", ["source_claims", "stock_origin_checks", "capacity_component_checks", "product_form_origin_checks", "legacy_basis_corrections"]),
         ("engineering_inputs_validation.json", ["source_claims", "normalized_finite_feed_LP_checks"]),
         ("legal_provisions_validation.json", ["exact_quoted_elements", "exact_dates_elements", "source_artifacts"]),
         ("publication_extension_validation.json", ["source_origin_pairs", "origin_mask_checks", "rejected_auxiliary_date_candidates"]),

@@ -3,7 +3,7 @@
     "claim": "MP NdPr oxide annual output 200/1294/2599 tonnes in calendar2023/24/25",
     "classification": "company_reported_empirical",
     "evidence": "data/processed/rare_earths/observations_asof_freeze.csv",
-    "sha256": "e4eb7b91e315209e691ddef0905dbebd67361961a6473baefbc3ba75a88382f7"
+    "sha256": "86339d75f0dd3fb69a6f536a3a02797b1a06ad157b1887ef9a60fbac9ddd5079"
   },
   {
     "claim": "Lynas NdPr family 5655/6558/7260 tonnes in fiscal2024/25/26",
@@ -105,7 +105,25 @@
     "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
     "classification": "original_source_integrity_audit",
     "evidence": "data/processed/source_integrity/original_quote_audit.csv",
-    "sha256": "0b715ed9c68149552d10785c33236ca63a716d723d93e7a934bb65e9c8c7191c"
+    "sha256": "8cb07cdcefeea8f35866c8e23fe86588d6cff77d345e0588de863cff958db9d4"
+  },
+  {
+    "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
+    "classification": "empirical_issuer_native_basis_audit",
+    "evidence": "data/processed/white_mesa/product_form_versions.csv",
+    "sha256": "95b515d2aa61cabb3f7e54fcd5dc23b39102d82ec9379e65853f1bea4f8467b4"
+  },
+  {
+    "claim": "Twenty dated stock-origin checks admit no current opening stock; unknown dates/form and missing stock-flow bridges remain missing, not zero supply",
+    "classification": "actual_data_stock_admission_audit",
+    "evidence": "data/processed/white_mesa/stock_origin_audit.csv",
+    "sha256": "bcf4d5877a103f50da5aeda2c9ce39ed5dfa1716438ba4e1b7a14f321ef6af0c"
+  },
+  {
+    "claim": "Three legacy oxide labels corrected without changing native amounts or source public dates; research coding correction is not an issuer revision",
+    "classification": "documented_research_basis_correction",
+    "evidence": "data/processed/white_mesa/basis_corrections.csv",
+    "sha256": "b57d3656ac001bfdaeece73ee3e6ceb412a054077ca67c462f78838318f3999a"
   },
   {
     "claim": "SMIC investment spending is an input, not identified substitution",
@@ -123,6 +141,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "bb64567b510b9b5dd2343360cedb3cc0c9c6e0025fcc8ed0990a7b8d3c7cc133"
+    "sha256": "b5e7090b287a20da5ff6bb3bb87113ec63b485278a9b8e240eace1aabab976ce"
   }
 ]

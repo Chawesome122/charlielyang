@@ -33,6 +33,7 @@ uv run pytest -q
 uv run python scripts/build_rare_earths.py
 uv run python scripts/resolve_publication_clocks.py
 uv run python scripts/build_finance_material.py
+uv run python scripts/build_white_mesa.py
 uv run python scripts/build_publication_extension.py
 uv run python scripts/build_engineering_inputs.py
 uv run python scripts/fetch_additional_rare_earths.py  # cached original reports, no refresh
@@ -53,6 +54,7 @@ uv run python scripts/run_forecast.py --draws 10000
 uv run python scripts/run_empirical_baselines.py
 uv run python scripts/audit_original_quotes.py
 uv run python scripts/plot_evidence_extensions.py
+uv run python scripts/plot_white_mesa.py
 uv run python scripts/audit_game.py
 uv run python scripts/report.py
 cd manuscript && latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
@@ -127,6 +129,8 @@ The engineering extension extracts 32 source-linked claims from the original MP 
 The selected provision extension extracts 41 claims, 65 operative XML elements and 24 numerical bounds from three original Federal Register rules. Strict HBM thresholds, all nine January 2026 certifications and separate compliance clocks are preserved. Four parameter-restatement links do not establish complete current law, actual approvals or usable access. See [the provision review](docs/legal_provisions_review.md) and `data/processed/legal_provisions/`.
 
 The source-integrity extension rejects 18 tempting auxiliary date candidates without resolving the four unknown annual clocks; event-date-only filtering would leak 15 retrospective claims at December 2025 and 12 at June 2026. Three new official index requests failed. [Publication evidence](docs/publication_extension_review.md) distinguishes source-stated availability from uncertified release-time bytes. [Original-source verification](docs/original_source_integrity.md) documents 335 quote/table checks, immutable snapshot extraction and page-locator enforcement. The default pipeline runs all extensions and generates their figures.
+
+The [White Mesa review](docs/white_mesa_review.md) documents 49 source-linked feed/output, stock/WIP, design-capacity and milestone claims. It preserves the same 2024 run's oxalate/oxide descriptions, corrects three unsupported research oxide labels, reconciles three conditional capacity totals, and admits no current opening stock without a dated stock-flow bridge and verified form. Twenty stock/origin checks leave unusable quantities missing rather than zero. Two exact incorporated technical-report requests failed; no assays or recoveries are invented. Source tables are in `data/processed/white_mesa/`, with two reproducible empirical figures.
 
 ## Resume unfinished research
 

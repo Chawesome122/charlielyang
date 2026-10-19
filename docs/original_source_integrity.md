@@ -1,3 +1,5 @@
+This memo records the 335-check engineering/legal checkpoint. The subsequent [White Mesa review](white_mesa_review.md) adds 49 claims; the current audit checks 384 records across ten tables and 34 originals. All scope limitations below remain applicable.
+
 # Original-byte evidence and reproducible extraction
 
 Freeze: **2026-10-11**. The continuation found that some legacy builders verified the original's hash but then consumed a separately editable `.extracted.txt` or `data/interim/` text aid. This could let an altered derivative supply a claim without changing the checked original. No corrupted research observation was discovered; this was a trust-chain weakness.

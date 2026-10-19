@@ -52,6 +52,14 @@ def main():
         "data/processed/legal_provisions/amendment_links.csv",
         "data/processed/legal_provisions/issued_phase_checks.csv",
         "data/processed/source_integrity/original_quote_audit.csv",
+        "data/processed/white_mesa/observations.csv",
+        "data/processed/white_mesa/reported_flow_ratios.csv",
+        "data/processed/white_mesa/stock_origin_audit.csv",
+        "data/processed/white_mesa/capacity_component_identities.csv",
+        "data/processed/white_mesa/product_form_versions.csv",
+        "data/processed/white_mesa/basis_corrections.csv",
+        "data/processed/rare_earths/observations.csv",
+        "data/processed/rare_earths/observations_asof_freeze.csv",
     ]
     before = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in paths}
     run = subprocess.run([sys.executable, "scripts/replicate.py"], cwd=ROOT)
@@ -65,7 +73,7 @@ def main():
                   current_numerical_core_comparison="outputs/diagnostics/scientific_code_comparison.json")
     current = json.loads((ROOT/"outputs/research_summary.json").read_text())
     report["test_results"] = {key:current[key] for key in ["tests", "test_failures"]}
-    report["extension_scope"] = "immutable-original source extraction, exact PDF-page audit, source-calibrated engineering constraints, selected issued legal provisions and historical public-clock exclusions; existing empirical/scenario pipeline"
+    report["extension_scope"] = "White Mesa native feed/output, inventory and in-process stocks, conditional capacity components and product-form correction; existing original-source, engineering/legal and scenario pipeline"
     report["executed_script_sha256"] = {str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                                        for path in sorted((ROOT/"scripts").glob("*.py"))}
     (ROOT/"outputs/diagnostics/container_extension_validation.json").write_text(json.dumps(report, indent=2))

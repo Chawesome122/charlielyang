@@ -24,3 +24,5 @@ exhibit,requirement,evidence_path,status,limitation
 23,Feedstock-dependent prospective product comparison,outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf,PARTIAL,Issuer plans; native time basis and Dy/Tb split unresolved; not demand coverage or China-free service
 24,Source-calibrated recovery assumptions,outputs/calibrated/engineering/recovery_assumption_versions.pdf,PARTIAL,Issuer pit-model assumptions and separate product/context bases; no measured operating recovery
 25,Historical claim-clock exclusions,outputs/empirical/source_integrity/claim_clock_exclusions.pdf,PARTIAL,Actual claim-version masking audit; not forecasting skill or original-at-vintage byte certification
+26,White Mesa native feed and product descriptions,outputs/empirical/rare_earths/white_mesa_native_flows.pdf,PARTIAL,Issuer quantities and form versions; generic tons not converted; no chemical recovery or qualified throughput
+27,White Mesa conditional capacity components,outputs/empirical/rare_earths/white_mesa_capacity_components.pdf,PARTIAL,Expected product-specific table identities; planned HREE additions and combined totals not actual output or service

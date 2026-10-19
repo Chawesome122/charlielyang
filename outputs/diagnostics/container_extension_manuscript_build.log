@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.10.18)  19 OCT 2026 03:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.10.18)  19 OCT 2026 05:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,7 +526,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout4 = `main.toc'.
 
  [3] [4]
-<../outputs/empirical/semiconductors/legal_chronology.pdf, id=270, 722.7pt x 43
+<../outputs/empirical/semiconductors/legal_chronology.pdf, id=275, 722.7pt x 43
 2.17459pt>
 File: ../outputs/empirical/semiconductors/legal_chronology.pdf Graphic file (ty
 pe pdf)
@@ -536,7 +536,7 @@ df  used on input line 59.
 (pdftex.def)             Requested size: 469.75502pt x 280.91675pt.
  [5]
 [6 <../outputs/empirical/semiconductors/legal_chronology.pdf>] [7]
-<../outputs/empirical/source_integrity/claim_clock_exclusions.pdf, id=372, 570.
+<../outputs/empirical/source_integrity/claim_clock_exclusions.pdf, id=377, 570.
 36728pt x 295.84091pt>
 File: ../outputs/empirical/source_integrity/claim_clock_exclusions.pdf Graphic 
 file (type pdf)
@@ -545,7 +545,7 @@ Package pdftex.def Info: ../outputs/empirical/source_integrity/claim_clock_excl
 usions.pdf  used on input line 102.
 (pdftex.def)             Requested size: 432.17375pt x 224.16881pt.
  [8 <../outputs/empirical/source_integrity/claim_clock_exclusions.pdf>]
-<../outputs/empirical/rare_earths/reported_ndpr_output.pdf, id=439, 713.2287pt 
+<../outputs/empirical/rare_earths/reported_ndpr_output.pdf, id=444, 713.2287pt 
 x 281.75851pt>
 File: ../outputs/empirical/rare_earths/reported_ndpr_output.pdf Graphic file (t
 ype pdf)
@@ -554,128 +554,146 @@ Package pdftex.def Info: ../outputs/empirical/rare_earths/reported_ndpr_output.
 pdf  used on input line 120.
 (pdftex.def)             Requested size: 469.75502pt x 185.57425pt.
  [9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>] [10]
-<../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf, id=558, 497.97621pt
+<../outputs/empirical/rare_earths/white_mesa_native_flows.pdf, id=567, 678.6512
+1pt x 292.57027pt>
+File: ../outputs/empirical/rare_earths/white_mesa_native_flows.pdf Graphic file
+ (type pdf)
+<use ../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>
+Package pdftex.def Info: ../outputs/empirical/rare_earths/white_mesa_native_flo
+ws.pdf  used on input line 147.
+(pdftex.def)             Requested size: 469.75502pt x 202.52101pt.
+<../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf, id=568, 6
+42.39516pt x 288.68619pt>
+File: ../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf Graph
+ic file (type pdf)
+<use ../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>
+Package pdftex.def Info: ../outputs/empirical/rare_earths/white_mesa_capacity_c
+omponents.pdf  used on input line 155.
+(pdftex.def)             Requested size: 469.75502pt x 211.10918pt.
+ [11]
+<../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf, id=576, 497.97621pt
  x 275.3885pt>
 File: ../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf Graphic file (t
 ype pdf)
 <use ../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>
 Package pdftex.def Info: ../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.
-pdf  used on input line 148.
+pdf  used on input line 167.
 (pdftex.def)             Requested size: 469.75502pt x 259.78127pt.
- [11]
-<../outputs/empirical/rare_earths/project_finance_categories.pdf, id=569, 711.4
+ [12 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>] [13 <../ou
+tputs/empirical/rare_earths/white_mesa_capacity_components.pdf> <../outputs/emp
+irical/rare_earths/mp_halfyear_cash_ppe.pdf>]
+<../outputs/empirical/rare_earths/project_finance_categories.pdf, id=751, 711.4
 6571pt x 308.1991pt>
 File: ../outputs/empirical/rare_earths/project_finance_categories.pdf Graphic f
 ile (type pdf)
 <use ../outputs/empirical/rare_earths/project_finance_categories.pdf>
 Package pdftex.def Info: ../outputs/empirical/rare_earths/project_finance_categ
-ories.pdf  used on input line 160.
+ories.pdf  used on input line 179.
 (pdftex.def)             Requested size: 469.75502pt x 203.49667pt.
-<../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf, id=572, 505
+<../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf, id=754, 505
 .14941pt x 269.1733pt>
 File: ../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf Graphic
  file (type pdf)
 <use ../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>
 Package pdftex.def Info: ../outputs/empirical/rare_earths/eneabba_feedstock_com
-parison.pdf  used on input line 167.
+parison.pdf  used on input line 186.
 (pdftex.def)             Requested size: 469.75502pt x 250.32445pt.
- [12 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>] [13 <../outpu
-ts/empirical/rare_earths/project_finance_categories.pdf> <../outputs/empirical/
-rare_earths/eneabba_feedstock_comparison.pdf>]
-<../outputs/calibrated/engineering/recovery_assumption_versions.pdf, id=770, 60
+ [14] [15 <../outputs/empirical/rare_earths/project_finance_categories.pdf> <..
+/outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
+<../outputs/calibrated/engineering/recovery_assumption_versions.pdf, id=894, 60
 6.50227pt x 282.77911pt>
 File: ../outputs/calibrated/engineering/recovery_assumption_versions.pdf Graphi
 c file (type pdf)
 <use ../outputs/calibrated/engineering/recovery_assumption_versions.pdf>
 Package pdftex.def Info: ../outputs/calibrated/engineering/recovery_assumption_
-versions.pdf  used on input line 183.
+versions.pdf  used on input line 202.
 (pdftex.def)             Requested size: 469.75502pt x 219.01778pt.
- [14 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
-<../outputs/empirical/rare_earths/upton_milestone_vintages.pdf, id=836, 714.549
+ [16 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+<../outputs/empirical/rare_earths/upton_milestone_vintages.pdf, id=961, 714.549
 56pt x 332.04817pt>
 File: ../outputs/empirical/rare_earths/upton_milestone_vintages.pdf Graphic fil
 e (type pdf)
 <use ../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>
 Package pdftex.def Info: ../outputs/empirical/rare_earths/upton_milestone_vinta
-ges.pdf  used on input line 193.
+ges.pdf  used on input line 212.
 (pdftex.def)             Requested size: 469.75502pt x 218.2962pt.
- [15 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
-<../outputs/empirical/rare_earths/stage_constraints.pdf, id=897, 574.54652pt x 
-159.13855pt>
+[17 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
+<../outputs/empirical/rare_earths/stage_constraints.pdf, id=1021, 574.54652pt x
+ 159.13855pt>
 File: ../outputs/empirical/rare_earths/stage_constraints.pdf Graphic file (type
  pdf)
 <use ../outputs/empirical/rare_earths/stage_constraints.pdf>
 Package pdftex.def Info: ../outputs/empirical/rare_earths/stage_constraints.pdf
-  used on input line 208.
+  used on input line 227.
 (pdftex.def)             Requested size: 469.75502pt x 130.11563pt.
-<../outputs/empirical/rare_earths/evidence_coverage.pdf, id=898, 642.63727pt x 
-303.86288pt>
+<../outputs/empirical/rare_earths/evidence_coverage.pdf, id=1022, 642.63727pt x
+ 303.86288pt>
 File: ../outputs/empirical/rare_earths/evidence_coverage.pdf Graphic file (type
  pdf)
 <use ../outputs/empirical/rare_earths/evidence_coverage.pdf>
 Package pdftex.def Info: ../outputs/empirical/rare_earths/evidence_coverage.pdf
-  used on input line 217.
+  used on input line 236.
 (pdftex.def)             Requested size: 469.75502pt x 222.11943pt.
- [16 <../outputs/empirical/rare_earths/stage_constraints.pdf>] [17 <../outputs/
-empirical/rare_earths/evidence_coverage.pdf>]
-<../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf, id=1017, 712.8
+ [18 <../outputs/empirical/rare_earths/stage_constraints.pdf>]
+<../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf, id=1082, 712.8
 8765pt x 292.38222pt>
 File: ../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf Graphic fi
 le (type pdf)
 <use ../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>
 Package pdftex.def Info: ../outputs/empirical/rare_earths/lynas_quarterly_basel
-ines.pdf  used on input line 237.
+ines.pdf  used on input line 256.
 (pdftex.def)             Requested size: 469.75502pt x 192.66502pt.
- [18 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
-<../outputs/empirical/semiconductors/smic_reported_inputs.pdf, id=1098, 664.884
+ [19 <../outputs/empirical/rare_earths/evidence_coverage.pdf>] [20 <../outputs/
+empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+<../outputs/empirical/semiconductors/smic_reported_inputs.pdf, id=1226, 664.884
 02pt x 245.718pt>
 File: ../outputs/empirical/semiconductors/smic_reported_inputs.pdf Graphic file
  (type pdf)
 <use ../outputs/empirical/semiconductors/smic_reported_inputs.pdf>
 Package pdftex.def Info: ../outputs/empirical/semiconductors/smic_reported_inpu
-ts.pdf  used on input line 255.
+ts.pdf  used on input line 274.
 (pdftex.def)             Requested size: 469.75502pt x 173.60614pt.
- [19 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf>] [20] (./ga
-me_table.tex) [21]
-<../outputs/scenario/game/constant_control_benchmark.pdf, id=1188, 397.485pt x 
+ [21 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf>] [22] (./ga
+me_table.tex) [23]
+<../outputs/scenario/game/constant_control_benchmark.pdf, id=1312, 397.485pt x 
 238.49101pt>
 File: ../outputs/scenario/game/constant_control_benchmark.pdf Graphic file (typ
 e pdf)
 <use ../outputs/scenario/game/constant_control_benchmark.pdf>
 Package pdftex.def Info: ../outputs/scenario/game/constant_control_benchmark.pd
-f  used on input line 332.
+f  used on input line 351.
 (pdftex.def)             Requested size: 366.40834pt x 219.85107pt.
-<../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf, id=1189, 57
+<../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf, id=1313, 57
 8.16pt x 397.485pt>
 File: ../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf Graphic
  file (type pdf)
 <use ../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>
 Package pdftex.def Info: ../outputs/scenario/game/adaptation_positive_n21_traje
-ctories.pdf  used on input line 339.
+ctories.pdf  used on input line 358.
 (pdftex.def)             Requested size: 469.75502pt x 322.95576pt.
- [22] [23 <../outputs/scenario/game/constant_control_benchmark.pdf> <../outputs
-/scenario/game/adaptation_positive_n21_trajectories.pdf>] [24] (./main.bbl
+ [24] [25 <../outputs/scenario/game/constant_control_benchmark.pdf> <../outputs
+/scenario/game/adaptation_positive_n21_trajectories.pdf>] [26] (./main.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [25
+ [27
 
-] [26] [27] [28])
-[29] [30
+] [28] [29] [30]) [31] [32
 
-] [31] (./main.aux)
+] [33]
+(./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 83579B13900EA19FCD10BE3F9DFFC5C2;8525.
+(rerunfilecheck)             Checksum: 638887C92B32949F40943E79536829C2;8889.
  ) 
 Here is how much of TeX's memory you used:
- 13666 strings out of 478051
- 215507 string characters out of 5840942
- 1888330 words of memory out of 5000000
- 33285 multiletter control sequences out of 15000+600000
- 527124 words of font info for 150 fonts, out of 8000000 for 9000
+ 13696 strings out of 478051
+ 216636 string characters out of 5840942
+ 1886330 words of memory out of 5000000
+ 33305 multiletter control sequences out of 15000+600000
+ 527232 words of font info for 151 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,9n,76p,1770b,652s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,76p,1770b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -689,10 +707,10 @@ s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (31 pages, 557695 bytes).
+Output written on main.pdf (33 pages, 592525 bytes).
 PDF statistics:
- 1492 PDF objects out of 1728 (max. 8388607)
- 740 compressed objects within 8 object streams
- 152 named destinations out of 1000 (max. 500000)
- 29559 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1620 PDF objects out of 1728 (max. 8388607)
+ 773 compressed objects within 8 object streams
+ 158 named destinations out of 1000 (max. 500000)
+ 29577 words of extra memory for PDF output out of 29859 (max. 10000000)
 

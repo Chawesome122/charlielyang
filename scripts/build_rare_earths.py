@@ -96,13 +96,13 @@ def main():
     # Fixed exact-source statement extractions. Values are guarded by matched text.
     statement_specs = [
         ("RE-EF-10K2024", "EF_WhiteMesa_separation", "reported_output_year", 38,
-         "metric_tonnes_per_observed_year", "separated_NdPr_oxide", "2024-12-31",
+         "metric_tonnes_per_observed_year", "separated_NdPr_reported_product_form_unconfirmed", "2024-12-31",
          r"produced 38 tonnes of separated NdPr during 2024"),
         ("RE-EF-10K2024", "EF_WhiteMesa_separation", "nameplate_low", 800,
-         "metric_tonnes_per_year", "separated_NdPr_oxide", "2024-12-31",
+         "metric_tonnes_per_year", "separated_NdPr_reported_product_form_unconfirmed", "2024-12-31",
          r"produce up to 800.{0,8}1,000 metric tons"),
         ("RE-EF-10K2024", "EF_WhiteMesa_separation", "nameplate_high", 1000,
-         "metric_tonnes_per_year", "separated_NdPr_oxide", "2024-12-31",
+         "metric_tonnes_per_year", "separated_NdPr_reported_product_form_unconfirmed", "2024-12-31",
          r"produce up to 800.{0,8}1,000 metric tons"),
     ]
     for sid, entity, variable, value, unit, basis, valid, pattern in statement_specs:
