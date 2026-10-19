@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     paths = [
         "data/processed/rare_earths/project_state_evidence.csv",
+        "data/processed/rare_earths/activity_discovery_registry.csv",
         "data/processed/rare_earths_additional/lynas_project_history.csv",
         "data/processed/rare_earths_additional/lynas_quarterly_production_versions.csv",
         "data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv",
@@ -29,6 +30,12 @@ def main():
         "data/processed/semiconductors/legal_discovery_screening.csv",
         "data/processed/industrial_evidence/mp_cash_ppe_versions.csv",
         "outputs/empirical/rare_earths/mp_halfyear_cash_ppe.csv",
+        "data/processed/project_histories/milestone_versions.csv",
+        "data/processed/project_histories/state_observations.csv",
+        "data/processed/project_histories/milestone_revision_audit.csv",
+        "data/processed/project_histories/latest_visible_milestones.csv",
+        "data/processed/project_histories/state_pair_audit.csv",
+        "data/processed/project_histories/quarterly_disclosure_inventory.csv",
     ]
     before = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in paths}
     run = subprocess.run([sys.executable, "scripts/replicate.py"], cwd=ROOT)
@@ -42,7 +49,7 @@ def main():
                   current_numerical_core_comparison="outputs/diagnostics/scientific_code_comparison.json")
     current = json.loads((ROOT/"outputs/research_summary.json").read_text())
     report["test_results"] = {key:current[key] for key in ["tests", "test_failures"]}
-    report["extension_scope"] = "downstream finite-batch and project evidence; MP cash-PPE filing vintages; attrition audit; original legal scope screening and event extension"
+    report["extension_scope"] = "source-vintaged project milestone revisions, observation-pair and disclosure-inventory audits; existing downstream, financial and legal evidence"
     report["executed_script_sha256"] = {str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                                        for path in sorted((ROOT/"scripts").glob("*.py"))}
     (ROOT/"outputs/diagnostics/container_extension_validation.json").write_text(json.dumps(report, indent=2))

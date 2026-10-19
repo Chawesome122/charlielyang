@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "milestone_versions": 15,
+  "state_observations": 5,
+  "sources_checked": 3,
+  "disjoint_reported_milestones": 1,
+  "changed_target_milestones": 1,
+  "physical_completion_date_adjudicated": false,
+  "population_hazard_identified": false,
+  "campaign_metric_target_tonnes": 9.1,
+  "campaign_basis": "issuer's rounded paired total target; not achieved output or annual capacity"
+}

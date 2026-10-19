@@ -1,0 +1,13 @@
+milestone_id,visible_versions,reported_timing_conflict,target_window_changed,latest_record_id,adjudication,actual_event_date_identified
+Bear_care_maintenance_2023,1,False,False,RH-001,no disjoint reported windows detected,False
+Bear_formal_permitting_restart,1,False,False,RH-014,no disjoint reported windows detected,False
+Bear_partial_environmental_work,1,False,False,RH-015,no disjoint reported windows detected,False
+Upton_DOE_construction_gate,1,False,False,RH-013,no disjoint reported windows detected,False
+Upton_commissioning_pause,1,False,False,RH-011,no disjoint reported windows detected,False
+Upton_commissioning_start,2,False,False,RH-005,no disjoint reported windows detected,False
+Upton_construction_underway,1,False,False,RH-003,no disjoint reported windows detected,False
+Upton_demonstration_start,1,False,False,RH-010,no disjoint reported windows detected,False
+Upton_finite_campaign_metric_target,1,False,False,RH-012,no disjoint reported windows detected,False
+Upton_plant_operation_target,2,False,True,RH-009,no disjoint reported windows detected,False
+Upton_source_material_license,1,False,False,RH-002,no disjoint reported windows detected,False
+Upton_substantial_construction_completion,2,True,False,RH-007,definition/rework/original-source review required,False

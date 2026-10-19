@@ -10,6 +10,10 @@
       "passed": true
     },
     {
+      "path": "data/processed/rare_earths/activity_discovery_registry.csv",
+      "passed": true
+    },
+    {
       "path": "data/processed/rare_earths_additional/lynas_project_history.csv",
       "passed": true
     },
@@ -64,18 +68,43 @@
     {
       "path": "outputs/empirical/rare_earths/mp_halfyear_cash_ppe.csv",
       "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/milestone_versions.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/state_observations.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/milestone_revision_audit.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/latest_visible_milestones.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/state_pair_audit.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/quarterly_disclosure_inventory.csv",
+      "passed": true
     }
   ],
   "large_games_recomputed": false,
   "full_prior_numerical_run": "outputs/diagnostics/container_validation.json",
   "current_numerical_core_comparison": "outputs/diagnostics/scientific_code_comparison.json",
   "test_results": {
-    "tests": 146,
+    "tests": 157,
     "test_failures": 0
   },
-  "extension_scope": "downstream finite-batch and project evidence; MP cash-PPE filing vintages; attrition audit; original legal scope screening and event extension",
+  "extension_scope": "source-vintaged project milestone revisions, observation-pair and disclosure-inventory audits; existing downstream, financial and legal evidence",
   "executed_script_sha256": {
     "scripts/audit_game.py": "aa7be615ee091d97890e9494eba378cd70ef52d9671396e231a36dd86565dffa",
+    "scripts/audit_project_observations.py": "34a842713f0ba51d2ef7785f16affdc615cfd7d68837171ad0e1d435fed58f2b",
     "scripts/build_citation_audit.py": "2080bedc97dd23026936e281777f1b9df66afc72d5a4c8457ff6864a112bab04",
     "scripts/build_container.py": "5d1ea16834abb7d3303ee48a2c78450c9a4e28bfd88c278ef5860b79baabc7c3",
     "scripts/build_evidence_coverage.py": "c8ddd537d3e24e85f2b49345963930a1edfaf43528b2e590c0d8e2c8bd4daea8",
@@ -83,16 +112,17 @@
     "scripts/build_lynas_history.py": "8d2902fb8cc96bf538567601e849c28dd84c32962c3c52af1061f51492b579d2",
     "scripts/build_lynas_revisions.py": "aa6a2f3871d334a795f2a457a304dfe0e59eba827c7eebf0723017b3b10acb7b",
     "scripts/build_mp_investment.py": "26789c69e523bc79f6eeb1dbe59fb5982e30f731f32dc38267d216c2da4709fe",
-    "scripts/build_project_registry.py": "bcdc5d6375d0b298e6e1fedb05043bcadc64015e16df00fc5c5e86c47decfb27",
+    "scripts/build_project_histories.py": "e22251af873f3c6069259fc15cdb4793e744dd93cd40644569baebaf0d2c6653",
+    "scripts/build_project_registry.py": "35243e2fdec6d6eea3638ebec8858e225eaab1beaef66c012074c56b4f9a01bc",
     "scripts/build_rare_earths.py": "6184ad4f601dedbd2d46aba4bb57f42b1a65201d9eedc51bb7f41e5e0a0c7aba",
     "scripts/container_check.py": "3417b2ab667d2358201057d52f7404b2cf9ff5889a6790d7376177783a10e87d",
-    "scripts/container_extension_check.py": "08534fe086037b37ab2f57c47d557a0e15f72fb10bcbeb15a7af63c6ab482b49",
+    "scripts/container_extension_check.py": "64423c139c2e36054f67dbe22591d753627c54075bf2d236318c604addef2ecc",
     "scripts/discover_legal.py": "a3bf6b00969ffc61b2a643cc06a3db5328766ac852aa0c8b8ae552a66afef06e",
     "scripts/fetch.py": "4028b5a286c5e09cb623f7714d0dafdbe71692d000b72cd8fc50d6cb792ea230",
     "scripts/fetch_additional_rare_earths.py": "5ba44a4d7a7adad878e182131304e3f413477995dbbeaf29ca08810728a8887d",
     "scripts/fetch_literature.py": "04d70e6fc16415a005c43420fbaccf5a9ecc3ff471ed17a0b54873bd840b9297",
-    "scripts/replicate.py": "7c4c0d2c623e40b9abba25a12e41d4c55cf477aae628ec12c0522d2fb8a8a753",
-    "scripts/report.py": "b5185992b38aa8f9d630963f8fb78ecd342abf54fc31a4e507f2a7028836b383",
+    "scripts/replicate.py": "90b1177fb4a28693ca0b388eca4eae8ab12c2fb57718464d4a4bace17140bd90",
+    "scripts/report.py": "f666b314e263fbe7e6fb1f3684f7b985bee2ff381e33a3f859d1b270960f2e32",
     "scripts/restore_omitted_sources.py": "94f1249c60204f0832f974f2ef52bb2ee4447de87d304559c1253574d11fc000",
     "scripts/review_legal_discovery.py": "219b0fd83ee501267fc1f3aa111cd12c13967ee5bdeea7ac8006be0f36203acf",
     "scripts/run_empirical_baselines.py": "d69d309bf50270b342933048a4c7cc3a7fdb187e2c3447e6c24c04bce548c219",
@@ -102,7 +132,7 @@
     "scripts/run_opacity.py": "54c4b0d26aaf6af99b417eab9b8c723822e5873d6d277794079f785249eec4a1",
     "scripts/run_physical.py": "820201133a104fa6db645162bc6eab0fca9f4ca4f2994c93aeeca3baf3926ea9",
     "scripts/run_semiconductors.py": "540b20d3e6c346658784fd54a9928afe3fd4b31fc47bd13dbd0e490b26cc699a",
-    "scripts/update_status.py": "2545e4f1fded98154f618a97f66219c18eae0c87a8ffe84775ad9a5a40b6e03e",
-    "scripts/validate.py": "e09fbb6b8a45de6c14f1808b7cfa738b478ee5057b78af8ffe2dba100ecdbaf7"
+    "scripts/update_status.py": "e96147b7b305827e6c2e982024244b4d608282414b78e9b396f2e83b9d95d031",
+    "scripts/validate.py": "8a5d291743680ec9d9d2d4b5ae770096ef7955e9d78ec6a81bca02e0f8e125b1"
   }
 }

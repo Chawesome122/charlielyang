@@ -95,6 +95,27 @@ def main():
             assert row["info_public_date"]<="2026-10-11"
         except Exception as error:
             failures.append(f"Cash PPE fact provenance:{row['record_version_id']}:{error}")
+    histories=pd.read_csv(ROOT/"data/processed/project_histories/milestone_versions.csv").fillna("")
+    for row in histories.to_dict("records"):
+        checks+=1
+        source=sources[row["source_id"]]
+        text=" ".join((ROOT/f"data/interim/{row['source_id']}.txt").read_text().split())
+        if row["source_sha256"]!=source["sha256"] or sha256_file(ROOT/source["archive_path"])!=source["sha256"]:
+            failures.append(f"Project history source mismatch:{row['record_id']}")
+        if row["quote"] not in text or row["info_public_date"]!=source["publication_date"] or row["info_public_date"]>"2026-10-11":
+            failures.append(f"Project history quote/public clock mismatch:{row['record_id']}")
+    inventory=pd.read_csv(ROOT/"data/processed/project_histories/quarterly_disclosure_inventory.csv")
+    checks+=1
+    if not inventory.origin_date.le("2026-10-11").all() or inventory.physical_projects_at_risk.notna().any() or inventory.known_survival_exposure_quarters.notna().any():
+        failures.append("Disclosure inventory mislabeled as physical survival exposure or future origin")
+    roster=pd.read_csv(ROOT/"data/processed/rare_earths/activity_discovery_registry.csv")
+    checks+=1
+    if "archive_first_documented_public_date" not in roster:
+        failures.append("Discovery roster lacks earliest archive-public clock")
+    else:
+        upton=roster[roster.activity_id.eq("RER_Upton_separation")]
+        if len(upton)!=1 or upton.iloc[0].archive_first_documented_public_date!="2024-03-20":
+            failures.append("Upton discovery chronology ignores an earlier verified filing")
     result=dict(passed=not failures,checked_claims_and_artifacts=checks,failures=failures,freeze="2026-10-11",
                 scientific_gaps_are_not_validation_passes=["empirical physical network","population project hazards","causal semiconductor response","historical headline SPOI","continuous MPE"])
     (ROOT/"outputs/diagnostics/data_validation.json").write_text(json.dumps(result,indent=2))

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "host_pipeline": true,
+    "container_pipeline": true,
+    "container_extension": true,
+    "all_15_tables_identical": true,
+    "provenance": true,
+    "scripts_match_final_container": true,
+    "manuscript_source_matches_final_container": true,
+    "container_network_none": true,
+    "container_image_matches_record": true,
+    "no_layout_errors": true,
+    "source_and_document_whitespace": true
+  },
+  "freeze": "2026-10-11",
+  "tests": {
+    "tests": 146,
+    "test_failures": 0
+  },
+  "provenance_checks": 500,
+  "script_mismatches": [],
+  "manuscript_pages": 25,
+  "container_seconds": 108.27444597999784,
+  "independent_machine": false,
+  "large_hjb_resolved_this_continuation": false,
+  "publication_ready": false,
+  "remaining_requirements": "audit/remaining_requirements.md"
+}

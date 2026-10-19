@@ -1,5 +1,6 @@
 """Refresh the resumable research ledger from executed machine-readable evidence."""
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 import re
 import subprocess
@@ -9,6 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def main():
+    execution_date=datetime.now(timezone.utc).date().isoformat()
     summary=json.loads((ROOT/"outputs/research_summary.json").read_text())
     endpath=ROOT/"outputs/diagnostics/end_to_end_replication.json"
     end=json.loads(endpath.read_text()) if endpath.exists() else {}
@@ -51,6 +53,10 @@ def main():
     update("C04","PARTIAL","data/processed/rare_earths/project_state_evidence.csv;data/processed/industrial_evidence/project_milestones.csv;outputs/diagnostics/evidence_coverage_validation.json",
            f"{summary['project_evidence_records']} source-checked records across {summary['project_count']} projects/{summary['activity_count']} activities. Includes unsuccessful histories and additional downstream disclosures; counterparty roles, target/operation distinctions and two-clock histories retained.",
            "Discovery roster is nonrepresentative. Complete historical eligibility/cohort, original state entries/exits, ownership dependence and independent qualification remain unresolved; no empirical hazards fitted.")
+    update("C05","PARTIAL","src/weaponized/rare_earths/history.py;data/processed/project_histories;outputs/diagnostics/project_observation_audit.json;tests/test_history_observations.py",
+           f"{summary['project_history_versions']} source-checked history versions preserve changed targets, disjoint completion windows and undated commissioning pause. {summary['observed_state_pairs']} state pairs audited; {summary['first_exit_spells_admissible']} first-exit spells admitted. Quarterly source-disclosure inventory preserves missing physical survival counts and partial freeze quarter.",
+           "Representative entry cohort, verified risk spells, first-exit surveillance, reporting-delay mechanism, interval/event-definition adjudication and independent coding remain missing.",
+           expected_requirement="Right/interval censoring and delayed public reporting")
     update("14-21","PARTIAL","data/processed/industrial_evidence;outputs/diagnostics/industrial_evidence_validation.json;outputs/diagnostics/evidence_coverage_validation.json;metadata/claims_to_sources.csv",
            "Finite batch, pilot purity, grade statements and planned facilities checked against original quotes/hashes; annual native capacity distinguished from total campaign amounts. Coverage counts expose missing recipes, route limits, independent stable rates and demand.",
            "More inclusive original operator sources, full historical ownership and engineering evidence remain missing. Issuer batch qualification is not independent commercial throughput certification.")
@@ -65,7 +71,7 @@ def main():
     counts=audit.status.value_counts().to_dict()
     text=f"""# Research status — resumable execution ledger
 
-Information freeze: **2026-10-11**. Research execution date:2026-10-18. Methodological attachment:49pages. The task began from an empty, unborn Git checkout. The continuation request authorizes Git push; no journal submission has occurred.
+Information freeze: **2026-10-11**. Research execution date: {execution_date} (UTC). Methodological attachment:49pages. The task began from an empty, unborn Git checkout. The continuation request authorizes Git push; no journal submission has occurred.
 
 ## Implemented and executed
 
@@ -74,6 +80,7 @@ Information freeze: **2026-10-11**. Research execution date:2026-10-18. Methodol
 - Semiconductor primary chronology: **{summary['legal_event_rows']} legal-event phases**, separately dated and classified; **{summary['financial_input_rows']} SMIC nominal investment-input observations**. These are not target-capability scores or causal effects.
 - Additional industrial evidence: **{summary['industrial_project_records']} project records and {summary['industrial_technical_claims']} technical claims**. Documentation coverage: {summary['documentary_coverage']['public_clock_eligible']} source-public clocks and {summary['documentary_coverage']['annual_native_capacity_documented']} native annual capacity mentions among {summary['activity_count']} activities. No complete recipe, finite route-capacity, independent stable-rate or matched-demand evidence is verified.
 - Archived SEC cash-flow inputs: **{summary['mp_cash_ppe_versions']} MP filing vintages over {summary['mp_cash_ppe_durations']} reported durations**, with six first-half observations and three exact quarter/H1 reconciliations. They are nominal consolidated cash payments, not project allocation, physical capacity or a causal restriction response.
+- Project-history extension: **{summary['project_history_versions']} source-checked versions** from three RER filings; {summary['history_disjoint_windows']} disjoint reported completion window. The full roster has {summary['observed_state_pairs']} adjacent observation pairs and {summary['first_exit_spells_admissible']} admissible first-exit spells. A quarterly disclosure inventory records unknown physical survival exposure explicitly.
 - All 41 additional archived legal originals scope-screened; 4 documents add 5 reviewed phases. Eight procedural records do not add export requirements. Current-law consolidation and numerical access effects remain unverified.
 - Multi-commodity multi-quarter LP, joint products, finite feeds/resources/stocks, origin/control tags, consistent supplier N-1, primal/dual diagnostics; exact blueprint and richer synthetic fixtures executed.
 - Competing-risk laws and pooled rate estimator, exact/right/interval first-exit likelihoods, ramp models, common shocks, proper scores, censor/release/persistence guards;10,000synthetic network paths and parameter-recovery experiment executed.
@@ -101,12 +108,14 @@ Information freeze: **2026-10-11**. Research execution date:2026-10-18. Methodol
 - Energy Fuels reports approximately 1.2 tonnes NdPr oxide converted into 3.0 tonnes automotive-qualified magnets in a finite Korean-processed batch. These are issuer claims, with unknown production interval, unnamed processor and incomplete auxiliary-input origins; not annual capacity, elemental recovery or complete China-free service. Aggregate mass accounting requires approximately 1.8 tonnes or more other inputs, conditional on reported masses and nonnegative other outputs.
 - SMIC's reported capex and Q4R&D vary over2022–25; no causal restriction response or successful substitution is identified.
 - MP's tagged first-half cash PPE payments are USD 59.473 million in 2025 and USD 307.711 million in 2026, according to the archived SEC facts. This is an investment-input observation, not a measured gain in magnet resilience or evidence of policy causation.
+- Upton's FY2024 report places substantial construction completion in late 2024; FY2025 places it in late 2025 and reports a commissioning pause/rework before demonstration operations in early 2026. Changed definitions or rework require adjudication; neither year silently overwrites the other. FY2024 pairs the planned total 10 tons with approximately 9.1 tonnes, without establishing achieved output or an annual rate.
 
 ## Failed checks and repairs preserved
 
 - Primary-source proxy/CDN denials and challenge pages remain logged; USGS full data/PDF and China/Japan legal coverage remain incomplete.
 - Current continuation attempted 8 additional rare-earth issuer sites; all failed at the proxy with CONNECT 403. Exact attempts are in`metadata/rare_earth_expansion_acquisitions.jsonl`; no source or observation is claimed from them.
 - Exact Q2 2026 SEC filing requests for MP, Energy Fuels and USA Rare Earth also failed with CONNECT 403. Filing pointers/public dates come from archived submission metadata; the inaccessible texts are not treated as read. The pre-existing MP company-facts archive provides a distinct financial-data fallback.
+- The additional RER Q2 2026 original also failed with CONNECT 403; `metadata/project_history_acquisitions.jsonl` preserves the exact accession URL. New history claims come from existing archived annual filings, not the inaccessible quarterly text.
 - Incorrect attempted legacy company identifier rejected; premerger SPAC records excluded from industrial history.
 - Independent review repaired inventory reuse/NaN in a stateless bridge, unauditable forecast-input vintages and false stability at nonsmooth interpolation knots.
 - A real BiCGSTAB stagnation was repaired by recorded GMRES recovery without disabling verification or relaxing residual tolerances.
@@ -121,7 +130,7 @@ Full requirements:`audit/remaining_requirements.md`. The85-row acceptance ledger
 
 ## Exact next milestone
 
-1.Read the audit and source-review memos; prioritize the Q2 2026 original filings identified in `docs/industrial_evidence_review.md`, original operator corroboration, and historically dated plant/route/recipe/demand evidence before estimating hazards or physical service.
+1.Read the audit and source-review memos; prioritize Q2 2026 originals and Upton rework/event-definition adjudication in `docs/project_history_review.md` and `docs/industrial_evidence_review.md`, verified entry/risk clocks, original operator corroboration, and plant/route/recipe/demand evidence before estimating hazards or physical service.
 2.Obtain engineering review and qualified semiconductor z/f observations; finish primary legal consolidation.
 3.Establish opacity obligations and blinded independent coding before estimating project associations.
 4.Fit empirical transitions/state laws only when these gates pass; continue negative-beta solver work with truthful failure labels.

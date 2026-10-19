@@ -54,6 +54,18 @@
     "sha256": "c2b599fc0b602623f06601b7512f6570719e625733aee65453cc4f5860469998"
   },
   {
+    "claim": "Upton filings report different substantial-completion years and a commissioning pause; both source vintages retained without silent adjudication",
+    "classification": "empirical_issuer_reported_history_versions",
+    "evidence": "data/processed/project_histories/milestone_versions.csv",
+    "sha256": "f09cd6cd6fe851e469f50e7934b9bff0b318a334088a40de344d6498b11a0080"
+  },
+  {
+    "claim": "Observed state pairs and disclosure inventory do not establish first-exit survival exposure or a representative hazard sample",
+    "classification": "empirical_observation_protocol_audit",
+    "evidence": "outputs/diagnostics/project_observation_audit.json",
+    "sha256": "79fb57988c9ff7c990250b648e279f22e46190965be8366b672fe591ac166a27"
+  },
+  {
     "claim": "SMIC investment spending is an input, not identified substitution",
     "classification": "descriptive_empirical",
     "evidence": "data/processed/semiconductors/reported_financial_inputs.csv",
@@ -69,6 +81,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "5b2211d2a8c2133ac6f855a43c5257cee344605b5cb29c4c6ad206f9fb479cfd"
+    "sha256": "a83efb95d384e2d78cfae5259140bd19245fa78cb9e2c314b4b2c991a3ab0763"
   }
 ]

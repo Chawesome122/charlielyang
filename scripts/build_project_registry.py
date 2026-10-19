@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 import pandas as pd
+from weaponized.rare_earths.history import discovery_roster
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -93,12 +94,14 @@ def main():
                          commercial_network_ready=False, cancelled_projects_coverage="Texas cancellation retained; global failure discovery incomplete"))
     industrial = pd.read_csv(ROOT/"data/processed/industrial_evidence/project_milestones.csv")
     rows.extend(industrial.to_dict("records"))
+    histories = pd.read_csv(ROOT/"data/processed/project_histories/state_observations.csv")
+    rows.extend(histories.to_dict("records"))
     frame = pd.DataFrame(rows)
     target = ROOT/"data/processed/rare_earths"
     frame.to_csv(target/"project_state_evidence.csv", index=False)
     # This roster includes suspended and delayed assets; it is a discovery ledger,
     # not an admissible project-quarter risk set with fully observed entries/exits.
-    frame.drop_duplicates("activity_id").to_csv(target/"activity_discovery_registry.csv", index=False)
+    discovery_roster(frame).to_csv(target/"activity_discovery_registry.csv", index=False)
     pending = [
       ("Lynas_MtWeld_Kalgoorlie_Kuantan", "dated history admitted to discovery roster; ownership/recipes/recoveries/route capacities and full prior entry history still incomplete"),
       ("Arafura_Nolans", "primary site failed; permit/FID/capacity history to acquire"),

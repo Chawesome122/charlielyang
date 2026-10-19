@@ -1,5 +1,7 @@
 # Downstream evidence and legal-source continuation
 
+This memo describes the earlier 55-record checkpoint. The subsequent [project-history review](project_history_review.md) adds five history records (60 total), preserves Upton timing revisions and audits source-observation protocols.
+
 Freeze: 2026-10-11. Execution: 2026-10-18. New observations in this continuation are extracted from already archived, pre-freeze issuer filings and original Federal Register XML. Eight new issuer-site requests all failed at the proxy with CONNECT 403; `metadata/rare_earth_expansion_acquisitions.jsonl` preserves those failures. No observation is attributed to an unsuccessful request.
 
 ## Industrial findings and measurement limits

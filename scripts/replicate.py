@@ -32,8 +32,10 @@ def main():
         ["scripts/fetch_additional_rare_earths.py"],
         ["scripts/build_lynas_history.py"], ["scripts/build_lynas_revisions.py"],
         ["scripts/build_industrial_evidence.py"],
+        ["scripts/build_project_histories.py"],
         ["scripts/build_mp_investment.py"],
         ["scripts/build_project_registry.py"],
+        ["scripts/audit_project_observations.py"],
         ["scripts/build_evidence_coverage.py"],
         ["scripts/build_citation_audit.py"], ["scripts/run_semiconductors.py"],
         ["scripts/discover_legal.py"], ["scripts/review_legal_discovery.py"],
@@ -74,6 +76,10 @@ def main():
             result = subprocess.run(["latexmk", "-pdf", "-interaction=nonstopmode", "-halt-on-error", "main.tex"], cwd=ROOT/"manuscript", stdout=log, stderr=subprocess.STDOUT)
         steps.append(dict(command=["latexmk", "main.tex"], exit_code=result.returncode,
                           log=str(logpath.relative_to(ROOT))))
+        # Preserve the actual latest TeX diagnostics at the audit's stable path.
+        import shutil
+        if (ROOT/"manuscript/main.log").exists():
+            shutil.copyfile(ROOT/"manuscript/main.log", ROOT/"outputs/diagnostics/manuscript_build.log")
         passed &= result.returncode == 0
         if result.returncode:
             print(logpath.read_text()[-6000:], file=sys.stderr)
