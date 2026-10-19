@@ -24,7 +24,7 @@ To **recompute the game solves too**, including all six positive-response starts
 uv run python scripts/replicate.py --full
 ```
 
-The validated full clean-container run took about 23 minutes; the expanded default rebuild took roughly two minutes on this instance. Runtime depends on CPU and BLAS settings. The script sets numerical-library thread counts to one to avoid costly oversubscription. It records each command's underlying exit status and log. A numerical experiment reporting `not_solved` is an expected scientific outcome; its policies do not become accepted equilibria because the reporting script exits successfully.
+The earlier validated full clean-container run took about 23 minutes; current default-rebuild runtimes are recorded in the replication diagnostics. Runtime depends on CPU and BLAS settings. The script sets numerical-library thread counts to one to avoid costly oversubscription. It records each command's underlying exit status and log. A numerical experiment reporting `not_solved` is an expected scientific outcome; its policies do not become accepted equilibria because the reporting script exits successfully.
 
 Individual checks:
 
@@ -33,6 +33,8 @@ uv run pytest -q
 uv run python scripts/build_rare_earths.py
 uv run python scripts/resolve_publication_clocks.py
 uv run python scripts/build_finance_material.py
+uv run python scripts/build_publication_extension.py
+uv run python scripts/build_engineering_inputs.py
 uv run python scripts/fetch_additional_rare_earths.py  # cached original reports, no refresh
 uv run python scripts/build_lynas_history.py
 uv run python scripts/build_industrial_evidence.py
@@ -44,10 +46,13 @@ uv run python scripts/build_evidence_coverage.py
 uv run python scripts/run_semiconductors.py
 uv run python scripts/discover_legal.py
 uv run python scripts/review_legal_discovery.py
+uv run python scripts/build_legal_provisions.py
 uv run python scripts/run_opacity.py
 uv run python scripts/run_physical.py
 uv run python scripts/run_forecast.py --draws 10000
 uv run python scripts/run_empirical_baselines.py
+uv run python scripts/audit_original_quotes.py
+uv run python scripts/plot_evidence_extensions.py
 uv run python scripts/audit_game.py
 uv run python scripts/report.py
 cd manuscript && latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
@@ -116,6 +121,12 @@ The archived SEC MP company-facts extension supplies 53 cash-PPE filing versions
 `scripts/resolve_publication_clocks.py` verifies four exact report-to-issuer date associations and retains four unresolved annual-report dates. `scripts/build_finance_material.py` extracts 37 native-basis finance, reserve, contract and prospective-product claims, checks signed cash and facility identities, and generates two figures. Cash, additions, credit, commitments, ore reserves and planned output remain separate. The original-at-vintage bytes are not independently certified. See [the finance/material review](docs/finance_material_review.md) for the dictionary, numerical findings, source limitations and exact failed presentation URL.
 
 Required source hosts are recorded in acquisition manifests and the environment configuration. Some agency/CDN downloads remain denied or unavailable. Restricted/commercial data must be supplied legally; a URL, an API account requirement, or a blueprint assertion is not an acquired dataset. Access terms for each publisher remain relevant. The continuation request authorizes Git push; no journal submission or external research review is implied.
+
+The engineering extension extracts 32 source-linked claims from the original MP FY2024/FY2025 filings, retaining resource/reserve contexts and calibrated assumptions. Four necessary grouped-oxide constraints and twelve normalized finite-feed LP checks do not supply measured yield, stock, annual output or China-free service. See [the engineering review](docs/engineering_inputs_review.md), `data/processed/engineering_inputs/` and the clearly labelled figure under `outputs/calibrated/engineering/`.
+
+The selected provision extension extracts 41 claims, 65 operative XML elements and 24 numerical bounds from three original Federal Register rules. Strict HBM thresholds, all nine January 2026 certifications and separate compliance clocks are preserved. Four parameter-restatement links do not establish complete current law, actual approvals or usable access. See [the provision review](docs/legal_provisions_review.md) and `data/processed/legal_provisions/`.
+
+The source-integrity extension rejects 18 tempting auxiliary date candidates without resolving the four unknown annual clocks; event-date-only filtering would leak 15 retrospective claims at December 2025 and 12 at June 2026. Three new official index requests failed. [Publication evidence](docs/publication_extension_review.md) distinguishes source-stated availability from uncertified release-time bytes. [Original-source verification](docs/original_source_integrity.md) documents 335 quote/table checks, immutable snapshot extraction and page-locator enforcement. The default pipeline runs all extensions and generates their figures.
 
 ## Resume unfinished research
 

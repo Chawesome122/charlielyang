@@ -15,6 +15,7 @@ import csv
 import hashlib
 import json
 from pathlib import Path
+from weaponized.io.original_text import verified_original_text
 import re
 import subprocess
 from urllib.error import HTTPError
@@ -93,10 +94,7 @@ def jsonp_headlines(path):
 
 def extract_pdf(record):
     path = ROOT / record["archive_path"]
-    target = path.with_suffix(".extracted.txt")
-    if not target.exists():
-        subprocess.run(["pdftotext", "-layout", str(path), str(target)], check=True, capture_output=True)
-    return target.read_text()
+    return verified_original_text(path, record["sha256"])
 
 
 def build_production(rows):

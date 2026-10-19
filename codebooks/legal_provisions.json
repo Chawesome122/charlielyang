@@ -1,0 +1,1705 @@
+{
+  "schema_version": 1,
+  "freeze": "2026-10-11",
+  "scope": "41 selected issued-rule clauses from three originals; not consolidated current law, observed licenses, legal advice, severity scores or technological capability",
+  "documents": [
+    {
+      "document_number": "2023-23055",
+      "source_id": "SC-FR-2023-23055-TEXT",
+      "metadata_source_id": "SC-FR-2023-23055-META",
+      "dates_xpath": "./PREAMB[1]/EFFDATE[1]",
+      "dates_quote": "DATES: This rule is effective November 17, 2023, except for amendatory instruction 11 amending supplement no. 1 to part 736 of the EAR, which is effective from November 17, 2023, to January 1, 2026. Comments must be received by BIS no later than December 18, 2023.",
+      "source_sha256": "631a88e5cecf06091f334fe8f6bd34d32bea569e77a9b8f077ceb851ca3a713b",
+      "metadata_sha256": "d87ccef467a9895d82b60e8769cfc3775b08efea1c601208afe0b2276f5ff3a9"
+    },
+    {
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "metadata_source_id": "SC-FR-2024-28270-META",
+      "dates_xpath": "./PREAMB[1]/EFFDATE[1]",
+      "dates_quote": "DATES: Effective date: This rule is effective December 2, 2024. Compliance dates: Although this rule is effective December 2, 2024, exporters, reexporters, and transferors are not required to comply with the changes made in the following amendatory instructions until the compliance dates specified below for the respective amendatory instructions. If no compliance date is provided, the parties must comply with those requirements as of the effective date of this IFR. • The changes made in this IFR in amendatory instructions 2 ( Red Flags ) and 6 (§ 734.19) have a compliance date of December 2, 2024. • The changes made in this IFR in amendatory instructions 4, 5, 15, 16, 17, 19, 20, 21, 23, 25, 29, and 31 (ECCNs 3B001, 3B002, 3B991, 3B992, 3B993, 3B994, 3A090, 3D001 (related to 3A090.c and 3B commodities), 3D002, 3D992, 3D993, 3D994, 3E001 (related to 3A090.c and 3B commodities) (HBM controls and related changes), 3E992, 3E993, and 3E994) FN5, and FDP rules, and related changes, and DRAM definition changes) have a compliance date of December 31, 2024. Comments due date: Comments must be received by BIS no later than January 31, 2025.",
+      "source_sha256": "10d3ee7c7f7dd165435f4476195c88f8a9c50294f378eec170e451c8d88a32c3",
+      "metadata_sha256": "1377c4b215b662306eb7f965989c712d7d5bc72b20dcd502f4c265a07cc1b46e"
+    },
+    {
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "metadata_source_id": "SC-FR-2026-00789-META",
+      "dates_xpath": "./PREAMB[1]/EFFDATE[1]",
+      "dates_quote": "DATES: Effective date: The effective date of this rule is January 15, 2026.",
+      "source_sha256": "9817c6f0ff6732fd936c5731463cdf8a973434b21d1133861c7e61e1de45abe3",
+      "metadata_sha256": "754ddd4bb6be8bf3181ccd75ebad1ac981944c812bd13c701555c1ddd0f2497a"
+    }
+  ],
+  "clauses": [
+    {
+      "claim_id": "LP-2023-a1",
+      "document_number": "2023-23055",
+      "source_id": "SC-FR-2023-23055-TEXT",
+      "legal_locator": "CCL ECCN 3A090.a.1",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_parameter_branch",
+      "effective_date": "2023-11-17",
+      "compliance_date": "2023-11-17",
+      "amendatory_instruction": 38,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Integrated circuits having one or more digital processing units; datacenter exclusion and other notes apply",
+      "interpretation": "One alternative technical branch of the specified IC category; apply the source Notes and all other jurisdictional/transaction rules. This is not a direct capability or access score.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [
+        {
+          "variable": "total_processing_performance",
+          "operator": ">=",
+          "value": 4800,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[307]",
+          "quote": "a.1. a `total processing performance' of 4800 or more, or",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.a.1",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2023-a2",
+      "document_number": "2023-23055",
+      "source_id": "SC-FR-2023-23055-TEXT",
+      "legal_locator": "CCL ECCN 3A090.a.2",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_parameter_branch",
+      "effective_date": "2023-11-17",
+      "compliance_date": "2023-11-17",
+      "amendatory_instruction": 38,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Integrated circuits having one or more digital processing units; datacenter exclusion and other notes apply",
+      "interpretation": "One alternative technical branch of the specified IC category; apply the source Notes and all other jurisdictional/transaction rules. This is not a direct capability or access score.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [
+        {
+          "variable": "total_processing_performance",
+          "operator": ">=",
+          "value": 1600,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        },
+        {
+          "variable": "performance_density",
+          "operator": ">=",
+          "value": 5.92,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[308]",
+          "quote": "a.2. a `total processing performance' of 1600 or more and a `performance density' of 5.92 or more.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.a.2",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2023-b1",
+      "document_number": "2023-23055",
+      "source_id": "SC-FR-2023-23055-TEXT",
+      "legal_locator": "CCL ECCN 3A090.b.1",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_parameter_branch",
+      "effective_date": "2023-11-17",
+      "compliance_date": "2023-11-17",
+      "amendatory_instruction": 38,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Integrated circuits having one or more digital processing units; datacenter exclusion and other notes apply",
+      "interpretation": "One alternative technical branch of the specified IC category; apply the source Notes and all other jurisdictional/transaction rules. This is not a direct capability or access score.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [
+        {
+          "variable": "total_processing_performance",
+          "operator": ">=",
+          "value": 2400,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        },
+        {
+          "variable": "total_processing_performance",
+          "operator": "<",
+          "value": 4800,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        },
+        {
+          "variable": "performance_density",
+          "operator": ">=",
+          "value": 1.6,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        },
+        {
+          "variable": "performance_density",
+          "operator": "<",
+          "value": 5.92,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[310]",
+          "quote": "b.1. a `total processing performance' of 2400 or more and less than 4800 and a `performance density' of 1.6 or more and less than 5.92, or",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.b.1",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2023-b2",
+      "document_number": "2023-23055",
+      "source_id": "SC-FR-2023-23055-TEXT",
+      "legal_locator": "CCL ECCN 3A090.b.2",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_parameter_branch",
+      "effective_date": "2023-11-17",
+      "compliance_date": "2023-11-17",
+      "amendatory_instruction": 38,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Integrated circuits having one or more digital processing units; datacenter exclusion and other notes apply",
+      "interpretation": "One alternative technical branch of the specified IC category; apply the source Notes and all other jurisdictional/transaction rules. This is not a direct capability or access score.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [
+        {
+          "variable": "total_processing_performance",
+          "operator": ">=",
+          "value": 1600,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        },
+        {
+          "variable": "performance_density",
+          "operator": ">=",
+          "value": 3.2,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        },
+        {
+          "variable": "performance_density",
+          "operator": "<",
+          "value": 5.92,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[311]",
+          "quote": "b.2. a `total processing performance' of 1600 or more and a `performance density' of 3.2 or more and less than 5.92.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.b.2",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2023-non-datacenter",
+      "document_number": "2023-23055",
+      "source_id": "SC-FR-2023-23055-TEXT",
+      "legal_locator": "CCL 3A090 Note 2",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "item_scope_exclusion",
+      "effective_date": "2023-11-17",
+      "compliance_date": "2023-11-17",
+      "amendatory_instruction": 38,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Specified non-datacenter integrated circuits",
+      "interpretation": "The exclusion requires BOTH not designed/marketed for datacenters and TPP below 4800. A non-datacenter label alone is insufficient.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[313]",
+          "quote": "Note 2 to 3A090: 3A090 does not apply to items that are not designed or marketed for use in datacenters and do not have a `total processing performance' of 4800 or more. For integrated circuits that are not designed or marketed for use in datacenters and that have a `total processing performance' of 4800 or more, see license exception NAC.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.a;3A090.b",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2023-tpp-definition",
+      "document_number": "2023-23055",
+      "source_id": "SC-FR-2023-23055-TEXT",
+      "legal_locator": "CCL 3A090 Technical Notes 1-3",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_definition",
+      "effective_date": "2023-11-17",
+      "compliance_date": "2023-11-17",
+      "amendatory_instruction": 38,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "TPP in the original 2023-23055 ECCN3A090",
+      "interpretation": "Use dense-matrix theoretical peak performance and aggregate processing units with the prescribed operation bit length; do not substitute an arbitrary FLOPS marketing number.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[316]",
+          "quote": "1. `Total processing performance' (`TPP') is 2 × `MacTOPS' × `bit length of the operation', aggregated over all processing units on the integrated circuit.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[317]",
+          "quote": "a. For purposes of 3A090, `MacTOPS' is the theoretical peak number of Tera (10 12 ) operations per second for multiply-accumulate computation (D = A × B + C).",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[318]",
+          "quote": "b. The 2 in the `TPP' formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × MacTOPS may correspond to the reported TOPS or FLOPS on a datasheet.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[319]",
+          "quote": "c. For purposes of 3A090, `bit length of the operation' for a multiply-accumulate computation is the largest bit-length of the inputs to the multiply operation.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[320]",
+          "quote": "d. Aggregate the TPPs for each processing unit on the integrated circuit to arrive at a total. `TPP' = TPP1 + TPP2 + . . . . + TPPn (where n is the number or processing units on the integrated circuit).",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[321]",
+          "quote": "2. The rate of `MacTOPS' is to be calculated at its maximum value theoretically possible. The rate of `MacTOPS' is assumed to be the highest value the manufacturer claims in annual or brochure for the integrated circuit. For example, the `TPP' threshold of 4800 can be met with 600 tera integer operations (or 2 × 300 `MacTOPS') at 8 bits or 300 tera FLOPS (or 2 × 150 `MacTOPS') at 16 bits. If the IC is designed for MAC computation with multiple bit lengths that achieve different `TPP' values, the highest `TPP' value should be evaluated against parameters in 3A090.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[322]",
+          "quote": "3. For integrated circuits specified by 3A090 that provide processing of both sparse and dense matrices, the `TPP' values are the values for processing of dense matrices (e.g., without sparsity).",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.a;3A090.b",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2023-density-definition",
+      "document_number": "2023-23055",
+      "source_id": "SC-FR-2023-23055-TEXT",
+      "legal_locator": "CCL 3A090 Technical Note 4",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_definition",
+      "effective_date": "2023-11-17",
+      "compliance_date": "2023-11-17",
+      "amendatory_instruction": 38,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Performance density in the original 2023-23055 ECCN3A090",
+      "interpretation": "Performance density uses applicable non-planar logic-die area, distinct from the package/stack area later used for HBM.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/P[323]",
+          "quote": "4. `Performance density' is `TPP' divided by `applicable die area'. For purposes of 3A090, `applicable die area' is measured in millimeters squared and includes all die area of logic dies manufactured with a process node that uses a non-planar transistor architecture.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.a;3A090.b",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2023-nac-reference",
+      "document_number": "2023-23055",
+      "source_id": "SC-FR-2023-23055-TEXT",
+      "legal_locator": "CCL 3A090 List Based License Exceptions NAC",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "exception_reference",
+      "effective_date": "2023-11-17",
+      "compliance_date": "2023-11-17",
+      "amendatory_instruction": 38,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_exception_reference",
+      "scope": "3A090.a non-datacenter and 3A090.b datacenter items as specified",
+      "interpretation": "This table identifies conditional NAC eligibility, not an approved license, blanket permission or complete exception conditions.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[38]/EXTRACT[1]/FP[55]",
+          "quote": "NAC: Yes, for 3A090.a, if the item is not designed or marketed for use in datacenters and has a `total processing performance' of 4800 or more; yes, for 3A090.b, if the item is designed or marketed for use in datacenters.",
+          "xml_tag": "FP"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.a;3A090.b",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-a1",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "CCL ECCN 3A090.a.1",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_parameter_branch",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-31",
+      "amendatory_instruction": 31,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Specified IC digital processing units; Notes and all transaction conditions still required",
+      "interpretation": "The four selected numerical a/b branches restate the quoted 2023 parameters. This pairwise comparison does not certify that every intervening scope/Note/amendment is unchanged.",
+      "relates_to_claim_id": "LP-2023-a1",
+      "relation": "restates_selected_parameter_not_complete_supersession",
+      "parameter_bounds": [
+        {
+          "variable": "total_processing_performance",
+          "operator": ">=",
+          "value": 4800,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[31]/EXTRACT[1]/P[2]",
+          "quote": "a.1. A `total processing performance' of 4800 or more, or",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.a.1",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-a2",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "CCL ECCN 3A090.a.2",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_parameter_branch",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-31",
+      "amendatory_instruction": 31,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Specified IC digital processing units; Notes and all transaction conditions still required",
+      "interpretation": "The four selected numerical a/b branches restate the quoted 2023 parameters. This pairwise comparison does not certify that every intervening scope/Note/amendment is unchanged.",
+      "relates_to_claim_id": "LP-2023-a2",
+      "relation": "restates_selected_parameter_not_complete_supersession",
+      "parameter_bounds": [
+        {
+          "variable": "total_processing_performance",
+          "operator": ">=",
+          "value": 1600,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        },
+        {
+          "variable": "performance_density",
+          "operator": ">=",
+          "value": 5.92,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[31]/EXTRACT[1]/P[3]",
+          "quote": "a.2. A `total processing performance' of 1600 or more and a `performance density' of 5.92 or more.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.a.2",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-b1",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "CCL ECCN 3A090.b.1",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_parameter_branch",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-31",
+      "amendatory_instruction": 31,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Specified IC digital processing units; Notes and all transaction conditions still required",
+      "interpretation": "The four selected numerical a/b branches restate the quoted 2023 parameters. This pairwise comparison does not certify that every intervening scope/Note/amendment is unchanged.",
+      "relates_to_claim_id": "LP-2023-b1",
+      "relation": "restates_selected_parameter_not_complete_supersession",
+      "parameter_bounds": [
+        {
+          "variable": "total_processing_performance",
+          "operator": ">=",
+          "value": 2400,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        },
+        {
+          "variable": "total_processing_performance",
+          "operator": "<",
+          "value": 4800,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        },
+        {
+          "variable": "performance_density",
+          "operator": ">=",
+          "value": 1.6,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        },
+        {
+          "variable": "performance_density",
+          "operator": "<",
+          "value": 5.92,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[31]/EXTRACT[1]/P[5]",
+          "quote": "b.1. A 'total processing performance' of 2400 or more and less than 4800 and a 'performance density' of 1.6 or more and less than 5.92, or",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.b.1",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-b2",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "CCL ECCN 3A090.b.2",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_parameter_branch",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-31",
+      "amendatory_instruction": 31,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Specified IC digital processing units; Notes and all transaction conditions still required",
+      "interpretation": "The four selected numerical a/b branches restate the quoted 2023 parameters. This pairwise comparison does not certify that every intervening scope/Note/amendment is unchanged.",
+      "relates_to_claim_id": "LP-2023-b2",
+      "relation": "restates_selected_parameter_not_complete_supersession",
+      "parameter_bounds": [
+        {
+          "variable": "total_processing_performance",
+          "operator": ">=",
+          "value": 1600,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        },
+        {
+          "variable": "performance_density",
+          "operator": ">=",
+          "value": 3.2,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        },
+        {
+          "variable": "performance_density",
+          "operator": "<",
+          "value": 5.92,
+          "native_unit": "TPP per square millimeter applicable logic die area"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[31]/EXTRACT[1]/P[6]",
+          "quote": "b.2. A `total processing performance' of 1600 or more and a `performance density' of 3.2 or more and less than 5.92.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.b.2",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-non-datacenter",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "CCL 3A090.a/b Note 1",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "item_scope_exclusion",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-31",
+      "amendatory_instruction": 31,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "3A090.a and 3A090.b",
+      "interpretation": "The non-datacenter and TPP-below-4800 conjunction is scoped here to 3A090.a/b. Do not extend this exclusion automatically to separate HBM category c.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[31]/EXTRACT[1]/NOTE[1]/P[1]",
+          "quote": "3A090.a and 3A090.b do not apply to items that are not designed or marketed for use in datacenters and do not have a `total processing performance' of 4800 or more. For 3A090.a and 3A090.b items that are not designed or marketed for use in datacenters and that have a `total processing performance' of 4800 or more, see license exceptions NAC and ACA.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.a;3A090.b",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-threshold",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "CCL 3A090.c HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "technical_parameter_branch",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-31",
+      "amendatory_instruction": 31,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "HBM as defined in the adjacent technical note",
+      "interpretation": "The HBM memory-bandwidth-density threshold is STRICTLY greater than 2 GB/s/mm2. Exactly 2 does not satisfy this particular bound; other legal provisions remain unassessed.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [
+        {
+          "variable": "memory_bandwidth_density",
+          "operator": ">",
+          "value": 2,
+          "native_unit": "GB/s/mm^2 package_or_stack_area"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[31]/EXTRACT[1]/P[7]",
+          "quote": "c. High bandwidth memory (HBM) having a `memory bandwidth density' greater than 2 gigabytes per second per square millimeter.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-definition",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "CCL 3A090.c HBM technical note",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "technical_definition",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-31",
+      "amendatory_instruction": 31,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "HBM classification only; other ECCNs and end-use/end-user controls remain separate",
+      "interpretation": "HBM uses package/stack area and specified DRAM scope. Processing-dominant co-packaged logic+HBM is excluded from this category, whereas an HBM control-interface/PHY is included. Exclusion here is not proof of uncontrolled logic exports.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[31]/EXTRACT[1]/NOTE[5]/P[1]",
+          "quote": "`Memory bandwidth density' is the memory bandwidth measured in gigabytes per second divided by the area of the package or stack measured in square millimeters. In the case where a stack is contained in a package, use the memory bandwidth of the packaged device and the area of the package. High bandwidth memory (HBM) includes dynamic random access memory integrated circuits, regardless of whether they conform to the JEDEC standards for high bandwidth memory, provided they have a `memory bandwidth density' greater than 2 gigabytes per second per square millimeter. This control does not cover co-packaged integrated circuits with both HBM and logic integrated circuit where the dominant function of the co-packaged integrated circuit is processing. It does include HBM permanently affixed to a logic integrated circuit designed as a control interface and incorporating a physical layer (PHY) function.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-license",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "742.6(a)(6)(i)(B) HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "license_requirement",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-31",
+      "amendatory_instruction": 16,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_with_explicit_deemed_export_exclusion",
+      "scope": "ECCNs 3A090.c; 3D001 (for 3A090.c); 3E001 (for 3A090.c); Macau or Country Group D:5",
+      "interpretation": "The rule requires licenses for the specified HBM commodities/software/technology to or within Macau/D:5, and excludes deemed exports/reexports from this paragraph only. A license requirement is not a prohibition.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[16]/SECTION[1]/P[7]",
+          "quote": "(B) High Bandwidth Memory (HBM). A license is required for items specified in ECCNs 3A090.c, 3D001 (for 3A090.c), and 3E001 (for 3A090.c) when exported, reexported, or transferred (in-country) to or within Macau or a destination specified in Country Group D:5 in supplement no. 1 to part 740 of the EAR. The license requirements in this paragraph (a)(6)(i)(B) do not apply to deemed exports or deemed reexports.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c;3D001(for3A090.c);3E001(for3A090.c)",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-review",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "742.6(b)(10)(ii) HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "license_review_policy",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-31",
+      "amendatory_instruction": 16,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "heterogeneous_approval_and_denial_presumptions",
+      "scope": "Specified HBM applications under section 742.6(a)(6)(i)(B)",
+      "interpretation": "Approval presumption for specified non-Macau/non-D:5 headquarters and ultimate-parent cases; denial presumption for other applications. Neither policy is an observed licensing outcome.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[16]/SECTION[1]/P[12]",
+          "quote": "(ii) License review policy for paragraph (a)(6)(i)(B) of this section (for 3A090.c). There is a presumption of approval review policy for license applications for items specified in paragraph (a)(6)(i)(B) to or within Macau or a destination specified in Country Group D:5 in supplement no. 1 to part 740 of the EAR for entities neither headquartered in nor whose ultimate parent company is headquartered in either Macau or a destination specified in Country Group D:5. There is a presumption of denial policy for all other license applications.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-nac-exclusion",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "740.2(a)(9)(ii) Note 1 HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "exception_and_destination_scope",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-02",
+      "amendatory_instruction": 11,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "NAC_ACA_ineligible_conditional_NLR_elsewhere",
+      "scope": "HBM3A090.c; destination and end-user/end-use conditions apply",
+      "interpretation": "HBM category c is not eligible for NAC/ACA. NLR for specified D1/D4 non-D5 destinations remains conditional on no parts 744/746 license requirements.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[11]/SECTION[1]/NOTE[1]/P[1]",
+          "quote": "ECCN 3A090.c requires a license for exports, reexports, and transfers (in-country) to or within Macau or destinations specified in Country Group D:5, but is still included within the scope of this paragraph because it generally shares the same EAR license exception eligibility as other 3A090 commodities, except for NAC/ACA, under the provisions of § 740.8., which ECCN 3A090.c is not eligible. An export, reexport, or transfer (in-country) of an ECCN 3A090.c commodity to a destination specified in Country Groups D:1 or D:4 that is not specified in Country Group D:5, may be made under the No License Required (NLR) designation, provided no part 744 or 746 license requirements are applicable.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-exception-scope",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "740.25(a)-(b) HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "exception_scope",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-02",
+      "amendatory_instruction": 13,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_license_exception",
+      "scope": "Conditional authorization for ECCN 3A090.c",
+      "interpretation": "The exception requires all terms and a U.S./A:5-headquartered exporter/reexporter/transferor without a Macau/D:5 ultimate parent.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[1]",
+          "quote": "(a) Scope. This License Exception High Bandwidth Memory (HBM) authorizes the export, reexport, or transfer (in-country) of items specified in ECCN 3A090.c on the Commerce Control List (CCL) in supplement no. 1 to part 774 if all terms and conditions within this section are met.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[2]",
+          "quote": "(b) Exporter, reexporter, transferor. The exporter, reexporter, or transferor must be headquartered in the United States or a destination specified in Country Group A:5 of supplement no. 1 to this part, without an ultimate parent headquartered in Macau or a destination specified in Country Group D:5 of supplement no. 1 to this part.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-exception-threshold",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "740.25(c) HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "exception_technical_limit",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-02",
+      "amendatory_instruction": 13,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_license_exception",
+      "scope": "ECCN 3A090.c and all section 740.25 conditions",
+      "interpretation": "The exception density cutoff is strictly below 3.3. Category-c classification (>2) and exception bounds (<3.3) are separate screens; satisfying both is insufficient for authorization.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [
+        {
+          "variable": "memory_bandwidth_density",
+          "operator": "<",
+          "value": 3.3,
+          "native_unit": "GB/s/mm^2 package_or_stack_area"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[3]",
+          "quote": "(c) Conditions. The following exports, reexports, or transfers (in-country) are only authorized under this License Exception HBM if the 3A090.c item has a memory bandwidth density less than 3.3 GB/s/mm^2 and both of the following conditions apply:",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-purchaser-route",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "740.25(c)(1)-(2) HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "exception_route_condition",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-02",
+      "amendatory_instruction": 13,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_license_exception",
+      "scope": "ECCN 3A090.c under section 740.25",
+      "interpretation": "Specified Macau/D:5 purchases must be direct by the eligible co-package designer, and shipment must be directly to the packaging site.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[4]",
+          "quote": "(1) The 3A090.c items exported, reexported, or transferred to or within Macau or a destination specified in Country Group D:5 must be directly purchased by the designer of the co-packaged commodity not otherwise prohibited from receipt of the item; and",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[5]",
+          "quote": "(2) The 3A090.c items must be exported, reexported, or transferred (in-country) directly to the packaging site.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-trusted-packaging",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "740.25(c)(2)(i) HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "exception_packaging_condition",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-02",
+      "amendatory_instruction": 13,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_license_exception",
+      "scope": "U.S./A:5/A:6-headquartered packaging without Macau/D:5 ultimate parent",
+      "interpretation": "The specified U.S./A:5/A6-headquartered packaging route needs written confirmation and co-package threshold compliance, with the quoted TGL proviso retained.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[6]",
+          "quote": "(i) For 3A090.c items exported, reexported, or transferred (in-country) to a U.S., or Country Group A:5 or A:6-headquartered packaging site without an ultimate parent headquartered in Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740:",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[7]",
+          "quote": "(A) The packaging site must confirm in writing to the producer of the chips that the 3A090.c item was packaged and exported, reexported, or transferred (in-country) to the specified designer of the co-packaged commodity. This confirmation is considered an “export control document” and is subject to recordkeeping requirements in part 762. A copy of this record must be provided to BIS upon request; and",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[8]",
+          "quote": "(B) The finished, co-packaged commodities must not exceed the technical thresholds in ECCN 3A090, unless packaging the item is permitted under the Temporary General License (TGL) specified in paragraph (d) of General Order No. 4 in of supplement no. 1 to part 736.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-other-packaging",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "740.25(c)(2)(ii) HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "exception_packaging_condition",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-02",
+      "amendatory_instruction": 13,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_license_exception",
+      "scope": "Other packaging sites under section 740.25",
+      "interpretation": "Other packaging sites require return shipment, unit reconciliation and a/b technical-threshold compliance. This is not proof that an actual route operated.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[9]",
+          "quote": "(ii) For 3A090.c items exported, reexported, or transferred (in-country) to any other packaging site, the finished, co-packaged commodities must be sent back to the exporter, reexporter, or transferor for export, reexport, or transfer (in-country) to the purchaser:",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[10]",
+          "quote": "(A) Upon receipt of the finished, co-packaged commodities, the exporter, reexporter, transferor must confirm the number of 3A090.c units contained within the finished, co-packaged chips received from the packaging site matches the number of 3A090.c items exported, reexported, or transferred (in-country) to the packaging site. This confirmation is considered an “export control document” and is subject to recordkeeping requirements in part 762. A copy of this record must be provided to BIS upon request; and",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[11]",
+          "quote": "(B) The finished, co-packaged commodities must not exceed the technical thresholds in ECCN 3A090.a or 3A090.b.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-exception-restrictions",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "740.25(d) HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "exception_exclusion",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-02",
+      "amendatory_instruction": 13,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "exception_ineligibility_not_blanket_prohibition",
+      "scope": "ECCN 3A090.c and listed exception-ineligible routes",
+      "interpretation": "Section 740.25 does not authorize distributors, most intermediate consignees, or specified advanced-node co-packaging facilities in Macau/D:5. Ineligibility for this exception is not itself a blanket transaction prohibition.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[12]",
+          "quote": "(d) Restrictions. The following exports, reexports, or transfers (in-country) of 3A090.c items are not authorized under this License Exception HBM:",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[13]",
+          "quote": "(1) To distributors.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[14]",
+          "quote": "(2) To intermediate consignees, unless hired by the packaging site for freight forwarding or customs clearance.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[15]",
+          "quote": "(3) To co-packaging at a “facility” located in Macau or a destination specified in Country Group D:5 where “production” of “advanced-node ICs” occurs.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2024-hbm-discrepancy",
+      "document_number": "2024-28270",
+      "source_id": "SC-FR-2024-28270-TEXT",
+      "legal_locator": "740.25(e) HBM",
+      "technology_layer": "hbm;advanced_packaging",
+      "clause_kind": "exception_reporting_duty",
+      "effective_date": "2024-12-02",
+      "compliance_date": "2024-12-02",
+      "amendatory_instruction": 13,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_reporting_duty",
+      "scope": "Other-packaging route under section 740.25(c)(2)(ii)",
+      "interpretation": "A discrepancy greater than 1 percent triggers the stated red-flag and resolution duties; if unresolved, reporting is due within 60 days. A reporting duty is not measured trade loss.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[13]/SECTION[1]/P[16]",
+          "quote": "(e) Reporting requirement. In the event that the exporter, reexporter, or transferor identifies a discrepancy of greater than 1 percent between the number of 3A090.c units exported, reexported, or transferred (in-country) to the packaging site and the number of 3A090.c units contained within the finished, co-packaged commodities received from the packaging site under paragraph (c)(2)(ii) of this section, this generates a `Red Flag' that must be resolved before exporting, reexporting, or transferring (in-country) the finished, co-packaged commodities to the designer of the co-packaged commodity or engaging in any further exports, reexports, or transfers (in-country) of 3A090.c items to the designer of the co-packaged commodity or packaging site involved in the transaction that raised the Red Flag. If the Red Flag cannot be resolved, then within 60 days of identifying the discrepancy, the exporter, reexporter, or transferor must report the information in paragraph (e)(1) to BIS consistent with the requirements under paragraph (e)(2).",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": "3A090.c",
+      "item_scope_basis": "quoted_original_ECCN_or_note"
+    },
+    {
+      "claim_id": "LP-2026-review",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "742.6(b)(10)(iii)(A)(1)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "license_review_policy",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 2,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_case_by_case_license_review_not_approval",
+      "scope": "Advanced computing commodities described in742.6(a)(6)(iii), specifiedUSexports",
+      "interpretation": "Conditional case-by-case review applies to qualifying exports from the United States to China/Macau, with TPP <21,000 AND total DRAM bandwidth <6,500 GB/s and required certifications. Other specified applications retain denial presumptions; reexports and in-country transfers are not converted into approvals.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [
+        {
+          "variable": "total_processing_performance",
+          "operator": "<",
+          "value": 21000,
+          "native_unit": "TPP; 2 * MacTOPS * operation_bit_length"
+        },
+        {
+          "variable": "total_dram_bandwidth",
+          "operator": "<",
+          "value": 6500,
+          "native_unit": "GB/s aggregate IC-DRAM bandwidth"
+        }
+      ],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[2]/SECTION[1]/P[5]",
+          "quote": "( 1 ) Policy for Country Group D:5 and Macau. There is a case-by-case license review policy for license applications for exports of commodities with a TPP (as defined in Technical Note 2 to 3A090.a and 3A090.b) less than 21,000, and a `total DRAM bandwidth' (as defined in the notes to paragraph (dd)(1) in supplement no. 2 to part 748) less than 6,500 GB/s, when destined to end-users located in China or Macau, provided the applicant provides the additional information described in supplement no. 2 to part 748 under paragraph (dd). All other applications for exports, reexports, or transfers (in-country) will be reviewed under a presumption of denial to or within Macau or destinations specified in Country Group D:5 or to an entity headquartered in, or whose ultimate parent company is headquartered in, either Macau or a destination specified in Country Group D:5. If the license application meets the criteria of more than one licensing policy, then this licensing policy and its requirements will be applied.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-enduse-crossreference",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "744.23(d)(3)(iii)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "license_review_crossreference",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 4,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_case_by_case_license_review_not_approval",
+      "scope": "Items in section 744.23(a)(3)(i)(A)",
+      "interpretation": "Selected end-use-rule applications meeting the section 742.6 case-by-case criteria receive case-by-case review under section 744.23; the paragraph does not remove a license requirement.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[4]/SECTION[1]/P[4]",
+          "quote": "(iii) For items specified in paragraph (a)(3)(i)(A) of this section that meet the criteria for case-by-case license review under § 742.6(b)(10)(iii)(A)(1); or",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-certification-gate",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd) and(dd)(1)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_requirement",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "Qualifying U.S. export license applications to China/Macau",
+      "interpretation": "All nine paragraph (dd)(1)(i)-(ix) requirements apply. Applications without the certification or a commitment to certification prior to export remain under denial presumption; technical bounds alone are insufficient.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[1]",
+          "quote": "(dd) AI commodities. If you are submitting an application for advanced computing commodities for export to end-users located in China or Macau and want to have the application reviewed under the case-by-case license review policy under (b)(10)(iii)(A)(1), the following certification must be provided as part of the license application. License applications that are not supported by the certification described under this paragraph or a commitment to submit the certificate prior to export, will be reviewed under the presumption of denial license review policy specified under § 742.6(b)(10)(iii)(A)(1) of the EAR.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[2]",
+          "quote": "(1) Certification. To qualify for the case-by-case licensing policy under § 742.6(b)(10)(iii)(A)(1), for commodities with a TPP less than 21,000, and a `total DRAM bandwidth' less than 6,500 GB/s the license applicants must provide the following certifications that this license application meets all of these requirements described under paragraphs (dd)(1)(i) through (ix). BIS will routinely confirm the accuracy of relevant elements of the following certifications, using any methods it deems appropriate.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-US-shipments",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(1)(i)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "All nine certification conditions jointly required; specified U.S. export review path",
+      "interpretation": "Provide prior U.S. commercial unit shipments and specified performance, power and model-change information. This source is not an observed shipment dataset.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[3]",
+          "quote": "(i) The applicant provides the U.S. Government, at the time of the license application, the total number of units of any AI commodity described in the license application that were shipped to commercial customers in the United States for end use in the United States. The applicant must also provide the following performance specifications to BIS in the license application: the TPP, the `total DRAM bandwidth', the `interconnect bandwidth', `copackaged DRAM capacity' and the peak power consumption at max TPP. The applicant must also provide an explanation for any changes to the specifications for this model since launched or previously shipped;",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-US-supply",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(1)(ii)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "All nine certification conditions jointly required; specified U.S. export review path",
+      "interpretation": "Certify sufficient U.S. supply, no delay to U.S. orders and no diversion of relevant global foundry capacity. These are applicant duties, not verified supply adequacy.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[4]",
+          "quote": "(ii) The applicant certifies and provides necessary supporting data, showing that there are sufficient supplies of the product in the United States such that any exports authorized by this license will not be filled if doing so would result in any delay in fulfilling any existing or new orders from customers in the United States for end use in the United States for any of its “advanced-node integrated circuits” products (taking into account normal lead times), and that global foundry capacity that would otherwise be used to produce similar node or more advanced integrated circuits for end users in the United States will not be diverted to produce commodities authorized by this license for exports to China;",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-50-percent",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(1)(iii)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "All nine certification conditions jointly required; specified U.S. export review path",
+      "interpretation": "Evidence must show aggregate TPP exported to China/Macau no more than 50 percent of specified cumulative U.S. shipments. This is a conditional product-specific TPP comparison, not 50 percent of global chip capacity.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[5]",
+          "quote": "(iii) The applicant shall supply evidence to BIS that, for the AI commodities described in the license application, ( i.e., as specified by the TPP, the “total DRAM bandwidth”, the “interconnect bandwidth”, “copackaged DRAM capacity” and the peak power consumption at max TPP), the aggregate TPP of “advanced-node integrate circuits” exported to China or Macau will be no more than 50 percent of the aggregate TPP shipped to customers in the United States for end-use in the United States for the same advanced computing commodities from when such circuits started shipping to commercial U.S. customers in the United States for end-use in the United States to the time of the license application;",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-enduses",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(1)(iv)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "All nine certification conditions jointly required; specified U.S. export review path",
+      "interpretation": "Exclude specified military, intelligence and WMD end uses/users and identified transaction/remote-access parties under the cross-referenced provisions.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[6]",
+          "quote": "(iv) The applicant confirms the AI commodities described in the license application are not for a `military end use', `military-intelligence end use', `military end user', or `military-intelligence end user' as those terms are defined in §§ 744.21(f) and (g) and 744.22(f)(1) and (f)(2), respectively, are not for a nuclear, missile, or chemical or biological weapons end use or end user pursuant to §§ 744.2-4, the transaction does not involve a transaction party subject to §§ 744.8 or 744.11, and no parties subject to §§ 744.8, 744.11, or meeting the definition of a `military end user' or `military-intelligence end user' as defined in §§ 744.21(g) and 744.22(f)(2) will be granted remote access to the items;",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-KYC",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(1)(v)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "All nine certification conditions jointly required; specified U.S. export review path",
+      "interpretation": "Obtain and submit ultimate-consignee Know Your Customer procedures to prevent specified prohibited remote access.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[7]",
+          "quote": "(v) The applicant obtains a description of Know Your Customer procedures from the ultimate consignee for the AI commodities described in the license application to prevent remote access from end uses or end users described in paragraph (dd)(1)(iv). The applicant must submit this information to BIS.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-remote-users",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(1)(vi)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "All nine certification conditions jointly required; specified U.S. export review path",
+      "interpretation": "Disclose specified intended IaaS remote users based on location, headquarters and ultimate-parent scope. This is not a public list of authorized customers.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[8]",
+          "quote": "(vi) Remote end users. The applicant provides BIS with a list of any intended `Infrastructure-as-a-Service (IaaS) remote end users of the AI commodities described in the license application, located in Belarus, China, Cuba, Iran, Macau, North Korea, Russia, and Venezuela, or an entity headquartered in, or whose ultimate parent company is headquartered in the foregoing destinations. The applicant must obtain this information from the ultimate consignee, or any other party to the transaction, with knowledge about the remote end users necessary to prevent unauthorized remote access from end users described in paragraph (dd)(1)(iv);",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-IaaS",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(1)(vii)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "All nine certification conditions jointly required; specified U.S. export review path",
+      "interpretation": "For IaaS, verify end-user compliance, specified model-weight transfer restrictions and no indirect remote access by identified parties to algorithms trained on the commodities.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[9]",
+          "quote": "(vii) Infrastructure-as-a-Service. If the ultimate consignee or end user of the AI commodities described in the license application provides IaaS, the applicant verifies (through the ultimate consignee, if necessary) that the ultimate consignee or any Infrastructure-as-a-Service end user:",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[10]",
+          "quote": "(1) is compliant with paragraph (dd)(1)(iv);",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[11]",
+          "quote": "(2) will not transfer model weights trained on the AI commodities to any end user not previously disclosed on the license or without authorization from BIS; and",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[12]",
+          "quote": "(3) will not directly or indirectly provide a party described in (dd)(1)(iv) with remote access to any algorithm trained on the AI commodities;",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-security",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(1)(viii)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "All nine certification conditions jointly required; specified U.S. export review path",
+      "interpretation": "Describe ultimate-consignee physical security. The provision alone does not demonstrate actual recipient compliance.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[13]",
+          "quote": "(viii) Security demonstration. The applicant must describe the physical security for the ultimate consignee of the AI commodities described in the license application; and",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-every-shipment",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(1)(ix)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "certification_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_certification_for_review_policy",
+      "scope": "All nine certification conditions jointly required; specified U.S. export review path",
+      "interpretation": "Every approved U.S. export shipment must be reviewed by a qualified laboratory prior to export; provide its U.S. name/address in the certification.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[14]",
+          "quote": "(ix) The applicant confirms that, prior to export on an approved license from the United States, every shipment of advanced computing commodities described in this license application will be reviewed by a qualified third-party testing lab who meets the qualifications described in paragraph (dd)(3) of this supplement. The applicant shall also provide BIS with the name and U.S. address of the third-party testing lab in the certification prior to export from the United States.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-DRAM-definition",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748 notes to(dd)(1) 1/1a/1b",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "technical_definition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "not_itself_a_license_requirement",
+      "scope": "Total DRAM bandwidth in the January 2026 review parameter",
+      "interpretation": "Total DRAM bandwidth includes co-packaged HBM and non-co-packaged DRAM; it avoids double counting remotely accessed DRAM already included in interconnect bandwidth. This is distinct from the HBM density metric.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[16]",
+          "quote": "1. `Total DRAM bandwidth' refers to the aggregate memory bandwidth in gigabytes per second between the IC and dynamic random access memory (DRAM) ICs, including copackaged DRAM ICs and non-copackaged DRAM ICs. Copackaged DRAM ICs include, for example, high bandwidth memory (HBM). Non-copackaged DRAM ICs include, for example, graphics double data rate (GDDR) ICs.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[17]",
+          "quote": "1.a. `Total DRAM bandwidth' does not include bandwidth from DRAM ICs accessed remotely over an interconnect medium if that bandwidth is included in the IC's `interconnect bandwidth'.",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[18]",
+          "quote": "1.b. All bandwidth between the IC and DRAM ICs, regardless of wherever those circuits are located and however those circuits are accessed, that is not included in the IC's `interconnect bandwidth', must be included in `total DRAM bandwidth'.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-independent-lab",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(3)(i)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "independent_testing_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_testing_for_review_policy",
+      "scope": "Qualified third-party testing laboratory for specified U.S. export path",
+      "interpretation": "The laboratory must meet all three criteria: U.S. headquarters/control/testing location, independent ownership and financial stake, and technical expertise. A U.S. address alone is insufficient.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[22]",
+          "quote": "(i) Third-party testing lab qualifications. A third-party testing lab must meet all of the following criteria:",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[23]",
+          "quote": "(A) The third-party testing lab must be headquartered in the United States, not otherwise under the control of a company or other entity headquartered in or whose ultimate parent company is headquartered in Country Group D:5 or Macau, and the testing must be conducted in the customs territory of the United States;",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[24]",
+          "quote": "(B) The third-party testing lab must not have any ownership or financial stake in either the ultimate consignee, the exporter, or any other party to the transaction, and not otherwise benefit from the export other than by the fees they are paid for their testing service; and",
+          "xml_tag": "P"
+        },
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[25]",
+          "quote": "(C) The third-party testing lab must have the expertise to ensure the representations made on the technical capabilities and functions of the advanced computing commodities described in this license application are accurate, including confirming that the `total processing performance' (as defined in Technical Note 2 to 3A090.a and 3A090.b), the `total DRAM bandwidth', the `interconnect bandwidth', and the `copackaged DRAM capacity' are at or below the specifications described in the license application.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-lab-confirmation",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(3)(ii)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "testing_confirmation",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "required_testing_for_review_policy",
+      "scope": "Qualified third-party testing of specified commodities",
+      "interpretation": "The exporter obtains and submits laboratory certification prior to any U.S. export. No actual certification or approval is inferred.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[26]",
+          "quote": "(ii) Third-party testing lab confirmation. Prior to any export from the United States, the exporter must receive from the third-party testing lab a certification confirming that the technical capabilities and functions of the advanced computing commodities described in the exporter's license application are accurate and submit that certification to BIS in accordance with the certification prior to export.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    },
+    {
+      "claim_id": "LP-2026-lab-revocation",
+      "document_number": "2026-00789",
+      "source_id": "SC-FR-2026-00789-TEXT",
+      "legal_locator": "Supplement2 Part748(dd)(3)(iii)",
+      "technology_layer": "advanced_compute_access",
+      "clause_kind": "review_path_suspension_condition",
+      "effective_date": "2026-01-15",
+      "compliance_date": "2026-01-15",
+      "amendatory_instruction": 7,
+      "timing_basis": "original_DATES_enumerated_instruction_or_default",
+      "license_coding": "conditional_review_path_suspension",
+      "scope": "Exporters relying on a revoked testing laboratory",
+      "interpretation": "BIS may revoke laboratory qualification. This suspends that review path for affected exporters until notification of a new qualified laboratory. This is a stated power, not an observed revocation.",
+      "relates_to_claim_id": null,
+      "relation": null,
+      "parameter_bounds": [],
+      "evidence": [
+        {
+          "xpath": "./SUPLINF[1]/REGTEXT[7]/P[27]",
+          "quote": "(iii) BIS may revoke the qualification of any third-party testing lab at any time and for any reason. This could be communicated, for example, in a letter to an exporter or a BIS publication such as website guidance. Such revocation suspends the case-by-case license review policy availability of § 742.6(b)(10)(iii)(A)(1) for any exporter working with that third-party testing lab until BIS is notified by the exporter that a new qualified third-party testing lab has been chosen pursuant to the terms of paragraph (dd)(3)(i) of this supplement.",
+          "xml_tag": "P"
+        }
+      ],
+      "status": "selected_original_issuance_not_current_law_certified",
+      "severity_ordinal": null,
+      "physical_access_loss": null,
+      "approval_observed": false,
+      "independent_legal_adjudication": false,
+      "coder": "single_research_coder; expert and blinded independent review pending",
+      "first_public_date_basis": "conservative_Federal_Register_publication_not_certified_first_inspection",
+      "product_code": null,
+      "item_scope_basis": "742.6(a)(6)(iii)_crossreference; complete_underlying_ECCN_consolidation_pending"
+    }
+  ]
+}

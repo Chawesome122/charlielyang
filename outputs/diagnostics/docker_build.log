@@ -15,99 +15,99 @@
 #4 DONE 0.0s
 
 #5 [internal] load build context
-#5 transferring context: 8.01MB 0.3s done
-#5 DONE 0.3s
+#5 transferring context: 290.21MB 3.6s done
+#5 DONE 3.6s
 
-#6 [dependencies 4/7] RUN python -m pip install --no-cache-dir uv==0.12.23
+#6 [dependencies 2/7] WORKDIR /app
 #6 CACHED
 
-#7 [dependencies 2/7] WORKDIR /app
+#7 [dependencies 3/7] RUN --mount=type=secret,id=proxy_ca     if [ -s /run/secrets/proxy_ca ]; then cp /run/secrets/proxy_ca /usr/local/share/ca-certificates/environment-proxy.crt; update-ca-certificates; fi     && sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list.d/debian.sources     && apt-get -o APT::Update::Error-Mode=any update && apt-get install -y --no-install-recommends     poppler-utils latexmk texlive-latex-recommended texlive-latex-extra     && rm -rf /var/lib/apt/lists/*
 #7 CACHED
 
-#8 [dependencies 3/7] RUN --mount=type=secret,id=proxy_ca     if [ -s /run/secrets/proxy_ca ]; then cp /run/secrets/proxy_ca /usr/local/share/ca-certificates/environment-proxy.crt; update-ca-certificates; fi     && sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list.d/debian.sources     && apt-get -o APT::Update::Error-Mode=any update && apt-get install -y --no-install-recommends     poppler-utils latexmk texlive-latex-recommended texlive-latex-extra     && rm -rf /var/lib/apt/lists/*
+#8 [dependencies 4/7] RUN python -m pip install --no-cache-dir uv==0.12.23
 #8 CACHED
 
 #9 [dependencies 5/7] COPY pyproject.toml uv.lock ./
 #9 CACHED
 
 #10 [dependencies 6/7] COPY src ./src
-#10 DONE 5.8s
+#10 DONE 8.1s
 
 #11 [dependencies 7/7] RUN uv sync --frozen --no-editable
-#11 7.659 warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
-#11 7.773 Using CPython 3.12.14 interpreter at: /usr/local/bin/python3
-#11 7.773 Creating virtual environment at: /opt/venv
-#11 7.807    Building weaponized-interdependence @ file:///app
-#11 8.475 Downloading pydantic-core (2.1MiB)
-#11 8.493 Downloading pillow (6.8MiB)
-#11 8.506 Downloading statsmodels (9.9MiB)
-#11 8.515 Downloading scipy (33.7MiB)
-#11 8.527 Downloading pandas (11.8MiB)
-#11 8.527 Downloading matplotlib (9.4MiB)
-#11 8.528 Downloading sympy (6.0MiB)
-#11 8.801 Downloading numpy (16.0MiB)
-#11 8.862 Downloading fonttools (5.2MiB)
-#11 9.168 Downloading pygments (1.2MiB)
-#11 9.168 Downloading kiwisolver (1.4MiB)
-#11 10.84  Downloaded statsmodels
-#11 11.25  Downloaded pandas
-#11 12.11  Downloaded pillow
-#11 12.15  Downloaded matplotlib
-#11 12.29  Downloaded pydantic-core
-#11 12.36  Downloaded kiwisolver
-#11 12.42  Downloaded sympy
-#11 12.52  Downloaded pygments
-#11 12.58  Downloaded fonttools
-#11 13.04  Downloaded numpy
-#11 13.20  Downloaded scipy
-#11 14.44       Built weaponized-interdependence @ file:///app
-#11 14.45 Prepared 37 packages in 6.65s
-#11 14.52 Installed 37 packages in 72ms
-#11 14.52  + annotated-types==0.8.0
-#11 14.52  + beautifulsoup4==4.15.0
-#11 14.52  + certifi==2026.7.22
-#11 14.52  + charset-normalizer==3.5.2
-#11 14.52  + contourpy==1.4.0
-#11 14.52  + cycler==0.12.1
-#11 14.52  + fonttools==4.67.0
-#11 14.52  + idna==3.20
-#11 14.52  + iniconfig==2.3.1
-#11 14.52  + kiwisolver==1.5.1
-#11 14.52  + matplotlib==3.11.2
-#11 14.52  + mpmath==1.3.0
-#11 14.52  + numpy==2.5.4
-#11 14.52  + packaging==26.3
-#11 14.52  + pandas==2.3.3
-#11 14.52  + patsy==1.0.3
-#11 14.52  + pillow==13.0.0
-#11 14.52  + pluggy==1.7.0
-#11 14.52  + pydantic==2.14.1
-#11 14.52  + pydantic-core==2.50.1
-#11 14.52  + pygments==2.21.0
-#11 14.52  + pyparsing==3.3.3
-#11 14.52  + pytest==9.1.1
-#11 14.52  + python-dateutil==2.9.0.post0
-#11 14.52  + pytz==2026.5
-#11 14.52  + pyyaml==6.0.3
-#11 14.52  + requests==2.34.2
-#11 14.52  + scipy==1.18.1
-#11 14.52  + six==1.17.0
-#11 14.52  + soupsieve==3.0.3
-#11 14.52  + statsmodels==0.14.6
-#11 14.52  + sympy==1.14.0
-#11 14.52  + typing-extensions==4.16.0
-#11 14.52  + typing-inspection==0.4.4
-#11 14.52  + tzdata==2026.5
-#11 14.52  + urllib3==2.8.0
-#11 14.52  + weaponized-interdependence==0.1.0 (from file:///app)
-#11 DONE 14.5s
+#11 7.247 warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+#11 7.333 Using CPython 3.12.14 interpreter at: /usr/local/bin/python3
+#11 7.333 Creating virtual environment at: /opt/venv
+#11 7.357    Building weaponized-interdependence @ file:///app
+#11 8.403 Downloading matplotlib (9.4MiB)
+#11 8.438 Downloading pillow (6.8MiB)
+#11 8.485 Downloading numpy (16.0MiB)
+#11 8.553 Downloading pandas (11.8MiB)
+#11 8.558 Downloading scipy (33.7MiB)
+#11 8.634 Downloading statsmodels (9.9MiB)
+#11 8.751 Downloading sympy (6.0MiB)
+#11 8.807 Downloading kiwisolver (1.4MiB)
+#11 8.871 Downloading pydantic-core (2.1MiB)
+#11 8.871 Downloading fonttools (5.2MiB)
+#11 8.988 Downloading pygments (1.2MiB)
+#11 9.157  Downloaded kiwisolver
+#11 10.16  Downloaded pandas
+#11 10.26  Downloaded statsmodels
+#11 10.27  Downloaded numpy
+#11 10.54  Downloaded matplotlib
+#11 10.71  Downloaded sympy
+#11 10.72  Downloaded pillow
+#11 10.77  Downloaded pydantic-core
+#11 10.80  Downloaded pygments
+#11 10.88  Downloaded fonttools
+#11 11.06  Downloaded scipy
+#11 11.82       Built weaponized-interdependence @ file:///app
+#11 11.83 Prepared 37 packages in 4.48s
+#11 11.90 Installed 37 packages in 72ms
+#11 11.90  + annotated-types==0.8.0
+#11 11.90  + beautifulsoup4==4.15.0
+#11 11.90  + certifi==2026.7.22
+#11 11.90  + charset-normalizer==3.5.2
+#11 11.90  + contourpy==1.4.0
+#11 11.90  + cycler==0.12.1
+#11 11.90  + fonttools==4.67.0
+#11 11.90  + idna==3.20
+#11 11.90  + iniconfig==2.3.1
+#11 11.90  + kiwisolver==1.5.1
+#11 11.90  + matplotlib==3.11.2
+#11 11.90  + mpmath==1.3.0
+#11 11.90  + numpy==2.5.4
+#11 11.90  + packaging==26.3
+#11 11.90  + pandas==2.3.3
+#11 11.90  + patsy==1.0.3
+#11 11.90  + pillow==13.0.0
+#11 11.90  + pluggy==1.7.0
+#11 11.90  + pydantic==2.14.1
+#11 11.90  + pydantic-core==2.50.1
+#11 11.90  + pygments==2.21.0
+#11 11.90  + pyparsing==3.3.3
+#11 11.90  + pytest==9.1.1
+#11 11.90  + python-dateutil==2.9.0.post0
+#11 11.90  + pytz==2026.5
+#11 11.90  + pyyaml==6.0.3
+#11 11.90  + requests==2.34.2
+#11 11.90  + scipy==1.18.1
+#11 11.90  + six==1.17.0
+#11 11.90  + soupsieve==3.0.3
+#11 11.90  + statsmodels==0.14.6
+#11 11.90  + sympy==1.14.0
+#11 11.90  + typing-extensions==4.16.0
+#11 11.90  + typing-inspection==0.4.4
+#11 11.90  + tzdata==2026.5
+#11 11.90  + urllib3==2.8.0
+#11 11.90  + weaponized-interdependence==0.1.0 (from file:///app)
+#11 DONE 11.9s
 
 #12 [research 1/1] COPY . .
-#12 DONE 16.5s
+#12 DONE 4.2s
 
 #13 exporting to image
 #13 exporting layers
-#13 exporting layers 6.8s done
-#13 writing image sha256:304947298d4c0a19d80aeb6109c97e1f8c47664eea51a20b91be9a289b57b427 done
-#13 naming to docker.io/library/weaponized-research-finance-material done
-#13 DONE 6.8s
+#13 exporting layers 3.7s done
+#13 writing image sha256:90b712879e69dd5651c7090da5263108283fde0c51df868585429e9cf22431a2 done
+#13 naming to docker.io/library/weaponized-research-engineering-legal done
+#13 DONE 3.7s

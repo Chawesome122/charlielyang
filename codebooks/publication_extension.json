@@ -1,0 +1,6 @@
+{
+  "freeze": "2026-10-11",
+  "origins": ["2024-12-31", "2025-12-31", "2026-03-31", "2026-06-30", "2026-09-30", "2026-10-11"],
+  "unresolved_annual_sources": ["RE-ILUKA-ANNUAL2025", "RE-PENSANA-ANNUAL2023", "RE-PENSANA-ANNUAL2024", "RE-PENSANA-ANNUAL2025"],
+  "interpretation": "Audit existing exact-link issuer associations and actual missing annual clocks. PDF creation/modification, filename/upload paths, WebPage dates and retrieval timestamps never replace publication clocks. No original-at-vintage byte certification is newly established."
+}

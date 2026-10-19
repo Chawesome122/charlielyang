@@ -84,6 +84,30 @@
     "sha256": "298c674d6cb67b16b834c76c2e61f0df8cc64ff12b93d971f6681c0f20b2f089"
   },
   {
+    "claim": "Source-reported concentrate composition and pit-model recovery assumptions define conditional oxide constraints, not actual industrial feed or operating yields",
+    "classification": "source_calibrated_engineering_constraints",
+    "evidence": "data/processed/engineering_inputs/conditional_oxide_constraints.csv",
+    "sha256": "057352b196acc23189c69acc7c62090aae5d22c67263c644297a961e57673431"
+  },
+  {
+    "claim": "Selected original 3A090/HBM/licensing clauses retain strict inequalities, separate compliance clocks and conditional review without current-law/access certification",
+    "classification": "primary_legal_issued_provision_extract",
+    "evidence": "data/processed/legal_provisions/provisions.csv",
+    "sha256": "b04bc43ef718a3ab397b9e166c1eb987c6958b8a0b620c8805aa694346d12118"
+  },
+  {
+    "claim": "Auxiliary dates and report-link aliases do not resolve four annual clocks; event-date-only selection leaks retrospective claim versions",
+    "classification": "actual_data_historical_information_audit",
+    "evidence": "data/processed/publication_extension/claim_origin_masking.csv",
+    "sha256": "53ad536355885f00d94b59186834f26ee619d90aa0fc7736c73dc5014d7a0aff"
+  },
+  {
+    "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
+    "classification": "original_source_integrity_audit",
+    "evidence": "data/processed/source_integrity/original_quote_audit.csv",
+    "sha256": "0b715ed9c68149552d10785c33236ca63a716d723d93e7a934bb65e9c8c7191c"
+  },
+  {
     "claim": "SMIC investment spending is an input, not identified substitution",
     "classification": "descriptive_empirical",
     "evidence": "data/processed/semiconductors/reported_financial_inputs.csv",
@@ -99,6 +123,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "f9069cac63c406cb7eb538deb0cd5eb85994bfec4c3963f4e76adb0a385a56ee"
+    "sha256": "bb64567b510b9b5dd2343360cedb3cc0c9c6e0025fcc8ed0990a7b8d3c7cc133"
   }
 ]

@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "scope": "clean_container_continuation_rebuild_and_saved_game_audit",
+  "network": "none",
+  "independent_machine": false,
+  "pipeline_exit_code": 0,
+  "tables_byte_identity": [
+    {
+      "path": "data/processed/rare_earths/project_state_evidence.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/rare_earths/activity_discovery_registry.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/rare_earths_additional/lynas_project_history.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/rare_earths_additional/lynas_quarterly_production_versions.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/rare_earths/lynas_quarterly_baseline_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/rare_earths/lynas_quarterly_baseline_scores.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/industrial_evidence/project_milestones.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/industrial_evidence/technical_claims.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/industrial_evidence/activity_coverage.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/rare_earths/evidence_coverage_by_stage.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/rare_earths/finite_batch_evidence.json",
+      "passed": true
+    },
+    {
+      "path": "data/processed/semiconductors/legal_events.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/semiconductors/legal_discovery_screening.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/industrial_evidence/mp_cash_ppe_versions.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/rare_earths/mp_halfyear_cash_ppe.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/milestone_versions.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/state_observations.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/milestone_revision_audit.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/latest_visible_milestones.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/state_pair_audit.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/project_histories/quarterly_disclosure_inventory.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/finance_material/publication_clock_audit.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/finance_material/observations.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/finance_material/prospective_product_comparisons.csv",
+      "passed": true
+    }
+  ],
+  "large_games_recomputed": false,
+  "full_prior_numerical_run": "outputs/diagnostics/container_validation.json",
+  "current_numerical_core_comparison": "outputs/diagnostics/scientific_code_comparison.json",
+  "test_results": {
+    "tests": 172,
+    "test_failures": 0
+  },
+  "extension_scope": "exact-link issuer publication clocks, signed finance identities, feedstock-conditional product plans and dated construction evidence; existing history/physical/legal pipeline",
+  "executed_script_sha256": {
+    "scripts/audit_game.py": "aa7be615ee091d97890e9494eba378cd70ef52d9671396e231a36dd86565dffa",
+    "scripts/audit_project_observations.py": "34a842713f0ba51d2ef7785f16affdc615cfd7d68837171ad0e1d435fed58f2b",
+    "scripts/build_citation_audit.py": "2080bedc97dd23026936e281777f1b9df66afc72d5a4c8457ff6864a112bab04",
+    "scripts/build_container.py": "5d1ea16834abb7d3303ee48a2c78450c9a4e28bfd88c278ef5860b79baabc7c3",
+    "scripts/build_evidence_coverage.py": "c8ddd537d3e24e85f2b49345963930a1edfaf43528b2e590c0d8e2c8bd4daea8",
+    "scripts/build_finance_material.py": "36c0ca9964548af7e22d59ae1546d1d09da94f73354d93a212649ab8f372ff14",
+    "scripts/build_industrial_evidence.py": "639881daa7a4946f7daf9ae522fa32f4647b359a667799de66073f0b31b6dcf4",
+    "scripts/build_lynas_history.py": "8d2902fb8cc96bf538567601e849c28dd84c32962c3c52af1061f51492b579d2",
+    "scripts/build_lynas_revisions.py": "aa6a2f3871d334a795f2a457a304dfe0e59eba827c7eebf0723017b3b10acb7b",
+    "scripts/build_mp_investment.py": "26789c69e523bc79f6eeb1dbe59fb5982e30f731f32dc38267d216c2da4709fe",
+    "scripts/build_project_histories.py": "e22251af873f3c6069259fc15cdb4793e744dd93cd40644569baebaf0d2c6653",
+    "scripts/build_project_registry.py": "35243e2fdec6d6eea3638ebec8858e225eaab1beaef66c012074c56b4f9a01bc",
+    "scripts/build_rare_earths.py": "6184ad4f601dedbd2d46aba4bb57f42b1a65201d9eedc51bb7f41e5e0a0c7aba",
+    "scripts/container_check.py": "3417b2ab667d2358201057d52f7404b2cf9ff5889a6790d7376177783a10e87d",
+    "scripts/container_extension_check.py": "c6d59e80c6a092cac996e3c1b1a44115623cb271f0f877efec10844e3646c968",
+    "scripts/discover_legal.py": "a3bf6b00969ffc61b2a643cc06a3db5328766ac852aa0c8b8ae552a66afef06e",
+    "scripts/fetch.py": "4028b5a286c5e09cb623f7714d0dafdbe71692d000b72cd8fc50d6cb792ea230",
+    "scripts/fetch_additional_rare_earths.py": "5ba44a4d7a7adad878e182131304e3f413477995dbbeaf29ca08810728a8887d",
+    "scripts/fetch_literature.py": "04d70e6fc16415a005c43420fbaccf5a9ecc3ff471ed17a0b54873bd840b9297",
+    "scripts/replicate.py": "95cf82f7ce922f584f8e57a77ecb756d55687ed8cfcc8a6c773a69cf39e763cc",
+    "scripts/report.py": "441810d4a56e897b1bd2a506e9141fe7195ba2740f66e8a1414753f3fa98463f",
+    "scripts/resolve_publication_clocks.py": "6799d90918f8c8a0664dace94e9c2182a3d1c3e71edd0ff05ca77c393b545de7",
+    "scripts/restore_omitted_sources.py": "94f1249c60204f0832f974f2ef52bb2ee4447de87d304559c1253574d11fc000",
+    "scripts/review_legal_discovery.py": "219b0fd83ee501267fc1f3aa111cd12c13967ee5bdeea7ac8006be0f36203acf",
+    "scripts/run_empirical_baselines.py": "d69d309bf50270b342933048a4c7cc3a7fdb187e2c3447e6c24c04bce548c219",
+    "scripts/run_forecast.py": "8cafafa11c20e904f9c29281716ab2a4d1608acf7dca082586cbe19ffbe14333",
+    "scripts/run_game.py": "a43a54c44f16e91e1e128884fb47b564633b35ee1bc2f0301326c73c34ecafa9",
+    "scripts/run_lynas_baselines.py": "182a39c270e5917282cf4666547141391b5288360e379992c77f276ce1e05580",
+    "scripts/run_opacity.py": "54c4b0d26aaf6af99b417eab9b8c723822e5873d6d277794079f785249eec4a1",
+    "scripts/run_physical.py": "820201133a104fa6db645162bc6eab0fca9f4ca4f2994c93aeeca3baf3926ea9",
+    "scripts/run_semiconductors.py": "540b20d3e6c346658784fd54a9928afe3fd4b31fc47bd13dbd0e490b26cc699a",
+    "scripts/update_status.py": "2f15059d2256e7e94a62ddaacd3105f1fec7a3759e00b065691f50b6f7311a32",
+    "scripts/validate.py": "8aaa95c7ba15bbb0aa534980e9450b2c42252cc393fb8c98f0d63f9a3ec3a4e6"
+  }
+}

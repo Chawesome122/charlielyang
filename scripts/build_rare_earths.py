@@ -8,6 +8,7 @@ from datetime import date
 import pandas as pd
 from bs4 import BeautifulSoup
 from weaponized.io.archive import sha256_file
+from weaponized.io.original_text import verified_original_text
 from weaponized.io.schemas import Claim
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -119,11 +120,11 @@ def main():
     # IEA publication date is established by its report landing page, separate from
     # live navigation. No assertion that the entire live page was frozen in April.
     if "RE-IEA2026" in sources and "RE-IEA2026-REPORT" in sources:
-        report = normalize((ROOT/"data/interim/RE-IEA2026-REPORT.txt").read_text())
+        report = normalize(verified_original_text(ROOT/sources["RE-IEA2026-REPORT"]["archive_path"], sources["RE-IEA2026-REPORT"]["sha256"]))
         if "Published 08 April 2026" not in report:
             raise ValueError("IEA original publication date not verified")
         sources["RE-IEA2026"]["publication_date"] = "2026-04-08"
-        text = normalize((ROOT/"data/interim/RE-IEA2026.txt").read_text())
+        text = normalize(verified_original_text(ROOT/sources["RE-IEA2026"]["archive_path"], sources["RE-IEA2026"]["sha256"]))
         for variable, value, word in [("mining_share",0.60,"60%"),("refining_share",0.91,"91%"),("sintered_magnet_share",0.94,"94%")]:
             pos = text.find(word)
             if pos < 0:

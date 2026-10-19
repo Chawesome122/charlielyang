@@ -11,3 +11,4 @@
 - Use the existing isolated checkout; do not create worktrees. The user's continuation request authorizes pushing this research to Chawesome122/charlielyang. Do not submit research, contact others, use private accounts or incur fees.
 - Execute meaningful tests and preserve failures. Update `RESEARCH_STATUS.md` and a machine-readable run manifest. Treat publication readiness as blocked until the acceptance audit passes.
 - Parallel agents own disjoint modules and tests. Do not overwrite colleagues' work. Coordinate interfaces and report exact executed commands and results.
+- Extract claim quotations from the same hash-verified original byte snapshot; editable text aids cannot supply evidence. Enforce explicit PDF page locators. Present archived-byte integrity and issuer-stated public availability do not certify original-at-vintage bytes.

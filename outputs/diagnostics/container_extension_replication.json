@@ -9,7 +9,7 @@
         "scripts/build_rare_earths.py"
       ],
       "exit_code": 0,
-      "seconds": 11.198726481998165,
+      "seconds": 10.37473269700422,
       "log": "outputs/diagnostics/replication_logs/00_build_rare_earths.log"
     },
     {
@@ -17,7 +17,7 @@
         "scripts/resolve_publication_clocks.py"
       ],
       "exit_code": 0,
-      "seconds": 1.3175223709986312,
+      "seconds": 0.9265857689970289,
       "log": "outputs/diagnostics/replication_logs/01_resolve_publication_clocks.log"
     },
     {
@@ -25,128 +25,152 @@
         "scripts/build_finance_material.py"
       ],
       "exit_code": 0,
-      "seconds": 3.491197978000855,
+      "seconds": 4.063895002997015,
       "log": "outputs/diagnostics/replication_logs/02_build_finance_material.log"
+    },
+    {
+      "command": [
+        "scripts/build_publication_extension.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.2576210150000406,
+      "log": "outputs/diagnostics/replication_logs/03_build_publication_extension.log"
+    },
+    {
+      "command": [
+        "scripts/build_engineering_inputs.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.8343757539987564,
+      "log": "outputs/diagnostics/replication_logs/04_build_engineering_inputs.log"
     },
     {
       "command": [
         "scripts/fetch_additional_rare_earths.py"
       ],
       "exit_code": 0,
-      "seconds": 0.6201162720026332,
-      "log": "outputs/diagnostics/replication_logs/03_fetch_additional_rare_earths.log"
+      "seconds": 7.4370899079949595,
+      "log": "outputs/diagnostics/replication_logs/05_fetch_additional_rare_earths.log"
     },
     {
       "command": [
         "scripts/build_lynas_history.py"
       ],
       "exit_code": 0,
-      "seconds": 0.48014978299761424,
-      "log": "outputs/diagnostics/replication_logs/04_build_lynas_history.log"
+      "seconds": 5.064423582000018,
+      "log": "outputs/diagnostics/replication_logs/06_build_lynas_history.log"
     },
     {
       "command": [
         "scripts/build_lynas_revisions.py"
       ],
       "exit_code": 0,
-      "seconds": 0.5851783489997615,
-      "log": "outputs/diagnostics/replication_logs/05_build_lynas_revisions.log"
+      "seconds": 1.1412264249956934,
+      "log": "outputs/diagnostics/replication_logs/07_build_lynas_revisions.log"
     },
     {
       "command": [
         "scripts/build_industrial_evidence.py"
       ],
       "exit_code": 0,
-      "seconds": 0.9103614249979728,
-      "log": "outputs/diagnostics/replication_logs/06_build_industrial_evidence.log"
+      "seconds": 5.388874103002308,
+      "log": "outputs/diagnostics/replication_logs/08_build_industrial_evidence.log"
     },
     {
       "command": [
         "scripts/build_project_histories.py"
       ],
       "exit_code": 0,
-      "seconds": 1.5056267589970957,
-      "log": "outputs/diagnostics/replication_logs/07_build_project_histories.log"
+      "seconds": 3.718263354996452,
+      "log": "outputs/diagnostics/replication_logs/09_build_project_histories.log"
     },
     {
       "command": [
         "scripts/build_mp_investment.py"
       ],
       "exit_code": 0,
-      "seconds": 1.9119713979962398,
-      "log": "outputs/diagnostics/replication_logs/08_build_mp_investment.log"
+      "seconds": 1.935316495000734,
+      "log": "outputs/diagnostics/replication_logs/10_build_mp_investment.log"
     },
     {
       "command": [
         "scripts/build_project_registry.py"
       ],
       "exit_code": 0,
-      "seconds": 0.6930266580020543,
-      "log": "outputs/diagnostics/replication_logs/09_build_project_registry.log"
+      "seconds": 9.287336092995247,
+      "log": "outputs/diagnostics/replication_logs/11_build_project_registry.log"
     },
     {
       "command": [
         "scripts/audit_project_observations.py"
       ],
       "exit_code": 0,
-      "seconds": 0.6802131200020085,
-      "log": "outputs/diagnostics/replication_logs/10_audit_project_observations.log"
+      "seconds": 0.7838648880060646,
+      "log": "outputs/diagnostics/replication_logs/12_audit_project_observations.log"
     },
     {
       "command": [
         "scripts/build_evidence_coverage.py"
       ],
       "exit_code": 0,
-      "seconds": 1.5028528640032164,
-      "log": "outputs/diagnostics/replication_logs/11_build_evidence_coverage.log"
+      "seconds": 1.9163454890003777,
+      "log": "outputs/diagnostics/replication_logs/13_build_evidence_coverage.log"
     },
     {
       "command": [
         "scripts/build_citation_audit.py"
       ],
       "exit_code": 0,
-      "seconds": 0.09145352600171464,
-      "log": "outputs/diagnostics/replication_logs/12_build_citation_audit.log"
+      "seconds": 0.05495676699501928,
+      "log": "outputs/diagnostics/replication_logs/14_build_citation_audit.log"
     },
     {
       "command": [
         "scripts/run_semiconductors.py"
       ],
       "exit_code": 0,
-      "seconds": 2.839049090995104,
-      "log": "outputs/diagnostics/replication_logs/13_run_semiconductors.log"
+      "seconds": 4.072216495995235,
+      "log": "outputs/diagnostics/replication_logs/15_run_semiconductors.log"
     },
     {
       "command": [
         "scripts/discover_legal.py"
       ],
       "exit_code": 0,
-      "seconds": 0.648392666997097,
-      "log": "outputs/diagnostics/replication_logs/14_discover_legal.log"
+      "seconds": 0.49121827899944037,
+      "log": "outputs/diagnostics/replication_logs/16_discover_legal.log"
     },
     {
       "command": [
         "scripts/review_legal_discovery.py"
       ],
       "exit_code": 0,
-      "seconds": 0.7809063809982035,
-      "log": "outputs/diagnostics/replication_logs/15_review_legal_discovery.log"
+      "seconds": 0.7488100639966433,
+      "log": "outputs/diagnostics/replication_logs/17_review_legal_discovery.log"
+    },
+    {
+      "command": [
+        "scripts/build_legal_provisions.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.6088304840013734,
+      "log": "outputs/diagnostics/replication_logs/18_build_legal_provisions.log"
     },
     {
       "command": [
         "scripts/run_opacity.py"
       ],
       "exit_code": 0,
-      "seconds": 1.673133094998775,
-      "log": "outputs/diagnostics/replication_logs/16_run_opacity.log"
+      "seconds": 2.715515513002174,
+      "log": "outputs/diagnostics/replication_logs/19_run_opacity.log"
     },
     {
       "command": [
         "scripts/run_physical.py"
       ],
       "exit_code": 0,
-      "seconds": 4.488801831001183,
-      "log": "outputs/diagnostics/replication_logs/17_run_physical.log"
+      "seconds": 4.045642025004781,
+      "log": "outputs/diagnostics/replication_logs/20_run_physical.log"
     },
     {
       "command": [
@@ -155,40 +179,56 @@
         "10000"
       ],
       "exit_code": 0,
-      "seconds": 69.8337296949976,
-      "log": "outputs/diagnostics/replication_logs/18_run_forecast.log"
+      "seconds": 75.09490958000242,
+      "log": "outputs/diagnostics/replication_logs/21_run_forecast.log"
     },
     {
       "command": [
         "scripts/run_empirical_baselines.py"
       ],
       "exit_code": 0,
-      "seconds": 0.5224884309936897,
-      "log": "outputs/diagnostics/replication_logs/19_run_empirical_baselines.log"
+      "seconds": 0.5045730979982181,
+      "log": "outputs/diagnostics/replication_logs/22_run_empirical_baselines.log"
     },
     {
       "command": [
         "scripts/run_lynas_baselines.py"
       ],
       "exit_code": 0,
-      "seconds": 2.469070170998748,
-      "log": "outputs/diagnostics/replication_logs/20_run_lynas_baselines.log"
+      "seconds": 2.0736118529966916,
+      "log": "outputs/diagnostics/replication_logs/23_run_lynas_baselines.log"
+    },
+    {
+      "command": [
+        "scripts/audit_original_quotes.py"
+      ],
+      "exit_code": 0,
+      "seconds": 20.32526659600262,
+      "log": "outputs/diagnostics/replication_logs/24_audit_original_quotes.log"
+    },
+    {
+      "command": [
+        "scripts/plot_evidence_extensions.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.8874458549980773,
+      "log": "outputs/diagnostics/replication_logs/25_plot_evidence_extensions.log"
     },
     {
       "command": [
         "scripts/audit_game.py"
       ],
       "exit_code": 0,
-      "seconds": 10.700791076000314,
-      "log": "outputs/diagnostics/replication_logs/21_audit_game.log"
+      "seconds": 6.253922973999579,
+      "log": "outputs/diagnostics/replication_logs/26_audit_game.log"
     },
     {
       "command": [
         "scripts/validate.py"
       ],
       "exit_code": 0,
-      "seconds": 4.291004673999851,
-      "log": "outputs/diagnostics/replication_logs/22_validate.log"
+      "seconds": 7.723583899001824,
+      "log": "outputs/diagnostics/replication_logs/27_validate.log"
     },
     {
       "command": [
@@ -198,16 +238,16 @@
         "--junitxml=outputs/diagnostics/pytest.xml"
       ],
       "exit_code": 0,
-      "seconds": 10.978033118000894,
-      "log": "outputs/diagnostics/replication_logs/23_-m.log"
+      "seconds": 26.59986888599815,
+      "log": "outputs/diagnostics/replication_logs/28_-m.log"
     },
     {
       "command": [
         "scripts/report.py"
       ],
       "exit_code": 0,
-      "seconds": 3.6865044349979144,
-      "log": "outputs/diagnostics/replication_logs/24_report.log"
+      "seconds": 3.750327121000737,
+      "log": "outputs/diagnostics/replication_logs/29_report.log"
     },
     {
       "command": [
@@ -218,7 +258,7 @@
       "log": "outputs/diagnostics/replication_logs/manuscript.log"
     }
   ],
-  "total_seconds": 141.227635534,
+  "total_seconds": 218.69350328099972,
   "independent_machine": false,
   "note": "Expected negative-beta nonconvergence is a scientific result recorded by successful scripts, not a passing equilibrium."
 }

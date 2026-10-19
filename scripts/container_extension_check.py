@@ -39,6 +39,19 @@ def main():
         "data/processed/finance_material/publication_clock_audit.csv",
         "data/processed/finance_material/observations.csv",
         "data/processed/finance_material/prospective_product_comparisons.csv",
+        "data/processed/engineering_inputs/observations.csv",
+        "data/processed/engineering_inputs/conditional_oxide_constraints.csv",
+        "data/processed/engineering_inputs/recovery_assumption_versions.csv",
+        "data/processed/publication_extension/annual_clock_blockers.csv",
+        "data/processed/publication_extension/rejected_date_candidates.csv",
+        "data/processed/publication_extension/source_origin_readiness.csv",
+        "data/processed/publication_extension/claim_origin_masking.csv",
+        "data/processed/legal_provisions/provisions.csv",
+        "data/processed/legal_provisions/quoted_elements.csv",
+        "data/processed/legal_provisions/technical_bounds.csv",
+        "data/processed/legal_provisions/amendment_links.csv",
+        "data/processed/legal_provisions/issued_phase_checks.csv",
+        "data/processed/source_integrity/original_quote_audit.csv",
     ]
     before = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in paths}
     run = subprocess.run([sys.executable, "scripts/replicate.py"], cwd=ROOT)
@@ -52,7 +65,7 @@ def main():
                   current_numerical_core_comparison="outputs/diagnostics/scientific_code_comparison.json")
     current = json.loads((ROOT/"outputs/research_summary.json").read_text())
     report["test_results"] = {key:current[key] for key in ["tests", "test_failures"]}
-    report["extension_scope"] = "exact-link issuer publication clocks, signed finance identities, feedstock-conditional product plans and dated construction evidence; existing history/physical/legal pipeline"
+    report["extension_scope"] = "immutable-original source extraction, exact PDF-page audit, source-calibrated engineering constraints, selected issued legal provisions and historical public-clock exclusions; existing empirical/scenario pipeline"
     report["executed_script_sha256"] = {str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                                        for path in sorted((ROOT/"scripts").glob("*.py"))}
     (ROOT/"outputs/diagnostics/container_extension_validation.json").write_text(json.dumps(report, indent=2))

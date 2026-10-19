@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "original_source_files": 2,
+  "source_claims": 32,
+  "numerical_claims": 28,
+  "conditional_constraints": 4,
+  "normalized_finite_feed_LP_checks": 12,
+  "checks": [
+    {
+      "finite_diagnostic_feed": 0.0,
+      "output_upper_bound": -0.0,
+      "analytical_upper_bound": 0.0,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2024",
+      "engineering_context": "resource_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 0.5,
+      "output_upper_bound": 0.0422487,
+      "analytical_upper_bound": 0.0422487,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2024",
+      "engineering_context": "resource_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 1.0,
+      "output_upper_bound": 0.0844974,
+      "analytical_upper_bound": 0.0844974,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2024",
+      "engineering_context": "resource_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 0.0,
+      "output_upper_bound": -0.0,
+      "analytical_upper_bound": 0.0,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2024",
+      "engineering_context": "reserve_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 0.5,
+      "output_upper_bound": 0.0422487,
+      "analytical_upper_bound": 0.0422487,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2024",
+      "engineering_context": "reserve_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 1.0,
+      "output_upper_bound": 0.0844974,
+      "analytical_upper_bound": 0.0844974,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2024",
+      "engineering_context": "reserve_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 0.0,
+      "output_upper_bound": -0.0,
+      "analytical_upper_bound": 0.0,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2025",
+      "engineering_context": "resource_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 0.5,
+      "output_upper_bound": 0.0422487,
+      "analytical_upper_bound": 0.0422487,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2025",
+      "engineering_context": "resource_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 1.0,
+      "output_upper_bound": 0.0844974,
+      "analytical_upper_bound": 0.0844974,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2025",
+      "engineering_context": "resource_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 0.0,
+      "output_upper_bound": -0.0,
+      "analytical_upper_bound": 0.0,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2025",
+      "engineering_context": "reserve_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 0.5,
+      "output_upper_bound": 0.0422487,
+      "analytical_upper_bound": 0.0422487,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2025",
+      "engineering_context": "reserve_pit_optimization"
+    },
+    {
+      "finite_diagnostic_feed": 1.0,
+      "output_upper_bound": 0.0844974,
+      "analytical_upper_bound": 0.0844974,
+      "bound_residual": 0.0,
+      "status": 0,
+      "passed": true,
+      "evidence_class": "normalized_engineering_diagnostic_not_industrial_supply",
+      "source_id": "RE-MP-10K2025",
+      "engineering_context": "reserve_pit_optimization"
+    }
+  ],
+  "joint_distribution_sum_checked": true,
+  "resource_reserve_contexts_preserved": true,
+  "independent_operating_recovery_estimated": false,
+  "annual_output_identified": false,
+  "Nd_Pr_split_identified": false,
+  "Dy_Tb_flow_identified": false,
+  "China_free_service_identified": false,
+  "historical_byte_vintage_certified": false,
+  "freeze": "2026-10-11"
+}

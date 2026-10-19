@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 from weaponized.io.archive import sha256_file
+from weaponized.io.original_text import verified_original_text
 from weaponized.rare_earths.history import milestone_vintages
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,7 +30,7 @@ def main():
         public = source.get("publication_date")
         if not public or public > specs["freeze"]:
             raise ValueError("Missing or post-freeze history source clock")
-        text = " ".join((ROOT/f"data/interim/{sid}.txt").read_text().split())
+        text = " ".join(verified_original_text(ROOT/source["archive_path"], source["sha256"]).split())
         match = re.search(spec["pattern"], text, re.I)
         if not match:
             raise ValueError(f"Original history quote absent: {spec['record_id']}")

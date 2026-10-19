@@ -5,6 +5,7 @@ import pandas as pd
 import re
 import subprocess
 from weaponized.io.archive import sha256_file
+from weaponized.io.original_text import verified_original_text
 from weaponized.io.publication import linked_publication_clock
 from weaponized.io.schemas import Claim
 
@@ -58,7 +59,7 @@ def main():
             if not row["info_public_date"] or row["info_public_date"] > "2026-10-11":
                 failures.append(f"Lynas historical clock missing/future:{filename}")
             if filename == "lynas_project_history.csv":
-                page = (ROOT/source.archive_path).with_suffix(".extracted.txt").read_text().split("\f")[int(row["pdf_page"])-1]
+                page = verified_original_text(ROOT/source.archive_path, source.sha256).split("\f")[int(row["pdf_page"])-1]
                 if row["quote"] not in " ".join(page.split()):
                     failures.append(f"Lynas milestone quote mismatch:{row['claim_id']}")
     reconcile = pd.read_csv(ROOT/"data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv")
@@ -102,7 +103,7 @@ def main():
     for row in histories.to_dict("records"):
         checks+=1
         source=sources[row["source_id"]]
-        text=" ".join((ROOT/f"data/interim/{row['source_id']}.txt").read_text().split())
+        text=" ".join(verified_original_text(ROOT/source["archive_path"], source["sha256"]).split())
         if row["source_sha256"]!=source["sha256"] or sha256_file(ROOT/source["archive_path"])!=source["sha256"]:
             failures.append(f"Project history source mismatch:{row['record_id']}")
         if row["quote"] not in text or row["info_public_date"]!=source["publication_date"] or row["info_public_date"]>"2026-10-11":
@@ -153,6 +154,15 @@ def main():
             Claim(**{key:(None if row.get(key)=="" else row.get(key)) for key in Claim.model_fields})
         except Exception as error:
             failures.append(f"Finance/material claim schema:{row['claim_id']}:{error}")
+    for diagnostic, count_fields in [
+        ("original_quote_validation.json", ["checks"]),
+        ("engineering_inputs_validation.json", ["source_claims", "normalized_finite_feed_LP_checks"]),
+        ("legal_provisions_validation.json", ["exact_quoted_elements", "exact_dates_elements", "source_artifacts"]),
+        ("publication_extension_validation.json", ["source_origin_pairs", "origin_mask_checks", "rejected_auxiliary_date_candidates"]),
+    ]:
+        report=json.loads((ROOT/"outputs/diagnostics"/diagnostic).read_text())
+        checks += sum(report[key] for key in count_fields)
+        if not report["passed"]:failures.append(f"Extension validation failed:{diagnostic}")
     result=dict(passed=not failures,checked_claims_and_artifacts=checks,failures=failures,freeze="2026-10-11",
                 scientific_gaps_are_not_validation_passes=["empirical physical network","population project hazards","causal semiconductor response","historical headline SPOI","continuous MPE"])
     (ROOT/"outputs/diagnostics/data_validation.json").write_text(json.dumps(result,indent=2))

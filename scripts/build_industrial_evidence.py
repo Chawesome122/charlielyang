@@ -13,6 +13,7 @@ import subprocess
 import pandas as pd
 
 from weaponized.io.archive import sha256_file
+from weaponized.io.original_text import verified_original_text
 from weaponized.io.schemas import Claim
 from weaponized.rare_earths.materials import reported_batch_summary
 
@@ -37,12 +38,11 @@ def build():
                 raise ValueError(f"Unverified/post-freeze source clock: {sid}")
             checked_sources[sid] = source
         if spec.get("pdf_page"):
-            aid = (ROOT/source["archive_path"]).with_suffix(".extracted.txt")
-            extracted = aid.read_text() if aid.exists() else subprocess.check_output(["pdftotext", "-layout", str(ROOT/source["archive_path"]), "-"], text=True)
+            extracted = verified_original_text(ROOT/source["archive_path"], source["sha256"])
             text = extracted.split("\f")[spec["pdf_page"]-1]
             locator = f"PDF page {spec['pdf_page']}"
         else:
-            text = (ROOT/f"data/interim/{sid}.txt").read_text()
+            text = verified_original_text(ROOT/source["archive_path"], source["sha256"])
             locator = spec["locator"]
         normalized = " ".join(text.split())
         match = re.search(spec["pattern"], normalized, re.I)

@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 import pandas as pd
 from weaponized.io.archive import sha256_file
+from weaponized.io.original_text import verified_original_text
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -19,7 +20,7 @@ def main():
     old=annual[annual.period_end.eq("2016-06-30")].copy()
     row=sources.loc["LYNAS-6853554"]
     assert sha256_file(ROOT/row.archive_path)==row.sha256
-    text=" ".join((ROOT/row.archive_path).with_suffix('.extracted.txt').read_text().split())
+    text=" ".join(verified_original_text(ROOT/row.archive_path, row.sha256).split())
     patterns={
         "NdPr_oxide_product_family":r"production of NdPr was 5,223 tonnes in FY17 compared to ([\d,]+) tonnes in FY16",
         "total_REO":r"total production of rare earths oxide \(REO\) in FY17 was 16,003 tonnes up from ([\d,]+) tonnes in FY16",

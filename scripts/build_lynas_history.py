@@ -11,6 +11,7 @@ import re
 import pandas as pd
 
 from weaponized.io.archive import sha256_file
+from weaponized.io.original_text import verified_original_text
 from weaponized.rare_earths.reported_output import parse_lynas_quarterly_front_page
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -30,7 +31,7 @@ def build():
                 raise ValueError(f"Source checksum mismatch: {source_id}")
             if not source.publication_date or source.publication_date > "2026-10-11":
                 raise ValueError(f"Missing/post-freeze public clock: {source_id}")
-            pages_cache[source_id] = path.with_suffix(".extracted.txt").read_text().split("\f")
+            pages_cache[source_id] = verified_original_text(path, source.sha256).split("\f")
             checked.add(source_id)
         return pages_cache[source_id]
 

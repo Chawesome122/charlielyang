@@ -31,6 +31,7 @@ def main():
         ["scripts/build_rare_earths.py"],
         ["scripts/resolve_publication_clocks.py"],
         ["scripts/build_finance_material.py"],
+        ["scripts/build_publication_extension.py"], ["scripts/build_engineering_inputs.py"],
         ["scripts/fetch_additional_rare_earths.py"],
         ["scripts/build_lynas_history.py"], ["scripts/build_lynas_revisions.py"],
         ["scripts/build_industrial_evidence.py"],
@@ -40,7 +41,7 @@ def main():
         ["scripts/audit_project_observations.py"],
         ["scripts/build_evidence_coverage.py"],
         ["scripts/build_citation_audit.py"], ["scripts/run_semiconductors.py"],
-        ["scripts/discover_legal.py"], ["scripts/review_legal_discovery.py"],
+        ["scripts/discover_legal.py"], ["scripts/review_legal_discovery.py"], ["scripts/build_legal_provisions.py"],
         ["scripts/run_opacity.py"], ["scripts/run_physical.py"],
         ["scripts/run_forecast.py", "--draws", "10000"],
         ["scripts/run_empirical_baselines.py"],
@@ -54,7 +55,8 @@ def main():
             ["scripts/run_game.py", "--grids", "17", "--starts", "mid", "--scenarios", "adaptation_negative", "--method", "alternating", "--max-iterations", "60", "--out", "outputs/scenario/game/alternate_attempt"],
             ["scripts/run_game.py", "--grids", "7", "--starts", "mid", "--scenarios", "adaptation_negative", "adaptation_zero", "patient", "impatient", "substitution", "complementarity", "industrial_subsidy_growth", "foreign_licensing_relaxation"],
         ]
-    commands += [["scripts/audit_game.py"], ["scripts/validate.py"], ["-m", "pytest", "-q", "--junitxml=outputs/diagnostics/pytest.xml"],
+    commands += [["scripts/audit_original_quotes.py"], ["scripts/plot_evidence_extensions.py"],
+                 ["scripts/audit_game.py"], ["scripts/validate.py"], ["-m", "pytest", "-q", "--junitxml=outputs/diagnostics/pytest.xml"],
                  ["scripts/report.py"]]
     steps = []
     start = time.monotonic()

@@ -1,0 +1,5 @@
+from_claim_id,to_claim_id,relation,selected_parameter_bounds_identical,complete_scope_unchanged_certified,supersedes_full_instrument
+LP-2023-a1,LP-2024-a1,restates_selected_parameter_not_complete_supersession,True,False,False
+LP-2023-a2,LP-2024-a2,restates_selected_parameter_not_complete_supersession,True,False,False
+LP-2023-b1,LP-2024-b1,restates_selected_parameter_not_complete_supersession,True,False,False
+LP-2023-b2,LP-2024-b2,restates_selected_parameter_not_complete_supersession,True,False,False

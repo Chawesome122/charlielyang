@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "annual_reports_audited": 4,
+  "unresolved_annual_publication_dates": 4,
+  "new_publication_dates_resolved": 0,
+  "rejected_auxiliary_date_candidates": 18,
+  "source_origin_pairs": 48,
+  "origin_mask_checks": 6,
+  "actual_claim_versions": 37,
+  "failed_new_official_index_requests": 3,
+  "successful_new_source_downloads": 0,
+  "original_at_vintage_byte_certificates": 0,
+  "empirical_forecasts_generated": false,
+  "unknown_dates_substituted": false,
+  "immutable_source_checks_passed": true
+}

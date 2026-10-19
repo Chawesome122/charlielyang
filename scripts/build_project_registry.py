@@ -3,6 +3,7 @@
 import json
 import re
 from pathlib import Path
+from weaponized.io.original_text import verified_original_text
 import pandas as pd
 from weaponized.rare_earths.history import discovery_roster
 
@@ -42,7 +43,7 @@ def main():
     rows = []
     for i, (project, activity, country, parent, stage, sid, state, lower, upper, pattern, capacity, unit, product) in enumerate(specs):
         source = sources[sid]
-        text = " ".join((ROOT/f"data/interim/{sid}.txt").read_text().replace("\u200b", "").split())
+        text = " ".join(verified_original_text(ROOT/sources[sid]["archive_path"], sources[sid]["sha256"]).replace("\u200b", "").split())
         match = re.search(pattern, text, re.I)
         if not match:
             raise ValueError(f"Unmatched project evidence {sid}: {pattern}")

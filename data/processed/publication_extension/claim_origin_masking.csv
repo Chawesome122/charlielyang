@@ -1,0 +1,7 @@
+origin,total_claim_versions,two_clock_information_available,event_date_and_public_clock_available,naive_event_date_only_claims,event_date_only_lookahead_claims,historical_byte_vintage_certified
+2024-12-31,37,0,0,5,5,False
+2025-12-31,37,0,0,15,15,False
+2026-03-31,37,17,17,20,3,False
+2026-06-30,37,25,25,37,12,False
+2026-09-30,37,37,37,37,0,False
+2026-10-11,37,37,37,37,0,False

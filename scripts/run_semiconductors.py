@@ -29,6 +29,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from weaponized.semiconductors.evidence import EVIDENCE_COLUMNS, estimate_semiconductor_states
 from weaponized.semiconductors.events import forecast_availability, identification_feasibility
 from weaponized.semiconductors.legal import LEGAL_COLUMNS, validate_legal_events
+from weaponized.io.original_text import verified_original_text
 
 FREEZE = "2026-10-11"
 RAW = ROOT / "data/raw/semiconductors"
@@ -164,12 +165,11 @@ def build_legal_events():
     records, claims = [], []
     for coded in pd.read_csv(adjudications_path).fillna("").to_dict("records"):
         source = _source(coded["source_id"])
-        aid = RAW / (source.source_id + ".extracted.txt")
-        if aid.exists():
-            text = aid.read_text()
-        else:
+        if Path(source.path).suffix.lower() == ".xml":
             from weaponized.semiconductors.legal import issued_xml_text
             text = issued_xml_text((ROOT/source.path).read_bytes(), coded["document_number"])
+        else:
+            text = verified_original_text(ROOT/source.path, source.sha256)
         if coded["required_text"] not in re.sub(r"\s+", " ", text):
             raise RuntimeError(f"Reviewed claim text missing from {source.source_id}: {coded['required_text']}")
         date_support = coded.get("effective_date_support", "")
@@ -246,7 +246,7 @@ def build_financial_inputs():
         if not MANIFEST.exists() or source_id not in set(pd.read_csv(MANIFEST).source_id):
             continue
         source = _source(source_id)
-        original = (RAW / (source_id + ".extracted.txt")).read_text()
+        original = verified_original_text(ROOT/source.path, source.sha256)
         normalized = re.sub(r"\s+", " ", original)
         display_date = datetime.strptime(public, "%Y-%m-%d").strftime("%B %-d, %Y")
         if display_date not in normalized:
