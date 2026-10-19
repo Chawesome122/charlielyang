@@ -1,0 +1,13 @@
+{
+  "research_freeze": "2026-10-11",
+  "classification": "PRIMARY issuer-reported observations; incomplete industrial network",
+  "downloaded_pdfs": 22,
+  "production_observations": 22,
+  "failures": [],
+  "invariants": {
+    "all_observation_public_dates_before_freeze": true,
+    "native_product_bases_preserved": true,
+    "no_cross_stage_capacity_sums": true,
+    "no_estimated_magnet_service": true
+  }
+}

@@ -29,6 +29,8 @@ def main():
     os.environ.setdefault("XDG_CACHE_HOME", "/tmp/weaponized-cache")
     commands = [
         ["scripts/build_rare_earths.py"],
+        ["scripts/resolve_publication_clocks.py"],
+        ["scripts/build_finance_material.py"],
         ["scripts/fetch_additional_rare_earths.py"],
         ["scripts/build_lynas_history.py"], ["scripts/build_lynas_revisions.py"],
         ["scripts/build_industrial_evidence.py"],

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "milestone_claims": 23,
+  "projects": 4,
+  "activities": 7,
+  "quarterly_versions": 66,
+  "distinct_quarterly_observations": 30,
+  "source_pdfs_checked": 17,
+  "freeze": "2026-10-11",
+  "complete_risk_set": false,
+  "empirical_network_ready": false,
+  "qualification_and_unit_conversion": "not inferred from first production or oxide totals"
+}

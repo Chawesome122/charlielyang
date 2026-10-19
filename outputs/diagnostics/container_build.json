@@ -1,6 +1,6 @@
 {
   "exit_code": 0,
-  "tag": "weaponized-research-project-history",
+  "tag": "weaponized-research-finance-material",
   "target": "research",
   "existing_proxy_forwarded": {
     "http": true,
@@ -10,5 +10,5 @@
   "platform_public_ca_used": true,
   "tls_verification_disabled": false,
   "log": "outputs/diagnostics/docker_build.log",
-  "image_id": "sha256:5dd12094e4248eeac5098fe1927ee830e855a57ef8ede2cb8e124423f029f5b1"
+  "image_id": "sha256:304947298d4c0a19d80aeb6109c97e1f8c47664eea51a20b91be9a289b57b427"
 }

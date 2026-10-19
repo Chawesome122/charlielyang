@@ -63,7 +63,25 @@
     "claim": "Observed state pairs and disclosure inventory do not establish first-exit survival exposure or a representative hazard sample",
     "classification": "empirical_observation_protocol_audit",
     "evidence": "outputs/diagnostics/project_observation_audit.json",
-    "sha256": "79fb57988c9ff7c990250b648e279f22e46190965be8366b672fe591ac166a27"
+    "sha256": "109d5b3a9ddc5d892464e41e3fc710f052e32ac6dd3761e5d42e20af79cabeb2"
+  },
+  {
+    "claim": "4 issuer report clocks resolved by exact dated links; undated annual links remain unresolved",
+    "classification": "primary_publication_clock_evidence",
+    "evidence": "data/processed/finance_material/publication_clock_audit.csv",
+    "sha256": "8ace60cbcd1d0cd83c4da271514e48a68d343864fe62b1ecaa2068506a258655"
+  },
+  {
+    "claim": "Issuer cash/addition and credit-balance identities reconcile; finance categories and currencies are not physical output or causal effects",
+    "classification": "empirical_reported_finance_inputs",
+    "evidence": "outputs/diagnostics/finance_material_validation.json",
+    "sha256": "1b4580be4643651aa7a4a0aa8d747a88b7e3e481f8037fb7054097c611f0fa21"
+  },
+  {
+    "claim": "Eneabba stockpile-only/additional-feedstock ratios compare prospective same-product figures; not observed output, annual rates or China-free service",
+    "classification": "empirical_issuer_planned_product_comparison",
+    "evidence": "data/processed/finance_material/prospective_product_comparisons.csv",
+    "sha256": "298c674d6cb67b16b834c76c2e61f0df8cc64ff12b93d971f6681c0f20b2f089"
   },
   {
     "claim": "SMIC investment spending is an input, not identified substitution",
@@ -81,6 +99,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "a83efb95d384e2d78cfae5259140bd19245fa78cb9e2c314b4b2c991a3ab0763"
+    "sha256": "f9069cac63c406cb7eb538deb0cd5eb85994bfec4c3963f4e76adb0a385a56ee"
   }
 ]

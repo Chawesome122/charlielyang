@@ -36,6 +36,9 @@ def main():
         "data/processed/project_histories/latest_visible_milestones.csv",
         "data/processed/project_histories/state_pair_audit.csv",
         "data/processed/project_histories/quarterly_disclosure_inventory.csv",
+        "data/processed/finance_material/publication_clock_audit.csv",
+        "data/processed/finance_material/observations.csv",
+        "data/processed/finance_material/prospective_product_comparisons.csv",
     ]
     before = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in paths}
     run = subprocess.run([sys.executable, "scripts/replicate.py"], cwd=ROOT)
@@ -49,7 +52,7 @@ def main():
                   current_numerical_core_comparison="outputs/diagnostics/scientific_code_comparison.json")
     current = json.loads((ROOT/"outputs/research_summary.json").read_text())
     report["test_results"] = {key:current[key] for key in ["tests", "test_failures"]}
-    report["extension_scope"] = "source-vintaged project milestone revisions, observation-pair and disclosure-inventory audits; existing downstream, financial and legal evidence"
+    report["extension_scope"] = "exact-link issuer publication clocks, signed finance identities, feedstock-conditional product plans and dated construction evidence; existing history/physical/legal pipeline"
     report["executed_script_sha256"] = {str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                                        for path in sorted((ROOT/"scripts").glob("*.py"))}
     (ROOT/"outputs/diagnostics/container_extension_validation.json").write_text(json.dumps(report, indent=2))

@@ -26,7 +26,8 @@ def create_manifest(root: Path) -> dict:
                 base_image="python:3.12.14-slim-bookworm@sha256:392307d22300de8b5986851a12d9176dfc0fc073e65bf6523ebd7dcbeb23564e",
                 uv_version="0.12.23", empirical_and_synthetic_separated=True,
                 file_sha256={str(path.relative_to(root)):sha256_file(path) for path in files},
-                source_manifest_paths=["metadata/rare_earth_acquisitions.jsonl", "metadata/additional_rare_earth_sources.csv", "metadata/semiconductor_sources.csv", "metadata/opacity_sources.csv", "metadata/literature_sources.csv", "metadata/citation_audit.csv"],
+                source_manifest_paths=sorted({str(p.relative_to(root)) for p in (root/"metadata").glob("*acquisitions.jsonl")} | {"metadata/additional_rare_earth_sources.csv", "metadata/semiconductor_sources.csv", "metadata/opacity_sources.csv", "metadata/literature_sources.csv", "metadata/literature_sources_additional.csv", "metadata/citation_audit.csv"}),
+                publication_clock_audit="data/processed/finance_material/publication_clock_audit.csv",
                 seeds={"parameters":101,"projects":202,"process_yields":303,"common_shocks":404,"graphics":505},
                 limitations=["Current-host and clean-container results are not an independent second-machine replication", "No continuous-state MPE or real-world threshold probabilities are certified"])
 

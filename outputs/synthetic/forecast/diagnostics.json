@@ -5,7 +5,7 @@
     "2026Q4",
     "2036Q3"
   ],
-  "simulation_seconds": 67.38991222799814,
+  "simulation_seconds": 55.8558186520022,
   "unique_physical_capacity_patterns": 8,
   "nminus1_solver_calls": 24,
   "max_physical_balance_residual": 0.0,

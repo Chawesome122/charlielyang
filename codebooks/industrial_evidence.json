@@ -177,6 +177,28 @@
       "feedstock_origin": "incomplete; no all-input China-free certification",
       "financing": "two approximately AUD29m convertible instruments; completion conditions and allocation to plant unverified",
       "interpretation": "Binding corporate instruments do not establish plant FID, complete construction finance or disbursement"
+    },
+    {
+      "record_id": "IND-009",
+      "project_id": "Pensana_Longonjo",
+      "activity_id": "Pensana_Longonjo_feed",
+      "site_country": "AGO",
+      "owner_parent": "Pensana / Sable / Ozango; contemplated financing ownership changes not completed in source",
+      "stage": "mine",
+      "state": "C",
+      "source_id": "RE-PENSANA-INTERIM-PDF",
+      "pattern": "main construction of Longonjo which commenced in July 2025",
+      "product_form": "planned mine/feed; not qualified separated oxide or magnet output",
+      "evidence_role": "issuer_for_own_project; independent entry date unverified",
+      "event_date_lower": "2025-07-01",
+      "event_date_upper": "2025-07-31",
+      "capacity_native": null,
+      "native_unit": null,
+      "pdf_page": 3,
+      "locator": "PDF page 3 Principal activities",
+      "feedstock_origin": "Longonjo Angola ore; complete product assays/routes/recoveries unmeasured",
+      "financing": "Conditional funding proposals and going-concern disclosure remain distinct from committed or deployed project cash",
+      "interpretation": "Main construction start is reported retrospectively in March 2026. Commissioning remains a target, not operation. No inferred historical first-public clock or complete first-exit protocol."
     }
   ],
   "technical_claims": [

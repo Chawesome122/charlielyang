@@ -1,5 +1,7 @@
 # Project histories, revisions and observation audit
 
+This memo records the 60-row history checkpoint. The subsequent [finance/material review](finance_material_review.md) adds one Pensana construction observation (61 rows, 29 pairs) and resolves two of the previously missing report clocks. The original Upton timing/admissibility findings remain unchanged.
+
 Information freeze: 2026-10-11. Continuation executed across 2026-10-18–19 UTC. The source records are already archived pre-freeze SEC originals; no inaccessible quarterly filing contributes observations.
 
 ## Source findings

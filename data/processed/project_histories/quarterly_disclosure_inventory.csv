@@ -39,7 +39,7 @@ quarter,origin_date,quarter_complete,visible_records,activities_with_source_hist
 2025Q2,2025-06-30,True,23,13,1,0,,,False
 2025Q3,2025-09-30,True,29,14,6,3,,,False
 2025Q4,2025-12-31,True,29,14,0,0,,,False
-2026Q1,2026-03-31,True,52,29,23,8,,,False
-2026Q2,2026-06-30,True,53,30,1,0,,,False
-2026Q3,2026-09-30,True,59,31,6,1,,,False
-2026Q4,2026-10-11,False,59,31,0,0,,,False
+2026Q1,2026-03-31,True,53,29,24,9,,,False
+2026Q2,2026-06-30,True,54,30,1,0,,,False
+2026Q3,2026-09-30,True,60,31,6,1,,,False
+2026Q4,2026-10-11,False,60,31,0,0,,,False

@@ -8,6 +8,7 @@ import json
 import math
 from pathlib import Path
 import re
+import subprocess
 
 import pandas as pd
 
@@ -36,7 +37,9 @@ def build():
                 raise ValueError(f"Unverified/post-freeze source clock: {sid}")
             checked_sources[sid] = source
         if spec.get("pdf_page"):
-            text = (ROOT/source["archive_path"]).with_suffix(".extracted.txt").read_text().split("\f")[spec["pdf_page"]-1]
+            aid = (ROOT/source["archive_path"]).with_suffix(".extracted.txt")
+            extracted = aid.read_text() if aid.exists() else subprocess.check_output(["pdftotext", "-layout", str(ROOT/source["archive_path"]), "-"], text=True)
+            text = extracted.split("\f")[spec["pdf_page"]-1]
             locator = f"PDF page {spec['pdf_page']}"
         else:
             text = (ROOT/f"data/interim/{sid}.txt").read_text()

@@ -482,7 +482,7 @@
   {
     "source_id": "RE-ILUKA-HALF2026",
     "url": "https://www.iluka.com/media/mjujrki3/2026-half-year-results-interim-report.pdf",
-    "publication_date": null,
+    "publication_date": "2026-08-19",
     "retrieval_timestamp": "2026-10-18T06:23:35.140870+00:00",
     "status": "downloaded",
     "http_status": 200,
@@ -492,12 +492,16 @@
     "archive_path": "data/raw/rare_earths/66c64eabfb23a5b0c666fd880db208d2a66ab45f145cbfcd1b60d35add3e4c2d.pdf",
     "final_url": "https://www.iluka.com/media/mjujrki3/2026-half-year-results-interim-report.pdf",
     "redistribution": "access terms unreviewed; retain local research copy",
-    "group": "rare_earths"
+    "group": "rare_earths",
+    "acquisition_publication_date": null,
+    "publication_basis": "dated exact issuer report link; conservative availability, not a certified historical web snapshot or search-certified earliest release",
+    "public_clock_source_id": "RE-ILUKA",
+    "public_clock_source_sha256": "ce276fafc35da8acf3907298526d8fc211bc9ce7098a52a6cfd690c0376045e4"
   },
   {
     "source_id": "RE-ILUKA-OFFTAKE2026",
     "url": "https://www.iluka.com/media/gayke2yz/23jun26-iluka-rare-earths-offtake-agreement.pdf",
-    "publication_date": null,
+    "publication_date": "2026-06-23",
     "retrieval_timestamp": "2026-10-18T06:23:35.165428+00:00",
     "status": "downloaded",
     "http_status": 200,
@@ -507,12 +511,16 @@
     "archive_path": "data/raw/rare_earths/6398746d2604d543e0885efd02a67d040b2cb8c209bdf9ec3be41afe270913d1.pdf",
     "final_url": "https://www.iluka.com/media/gayke2yz/23jun26-iluka-rare-earths-offtake-agreement.pdf",
     "redistribution": "access terms unreviewed; retain local research copy",
-    "group": "rare_earths"
+    "group": "rare_earths",
+    "acquisition_publication_date": null,
+    "publication_basis": "dated exact issuer report link; conservative availability, not a certified historical web snapshot or search-certified earliest release",
+    "public_clock_source_id": "RE-ILUKA",
+    "public_clock_source_sha256": "ce276fafc35da8acf3907298526d8fc211bc9ce7098a52a6cfd690c0376045e4"
   },
   {
     "source_id": "RE-PENSANA-CONSTRUCTION-PDF",
     "url": "https://pensana.co.uk/wp-content/uploads/2026/01/Longonjo-Main-Construction-well-underway.pdf",
-    "publication_date": null,
+    "publication_date": "2026-01-14",
     "retrieval_timestamp": "2026-10-18T06:23:36.972599+00:00",
     "status": "downloaded",
     "http_status": 200,
@@ -522,12 +530,16 @@
     "archive_path": "data/raw/rare_earths/4f4e748d8706d3b87b30eee7851f3e07ed100e0205b4f4674e50192a08959b5f.pdf",
     "final_url": "https://pensana.co.uk/wp-content/uploads/2026/01/Longonjo-Main-Construction-well-underway.pdf",
     "redistribution": "access terms unreviewed; retain local research copy",
-    "group": "rare_earths"
+    "group": "rare_earths",
+    "acquisition_publication_date": null,
+    "publication_basis": "dated exact issuer report link; conservative availability, not a certified historical web snapshot or search-certified earliest release",
+    "public_clock_source_id": "RE-PENSANA-CONSTRUCTION",
+    "public_clock_source_sha256": "98b29b48b451cb6bf0dbb0265646428a70df30b858620962a61f2e05aaad3e97"
   },
   {
     "source_id": "RE-PENSANA-INTERIM-PDF",
     "url": "https://pensana.co.uk/wp-content/uploads/2026/03/Pensana-Interim-results-for-the-six-months-ended-31-December-2025.pdf",
-    "publication_date": null,
+    "publication_date": "2026-03-27",
     "retrieval_timestamp": "2026-10-18T06:23:37.428644+00:00",
     "status": "downloaded",
     "http_status": 200,
@@ -537,7 +549,11 @@
     "archive_path": "data/raw/rare_earths/2b8b506603dd21914ff073055e59f6d12516cb1e2415fe4ad529f15b200ca647.pdf",
     "final_url": "https://pensana.co.uk/wp-content/uploads/2026/03/Pensana-Interim-results-for-the-six-months-ended-31-December-2025.pdf",
     "redistribution": "access terms unreviewed; retain local research copy",
-    "group": "rare_earths"
+    "group": "rare_earths",
+    "acquisition_publication_date": null,
+    "publication_basis": "dated exact issuer report link; conservative availability, not a certified historical web snapshot or search-certified earliest release",
+    "public_clock_source_id": "RE-PENSANA-INTERIM2025",
+    "public_clock_source_sha256": "e9e912f9226ee1bf86336393ffccad87da17289ff3bc707af6d44a60f8d6509e"
   },
   {
     "source_id": "RE-PENSANA-ANNUAL2023",

@@ -2,7 +2,10 @@
 import json
 from pathlib import Path
 import pandas as pd
+import re
+import subprocess
 from weaponized.io.archive import sha256_file
+from weaponized.io.publication import linked_publication_clock
 from weaponized.io.schemas import Claim
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -116,6 +119,40 @@ def main():
         upton=roster[roster.activity_id.eq("RER_Upton_separation")]
         if len(upton)!=1 or upton.iloc[0].archive_first_documented_public_date!="2024-03-20":
             failures.append("Upton discovery chronology ignores an earlier verified filing")
+    clocks=pd.read_csv(ROOT/"data/processed/finance_material/publication_clock_audit.csv").fillna("")
+    for row in clocks.to_dict("records"):
+        checks+=1
+        source,clock=sources[row["source_id"]],sources[row["public_clock_source_id"]]
+        if sha256_file(ROOT/source["archive_path"])!=row["source_sha256"] or sha256_file(ROOT/clock["archive_path"])!=row["public_clock_source_sha256"]:
+            failures.append("Publication-clock/report source mismatch")
+        try:
+            result=linked_publication_clock((ROOT/clock["archive_path"]).read_text(),clock["url"],source["url"],row["method"])
+        except ValueError:
+            if row["status"]!="UNRESOLVED" or row["info_public_date"] or source.get("publication_date"):
+                failures.append("Unresolved public clock silently assigned a date")
+        else:
+            if row["status"]!="RESOLVED" or row["info_public_date"]!=result["info_public_date"] or source["publication_date"]!=result["info_public_date"]:
+                failures.append("Publication clock failed exact-link revalidation")
+    finance=pd.read_csv(ROOT/"data/processed/finance_material/observations.csv").fillna("")
+    pdfs={}
+    for row in finance.to_dict("records"):
+        checks+=1
+        source=sources[row["source_id"]]
+        if row["source_id"] not in pdfs:
+            text=subprocess.check_output(["pdftotext","-layout",str(ROOT/source["archive_path"]),"-"],text=True)
+            pdfs[row["source_id"]]=[" ".join(p.split()) for p in text.split("\f")]
+        page=pdfs[row["source_id"]][int(row["pdf_page"])-1]
+        if row["quote"] not in page or row["source_sha256"]!=source["sha256"] or row["info_public_date"]!=source["publication_date"] or row["public_clock_source_sha256"]!=source["public_clock_source_sha256"]:
+            failures.append(f"Finance/material provenance mismatch:{row['claim_id']}")
+        if row["value_type"]=="number":
+            numbers=[float(n.replace(",","")) for n in re.findall(r"\d[\d,]*(?:\.\d+)?",row["quote"])]
+            numeric=float(row["value"])
+            if abs(numeric) not in numbers and not (row["variable"]=="contract_initial_term" and numeric==4 and "four years" in row["quote"]):
+                failures.append(f"Finance/material numerical support absent:{row['claim_id']}")
+        try:
+            Claim(**{key:(None if row.get(key)=="" else row.get(key)) for key in Claim.model_fields})
+        except Exception as error:
+            failures.append(f"Finance/material claim schema:{row['claim_id']}:{error}")
     result=dict(passed=not failures,checked_claims_and_artifacts=checks,failures=failures,freeze="2026-10-11",
                 scientific_gaps_are_not_validation_passes=["empirical physical network","population project hazards","causal semiconductor response","historical headline SPOI","continuous MPE"])
     (ROOT/"outputs/diagnostics/data_validation.json").write_text(json.dumps(result,indent=2))

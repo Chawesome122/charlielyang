@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "roster_records": 60,
+  "roster_records": 61,
   "discovery_projects": 24,
   "discovery_activities": 32,
-  "source_pdfs_or_filings_checked": 25,
+  "source_pdfs_or_filings_checked": 26,
   "documentation_counts": {
     "public_clock_eligible": 31,
     "native_capacity_documented": 12,

@@ -1,0 +1,40 @@
+RUN scripts/build_rare_earths.py
+RUN scripts/resolve_publication_clocks.py
+RUN scripts/build_finance_material.py
+RUN scripts/fetch_additional_rare_earths.py
+RUN scripts/build_lynas_history.py
+RUN scripts/build_lynas_revisions.py
+RUN scripts/build_industrial_evidence.py
+RUN scripts/build_project_histories.py
+RUN scripts/build_mp_investment.py
+RUN scripts/build_project_registry.py
+RUN scripts/audit_project_observations.py
+RUN scripts/build_evidence_coverage.py
+RUN scripts/build_citation_audit.py
+RUN scripts/run_semiconductors.py
+RUN scripts/discover_legal.py
+RUN scripts/review_legal_discovery.py
+RUN scripts/run_opacity.py
+RUN scripts/run_physical.py
+RUN scripts/run_forecast.py --draws 10000
+RUN scripts/run_empirical_baselines.py
+RUN scripts/run_lynas_baselines.py
+RUN scripts/audit_game.py
+RUN scripts/validate.py
+RUN -m pytest -q --junitxml=outputs/diagnostics/pytest.xml
+RUN scripts/report.py
+{
+  "PARTIAL": 58,
+  "VERIFIED": 22,
+  "BLOCKED": 4,
+  "NOT ATTEMPTED": 1
+}
+{
+  "passed": true,
+  "scope": "rebuild_plus_independent_saved_game_verification",
+  "freeze": "2026-10-11",
+  "network_required": false,
+  "total_seconds": 114.22854101000121,
+  "independent_machine": false,
+  "note": "Expected negative-beta nonconvergence is a scientific result recorded by successful scripts, not a passing equilibrium."
+}

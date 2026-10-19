@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "claims": 37,
+  "original_reports": 3,
+  "cash_reconciliations": [
+    {
+      "period_start": "2024-07-01",
+      "period_end": "2024-12-31",
+      "currency": "USD",
+      "additions_identity_residual": 0,
+      "cash_identity_residual": 0,
+      "passed": true,
+      "project_allocation_identified": false,
+      "physical_output_inferred": false
+    },
+    {
+      "period_start": "2025-07-01",
+      "period_end": "2025-12-31",
+      "currency": "USD",
+      "additions_identity_residual": 0,
+      "cash_identity_residual": 0,
+      "passed": true,
+      "project_allocation_identified": false,
+      "physical_output_inferred": false
+    }
+  ],
+  "facility_reconciliations": [
+    {
+      "date": "2025-12-31",
+      "currency": "AUD million",
+      "limit_basis": "reported base limit; prior balance identity does not establish unrestricted draw eligibility",
+      "limit_identity_residual": 0.0,
+      "passed": true,
+      "precision_basis": "identity on reported rounded balances, not a confidence interval for underlying amounts",
+      "undrawn_is_cash": false,
+      "borrowing_change_is_project_cash_capex": false,
+      "eligibility_and_draw_sequence_must_be_reviewed": true
+    },
+    {
+      "date": "2026-06-30",
+      "currency": "AUD million",
+      "limit_basis": "reported base limit; prior balance identity does not establish unrestricted draw eligibility",
+      "limit_identity_residual": 0.0,
+      "passed": true,
+      "precision_basis": "identity on reported rounded balances, not a confidence interval for underlying amounts",
+      "undrawn_is_cash": false,
+      "borrowing_change_is_project_cash_capex": false,
+      "eligibility_and_draw_sequence_must_be_reviewed": true
+    }
+  ],
+  "prospective_product_comparisons": [
+    {
+      "product_basis": "NdPr_oxide_family",
+      "stockpile_only_native": 3500,
+      "expanded_native": 5500,
+      "native_unit": "tonnes native prospective ramped capacity; annual denominator not explicit in quoted footnote",
+      "stockpile_only_to_expanded_ratio": 0.6363636363636364,
+      "expanded_minus_stockpile_native": 2000,
+      "comparison_basis": "issuer prospective same-product figures, conditional on commensurate stated basis",
+      "annual_output_estimate": null,
+      "china_free_service": null,
+      "Dy_Tb_split_identified": false,
+      "empirical_adaptation_effect_identified": false
+    },
+    {
+      "product_basis": "DyTb_oxide_combined",
+      "stockpile_only_native": 170,
+      "expanded_native": 750,
+      "native_unit": "tonnes native prospective ramped capacity; annual denominator not explicit in quoted footnote",
+      "stockpile_only_to_expanded_ratio": 0.22666666666666666,
+      "expanded_minus_stockpile_native": 580,
+      "comparison_basis": "issuer prospective same-product figures, conditional on commensurate stated basis",
+      "annual_output_estimate": null,
+      "china_free_service": null,
+      "Dy_Tb_split_identified": false,
+      "empirical_adaptation_effect_identified": false
+    }
+  ],
+  "physical_network_service_identified": false,
+  "causal_financing_response_identified": false,
+  "independent_historical_byte_vintage_certified": false,
+  "statement": "Actual issuer disclosures and derived accounting identities; plans, balances, obligations, reserves and flows remain distinct"
+}
