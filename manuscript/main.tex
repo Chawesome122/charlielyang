@@ -139,6 +139,22 @@ M_{\mathrm{other\ inputs}}=M_{\mathrm{magnets}}+M_{\mathrm{other\ outputs}}-M_{\
 \end{equation}
 conditional on the approximate reported quantities and nonnegative other outputs. This is a necessary accounting bound, not an identified chemical recipe. Additional rare-earth and non-REE inputs, their origins, processing recoveries, production dates and independent customer documents remain missing. The historical consumed batch is not opening inventory, annual capacity, sustained qualified throughput or complete China-free service. The Korean counterparty is not equated with ASM's plant merely because both are in Korea. A separate 45H block-grade statement and 99.9\% pilot Dy-purity claim remain distinct from the quantified batch and from process yield.
 
+\subsection{MP: production, sales and reporting conventions}
+Three original annual filings supply \MPNativeCells{} native table-cell versions: 36 annual volume KPIs, 96 quarterly volume KPIs and 42 monetary inventory balances, accompanied by \MPDefinitions{} source-linked definitions \citep{MP2023,MP2024,MP2025}. Comparative vintages remain separate. The extraction retains 38 N/A cells and two displayed dashes; neither becomes a measured physical zero. Of 24 quarter--annual comparisons, \MPNumericIdentities{} are numerical identities, six are consistently N/A and four lack fully numerical support. The latter involve early N/A quarters before reported separated-product production; no quarterly value is imputed to manufacture an identity. Twelve monetary component identities also reconcile.
+
+In calendar 2025 the issuer reports 50,692 metric tonnes of REO-content production and 8,922 of concentrate sales; NdPr production is 2,599 tonnes of finished and packaged oxide, while sales are 1,994 oxide-equivalent tonnes. These are distinct industrial and accounting objects. Upstream REO production includes material fed to downstream circuits from the second quarter of 2023, overlapping separated production. NdPr sales can represent oxide or metal and include Materials-to-Magnetics intercompany sales from the fourth quarter of 2025. Neither adding the stages nor treating all sales as external qualified deliveries is valid.
+
+The FY2023 report illustrates sales measurement with a hypothetical 1.25 oxide-equivalent/metal mass ratio, whereas FY2024 and FY2025 state an assumed 1.20 ratio. This is a change in disclosed illustrative/assumed convention, not a measured chemical-recovery change. The adoption date and any reconstruction of earlier comparative sales remain unidentified. The source also warns that transit, conversion timing and actual versus assumed yields can separate production from reported sales. The 2025 NdPr KPI difference of 605 tonnes therefore does not identify an inventory increase. Reported year-end total inventories of USD 252.099 million, including USD 39.622 million of current finished goods, are mixed book values, not physical oxide or magnet stocks. The filing supplies no Magnetics operating KPI; that absence is not evidence of zero production.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{../outputs/empirical/rare_earths/mp_native_production_sales.pdf}
+\caption{Actual issuer-native production and sales KPIs. Upstream and downstream measures overlap; NdPr sales use an oxide-equivalent reporting convention and include internal transfers from Q4 2025. Differences do not establish physical inventories, recovery or final service.}
+\end{figure}
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{../outputs/empirical/rare_earths/mp_native_quarterly_production.pdf}
+\caption{Quarterly MP production cells from retrospective annual-report comparisons. Every cell retains its report-publication clock. N/A cells remain missing; this extraction contains no quarterly 2025 KPI table.}
+\end{figure}
+
 \subsection{White Mesa: native flows, stocks and conditional capacity}
 An additional within-issuer panel extracts \WhiteMesaClaims{} claims from the FY2023--2025 filings, conservatively available on 23 February 2024, 26 February 2025 and 26 February 2026 \citep{EF2023,EF2024,EF2025}. The FY2023 report describes 184 tonnes of monazite processed and 95 tonnes of contained TREO in RE carbonate in 2022, followed by 326 and 260 tonnes, respectively, in 2023. The product/feed ratios are approximately 0.5163 and 0.7975. These compare bulk feed with contained TREO; unknown assays, opening/closing process inventories and other flows prevent interpreting them as chemical recoveries. The earlier 2021 statement uses 400 native tons of monazite and 120 tonnes of TREO. Its rounded glossary relation of 1.102 tons per tonne does not establish an exact ton standard, so no precise metric ratio is inserted.
 
@@ -256,6 +272,12 @@ An additional quarterly exercise uses eight common origins from June 2024 throug
 \includegraphics[width=\textwidth]{../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf}
 \caption{Actual quarterly native-product outcomes and publication-safe naive forecasts. Descriptive eight-origin comparison; no confidence intervals, causal identification or system resilience inference.}
 \end{figure}
+
+The MP quarterly extension evaluates three naive methods on common numerical support within each metric. Its \MPBaselinePairs{} eligible origin--metric pairs span only three quarter-end origins in 2024: three for each upstream KPI, two for NdPr production and one for NdPr sales. Early source N/A/dash cells are not invented seasonal observations. Table~\ref{tab:mpbaselines} reports actual descriptive mean absolute errors, using the latest archived comparative outcomes visible by the freeze. Inputs are separately masked at each origin; changing later comparatives cannot change an earlier forecast. This archive-based exercise does not establish first-release accuracy, statistical superiority or physical-service forecast skill.
+\begin{table}[htbp]\centering
+\input{mp_baselines.tex}
+\caption{MP quarterly naive-baseline MAE in each KPI's native metric tonnes. Counts are one to three dependent origins per metric; methods share the same within-metric support. These are descriptive comparisons, not a hypothesis test or a system-service evaluation.}\label{tab:mpbaselines}
+\end{table}
 
 \section{Semiconductor-control results}
 The original-rule chronology yields \LegalRows{} reviewed legal-event phases with publication, effect, jurisdiction, classification and licensing fields. The corpus includes adjustments and authorizations as well as additional restrictions. It is deliberately not transformed into a physical percentage loss or treated as a complete current-law consolidation.

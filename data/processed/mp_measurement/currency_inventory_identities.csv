@@ -1,0 +1,13 @@
+source_id,period_end,identity,component_sum_USD_thousands,total_USD_thousands,passed,physical_mass_identified
+RE-MP-10K2023,2022-12-31,current_components,57554.0,57554.0,True,False
+RE-MP-10K2023,2022-12-31,current_plus_noncurrent,63298.0,63298.0,True,False
+RE-MP-10K2023,2023-12-31,current_components,95182.0,95182.0,True,False
+RE-MP-10K2023,2023-12-31,current_plus_noncurrent,108532.0,108532.0,True,False
+RE-MP-10K2024,2023-12-31,current_components,95182.0,95182.0,True,False
+RE-MP-10K2024,2023-12-31,current_plus_noncurrent,108532.0,108532.0,True,False
+RE-MP-10K2024,2024-12-31,current_components,107905.0,107905.0,True,False
+RE-MP-10K2024,2024-12-31,current_plus_noncurrent,126936.0,126936.0,True,False
+RE-MP-10K2025,2024-12-31,current_components,107905.0,107905.0,True,False
+RE-MP-10K2025,2024-12-31,current_plus_noncurrent,126936.0,126936.0,True,False
+RE-MP-10K2025,2025-12-31,current_components,171560.0,171560.0,True,False
+RE-MP-10K2025,2025-12-31,current_plus_noncurrent,252099.0,252099.0,True,False

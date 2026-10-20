@@ -122,40 +122,49 @@ For additional information on amsmath, use the `?' option.
 [9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
 [10]
 
-Package natbib Warning: Citation `EF2023' on page 11 undefined on input line 14
+Package natbib Warning: Citation `MP2023' on page 11 undefined on input line 14
 3.
 
 
 [11]
-[12 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
-[13 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf> <../o
-utputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
-[14]
-[15 <../outputs/empirical/rare_earths/project_finance_categories.pdf> <../outpu
-ts/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
-[16 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
-[17 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
-[18 <../outputs/empirical/rare_earths/stage_constraints.pdf>]
-[19 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
-[20 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
-[21 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
-[22] (./game_table.tex)
-[23]
-[24]
-[25 <../outputs/scenario/game/constant_control_benchmark.pdf> <../outputs/scena
-rio/game/adaptation_positive_n21_trajectories.pdf>]
-[26] (./main.bbl
-[27]
-[28]
+[12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf> <../outpu
+ts/empirical/rare_earths/mp_native_quarterly_production.pdf>]
+[13 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
+[14 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
+[15 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
+[16 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
+[17 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
+[18 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+[19 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf> <../outputs
+/empirical/rare_earths/stage_constraints.pdf>]
+[20 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
+
+LaTeX Warning: Reference `tab:mpbaselines' on page 21 undefined on input line 2
+76.
+
+(./mp_baselines.tex)
+[21 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+[22]
+[23 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
+[24] (./game_table.tex)
+[25]
+[26 <../outputs/scenario/game/constant_control_benchmark.pdf>]
+[27 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
+[28] (./main.bbl
 [29]
-[30])
+[30]
 [31]
-[32]
+[32])
+[33]
+[34]
 
 Package natbib Warning: There were undefined citations.
 
 
-[33] (./main.aux)
+[35] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -177,7 +186,7 @@ s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (33 pages, 591863 bytes).
+Output written on main.pdf (35 pages, 630967 bytes).
 Transcript written on main.log.
 Latexmk: Getting log file 'main.log'
 Latexmk: Examining 'main.fls'
@@ -307,40 +316,42 @@ For additional information on amsmath, use the `?' option.
 [9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
 [10]
 
-Package natbib Warning: Citation `EF2023' on page 11 undefined on input line 14
+Package natbib Warning: Citation `MP2023' on page 11 undefined on input line 14
 3.
 
 
 [11]
-[12 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
-[13 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf> <../o
-utputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
-[14]
-[15 <../outputs/empirical/rare_earths/project_finance_categories.pdf> <../outpu
-ts/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
-[16 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
-[17 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
-[18 <../outputs/empirical/rare_earths/stage_constraints.pdf>]
-[19 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
-[20 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
-[21 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
-[22] (./game_table.tex)
-[23]
-[24]
-[25 <../outputs/scenario/game/constant_control_benchmark.pdf> <../outputs/scena
-rio/game/adaptation_positive_n21_trajectories.pdf>]
-[26] (./main.bbl
-[27]
-[28]
+[12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf> <../outpu
+ts/empirical/rare_earths/mp_native_quarterly_production.pdf>]
+[13 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
+[14 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
+[15 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
+[16 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
+[17 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
+[18 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+[19 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf> <../outputs
+/empirical/rare_earths/stage_constraints.pdf>]
+[20 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
+(./mp_baselines.tex)
+[21 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+[22]
+[23 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
+[24] (./game_table.tex)
+[25]
+[26 <../outputs/scenario/game/constant_control_benchmark.pdf>]
+[27 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
+[28] (./main.bbl
 [29]
-[30])
+[30]
 [31]
-[32]
+[32])
+[33]
+[34]
 
 Package natbib Warning: There were undefined citations.
 
 
-[33] (./main.aux
+[35] (./main.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -358,7 +369,7 @@ ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (33 pages, 592668 bytes).
+Output written on main.pdf (35 pages, 631632 bytes).
 Transcript written on main.log.
 Latexmk: Getting log file 'main.log'
 Latexmk: Examining 'main.fls'
@@ -484,31 +495,33 @@ For additional information on amsmath, use the `?' option.
 [9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
 [10]
 [11]
-[12 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
-[13 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf> <../o
-utputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
-[14]
-[15 <../outputs/empirical/rare_earths/project_finance_categories.pdf> <../outpu
-ts/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
-[16 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
-[17 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
-[18 <../outputs/empirical/rare_earths/stage_constraints.pdf>]
-[19 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
-[20 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
-[21 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
-[22] (./game_table.tex)
-[23]
-[24]
-[25 <../outputs/scenario/game/constant_control_benchmark.pdf> <../outputs/scena
-rio/game/adaptation_positive_n21_trajectories.pdf>]
-[26] (./main.bbl
-[27]
-[28]
+[12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf> <../outpu
+ts/empirical/rare_earths/mp_native_quarterly_production.pdf>]
+[13 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
+[14 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
+[15 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
+[16 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
+[17 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
+[18 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+[19 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf> <../outputs
+/empirical/rare_earths/stage_constraints.pdf>]
+[20 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
+(./mp_baselines.tex)
+[21 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+[22]
+[23 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
+[24] (./game_table.tex)
+[25]
+[26 <../outputs/scenario/game/constant_control_benchmark.pdf>]
+[27 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
+[28] (./main.bbl
 [29]
-[30])
+[30]
 [31]
-[32]
-[33] (./main.aux) )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+[32])
+[33]
+[34]
+[35] (./main.aux) )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
@@ -522,7 +535,7 @@ c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb>
-Output written on main.pdf (33 pages, 592491 bytes).
+Output written on main.pdf (35 pages, 631431 bytes).
 Transcript written on main.log.
 Latexmk: Getting log file 'main.log'
 Latexmk: Examining 'main.fls'

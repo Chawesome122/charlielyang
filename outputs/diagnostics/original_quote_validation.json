@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "checks": 384,
-  "tables": 10,
+  "checks": 577,
+  "tables": 12,
   "original_sources": 34,
   "failures": [],
   "editable_text_aids_used": false,

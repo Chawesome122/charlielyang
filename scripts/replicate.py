@@ -30,7 +30,7 @@ def main():
     commands = [
         ["scripts/build_rare_earths.py"],
         ["scripts/resolve_publication_clocks.py"],
-        ["scripts/build_finance_material.py"], ["scripts/build_white_mesa.py"],
+        ["scripts/build_finance_material.py"], ["scripts/build_white_mesa.py"], ["scripts/build_mp_measurement.py"],
         ["scripts/build_publication_extension.py"], ["scripts/build_engineering_inputs.py"],
         ["scripts/fetch_additional_rare_earths.py"],
         ["scripts/build_lynas_history.py"], ["scripts/build_lynas_revisions.py"],
@@ -45,7 +45,7 @@ def main():
         ["scripts/run_opacity.py"], ["scripts/run_physical.py"],
         ["scripts/run_forecast.py", "--draws", "10000"],
         ["scripts/run_empirical_baselines.py"],
-        ["scripts/run_lynas_baselines.py"],
+        ["scripts/run_lynas_baselines.py"], ["scripts/analyze_mp_measurement.py"],
     ]
     if args.full:
         commands += [

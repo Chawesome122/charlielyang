@@ -5,6 +5,7 @@
 - Never invent observations, citations, causal estimates, forecasts or equilibria. Separate empirical, calibrated, sensitivity/scenario and synthetic artifacts in paths and captions.
 - Keep rare-earth, semiconductor and opacity measurement independent before integration. No separate AI-industry game.
 - Preserve native units and product forms; conserve elements; no free upstream material; one supplier outage removes that supplier across every stage. Unknown routes and recipes remain unknown.
+- Preserve issuer KPI definitions and source vintages: overlapping stage output cannot be added, oxide-equivalent/internal sales are not final external deliveries, and monetary inventories or production-minus-sales cannot supply a physical stock ledger. N/A and displayed dashes stay distinct.
 - Semiconductor domestic capability, foreign access and combined availability are separate; license requirements are not prohibitions. Missing evidence is not zero capability.
 - Missing research observations are not deliberate opacity. Apply the ten-indicator coverage rules before reporting any headline SPOI.
 - Dynamic game time is years; beta may be negative. Statewise Nash is not dynamic MPE. Report residuals, deviations, multiple starts and mesh sensitivity.

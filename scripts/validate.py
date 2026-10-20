@@ -156,6 +156,7 @@ def main():
             failures.append(f"Finance/material claim schema:{row['claim_id']}:{error}")
     for diagnostic, count_fields in [
         ("original_quote_validation.json", ["checks"]),
+        ("mp_measurement_validation.json", ["native_cell_versions", "definition_claims", "numeric_quarter_annual_identities", "currency_inventory_identities"]),
         ("white_mesa_validation.json", ["source_claims", "stock_origin_checks", "capacity_component_checks", "product_form_origin_checks", "legacy_basis_corrections"]),
         ("engineering_inputs_validation.json", ["source_claims", "normalized_finite_feed_LP_checks"]),
         ("legal_provisions_validation.json", ["exact_quoted_elements", "exact_dates_elements", "source_artifacts"]),
@@ -164,6 +165,10 @@ def main():
         report=json.loads((ROOT/"outputs/diagnostics"/diagnostic).read_text())
         checks += sum(report[key] for key in count_fields)
         if not report["passed"]:failures.append(f"Extension validation failed:{diagnostic}")
+    mp_predictions=pd.read_csv(ROOT/"outputs/empirical/rare_earths/mp_quarterly_baseline_predictions.csv")
+    checks+=len(mp_predictions)
+    if not (mp_predictions.max_training_public_date.le(mp_predictions.origin) & mp_predictions.max_training_period_end.le(mp_predictions.origin) & mp_predictions.target.gt(mp_predictions.origin) & mp_predictions.outcome_public_date.le("2026-10-11")).all():
+        failures.append("MP producer hindcast information leakage")
     result=dict(passed=not failures,checked_claims_and_artifacts=checks,failures=failures,freeze="2026-10-11",
                 scientific_gaps_are_not_validation_passes=["empirical physical network","population project hazards","causal semiconductor response","historical headline SPOI","continuous MPE"])
     (ROOT/"outputs/diagnostics/data_validation.json").write_text(json.dumps(result,indent=2))

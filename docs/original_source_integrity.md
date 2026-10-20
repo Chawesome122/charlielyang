@@ -20,3 +20,5 @@ Executed evidence:
 - The expanded default pipeline's exact command exits and logs.
 
 Tests exercise poisoned text aids, path replacement during PDF extraction, corrupted originals after a cache hit, incorrect digests, hidden script content, failed Poppler extraction, explicit page conflicts and empty/invalid locators. The integrated release tests and disconnected-container evidence, rather than this memo alone, identify the final tested code version.
+
+The MP measurement continuation expands original-source coverage to 577 checks across 12 tables and the same 34 originals: 174 native MP cells are re-parsed with named headers/rows, tokens, values, units, missing states and public clocks; 19 definition quotes are also verified. Exact executed current counts are in `outputs/diagnostics/original_quote_validation.json`. It does not independently certify release-time source bytes or industrial measurements.

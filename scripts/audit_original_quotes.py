@@ -6,6 +6,7 @@ import pandas as pd
 
 from weaponized.io.original_text import evidence_pdf_page, verified_original_text, verify_original_quote
 from weaponized.rare_earths.reported_output import parse_lynas_quarterly_front_page
+from weaponized.rare_earths.producer_measurement import parse_mp_tables
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,6 +25,7 @@ def main():
         "data/processed/finance_material/observations.csv",
         "data/processed/engineering_inputs/observations.csv",
         "data/processed/white_mesa/observations.csv",
+        "data/processed/mp_measurement/definitions.csv",
     ]
     checks = []
     for table in tables:
@@ -50,11 +52,26 @@ def main():
                            source_sha256=source["sha256"], pdf_page=1,
                            method="reparse original three-column quarterly KPI header and cells",
                            passed=len(matches) == 1 and row["source_sha256"] == source["sha256"]))
+    table = "data/processed/mp_measurement/native_cell_versions.csv"
+    parsed = {}
+    for number, row in enumerate(pd.read_csv(ROOT/table,keep_default_na=False).to_dict("records")):
+        sid=row["source_id"];source=sources[sid]
+        if sid not in parsed:
+            parsed[sid]={(r["table_kind"],r["variable"],r["period_end"]):r for r in
+                         parse_mp_tables((ROOT/source["archive_path"]).read_bytes(),source["sha256"],int(sid[-4:]))}
+        expected=parsed[sid].get((row["table_kind"],row["variable"],row["period_end"]))
+        fields=["source_cell_token","cell_status","product_basis","native_unit","quote","table_ordinal","row_ordinal"]
+        passed=(expected is not None and all(row[k]==expected[k] for k in fields) and
+                ((expected["value"] is None and row["value"]=="") or
+                 (expected["value"] is not None and float(row["value"])==expected["value"])) and
+                row["source_sha256"]==source["sha256"] and row["info_public_date"]==source["publication_date"])
+        checks.append(dict(table=table,row_index=number,source_id=sid,source_sha256=source["sha256"],pdf_page=None,
+                           method="reparse original named row, annual/quarterly header, cell token, unit and missing-state",passed=passed))
     out = ROOT/"data/processed/source_integrity"
     out.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(checks).to_csv(out/"original_quote_audit.csv", index=False)
     result = dict(passed=all(row["passed"] for row in checks), checks=len(checks),
-                  tables=len(tables)+1, original_sources=len({row["source_id"] for row in checks}),
+                  tables=len(tables)+2, original_sources=len({row["source_id"] for row in checks}),
                   failures=[row for row in checks if not row["passed"]],
                   editable_text_aids_used=False, independent_production_measurement=False,
                   historical_source_byte_vintage_certified=False,

@@ -1,0 +1,203 @@
+{
+  "freeze": "2026-10-11",
+  "source_ids": [
+    "RE-MP-10K2023",
+    "RE-MP-10K2024",
+    "RE-MP-10K2025"
+  ],
+  "definitions": [
+    {
+      "claim_id": "MPM-2023-overlapping_stage_production",
+      "source_id": "RE-MP-10K2023",
+      "variable": "overlapping_stage_production",
+      "pattern": "This measure refers to the REO content contained in the rare earth concentrate we produce and, beginning in the second quarter of 2023, includes volumes fed into downstream circuits.*?NdPr Production(?: 42 Table of Content s)? Volume\\.",
+      "value": "upstream_contains_downstream_feed",
+      "native_unit": "definition",
+      "interpretation": "definition; not an additive supply series"
+    },
+    {
+      "claim_id": "MPM-2023-finished_oxide_production",
+      "source_id": "RE-MP-10K2023",
+      "variable": "finished_oxide_production",
+      "pattern": "NdPr Production Volume refers to the volume of finished and packaged NdPr oxide produced at Mountain Pass for a given period\\.",
+      "value": "finished_packaged_NdPr_oxide",
+      "native_unit": "definition",
+      "interpretation": "production, not metal/magnet output"
+    },
+    {
+      "claim_id": "MPM-2023-oxide_equivalent_sales",
+      "source_id": "RE-MP-10K2023",
+      "variable": "oxide_equivalent_sales",
+      "pattern": "Our NdPr Sales Volume for a given period is calculated in MTs and on an NdPr oxide-equivalent basis \\([^)]*\\)\\.",
+      "value": "oxide_equivalent_sales",
+      "native_unit": "definition",
+      "interpretation": "not a pure physical oxide delivery series"
+    },
+    {
+      "claim_id": "MPM-2023-dry_concentrate_target",
+      "source_id": "RE-MP-10K2023",
+      "variable": "dry_concentrate_target",
+      "pattern": "We target REO content of greater than 60% per dry MT of concentrate \\(referred to as \u201cREO grade\u201d\\)\\.",
+      "value": "target_above_60pct_REO_dry_concentrate",
+      "native_unit": "definition",
+      "interpretation": "target, not a measured wet-feed assay or realized recovery"
+    },
+    {
+      "claim_id": "MPM-2023-conversion",
+      "source_id": "RE-MP-10K2023",
+      "variable": "illustrative_sales_conversion_ratio",
+      "pattern": "For example, assuming a material conversion ratio of (?P<value>1\\.25), a sale of 100 MTs of NdPr metal would be included in this KPI as 125 MTs of NdPr oxide-equivalent\\.",
+      "value": 1.25,
+      "native_unit": "illustrative_oxide_equivalent_per_metal_mass",
+      "interpretation": "illustrative example, not an observed operating ratio; does not establish restatement of earlier sales"
+    },
+    {
+      "claim_id": "MPM-2024-overlapping_stage_production",
+      "source_id": "RE-MP-10K2024",
+      "variable": "overlapping_stage_production",
+      "pattern": "This measure refers to the REO content contained in the rare earth concentrate we produce and, beginning in the second quarter of 2023, includes volumes fed into downstream circuits.*?NdPr Production(?: 42 Table of Content s)? Volume\\.",
+      "value": "upstream_contains_downstream_feed",
+      "native_unit": "definition",
+      "interpretation": "definition; not an additive supply series"
+    },
+    {
+      "claim_id": "MPM-2024-finished_oxide_production",
+      "source_id": "RE-MP-10K2024",
+      "variable": "finished_oxide_production",
+      "pattern": "NdPr Production Volume refers to the volume of finished and packaged NdPr oxide produced at Mountain Pass for a given period\\.",
+      "value": "finished_packaged_NdPr_oxide",
+      "native_unit": "definition",
+      "interpretation": "production, not metal/magnet output"
+    },
+    {
+      "claim_id": "MPM-2024-oxide_equivalent_sales",
+      "source_id": "RE-MP-10K2024",
+      "variable": "oxide_equivalent_sales",
+      "pattern": "Our NdPr Sales Volume for a given period is calculated in MTs and on an NdPr oxide-equivalent basis \\([^)]*\\)\\.",
+      "value": "oxide_equivalent_sales",
+      "native_unit": "definition",
+      "interpretation": "not a pure physical oxide delivery series"
+    },
+    {
+      "claim_id": "MPM-2024-dry_concentrate_target",
+      "source_id": "RE-MP-10K2024",
+      "variable": "dry_concentrate_target",
+      "pattern": "We target REO content of greater than 60% per dry MT of concentrate \\(referred to as \u201cREO grade\u201d\\)\\.",
+      "value": "target_above_60pct_REO_dry_concentrate",
+      "native_unit": "definition",
+      "interpretation": "target, not a measured wet-feed assay or realized recovery"
+    },
+    {
+      "claim_id": "MPM-2024-conversion",
+      "source_id": "RE-MP-10K2024",
+      "variable": "assumed_sales_conversion_ratio",
+      "pattern": "We utilize an assumed material conversion ratio of (?P<value>1\\.20), such that a sale of 100 MTs of NdPr metal would be included in this KPI as 120 MTs of NdPr oxide-equivalent\\.",
+      "value": 1.2,
+      "native_unit": "assumed_oxide_equivalent_per_metal_mass",
+      "interpretation": "issuer accounting KPI convention; not chemical stoichiometry or measured process recovery; comparative-period reconstruction unknown"
+    },
+    {
+      "claim_id": "MPM-2024-internal",
+      "source_id": "RE-MP-10K2024",
+      "variable": "internal_sales_planned",
+      "pattern": "In the future, NdPr Sales Volume for the Materials segment is expected to include sales made to the Magnetics segment\\.",
+      "value": "expected_future_inclusion",
+      "native_unit": "definition",
+      "interpretation": "future expectation, not a dated realized internal transfer"
+    },
+    {
+      "claim_id": "MPM-2025-overlapping_stage_production",
+      "source_id": "RE-MP-10K2025",
+      "variable": "overlapping_stage_production",
+      "pattern": "This measure refers to the REO content contained in the rare earth concentrate we produce and, beginning in the second quarter of 2023, includes volumes fed into downstream circuits.*?NdPr Production(?: 42 Table of Content s)? Volume\\.",
+      "value": "upstream_contains_downstream_feed",
+      "native_unit": "definition",
+      "interpretation": "definition; not an additive supply series"
+    },
+    {
+      "claim_id": "MPM-2025-finished_oxide_production",
+      "source_id": "RE-MP-10K2025",
+      "variable": "finished_oxide_production",
+      "pattern": "NdPr Production Volume refers to the volume of finished and packaged NdPr oxide produced at Mountain Pass for a given period\\.",
+      "value": "finished_packaged_NdPr_oxide",
+      "native_unit": "definition",
+      "interpretation": "production, not metal/magnet output"
+    },
+    {
+      "claim_id": "MPM-2025-oxide_equivalent_sales",
+      "source_id": "RE-MP-10K2025",
+      "variable": "oxide_equivalent_sales",
+      "pattern": "Our NdPr Sales Volume for a given period is calculated in MTs and on an NdPr oxide-equivalent basis \\([^)]*\\)\\.",
+      "value": "oxide_equivalent_sales",
+      "native_unit": "definition",
+      "interpretation": "not a pure physical oxide delivery series"
+    },
+    {
+      "claim_id": "MPM-2025-dry_concentrate_target",
+      "source_id": "RE-MP-10K2025",
+      "variable": "dry_concentrate_target",
+      "pattern": "We target REO content of greater than 60% per dry MT of concentrate \\(referred to as \u201cREO grade\u201d\\)\\.",
+      "value": "target_above_60pct_REO_dry_concentrate",
+      "native_unit": "definition",
+      "interpretation": "target, not a measured wet-feed assay or realized recovery"
+    },
+    {
+      "claim_id": "MPM-2025-conversion",
+      "source_id": "RE-MP-10K2025",
+      "variable": "assumed_sales_conversion_ratio",
+      "pattern": "We utilize an assumed material conversion ratio of (?P<value>1\\.20), such that a sale of 100 MTs of NdPr metal would be included in this KPI as 120 MTs of NdPr oxide-equivalent\\.",
+      "value": 1.2,
+      "native_unit": "assumed_oxide_equivalent_per_metal_mass",
+      "interpretation": "issuer accounting KPI convention; not chemical stoichiometry or measured process recovery; comparative-period reconstruction unknown"
+    },
+    {
+      "claim_id": "MPM-2025-internal_sales_included",
+      "source_id": "RE-MP-10K2025",
+      "variable": "internal_sales_included",
+      "pattern": "Beginning with the fourth quarter of 2025, NdPr Sales Volume for the Materials segment includes intercompany sales made to the Magnetics segment\\.",
+      "value": "Q4_2025_onward",
+      "native_unit": "definition",
+      "interpretation": "segment sales include internal transfers; cannot identify external-customer tonnage"
+    },
+    {
+      "claim_id": "MPM-2025-no_magnetics_KPI",
+      "source_id": "RE-MP-10K2025",
+      "variable": "no_magnetics_KPI",
+      "pattern": "Since the Magnetics segment only recently commenced production, we have not established any KPIs for its operations\\.",
+      "value": "KPI_not_established",
+      "native_unit": "definition",
+      "interpretation": "no quantified operating magnet-output KPI follows from these tables; not evidence of zero output"
+    },
+    {
+      "claim_id": "MPM-2025-sales_yield_timing_caveat",
+      "source_id": "RE-MP-10K2025",
+      "variable": "sales_yield_timing_caveat",
+      "pattern": "Among other factors, differences between quarterly NdPr Production Volume and NdPr Sales Volume may be caused by.*?calculation of NdPr Sales Volume\\.",
+      "value": "timing_and_actual_vs_assumed_yields",
+      "native_unit": "definition",
+      "interpretation": "production minus oxide-equivalent sales does not identify physical stock change"
+    }
+  ],
+  "backtest_origins": [
+    "2021-03-31",
+    "2021-06-30",
+    "2021-09-30",
+    "2021-12-31",
+    "2022-03-31",
+    "2022-06-30",
+    "2022-09-30",
+    "2022-12-31",
+    "2023-03-31",
+    "2023-06-30",
+    "2023-09-30",
+    "2023-12-31",
+    "2024-03-31",
+    "2024-06-30",
+    "2024-09-30",
+    "2024-12-31",
+    "2025-03-31",
+    "2025-06-30",
+    "2025-09-30"
+  ],
+  "backtest_scope": "next quarter; three naive methods on common support; latest-by-freeze actuals; historical source subset"
+}

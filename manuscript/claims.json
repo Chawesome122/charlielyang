@@ -105,7 +105,7 @@
     "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
     "classification": "original_source_integrity_audit",
     "evidence": "data/processed/source_integrity/original_quote_audit.csv",
-    "sha256": "8cb07cdcefeea8f35866c8e23fe86588d6cff77d345e0588de863cff958db9d4"
+    "sha256": "54e9eaac53c4f4f58ccc9d4ea29cff9e530ccda22a80caf70702d467c31bb045"
   },
   {
     "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
@@ -126,6 +126,24 @@
     "sha256": "b57d3656ac001bfdaeece73ee3e6ceb412a054077ca67c462f78838318f3999a"
   },
   {
+    "claim": "MP native production/sales and monetary inventories remain separate; N/A and displayed dashes do not become measured zeros or physical stocks",
+    "classification": "empirical_native_producer_reporting",
+    "evidence": "data/processed/mp_measurement/native_cell_versions.csv",
+    "sha256": "40d4c81915a9d160db21bc7837e830f463c1708903d0e0066780b55b90158667"
+  },
+  {
+    "claim": "MP source definitions retain overlapping stage production, illustrative versus assumed sales conversion and Q4 2025 internal sales; no realized recovery inferred",
+    "classification": "primary_measurement_definition_audit",
+    "evidence": "data/processed/mp_measurement/definitions.csv",
+    "sha256": "09b34c1fc9ae36e5b07d28abef49ce79f7f784cd1db368fbb1dfda0ea2f87468"
+  },
+  {
+    "claim": "MP quarterly baselines have one to three eligible dependent origins per metric in the archived subset; no statistical skill established",
+    "classification": "empirical_descriptive_hindcast",
+    "evidence": "outputs/empirical/rare_earths/mp_quarterly_baseline_scores.csv",
+    "sha256": "964e98133d446f4c29bf356617945533ab2063facb7913ae7cc523f755225dd0"
+  },
+  {
     "claim": "SMIC investment spending is an input, not identified substitution",
     "classification": "descriptive_empirical",
     "evidence": "data/processed/semiconductors/reported_financial_inputs.csv",
@@ -141,6 +159,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "b5e7090b287a20da5ff6bb3bb87113ec63b485278a9b8e240eace1aabab976ce"
+    "sha256": "a0539f2311e0040498f028efcbe6b97b4b8fdcf82aab5668f197638ae9baabbd"
   }
 ]

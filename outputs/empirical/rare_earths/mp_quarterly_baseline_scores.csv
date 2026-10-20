@@ -1,0 +1,13 @@
+variable,method,n_origins,mae,rmse
+NdPr_production,available_history_mean,2,345.5,347.0252152221795
+NdPr_production,latest_available_persistence,2,295.5,297.28185279293456
+NdPr_production,seasonal_previous_year,2,345.5,355.2133161918342
+NdPr_sales,available_history_mean,1,458.0,458.0
+NdPr_sales,latest_available_persistence,1,458.0,458.0
+NdPr_sales,seasonal_previous_year,1,458.0,458.0
+REO_production,available_history_mean,3,1865.6388888888887,2102.1819765424684
+REO_production,latest_available_persistence,3,2293.0,2891.2508826918956
+REO_production,seasonal_previous_year,3,2325.3333333333335,2377.271405063657
+REO_sales,available_history_mean,3,2392.4166666666665,2871.542163338949
+REO_sales,latest_available_persistence,3,1506.3333333333333,1703.515091411481
+REO_sales,seasonal_previous_year,3,1871.0,2604.0333459206445

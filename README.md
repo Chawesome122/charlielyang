@@ -34,6 +34,8 @@ uv run python scripts/build_rare_earths.py
 uv run python scripts/resolve_publication_clocks.py
 uv run python scripts/build_finance_material.py
 uv run python scripts/build_white_mesa.py
+uv run python scripts/build_mp_measurement.py
+uv run python scripts/analyze_mp_measurement.py
 uv run python scripts/build_publication_extension.py
 uv run python scripts/build_engineering_inputs.py
 uv run python scripts/fetch_additional_rare_earths.py  # cached original reports, no refresh
@@ -135,3 +137,7 @@ The [White Mesa review](docs/white_mesa_review.md) documents 49 source-linked fe
 ## Resume unfinished research
 
 Use this isolated checkout; do not create a worktree. Begin with `RESEARCH_STATUS.md`, `PLANS.md`, the audit, and `docs/`. The next empirical milestone is to finish the inclusive project universe and stage/element/feed/route/demand constraints, obtain engineering review of fixed semiconductor targets and qualified milestones, and establish dated opacity obligations and blinded independent coding. These inputs are needed before fitting population hazards or empirical game adaptation parameters. National utility/payoff coefficients remain scenario assumptions.
+
+The MP producer-measurement continuation retains native production/sales and monetary inventory cells, missing states and source definitions. See [the review](docs/mp_measurement_review.md), [the versioned data](data/processed/mp_measurement/native_cell_versions.csv), and `outputs/empirical/rare_earths/mp_quarterly_baseline_scores.csv`. Its small quarterly baseline comparisons are not system-service forecasts.
+
+After copying the paired host/container evidence to the standard diagnostic paths, run `uv run python scripts/verify_release.py --container-name weaponized-mp-measurement-check` to audit code/tests, data digests, source and normalized manuscript agreement, actual test outcomes and disconnected container identity. This checks a same-host container, not independent second-machine replication.

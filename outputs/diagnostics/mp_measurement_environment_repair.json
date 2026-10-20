@@ -1,0 +1,21 @@
+{
+  "stage": "disconnected_container_start",
+  "initial_exit_code": 125,
+  "reason": "Docker storage exhausted after image build; sandbox startup also blocked by zero free disk",
+  "data_loss": false,
+  "repair": "Removed two unused superseded tagged research images and unused build cache. Preserved raw sources, code, outputs, all current/full/White Mesa/engineering images and prior build records.",
+  "removed_image_tags": [
+    "weaponized-research-project-history:latest",
+    "weaponized-research-finance-material:latest"
+  ],
+  "removed_image_ids": [
+    "sha256:5dd12094e4248eeac5098fe1927ee830e855a57ef8ede2cb8e124423f029f5b1",
+    "sha256:304947298d4c0a19d80aeb6109c97e1f8c47664eea51a20b91be9a289b57b427"
+  ],
+  "unused_build_cache_reported_GB": 1.9,
+  "free_disk_after_repair_GB": 6.4,
+  "escalated_cleanup_required": "disk exhaustion prevented sandbox startup; authorized cleanup executed through approved escalation",
+  "automatic_approval_rejected": false,
+  "post_repair_source_code_data_manuscript_hashes_checked": 609,
+  "post_repair_hash_mismatches": []
+}

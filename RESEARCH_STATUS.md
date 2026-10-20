@@ -1,6 +1,6 @@
 # Research status — resumable execution ledger
 
-Information freeze: **2026-10-11**. Research execution date: 2026-10-19 (UTC). Methodological attachment: 49 pages. The task began from an empty, unborn Git checkout. The continuation request authorizes Git push; no journal submission has occurred.
+Information freeze: **2026-10-11**. Research execution date: 2026-10-20 (UTC). Methodological attachment: 49 pages. The task began from an empty, unborn Git checkout. The continuation request authorizes Git push; no journal submission has occurred.
 
 ## Implemented and executed
 
@@ -13,7 +13,8 @@ Information freeze: **2026-10-11**. Research execution date: 2026-10-19 (UTC). M
 - Finance/material extension: **37 issuer claims**, 4 resolved exact-link publication clocks and 4 unresolved annual-report clocks. Cash/additions and facility identities checked; cash, credit, commitments, reserves and prospective product figures remain separate. Original-at-vintage web/PDF bytes are not independently certified.
 - Engineering extension: **32 claims**, four conditional grouped-oxide constraints and twelve normalized finite-feed LP checks. Resource/reserve assumptions and product bases remain separate; measured operating yield, stock, Nd/Pr split, annual output and China-free service remain unknown.
 - White Mesa extension: **49 claims** from three original filings. Bulk feeds, native product/contained-TREO outputs, sampling sales, separated stocks, WIP, conditional capacity components and commissioning definitions are distinct. 20 stock/origin checks admit no verified current opening stock; missing stock is not zero. 3 unsupported research oxide labels corrected without altering native amounts or public clocks.
-- Original-source trust chain: **384 quote/table checks** across 10 tables and 34 originals; single immutable-byte snapshot extraction, derivative exclusion and explicit PDF page enforcement. Present archived-byte support is not historical-release certification.
+- MP measurement extension: **174 native cell versions** and **19 definitions** from three originals. Fourteen numerical quarter/annual and twelve monetary inventory identities reconcile; four quarter/annual comparisons remain incomplete. Nine eligible quarterly origin/metric pairs span only three calendar origins; no skill or physical-stock estimate follows.
+- Original-source trust chain: **577 quote/table checks** across 12 tables and 34 originals; single immutable-byte snapshot extraction, derivative exclusion and explicit PDF page enforcement. Present archived-byte support is not historical-release certification.
 - Publication extension: **18 auxiliary date candidates rejected**; four annual clocks remain unknown. Actual event-date-only look-ahead counts are 15 at December 2025 and 12 at June 2026. Reports-page arrow/title link conflicts are preserved.
 - Selected legal provisions: **41 claims**, 65 operative XML elements and **24 technical bounds** from three originals. Four parameter links do not certify full supersession/current law or numerical access.
 - All 41 additional archived legal originals scope-screened; 4 documents add 5 reviewed phases. Eight procedural records do not add export requirements. Current-law consolidation and numerical access effects remain unverified.
@@ -24,14 +25,14 @@ Information freeze: **2026-10-11**. Research execution date: 2026-10-19 (UTC). M
 - All ten SPOI rubrics, obligations/events, 90-day rules, daily/quarter coverage, missing/NA distinction, reliability and specification sensitivities implemented and tested. Historical index remains missing.
 - Bounded ODEs, logistic folds/degeneracy, four-state payoffs/dynamics, nine constrained Nash regimes, singular continua and constant-policy root **0.4655712319** verified.
 - Sparse 4D HJB evaluation/improvement, six policy starts, 17/21 node refinement, global discrete unilateral tests, off-grid diagnostics and feedback stability checks executed. Latest independent archive audit: **34 accepted finite-grid runs**, **3 not-solved runs**; **no continuous MPE certificate**.
-- Strongest supported academic draft written and compiled: **manuscript/main.pdf (33 pages)**; bibliography, claims-to-source links, reproducible empirical/scenario figures and requirement audit exist.
-- Latest suite: **260 tests passed; 0 failures**. Evidence:`outputs/diagnostics/pytest.xml`.
+- Strongest supported academic draft written and compiled: **manuscript/main.pdf (35 pages)**; bibliography, claims-to-source links, reproducible empirical/scenario figures and requirement audit exist.
+- Latest suite: **279 tests passed; 0 failures**. Evidence:`outputs/diagnostics/pytest.xml`.
 
 ## Replication outcome
 
 - Current-instance end-to-end passed:True. Scope:rebuild_plus_independent_saved_game_verification. Exact command exits/logs:`outputs/diagnostics/end_to_end_replication.json`.
 - Earlier full clean-container passed:True. Scope:clean_container_full_recomputation. The continuation's additional empirical extraction is separately covered by current-instance replication and `outputs/diagnostics/container_extension_validation.json` when present. A current-host container is not an independent second machine.
-- Earlier/current extension clean-container passed:True. Scope:clean_container_continuation_rebuild_and_saved_game_audit. 46 source-derived artifacts compared byte for byte; consult its code/input hashes to distinguish the current extension from an earlier run. Large games are audited, not re-solved in this check.
+- Earlier/current extension clean-container passed:True. Scope:clean_container_continuation_rebuild_and_saved_game_audit. 57 source-derived artifacts compared byte for byte; consult its code/input hashes to distinguish the current extension from an earlier run. Large games are audited, not re-solved in this check.
 - Environment setup is recorded separately from research publication. Git push is authorized; remote branch history records the actual released commit.
 
 ## Actual empirical findings
@@ -61,6 +62,7 @@ Information freeze: **2026-10-11**. Research execution date: 2026-10-19 (UTC). M
 - Three new official annual-release index requests also failed CONNECT 403; `metadata/publication_extension_acquisitions.jsonl` preserves exact URLs/errors. No new source download or publication date is claimed.
 - Original-source review repaired editable text-aid trust, a hash/extraction path-replacement race and omitted page-locator enforcement. Snapshot-mutation and explicit-page regression checks executed; original economic observations remain unchanged.
 - Exact incorporated Vara Mada and Donald technical-report requests failed CONNECT 403; metadata/white_mesa_acquisitions.jsonl preserves their original SEC URLs. No new assays, physical recipes or technical-report contents are claimed. The source oxalate/oxide descriptions and Q2 engineering versus Q3 accounting completion definitions remain unadjudicated; the research coding error is corrected separately.
+- MP exact incorporated technical-report request failed CONNECT 403; `metadata/mp_measurement_acquisitions.jsonl` retains the original link. Initial all-numeric reconciliation requirement failed on four source-N/A cases; diagnostic retained and audit repaired to classify these as incomplete, without imputation or tolerance changes.
 - Incorrect attempted legacy company identifier rejected; premerger SPAC records excluded from industrial history.
 - Independent review repaired inventory reuse/NaN in a stateless bridge, unauditable forecast-input vintages and false stability at nonsmooth interpolation knots.
 - A real BiCGSTAB stagnation was repaired by recorded GMRES recovery without disabling verification or relaxing residual tolerances.
@@ -75,10 +77,18 @@ Full requirements:`audit/remaining_requirements.md`. The 85-row acceptance ledge
 
 ## Exact next milestone
 
-1. Read `docs/white_mesa_review.md`, `docs/engineering_inputs_review.md`, `docs/legal_provisions_review.md`, `docs/publication_extension_review.md`, `docs/original_source_integrity.md` and the audit. Resolve remaining annual-report clocks and original-at-vintage evidence, obtain Q2 originals and Upton adjudication, and collect verified entry/risk clocks plus plant/route/recipe/demand inputs before estimating hazards or physical service.
+1. Read `docs/mp_measurement_review.md`, `docs/white_mesa_review.md`, `docs/engineering_inputs_review.md`, `docs/legal_provisions_review.md`, `docs/publication_extension_review.md`, `docs/original_source_integrity.md` and the audit. Resolve remaining annual-report clocks and original-at-vintage evidence, obtain Q2 originals and Upton adjudication, and collect verified entry/risk clocks plus plant/route/recipe/demand inputs before estimating hazards or physical service.
 2. Obtain engineering review and qualified semiconductor z/f observations; finish primary legal consolidation.
 3. Establish opacity obligations and blinded independent coding before estimating project associations.
 4. Fit empirical transitions/state laws only when these gates pass; continue negative-beta solver work with truthful failure labels.
 5. Run`uv sync --frozen` then`uv run python scripts/replicate.py`; inspect each diagnostic and the manuscript claim manifest. Use`--full` when changing game primitives/solvers or independently recomputing the numerical release.
 
 Use the existing isolated checkout, not a new worktree. Every unfinished input stays missing rather than being replaced with a synthetic coefficient.
+
+## MP continuation release evidence
+
+The new primary records report 2025 REO-content production/sales of 50,692 / 8,922 KPI tonnes and NdPr oxide production / oxide-equivalent sales of 2,599 / 1,994 tonnes. The 605-tonne NdPr KPI gap is not an identified inventory increase. Reported USD 252.099 million total inventory and USD 39.622 million current finished goods remain monetary quantities. See `docs/mp_measurement_review.md` for reporting definitions and unresolved physical inputs.
+
+The current host and network-disabled container pass 279 tests and 1,654 validation checks; 57 data/table artifacts match byte for byte. All 154 compared code/configuration/test files match the image; both 35-page manuscripts have identical normalized extracted text. Exact release verification: `outputs/diagnostics/final_release_validation.json`.
+
+The initial container launch failed with exit 125 due to full disk. Two superseded unused build images and unused cache were removed; the subsequent run passed. All 609 source/code/data/manuscript digests checked after repair were unchanged. The failed launch, removed image identities and repair evidence are in `outputs/diagnostics/mp_measurement_environment_repair.json`. No research source or result was deleted.
