@@ -1,0 +1,10 @@
+document_number,last_prefiling_origin,known_effective_entries_before_filing,known_effective_entries_at_effective_date,known_effective_entries_at_publication,publication_only_omits_at_effective_date,filing_precedes_effective_date,passed
+2023-04558,2023-03-01,0,48,48,48,False,True
+2023-07840,2023-04-11,0,34,34,34,False,True
+2023-22536,2023-10-05,0,52,52,52,False,True
+2024-10485,2024-05-08,0,37,37,37,False,True
+2024-19130,2024-08-22,0,131,131,0,True,True
+2024-25411,2024-10-29,0,98,98,0,True,True
+2025-00480,2025-01-14,0,16,16,0,True,True
+2025-05427,2025-03-24,0,12,12,12,False,True
+2025-17893,2025-09-11,0,60,60,60,False,True

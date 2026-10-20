@@ -1,0 +1,35 @@
+{
+  "executed_at": "2026-10-20T07:34:19.851483+00:00",
+  "purpose": "Free space for combined continuation image; prior release evidence archived, raw sources and scientific outputs retained",
+  "old_verified_image": "sha256:ea84541f30fd9acdde9f2769f7b2b7d1e4dd352b0239c7ddeaf72e33d88a1291",
+  "free_bytes_before": 3913768960,
+  "commands": [
+    {
+      "command": [
+        "docker",
+        "rm",
+        "weaponized-smic-operations-final-check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "docker",
+        "image",
+        "rm",
+        "weaponized-research-smic-operations-final:latest"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "docker",
+        "builder",
+        "prune",
+        "--force"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "free_bytes_after": 10588180480
+}

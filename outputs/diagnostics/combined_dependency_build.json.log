@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "tag": "weaponized-research-constant-legal-dependencies",
+  "target": "dependencies",
+  "existing_proxy_forwarded": {
+    "http": true,
+    "https": true
+  },
+  "existing_proxy_dns_mapping_used": true,
+  "platform_public_ca_used": true,
+  "tls_verification_disabled": false,
+  "log": "outputs/diagnostics/docker_build.log",
+  "image_id": "sha256:c4a1a0542ac362e4fcfc9d1c649f3393af4c997e6b77527b1d35784c74161a99"
+}

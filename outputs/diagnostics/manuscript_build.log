@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.10.6)  20 OCT 2026 03:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.10.6)  20 OCT 2026 07:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -533,7 +533,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [3]
 
 [4]
-<../outputs/empirical/semiconductors/legal_chronology.pdf, id=290, 722.7pt x 43
+<../outputs/empirical/semiconductors/legal_chronology.pdf, id=315, 722.7pt x 43
 2.17459pt>
 File: ../outputs/empirical/semiconductors/legal_chronology.pdf Graphic file (ty
 pe pdf)
@@ -548,7 +548,7 @@ df  used on input line 59.
 [6 <../outputs/empirical/semiconductors/legal_chronology.pdf>]
 
 [7]
-<../outputs/empirical/source_integrity/claim_clock_exclusions.pdf, id=392, 570.
+<../outputs/empirical/source_integrity/claim_clock_exclusions.pdf, id=417, 570.
 36728pt x 295.84091pt>
 File: ../outputs/empirical/source_integrity/claim_clock_exclusions.pdf Graphic 
 file (type pdf)
@@ -559,7 +559,7 @@ usions.pdf  used on input line 102.
 
 
 [8 <../outputs/empirical/source_integrity/claim_clock_exclusions.pdf>]
-<../outputs/empirical/rare_earths/reported_ndpr_output.pdf, id=459, 713.2287pt 
+<../outputs/empirical/rare_earths/reported_ndpr_output.pdf, id=484, 713.2287pt 
 x 281.75851pt>
 File: ../outputs/empirical/rare_earths/reported_ndpr_output.pdf Graphic file (t
 ype pdf)
@@ -572,7 +572,7 @@ pdf  used on input line 120.
 [9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
 
 [10]
-<../outputs/empirical/rare_earths/mp_native_production_sales.pdf, id=582, 713.1
+<../outputs/empirical/rare_earths/mp_native_production_sales.pdf, id=608, 713.1
 0765pt x 291.00908pt>
 File: ../outputs/empirical/rare_earths/mp_native_production_sales.pdf Graphic f
 ile (type pdf)
@@ -580,7 +580,7 @@ ile (type pdf)
 Package pdftex.def Info: ../outputs/empirical/rare_earths/mp_native_production_
 sales.pdf  used on input line 150.
 (pdftex.def)             Requested size: 469.75502pt x 191.70245pt.
-<../outputs/empirical/rare_earths/mp_native_quarterly_production.pdf, id=583, 7
+<../outputs/empirical/rare_earths/mp_native_quarterly_production.pdf, id=609, 7
 12.7841pt x 291.00908pt>
 File: ../outputs/empirical/rare_earths/mp_native_quarterly_production.pdf Graph
 ic file (type pdf)
@@ -594,7 +594,7 @@ roduction.pdf  used on input line 154.
 
 [12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf> <../outpu
 ts/empirical/rare_earths/mp_native_quarterly_production.pdf>]
-<../outputs/empirical/rare_earths/white_mesa_native_flows.pdf, id=713, 678.6512
+<../outputs/empirical/rare_earths/white_mesa_native_flows.pdf, id=738, 678.6512
 1pt x 292.57027pt>
 File: ../outputs/empirical/rare_earths/white_mesa_native_flows.pdf Graphic file
  (type pdf)
@@ -602,7 +602,7 @@ File: ../outputs/empirical/rare_earths/white_mesa_native_flows.pdf Graphic file
 Package pdftex.def Info: ../outputs/empirical/rare_earths/white_mesa_native_flo
 ws.pdf  used on input line 163.
 (pdftex.def)             Requested size: 469.75502pt x 202.52101pt.
-<../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf, id=714, 6
+<../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf, id=739, 6
 42.39516pt x 288.68619pt>
 File: ../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf Graph
 ic file (type pdf)
@@ -613,7 +613,7 @@ omponents.pdf  used on input line 171.
 
 
 [13 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
-<../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf, id=777, 497.97621pt
+<../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf, id=802, 497.97621pt
  x 275.3885pt>
 File: ../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf Graphic file (t
 ype pdf)
@@ -626,7 +626,7 @@ pdf  used on input line 183.
 [14 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
 
 [15 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
-<../outputs/empirical/rare_earths/project_finance_categories.pdf, id=895, 711.4
+<../outputs/empirical/rare_earths/project_finance_categories.pdf, id=920, 711.4
 6571pt x 308.1991pt>
 File: ../outputs/empirical/rare_earths/project_finance_categories.pdf Graphic f
 ile (type pdf)
@@ -634,7 +634,7 @@ ile (type pdf)
 Package pdftex.def Info: ../outputs/empirical/rare_earths/project_finance_categ
 ories.pdf  used on input line 195.
 (pdftex.def)             Requested size: 469.75502pt x 203.49667pt.
-<../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf, id=898, 505
+<../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf, id=923, 505
 .14941pt x 269.1733pt>
 File: ../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf Graphic
  file (type pdf)
@@ -645,7 +645,7 @@ parison.pdf  used on input line 202.
 
 
 [16 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
-<../outputs/calibrated/engineering/recovery_assumption_versions.pdf, id=974, 60
+<../outputs/calibrated/engineering/recovery_assumption_versions.pdf, id=999, 60
 6.50227pt x 282.77911pt>
 File: ../outputs/calibrated/engineering/recovery_assumption_versions.pdf Graphi
 c file (type pdf)
@@ -656,7 +656,7 @@ versions.pdf  used on input line 218.
 
 
 [17 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
-<../outputs/empirical/rare_earths/upton_milestone_vintages.pdf, id=1046, 714.54
+<../outputs/empirical/rare_earths/upton_milestone_vintages.pdf, id=1072, 714.54
 956pt x 332.04817pt>
 File: ../outputs/empirical/rare_earths/upton_milestone_vintages.pdf Graphic fil
 e (type pdf)
@@ -667,7 +667,7 @@ ges.pdf  used on input line 228.
 
 
 [18 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
-<../outputs/empirical/rare_earths/stage_constraints.pdf, id=1108, 574.54652pt x
+<../outputs/empirical/rare_earths/stage_constraints.pdf, id=1133, 574.54652pt x
  159.13855pt>
 File: ../outputs/empirical/rare_earths/stage_constraints.pdf Graphic file (type
  pdf)
@@ -679,7 +679,7 @@ Package pdftex.def Info: ../outputs/empirical/rare_earths/stage_constraints.pdf
 
 [19 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf> <../outputs
 /empirical/rare_earths/stage_constraints.pdf>]
-<../outputs/empirical/rare_earths/evidence_coverage.pdf, id=1219, 642.63727pt x
+<../outputs/empirical/rare_earths/evidence_coverage.pdf, id=1244, 642.63727pt x
  303.86288pt>
 File: ../outputs/empirical/rare_earths/evidence_coverage.pdf Graphic file (type
  pdf)
@@ -690,7 +690,7 @@ Package pdftex.def Info: ../outputs/empirical/rare_earths/evidence_coverage.pdf
 
 
 [20 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
-<../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf, id=1282, 712.8
+<../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf, id=1307, 712.8
 8765pt x 292.38222pt>
 File: ../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf Graphic fi
 le (type pdf)
@@ -703,124 +703,187 @@ ines.pdf  used on input line 272.
 
 [21 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
 
-[22]
-<../outputs/empirical/semiconductors/smic_reported_inputs.pdf, id=1371, 664.884
+[22] (./entity_schedules_table.tex)
+<../outputs/empirical/semiconductors/entity_review_policies.pdf, id=1404, 772.6
+0219pt x 324.5967pt>
+File: ../outputs/empirical/semiconductors/entity_review_policies.pdf Graphic fi
+le (type pdf)
+<use ../outputs/empirical/semiconductors/entity_review_policies.pdf>
+Package pdftex.def Info: ../outputs/empirical/semiconductors/entity_review_poli
+cies.pdf  used on input line 305.
+(pdftex.def)             Requested size: 469.75502pt x 197.3598pt.
+<../outputs/empirical/semiconductors/entity_publication_clocks.pdf, id=1405, 59
+8.76071pt x 317.42856pt>
+File: ../outputs/empirical/semiconductors/entity_publication_clocks.pdf Graphic
+ file (type pdf)
+<use ../outputs/empirical/semiconductors/entity_publication_clocks.pdf>
+Package pdftex.def Info: ../outputs/empirical/semiconductors/entity_publication
+_clocks.pdf  used on input line 311.
+(pdftex.def)             Requested size: 469.75502pt x 249.03665pt.
+
+
+[23]
+
+[24 <../outputs/empirical/semiconductors/entity_review_policies.pdf>]
+<../outputs/empirical/semiconductors/smic_reported_inputs.pdf, id=1482, 664.884
 02pt x 245.718pt>
 File: ../outputs/empirical/semiconductors/smic_reported_inputs.pdf Graphic file
  (type pdf)
 <use ../outputs/empirical/semiconductors/smic_reported_inputs.pdf>
 Package pdftex.def Info: ../outputs/empirical/semiconductors/smic_reported_inpu
-ts.pdf  used on input line 296.
+ts.pdf  used on input line 322.
 (pdftex.def)             Requested size: 469.75502pt x 173.60614pt.
 
 
-[23 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
-<../outputs/empirical/semiconductors/smic_operating_scale.pdf, id=1447, 772.271
+[25 <../outputs/empirical/semiconductors/entity_publication_clocks.pdf>]
+<../outputs/empirical/semiconductors/smic_operating_scale.pdf, id=1552, 772.271
 91pt x 301.42476pt>
 File: ../outputs/empirical/semiconductors/smic_operating_scale.pdf Graphic file
  (type pdf)
 <use ../outputs/empirical/semiconductors/smic_operating_scale.pdf>
 Package pdftex.def Info: ../outputs/empirical/semiconductors/smic_operating_sca
-le.pdf  used on input line 306.
+le.pdf  used on input line 332.
 (pdftex.def)             Requested size: 469.75502pt x 183.3537pt.
 
+
+[26 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf> <../outputs/
+empirical/semiconductors/smic_operating_scale.pdf>]
 (./smic_operating_changes.tex)
-<../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf, id=1449, 6
+<../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf, id=1683, 6
 41.93893pt x 294.20602pt>
 File: ../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf Graphi
 c file (type pdf)
 <use ../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>
 Package pdftex.def Info: ../outputs/empirical/semiconductors/smic_revenue_decom
-position.pdf  used on input line 323.
+position.pdf  used on input line 349.
 (pdftex.def)             Requested size: 469.75502pt x 215.30281pt.
 
 
-[24 <../outputs/empirical/semiconductors/smic_operating_scale.pdf>]
-
-[25 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
-
-[26] (./game_table.tex)
-
 [27]
-<../outputs/scenario/game/constant_control_benchmark.pdf, id=1604, 397.485pt x 
+
+[28 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
+
+[29] (./game_table.tex) (./negative_extension_table.tex)
+<../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf, id=1770, 6
+79.25534pt x 279.5059pt>
+File: ../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf Graphi
+c file (type pdf)
+<use ../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf>
+Package pdftex.def Info: ../outputs/scenario/negative_beta_extension/solver_dia
+gnostics.pdf  used on input line 427.
+(pdftex.def)             Requested size: 469.75502pt x 193.29857pt.
+
+
+[30]
+
+[31 <../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf>]
+(./constant_controls_table.tex)
+<../outputs/scenario/constant_controls/scenario_controls.pdf, id=1836, 773.0162
+8pt x 314.54185pt>
+File: ../outputs/scenario/constant_controls/scenario_controls.pdf Graphic file 
+(type pdf)
+<use ../outputs/scenario/constant_controls/scenario_controls.pdf>
+Package pdftex.def Info: ../outputs/scenario/constant_controls/scenario_control
+s.pdf  used on input line 446.
+(pdftex.def)             Requested size: 469.75502pt x 191.14551pt.
+<../outputs/scenario/constant_controls/commitment_payoffs.pdf, id=1837, 700.480
+27pt x 266.83955pt>
+File: ../outputs/scenario/constant_controls/commitment_payoffs.pdf Graphic file
+ (type pdf)
+<use ../outputs/scenario/constant_controls/commitment_payoffs.pdf>
+Package pdftex.def Info: ../outputs/scenario/constant_controls/commitment_payof
+fs.pdf  used on input line 450.
+(pdftex.def)             Requested size: 469.75502pt x 178.9485pt.
+
+
+[32]
+
+[33 <../outputs/scenario/constant_controls/scenario_controls.pdf> <../outputs/s
+cenario/constant_controls/commitment_payoffs.pdf>]
+<../outputs/scenario/game/constant_control_benchmark.pdf, id=1945, 397.485pt x 
 238.49101pt>
 File: ../outputs/scenario/game/constant_control_benchmark.pdf Graphic file (typ
 e pdf)
 <use ../outputs/scenario/game/constant_control_benchmark.pdf>
 Package pdftex.def Info: ../outputs/scenario/game/constant_control_benchmark.pd
-f  used on input line 402.
+f  used on input line 465.
 (pdftex.def)             Requested size: 366.40834pt x 219.85107pt.
-<../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf, id=1605, 57
+<../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf, id=1946, 57
 8.16pt x 397.485pt>
 File: ../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf Graphic
  file (type pdf)
 <use ../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>
 Package pdftex.def Info: ../outputs/scenario/game/adaptation_positive_n21_traje
-ctories.pdf  used on input line 409.
+ctories.pdf  used on input line 472.
 (pdftex.def)             Requested size: 469.75502pt x 322.95576pt.
 
 
-[28]
+[34 <../outputs/scenario/game/constant_control_benchmark.pdf>]
 
-[29 <../outputs/scenario/game/constant_control_benchmark.pdf> <../outputs/scena
-rio/game/adaptation_positive_n21_trajectories.pdf>]
+[35 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
 
-[30] (./main.bbl
+[36] (./main.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[31
+[37
 
 ]
 
-[32]
+[38]
 
-[33]
+[39]
 
-[34])
+[40]
 
-[35]
+[41])
 
-[36
+[42]
+
+[43
 
 ]
 
-[37] (./main.aux)
+[44]
+
+[45] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 70A120E481879734FB7687C4F32855A8;9900.
+(rerunfilecheck)             Checksum: 81FA5EEB051753C8CB30F97A15A6C597;11163.
  ) 
 Here is how much of TeX's memory you used:
- 13952 strings out of 475178
- 220110 string characters out of 5766539
- 679606 words of memory out of 5000000
- 36436 multiletter control sequences out of 15000+600000
- 573782 words of font info for 155 fonts, out of 8000000 for 9000
+ 14110 strings out of 475178
+ 224722 string characters out of 5766539
+ 686834 words of memory out of 5000000
+ 36534 multiletter control sequences out of 15000+600000
+ 574755 words of font info for 163 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,9n,79p,1770b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,2131b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (37 pages, 674103 bytes).
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (45 pages, 804513 bytes).
 PDF statistics:
- 1925 PDF objects out of 2073 (max. 8388607)
- 861 compressed objects within 9 object streams
- 176 named destinations out of 1000 (max. 500000)
- 29621 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 2313 PDF objects out of 2487 (max. 8388607)
+ 1018 compressed objects within 11 object streams
+ 213 named destinations out of 1000 (max. 500000)
+ 33782 words of extra memory for PDF output out of 35830 (max. 10000000)
 

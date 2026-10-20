@@ -52,6 +52,16 @@ def main():
         "data/processed/legal_provisions/amendment_links.csv",
         "data/processed/legal_provisions/issued_phase_checks.csv",
         "data/processed/source_integrity/original_quote_audit.csv",
+        "data/processed/entity_schedules/entries.csv",
+        "data/processed/entity_schedules/source_rows.csv",
+        "data/processed/entity_schedules/table_notes.csv",
+        "data/processed/entity_schedules/amendatory_instructions.csv",
+        "data/processed/entity_schedules/source_clocks.csv",
+        "data/processed/entity_schedules/publication_vintage_checks.csv",
+        "outputs/empirical/semiconductors/entity_review_counts.csv",
+        "outputs/empirical/semiconductors/entity_source_quality_flags.csv",
+        "outputs/empirical/semiconductors/entity_schedule_summary_table.csv",
+        "manuscript/entity_schedules_table.tex",
         "data/processed/smic_operations/observations.csv",
         "data/processed/smic_operations/observations_asof_freeze.csv",
         "data/processed/smic_operations/source_clocks.csv",
@@ -83,6 +93,7 @@ def main():
         "data/processed/rare_earths/observations.csv",
         "data/processed/rare_earths/observations_asof_freeze.csv",
     ]
+    paths += ['outputs/scenario/negative_beta_extension/registered_attempts.csv', 'outputs/scenario/negative_beta_extension/largest_action_residual_nodes.csv', 'outputs/scenario/negative_beta_extension/iteration_history.csv', 'manuscript/negative_extension_table.tex', 'outputs/scenario/constant_controls/equilibria.csv', 'outputs/scenario/constant_controls/initializations.csv', 'outputs/scenario/constant_controls/unilateral_deviations.csv', 'outputs/scenario/constant_controls/validation.csv', 'outputs/scenario/constant_controls/full_payoff_crosschecks.csv', 'manuscript/constant_controls_table.tex']
     before = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in paths}
     run = subprocess.run([sys.executable, "scripts/replicate.py"], cwd=ROOT)
     checks = [dict(path=path, passed=hashlib.sha256((ROOT/path).read_bytes()).hexdigest() == digest)
@@ -95,7 +106,7 @@ def main():
                   current_numerical_core_comparison="outputs/diagnostics/scientific_code_comparison.json")
     current = json.loads((ROOT/"outputs/research_summary.json").read_text())
     report["test_results"] = {key:current[key] for key in ["tests", "test_failures"]}
-    report["extension_scope"] = "SMIC operating scale and monetary inputs, original unit/denominator definitions and release clocks, descriptive nominal revenue identities; prior MP, White Mesa, engineering/legal, vintage and scenario modules"
+    report["extension_scope"] = "Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules"
     report["executed_script_sha256"] = {str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                                        for path in sorted((ROOT/"scripts").glob("*.py"))}
     (ROOT/"outputs/diagnostics/container_extension_validation.json").write_text(json.dumps(report, indent=2))

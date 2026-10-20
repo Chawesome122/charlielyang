@@ -1,5 +1,35 @@
 [
   {
+    "claim": "All nine hypothetical constant-commitment scenarios pass sufficient restricted uniqueness bounds and numerical unilateral checks; neither feedback MPE nor unrestricted open-loop equilibrium is certified",
+    "classification": "restricted_strategy_theoretical_scenario",
+    "evidence": "outputs/scenario/constant_controls/analysis.json",
+    "sha256": "fd0412504926d09b03167fadea373f1e1e92896051606c342ca62f02199cdf94"
+  },
+  {
+    "claim": "Three additional 17^4 negative-adaptation starts reach 160 iterations without meeting unchanged Nash thresholds; no nonexistence conclusion follows",
+    "classification": "numerical_solver_failure",
+    "evidence": "outputs/scenario/negative_beta_extension/analysis.json",
+    "sha256": "a795aa096c6bb650d2c557d0bf7f8907d9157b5ae28fc71861e2ea3619eb1a79"
+  },
+  {
+    "claim": "Nine selected issued Entity List schedules contain 488 destination-specific entry versions, not unique newly restricted firms; exact review exceptions and unresolved references remain separate",
+    "classification": "primary_legal_printed_schedule_descriptive",
+    "evidence": "data/processed/entity_schedules/entries.csv",
+    "sha256": "07b44b5e3926acad789110443f474721ec470e34ec97eb7b186fde9981df5568"
+  },
+  {
+    "claim": "Official reported filing, legal effective and Federal Register publication dates are distinct; printed datelines do not independently certify historical binaries or globally earliest disclosure",
+    "classification": "primary_legal_reported_documentary_clocks",
+    "evidence": "data/processed/entity_schedules/source_clocks.csv",
+    "sha256": "aee1541942936da26face035379b36d01d42dd1ac1a5b49f43cd595db1548088"
+  },
+  {
+    "claim": "Unfilled XML citation placeholders and one embedded rule-date token remain uncorrected source-format flags, not policy-opacity observations",
+    "classification": "primary_source_quality_audit",
+    "evidence": "outputs/empirical/semiconductors/entity_source_quality_flags.csv",
+    "sha256": "25935e8f50d0005e0d9154a81b4674bb3ad85cd3820b158b70b90674c27d5ea7"
+  },
+  {
     "claim": "MP NdPr oxide annual output 200/1294/2599 tonnes in calendar2023/24/25",
     "classification": "company_reported_empirical",
     "evidence": "data/processed/rare_earths/observations_asof_freeze.csv",
@@ -105,7 +135,7 @@
     "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
     "classification": "original_source_integrity_audit",
     "evidence": "data/processed/source_integrity/original_quote_audit.csv",
-    "sha256": "36a305c5d4cdec6ba533ff4d4eb885977f796068fcd04f131eeaad8d8cfd1e3d"
+    "sha256": "bb2fb217760402c60a83b998d57c9693acd2890e095435f462a50c7f5b2031ee"
   },
   {
     "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
@@ -177,6 +207,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "d14b0447303ae0d3255583212561df4019f3baad317653458ced1443fa3b1fdc"
+    "sha256": "71b98902454364544be6f5dfd6bfbf3a6f95eedb2b7bb70bab54ca2c7247aa9a"
   }
 ]

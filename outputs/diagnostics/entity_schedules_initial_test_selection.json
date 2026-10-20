@@ -1,0 +1,13 @@
+{
+  "command": [
+    "pytest",
+    "-q",
+    "tests/test_physical.py",
+    "tests/test_vintages.py"
+  ],
+  "exit_code": 4,
+  "tests_executed": 0,
+  "reason": "Nonexistent test paths; corrected to existing test_lp.py, test_provenance.py and test_semiconductors.py",
+  "corrected_tests_executed": 31,
+  "corrected_failures": 0
+}

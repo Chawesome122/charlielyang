@@ -81,6 +81,13 @@ def main():
     result["smic_operating_observations"]=summary["smic_operating_observations"]
     result["smic_operating_quarters"]=summary["smic_operating_quarters"]
     result["smic_operating_definitions"]=summary["smic_definition_claims"]
+    result["entity_schedule_versions"]=summary["entity_schedule_versions"]
+    result["entity_schedule_rules"]=summary["entity_schedule_rules"]
+    result["entity_source_rows"]=summary["entity_source_rows"]
+    result["constant_commitment_scenarios"]=summary["constant_commitment_scenarios"]
+    result["additional_negative_not_solved"]=summary["additional_negative_not_solved"]
+    result["new_negative_hjb_runs_recomputed_on_host"]=3
+    result["new_negative_hjb_runs_recomputed_in_extension_container"]=False
     Path("outputs/diagnostics/final_release_validation.json").write_text(json.dumps(result,indent=2)+"\n")
     print(json.dumps(result,indent=2))
     return int(not result["passed"])

@@ -158,6 +158,46 @@
       "passed": true
     },
     {
+      "path": "data/processed/entity_schedules/entries.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/entity_schedules/source_rows.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/entity_schedules/table_notes.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/entity_schedules/amendatory_instructions.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/entity_schedules/source_clocks.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/entity_schedules/publication_vintage_checks.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/semiconductors/entity_review_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/semiconductors/entity_source_quality_flags.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/semiconductors/entity_schedule_summary_table.csv",
+      "passed": true
+    },
+    {
+      "path": "manuscript/entity_schedules_table.tex",
+      "passed": true
+    },
+    {
       "path": "data/processed/smic_operations/observations.csv",
       "passed": true
     },
@@ -276,25 +316,68 @@
     {
       "path": "data/processed/rare_earths/observations_asof_freeze.csv",
       "passed": true
+    },
+    {
+      "path": "outputs/scenario/negative_beta_extension/registered_attempts.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/scenario/negative_beta_extension/largest_action_residual_nodes.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/scenario/negative_beta_extension/iteration_history.csv",
+      "passed": true
+    },
+    {
+      "path": "manuscript/negative_extension_table.tex",
+      "passed": true
+    },
+    {
+      "path": "outputs/scenario/constant_controls/equilibria.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/scenario/constant_controls/initializations.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/scenario/constant_controls/unilateral_deviations.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/scenario/constant_controls/validation.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/scenario/constant_controls/full_payoff_crosschecks.csv",
+      "passed": true
+    },
+    {
+      "path": "manuscript/constant_controls_table.tex",
+      "passed": true
     }
   ],
   "large_games_recomputed": false,
   "full_prior_numerical_run": "outputs/diagnostics/container_validation.json",
   "current_numerical_core_comparison": "outputs/diagnostics/scientific_code_comparison.json",
   "test_results": {
-    "tests": 304,
+    "tests": 340,
     "test_failures": 0
   },
-  "extension_scope": "SMIC operating scale and monetary inputs, original unit/denominator definitions and release clocks, descriptive nominal revenue identities; prior MP, White Mesa, engineering/legal, vintage and scenario modules",
+  "extension_scope": "Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules",
   "executed_script_sha256": {
+    "scripts/analyze_entity_schedules.py": "219e9895c116429c261a5354072ca3277b896b2bcd386c5a3509e15c0337fc7b",
     "scripts/analyze_mp_measurement.py": "6e1da58b76cae7bb73c56fb7a53c43c1922cadd98eea91c651272e98b3810163",
+    "scripts/analyze_negative_extension.py": "80ac24a121ca01e873f84d72e44f2649d0ae3d53aa1473825c3ccfec83e74c79",
     "scripts/analyze_smic_operations.py": "0c685dffd27aad4029cc5c5738337f2b31dd5cde18da67710021ad738a2669b6",
     "scripts/audit_game.py": "aa7be615ee091d97890e9494eba378cd70ef52d9671396e231a36dd86565dffa",
-    "scripts/audit_original_quotes.py": "5375987f1118d2ec92e2a6b48f8c72d42ad2769f011fd0fe093fb65755afa1be",
+    "scripts/audit_original_quotes.py": "59c01ed364528b4e57357ead9cfcf45493ea4c49ac6ba297c048debccc86ceb0",
     "scripts/audit_project_observations.py": "34a842713f0ba51d2ef7785f16affdc615cfd7d68837171ad0e1d435fed58f2b",
     "scripts/build_citation_audit.py": "2080bedc97dd23026936e281777f1b9df66afc72d5a4c8457ff6864a112bab04",
     "scripts/build_container.py": "5d1ea16834abb7d3303ee48a2c78450c9a4e28bfd88c278ef5860b79baabc7c3",
     "scripts/build_engineering_inputs.py": "6fc3b345950ad2e4d029f94b09bc596ad6db88d1d7f5197d5aaefab534faf868",
+    "scripts/build_entity_schedules.py": "797c91ad4d57fc8ed54c4f908ea41da96ca96f2ed6d742f023487d619e203394",
     "scripts/build_evidence_coverage.py": "c8ddd537d3e24e85f2b49345963930a1edfaf43528b2e590c0d8e2c8bd4daea8",
     "scripts/build_finance_material.py": "36c0ca9964548af7e22d59ae1546d1d09da94f73354d93a212649ab8f372ff14",
     "scripts/build_industrial_evidence.py": "6b11735a4ba733d409ecc63753b33afa3c17338398365c3854483bffd30cef4a",
@@ -311,18 +394,19 @@
     "scripts/build_smic_operations.py": "97ae77fcdf34066f3fd29cc36cde85b2860bc5eb6b56f11ac17443ac115c19f3",
     "scripts/build_white_mesa.py": "f2c2eaa1f7216e0a8c84987ad839066a0e8ec354f31786695641365e40ca97f2",
     "scripts/container_check.py": "3417b2ab667d2358201057d52f7404b2cf9ff5889a6790d7376177783a10e87d",
-    "scripts/container_extension_check.py": "a54c7eeeb236aff2804bb6eff7c87c8ce1f3a5bb97848be0e8b8b63fb2cbeea6",
+    "scripts/container_extension_check.py": "ae6c95a000dc3ff591d2e56b09ccd7b0050563d7cd8c03cc2c85641ee9a06edd",
     "scripts/discover_legal.py": "a3bf6b00969ffc61b2a643cc06a3db5328766ac852aa0c8b8ae552a66afef06e",
     "scripts/fetch.py": "4028b5a286c5e09cb623f7714d0dafdbe71692d000b72cd8fc50d6cb792ea230",
     "scripts/fetch_additional_rare_earths.py": "05c2cee491d1c68095872fcc1fb3833f2b03ff5d2536342794a18ceee170e31d",
     "scripts/fetch_literature.py": "04d70e6fc16415a005c43420fbaccf5a9ecc3ff471ed17a0b54873bd840b9297",
     "scripts/plot_evidence_extensions.py": "88b1f21da16b042fdf7ceac174bc3bb62ab1c3a66a1b2e9a64e7a03e9b3d2fdd",
     "scripts/plot_white_mesa.py": "3e5e2de9be57d87cc2ea7a1974bfbc9e40defeabe14ceddeef0573ac34d20707",
-    "scripts/replicate.py": "c8b918435dc51a377b123561021a848c38fb0b1866818c8d14227186ead11cde",
-    "scripts/report.py": "a6b9b63b370ad958db5b5be6a3225b82fc8b9d28c52c194224bd367d16274db2",
+    "scripts/replicate.py": "e76663a6c9de7bd1c518592445c9d6448d13a92e9abf7948dfc5a9d0d8ad1d7e",
+    "scripts/report.py": "ced43da078fc4f744127b50ffe57b5229ee74cf7f7281d4b89fa7ea48515105b",
     "scripts/resolve_publication_clocks.py": "6799d90918f8c8a0664dace94e9c2182a3d1c3e71edd0ff05ca77c393b545de7",
     "scripts/restore_omitted_sources.py": "94f1249c60204f0832f974f2ef52bb2ee4447de87d304559c1253574d11fc000",
     "scripts/review_legal_discovery.py": "219b0fd83ee501267fc1f3aa111cd12c13967ee5bdeea7ac8006be0f36203acf",
+    "scripts/run_constant_controls.py": "c44cb793999b8537300f8a53ad72cedba1e5c4309fc55479165be46215dacfd3",
     "scripts/run_empirical_baselines.py": "d69d309bf50270b342933048a4c7cc3a7fdb187e2c3447e6c24c04bce548c219",
     "scripts/run_forecast.py": "8cafafa11c20e904f9c29281716ab2a4d1608acf7dca082586cbe19ffbe14333",
     "scripts/run_game.py": "a43a54c44f16e91e1e128884fb47b564633b35ee1bc2f0301326c73c34ecafa9",
@@ -330,8 +414,8 @@
     "scripts/run_opacity.py": "54c4b0d26aaf6af99b417eab9b8c723822e5873d6d277794079f785249eec4a1",
     "scripts/run_physical.py": "820201133a104fa6db645162bc6eab0fca9f4ca4f2994c93aeeca3baf3926ea9",
     "scripts/run_semiconductors.py": "663467db0cecf400c472a289e92324aebfdfc23cbe61529558d58ce8787ff06b",
-    "scripts/update_status.py": "8a3a7de5d86460c79fe2f6ff21c598f58340680fa1a7235393781cf77515bf6e",
-    "scripts/validate.py": "da1ab2a23fb81cf10758f97dd8d320fc3d6fd248219a4a5e1daaa48bd8aecfcd",
-    "scripts/verify_release.py": "a00012e4e21ea95eac1c736cc3cd1262550ab2ec4319303183873dae06646cd1"
+    "scripts/update_status.py": "7fd015607c7a82da808b5e2c7f575fba6594f73efaa26845563f41a98b418548",
+    "scripts/validate.py": "33f958282cfc3c4e8024b674167ed8c5d35bda37f57ea799480f4babfca74acf",
+    "scripts/verify_release.py": "dbea80b862f8866529b3800363cdb6167341c31937f5ee06a0cbfab99c675dce"
   }
 }

@@ -1,6 +1,6 @@
 {
   "exit_code": 0,
-  "tag": "weaponized-research-smic-operations-final",
+  "tag": "weaponized-research-constant-legal-final",
   "target": "research",
   "existing_proxy_forwarded": {
     "http": true,
@@ -10,5 +10,5 @@
   "platform_public_ca_used": true,
   "tls_verification_disabled": false,
   "log": "outputs/diagnostics/docker_build.log",
-  "image_id": "sha256:ea84541f30fd9acdde9f2769f7b2b7d1e4dd352b0239c7ddeaf72e33d88a1291"
+  "image_id": "sha256:a689f0b225848371dc8f592616b8026453e2cba1276155faf5949ac1b5ea11f8"
 }

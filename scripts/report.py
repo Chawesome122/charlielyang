@@ -101,6 +101,10 @@ def source_registry():
         file="data/processed/smic_operations/"+table
         for row in pd.read_csv(ROOT/file).to_dict("records"):
             trace.append(dict(claim_id=row.get("claim_id",row["source_id"]+":release_clock"),evidence_class="issuer_reported_semiconductor_scale_or_definition",source_id=row["source_id"],sha256=row["source_sha256"],locator=row["locator"],table=file))
+    for name in ["entries","source_rows","table_notes","amendatory_instructions","source_clocks"]:
+        file=f"data/processed/entity_schedules/{name}.csv"
+        for i,row in enumerate(pd.read_csv(ROOT/file).fillna("").to_dict("records")):
+            trace.append(dict(claim_id=row["entry_id"] if name=="entries" else f"{row['source_id']}:{name}:{i}",evidence_class="primary_legal_printed_entry_or_XML_evidence_not_consolidated_law",source_id=row["source_id"],sha256=row["source_sha256"],locator=row.get("xpath",row.get("start_xpath")),table=file))
     pd.DataFrame(trace).to_csv(ROOT/"metadata/claims_to_sources.csv",index=False)
 
 
@@ -136,6 +140,10 @@ def summary_and_tables():
     mp_analysis=read("outputs/empirical/rare_earths/mp_measurement_analysis.json")
     smic_ops=read("outputs/diagnostics/smic_operations_validation.json")
     smic_analysis=read("outputs/empirical/semiconductors/smic_operations_analysis.json")
+    entity=read("outputs/diagnostics/entity_schedules_validation.json")
+    entity_analysis=read("outputs/empirical/semiconductors/entity_schedules_analysis.json")
+    commitment=read("outputs/scenario/constant_controls/analysis.json")
+    negative=read("outputs/scenario/negative_beta_extension/analysis.json")
     result=dict(freeze="2026-10-11",tests=test_count,test_failures=failures,
                 rare_earth_versioned_observations=rare["versioned_observations"], rare_earth_latest_observations=rare["latest_observations"],
                 lynas_annual_observations=len(lynas),lynas_quarterly_versions=len(quarterly),project_evidence_records=len(projects),project_count=projects.project_id.nunique(),activity_count=projects.activity_id.nunique(),
@@ -164,6 +172,20 @@ def summary_and_tables():
                 all_saved_candidates_verified=game["all_claimed_candidates_pass"],continuous_mpe_certified=False,
                 constant_control_root=benchmark["policy"], empirical_threshold_probabilities_available=False,
                 causal_adaptation_effects_identified=False, publication_ready=False)
+    result.update(entity_schedule_versions=entity["printed_entry_versions"],entity_schedule_rules=entity["original_rules"],
+                  entity_source_rows=entity["original_table_rows"],entity_address_entries=entity["printed_address_entries"],
+                  entity_china_heading_entries=entity_analysis["china_heading_entries"],
+                  entity_mixed_review_entries=entity["review_categories"]["mixed_denial_and_case_by_case"],
+                  entity_unresolved_review_entries=entity["review_categories"]["cross_referenced_review_unresolved"],
+                  entity_added_entries=entity["unambiguously_added_entry_versions"],entity_revised_entries=entity["revised_entry_versions"],
+                  entity_unresolved_entry_actions=entity["mixed_document_entry_actions_unresolved"])
+    result.update(constant_commitment_scenarios=commitment["certificate_checks"],
+                  constant_commitment_starts=commitment["start_checks"],
+                  constant_commitment_full_payoff_crosschecks=commitment["full_payoff_crosschecks"],
+                  constant_commitment_max_kkt_error=commitment["max_refined_gradient_kkt_error"],
+                  additional_negative_attempts=negative["registered_attempts"],
+                  additional_negative_not_solved=negative["not_solved"],
+                  additional_negative_accepted_candidates=negative["accepted_finite_grid_candidates"])
     (ROOT/"outputs/research_summary.json").write_text(json.dumps(result,indent=2))
     macros={"TestCount":test_count,"RareObs":rare["versioned_observations"],"LynasObs":len(lynas),"ProjectCount":projects.project_id.nunique(),"ActivityCount":projects.activity_id.nunique(),"LegalRows":semiconductor["verified_legal_event_rows"],"FinancialRows":len(financial),"GameCandidates":game["claimed_candidate_count"],"GameFailures":game["not_solved_count"],"BenchmarkRoot":f"{benchmark['policy']:.10f}"}
     macros.update(ProjectRecords=len(projects), PublicClockActivities=coverage["documentation_counts"]["public_clock_eligible"],
@@ -192,6 +214,14 @@ def summary_and_tables():
                   SMICShipmentChange=f"{latest_smic['source_native_shipments_change_pct']:.1f}",
                   SMICWaferRevenueChange=f"{latest_smic['source_native_wafer_revenue_change_pct']:.1f}",
                   SMICUnitRevenueChange=f"{latest_smic['source_native_revenue_per_equivalent_shipment_change_pct']:.1f}")
+    macros.update(EntityEntryVersions=entity["printed_entry_versions"],EntityRuleCount=entity["original_rules"],
+                  EntityChinaEntries=entity_analysis["china_heading_entries"],EntityMixedReview=entity["review_categories"]["mixed_denial_and_case_by_case"],
+                  EntityCrossReview=entity["review_categories"]["cross_referenced_review_unresolved"],
+                  EntityAddressEntries=entity["printed_address_entries"],EntityUnknownActions=entity["mixed_document_entry_actions_unresolved"],
+                  EntityAddedEntries=entity["unambiguously_added_entry_versions"],EntityRevisedEntries=entity["revised_entry_versions"])
+    macros.update(CommitmentScenarios=commitment["certificate_checks"],CommitmentStarts=commitment["start_checks"],
+                  CommitmentProfiles=commitment["deviation_profile_points"],NegativeExtraAttempts=negative["registered_attempts"],
+                  NegativeExtraFailures=negative["not_solved"])
     (ROOT/"manuscript/results.tex").write_text("% Automatically generated by scripts/report.py\n"+"\n".join(f"\\newcommand{{\\{key}}}{{{value}}}" for key,value in macros.items())+"\n")
     rows=[]
     for run in game["runs"]:
@@ -213,7 +243,12 @@ def summary_and_tables():
         unit="year^-1" if name.startswith(("g_","delta_","kappa_","rho_")) else "dimensionless" if name.startswith("beta_") else "normalized payoff/year"
         registry.append(dict(parameter=name,value=value,unit=unit,classification="hypothetical_scenario",empirically_identified=False,source="configs/game.yaml",uncertainty="registered alternative scenarios; no empirical confidence interval"))
     pd.DataFrame(registry).to_csv(ROOT/"metadata/parameter_registry.csv",index=False)
-    claims=[dict(claim="MP NdPr oxide annual output 200/1294/2599 tonnes in calendar2023/24/25",classification="company_reported_empirical",evidence="data/processed/rare_earths/observations_asof_freeze.csv"),
+    claims=[dict(claim="All nine hypothetical constant-commitment scenarios pass sufficient restricted uniqueness bounds and numerical unilateral checks; neither feedback MPE nor unrestricted open-loop equilibrium is certified",classification="restricted_strategy_theoretical_scenario",evidence="outputs/scenario/constant_controls/analysis.json"),
+            dict(claim="Three additional 17^4 negative-adaptation starts reach 160 iterations without meeting unchanged Nash thresholds; no nonexistence conclusion follows",classification="numerical_solver_failure",evidence="outputs/scenario/negative_beta_extension/analysis.json"),
+            dict(claim="Nine selected issued Entity List schedules contain 488 destination-specific entry versions, not unique newly restricted firms; exact review exceptions and unresolved references remain separate",classification="primary_legal_printed_schedule_descriptive",evidence="data/processed/entity_schedules/entries.csv"),
+            dict(claim="Official reported filing, legal effective and Federal Register publication dates are distinct; printed datelines do not independently certify historical binaries or globally earliest disclosure",classification="primary_legal_reported_documentary_clocks",evidence="data/processed/entity_schedules/source_clocks.csv"),
+            dict(claim="Unfilled XML citation placeholders and one embedded rule-date token remain uncorrected source-format flags, not policy-opacity observations",classification="primary_source_quality_audit",evidence="outputs/empirical/semiconductors/entity_source_quality_flags.csv"),
+            dict(claim="MP NdPr oxide annual output 200/1294/2599 tonnes in calendar2023/24/25",classification="company_reported_empirical",evidence="data/processed/rare_earths/observations_asof_freeze.csv"),
             dict(claim="Lynas NdPr family 5655/6558/7260 tonnes in fiscal2024/25/26",classification="company_reported_empirical",evidence="data/processed/rare_earths_additional/lynas_annual_production.csv"),
             dict(claim="Issuer reports Texas HRE facility will no longer proceed; first Dy/Tb production is not stable qualified throughput",classification="company_reported_empirical",evidence="data/processed/rare_earths_additional/lynas_project_history.csv"),
             dict(claim="Six quarterly/annual native-product totals reconcile exactly for FY2024-2026",classification="empirical_accounting_check",evidence="data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv"),

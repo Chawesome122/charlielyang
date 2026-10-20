@@ -1,0 +1,13 @@
+{
+  "saved_configuration_type": "restricted",
+  "required_hosts_already_in_saved_configuration": {
+    "public-inspection.federalregister.gov": true,
+    "www.govinfo.gov": true,
+    "www.sec.gov": true,
+    "smic.cdn.shwebspace.com": true
+  },
+  "live_response": "Both new exact primary-PDF requests received CONNECT 403; see metadata/entity_schedule_acquisitions.jsonl",
+  "published_active_policy_independently_inspected": false,
+  "configuration_modified_this_continuation": false,
+  "note": "Saved draft is not evidence of applied live policy; do not repeat unchanged denied requests or replace the already-populated allowlist."
+}

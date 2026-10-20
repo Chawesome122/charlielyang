@@ -52,6 +52,8 @@ uv run python scripts/analyze_smic_operations.py
 uv run python scripts/discover_legal.py
 uv run python scripts/review_legal_discovery.py
 uv run python scripts/build_legal_provisions.py
+uv run python scripts/build_entity_schedules.py
+uv run python scripts/analyze_entity_schedules.py
 uv run python scripts/run_opacity.py
 uv run python scripts/run_physical.py
 uv run python scripts/run_forecast.py --draws 10000
@@ -147,3 +149,7 @@ The MP producer-measurement continuation retains native production/sales and mon
 After copying the paired host/container evidence to the standard diagnostic paths, run `uv run python scripts/verify_release.py --container-name weaponized-mp-measurement-check` to audit code/tests, data digests, source and normalized manuscript agreement, actual test outcomes and disconnected container identity. This checks a same-host container, not independent second-machine replication.
 
 The semiconductor operating-scale extension is documented in [the SMIC review](docs/smic_operations_review.md). [Versioned operating data](data/processed/smic_operations/observations.csv), source definitions and release clocks preserve measured reporting units. Nominal revenue decompositions and figures in `outputs/empirical/semiconductors/` do not assign target-capability or access scores.
+
+The [party-level legal review](docs/entity_schedules_review.md) documents 488 entry versions in nine selected original Entity List schedules, with exact review conditions and filing/effective/publication clocks. [Entries](data/processed/entity_schedules/entries.csv) include aliases, address blocks and revisions; they are not unique newly restricted firms or numerical access losses. The action crosswalk supports 395 additions / 92 revisions, with one spelling-discrepancy addition candidate held provisional. Source insertion markers remain visible and do not enter SPOI.
+
+The reciprocal benchmark and further failed fine-grid attempts are reviewed in [constant-controls review](docs/constant_controls_review.md) and [negative-adaptation review](docs/negative_beta_extension_review.md). Their outputs are scenario-only. Regenerate the nine constant-commitment scenarios with `uv run python scripts/run_constant_controls.py`. Re-audit the additional saved negative-beta arrays with `uv run python scripts/audit_game.py --out outputs/scenario/negative_beta_extension` followed by `uv run python scripts/analyze_negative_extension.py`; `scripts/replicate.py --full` also re-solves their registered three starts. Passing archive checks does not mean their failed Nash thresholds passed.

@@ -1,0 +1,4 @@
+                  baseline  n_origins  mean_absolute_error  mean_squared_error                                         interpretation
+           historical_mean          2          6882.833333        5.395861e+07 descriptive_n_2_single_mine_no_statistical_skill_claim
+              linear_trend          2          3944.766667        2.070244e+07 descriptive_n_2_single_mine_no_statistical_skill_claim
+zero_new_build_persistence          2          6045.500000        4.609308e+07 descriptive_n_2_single_mine_no_statistical_skill_claim

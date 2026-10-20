@@ -1,0 +1,10 @@
+scenario,passed,numerical_ODE_interval_certified
+adaptation_negative,True,False
+adaptation_zero,True,False
+adaptation_positive,True,False
+patient,True,False
+impatient,True,False
+substitution,True,False
+complementarity,True,False
+industrial_subsidy_growth,True,False
+foreign_licensing_relaxation,True,False

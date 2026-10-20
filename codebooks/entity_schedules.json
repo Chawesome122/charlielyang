@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "freeze": "2026-10-11",
+  "scope": "Complete printed schedules in all nine additional archived rules marked ENTITY_SCOPE_MAPPING_REQUIRED; selected query corpus, not all Entity List law or newly listed firms.",
+  "unit": "destination-specific printed entry version, retaining aliases/addresses and revisions",
+  "documents": [
+    {
+      "document_number": "2023-04558",
+      "source_id": "LEGAL-DOC-2023-04558-TEXT",
+      "metadata_source_id": "LEGAL-DOC-2023-04558-META",
+      "source_sha256": "3d8f67c5edf2d0e2e78416a6965737d2f5b4ec20882e8c0f7ddcd5b0f85debeb",
+      "metadata_sha256": "c68beebdd0cffb8f9965ea620ea4e0ec477b144e7aa97303a4be8e5009dbc31e",
+      "publication_date": "2023-03-06",
+      "effective_date": "2023-03-02",
+      "title": "Additions and Revisions of Entities to the Entity List",
+      "expected_printed_entries": 48,
+      "expected_table_rows": 125,
+      "country_headings": [
+        "BELARUS",
+        "BURMA",
+        "CHINA, PEOPLE'S REPUBLIC OF",
+        "PAKISTAN",
+        "RUSSIA",
+        "TAIWAN"
+      ],
+      "reported_filing_date": "2023-03-02",
+      "schedule_action": "mixed_document_addition_or_revision_requires_entry_adjudication"
+    },
+    {
+      "document_number": "2023-07840",
+      "source_id": "LEGAL-DOC-2023-07840-TEXT",
+      "metadata_source_id": "LEGAL-DOC-2023-07840-META",
+      "source_sha256": "76f8b7de099ebb376f3753128c84f95b895b00787027b028859b65a1a6952bcc",
+      "metadata_sha256": "cac2b8d69ad1690ff00cc442ce6aefbe10ed5e36cb2a220e4c2e50533c218c4f",
+      "publication_date": "2023-04-17",
+      "effective_date": "2023-04-12",
+      "title": "Additions and Revisions of Entities to the Entity List",
+      "expected_printed_entries": 34,
+      "expected_table_rows": 75,
+      "country_headings": [
+        "ARMENIA",
+        "CHINA, PEOPLE'S REPUBLIC OF",
+        "MALTA",
+        "RUSSIA",
+        "SINGAPORE",
+        "SPAIN",
+        "SYRIA",
+        "TURKEY",
+        "UNITED ARAB EMIRATES",
+        "UZBEKISTAN"
+      ],
+      "reported_filing_date": "2023-04-12",
+      "schedule_action": "mixed_document_addition_or_revision_requires_entry_adjudication"
+    },
+    {
+      "document_number": "2023-22536",
+      "source_id": "LEGAL-DOC-2023-22536-TEXT",
+      "metadata_source_id": "LEGAL-DOC-2023-22536-META",
+      "source_sha256": "cca75bed421b31cef17f81d9ffbe1bd57f5a03ef641e76602c9a786b90c5a792",
+      "metadata_sha256": "f353dff95b6cc8d0ad85c35aa7de70d5a82a2a3af334fe270c7d8bac9b665a40",
+      "publication_date": "2023-10-11",
+      "effective_date": "2023-10-06",
+      "title": "Addition of Entities to the Entity List",
+      "expected_printed_entries": 52,
+      "expected_table_rows": 204,
+      "country_headings": [
+        "CHINA, PEOPLE'S REPUBLIC OF",
+        "ESTONIA",
+        "FINLAND",
+        "GERMANY",
+        "INDIA",
+        "TURKEY",
+        "UNITED ARAB EMIRATES",
+        "UNITED KINGDOM"
+      ],
+      "reported_filing_date": "2023-10-06",
+      "schedule_action": "addition"
+    },
+    {
+      "document_number": "2024-10485",
+      "source_id": "LEGAL-DOC-2024-10485-TEXT",
+      "metadata_source_id": "LEGAL-DOC-2024-10485-META",
+      "source_sha256": "1fbee1c6e37e160b12b3ef4394a822dbe9769a3939ffec0a3653d16cd87aa26e",
+      "metadata_sha256": "0176daba1a9eb22f45bbcfb4913484833f07600ae4f1cd62ee9c0ed817940cf5",
+      "publication_date": "2024-05-14",
+      "effective_date": "2024-05-09",
+      "title": "Additions of Entities to the Entity List",
+      "expected_printed_entries": 37,
+      "expected_table_rows": 112,
+      "country_headings": [
+        "CHINA, PEOPLE'S REPUBLIC OF"
+      ],
+      "reported_filing_date": "2024-05-09",
+      "schedule_action": "addition"
+    },
+    {
+      "document_number": "2024-19130",
+      "source_id": "LEGAL-DOC-2024-19130-TEXT",
+      "metadata_source_id": "LEGAL-DOC-2024-19130-META",
+      "source_sha256": "55aeef7963311fd5a81f0681d1621985239303535ed872566b36dbdbac262be6",
+      "metadata_sha256": "c40601566aff6fdd631c159f830c9107491c8c372946efa335dfaf04c745d2f0",
+      "publication_date": "2024-08-27",
+      "effective_date": "2024-08-27",
+      "title": "Revisions to the Entity List",
+      "expected_printed_entries": 131,
+      "expected_table_rows": 252,
+      "country_headings": [
+        "CANADA",
+        "CHINA, PEOPLE'S REPUBLIC OF",
+        "CRIMEA REGION OF UKRAINE",
+        "CYPRUS",
+        "IRAN",
+        "KAZAKHSTAN",
+        "KYRGYZSTAN",
+        "RUSSIA",
+        "TURKEY",
+        "UKRAINE",
+        "UNITED ARAB EMIRATES"
+      ],
+      "reported_filing_date": "2024-08-23",
+      "schedule_action": "addition"
+    },
+    {
+      "document_number": "2024-25411",
+      "source_id": "LEGAL-DOC-2024-25411-TEXT",
+      "metadata_source_id": "LEGAL-DOC-2024-25411-META",
+      "source_sha256": "6ff62857cc8f6f9ec9bc394b69e581e6dc26d12062dd022bb4411ef19049cfe8",
+      "metadata_sha256": "b73a283534298c16a9dd32f1e9c8d3c20a47f4412b21057cc5ad7bb5a3b143c5",
+      "publication_date": "2024-11-01",
+      "effective_date": "2024-11-01",
+      "title": "Additions and Revisions of Entities to the Entity List",
+      "expected_printed_entries": 98,
+      "expected_table_rows": 191,
+      "country_headings": [
+        "CHINA, PEOPLE'S REPUBLIC OF",
+        "ESTONIA",
+        "FINLAND",
+        "INDIA",
+        "MALAYSIA",
+        "RUSSIA",
+        "SINGAPORE",
+        "TURKEY",
+        "UNITED ARAB EMIRATES",
+        "UNITED KINGDOM"
+      ],
+      "reported_filing_date": "2024-10-30",
+      "schedule_action": "mixed_document_addition_or_revision_requires_entry_adjudication"
+    },
+    {
+      "document_number": "2025-00480",
+      "source_id": "LEGAL-DOC-2025-00480-TEXT",
+      "metadata_source_id": "LEGAL-DOC-2025-00480-META",
+      "source_sha256": "acfb37b9e2511a633a26c07e7b61c546e8e45719efb70ad74c9e6cb0df704bce",
+      "metadata_sha256": "f25e777441f812174229bd47667fcb13dd46565e4eb0e66e6d0630c158b2bb03",
+      "publication_date": "2025-01-16",
+      "effective_date": "2025-01-16",
+      "title": "Additions to the Entity List",
+      "expected_printed_entries": 16,
+      "expected_table_rows": 42,
+      "country_headings": [
+        "CHINA, PEOPLE'S REPUBLIC OF",
+        "SINGAPORE"
+      ],
+      "reported_filing_date": "2025-01-15",
+      "schedule_action": "addition"
+    },
+    {
+      "document_number": "2025-05427",
+      "source_id": "LEGAL-DOC-2025-05427-TEXT",
+      "metadata_source_id": "LEGAL-DOC-2025-05427-META",
+      "source_sha256": "5a794caaa7b1a14b8cf412e46ff1ccd82d77a7d5c251ecba353f56c7f647a5eb",
+      "metadata_sha256": "39be751b1fa8ef11b251f71620c219a0e43293ebe9ca33251db72344f758fa6e",
+      "publication_date": "2025-03-28",
+      "effective_date": "2025-03-25",
+      "title": "Additions to the Entity List",
+      "expected_printed_entries": 12,
+      "expected_table_rows": 37,
+      "country_headings": [
+        "CHINA, PEOPLE'S REPUBLIC OF",
+        "TAIWAN"
+      ],
+      "reported_filing_date": "2025-03-25",
+      "schedule_action": "addition"
+    },
+    {
+      "document_number": "2025-17893",
+      "source_id": "LEGAL-DOC-2025-17893-TEXT",
+      "metadata_source_id": "LEGAL-DOC-2025-17893-META",
+      "source_sha256": "101959e7cf79faf5caabf9462c62abbf9bbf3adc2a86784f8776dd56c84ef2e0",
+      "metadata_sha256": "96cf8ebfecde760b76b0f7db66836630efa1bc20096440541ee89c524f76da4d",
+      "publication_date": "2025-09-16",
+      "effective_date": "2025-09-12",
+      "title": "Additions and Revisions to the Entity List",
+      "expected_printed_entries": 60,
+      "expected_table_rows": 138,
+      "country_headings": [
+        "BELARUS",
+        "CHINA, PEOPLE'S REPUBLIC OF",
+        "INDIA",
+        "IRAN",
+        "PAKISTAN",
+        "RUSSIA",
+        "SINGAPORE",
+        "TAIWAN",
+        "TURKEY",
+        "UNITED ARAB EMIRATES"
+      ],
+      "reported_filing_date": "2025-09-12",
+      "schedule_action": "mixed_document_addition_or_revision_requires_entry_adjudication"
+    }
+  ]
+}

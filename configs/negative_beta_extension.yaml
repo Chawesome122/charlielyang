@@ -1,0 +1,36 @@
+classification: hypothetical_numerical_robustness_not_empirical_calibration
+purpose: Additional initializations after previously recorded negative-beta mid-start
+  fine-grid failures; no equilibrium existence/nonexistence claim from iteration outcome
+base_config: configs/game.yaml
+scenario: adaptation_negative
+grid: 17
+starts:
+- zero
+- one
+- random
+max_iterations: 160
+seed: 101
+unchanged_thresholds:
+  deviation_gain: 1.0e-08
+  best_response_action: 1.0e-07
+  scaled_hjb: 1.0e-08
+  linear_rtol: 1.0e-11
+output: outputs/scenario/negative_beta_extension
+command:
+- scripts/run_game.py
+- --grids
+- '17'
+- --scenarios
+- adaptation_negative
+- --starts
+- zero
+- one
+- random
+- --max-iterations
+- '160'
+- --out
+- outputs/scenario/negative_beta_extension
+- --no-figures
+solver_source_sha256: 8b63472cc06284d71ebc9e26ee1b35d774f47b1fdd7df6574b8c105cab0b4794
+interpretation: Each initialization is a deterministic numerical attempt, not an independent
+  empirical observation or a new parameter estimate.

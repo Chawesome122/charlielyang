@@ -1,0 +1,8 @@
+RUN scenario=adaptation_negative grid=17 nodes=83521 starts=['zero', 'one', 'random']
+CHECKPOINT adaptation_negative_n17_zero: not_solved; seconds=223.12
+CHECKPOINT adaptation_negative_n17_one: not_solved; seconds=255.59
+CHECKPOINT adaptation_negative_n17_random: not_solved; seconds=226.90
+RESULT adaptation_negative_n17_zero: not_solved; gap=3.2e-05; action_residual=0.0118; seconds=223.12
+RESULT adaptation_negative_n17_one: not_solved; gap=0.001; action_residual=0.0768; seconds=255.59
+RESULT adaptation_negative_n17_random: not_solved; gap=0.0248; action_residual=0.311; seconds=226.90
+Wrote outputs/scenario/negative_beta_extension/summary_adaptation_negative_17.json

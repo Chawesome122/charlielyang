@@ -1,0 +1,4 @@
+  File "/workspace/charlielyang/scripts/analyze_entity_schedules.py", line 74
+    table = frame.groupby("document_number").agg(entries=("entry_id","size"), china=("destination_group",lambda s: int(s.eq("China printed heading").sum())), mixed=("review_category",lambda s:int(s.eq("mixed_denial_and_case_by_case").sum())), cross_reference=("review_category",lambda s:int(s.eq("cross_referenced_review_unresolved").sum()))
+                                                ^
+SyntaxError: '(' was never closed

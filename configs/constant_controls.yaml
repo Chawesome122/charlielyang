@@ -1,0 +1,30 @@
+classification: hypothetical_scenario_not_empirical_calibration
+concept: restricted_constant_path_Nash_at_fixed_initial_state
+base_config: configs/game.yaml
+state_order: [x, y, m, n]
+initial_state: [0.25, 0.25, 0.0, 0.0]
+initial_china_actions: [0.0, 0.5, 1.0]
+scenarios:
+  - adaptation_negative
+  - adaptation_zero
+  - adaptation_positive
+  - patient
+  - impatient
+  - substitution
+  - complementarity
+  - industrial_subsidy_growth
+  - foreign_licensing_relaxation
+discount_exponents_integrated: 32.0
+integration_rtol: 1.0e-10
+integration_atol: 1.0e-12
+refinement_rtol: 2.0e-12
+refinement_atol: 2.0e-14
+action_tolerance: 1.0e-10
+validation_tolerance: 1.0e-8
+deviation_mesh: 129
+nonidentification:
+  - Both players commit to constant paths at time zero at a hypothetical fixed initial state.
+  - This is not a full feedback or unrestricted open-loop equilibrium.
+  - State, technology, legal and strategic coefficients are not empirically identified.
+  - Analytical bounds certify uniqueness only within the restricted commitment game.
+  - Standard ODE integration is cross-checked but is not interval certified.

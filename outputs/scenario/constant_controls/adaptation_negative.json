@@ -1,0 +1,98 @@
+{
+  "parameters": {
+    "g_c": 0.12,
+    "g_u": 0.1,
+    "beta_c": -0.7,
+    "beta_u": -0.7,
+    "delta_c": 0.08,
+    "delta_u": 0.07,
+    "kappa_c": 0.5,
+    "kappa_u": 0.5,
+    "rho_u": 0.2,
+    "rho_c": 0.2,
+    "a_u": 0.8,
+    "a_c": 0.8,
+    "d_u": 0.5,
+    "d_c": 0.5,
+    "k_u": 1.0,
+    "k_c": 1.0,
+    "h_u": 0.05,
+    "h_c": 0.05,
+    "b_u": 0.2,
+    "b_c": 0.2,
+    "q_u": 0.15,
+    "q_c": 0.15
+  },
+  "initial_state": [
+    0.25,
+    0.25,
+    0.0,
+    0.0
+  ],
+  "solution": {
+    "concept": "restricted_constant_path_Nash_at_fixed_initial_state",
+    "certificate": {
+      "certified": true,
+      "players": [
+        {
+          "discounted_first_sensitivity_bound": 1.236784674331158,
+          "discounted_second_sensitivity_bound": 1.4776038042959818,
+          "strong_concavity_lower_bound": 1.8390614776333618,
+          "best_response_lipschitz_bound": 0.40781670929519687
+        },
+        {
+          "discounted_first_sensitivity_bound": 1.094918379261994,
+          "discounted_second_sensitivity_bound": 1.2459813683816807,
+          "strong_concavity_lower_bound": 2.2513454984754646,
+          "best_response_lipschitz_bound": 0.3331341193556807
+        }
+      ],
+      "br_composition_contraction_bound": 0.13585766030958707,
+      "scope": "Unique Nash within commitment to constant controls at a fixed initial state; no full dynamic equilibrium implication"
+    },
+    "runs": [
+      {
+        "initial_china_action": 0.0,
+        "u": 0.6286437759799739,
+        "c": 0.6382233776361707,
+        "iterations": 8,
+        "best_response_action_residual": 2.09277040141842e-13
+      },
+      {
+        "initial_china_action": 0.5,
+        "u": 0.6286437759797283,
+        "c": 0.6382233776347005,
+        "iterations": 7,
+        "best_response_action_residual": 1.6393553181615061e-12
+      },
+      {
+        "initial_china_action": 1.0,
+        "u": 0.6286437759800301,
+        "c": 0.6382233776365075,
+        "iterations": 8,
+        "best_response_action_residual": 1.1823875212257917e-13
+      }
+    ],
+    "multiple_start_action_spread": 1.4701573292086323e-12,
+    "continuous_feedback_mpe_certified": false,
+    "unrestricted_open_loop_equilibrium_certified": false,
+    "parameters_empirically_identified": false
+  },
+  "payoff": {
+    "values": [
+      0.1885205685134666,
+      0.28452100485327203
+    ],
+    "tail_absolute_bounds": [
+      1.3772280034639914e-13,
+      1.3772280034639914e-13
+    ],
+    "horizon_years": 160.0,
+    "scope": "Original-game payoffs of committed constant paths; finite integration plus analytic omitted-tail bounds"
+  },
+  "validation": {
+    "scenario": "adaptation_negative",
+    "passed": true,
+    "numerical_ODE_interval_certified": false
+  }
+}

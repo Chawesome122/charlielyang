@@ -1,0 +1,7 @@
+{
+  "scope": "Limited explicit credential-pattern scan of current nonignored text files; not a complete security audit",
+  "text_files_checked": 1287,
+  "matches": [],
+  "files_over_50MiB": [],
+  "copyrighted_literature_ignored": true
+}

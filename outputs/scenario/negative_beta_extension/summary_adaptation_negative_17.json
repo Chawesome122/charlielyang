@@ -1,0 +1,231 @@
+{
+  "classification": "hypothetical_scenarios_not_empirical_results",
+  "information_freeze": "2026-10-11",
+  "algorithm": {
+    "method": "joint",
+    "max_iterations": 160,
+    "starts": [
+      "zero",
+      "one",
+      "random"
+    ]
+  },
+  "config_sha256": "8c36ca06ed22e8ca42516c2b677cadea4b0a82e21065b77c103538cc2e0c0d3b",
+  "benchmark": {
+    "unconstrained_nonnegative_root": 0.46557123187676797,
+    "policy": 0.46557123187676797,
+    "polynomial_residual": -1.1102230246251565e-16,
+    "myopic": 1.0,
+    "objective": 0.20929391019635504,
+    "scope": "one_sided_constant_control_scenario"
+  },
+  "runs": [
+    {
+      "start": "zero",
+      "status": "not_solved",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": -0.7,
+        "beta_u": -0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 223.12155706598423,
+      "peak_process_rss_kib": 141084,
+      "max_deviation_gain": 3.2022365055062174e-05,
+      "best_response_action_residual": 0.01184872717563945,
+      "hjb_residuals": [
+        1.0951328732744514e-10,
+        1.0059703070552928e-11
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 39,
+            "linear_residual_inf": 1.0951328732744514e-10,
+            "reward_inf": 0.534946057301407
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 41,
+            "linear_residual_inf": 1.0059703070552928e-11,
+            "reward_inf": 0.5351342625240328
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.2550371819816064
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {},
+      "scenario": "adaptation_negative",
+      "archive": "outputs/scenario/negative_beta_extension/adaptation_negative_n17_zero.npz",
+      "archive_sha256": "f0aa8c148634df9865021cf68d0109b6d993d455fff7586a309e0e35a042aec6"
+    },
+    {
+      "start": "one",
+      "status": "not_solved",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": -0.7,
+        "beta_u": -0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 255.5928861630091,
+      "peak_process_rss_kib": 145316,
+      "max_deviation_gain": 0.0010037498071694406,
+      "best_response_action_residual": 0.07680392387199142,
+      "hjb_residuals": [
+        1.0106984693614152e-10,
+        1.3143730548392796e-10
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 38,
+            "linear_residual_inf": 1.0106984693614152e-10,
+            "reward_inf": 0.5349460185491417
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 36,
+            "linear_residual_inf": 1.3143730548392796e-10,
+            "reward_inf": 0.5351342235561292
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.24954121600603685
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 0.10707961784916797
+      },
+      "scenario": "adaptation_negative",
+      "archive": "outputs/scenario/negative_beta_extension/adaptation_negative_n17_one.npz",
+      "archive_sha256": "8ca119c0a56bc89857dfeb9ec377b27c5118e0467e23cbeb9fc26707435c097d"
+    },
+    {
+      "start": "random",
+      "status": "not_solved",
+      "continuous_mpe_certified": false,
+      "parameters": {
+        "g_c": 0.12,
+        "g_u": 0.1,
+        "beta_c": -0.7,
+        "beta_u": -0.7,
+        "delta_c": 0.08,
+        "delta_u": 0.07,
+        "kappa_c": 0.5,
+        "kappa_u": 0.5,
+        "rho_u": 0.2,
+        "rho_c": 0.2,
+        "a_u": 0.8,
+        "a_c": 0.8,
+        "d_u": 0.5,
+        "d_c": 0.5,
+        "k_u": 1.0,
+        "k_c": 1.0,
+        "h_u": 0.05,
+        "h_c": 0.05,
+        "b_u": 0.2,
+        "b_c": 0.2,
+        "q_u": 0.15,
+        "q_c": 0.15
+      },
+      "grid_size": 17,
+      "nodes": 83521,
+      "elapsed_seconds": 226.90193355400697,
+      "peak_process_rss_kib": 149020,
+      "max_deviation_gain": 0.024822548267273203,
+      "best_response_action_residual": 0.3113070579219934,
+      "hjb_residuals": [
+        1.8749371499815481e-10,
+        1.3972020762587078e-10
+      ],
+      "evaluation": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 39,
+            "linear_residual_inf": 1.8749371499815481e-10,
+            "reward_inf": 0.534944965216363
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 37,
+            "linear_residual_inf": 1.3972020762587078e-10,
+            "reward_inf": 0.535134766435439
+          }
+        ],
+        "matrix_nnz": 417605,
+        "sparse_bytes": 5345348,
+        "elapsed_seconds": 0.22571975699975155
+      },
+      "failure": null,
+      "pairwise_policy_sup_distances": {
+        "zero": 0.2624632530743538,
+        "one": 0.2622299399723971
+      },
+      "scenario": "adaptation_negative",
+      "archive": "outputs/scenario/negative_beta_extension/adaptation_negative_n17_random.npz",
+      "archive_sha256": "c7ac6f773e2a73c0b8ef8fc51f20cce930ca593b4fff344bd0b0e12e7f01b19c"
+    }
+  ],
+  "grid_refinement": []
+}

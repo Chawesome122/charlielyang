@@ -1,0 +1,4 @@
+start,grid_size,nodes,iterations,reported_status,accepted_finite_grid_candidate,max_unilateral_gain,best_response_action_residual,max_hjb_policy_evaluation_residual,violating_grid_nodes,unweighted_violating_grid_fraction,continuous_mpe_certified,empirical_parameter_estimate
+zero,17,83521,160,not_solved,False,3.2022365055062174e-05,0.01184872717563945,1.0951572981809932e-10,78214,0.9364590941200417,False,False
+one,17,83521,160,not_solved,False,0.0010037498071694406,0.07680392387199142,1.314371944616255e-10,79273,0.9491385400079022,False,False
+random,17,83521,160,not_solved,False,0.024822548267273203,0.3113070579219934,1.874938884705024e-10,83379,0.9982998287855749,False,False

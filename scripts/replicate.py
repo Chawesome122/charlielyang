@@ -43,10 +43,12 @@ def main():
         ["scripts/build_citation_audit.py"], ["scripts/run_semiconductors.py"],
         ["scripts/build_smic_operations.py"], ["scripts/analyze_smic_operations.py"],
         ["scripts/discover_legal.py"], ["scripts/review_legal_discovery.py"], ["scripts/build_legal_provisions.py"],
+        ["scripts/build_entity_schedules.py"], ["scripts/analyze_entity_schedules.py"],
         ["scripts/run_opacity.py"], ["scripts/run_physical.py"],
         ["scripts/run_forecast.py", "--draws", "10000"],
         ["scripts/run_empirical_baselines.py"],
         ["scripts/run_lynas_baselines.py"], ["scripts/analyze_mp_measurement.py"],
+        ["scripts/run_constant_controls.py"],
     ]
     if args.full:
         commands += [
@@ -56,7 +58,12 @@ def main():
             ["scripts/run_game.py", "--grids", "17", "--starts", "mid", "--scenarios", "adaptation_negative", "--method", "alternating", "--max-iterations", "60", "--out", "outputs/scenario/game/alternate_attempt"],
             ["scripts/run_game.py", "--grids", "7", "--starts", "mid", "--scenarios", "adaptation_negative", "adaptation_zero", "patient", "impatient", "substitution", "complementarity", "industrial_subsidy_growth", "foreign_licensing_relaxation"],
         ]
-    commands += [["scripts/audit_original_quotes.py"], ["scripts/plot_evidence_extensions.py"], ["scripts/plot_white_mesa.py"],
+    if args.full:
+        import yaml
+        registry = yaml.safe_load((ROOT/"configs/negative_beta_extension.yaml").read_text())
+        commands.append(registry["command"])
+    commands += [["scripts/audit_game.py", "--out", "outputs/scenario/negative_beta_extension"],
+                 ["scripts/analyze_negative_extension.py"], ["scripts/audit_original_quotes.py"], ["scripts/plot_evidence_extensions.py"], ["scripts/plot_white_mesa.py"],
                  ["scripts/audit_game.py"], ["scripts/validate.py"], ["-m", "pytest", "-q", "--junitxml=outputs/diagnostics/pytest.xml"],
                  ["scripts/report.py"]]
     steps = []

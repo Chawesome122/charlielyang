@@ -1,6 +1,8 @@
 """Recheck legacy quotations and quarterly KPI cells against original bytes."""
 import json
+import hashlib
 from pathlib import Path
+import xml.etree.ElementTree as ET
 
 import pandas as pd
 
@@ -8,6 +10,9 @@ from weaponized.io.original_text import evidence_pdf_page, verified_original_tex
 from weaponized.rare_earths.reported_output import parse_lynas_quarterly_front_page
 from weaponized.rare_earths.producer_measurement import parse_mp_tables
 from weaponized.semiconductors.operations import parse_smic_operations
+from weaponized.semiconductors.entity_schedules import parse_entity_schedule, reported_filing_date, adjudicate_entry_actions
+from weaponized.semiconductors.legal import issued_xml_text
+from weaponized.semiconductors.provisions import normalize_text
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -87,11 +92,52 @@ def main():
         checks.append(dict(table=table,row_index=number,source_id=sid,source_sha256=source["sha256"],pdf_page=row["pdf_page"],
                            method="reparse exact original PDF page, named row/phrase, period header, unit and source dateline",
                            passed=expected is not None and all(row[k]==expected[k] for k in fields) and row["source_sha256"]==source["sha256"] and row["info_public_date"]==smic_specs[sid]["info_public_date"]))
+    # XML schedules require explicit original XML locators and structural entry
+    # re-extraction. Do not treat a derived flattened XML/text aid as evidence.
+    entity_book=json.loads((ROOT/"codebooks/entity_schedules.json").read_text())
+    legal_sources={r["source_id"]:r for r in map(json.loads,(ROOT/"metadata/legal_discovery_acquisitions.jsonl").read_text().splitlines()) if r["status"]=="downloaded"}
+    entity_originals={}
+    action_crosswalk=pd.read_csv(ROOT/"codebooks/entity_entry_actions.csv",keep_default_na=False)
+    for spec in entity_book["documents"]:
+        source=legal_sources[spec["source_id"]]
+        payload=(ROOT/source["archive_path"]).read_bytes()
+        if hashlib.sha256(payload).hexdigest()!=spec["source_sha256"] or source["sha256"]!=spec["source_sha256"]:
+            raise ValueError("Original Entity List snapshot hash mismatch")
+        issued_xml_text(payload,spec["document_number"])
+        root=ET.fromstring(payload)
+        raw_entries=parse_entity_schedule(payload,spec)["entries"]
+        crosswalk=action_crosswalk[action_crosswalk.source_id.eq(spec["source_id"])].to_dict("records")
+        parsed_entries={x["entry_id"]:x for x in adjudicate_entry_actions(payload,spec,raw_entries,crosswalk)}
+        entity_originals[spec["source_id"]]=(source,root,parsed_entries,spec)
+    for name in ["source_rows","table_notes","amendatory_instructions","source_clocks"]:
+        table=f"data/processed/entity_schedules/{name}.csv"
+        for number,row in enumerate(pd.read_csv(ROOT/table,keep_default_na=False).to_dict("records")):
+            source,root,_,spec=entity_originals[row["source_id"]]
+            fields=[("xpath","quote")]+([("filing_xpath","filing_quote")] if name=="source_clocks" else [])
+            for xpath_field,quote_field in fields:
+                nodes=root.findall(row[xpath_field])
+                checks.append(dict(table=table,row_index=number,source_id=row["source_id"],source_sha256=source["sha256"],pdf_page=None,
+                                   method="exact original issued-XML XPath and text; filing/effective dates separate",
+                                   passed=len(nodes)==1 and normalize_text(nodes[0])==row[quote_field] and row["source_sha256"]==source["sha256"]))
+    table="data/processed/entity_schedules/entries.csv"
+    for number,row in enumerate(pd.read_csv(ROOT/table,keep_default_na=False).to_dict("records")):
+        source,root,parsed,spec=entity_originals[row["source_id"]]
+        expected=parsed.get(row["entry_id"])
+        fields=["destination","country_xpath","start_row_ordinal","start_xpath","entity_first_cell","entity_text",
+                "source_row_ordinals","license_scope_text","review_policy_text","citation_cell_text","review_category",
+                "entry_kind","license_requirement","license_footnote_refs","unprinted_footnote_refs","action_adjudication",
+                "action_evidence_method","action_source_xpath","instruction_name","name_variant_requires_expert_review"]
+        blank_scores=all(row[k]=="" for k in ["observed_license_outcome","foreign_access_score","domestic_capability_score","causal_effect"])
+        passed=expected is not None and all(row[k]==expected[k] for k in fields) and blank_scores and not row["current_law_consolidation_verified"]
+        passed &= row["source_sha256"]==source["sha256"] and row["info_public_date"]==reported_filing_date(normalize_text(root.find("./FRDOC")),spec["document_number"])
+        passed &= row["publication_date"]==spec["publication_date"] and row["effective_date"]==spec["effective_date"]
+        checks.append(dict(table=table,row_index=number,source_id=row["source_id"],source_sha256=source["sha256"],pdf_page=None,
+                           method="reparse original five-column entry, aliases/continuations, destination, notes, review and dateline; unknown outcomes stay blank",passed=passed))
     out = ROOT/"data/processed/source_integrity"
     out.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(checks).to_csv(out/"original_quote_audit.csv", index=False)
     result = dict(passed=all(row["passed"] for row in checks), checks=len(checks),
-                  tables=len(tables)+3, original_sources=len({row["source_id"] for row in checks}),
+                  tables=len(tables)+3+5, original_sources=len({row["source_id"] for row in checks}),
                   failures=[row for row in checks if not row["passed"]],
                   editable_text_aids_used=False, independent_production_measurement=False,
                   historical_source_byte_vintage_certified=False,

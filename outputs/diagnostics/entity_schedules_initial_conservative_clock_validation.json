@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "freeze": "2026-10-11",
+  "original_rules": 9,
+  "printed_entry_versions": 488,
+  "original_table_rows": 1176,
+  "table_notes": 6,
+  "amendatory_instructions": 150,
+  "source_clock_checks": 9,
+  "vintage_checks": 9,
+  "distinct_printed_destinations": 27,
+  "review_categories": {
+    "policy_of_denial": 186,
+    "presumption_of_denial": 156,
+    "mixed_denial_and_case_by_case": 126,
+    "cross_referenced_review_unresolved": 19,
+    "case_by_case": 1
+  },
+  "printed_address_entries": 8,
+  "source_row_counts": {
+    "2023-04558": 125,
+    "2023-07840": 75,
+    "2023-22536": 204,
+    "2024-10485": 112,
+    "2024-19130": 252,
+    "2024-25411": 191,
+    "2025-00480": 42,
+    "2025-05427": 37,
+    "2025-17893": 138
+  },
+  "unique_new_firms_identified": false,
+  "complete_current_law_verified": false,
+  "observed_license_outcomes": false,
+  "access_loss_or_capability_identified": false,
+  "independent_legal_coding": false,
+  "original_at_vintage_bytes_certified": false
+}
