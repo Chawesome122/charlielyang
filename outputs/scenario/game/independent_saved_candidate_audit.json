@@ -2428,7 +2428,7 @@
         ],
         "matrix_nnz": 11991,
         "sparse_bytes": 153500,
-        "elapsed_seconds": 0.006301772998995148
+        "elapsed_seconds": 0.0070815039944136515
       }
     },
     {
@@ -2459,7 +2459,7 @@
         ],
         "matrix_nnz": 417571,
         "sparse_bytes": 5344940,
-        "elapsed_seconds": 0.33565665599599015
+        "elapsed_seconds": 0.2541500380029902
       }
     },
     {
@@ -2490,7 +2490,7 @@
         ],
         "matrix_nnz": 972363,
         "sparse_bytes": 12446284,
-        "elapsed_seconds": 0.9285359639907256
+        "elapsed_seconds": 0.8899395659973379
       }
     },
     {
@@ -2521,7 +2521,7 @@
         ],
         "matrix_nnz": 417605,
         "sparse_bytes": 5345348,
-        "elapsed_seconds": 0.03146961299353279
+        "elapsed_seconds": 0.05193340699770488
       }
     },
     {
@@ -2552,7 +2552,7 @@
         ],
         "matrix_nnz": 972405,
         "sparse_bytes": 12446788,
-        "elapsed_seconds": 0.08811383400461636
+        "elapsed_seconds": 0.08756694899057038
       }
     }
   ],

@@ -47,6 +47,8 @@ uv run python scripts/build_project_registry.py
 uv run python scripts/audit_project_observations.py
 uv run python scripts/build_evidence_coverage.py
 uv run python scripts/run_semiconductors.py
+uv run python scripts/build_smic_operations.py
+uv run python scripts/analyze_smic_operations.py
 uv run python scripts/discover_legal.py
 uv run python scripts/review_legal_discovery.py
 uv run python scripts/build_legal_provisions.py
@@ -59,10 +61,12 @@ uv run python scripts/plot_evidence_extensions.py
 uv run python scripts/plot_white_mesa.py
 uv run python scripts/audit_game.py
 uv run python scripts/report.py
-cd manuscript && latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+uv run python scripts/build_manuscript.py
 ```
 
 `--no-pdf` skips only PDF compilation on machines without TeX. `make reproduce` and `make reproduce-full` use the local `.venv` created by uv. Do not change the dependency lock during replication.
+
+The manuscript build checks auxiliary-file convergence and the final TeX log, rather than accepting a zero latexmk exit alone. Evidence is in `outputs/diagnostics/manuscript_convergence.json`; unresolved references, citations, rerun requests or overflow stop replication.
 
 ## Clean container
 
@@ -141,3 +145,5 @@ Use this isolated checkout; do not create a worktree. Begin with `RESEARCH_STATU
 The MP producer-measurement continuation retains native production/sales and monetary inventory cells, missing states and source definitions. See [the review](docs/mp_measurement_review.md), [the versioned data](data/processed/mp_measurement/native_cell_versions.csv), and `outputs/empirical/rare_earths/mp_quarterly_baseline_scores.csv`. Its small quarterly baseline comparisons are not system-service forecasts.
 
 After copying the paired host/container evidence to the standard diagnostic paths, run `uv run python scripts/verify_release.py --container-name weaponized-mp-measurement-check` to audit code/tests, data digests, source and normalized manuscript agreement, actual test outcomes and disconnected container identity. This checks a same-host container, not independent second-machine replication.
+
+The semiconductor operating-scale extension is documented in [the SMIC review](docs/smic_operations_review.md). [Versioned operating data](data/processed/smic_operations/observations.csv), source definitions and release clocks preserve measured reporting units. Nominal revenue decompositions and figures in `outputs/empirical/semiconductors/` do not assign target-capability or access scores.

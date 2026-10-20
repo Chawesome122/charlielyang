@@ -158,6 +158,50 @@
       "passed": true
     },
     {
+      "path": "data/processed/smic_operations/observations.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/smic_operations/observations_asof_freeze.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/smic_operations/source_clocks.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/smic_operations/definitions.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/smic_operations/revenue_share_identities.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/smic_operations/capacity_presentation_audit.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/smic_operations/comparative_vintages.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/semiconductors/smic_wafer_revenue_ratios.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/empirical/semiconductors/smic_revenue_decompositions.csv",
+      "passed": true
+    },
+    {
+      "path": "manuscript/smic_operating_changes.tex",
+      "passed": true
+    },
+    {
+      "path": "data/processed/semiconductors/reported_financial_inputs.csv",
+      "passed": true
+    },
+    {
       "path": "data/processed/mp_measurement/native_cell_versions.csv",
       "passed": true
     },
@@ -238,14 +282,15 @@
   "full_prior_numerical_run": "outputs/diagnostics/container_validation.json",
   "current_numerical_core_comparison": "outputs/diagnostics/scientific_code_comparison.json",
   "test_results": {
-    "tests": 279,
+    "tests": 304,
     "test_failures": 0
   },
-  "extension_scope": "MP native production/sales and monetary inventories, source definitions, missing-state/reconciliation audit and descriptive quarterly baselines; existing White Mesa, original-source, engineering/legal and scenario pipeline",
+  "extension_scope": "SMIC operating scale and monetary inputs, original unit/denominator definitions and release clocks, descriptive nominal revenue identities; prior MP, White Mesa, engineering/legal, vintage and scenario modules",
   "executed_script_sha256": {
     "scripts/analyze_mp_measurement.py": "6e1da58b76cae7bb73c56fb7a53c43c1922cadd98eea91c651272e98b3810163",
+    "scripts/analyze_smic_operations.py": "0c685dffd27aad4029cc5c5738337f2b31dd5cde18da67710021ad738a2669b6",
     "scripts/audit_game.py": "aa7be615ee091d97890e9494eba378cd70ef52d9671396e231a36dd86565dffa",
-    "scripts/audit_original_quotes.py": "419f7573ec471e259b5efcb08784d3447c85ee5878f7cf3f9151cd79ded9ade5",
+    "scripts/audit_original_quotes.py": "5375987f1118d2ec92e2a6b48f8c72d42ad2769f011fd0fe093fb65755afa1be",
     "scripts/audit_project_observations.py": "34a842713f0ba51d2ef7785f16affdc615cfd7d68837171ad0e1d435fed58f2b",
     "scripts/build_citation_audit.py": "2080bedc97dd23026936e281777f1b9df66afc72d5a4c8457ff6864a112bab04",
     "scripts/build_container.py": "5d1ea16834abb7d3303ee48a2c78450c9a4e28bfd88c278ef5860b79baabc7c3",
@@ -256,23 +301,25 @@
     "scripts/build_legal_provisions.py": "55c9fbf19464f27e3c29d9507ec0739978e7f400227764f901607fb85802803f",
     "scripts/build_lynas_history.py": "580afce6518337e023fc8629275adbcce88e2847705466bbf4186b65544e12a9",
     "scripts/build_lynas_revisions.py": "7d0a12f80209940bcf88ce06cacc9df40e9e7c172a3be16e819037896dd08858",
+    "scripts/build_manuscript.py": "d16861d25b786dfd49d684b1f81514275d0d493edcefc568503cfceea2d4e27f",
     "scripts/build_mp_investment.py": "26789c69e523bc79f6eeb1dbe59fb5982e30f731f32dc38267d216c2da4709fe",
     "scripts/build_mp_measurement.py": "4b8f9cd00a14a32fcb04918fa099058a0da6c0be0435b8295dd0edf1887c09cc",
     "scripts/build_project_histories.py": "b53b40fd46446298c89e067c39abfe93538b8b4f38486b3652315d57f0e19499",
     "scripts/build_project_registry.py": "e1f7835d2f3cf67134250b3f0a043225356d094e12017c6dc18b047c7ef698be",
     "scripts/build_publication_extension.py": "b2bdb47a653b9518ab2141aa69a545003b46f45629219db656fea495012dc954",
     "scripts/build_rare_earths.py": "206f6b95e264186fdcc9d65c6fa0744d8fd76ac9f8f550e8eed499232db86733",
+    "scripts/build_smic_operations.py": "97ae77fcdf34066f3fd29cc36cde85b2860bc5eb6b56f11ac17443ac115c19f3",
     "scripts/build_white_mesa.py": "f2c2eaa1f7216e0a8c84987ad839066a0e8ec354f31786695641365e40ca97f2",
     "scripts/container_check.py": "3417b2ab667d2358201057d52f7404b2cf9ff5889a6790d7376177783a10e87d",
-    "scripts/container_extension_check.py": "c82157de0c8973d7cb1fbc6abde633e7b10e7a75b6f87e874a2f744e5ea3000e",
+    "scripts/container_extension_check.py": "a54c7eeeb236aff2804bb6eff7c87c8ce1f3a5bb97848be0e8b8b63fb2cbeea6",
     "scripts/discover_legal.py": "a3bf6b00969ffc61b2a643cc06a3db5328766ac852aa0c8b8ae552a66afef06e",
     "scripts/fetch.py": "4028b5a286c5e09cb623f7714d0dafdbe71692d000b72cd8fc50d6cb792ea230",
     "scripts/fetch_additional_rare_earths.py": "05c2cee491d1c68095872fcc1fb3833f2b03ff5d2536342794a18ceee170e31d",
     "scripts/fetch_literature.py": "04d70e6fc16415a005c43420fbaccf5a9ecc3ff471ed17a0b54873bd840b9297",
     "scripts/plot_evidence_extensions.py": "88b1f21da16b042fdf7ceac174bc3bb62ab1c3a66a1b2e9a64e7a03e9b3d2fdd",
     "scripts/plot_white_mesa.py": "3e5e2de9be57d87cc2ea7a1974bfbc9e40defeabe14ceddeef0573ac34d20707",
-    "scripts/replicate.py": "025fc250b0409870d021924499da939bc0d7926ad69d45cd9fdd5cf8c4b1d339",
-    "scripts/report.py": "5ca2d671b2d97cb77b47b562a848d33f9250b153c9087d7c2099b1d40aa30a48",
+    "scripts/replicate.py": "c8b918435dc51a377b123561021a848c38fb0b1866818c8d14227186ead11cde",
+    "scripts/report.py": "a6b9b63b370ad958db5b5be6a3225b82fc8b9d28c52c194224bd367d16274db2",
     "scripts/resolve_publication_clocks.py": "6799d90918f8c8a0664dace94e9c2182a3d1c3e71edd0ff05ca77c393b545de7",
     "scripts/restore_omitted_sources.py": "94f1249c60204f0832f974f2ef52bb2ee4447de87d304559c1253574d11fc000",
     "scripts/review_legal_discovery.py": "219b0fd83ee501267fc1f3aa111cd12c13967ee5bdeea7ac8006be0f36203acf",
@@ -282,9 +329,9 @@
     "scripts/run_lynas_baselines.py": "182a39c270e5917282cf4666547141391b5288360e379992c77f276ce1e05580",
     "scripts/run_opacity.py": "54c4b0d26aaf6af99b417eab9b8c723822e5873d6d277794079f785249eec4a1",
     "scripts/run_physical.py": "820201133a104fa6db645162bc6eab0fca9f4ca4f2994c93aeeca3baf3926ea9",
-    "scripts/run_semiconductors.py": "1a5f6be007872b5c685a86f0cacd62abc63f77b7b468918337866d83c1621ee1",
-    "scripts/update_status.py": "55ab5f8667f63f06f9b80cde3f4747d3776dce65f47c4bab9ddacd563e36e6b9",
-    "scripts/validate.py": "26494aae66f40dea5a37c1f6bd167ea91f59f2a4fbfefa2abdfc368868e4a63d",
-    "scripts/verify_release.py": "7e0f9f9d636f1839a7ae41099353ee155209c9e2302757b1528545de8ef5ccfb"
+    "scripts/run_semiconductors.py": "663467db0cecf400c472a289e92324aebfdfc23cbe61529558d58ce8787ff06b",
+    "scripts/update_status.py": "8a3a7de5d86460c79fe2f6ff21c598f58340680fa1a7235393781cf77515bf6e",
+    "scripts/validate.py": "da1ab2a23fb81cf10758f97dd8d320fc3d6fd248219a4a5e1daaa48bd8aecfcd",
+    "scripts/verify_release.py": "a00012e4e21ea95eac1c736cc3cd1262550ab2ec4319303183873dae06646cd1"
   }
 }

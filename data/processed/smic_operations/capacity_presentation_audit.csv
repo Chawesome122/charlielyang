@@ -1,0 +1,5 @@
+source_id,period_end,summary_native_thousands,detailed_native_units,difference_native_units,display_rounding_consistent,physical_capacity_uncertainty_interval,interpretation
+SC-SMIC-FY2022-EARNINGS,2022-12-31,714.0,714000.0,0.0,True,,thousand-unit presentation comparison only; not a utilization/production identity or confidence interval
+SC-SMIC-FY2023-EARNINGS,2023-12-31,806.0,805500.0,500.0,True,,thousand-unit presentation comparison only; not a utilization/production identity or confidence interval
+SC-SMIC-FY2024-EARNINGS,2024-12-31,948.0,947625.0,375.0,True,,thousand-unit presentation comparison only; not a utilization/production identity or confidence interval
+SC-SMIC-FY2025-EARNINGS,2025-12-31,1059.0,1058750.0,250.0,True,,thousand-unit presentation comparison only; not a utilization/production identity or confidence interval

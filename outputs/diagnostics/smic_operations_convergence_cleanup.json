@@ -1,0 +1,9 @@
+{
+  "reason": "Remove this continuation-owned failed-release container/image after preserving nine original diagnostic artifacts; make room for corrected clean rebuild.",
+  "removed_container": "weaponized-smic-operations-check",
+  "removed_image": "sha256:6b71ff1d33180885f2fd2aa3fced0a3b910a530dfbae158e87c40c0948fe4115",
+  "failure_archive": "outputs/diagnostics/smic_operations_initial_container",
+  "unused_build_cache_reclaimed": "965.1 MB",
+  "available_after_cleanup": "9.9 GiB",
+  "source_data_removed": false
+}

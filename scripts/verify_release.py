@@ -14,6 +14,7 @@ from pathlib import Path
 import re
 import subprocess
 import xml.etree.ElementTree as ET
+from weaponized.reporting.latex import tex_diagnostics
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -32,6 +33,8 @@ def main():
     validation=read("outputs/diagnostics/data_validation.json")
     summary=read("outputs/research_summary.json")
     build=read("outputs/diagnostics/container_extension_build.json")
+    convergence=[read(p) for p in ["outputs/diagnostics/manuscript_convergence.json",
+                                    "outputs/diagnostics/container_extension_manuscript_convergence.json"]]
     core=read("outputs/diagnostics/scientific_code_comparison.json")
     baseline=read("outputs/diagnostics/container_run_manifest.json")["file_sha256"]
     compared=[p for p in manifest if p.split("/")[0] in {"src","scripts","configs","codebooks","tests"} or p in {"Dockerfile","pyproject.toml","uv.lock"}]
@@ -60,7 +63,8 @@ def main():
                 container_network_none=inspection["HostConfig"]["NetworkMode"]=="none",
                 container_exit_zero=inspection["State"]["ExitCode"]==0 and not inspection["State"]["Running"],
                 container_image_matches_record=inspection["Image"]==build["image_id"],
-                no_layout_errors=not bool(re.search(r"Overfull|undefined references|Citation .* undefined|LaTeX Error|Fatal error",logs,re.I)),
+                no_layout_errors=not tex_diagnostics(logs),
+                manuscript_builds_converged=all(r["passed"] and r["auxiliary_files_stable"] for r in convergence),
                 source_and_document_whitespace=whitespace.returncode==0)
     result=dict(passed=all(checks.values()),checks=checks,execution_timestamp=datetime.now(timezone.utc).isoformat(),freeze="2026-10-11",
                 tests=tests,provenance_checks=validation["checked_claims_and_artifacts"],compared_artifacts=len(extension["tables_byte_identity"]),
@@ -74,6 +78,9 @@ def main():
                 remaining_requirements="audit/remaining_requirements.md",
                 original_quote_checks=summary["original_quote_checks"],mp_native_cell_versions=summary["mp_native_cell_versions"],
                 mp_definition_claims=summary["mp_definition_claims"],mp_baseline_origin_metric_pairs=summary["mp_baseline_origin_metric_pairs"])
+    result["smic_operating_observations"]=summary["smic_operating_observations"]
+    result["smic_operating_quarters"]=summary["smic_operating_quarters"]
+    result["smic_operating_definitions"]=summary["smic_definition_claims"]
     Path("outputs/diagnostics/final_release_validation.json").write_text(json.dumps(result,indent=2)+"\n")
     print(json.dumps(result,indent=2))
     return int(not result["passed"])

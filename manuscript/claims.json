@@ -105,7 +105,7 @@
     "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
     "classification": "original_source_integrity_audit",
     "evidence": "data/processed/source_integrity/original_quote_audit.csv",
-    "sha256": "54e9eaac53c4f4f58ccc9d4ea29cff9e530ccda22a80caf70702d467c31bb045"
+    "sha256": "36a305c5d4cdec6ba533ff4d4eb885977f796068fcd04f131eeaad8d8cfd1e3d"
   },
   {
     "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
@@ -150,6 +150,24 @@
     "sha256": "1ebbecdd2aa5e74b428cd14100b512336cc8c4e3dc6e41d386f49458a7b30c9f"
   },
   {
+    "claim": "SMIC native operating cells retain quarter/year windows, source clocks, wafer-equivalent wording and revenue-share denominators; no target capability or foreign access score assigned",
+    "classification": "issuer_reported_operating_scale",
+    "evidence": "data/processed/smic_operations/observations.csv",
+    "sha256": "d19ffae435e9dc531034a0ede254a06f387cd21ce3a4c1eec17f8312a28504e0"
+  },
+  {
+    "claim": "Unchanged historical SMIC comparative numbers can have different shipment/utilization definition wording; no historical conversion or adoption date inferred",
+    "classification": "primary_measurement_vintage_audit",
+    "evidence": "data/processed/smic_operations/comparative_vintages.csv",
+    "sha256": "f46a30d4eb5e6f186e9c3a14232442e957df3658eb00444fa7af8133c49ca9c9"
+  },
+  {
+    "claim": "SMIC wafer revenue changes decompose into reported shipment scale and nominal revenue per equivalent; accounting identities do not identify price, advanced capability or a causal control effect",
+    "classification": "empirical_descriptive_accounting",
+    "evidence": "outputs/empirical/semiconductors/smic_revenue_decompositions.csv",
+    "sha256": "d523fe0b3cf16535ab2518978b82cbfa52545649344d2003f085ccabac0331dd"
+  },
+  {
     "claim": "Constant-control root approximately0.4655712319",
     "classification": "analytical_scenario",
     "evidence": "outputs/scenario/game/constant_control_benchmark.json",
@@ -159,6 +177,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "a0539f2311e0040498f028efcbe6b97b4b8fdcf82aab5668f197638ae9baabbd"
+    "sha256": "d14b0447303ae0d3255583212561df4019f3baad317653458ced1443fa3b1fdc"
   }
 ]

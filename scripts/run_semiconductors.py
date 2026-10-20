@@ -249,7 +249,7 @@ def build_financial_inputs():
         original = verified_original_text(ROOT/source.path, source.sha256)
         normalized = re.sub(r"\s+", " ", original)
         display_date = datetime.strptime(public, "%Y-%m-%d").strftime("%B %-d, %Y")
-        if display_date not in normalized:
+        if display_date not in re.sub(r"\s+", " ", original.split("\f")[0]):
             raise RuntimeError("Company release publication date not supported on page 1")
         patterns = {
             "annual_capital_expenditure": (rf"[Cc]apital expenditure[s]? in {year} was \$([0-9.]+) billion", 1e9, "USD_billion", "annual"),

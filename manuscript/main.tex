@@ -297,6 +297,35 @@ SMIC earnings releases report nominal annual capital expenditure of USD 6.35, 7.
 \caption{Actual company-reported investment inputs in nominal USD. Annual capital expenditure and fourth-quarter R\&D are separate series, not comparable annual totals or causal treatment effects.}
 \end{figure}
 
+\subsection{Operating scale, reporting definitions and nominal revenue}
+Four original releases add \SMICOperatingObs{} versioned operating/input observations, \SMICOperatingDefinitions{} source definitions and four first-page issuer datelines \citep{SMIC2022,SMIC2023,SMIC2024,SMIC2025}. They cover \SMICOperatingQuarters{} selected quarterly periods, not a continuous panel. Twenty-four comparative groups repeat earlier numerical values; one shipment-basis label and one utilization-denominator wording differ across reporting vintages. Generic 8-inch equivalents and standard-logic 8-inch equivalents therefore remain versioned source descriptions, without an invented conversion or adoption date. Annual management summaries remain separate from quarter-level measures.
+
+For Q4 2025 SMIC reports 2,514,970 standard-logic 8-inch equivalent shipments, reported monthly capacity of 1,058,750 equivalents and quarterly utilization of 95.7\%. Its annual/annualized utilization summary is 93.5\%, a different reported window. The detailed monthly-rate sentence does not establish an exact measurement day; the dataset endpoint indexes its reporting quarter. The utilization note uses wafers out divided by estimated quarterly capacity; shipments are a different object, and reported monthly capacity does not identify the quarter-average denominator. Multiplying the reported monthly rate by three and utilization does not reconstruct an issuer production identity. Similarly, the reported 77.2\% twelve-inch share is a share of wafer revenue, not physical wafer output or advanced-node production.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{../outputs/empirical/semiconductors/smic_operating_scale.pdf}
+\caption{Issuer-reported operating scale for selected quarterly periods. Colors follow the selected latest-by-freeze source's unit wording, including retrospective comparatives; they do not date a technological or reporting-method transition. Missing quarters are not interpolated. Company aggregates do not identify indigenous tools, target-node yield or usable foreign access.}
+\end{figure}
+
+Let $R_t$ be reported nominal total revenue, $s_t$ the reported wafer-service revenue share and $Q_t$ reported equivalent shipments. Define a reconstructed wafer-attributed revenue $R^w_t=s_tR_t$ and a descriptive unit revenue ratio $v_t^{\mathrm{rep}}=R^w_t/Q_t$. This construction implies
+\begin{equation}
+ \Delta\log R^w_t=\Delta\log Q_t+\Delta\log v_t^{\mathrm{rep}}.
+\end{equation}
+The code verifies \SMICOperatingIdentities{} within-source quarter-on-quarter/year-on-year accounting decompositions. Because shares are rounded and products, equivalent-wafer conventions and revenue recognition can differ, $v_t^{\mathrm{rep}}$ is not a quality-adjusted price. Its change cannot isolate pricing, product mix, technical performance or a control effect.
+
+In the latest source's Q4 2025 versus Q4 2024 comparison, reported shipments increase by approximately \SMICShipmentChange\%, reconstructed wafer-attributed nominal revenue by \SMICWaferRevenueChange\%, and the unit revenue ratio changes by \SMICUnitRevenueChange\%. Table~\ref{tab:smicchanges} retains all four selected source-year comparisons. These figures establish descriptive scale/revenue accounting; they do not identify advanced-technology substitution or a causal policy response. One consolidated firm, sparse selected quarters, unknown target yields/tool origins, overlapping restrictions and no defensible untreated comparator prevent the requested access/adaptation estimation. Two exact-link 2026 quarterly candidates could not be acquired and contribute no observations.
+
+\begin{table}[htbp]\centering
+\input{smic_operating_changes.tex}
+\caption{Source-native Q4 year-on-year percentage changes reconstructed from reported quantities and rounded shares. These are descriptive accounting comparisons, not causal estimates or quality-adjusted prices.}\label{tab:smicchanges}
+\end{table}
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf}
+\caption{Exact decomposition of the constructed nominal wafer revenue measure, in $100\times\Delta\log$ units. Positive and negative contributions are displayed around zero; black points mark the net change. Table~\ref{tab:smicchanges} uses ordinary percentage changes. No contribution is interpreted as technological adaptation or a causal restriction effect.}
+\end{figure}
+
+\subsection{Target capability and foreign access remain distinct}
+
 The measurement implementation separates domestic layer capability $z_\ell$, foreign usable access $f_\ell$, and effective availability $a_\ell=z_\ell+(1-z_\ell)f_\ell$. The latter is a residual-gap approximation; a complementary-input sensitivity uses a different production rule. Strict minima are retained across essential layers. Unobserved layers propagate missingness or logical bounds, not midpoint or zero imputation.
 
 Two provisional target alternatives specify a compute-plus-HBM stack and a logic-only stack, with explicit throughput, yield, power and memory requirements. They are researcher sensitivity specifications, not established engineering standards, and lack specialist approval. No country capability scores are assigned. Consequently neither the slow domestic game state $x$ nor a causal access/adaptation elasticity is empirically available. Aggregate imports, patents, spending and a nominal node label cannot fill this gap.

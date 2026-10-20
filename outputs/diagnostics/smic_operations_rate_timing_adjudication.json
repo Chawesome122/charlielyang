@@ -1,0 +1,9 @@
+{
+  "reason": "Detailed source says monthly capacity in/for a quarter, without an exact measurement day. Explicit year-end management summaries are separate.",
+  "earlier_research_timing_label": "quarter_end_monthly_rate",
+  "corrected_timing_label": "monthly_rate_reported_for_quarter",
+  "source_values_changed": false,
+  "source_publication_dates_changed": false,
+  "framework_equations_changed": false,
+  "earlier_successful_pipeline": "outputs/diagnostics/smic_operations_pre_timing_replication.json"
+}

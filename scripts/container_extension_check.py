@@ -52,6 +52,17 @@ def main():
         "data/processed/legal_provisions/amendment_links.csv",
         "data/processed/legal_provisions/issued_phase_checks.csv",
         "data/processed/source_integrity/original_quote_audit.csv",
+        "data/processed/smic_operations/observations.csv",
+        "data/processed/smic_operations/observations_asof_freeze.csv",
+        "data/processed/smic_operations/source_clocks.csv",
+        "data/processed/smic_operations/definitions.csv",
+        "data/processed/smic_operations/revenue_share_identities.csv",
+        "data/processed/smic_operations/capacity_presentation_audit.csv",
+        "data/processed/smic_operations/comparative_vintages.csv",
+        "outputs/empirical/semiconductors/smic_wafer_revenue_ratios.csv",
+        "outputs/empirical/semiconductors/smic_revenue_decompositions.csv",
+        "manuscript/smic_operating_changes.tex",
+        "data/processed/semiconductors/reported_financial_inputs.csv",
         "data/processed/mp_measurement/native_cell_versions.csv",
         "data/processed/mp_measurement/definitions.csv",
         "data/processed/mp_measurement/quarter_annual_reconciliation.csv",
@@ -84,7 +95,7 @@ def main():
                   current_numerical_core_comparison="outputs/diagnostics/scientific_code_comparison.json")
     current = json.loads((ROOT/"outputs/research_summary.json").read_text())
     report["test_results"] = {key:current[key] for key in ["tests", "test_failures"]}
-    report["extension_scope"] = "MP native production/sales and monetary inventories, source definitions, missing-state/reconciliation audit and descriptive quarterly baselines; existing White Mesa, original-source, engineering/legal and scenario pipeline"
+    report["extension_scope"] = "SMIC operating scale and monetary inputs, original unit/denominator definitions and release clocks, descriptive nominal revenue identities; prior MP, White Mesa, engineering/legal, vintage and scenario modules"
     report["executed_script_sha256"] = {str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                                        for path in sorted((ROOT/"scripts").glob("*.py"))}
     (ROOT/"outputs/diagnostics/container_extension_validation.json").write_text(json.dumps(report, indent=2))

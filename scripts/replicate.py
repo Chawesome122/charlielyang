@@ -41,6 +41,7 @@ def main():
         ["scripts/audit_project_observations.py"],
         ["scripts/build_evidence_coverage.py"],
         ["scripts/build_citation_audit.py"], ["scripts/run_semiconductors.py"],
+        ["scripts/build_smic_operations.py"], ["scripts/analyze_smic_operations.py"],
         ["scripts/discover_legal.py"], ["scripts/review_legal_discovery.py"], ["scripts/build_legal_provisions.py"],
         ["scripts/run_opacity.py"], ["scripts/run_physical.py"],
         ["scripts/run_forecast.py", "--draws", "10000"],
@@ -75,17 +76,13 @@ def main():
             break
     passed = all(step["exit_code"] == 0 for step in steps) and len(steps) == len(commands)
     if passed and not args.no_pdf:
+        from weaponized.reporting.latex import build_manuscript
+        build = build_manuscript(ROOT)
         logpath = logdir/"manuscript.log"
-        with logpath.open("w") as log:
-            result = subprocess.run(["latexmk", "-pdf", "-interaction=nonstopmode", "-halt-on-error", "main.tex"], cwd=ROOT/"manuscript", stdout=log, stderr=subprocess.STDOUT)
-        steps.append(dict(command=["latexmk", "main.tex"], exit_code=result.returncode,
+        steps.append(dict(command=["latexmk", "main.tex", "then_verified_convergent_pdflatex"], exit_code=int(not build["passed"]),
                           log=str(logpath.relative_to(ROOT))))
-        # Preserve the actual latest TeX diagnostics at the audit's stable path.
-        import shutil
-        if (ROOT/"manuscript/main.log").exists():
-            shutil.copyfile(ROOT/"manuscript/main.log", ROOT/"outputs/diagnostics/manuscript_build.log")
-        passed &= result.returncode == 0
-        if result.returncode:
+        passed &= build["passed"]
+        if not build["passed"]:
             print(logpath.read_text()[-6000:], file=sys.stderr)
     summary = dict(passed=passed, scope="full_recomputation" if args.full else "rebuild_plus_independent_saved_game_verification",
                    freeze="2026-10-11", network_required=False, steps=steps,

@@ -157,6 +157,7 @@ def main():
     for diagnostic, count_fields in [
         ("original_quote_validation.json", ["checks"]),
         ("mp_measurement_validation.json", ["native_cell_versions", "definition_claims", "numeric_quarter_annual_identities", "currency_inventory_identities"]),
+        ("smic_operations_validation.json", ["source_claims", "verified_source_clocks", "definition_claims", "revenue_share_identities", "capacity_presentation_checks", "existing_R_and_D_crosschecks"]),
         ("white_mesa_validation.json", ["source_claims", "stock_origin_checks", "capacity_component_checks", "product_form_origin_checks", "legacy_basis_corrections"]),
         ("engineering_inputs_validation.json", ["source_claims", "normalized_finite_feed_LP_checks"]),
         ("legal_provisions_validation.json", ["exact_quoted_elements", "exact_dates_elements", "source_artifacts"]),
@@ -169,6 +170,10 @@ def main():
     checks+=len(mp_predictions)
     if not (mp_predictions.max_training_public_date.le(mp_predictions.origin) & mp_predictions.max_training_period_end.le(mp_predictions.origin) & mp_predictions.target.gt(mp_predictions.origin) & mp_predictions.outcome_public_date.le("2026-10-11")).all():
         failures.append("MP producer hindcast information leakage")
+    smic=json.loads((ROOT/"outputs/empirical/semiconductors/smic_operations_analysis.json").read_text())
+    checks+=smic["accounting_decompositions"]
+    if not smic["passed"] or smic["causal_effect_identified"] or smic["advanced_node_or_domestic_tool_capability_identified"] or smic["foreign_access_identified"]:
+        failures.append("SMIC descriptive accounting mislabeled as causal/target-capability evidence or failed identity")
     result=dict(passed=not failures,checked_claims_and_artifacts=checks,failures=failures,freeze="2026-10-11",
                 scientific_gaps_are_not_validation_passes=["empirical physical network","population project hazards","causal semiconductor response","historical headline SPOI","continuous MPE"])
     (ROOT/"outputs/diagnostics/data_validation.json").write_text(json.dumps(result,indent=2))

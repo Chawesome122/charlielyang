@@ -1,0 +1,67 @@
+[
+  {
+    "tag": "replace",
+    "host": ". 8 6 Rare-earth supply-chain results 9 6.1 What the primary records establish",
+    "container": ". 8 6 Rare-earth supply-chain results 8 6.1 What the primary records establish"
+  },
+  {
+    "tag": "replace",
+    "host": ". . . . . . 9 6.2 Downstream disclosures and a finite",
+    "container": ". . . . . . 8 6.2 Downstream disclosures and a finite"
+  },
+  {
+    "tag": "replace",
+    "host": ". . . . . . 11 6.5 Consolidated cash investment inputs .",
+    "container": ". . . . . . 12 6.5 Consolidated cash investment inputs ."
+  },
+  {
+    "tag": "replace",
+    "host": ". . . . . . 14 6.6 Finance, publication clocks and feedstock-dependent",
+    "container": ". . . . . . 13 6.6 Finance, publication clocks and feedstock-dependent"
+  },
+  {
+    "tag": "replace",
+    "host": ". . . . . . 15 6.7 Source-calibrated concentrate constraints . .",
+    "container": ". . . . . . 14 6.7 Source-calibrated concentrate constraints . ."
+  },
+  {
+    "tag": "replace",
+    "host": ". . . . . . 16 6.8 Milestone revisions and observation requirements",
+    "container": ". . . . . . 15 6.8 Milestone revisions and observation requirements"
+  },
+  {
+    "tag": "replace",
+    "host": ". . . . . . 20 7 Semiconductor-control results 22 7.1 Operating",
+    "container": ". . . . . . 19 7 Semiconductor-control results 21 7.1 Operating"
+  },
+  {
+    "tag": "replace",
+    "host": ". . 20 7 Semiconductor-control results 22 7.1 Operating scale, reporting definitions and",
+    "container": ". . 19 7 Semiconductor-control results 21 7.1 Operating scale, reporting definitions and"
+  },
+  {
+    "tag": "replace",
+    "host": ". . . . . . 23 7.2 Target capability and foreign access",
+    "container": ". . . . . . 22 7.2 Target capability and foreign access"
+  },
+  {
+    "tag": "replace",
+    "host": ". 24 8 Strategic opacity results 26 9 Reciprocal dynamic game 26 9.1",
+    "container": ". 24 8 Strategic opacity results 25 9 Reciprocal dynamic game 26 9.1"
+  },
+  {
+    "tag": "replace",
+    "host": ". . . . . . 27 9.3 Executed diagnostics . . .",
+    "container": ". . . . . . 26 9.3 Executed diagnostics . . ."
+  },
+  {
+    "tag": "replace",
+    "host": ". 27 10 Counterfactuals and robustness 28 2 11 Limitations 30 12 Conclusion",
+    "container": ". 27 10 Counterfactuals and robustness 27 2 11 Limitations 28 12 Conclusion"
+  },
+  {
+    "tag": "replace",
+    "host": "and robustness 28 2 11 Limitations 30 12 Conclusion 30 References 31 A",
+    "container": "and robustness 27 2 11 Limitations 28 12 Conclusion 30 References 31 A"
+  }
+]

@@ -7,6 +7,7 @@
 - Preserve native units and product forms; conserve elements; no free upstream material; one supplier outage removes that supplier across every stage. Unknown routes and recipes remain unknown.
 - Preserve issuer KPI definitions and source vintages: overlapping stage output cannot be added, oxide-equivalent/internal sales are not final external deliveries, and monetary inventories or production-minus-sales cannot supply a physical stock ledger. N/A and displayed dashes stay distinct.
 - Semiconductor domestic capability, foreign access and combined availability are separate; license requirements are not prohibitions. Missing evidence is not zero capability.
+- Aggregate wafers, utilization and revenue shares do not identify target-node yield or domestic tool origin. Preserve equivalent-wafer definition vintages; a reported monthly rate and quarterly shipments do not identify wafers out or an exact rate measurement day.
 - Missing research observations are not deliberate opacity. Apply the ten-indicator coverage rules before reporting any headline SPOI.
 - Dynamic game time is years; beta may be negative. Statewise Nash is not dynamic MPE. Report residuals, deviations, multiple starts and mesh sensitivity.
 - Use the existing isolated checkout; do not create worktrees. The user's continuation request authorizes pushing this research to Chawesome122/charlielyang. Do not submit research, contact others, use private accounts or incur fees.

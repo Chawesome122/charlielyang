@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "stage": "crosscheck_against_legacy_financial_inputs",
+  "error": "Existing Q4 R&D input disagrees with named source row",
+  "diagnosis": "Initial integration paired a source prior-year comparative with that source own-year financial input; periods differed.",
+  "repair": "Match source and reporting year. Retain comparative cells and audit across their own actual periods. No source value or numerical tolerance changed."
+}

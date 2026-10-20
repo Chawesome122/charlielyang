@@ -1,0 +1,110 @@
+{
+  "freeze": "2026-10-11",
+  "sources": [
+    {
+      "source_id": "SC-SMIC-FY2022-EARNINGS",
+      "report_year": 2022,
+      "info_public_date": "2023-02-09",
+      "operations_page": 7,
+      "revenue_page": 5,
+      "mix_page": 6,
+      "rd_page": 7,
+      "capex_page": 9,
+      "annual_summary": [
+        {
+          "variable": "rounded_yearend_monthly_capacity",
+          "value": 714,
+          "native_unit": "thousand_reported_equivalent_wafers_per_month",
+          "pdf_page": 2,
+          "pattern": "By the end of the year, monthly capacity increased to (?P<value>[\\d,]+) thousand 8-inch equivalent wafers\\."
+        },
+        {
+          "variable": "annual_utilization_summary",
+          "value": 92,
+          "native_unit": "percent",
+          "pdf_page": 2,
+          "pattern": "The annual capacity utilization rate was (?P<value>92%)\\."
+        }
+      ]
+    },
+    {
+      "source_id": "SC-SMIC-FY2023-EARNINGS",
+      "report_year": 2023,
+      "info_public_date": "2024-02-06",
+      "operations_page": 5,
+      "revenue_page": 4,
+      "mix_page": 5,
+      "rd_page": 6,
+      "capex_page": 5,
+      "annual_summary": [
+        {
+          "variable": "rounded_yearend_monthly_capacity",
+          "value": 806,
+          "native_unit": "thousand_reported_equivalent_wafers_per_month",
+          "pdf_page": 2,
+          "pattern": "Monthly capacity was (?P<value>[\\d,]+) thousand (?:standard logic )?8-inch equivalent wafers by the end of the year"
+        },
+        {
+          "variable": "annual_utilization_summary",
+          "value": 75,
+          "native_unit": "percent",
+          "pdf_page": 2,
+          "pattern": "annualized capacity utilization rate was (?P<value>75%)\\."
+        }
+      ]
+    },
+    {
+      "source_id": "SC-SMIC-FY2024-EARNINGS",
+      "report_year": 2024,
+      "info_public_date": "2025-02-11",
+      "operations_page": 5,
+      "revenue_page": 4,
+      "mix_page": 5,
+      "rd_page": 6,
+      "capex_page": 5,
+      "annual_summary": [
+        {
+          "variable": "rounded_yearend_monthly_capacity",
+          "value": 948,
+          "native_unit": "thousand_reported_equivalent_wafers_per_month",
+          "pdf_page": 2,
+          "pattern": "Monthly capacity was (?P<value>[\\d,]+) thousand (?:standard logic )?8-inch equivalent wafers by the end of the year"
+        },
+        {
+          "variable": "annual_utilization_summary",
+          "value": 85.6,
+          "native_unit": "percent",
+          "pdf_page": 2,
+          "pattern": "annualized capacity utilization rate was (?P<value>85\\.6%)\\."
+        }
+      ]
+    },
+    {
+      "source_id": "SC-SMIC-FY2025-EARNINGS",
+      "report_year": 2025,
+      "info_public_date": "2026-02-10",
+      "operations_page": 5,
+      "revenue_page": 4,
+      "mix_page": 5,
+      "rd_page": 6,
+      "capex_page": 5,
+      "annual_summary": [
+        {
+          "variable": "rounded_yearend_monthly_capacity",
+          "value": 1059,
+          "native_unit": "thousand_reported_equivalent_wafers_per_month",
+          "pdf_page": 2,
+          "pattern": "Monthly capacity was (?P<value>[\\d,]+) thousand (?:standard logic )?8-inch equivalent wafers by the end of the year"
+        },
+        {
+          "variable": "annual_utilization_summary",
+          "value": 93.5,
+          "native_unit": "percent",
+          "pdf_page": 2,
+          "pattern": "annualized capacity utilization rate increased by 8 percentage points year-over- year to (?P<value>93\\.5%)\\."
+        }
+      ]
+    }
+  ],
+  "measurement_contract": "Company-reported operating scale and monetary inputs; no target-specific score or causal coefficient; source definitions and reporting windows preserved"
+}

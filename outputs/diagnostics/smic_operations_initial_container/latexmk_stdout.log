@@ -1,0 +1,1030 @@
+Rc files read:
+  /etc/LatexMk
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(./results.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+No file main.toc.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `R01' on page 2 undefined on input line 39.
+
+
+Package natbib Warning: Citation `R02' on page 2 undefined on input line 39.
+
+
+Package natbib Warning: Citation `R04' on page 2 undefined on input line 41.
+
+
+Package natbib Warning: Citation `R03' on page 2 undefined on input line 41.
+
+
+Package natbib Warning: Citation `R05' on page 2 undefined on input line 43.
+
+
+Package natbib Warning: Citation `R06' on page 2 undefined on input line 43.
+
+
+Package natbib Warning: Citation `R07' on page 2 undefined on input line 43.
+
+[2]
+
+Package natbib Warning: Citation `R08' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R09' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R10' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R11' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R12' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R13' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R14' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R15' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R17' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R18' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R19' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R20' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R21' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R22' on page 3 undefined on input line 45.
+
+
+Package natbib Warning: Citation `BIS2022' on page 3 undefined on input line 54
+.
+
+
+Package natbib Warning: Citation `BIS2026' on page 3 undefined on input line 54
+.
+
+[3] [4 <../outputs/empirical/semiconductors/legal_chronology.pdf>] [5]
+
+Package natbib Warning: Citation `MP2024' on page 6 undefined on input line 113
+.
+
+
+Package natbib Warning: Citation `MP2025' on page 6 undefined on input line 113
+.
+
+[6 <../outputs/empirical/source_integrity/claim_clock_exclusions.pdf>]
+
+Package natbib Warning: Citation `Lynas2026' on page 7 undefined on input line 
+115.
+
+
+Package natbib Warning: Citation `EF2024' on page 7 undefined on input line 124
+.
+
+
+Package natbib Warning: Citation `EF2025' on page 7 undefined on input line 124
+.
+
+
+Package natbib Warning: Citation `RER2025' on page 7 undefined on input line 12
+6.
+
+
+Package natbib Warning: Citation `EF2025' on page 7 undefined on input line 126
+.
+
+
+Package natbib Warning: Citation `USARE2025' on page 7 undefined on input line 
+126.
+
+
+Package natbib Warning: Citation `Iluka2026' on page 7 undefined on input line 
+128.
+
+
+Package natbib Warning: Citation `Pensana2026' on page 7 undefined on input lin
+e 128.
+
+[7 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
+
+Package natbib Warning: Citation `Lynas2026' on page 8 undefined on input line 
+130.
+
+
+Package natbib Warning: Citation `Lynas2024Q2' on page 8 undefined on input lin
+e 130.
+
+
+Package natbib Warning: Citation `Lynas2024Q4' on page 8 undefined on input lin
+e 130.
+
+
+Package natbib Warning: Citation `Lynas2025Q4' on page 8 undefined on input lin
+e 130.
+
+
+Package natbib Warning: Citation `MP2022' on page 8 undefined on input line 130
+.
+
+
+Package natbib Warning: Citation `USARE2025' on page 8 undefined on input line 
+133.
+
+
+Package natbib Warning: Citation `EF2025' on page 8 undefined on input line 133
+.
+
+
+Package natbib Warning: Citation `Lynas2025' on page 8 undefined on input line 
+133.
+
+
+Package natbib Warning: Citation `Lynas2026' on page 8 undefined on input line 
+133.
+
+
+Package natbib Warning: Citation `EF2025' on page 8 undefined on input line 135
+.
+
+
+Package natbib Warning: Citation `MP2023' on page 8 undefined on input line 143
+.
+
+
+Package natbib Warning: Citation `MP2024' on page 8 undefined on input line 143
+.
+
+
+Package natbib Warning: Citation `MP2025' on page 8 undefined on input line 143
+.
+
+[8]
+
+Package natbib Warning: Citation `EF2023' on page 9 undefined on input line 159
+.
+
+
+Package natbib Warning: Citation `EF2024' on page 9 undefined on input line 159
+.
+
+
+Package natbib Warning: Citation `EF2025' on page 9 undefined on input line 159
+.
+
+[9 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf>] [10 <../o
+utputs/empirical/rare_earths/mp_native_quarterly_production.pdf>] [11 <../outpu
+ts/empirical/rare_earths/white_mesa_native_flows.pdf>]
+
+Package natbib Warning: Citation `PensanaInterim2026' on page 12 undefined on i
+nput line 190.
+
+[12 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
+
+Package natbib Warning: Citation `IlukaHalf2026' on page 13 undefined on input 
+line 192.
+
+
+Package natbib Warning: Citation `Iluka2026' on page 13 undefined on input line
+ 199.
+
+
+Package natbib Warning: Citation `MP2024' on page 13 undefined on input line 20
+7.
+
+
+Package natbib Warning: Citation `MP2025' on page 13 undefined on input line 20
+7.
+
+[13 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>] [14 <../output
+s/empirical/rare_earths/project_finance_categories.pdf> <../outputs/empirical/r
+are_earths/eneabba_feedstock_comparison.pdf>]
+
+Package natbib Warning: Citation `RER2024' on page 15 undefined on input line 2
+23.
+
+
+Package natbib Warning: Citation `RER2025' on page 15 undefined on input line 2
+23.
+
+[15 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+
+Package natbib Warning: Citation `RER2023' on page 16 undefined on input line 2
+25.
+
+
+Package natbib Warning: Citation `RER2024' on page 16 undefined on input line 2
+25.
+
+[16 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>] [17 <../ou
+tputs/empirical/rare_earths/stage_constraints.pdf>]
+
+LaTeX Warning: Reference `tab:mpbaselines' on page 18 undefined on input line 2
+76.
+
+(./mp_baselines.tex) [18 <../outputs/empirical/rare_earths/evidence_coverage.pd
+f>]
+
+Package natbib Warning: Citation `BIS2022Entity' on page 19 undefined on input 
+line 285.
+
+
+Package natbib Warning: Citation `BIS2023Entity' on page 19 undefined on input 
+line 285.
+
+
+Package natbib Warning: Citation `BIS2025Correction' on page 19 undefined on in
+put line 285.
+
+
+Package natbib Warning: Citation `BIS2026UAE' on page 19 undefined on input lin
+e 285.
+
+[19 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+
+Package natbib Warning: Citation `BIS2023Compute' on page 20 undefined on input
+ line 289.
+
+
+Package natbib Warning: Citation `BIS2024HBM' on page 20 undefined on input lin
+e 289.
+
+
+Package natbib Warning: Citation `BIS2026' on page 20 undefined on input line 2
+89.
+
+
+Package natbib Warning: Citation `SMIC2025' on page 20 undefined on input line 
+293.
+
+
+Package natbib Warning: Citation `SMIC2022' on page 20 undefined on input line 
+301.
+
+
+Package natbib Warning: Citation `SMIC2023' on page 20 undefined on input line 
+301.
+
+
+Package natbib Warning: Citation `SMIC2024' on page 20 undefined on input line 
+301.
+
+
+Package natbib Warning: Citation `SMIC2025' on page 20 undefined on input line 
+301.
+
+[20] [21 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf> <../out
+puts/empirical/semiconductors/smic_operating_scale.pdf>]
+
+LaTeX Warning: Reference `tab:smicchanges' on page 22 undefined on input line 3
+16.
+
+(./smic_operating_changes.tex)
+
+LaTeX Warning: Reference `tab:smicchanges' on page 22 undefined on input line 3
+24.
+
+
+LaTeX Warning: Reference `tab:smicchanges' on page 22 undefined on input line 3
+24.
+
+[22] [23 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
+
+LaTeX Warning: Reference `tab:game' on page 24 undefined on input line 382.
+
+[24] (./game_table.tex) [25] [26 <../outputs/scenario/game/constant_control_ben
+chmark.pdf>] [27 <../outputs/scenario/game/adaptation_positive_n21_trajectories
+.pdf>] [28]
+No file main.bbl.
+[29]
+
+Package natbib Warning: There were undefined citations.
+
+[30] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (30 pages, 618726 bytes).
+Transcript written on main.log.
+Latexmk: Missing input file 'main.toc' (or dependence on it) from following:
+  No file main.toc.
+Latexmk: Missing bbl file 'main.bbl' in following:
+ No file main.bbl.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./primary_sources.bib
+  ./references.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex main' forced or previously required
+
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2022/Debian)
+The top-level auxiliary file: main.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Database file #2: primary_sources.bib
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+  main.bbl
+  main.out
+  main.toc
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(./results.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./main.out) (./main.out)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) (./main.toc
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]) [3]
+
+Package natbib Warning: Citation `R01' on page 4 undefined on input line 39.
+
+
+Package natbib Warning: Citation `R02' on page 4 undefined on input line 39.
+
+
+Package natbib Warning: Citation `R04' on page 4 undefined on input line 41.
+
+
+Package natbib Warning: Citation `R03' on page 4 undefined on input line 41.
+
+
+Package natbib Warning: Citation `R05' on page 4 undefined on input line 43.
+
+
+Package natbib Warning: Citation `R06' on page 4 undefined on input line 43.
+
+
+Package natbib Warning: Citation `R07' on page 4 undefined on input line 43.
+
+[4]
+
+Package natbib Warning: Citation `R08' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R09' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R10' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R11' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R12' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R13' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R14' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R15' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R17' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R18' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R19' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R20' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R21' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `R22' on page 5 undefined on input line 45.
+
+
+Package natbib Warning: Citation `BIS2022' on page 5 undefined on input line 54
+.
+
+
+Package natbib Warning: Citation `BIS2026' on page 5 undefined on input line 54
+.
+
+[5] [6 <../outputs/empirical/semiconductors/legal_chronology.pdf>] [7]
+
+Package natbib Warning: Citation `MP2024' on page 8 undefined on input line 113
+.
+
+
+Package natbib Warning: Citation `MP2025' on page 8 undefined on input line 113
+.
+
+[8 <../outputs/empirical/source_integrity/claim_clock_exclusions.pdf>]
+
+Package natbib Warning: Citation `Lynas2026' on page 9 undefined on input line 
+115.
+
+
+Package natbib Warning: Citation `EF2024' on page 9 undefined on input line 124
+.
+
+
+Package natbib Warning: Citation `EF2025' on page 9 undefined on input line 124
+.
+
+
+Package natbib Warning: Citation `RER2025' on page 9 undefined on input line 12
+6.
+
+
+Package natbib Warning: Citation `EF2025' on page 9 undefined on input line 126
+.
+
+
+Package natbib Warning: Citation `USARE2025' on page 9 undefined on input line 
+126.
+
+
+Package natbib Warning: Citation `Iluka2026' on page 9 undefined on input line 
+128.
+
+
+Package natbib Warning: Citation `Pensana2026' on page 9 undefined on input lin
+e 128.
+
+[9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
+
+Package natbib Warning: Citation `Lynas2026' on page 10 undefined on input line
+ 130.
+
+
+Package natbib Warning: Citation `Lynas2024Q2' on page 10 undefined on input li
+ne 130.
+
+
+Package natbib Warning: Citation `Lynas2024Q4' on page 10 undefined on input li
+ne 130.
+
+
+Package natbib Warning: Citation `Lynas2025Q4' on page 10 undefined on input li
+ne 130.
+
+
+Package natbib Warning: Citation `MP2022' on page 10 undefined on input line 13
+0.
+
+
+Package natbib Warning: Citation `USARE2025' on page 10 undefined on input line
+ 133.
+
+
+Package natbib Warning: Citation `EF2025' on page 10 undefined on input line 13
+3.
+
+
+Package natbib Warning: Citation `Lynas2025' on page 10 undefined on input line
+ 133.
+
+
+Package natbib Warning: Citation `Lynas2026' on page 10 undefined on input line
+ 133.
+
+
+Package natbib Warning: Citation `EF2025' on page 10 undefined on input line 13
+5.
+
+
+Package natbib Warning: Citation `MP2023' on page 10 undefined on input line 14
+3.
+
+
+Package natbib Warning: Citation `MP2024' on page 10 undefined on input line 14
+3.
+
+
+Package natbib Warning: Citation `MP2025' on page 10 undefined on input line 14
+3.
+
+[10]
+
+Package natbib Warning: Citation `EF2023' on page 11 undefined on input line 15
+9.
+
+
+Package natbib Warning: Citation `EF2024' on page 11 undefined on input line 15
+9.
+
+
+Package natbib Warning: Citation `EF2025' on page 11 undefined on input line 15
+9.
+
+[11 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf>] [12 <../
+outputs/empirical/rare_earths/mp_native_quarterly_production.pdf>] [13 <../outp
+uts/empirical/rare_earths/white_mesa_native_flows.pdf>]
+
+Package natbib Warning: Citation `PensanaInterim2026' on page 14 undefined on i
+nput line 190.
+
+[14 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
+
+Package natbib Warning: Citation `IlukaHalf2026' on page 15 undefined on input 
+line 192.
+
+
+Package natbib Warning: Citation `Iluka2026' on page 15 undefined on input line
+ 199.
+
+
+Package natbib Warning: Citation `MP2024' on page 15 undefined on input line 20
+7.
+
+
+Package natbib Warning: Citation `MP2025' on page 15 undefined on input line 20
+7.
+
+[15 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>] [16 <../output
+s/empirical/rare_earths/project_finance_categories.pdf> <../outputs/empirical/r
+are_earths/eneabba_feedstock_comparison.pdf>]
+
+Package natbib Warning: Citation `RER2024' on page 17 undefined on input line 2
+23.
+
+
+Package natbib Warning: Citation `RER2025' on page 17 undefined on input line 2
+23.
+
+[17 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+
+Package natbib Warning: Citation `RER2023' on page 18 undefined on input line 2
+25.
+
+
+Package natbib Warning: Citation `RER2024' on page 18 undefined on input line 2
+25.
+
+[18 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>] [19 <../ou
+tputs/empirical/rare_earths/stage_constraints.pdf>] (./mp_baselines.tex)
+[20 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
+
+Package natbib Warning: Citation `BIS2022Entity' on page 21 undefined on input 
+line 285.
+
+
+Package natbib Warning: Citation `BIS2023Entity' on page 21 undefined on input 
+line 285.
+
+
+Package natbib Warning: Citation `BIS2025Correction' on page 21 undefined on in
+put line 285.
+
+
+Package natbib Warning: Citation `BIS2026UAE' on page 21 undefined on input lin
+e 285.
+
+[21 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+
+Package natbib Warning: Citation `BIS2023Compute' on page 22 undefined on input
+ line 289.
+
+
+Package natbib Warning: Citation `BIS2024HBM' on page 22 undefined on input lin
+e 289.
+
+
+Package natbib Warning: Citation `BIS2026' on page 22 undefined on input line 2
+89.
+
+
+Package natbib Warning: Citation `SMIC2025' on page 22 undefined on input line 
+293.
+
+
+Package natbib Warning: Citation `SMIC2022' on page 22 undefined on input line 
+301.
+
+
+Package natbib Warning: Citation `SMIC2023' on page 22 undefined on input line 
+301.
+
+
+Package natbib Warning: Citation `SMIC2024' on page 22 undefined on input line 
+301.
+
+
+Package natbib Warning: Citation `SMIC2025' on page 22 undefined on input line 
+301.
+
+[22] [23 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf> <../out
+puts/empirical/semiconductors/smic_operating_scale.pdf>]
+(./smic_operating_changes.tex) [24] [25 <../outputs/empirical/semiconductors/sm
+ic_revenue_decomposition.pdf>] [26] (./game_table.tex) [27] [28 <../outputs/sce
+nario/game/constant_control_benchmark.pdf>] [29 <../outputs/scenario/game/adapt
+ation_positive_n21_trajectories.pdf>] [30] (./main.bbl [31] [32] [33] [34])
+[35] [36]
+
+Package natbib Warning: There were undefined citations.
+
+[37] (./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (37 pages, 668143 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./primary_sources.bib
+  ./references.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+
+------------
+Run number 2 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2022/Debian)
+The top-level auxiliary file: main.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Database file #2: primary_sources.bib
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+  main.toc
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(./results.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./main.out) (./main.out)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) (./main.toc
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]) [3] [4] [5]
+[6 <../outputs/empirical/semiconductors/legal_chronology.pdf>] [7] [8 <../outpu
+ts/empirical/source_integrity/claim_clock_exclusions.pdf>] [9 <../outputs/empir
+ical/rare_earths/reported_ndpr_output.pdf>] [10] [11] [12 <../outputs/empirical
+/rare_earths/mp_native_production_sales.pdf> <../outputs/empirical/rare_earths/
+mp_native_quarterly_production.pdf>] [13 <../outputs/empirical/rare_earths/whit
+e_mesa_native_flows.pdf>] [14 <../outputs/empirical/rare_earths/white_mesa_capa
+city_components.pdf>] [15 <../outputs/empirical/rare_earths/mp_halfyear_cash_pp
+e.pdf>] [16 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
+[17 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
+[18 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+[19 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf> <../outputs
+/empirical/rare_earths/stage_constraints.pdf>] [20 <../outputs/empirical/rare_e
+arths/evidence_coverage.pdf>] (./mp_baselines.tex) [21 <../outputs/empirical/ra
+re_earths/lynas_quarterly_baselines.pdf>] [22] [23 <../outputs/empirical/semico
+nductors/smic_reported_inputs.pdf>] (./smic_operating_changes.tex) [24 <../outp
+uts/empirical/semiconductors/smic_operating_scale.pdf>] [25 <../outputs/empiric
+al/semiconductors/smic_revenue_decomposition.pdf>] [26] (./game_table.tex)
+[27] [28] [29 <../outputs/scenario/game/constant_control_benchmark.pdf> <../out
+puts/scenario/game/adaptation_positive_n21_trajectories.pdf>] [30] (./main.bbl
+[31] [32] [33] [34]) [35] [36] [37] (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (37 pages, 674127 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./primary_sources.bib
+  ./references.bib
+Latexmk: All targets () are up-to-date
+

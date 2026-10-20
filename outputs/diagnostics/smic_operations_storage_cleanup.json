@@ -1,0 +1,13 @@
+{
+  "execution_timestamp": "2026-10-20T02:59:18.469684+00:00",
+  "purpose": "Preflight disk headroom before the next clean-container build",
+  "unused_superseded_images_removed": {
+    "weaponized-research-downstream-legal:latest": "sha256:6874400af7945bf5b18d10e5dde7c870c5374691565297e0eef83460878aa220",
+    "weaponized-research-continuation:latest": "sha256:badb326d4af8f1758c8ab872220281ef99695897f3ca56acf52ead3bfc927dc7"
+  },
+  "free_bytes_before": 3838132224,
+  "free_bytes_after": 10608599040,
+  "raw_sources_code_and_outputs_removed": false,
+  "latest_MP_and_full_replication_images_preserved": true,
+  "log": "outputs/diagnostics/smic_operations_storage_cleanup.log"
+}
