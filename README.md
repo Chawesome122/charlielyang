@@ -4,6 +4,16 @@ Executed research software and an evidence-limited manuscript on U.S.-led semico
 
 This repository contains actual primary-source archives, extracted observations, tested mathematical modules, executed scenario results, and explicit failed checks. **It does not contain a calibrated forecast of China-free magnet service, a causal estimate of technological substitution, a valid headline historical SPOI, or a certified continuous-state Markov-perfect equilibrium.** Read [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and [the requirement audit](audit/blueprint_requirements.csv) before interpreting outputs.
 
+The October 22 continuation admits ten supplied document copies and executes
+quarterly, engineering-basis and legal-PDF checks. It resolves MP's latest KPI
+conversion adoption quarter, refines Upton demonstration event definitions,
+extends SMIC Q1/Q2 2026 measurements and preserves conflicting White Mesa design
+versions. See [the executed review](docs/supplied_evidence_review.md),
+[source admissions](data/processed/supplied_evidence/source_admissions.csv), and
+[remaining input requests](docs/INPUTS_NEEDED.md). The Donald technical report is
+the one absent document among the eleven requests. Later browser prints are
+explicitly distinguished from certified historical bytes.
+
 ## Reproduce
 
 Requirements: Python 3.12, uv **0.12.23**, `pdftotext` (Poppler), and `latexmk`/pdfLaTeX with standard LaTeX recommended/extra packages. The resolved Python dependency versions and artifact hashes are in `uv.lock`. Install uv from its official package if absent: `python -m pip install uv==0.12.23` in an appropriate isolated environment.

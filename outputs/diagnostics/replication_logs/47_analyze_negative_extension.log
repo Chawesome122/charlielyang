@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "classification": "hypothetical_numerical_robustness_not_empirical",
+  "registered_attempts": 3,
+  "accepted_finite_grid_candidates": 0,
+  "not_solved": 3,
+  "every_registered_archive_integrity_and_status_checked": true,
+  "unchanged_deviation_gain_threshold": 1e-08,
+  "unchanged_action_threshold": 1e-07,
+  "parameters_empirically_identified": false,
+  "continuous_mpe_certified": false,
+  "nonexistence_proved": false,
+  "independent_machine": false,
+  "unweighted_grid_node_fraction_is_an_empirical_probability": false,
+  "scope": "Additional existing-solver initializations with unchanged economic parameters and acceptance thresholds; finite-grid numerical diagnostics only"
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "classification": "hypothetical_scenario_not_empirical_calibration",
+  "concept": "restricted_constant_path_Nash_at_fixed_initial_state",
+  "certificate_checks": 9,
+  "start_checks": 27,
+  "deviation_profile_points": 2322,
+  "exact_zero_beta_checks": 1,
+  "full_payoff_crosschecks": 54,
+  "quadrature_refinement_checks": 18,
+  "max_multiple_start_spread": 5.224598531583524e-12,
+  "max_refined_gradient_kkt_error": 5.74296166178101e-12,
+  "max_full_payoff_decomposition_error": 3.504529999531769e-12,
+  "max_infinite_tail_bound": 2.754456006927983e-13,
+  "constant_path_equilibrium_uniqueness_sufficient_bounds_passed": true,
+  "numerical_ODE_interval_certified": false,
+  "full_feedback_mpe_certified": false,
+  "unrestricted_open_loop_equilibrium_certified": false,
+  "empirical_calibration": false
+}

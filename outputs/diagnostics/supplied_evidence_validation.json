@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "freeze": "2026-10-11",
+  "sources": 10,
+  "requested_sources": 11,
+  "unfulfilled_request_ranks": [
+    7
+  ],
+  "source_identity_clock_checks": 10,
+  "claims": 69,
+  "numerical_claims": 44,
+  "smic_native_cells": 56,
+  "legal_pdf_checks": 16,
+  "public_pdf_marker_occurrences": 98,
+  "original_at_vintage_certified": false,
+  "empirical_service_identified": false,
+  "empirical_forecasts_unblocked": false,
+  "representative_transition_hazards_identified": false,
+  "semiconductor_target_capability_identified": false,
+  "missing": "Donald technical report; original-at-vintage bytes and physical/target/risk/opacity gates remain unresolved"
+}

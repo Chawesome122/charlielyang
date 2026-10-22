@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "numerical_checks": 21,
+  "vintage_checks": 30,
+  "smic_accounting_decompositions": 4,
+  "smic_comparative_groups": 44,
+  "smic_comparative_numeric_disagreements": 0,
+  "wm_prose_table_disagreements": 2,
+  "conditional_element_compositions": 4,
+  "mp_q2_2026_ndpr_oxide_tonnes": 840,
+  "mp_h1_2026_ndpr_oxide_tonnes": 1757,
+  "mp_sales_ratio_adoption": "2026Q1",
+  "mp_prior_periods_recast": false,
+  "rer_formal_demo_start": "2026-03",
+  "rer_end_to_end_target": "2026Q3",
+  "rer_target_observed_by_this_source": false,
+  "empirical_service_identified": false,
+  "causal_effect_estimated": false,
+  "forecast_probabilities_produced": false,
+  "source_bytes_at_freeze_certified": false
+}

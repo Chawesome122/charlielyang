@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "classification": "hypothetical_numerical_verification_not_empirical",
+  "concept": "fixed_opponent_discounted_MDP_audit_of_saved_finite_state_policies",
+  "source_array_checks": 4,
+  "unilateral_policy_audits": 8,
+  "fixed_opponent_checks": 8,
+  "finite_state_bound_checks": 8,
+  "converged_unilateral_mdp_solves": 8,
+  "not_solved_unilateral_mdp_attempts": 0,
+  "original_game_model_changed": false,
+  "original_game_acceptance_thresholds_changed": false,
+  "full_game_nash_promoted_by_this_audit": false,
+  "continuous_mpe_certified": false,
+  "floating_point_interval_certified": false,
+  "empirical_calibration": false,
+  "uncertainty_is_empirical_confidence_interval": false,
+  "source_label_scope": "Archives retain their original accepted/not-solved game labels; this only audits individual dynamic deviations against fixed opponents"
+}

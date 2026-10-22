@@ -1,0 +1,27 @@
+{
+  "method": "assistant visual inspection of locally rendered supplied PDF page; not independent human/legal review",
+  "source_id": "UP-EL-PUBLISHED-PDF-2024-25411",
+  "source_sha256": "4e5d146404aa658ac0d35d9a063a30091d1c9619bf5bfb1928bc7946a8fa8b5d",
+  "pdf_page": 5,
+  "printed_page": 87265,
+  "render_command": [
+    "pdftoppm",
+    "-f",
+    "5",
+    "-l",
+    "5",
+    "-scale-to",
+    "1800",
+    "-png",
+    "-singlefile",
+    "data/raw/user_supplied/4e5d146404aa658ac0d35d9a063a30091d1c9619bf5bfb1928bc7946a8fa8b5d.pdf",
+    ".cache/supplied_fr24_page5"
+  ],
+  "observations": [
+    "Insertion markers visibly occur in the Federal Register citation column",
+    "Address 12 visibly embeds EaseyNovember 1, followed by 2024 Commercial Building"
+  ],
+  "legal_materiality_adjudicated": false,
+  "historical_byte_vintage_certified": false,
+  "rendered_image_sha256": "b4c9535e6c3d37dbd62c7bd502fa25dafe850e4763fd04d4ee5c242f868e59cd"
+}

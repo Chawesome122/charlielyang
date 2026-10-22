@@ -159,6 +159,7 @@ def main():
         ("operating_origin_extension_validation.json", ["source_claims","equity_closure_checks","procurement_comparative_groups","publication_origins","route_admission_cases"]),
         ("veu_extension_validation.json", ["primary_quote_checks","rule_clock_checks","link_checks","origin_phase_checks"]),
         ("source_request_readiness.json", ["immutable_submission_pointer_checks"]),
+        ("supplied_evidence_validation.json", ["source_identity_clock_checks","claims","smic_native_cells","legal_pdf_checks"]),
         ("mp_measurement_validation.json", ["native_cell_versions", "definition_claims", "numeric_quarter_annual_identities", "currency_inventory_identities"]),
         ("smic_operations_validation.json", ["source_claims", "verified_source_clocks", "definition_claims", "revenue_share_identities", "capacity_presentation_checks", "existing_R_and_D_crosschecks"]),
         ("entity_schedules_validation.json", ["printed_entry_versions", "original_table_rows", "table_notes", "amendatory_instructions", "source_clock_checks", "vintage_checks", "entry_action_crosswalk_records"]),
@@ -175,6 +176,14 @@ def main():
     if not (mp_predictions.max_training_public_date.le(mp_predictions.origin) & mp_predictions.max_training_period_end.le(mp_predictions.origin) & mp_predictions.target.gt(mp_predictions.origin) & mp_predictions.outcome_public_date.le("2026-10-11")).all():
         failures.append("MP producer hindcast information leakage")
     smic=json.loads((ROOT/"outputs/empirical/semiconductors/smic_operations_analysis.json").read_text())
+    supplied=json.loads((ROOT/'outputs/empirical/supplied_evidence/analysis.json').read_text())
+    checks+=supplied['numerical_checks']+supplied['vintage_checks']
+    if not supplied['passed'] or any(supplied[k] for k in ['empirical_service_identified','causal_effect_estimated','forecast_probabilities_produced','source_bytes_at_freeze_certified']):
+        failures.append('Supplied evidence validation or scientific-claim boundary failed')
+    guidance=json.loads((ROOT/'outputs/empirical/supplied_evidence/guidance_analysis.json').read_text())
+    checks+=guidance['related_outcomes']
+    if not guidance['passed'] or guidance['statistical_skill_established'] or guidance['interval_probability_coverage_claimed'] or guidance['empirical_magnet_service_forecast']:
+        failures.append('Issuer guidance timing or scientific-label guard failed')
     checks+=smic["accounting_decompositions"]
     if not smic["passed"] or smic["causal_effect_identified"] or smic["advanced_node_or_domestic_tool_capability_identified"] or smic["foreign_access_identified"]:
         failures.append("SMIC descriptive accounting mislabeled as causal/target-capability evidence or failed identity")

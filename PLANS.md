@@ -1,5 +1,15 @@
 # Ordered execution roadmap
 
+Continuation 2026-10-22: resume release 7907609 with ten user-supplied PDFs.
+Verify every identity and document clock against the eleven outstanding requests,
+preserving failed HTTP attempts and distinguishing browser prints from historical
+original bytes. Extract and execute quarterly operating/engineering/legal checks,
+resolve the MP sales-convention adoption and Upton event definitions where supported,
+extend SMIC descriptive accounting, and retain missing physical-network inputs.
+Completion conditions: checksum/page/clock/numeric and anti-lookahead tests, updated
+request checklist and requirement audit, reproducible exhibits/manuscript, executed
+host and disconnected-container checks, and an authorized non-force push.
+
 This is an execution ledger, not a claim of empirical completion. Freeze: 2026-10-11.
 
 1. **Blueprint and evidence architecture.** Archive all 49 pages and extracted text; implement immutable raw artifacts, two-clock claims, schemas, cutoff-aware vintages and source manifests. Completion: archive hashes verified; vintage leakage tests pass.
@@ -80,3 +90,33 @@ Origin/VEU/numerical continuation release verified at 2026-10-22T01:35:41 UTC (O
 The current scientific additions are 33 original MP commercial-origin/ownership/procurement claims; 18 VEU clauses including two facility/item scopes and three later named removals; strict source-bound event/currency/country guards with independently reproduced repairs; eight finite-state dynamic-deviation audits and a residual/discount proof; and twelve registered safeguarded attempts (three coarse accepted runs, nine fine failures). No independent new-firm count, complete industrial route, empirical control/capability score, causal coefficient, real-world service probability, interval-certified numerical endpoint, continuous MPE or nonexistence theorem is claimed. Prior current-container evidence remains under `outputs/diagnostics/previous_constant_legal_extension/`; the initial failed manuscript build and corrected repair logs remain under the named failure directory and diagnostic logs.
 
 The 85-row audit remains 22 VERIFIED / 58 PARTIAL / 4 BLOCKED / 1 NOT ATTEMPTED; publication readiness remains false. Resume with the precise source/measurement/reviewer gates in `docs/INPUTS_NEEDED.md`, `docs/operating_origin_extension_review.md`, `docs/veu_extension_review.md`, `docs/dynamic_deviation_audit_review.md`, `docs/safeguarded_game_review.md` and `audit/remaining_requirements.md`. No user action is required merely to continue; the first four exact public-source requests or working applied public-source network access would enable the most important additional empirical work. The authorized non-force push is the final release action; actual remote history establishes completion.
+
+Supplied-source continuation verified on 2026-10-22: ten of eleven requested
+public-source copies admitted, with separate creation/receipt/public-by clocks;
+69 cited documentary/quantity claims, 56 SMIC native cells, eight new project-stage
+snapshots and one target quarter of issuer-guidance evaluation executed. The
+roster is 69 records / 26 projects / 36 activities; 33 endpoint pairs still yield
+zero admissible first-exit spells. MP's actual KPI ratio adoption is dated to Q1
+2026 without recasting; Upton demonstration and end-to-end targets remain distinct;
+two White Mesa design discrepancies and published legal anomalies are retained.
+
+Final host and network-disabled container pipelines passed 451 tests (zero
+failures/errors/skips), 9,123 validation checks and 2,735 source quotation/table
+checks. All 130 registered artifacts reproduce byte for byte; all 212 compared
+code/configuration/dependency/test files match. Both 54-page manuscripts converge
+without unresolved TeX warnings and have identical normalized extracted text;
+PDF binary identity is not claimed. Nine constant-commitment scenarios and eight
+fixed-opponent dynamic audits were recomputed; saved large HJB candidates were
+re-audited, not re-solved. Exact proof: outputs/diagnostics/final_release_validation.json.
+Initial percentage-token, subsection-header and coverage-registry failures remain
+archived; no empirical quantity or acceptance tolerance was changed to repair them.
+
+The acceptance audit remains 22 VERIFIED / 58 PARTIAL / 4 BLOCKED /
+1 NOT ATTEMPTED, publication_ready=false. No empirical magnet-service probabilities,
+population hazards, causal adaptation, valid historical SPOI or continuous MPE is
+claimed. The missing Donald technical report, physical stock/flow/route/demand and
+risk-surveillance observations, target/access evidence, independent coding/review,
+four annual-release clocks and a second independent machine remain the next gates.
+No action is required to request another continuation; supplying the Donald report
+would advance the outstanding acquisition gate. Release by the authorized non-force
+push; remote Git history records the actual final commit.

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "evidence_class": "issuer_reported_descriptive_accounting",
+  "revenue_ratio_records": 12,
+  "accounting_decompositions": 8,
+  "max_abs_identity_residual": 2.220446049250313e-16,
+  "quarterly_periods_not_continuous": true,
+  "revenue_shares_are_rounded": true,
+  "quality_adjusted_price_identified": false,
+  "advanced_node_or_domestic_tool_capability_identified": false,
+  "foreign_access_identified": false,
+  "causal_effect_identified": false,
+  "latest_source_YoY_comparison": {
+    "source_id": "SC-SMIC-FY2025-EARNINGS",
+    "info_public_date": "2026-02-10",
+    "period_end": "2025-12-31",
+    "comparison": "YoY",
+    "comparison_period_end": "2024-12-31",
+    "current_shipment_basis": "standard_logic_8inch_equivalent",
+    "comparative_shipment_basis": "standard_logic_8inch_equivalent",
+    "source_native_shipments_change_pct": 26.26866376036081,
+    "source_native_wafer_revenue_change_pct": 12.628138542519185,
+    "source_native_revenue_per_equivalent_shipment_change_pct": -10.802779416221053,
+    "historical_comparative_conversion_verified": false,
+    "log_wafer_revenue_change": 0.11892139674430685,
+    "log_shipments_change": 0.23324170300657338,
+    "log_revenue_per_equivalent_shipment_change": -0.11432030626226657,
+    "identity_residual": 4.163336342344337e-17,
+    "passed": true,
+    "causal_effect": null,
+    "technological_substitution": null,
+    "classification": "nominal_accounting_identity_not_quality_adjusted_price_or_causal_estimate"
+  },
+  "limitations": [
+    "one firm; selected Q3/Q4 releases",
+    "unaudited issuer operating figures",
+    "unreconstructed equivalent-wafer convention history",
+    "no comparison panel, target yield/node or equipment-origin measurement"
+  ]
+}

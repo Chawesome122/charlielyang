@@ -19,6 +19,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     sources = json.loads((ROOT/"data/processed/rare_earths/source_index.json").read_text())
+    for row in json.loads((ROOT/"metadata/user_supplied_sources.json").read_text()):
+        sources[row['source_id']]=row
     for row in pd.read_csv(ROOT/"metadata/additional_rare_earth_sources.csv").fillna("").to_dict("records"):
         sources[row["source_id"]] = row
     smic_book=json.loads((ROOT/"codebooks/smic_operations.json").read_text())
@@ -40,6 +42,8 @@ def main():
         "data/processed/mp_measurement/definitions.csv",
         "data/processed/smic_operations/source_clocks.csv",
         "data/processed/smic_operations/definitions.csv",
+        "data/processed/supplied_evidence/claims.csv",
+        "data/processed/supplied_evidence/smic_quarterly_versions.csv",
     ]
     checks = []
     for table in tables:
@@ -51,7 +55,7 @@ def main():
                 ROOT/source["archive_path"], source["sha256"], quote, page)
             checks.append(dict(table=table, row_index=number, source_id=row["source_id"],
                                source_sha256=source["sha256"], pdf_page=page,
-                               method="normalized verbatim quote in hash-verified original",
+                               method="normalized verbatim quote in hash-verified supplied copy" if row['source_id'].startswith('UP-') else "normalized verbatim quote in hash-verified original",
                                passed=passed))
     table = "data/processed/rare_earths_additional/lynas_quarterly_production_versions.csv"
     parsed = {}
@@ -158,7 +162,7 @@ def main():
                   failures=[row for row in checks if not row["passed"]],
                   editable_text_aids_used=False, independent_production_measurement=False,
                   historical_source_byte_vintage_certified=False,
-                  scope="Present archived original-byte support, not historical release certification or independent economic truth")
+                  scope="Present archived source-byte support, including supplied browser-print copies; not historical release certification or independent economic truth")
     (ROOT/"outputs/diagnostics/original_quote_validation.json").write_text(json.dumps(result, indent=2))
     print(json.dumps(result, indent=2))
     return 0 if result["passed"] else 1

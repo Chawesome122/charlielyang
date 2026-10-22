@@ -15,9 +15,9 @@
 #4 DONE 0.0s
 
 #5 [internal] load build context
-#5 transferring context: 365.91MB 5.4s
-#5 transferring context: 393.95MB 6.0s done
-#5 DONE 6.0s
+#5 transferring context: 425.49MB 5.0s
+#5 transferring context: 448.37MB 5.3s done
+#5 DONE 5.3s
 
 #6 [dependencies 4/7] RUN python -m pip install --no-cache-dir uv==0.12.23
 #6 CACHED
@@ -38,11 +38,11 @@
 #11 CACHED
 
 #12 [research 1/1] COPY . .
-#12 DONE 31.8s
+#12 DONE 18.9s
 
 #13 exporting to image
 #13 exporting layers
-#13 exporting layers 11.9s done
-#13 writing image sha256:07de59d9f540dcd77f8dd5862e4ba14ccf3094dc66997bb7ed31a09b0769bab2 done
-#13 naming to docker.io/library/weaponized-research-origin-veu-final done
-#13 DONE 12.0s
+#13 exporting layers 2.5s done
+#13 writing image sha256:97d986a21d80cd95764aee45436fbc0e2392a35346c1d6dcec47aecdbbddd640 done
+#13 naming to docker.io/library/weaponized-research-supplied-final done
+#13 DONE 2.6s

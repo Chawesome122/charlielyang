@@ -1,8 +1,8 @@
 {
   "classification": "hypothetical_numerical_audit_not_empirical_results",
   "continuous_mpe_certified": false,
-  "archived_run_count": 3,
-  "claimed_candidate_count": 0,
+  "archived_run_count": 6,
+  "claimed_candidate_count": 3,
   "not_solved_count": 3,
   "all_claimed_candidates_pass": true,
   "all_archived_runs_satisfy_candidate_thresholds": false,

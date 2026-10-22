@@ -1,0 +1,22 @@
+check,lhs,rhs,passed,interpretation
+MP_2025_H1_printed_cash_vs_SEC_facts,59473000.0,59473000.0,True,printed cash-flow line agrees; original XBRL tag/context not re-extracted
+MP_2026_H1_printed_cash_vs_SEC_facts,307711000.0,307711000.0,True,printed cash-flow line agrees; original XBRL tag/context not re-extracted
+White_Mesa_table_component_sum_ndpr,6229.0,6229.0,True,"within-table design identity, not achieved output"
+White_Mesa_table_component_sum_tb,80.0,80.0,True,"within-table design identity, not achieved output"
+White_Mesa_table_component_sum_dy,288.0,288.0,True,"within-table design identity, not achieved output"
+UP-SC-SMIC-Q12026-EARNINGS:2025-03-31:service_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q12026-EARNINGS:2025-03-31:wafer_revenue_size_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q12026-EARNINGS:2025-12-31:service_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q12026-EARNINGS:2025-12-31:wafer_revenue_size_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q12026-EARNINGS:2026-03-31:service_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q12026-EARNINGS:2026-03-31:wafer_revenue_size_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q22026-EARNINGS:2025-06-30:service_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q22026-EARNINGS:2025-06-30:wafer_revenue_size_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q22026-EARNINGS:2026-03-31:service_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q22026-EARNINGS:2026-03-31:wafer_revenue_size_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q22026-EARNINGS:2026-06-30:service_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q22026-EARNINGS:2026-06-30:wafer_revenue_size_share,100.0,100.0,True,"reported revenue-share denominator, not physical output share"
+UP-SC-SMIC-Q12026-EARNINGS:QoQ:revenue_log_identity,-6.938893903907228e-18,0.0,True,"nominal accounting identity, not a technology or policy effect"
+UP-SC-SMIC-Q12026-EARNINGS:YoY:revenue_log_identity,-7.719519468096792e-17,0.0,True,"nominal accounting identity, not a technology or policy effect"
+UP-SC-SMIC-Q22026-EARNINGS:QoQ:revenue_log_identity,-2.7755575615628914e-16,0.0,True,"nominal accounting identity, not a technology or policy effect"
+UP-SC-SMIC-Q22026-EARNINGS:YoY:revenue_log_identity,-1.1102230246251565e-16,0.0,True,"nominal accounting identity, not a technology or policy effect"

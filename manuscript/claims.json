@@ -93,7 +93,7 @@
     "claim": "Documentation attrition counts distinguish annual nameplates from campaign totals and missing engineering inputs",
     "classification": "empirical_archive_coverage",
     "evidence": "outputs/empirical/rare_earths/evidence_coverage_by_stage.csv",
-    "sha256": "778f53bcf0cd511e740f22548cc4ead4f6ad3c1be437a06ba2eaab8b8029c63d"
+    "sha256": "6303416f367cec22ac57e32b3dbfbc6136cf90552e7d5fdf4803e3ec63cfc976"
   },
   {
     "claim": "MP first-half2026 cash PPE payments307.711millionUSD vs59.473million in2025; consolidated nominal inputs, not physical output or causal effects",
@@ -117,7 +117,7 @@
     "claim": "Observed state pairs and disclosure inventory do not establish first-exit survival exposure or a representative hazard sample",
     "classification": "empirical_observation_protocol_audit",
     "evidence": "outputs/diagnostics/project_observation_audit.json",
-    "sha256": "109d5b3a9ddc5d892464e41e3fc710f052e32ac6dd3761e5d42e20af79cabeb2"
+    "sha256": "f33b9dd50fe23634017c74f8aaf6cabcc9660ecd85d89d5379a66134f01853a3"
   },
   {
     "claim": "4 issuer report clocks resolved by exact dated links; undated annual links remain unresolved",
@@ -159,7 +159,7 @@
     "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
     "classification": "original_source_integrity_audit",
     "evidence": "data/processed/source_integrity/original_quote_audit.csv",
-    "sha256": "6a54ee683d6fe4792988f4e1c6828573924ceba07374c95be70fa614a9d89a97"
+    "sha256": "f209d41c5a024d696c45771664b3aff4fb126ac64c797db10a6df5ec3ca5fbb2"
   },
   {
     "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
@@ -210,6 +210,24 @@
     "sha256": "d19ffae435e9dc531034a0ede254a06f387cd21ce3a4c1eec17f8312a28504e0"
   },
   {
+    "claim": "Ten supplied copies add cited quarterly/technical/legal observations without historical-byte certification; MP sales-convention adoption is Q1 2026, Upton demonstration differs from its end-to-end target, and White Mesa design versions conflict",
+    "classification": "source_reported_documentary_and_measurement_versions",
+    "evidence": "data/processed/supplied_evidence/claims.csv",
+    "sha256": "cfe4928d5f4fe97922150a27e17aebf70802bc3ab96936e27fc633fdb81e38c9"
+  },
+  {
+    "claim": "One quarter of SMIC within-quarter issuer guidance missed both stated outcome ranges; midpoint evaluation beats a known-at-issuance persistence baseline on two correlated outcomes without establishing model skill or interval probabilities",
+    "classification": "actual_issuer_guidance_evaluation_not_structural_model_forecast",
+    "evidence": "outputs/empirical/supplied_evidence/smic_guidance_evaluation.csv",
+    "sha256": "d66c5f1eeb6e3d50844e890ced286f7208ed5ec2bc0a2ad27c135f915c54c2ff"
+  },
+  {
+    "claim": "SMIC Q1/Q2 2026 native operating cells and four within-release accounting decompositions identify descriptive scale, not indigenous target capability or a causal effect",
+    "classification": "issuer_reported_descriptive_accounting",
+    "evidence": "outputs/empirical/supplied_evidence/smic_accounting_decompositions.csv",
+    "sha256": "4c80c2dce658f34f25e2911dde8efeb711de897f3159cdf70c3cd5b5af736307"
+  },
+  {
     "claim": "Unchanged historical SMIC comparative numbers can have different shipment/utilization definition wording; no historical conversion or adoption date inferred",
     "classification": "primary_measurement_vintage_audit",
     "evidence": "data/processed/smic_operations/comparative_vintages.csv",
@@ -231,6 +249,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "f3d9b73721f3d37b9cf213ba6cbfc8adfdc8e7999244b27d25547f5e6eb0f9b9"
+    "sha256": "eeadaa7cbaca10d73ec38d87fbc8d68597161785864170d0bcbb0019f6c96c74"
   }
 ]

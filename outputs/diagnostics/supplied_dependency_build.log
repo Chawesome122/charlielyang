@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "tag": "weaponized-research-supplied-dependencies",
+  "target": "dependencies",
+  "existing_proxy_forwarded": {
+    "http": true,
+    "https": true
+  },
+  "existing_proxy_dns_mapping_used": true,
+  "platform_public_ca_used": true,
+  "tls_verification_disabled": false,
+  "log": "outputs/diagnostics/docker_build.log",
+  "image_id": "sha256:d9c898cc1a399b791d52206eba9c591fcad5dadd7d0ecb22f562eca1a04b461c"
+}

@@ -1,0 +1,17 @@
+document,check,pdf_page,count,finding,passed
+2024-25411,published_insertion_marker,5,4,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,6,9,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,7,8,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,8,8,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,9,8,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,10,8,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,11,6,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,12,8,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,13,8,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,14,3,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,15,8,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,16,7,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,17,7,present_in_published_pdf_not_just_XML,True
+2024-25411,published_insertion_marker,18,6,present_in_published_pdf_not_just_XML,True
+2024-25411,embedded_address_date,5,1,present_in_published_pdf; source text retained,True
+2025-05427,reported_filing_clock,13,1,filed March 25 2025 16:30; published March 28; no globally earliest public clock inferred,True

@@ -1,13 +1,13 @@
 {
   "passed": true,
-  "observed_pairs": 29,
+  "observed_pairs": 33,
   "pair_classes": {
-    "same_state_reobservation": 16,
+    "same_state_reobservation": 19,
     "allowed_endpoint_pair": 10,
-    "unobserved_intermediate_states_or_definition_change": 3
+    "unobserved_intermediate_states_or_definition_change": 4
   },
-  "pairs_missing_event_windows": 13,
-  "overlapping_or_revised_pairs": 1,
+  "pairs_missing_event_windows": 14,
+  "overlapping_or_revised_pairs": 2,
   "quarterly_disclosure_origins": 44,
   "final_origin": "2026-10-11",
   "first_exit_spells_admissible": 0,

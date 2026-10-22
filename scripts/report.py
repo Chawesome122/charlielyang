@@ -77,6 +77,8 @@ def source_registry():
             record["acquisition_publication_date"]=record.get("publication_date")
             for key in ["publication_date","publication_basis","public_clock_source_id","public_clock_source_sha256"]:
                 record[key]=resolved[key]
+    for supplied in json.loads((ROOT/'metadata/user_supplied_sources.json').read_text()):
+        normalized[supplied['source_id']]=supplied|dict(group='user_supplied_public_source_copy',publication_date=supplied['info_public_date'])
     (ROOT/"metadata/source_registry.json").write_text(json.dumps(list(normalized.values()),indent=2))
     trace=[]
     for row in pd.read_csv(ROOT/"data/processed/rare_earths/observations.csv").to_dict("records"):
@@ -109,6 +111,10 @@ def source_registry():
         file=f"data/processed/{folder}/"+("observations.csv" if folder=="operating_origin_extension" else "clauses.csv")
         for row in pd.read_csv(ROOT/file).to_dict("records"):
             trace.append(dict(claim_id=row["claim_id"],evidence_class="empirical_reported_or_primary_issued_text_not_service_or_access",source_id=row["source_id"],sha256=row["source_sha256"],locator=row[locator],table=file))
+    for name in ['claims','smic_quarterly_versions']:
+        file=f'data/processed/supplied_evidence/{name}.csv'
+        for row in pd.read_csv(ROOT/file).to_dict('records'):
+            trace.append(dict(claim_id=row.get('claim_id',row.get('record_version_id')),evidence_class='source_reported_supplied_copy_not_historical_byte_certificate',source_id=row['source_id'],sha256=row['source_sha256'],locator=row['locator'],table=file))
     pd.DataFrame(trace).to_csv(ROOT/"metadata/claims_to_sources.csv",index=False)
 
 
@@ -152,6 +158,9 @@ def summary_and_tables():
     origin=read("outputs/diagnostics/operating_origin_extension_validation.json")
     veu=read("outputs/diagnostics/veu_extension_validation.json")
     dynamic=read("outputs/scenario/dynamic_deviation_audit/analysis.json")
+    supplied=read('outputs/diagnostics/supplied_evidence_validation.json')
+    supplied_analysis=read('outputs/empirical/supplied_evidence/analysis.json')
+    guidance=read('outputs/empirical/supplied_evidence/guidance_analysis.json')
     result=dict(freeze="2026-10-11",tests=test_count,test_failures=failures,
                 rare_earth_versioned_observations=rare["versioned_observations"], rare_earth_latest_observations=rare["latest_observations"],
                 lynas_annual_observations=len(lynas),lynas_quarterly_versions=len(quarterly),project_evidence_records=len(projects),project_count=projects.project_id.nunique(),activity_count=projects.activity_id.nunique(),
@@ -200,6 +209,10 @@ def summary_and_tables():
                   dynamic_deviation_audits=dynamic["unilateral_policy_audits"],dynamic_deviation_sources=dynamic["source_array_checks"])
     result.update(safeguarded_attempts=safeguarded["registered_attempts"],safeguarded_coarse_candidates=safeguarded["accepted_coarse_candidates"],
                   safeguarded_fine_candidates=safeguarded["accepted_fine_candidates"],safeguarded_not_solved=safeguarded["not_solved"])
+    result.update(supplied_sources=supplied['sources'],supplied_claims=supplied['claims'],supplied_smic_cells=supplied['smic_native_cells'],
+                  supplied_numerical_checks=supplied_analysis['numerical_checks'],supplied_vintage_checks=supplied_analysis['vintage_checks'],
+                  supplied_legal_pdf_checks=supplied['legal_pdf_checks'],supplied_unfulfilled_requests=len(supplied['unfulfilled_request_ranks']))
+    result.update(supplied_issuer_guidance_outcomes=guidance['related_outcomes'],supplied_issuer_guidance_targets=guidance['target_quarters'])
     (ROOT/"outputs/research_summary.json").write_text(json.dumps(result,indent=2))
     macros={"TestCount":test_count,"RareObs":rare["versioned_observations"],"LynasObs":len(lynas),"ProjectCount":projects.project_id.nunique(),"ActivityCount":projects.activity_id.nunique(),"LegalRows":semiconductor["verified_legal_event_rows"],"FinancialRows":len(financial),"GameCandidates":game["claimed_candidate_count"],"GameFailures":game["not_solved_count"],"BenchmarkRoot":f"{benchmark['policy']:.10f}"}
     macros.update(ProjectRecords=len(projects), PublicClockActivities=coverage["documentation_counts"]["public_clock_eligible"],
@@ -294,6 +307,9 @@ def summary_and_tables():
             dict(claim="MP quarterly baselines have one to three eligible dependent origins per metric in the archived subset; no statistical skill established",classification="empirical_descriptive_hindcast",evidence="outputs/empirical/rare_earths/mp_quarterly_baseline_scores.csv"),
             dict(claim="SMIC investment spending is an input, not identified substitution",classification="descriptive_empirical",evidence="data/processed/semiconductors/reported_financial_inputs.csv"),
             dict(claim="SMIC native operating cells retain quarter/year windows, source clocks, wafer-equivalent wording and revenue-share denominators; no target capability or foreign access score assigned",classification="issuer_reported_operating_scale",evidence="data/processed/smic_operations/observations.csv"),
+            dict(claim="Ten supplied copies add cited quarterly/technical/legal observations without historical-byte certification; MP sales-convention adoption is Q1 2026, Upton demonstration differs from its end-to-end target, and White Mesa design versions conflict",classification="source_reported_documentary_and_measurement_versions",evidence="data/processed/supplied_evidence/claims.csv"),
+            dict(claim="One quarter of SMIC within-quarter issuer guidance missed both stated outcome ranges; midpoint evaluation beats a known-at-issuance persistence baseline on two correlated outcomes without establishing model skill or interval probabilities",classification="actual_issuer_guidance_evaluation_not_structural_model_forecast",evidence="outputs/empirical/supplied_evidence/smic_guidance_evaluation.csv"),
+            dict(claim="SMIC Q1/Q2 2026 native operating cells and four within-release accounting decompositions identify descriptive scale, not indigenous target capability or a causal effect",classification="issuer_reported_descriptive_accounting",evidence="outputs/empirical/supplied_evidence/smic_accounting_decompositions.csv"),
             dict(claim="Unchanged historical SMIC comparative numbers can have different shipment/utilization definition wording; no historical conversion or adoption date inferred",classification="primary_measurement_vintage_audit",evidence="data/processed/smic_operations/comparative_vintages.csv"),
             dict(claim="SMIC wafer revenue changes decompose into reported shipment scale and nominal revenue per equivalent; accounting identities do not identify price, advanced capability or a causal control effect",classification="empirical_descriptive_accounting",evidence="outputs/empirical/semiconductors/smic_revenue_decompositions.csv"),
             dict(claim="Constant-control root approximately0.4655712319",classification="analytical_scenario",evidence="outputs/scenario/game/constant_control_benchmark.json"),

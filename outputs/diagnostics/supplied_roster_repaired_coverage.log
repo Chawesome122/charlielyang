@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "roster_records": 69,
+  "discovery_projects": 26,
+  "discovery_activities": 36,
+  "source_pdfs_or_filings_checked": 30,
+  "documentation_counts": {
+    "public_clock_eligible": 35,
+    "native_capacity_documented": 9,
+    "annual_native_capacity_documented": 9,
+    "finite_campaign_limit_documented": 0,
+    "complete_element_recipe_verified": 0,
+    "finite_route_capacity_verified": 0,
+    "independent_stable_qualified_rate_verified": 0,
+    "final_grade_demand_matched": 0
+  },
+  "scientific_scope": "coverage within a selected discovery roster; no population denominator or service estimate",
+  "zero_counts_mean": "no verified observation in this archive, not no real-world capacity or deliberate opacity"
+}

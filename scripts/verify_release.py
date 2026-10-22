@@ -86,16 +86,22 @@ def main():
     result["entity_source_rows"]=summary["entity_source_rows"]
     result["constant_commitment_scenarios"]=summary["constant_commitment_scenarios"]
     result["additional_negative_not_solved"]=summary["additional_negative_not_solved"]
-    result["new_negative_hjb_runs_recomputed_on_host"]=3
+    result["negative_hjb_runs_retained_from_prior_release"]=3
+    result["new_negative_hjb_runs_recomputed_on_host"]=0
     result["new_negative_hjb_runs_recomputed_in_extension_container"]=False
     result["operating_origin_claims"]=summary["operating_origin_claims"]
     result["veu_clause_checks"]=summary["veu_clause_checks"]
     result["dynamic_deviation_audits"]=summary["dynamic_deviation_audits"]
     result["safeguarded_attempts"]=summary["safeguarded_attempts"]
     result["safeguarded_fine_candidates"]=summary["safeguarded_fine_candidates"]
-    result["current_safeguarded_searches_recomputed_on_host"]=summary["safeguarded_attempts"]
+    result["safeguarded_searches_retained_from_prior_release"]=summary["safeguarded_attempts"]
+    result["current_safeguarded_searches_recomputed_on_host"]=0
     result["current_safeguarded_searches_recomputed_in_extension_container"]=False
     result["dynamic_unilateral_solves_recomputed_on_both"]=summary["dynamic_deviation_audits"]
+    result['supplied_sources']=summary['supplied_sources']
+    result['supplied_claims']=summary['supplied_claims']
+    result['supplied_smic_cells']=summary['supplied_smic_cells']
+    result['supplied_issuer_guidance_outcomes']=summary['supplied_issuer_guidance_outcomes']
     Path("outputs/diagnostics/final_release_validation.json").write_text(json.dumps(result,indent=2)+"\n")
     print(json.dumps(result,indent=2))
     return int(not result["passed"])

@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "auxiliary_files_stable": true,
+  "passes": [
+    {
+      "command": [
+        "latexmk",
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      "exit_code": 0,
+      "phase": "dependency_build"
+    },
+    {
+      "command": [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-recorder",
+        "main.tex"
+      ],
+      "exit_code": 0,
+      "phase": "convergence_verification",
+      "stable_auxiliary_files": true,
+      "before_sha256": {
+        "main.aux": "c444cccf61ffd06a51be9f6a932ec5ab98051c994eb03ce32649681641b6dd33",
+        "main.toc": "4bf0ae2e3a6d8f309509a6bb8fadecb61bf879c3fe35f6b87d52bafba6aeec7a",
+        "main.out": "04e7a366967be40eb3f70daa36a4d7e9750f926995d5fb65ed51c75bbee9e4bb",
+        "main.bbl": "dc387553e9b4c880c0cb767eff6f4853a22d9d783d873762096ea45c056cd0a8"
+      },
+      "after_sha256": {
+        "main.aux": "c444cccf61ffd06a51be9f6a932ec5ab98051c994eb03ce32649681641b6dd33",
+        "main.toc": "4bf0ae2e3a6d8f309509a6bb8fadecb61bf879c3fe35f6b87d52bafba6aeec7a",
+        "main.out": "04e7a366967be40eb3f70daa36a4d7e9750f926995d5fb65ed51c75bbee9e4bb",
+        "main.bbl": "dc387553e9b4c880c0cb767eff6f4853a22d9d783d873762096ea45c056cd0a8"
+      },
+      "final_log_issues": []
+    }
+  ],
+  "max_settling_passes": 6,
+  "note": "Dependency build plus actual final TeX passes; no ignored diagnostics or normalized TOC."
+}

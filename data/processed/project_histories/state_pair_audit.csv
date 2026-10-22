@@ -18,9 +18,12 @@ Lynas_Texas_HRE,LYH-019,LYH-020,F,F,same_state_reobservation,True,False,False,No
 Lynas_Texas_HRE,LYH-020,LYH-021,F,F,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 Lynas_Texas_HRE,LYH-021,LYH-022,F,F,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 Lynas_Texas_HRE,LYH-022,LYH-023,F,X,allowed_endpoint_pair,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+MP_10X_magnet,PR-005,SP-003,A,C,unobserved_intermediate_states_or_definition_change,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 MP_mine,PR-022,PR-024,S,O,allowed_endpoint_pair,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 MP_mine,PR-024,PR-001,O,O,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+MP_mine,PR-001,SP-001,O,O,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 MP_separation,PR-023,PR-002,S,O,allowed_endpoint_pair,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+MP_separation,PR-002,SP-002,O,O,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 Pensana_Longonjo_feed,PR-020,IND-009,C,C,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 RER_BearLodge_feed,PR-012,RH-001,S,S,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 RER_BearLodge_feed,RH-001,PR-013,S,F,allowed_endpoint_pair,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
@@ -28,3 +31,4 @@ RER_Upton_separation,RH-002,RH-003,F,C,unobserved_intermediate_states_or_definit
 RER_Upton_separation,RH-003,RH-004,C,Q,allowed_endpoint_pair,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 RER_Upton_separation,RH-004,RH-005,Q,Q,same_state_reobservation,False,True,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 RER_Upton_separation,RH-005,PR-014,Q,Q,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+RER_Upton_separation,PR-014,SP-004,Q,Q,same_state_reobservation,False,True,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": 89,
+  "attempts": 12,
+  "accepted_coarse": 3,
+  "accepted_fine": 0,
+  "executed_at": "2026-10-22T02:19:07.707017+00:00",
+  "review_type": "internal_independent_original_HJB_and_source_provenance_not_external_certification",
+  "failures": [],
+  "continuous_mpe_certified": false,
+  "floating_point_interval_certified": false
+}

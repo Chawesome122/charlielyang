@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/charlielyang/scripts/build_supplied_evidence.py", line 103, in <module>
+    if __name__=="__main__":build()
+                            ^^^^^^^
+  File "/workspace/charlielyang/scripts/build_supplied_evidence.py", line 74, in build
+    s=index[spec["source_id"]];smic+=parse_quarterly_release(parsed[s["source_id"]],spec,s)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/charlielyang/src/weaponized/semiconductors/supplied_operations.py", line 62, in parse_quarterly_release
+    m=one_match(pattern,text);h=header(text,interleaved)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/charlielyang/src/weaponized/semiconductors/supplied_operations.py", line 24, in header
+    if not re.search(s, page):raise ValueError("Quarter header missing or reordered")
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Quarter header missing or reordered

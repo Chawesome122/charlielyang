@@ -21,6 +21,8 @@ def main():
     sources = json.loads((ROOT/"data/processed/rare_earths/source_index.json").read_text())
     for row in pd.read_csv(ROOT/"metadata/additional_rare_earth_sources.csv").fillna("").to_dict("records"):
         sources[row["source_id"]] = row
+    for row in json.loads((ROOT/'metadata/user_supplied_sources.json').read_text()):
+        sources[row['source_id']]=row
     checked = set()
     for row in records.to_dict("records"):
         source = sources[row["source_id"]]

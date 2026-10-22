@@ -1,0 +1,142 @@
+{
+  "archived_prior_evidence": [
+    {
+      "source": "outputs/diagnostics/container_extension_negative_beta.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_negative_beta.json",
+      "sha256": "a795aa096c6bb650d2c557d0bf7f8907d9157b5ae28fc71861e2ea3619eb1a79"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_replication.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_replication.json",
+      "sha256": "1ee74d875d91f113d5890fceccd148d2d4c6ba37d3132898e623da708d4fee4c"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_dynamic_deviations.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_dynamic_deviations.json",
+      "sha256": "34076fe8e441e044daa8b4a3f1c7d4811f4761c9e546817902dd19aa2a60abf6"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_manifest.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_manifest.json",
+      "sha256": "6a2d12397bbb203e6b80cc5b6712303a121d544ec7b7f51790238ce2cef2161a"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_validation.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_validation.json",
+      "sha256": "9fe11b59299c37dce6bbefe96510d9b6b9279c7c234a3d3a9745b258b8932cef"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_original_quotes.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_original_quotes.json",
+      "sha256": "298db9fa53eb64856259f9cf922c975e3797bd6b6329057089d93c0504f518bd"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_research_summary.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_research_summary.json",
+      "sha256": "15d997355a6c88b4aff915382f27536a634d45b856b348af48edd048f2191a60"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_pytest.xml",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_pytest.xml",
+      "sha256": "77b0d05f00d6a271af7415252627ec4327a2e1b08ffe6959acf875da4075f13a"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_safeguarded_analysis.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_safeguarded_analysis.json",
+      "sha256": "e5a7172287d5c67be7a9d85b128ad3e4f9ff17c854d4f5e584ecf9fbad1547ff"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_manuscript_build.log",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_manuscript_build.log",
+      "sha256": "4c79cc7cfffa9c5bb378b673dbd4453ccd33ac560ee5370131521f17eb3abc2e"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_manuscript.pdf",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_manuscript.pdf",
+      "sha256": "d80f51138ceebe19b05029e19507439581ff0f1ec55f73347cc3c31c188bb8f6"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_run.log",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_run.log",
+      "sha256": "c6bb8e35f57a915336a350e53819db60219d39a30e1a8a8c08d271474227cfa6"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_constant_controls.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_constant_controls.json",
+      "sha256": "fd0412504926d09b03167fadea373f1e1e92896051606c342ca62f02199cdf94"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_manuscript_convergence.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_manuscript_convergence.json",
+      "sha256": "c46287533cc1a30b54f0904ddfc735c2814d67f9ca46fb37e60f8c8c4f6cb1fc"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_build.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_build.json",
+      "sha256": "07a706dccb956a37c08a5c528b790a7b78fa14ad4695d6abe1b371f144e5246c"
+    },
+    {
+      "source": "outputs/diagnostics/container_extension_data_validation.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/container_extension_data_validation.json",
+      "sha256": "c0ee90669b86e73ec4b87b3e2ebe0b11ccc62651c2fb46e0fe86a84fa5ee2c00"
+    },
+    {
+      "source": "outputs/diagnostics/final_release_validation.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/final_release_validation.json",
+      "sha256": "c776ff92317d8f68477e92b1fc2e784890823c6d4dda4298b434214002d52341"
+    },
+    {
+      "source": "outputs/diagnostics/data_validation.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/data_validation.json",
+      "sha256": "c0ee90669b86e73ec4b87b3e2ebe0b11ccc62651c2fb46e0fe86a84fa5ee2c00"
+    },
+    {
+      "source": "outputs/diagnostics/end_to_end_replication.json",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/end_to_end_replication.json",
+      "sha256": "558a38fd1fccd143ebe6e0c472bb59d5041524f4954f37323eb4e38d5c6acbf4"
+    },
+    {
+      "source": "manuscript/main.pdf",
+      "archive": "outputs/diagnostics/previous_origin_veu_extension/main.pdf",
+      "sha256": "9cca95e9b0f087c7ef751542f08c909d06593244b31ee1e136cf0fb27d926704"
+    }
+  ],
+  "verified_stopped_container": "weaponized-origin-veu-final-check",
+  "free_bytes_before": 3246460928,
+  "free_bytes_after": 10323140608,
+  "commands": [
+    {
+      "command": [
+        "docker",
+        "rm",
+        "weaponized-origin-veu-final-check"
+      ],
+      "exit_code": 0,
+      "stdout": "weaponized-origin-veu-final-check\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "docker",
+        "rmi",
+        "weaponized-research-origin-veu-final:latest",
+        "weaponized-research-origin-veu-dependencies:latest"
+      ],
+      "exit_code": 0,
+      "stdout": "Untagged: weaponized-research-origin-veu-final:latest\nDeleted: sha256:07de59d9f540dcd77f8dd5862e4ba14ccf3094dc66997bb7ed31a09b0769bab2\nUntagged: weaponized-research-origin-veu-dependencies:latest\nDeleted: sha256:35b13b5029b8efc0cd007f2cc744dfaf6f98d3552439c035d9b694adf85f147b\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "docker",
+        "builder",
+        "prune",
+        "--force"
+      ],
+      "exit_code": 0,
+      "stdout": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\ntipkeorgblo1azji6oqb21lyc*              \ttrue \t\t357B      \t14 hours ago\np52g8kg8ugyxbjpldbspyvwoh               \ttrue \t393.7MB   \t14 hours ago\nuzsxgeouk7i4uqlj81nh9mm20*              \ttrue \t860.8kB   \t14 hours ago\ny4sq04fegpaxs95nhbp1z28w1*              \ttrue \t1.168kB   \t14 hours ago\nqsfcs9dzoigc0wm5yc2teg7f3               \ttrue \t374.9MB   \t14 hours ago\n4i2bq9mj9vwhvyvtaqe6t71cf               \ttrue \t784.7kB   \t15 hours ago\nTotal:\t770.2MB\n",
+      "stderr": ""
+    }
+  ],
+  "preserved": "all raw sources, research outputs and other tagged images/containers"
+}

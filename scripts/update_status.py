@@ -89,6 +89,16 @@ def main():
     update("C29","PARTIAL","src/weaponized/game/dynamic_deviation_audit.py;outputs/scenario/dynamic_deviation_audit;outputs/scenario/safeguarded_analysis;docs/dynamic_deviation_audit_review.md;docs/safeguarded_game_review.md",
            f"{summary['dynamic_deviation_audits']} fixed-opponent discounted MDP audits independently recomputed. Exact residual/discount comparison derived; ordinary floating-point bounds show small regret for positive17/21 and profitable feedback deviations for two failed negative17 archives. Separately registered accelerated search: {summary['safeguarded_attempts']} attempts, {summary['safeguarded_coarse_candidates']} coarse candidates and {summary['safeguarded_not_solved']} fine failures; original criteria unchanged.",
            "No interval-arithmetic certificate, continuous MPE, empirical calibration or nonexistence theorem; fine-grid action failures and off-grid residuals remain.", expected_requirement="HJB residuals and full continuous-control unilateral diagnostics")
+    supplied_note=(f" Supplied-copy continuation: {summary['supplied_sources']} identity/clock-checked PDFs, "
+                   f"{summary['supplied_claims']} documentary claims and {summary['supplied_smic_cells']} SMIC cells; "
+                   "MP Q1 2026 convention adoption explicitly dated, Upton formal demonstration versus end-to-end target separated, "
+                   "two White Mesa design discrepancies preserved and selected published legal anomalies corroborated. "
+                   "No historical-byte certificate, population hazard, target capability or full physical-service result.")
+    for rid in ['14-04','14-07','14-10','14-21','C01','C02','C04','C18','C19','C35']:
+        idx=audit.index[audit.requirement_id.eq(rid)][0]
+        audit.loc[idx,'executed_evidence']=str(audit.loc[idx,'executed_evidence']).split(' Supplied-copy continuation:')[0]+supplied_note
+        prior=str(audit.loc[idx,'evidence_paths']).split(';docs/supplied_evidence_review.md')[0]
+        audit.loc[idx,'evidence_paths']=prior+';docs/supplied_evidence_review.md;data/processed/supplied_evidence;outputs/diagnostics/supplied_evidence_validation.json'
     audit.to_csv(ROOT/"audit/blueprint_requirements.csv",index=False)
     counts=audit.status.value_counts().to_dict()
     text=f"""# Research status — resumable execution ledger
@@ -96,6 +106,9 @@ def main():
 Information freeze: **2026-10-11**. Research execution date: {execution_date} (UTC). Methodological attachment:49pages. The task began from an empty, unborn Git checkout. The continuation request authorizes Git push; no journal submission has occurred.
 
 ## Implemented and executed
+
+- Supplied-source continuation: **{summary['supplied_sources']} PDFs / {summary['supplied_claims']} cited claims / {summary['supplied_smic_cells']} native SMIC cells**; {summary['supplied_numerical_checks']} numerical comparisons, {summary['supplied_vintage_checks']} information-origin checks and {summary['supplied_legal_pdf_checks']} legal-PDF checks executed. MP explicitly dates the 1.20-to-1.25 KPI change to Q1 2026 without recasting; Upton's March demonstration start remains distinct from the Q3 end-to-end target. Two White Mesa prose/table capacity differences are retained. Ten of eleven document requests have readable copies; Donald remains missing. Six SEC copies are later browser prints, not certified historical bytes. See `docs/supplied_evidence_review.md`.
+- Added eight source-visible project-stage snapshots, including Wheat Ridge and Blacksburg, while retaining development, demonstration and construction distinctions. SMIC's within-quarter issuer guidance has **{summary['supplied_issuer_guidance_outcomes']} correlated outcomes / {summary['supplied_issuer_guidance_targets']} target quarter**: both realized values exceed stated upper ranges; both midpoint errors are smaller than a known-at-issuance persistence baseline. This establishes neither statistical/model forecasting skill nor probability-interval calibration; the research model did not issue that guidance.
 
 - Locked Python3.12 package; immutable archives/checksums; schemas; two-clock as-of selection; unit, vintage and provenance validation.
 - Rare-earth primary-data extraction: **{summary['rare_earth_versioned_observations']} versioned numerical records**, {summary['rare_earth_latest_observations']} latest observations, **{summary['lynas_annual_observations']} additional Lynas annual output observations** and **{summary['lynas_quarterly_versions']} quarterly KPI versions**; {summary['project_evidence_records']} project-state records across **{summary['project_count']}projects/{summary['activity_count']}activities** in a nonexhaustive documented subset. Suspended, cancelled and delayed cases retained. Native units preserved.
@@ -157,6 +170,8 @@ Information freeze: **2026-10-11**. Research execution date: {execution_date} (U
 
 ## Failed checks and repairs preserved
 
+- Historical acquisition failures below predate the ten supplied copies now admitted by the separate upload workflow. Failed HTTP requests remain failures; the supplied-copy manifest, exact checksums and historical statement clocks identify the new evidence. The first supplied extraction rejected a parenthesized negative-change percentage token; the strict parser was repaired without changing native values or relaxing source/cell checks. The failed log is retained in `outputs/diagnostics/supplied_evidence_initial_build.log`.
+
 - The first combined manuscript build failed on pdfTeX font expansion at newly added section-symbol references; all 407 tests and 8,786 validation checks had passed. Source/log/test evidence is preserved under `outputs/diagnostics/origin_veu_initial_manuscript_failure/`. Replaced the prose section symbols with the equivalent word section, retaining the legal section numbers; did not disable font expansion or warning checks. A transient quote-edit syntax failure in the figure/table generator was reverted and its failed/corrected logs preserved. The standalone repaired manuscript converged; the final full rerun identifies release completion.
 - Independent operating-origin review found source-date and country-label validation bypasses, without finding false curated numerical observations. Repaired exact month/quarter/year and comparative currency/year bindings, publication order, reviewed country aliases and strict missing/boolean semantics. Removed one unsupported Q4 interval from an end-of-year manufacturing statement; native wording/value/report index retained. The expanded focused suite has 30 passing tests; initial findings and earlier runs remain preserved.
 - Safeguarded-search provenance review found stale initial source snapshots in current experiment directories. Current executed snapshots now match the final registered method/runner; earlier versions remain byte-identical in their historical archive. All twelve final-source attempts were actually re-executed and independently rechecked; nine fine-grid failures remain failures.
@@ -186,11 +201,11 @@ Full requirements:`audit/remaining_requirements.md`. The85-row acceptance ledger
 
 ## User inputs that would help
 
-No action is required simply to prompt another continuation. The highest-priority missing public originals and exact download links are in `docs/INPUTS_NEEDED.md`; supplying the first four documents or working applied public-source network access would advance specific evidence gates. The current official-host access probe still received CONNECT 403. Four SEC filing pointers were rechecked from archived submission bytes; unavailable document contents were not admitted.
+No action is required simply to prompt another continuation. Ten supplied PDFs have now been admitted and analyzed. The remaining requested document is the Donald technical report, linked in `docs/INPUTS_NEEDED.md`. Working public-source access and the specific physical/target/risk measurements in the remaining-requirements audit would advance separate gates. Four quarterly filing clocks are rechecked from SEC submission bytes; no missing document contents or historical-byte certificates are invented.
 
 ## Exact next milestone
 
-1.Read `docs/smic_operations_review.md`, `docs/mp_measurement_review.md`, `docs/white_mesa_review.md`, `docs/engineering_inputs_review.md`, `docs/legal_provisions_review.md`, `docs/publication_extension_review.md`, `docs/original_source_integrity.md` and the audit. Resolve remaining annual-report clocks and original-at-vintage evidence, obtain Q2 originals and Upton adjudication, and collect verified entry/risk clocks plus plant/route/recipe/demand inputs before estimating hazards or physical service.
+1.Read `docs/supplied_evidence_review.md` and the prior module reviews. Ten document copies are available; do not request them again or restart their extraction. Obtain the missing Donald report, resolve White Mesa design/product-form versions and the older Upton construction-year discrepancy, and collect dated stocks, qualified operating flows, routes, recipes, demand and cohort surveillance before estimating hazards or physical service. Annual-report release clocks and original-at-vintage evidence remain separate gaps.
 2.Obtain engineering review and qualified semiconductor z/f observations; finish primary legal consolidation.
 3.Establish opacity obligations and blinded independent coding before estimating project associations.
 4.Fit empirical transitions/state laws only when these gates pass; continue negative-beta solver work with truthful failure labels.

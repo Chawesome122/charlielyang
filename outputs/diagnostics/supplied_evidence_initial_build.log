@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/workspace/charlielyang/scripts/build_supplied_evidence.py", line 103, in <module>
+    if __name__=="__main__":build()
+                            ^^^^^^^
+  File "/workspace/charlielyang/scripts/build_supplied_evidence.py", line 70, in build
+    claims=[extract_claim(parsed[r["source_id"]],r,index[r["source_id"]]) for r in book["claims"]]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/charlielyang/src/weaponized/io/supplied_evidence.py", line 44, in extract_claim
+    match = one_match(spec["pattern"], text)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/charlielyang/src/weaponized/io/supplied_evidence.py", line 32, in one_match
+    raise ValueError(f"Expected exactly one evidence match, got {len(matches)}: {pattern}")
+ValueError: Expected exactly one evidence match, got 0: REO Production Volume \(MTs\) (?P<cq>[\d,]+) (?P<pq>[\d,]+) \(?[\d,]+\)? \(?\d+\s*%\)? (?P<ch>[\d,]+) (?P<ph>[\d,]+) \(?[\d,]+\)? \(?\d+\s*%\)?

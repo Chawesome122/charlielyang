@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "staged_files": 234,
+  "files_above_50_MiB": [],
+  "credential_pattern_matches": [],
+  "omitted_NBER_full_text_tracked": false,
+  "scope": "targeted release screen, not a comprehensive security audit"
+}

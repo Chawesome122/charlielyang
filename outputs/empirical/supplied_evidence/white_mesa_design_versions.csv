@@ -1,0 +1,4 @@
+element,table_phase1,table_phase2,table_total,prose_phase1_heavies,native_unit,observed_output,add_to_older_vintage,disagreement_requires_adjudication
+ndpr,1000.0,5229.0,6229.0,,reported_tpa,False,False,False
+tb,14.0,66.0,80.0,20.0,reported_tpa,False,False,True
+dy,48.0,240.0,288.0,120.0,reported_tpa,False,False,True

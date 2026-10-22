@@ -6,6 +6,7 @@ from pathlib import Path
 from weaponized.io.original_text import verified_original_text
 import pandas as pd
 from weaponized.rare_earths.history import discovery_roster
+from weaponized.rare_earths.supplied_projects import supplied_project_snapshots
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -97,6 +98,8 @@ def main():
     rows.extend(industrial.to_dict("records"))
     histories = pd.read_csv(ROOT/"data/processed/project_histories/state_observations.csv")
     rows.extend(histories.to_dict("records"))
+    supplied=supplied_project_snapshots(pd.read_csv(ROOT/'data/processed/supplied_evidence/claims.csv'))
+    rows.extend(supplied.to_dict('records'))
     frame = pd.DataFrame(rows)
     target = ROOT/"data/processed/rare_earths"
     frame.to_csv(target/"project_state_evidence.csv", index=False)
@@ -122,6 +125,10 @@ def main():
                           "evidence_gap":"operator corroboration, entry/exit history, technical recipe, route capacity and independent qualified rate incomplete",
                           "status":"source-linked discovery snapshot; not admitted to representative risk set"})
     log = pd.concat([log, extra], ignore_index=True)
+    additions=supplied.drop_duplicates('project_id')
+    log=pd.concat([log,pd.DataFrame(dict(candidate_project=additions.project_id,
+                                      evidence_gap='source-visible snapshot; full prior histories, risk surveillance and physical routes incomplete',
+                                      status='supplied-copy discovery extension; not a representative risk cohort'))],ignore_index=True)
     log.to_csv(ROOT/"metadata/project_inclusion_log.csv", index=False)
     pd.DataFrame([dict(source_id="RE-MOLYCORP-SUBMISSIONS",decision="REJECT_ENTITY_MISMATCH",reason="CIK1287121 resolves to Canada Jetlines, not Molycorp; no claim uses this archive"),
                   dict(source_id="RE-USARE-10K2023;RE-USARE-10K2024",decision="EXCLUDE_INDUSTRIAL_PANEL",reason="pre-merger SPAC observations are not operating-company history"),

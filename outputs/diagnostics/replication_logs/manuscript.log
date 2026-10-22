@@ -1,7 +1,191 @@
 Rc files read:
   /etc/LatexMk
 Latexmk: This is Latexmk, John Collins, 11 Dec. 2024. Version 4.86.
-Latexmk: Nothing to do for 'main.tex'.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  ../outputs/empirical/rare_earths/evidence_coverage.pdf
+  main.tex
+  results.tex
+Category 'changed_user':
+  ../outputs/empirical/rare_earths/evidence_coverage.pdf
+  main.tex
+  results.tex
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(./results.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./main.out) (./main.out)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) (./main.toc
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2])
+[3]
+[4]
+[5]
+[6 <../outputs/empirical/semiconductors/legal_chronology.pdf>]
+[7]
+[8 <../outputs/empirical/source_integrity/claim_clock_exclusions.pdf>]
+[9]
+[10 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
+[11] (./operating_origin_extension_table.tex)
+[12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf>]
+[13 <../outputs/empirical/rare_earths/mp_native_quarterly_production.pdf>]
+[14 <../outputs/empirical/rare_earths/operating_origin_extension/ownership_and_
+documentary_clocks.pdf> <../outputs/empirical/rare_earths/white_mesa_native_flo
+ws.pdf>]
+[15 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
+[16]
+[17 <../outputs/empirical/supplied_evidence/quarterly_observations.pdf>]
+[18 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
+[19 <../outputs/empirical/rare_earths/project_finance_categories.pdf> <../outpu
+ts/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
+[20 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+[21 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
+[22 <../outputs/empirical/rare_earths/stage_constraints.pdf>]
+[23 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
+(./mp_baselines.tex)
+[24 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+[25] (./entity_schedules_table.tex)
+[26]
+[27 <../outputs/empirical/semiconductors/entity_review_policies.pdf> <../output
+s/empirical/semiconductors/entity_publication_clocks.pdf>]
+(../outputs/empirical/semiconductors/veu_extension/scope_table.tex)
+[28]
+[29 <../outputs/empirical/semiconductors/veu_extension/document_clocks.pdf> <..
+/outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
+[30 <../outputs/empirical/semiconductors/smic_operating_scale.pdf>]
+(./supplied_smic_changes.tex) (./smic_operating_changes.tex)
+[31]
+[32 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
+[33] (./game_table.tex)
+[34] (./negative_extension_table.tex)
+[35] (../outputs/scenario/safeguarded_analysis/scenario_table.tex)
+[36 <../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf>]
+(../outputs/scenario/dynamic_deviation_audit/table.tex)
+[37 <../outputs/scenario/safeguarded_analysis/convergence.pdf>]
+[38 <../outputs/scenario/dynamic_deviation_audit/value_bounds.pdf>]
+(./constant_controls_table.tex)
+[39]
+[40 <../outputs/scenario/constant_controls/scenario_controls.pdf> <../outputs/s
+cenario/constant_controls/commitment_payoffs.pdf>]
+[41 <../outputs/scenario/game/constant_control_benchmark.pdf>]
+[42 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
+[43] (./main.bbl
+[44]
+[45]
+[46]
+[47]
+[48]
+[49])
+[50]
+[51]
+[52]
+[53]
+[54] (./main.aux) ) </tmp/texfonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (54 pages, 935147 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s):
+  ./primary_sources.bib
+  ./references.bib
 Latexmk: All targets (main.pdf) are up-to-date
 
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
@@ -89,60 +273,63 @@ For additional information on amsmath, use the `?' option.
 [6 <../outputs/empirical/semiconductors/legal_chronology.pdf>]
 [7]
 [8 <../outputs/empirical/source_integrity/claim_clock_exclusions.pdf>]
-[9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
-[10]
-[11]
-[12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf> <../outpu
-ts/empirical/rare_earths/mp_native_quarterly_production.pdf>]
-(./operating_origin_extension_table.tex)
-[13 <../outputs/empirical/rare_earths/operating_origin_extension/ownership_and_
-documentary_clocks.pdf>]
-[14 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
+[9]
+[10 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
+[11] (./operating_origin_extension_table.tex)
+[12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf>]
+[13 <../outputs/empirical/rare_earths/mp_native_quarterly_production.pdf>]
+[14 <../outputs/empirical/rare_earths/operating_origin_extension/ownership_and_
+documentary_clocks.pdf> <../outputs/empirical/rare_earths/white_mesa_native_flo
+ws.pdf>]
 [15 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
-[16 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
-[17 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
-[18 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
-[19 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
-[20 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
-[21 <../outputs/empirical/rare_earths/stage_constraints.pdf> <../outputs/empiri
-cal/rare_earths/evidence_coverage.pdf>] (./mp_baselines.tex)
-[22]
-[23 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
-[24] (./entity_schedules_table.tex)
-[25]
-[26 <../outputs/empirical/semiconductors/entity_review_policies.pdf> <../output
+[16]
+[17 <../outputs/empirical/supplied_evidence/quarterly_observations.pdf>]
+[18 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
+[19 <../outputs/empirical/rare_earths/project_finance_categories.pdf> <../outpu
+ts/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
+[20 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+[21 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
+[22 <../outputs/empirical/rare_earths/stage_constraints.pdf>]
+[23 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
+(./mp_baselines.tex)
+[24 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+[25] (./entity_schedules_table.tex)
+[26]
+[27 <../outputs/empirical/semiconductors/entity_review_policies.pdf> <../output
 s/empirical/semiconductors/entity_publication_clocks.pdf>]
 (../outputs/empirical/semiconductors/veu_extension/scope_table.tex)
-[27]
-[28 <../outputs/empirical/semiconductors/veu_extension/document_clocks.pdf> <..
+[28]
+[29 <../outputs/empirical/semiconductors/veu_extension/document_clocks.pdf> <..
 /outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
-(./smic_operating_changes.tex)
-[29 <../outputs/empirical/semiconductors/smic_operating_scale.pdf>]
-[30 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
-[31] (./game_table.tex)
-[32] (./negative_extension_table.tex)
-[33] (../outputs/scenario/safeguarded_analysis/scenario_table.tex)
-[34 <../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf>]
-[35 <../outputs/scenario/safeguarded_analysis/convergence.pdf>]
+[30 <../outputs/empirical/semiconductors/smic_operating_scale.pdf>]
+(./supplied_smic_changes.tex) (./smic_operating_changes.tex)
+[31]
+[32 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
+[33] (./game_table.tex)
+[34] (./negative_extension_table.tex)
+[35] (../outputs/scenario/safeguarded_analysis/scenario_table.tex)
+[36 <../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf>]
 (../outputs/scenario/dynamic_deviation_audit/table.tex)
-[36 <../outputs/scenario/dynamic_deviation_audit/value_bounds.pdf>]
+[37 <../outputs/scenario/safeguarded_analysis/convergence.pdf>]
+[38 <../outputs/scenario/dynamic_deviation_audit/value_bounds.pdf>]
 (./constant_controls_table.tex)
-[37]
-[38 <../outputs/scenario/constant_controls/scenario_controls.pdf> <../outputs/s
+[39]
+[40 <../outputs/scenario/constant_controls/scenario_controls.pdf> <../outputs/s
 cenario/constant_controls/commitment_payoffs.pdf>]
-[39 <../outputs/scenario/game/constant_control_benchmark.pdf>]
-[40 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
-[41] (./main.bbl
-[42]
-[43]
+[41 <../outputs/scenario/game/constant_control_benchmark.pdf>]
+[42 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
+[43] (./main.bbl
 [44]
 [45]
-[46])
+[46]
 [47]
 [48]
-[49]
+[49])
 [50]
-[51] (./main.aux) ) </tmp/texfonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/s
+[51]
+[52]
+[53]
+[54] (./main.aux) ) </tmp/texfonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
@@ -159,5 +346,5 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (51 pages, 904860 bytes).
+Output written on main.pdf (54 pages, 935147 bytes).
 Transcript written on main.log.

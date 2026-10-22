@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/charlielyang/scripts/build_evidence_coverage.py", line 64, in <module>
+    main()
+  File "/workspace/charlielyang/scripts/build_evidence_coverage.py", line 26, in main
+    source = sources[row["source_id"]]
+             ~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'UP-RE-MP-10Q2026Q2'
