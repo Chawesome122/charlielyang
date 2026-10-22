@@ -1,0 +1,37 @@
+{
+  "executed_at": "2026-10-21T05:23:32.678479+00:00",
+  "purpose": "Free storage for new continuation; exact prior release evidence archived, source data and scientific outputs retained",
+  "prior_image": "sha256:a689f0b225848371dc8f592616b8026453e2cba1276155faf5949ac1b5ea11f8",
+  "evidence_archive": "outputs/diagnostics/previous_constant_legal_extension",
+  "free_bytes_before": 3828326400,
+  "commands": [
+    {
+      "command": [
+        "docker",
+        "rm",
+        "weaponized-constant-legal-final-check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "docker",
+        "image",
+        "rm",
+        "weaponized-research-constant-legal-final:latest",
+        "weaponized-research-constant-legal-dependencies:latest"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "docker",
+        "builder",
+        "prune",
+        "--force"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "free_bytes_after": 10564968448
+}

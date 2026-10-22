@@ -1,0 +1,12 @@
+RUN adaptation_negative 17^4 zero
+ iteration 0: gain=0.32 action=0.8
+ iteration 10: gain=1.09e-08 action=0.0001476
+{"scenario": "adaptation_negative", "grid_size": 17, "start": "zero", "status": "not_solved", "termination_reason": "no_residual_decreasing_evaluated_direction", "elapsed_seconds": 17.63636453700019, "max_deviation_gain": 6.916230727016526e-09, "best_response_action_residual": 0.00011761148566102886, "policy_evaluations": 32}
+RUN adaptation_negative 17^4 one
+ iteration 0: gain=0.3567 action=0.8446
+ iteration 10: gain=8.417e-08 action=0.0004103
+{"scenario": "adaptation_negative", "grid_size": 17, "start": "one", "status": "not_solved", "termination_reason": "no_residual_decreasing_evaluated_direction", "elapsed_seconds": 11.267961284989724, "max_deviation_gain": 1.1247605635755775e-07, "best_response_action_residual": 0.0004742911684757489, "policy_evaluations": 29}
+RUN adaptation_negative 17^4 random
+ iteration 0: gain=0.4946 action=0.9946
+ iteration 10: gain=1.199e-05 action=0.004896
+{"scenario": "adaptation_negative", "grid_size": 17, "start": "random", "status": "not_solved", "termination_reason": "no_residual_decreasing_evaluated_direction", "elapsed_seconds": 8.137729309004499, "max_deviation_gain": 5.132576532451694e-06, "best_response_action_residual": 0.0032039277558836288, "policy_evaluations": 31}

@@ -1,0 +1,489 @@
+{
+  "passed": true,
+  "checks": 89,
+  "attempts": 12,
+  "accepted_coarse": 3,
+  "accepted_fine": 0,
+  "executed_at": "2026-10-21T11:38:34.510816+00:00",
+  "review_type": "internal_independent_original_HJB_and_source_provenance_not_external_certification",
+  "failures": [],
+  "checks_detail": [
+    {
+      "check": "pinned_source",
+      "passed": true,
+      "path": "configs/game.yaml"
+    },
+    {
+      "check": "pinned_source",
+      "passed": true,
+      "path": "src/weaponized/game/hjb.py"
+    },
+    {
+      "check": "pinned_source",
+      "passed": true,
+      "path": "src/weaponized/game/primitives.py"
+    },
+    {
+      "check": "pinned_source",
+      "passed": true,
+      "path": "src/weaponized/game/policy_iteration.py"
+    },
+    {
+      "check": "pinned_source",
+      "passed": true,
+      "path": "src/weaponized/game/safeguarded_iteration.py"
+    },
+    {
+      "check": "pinned_source",
+      "passed": true,
+      "path": "src/weaponized/game/safeguarded_archive.py"
+    },
+    {
+      "check": "pinned_source",
+      "passed": true,
+      "path": "scripts/run_safeguarded_game.py"
+    },
+    {
+      "check": "pinned_source",
+      "passed": true,
+      "path": "scripts/analyze_safeguarded_game.py"
+    },
+    {
+      "check": "current_executed_snapshot",
+      "passed": true,
+      "family": "linf",
+      "kind": "method"
+    },
+    {
+      "check": "current_executed_snapshot",
+      "passed": true,
+      "family": "linf",
+      "kind": "runner"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_zero.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_zero.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_zero.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_zero.json",
+      "gain": 8.344658297687602e-12,
+      "action": 9.847724868894403e-08
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_zero.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_zero.json"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_one.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_one.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_one.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_one.json",
+      "gain": 1.4155343563970746e-15,
+      "action": 5.3137655942059325e-08
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_one.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_one.json"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_random.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_random.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_random.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_random.json",
+      "gain": 5.440092820663267e-15,
+      "action": 6.441441124938052e-08
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_random.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n7_random.json"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_zero.json",
+      "gain": 5.179635192975596e-09,
+      "action": 0.00010178050144737938
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_one.json",
+      "gain": 1.5710779732724944e-08,
+      "action": 0.00017726127517947443
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_random.json",
+      "gain": 3.2972486935234357e-06,
+      "action": 0.0025679753478184963
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "current_executed_snapshot",
+      "passed": true,
+      "family": "rms",
+      "kind": "method"
+    },
+    {
+      "check": "current_executed_snapshot",
+      "passed": true,
+      "family": "rms",
+      "kind": "runner"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_zero.json",
+      "gain": 6.916230727016526e-09,
+      "action": 0.00011761148566102886
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_zero.json"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_one.json",
+      "gain": 1.1247605635755775e-07,
+      "action": 0.0004742911684757489
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_one.json"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_random.json",
+      "gain": 5.132576532451694e-06,
+      "action": 0.0032039277558836288
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_rms/adaptation_negative_n17_random.json"
+    },
+    {
+      "check": "current_executed_snapshot",
+      "passed": true,
+      "family": "coarse",
+      "kind": "method"
+    },
+    {
+      "check": "current_executed_snapshot",
+      "passed": true,
+      "family": "coarse",
+      "kind": "runner"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_zero.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_zero.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_zero.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_zero.json",
+      "gain": 6.570066601874203e-09,
+      "action": 0.00011463042017934022
+    },
+    {
+      "check": "warm_start_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_zero.json"
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_zero.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_zero.json"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_one.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_one.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_one.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_one.json",
+      "gain": 6.570080396395284e-09,
+      "action": 0.00011463054101967796
+    },
+    {
+      "check": "warm_start_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_one.json"
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_one.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_one.json"
+    },
+    {
+      "check": "source_record",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_random.json"
+    },
+    {
+      "check": "saved_array_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_random.json"
+    },
+    {
+      "check": "axes_and_domain",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_random.json"
+    },
+    {
+      "check": "original_global_acceptance_status",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_random.json",
+      "gain": 6.570109040149319e-09,
+      "action": 0.00011463078988072084
+    },
+    {
+      "check": "warm_start_hash",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_random.json"
+    },
+    {
+      "check": "initial_policy_reconstruction",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_random.json"
+    },
+    {
+      "check": "actual_search_merit_nonincreasing",
+      "passed": true,
+      "case": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_random.json"
+    }
+  ],
+  "continuous_mpe_certified": false,
+  "floating_point_interval_certified": false
+}

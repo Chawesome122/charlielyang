@@ -31,6 +31,7 @@ def main():
         ["scripts/build_rare_earths.py"],
         ["scripts/resolve_publication_clocks.py"],
         ["scripts/build_finance_material.py"], ["scripts/build_white_mesa.py"], ["scripts/build_mp_measurement.py"],
+        ["scripts/build_operating_origin_extension.py"], ["scripts/analyze_operating_origin_extension.py"], ["scripts/review_operating_origin_independent.py"],
         ["scripts/build_publication_extension.py"], ["scripts/build_engineering_inputs.py"],
         ["scripts/fetch_additional_rare_earths.py"],
         ["scripts/build_lynas_history.py"], ["scripts/build_lynas_revisions.py"],
@@ -44,6 +45,7 @@ def main():
         ["scripts/build_smic_operations.py"], ["scripts/analyze_smic_operations.py"],
         ["scripts/discover_legal.py"], ["scripts/review_legal_discovery.py"], ["scripts/build_legal_provisions.py"],
         ["scripts/build_entity_schedules.py"], ["scripts/analyze_entity_schedules.py"],
+        ["scripts/build_veu_extension.py"], ["scripts/analyze_veu_extension.py"], ["scripts/review_veu_independent.py"], ["scripts/build_source_requests.py"],
         ["scripts/run_opacity.py"], ["scripts/run_physical.py"],
         ["scripts/run_forecast.py", "--draws", "10000"],
         ["scripts/run_empirical_baselines.py"],
@@ -62,9 +64,13 @@ def main():
         import yaml
         registry = yaml.safe_load((ROOT/"configs/negative_beta_extension.yaml").read_text())
         commands.append(registry["command"])
-    commands += [["scripts/audit_game.py", "--out", "outputs/scenario/negative_beta_extension"],
+        commands += [["scripts/run_safeguarded_game.py", "--registry", "configs/safeguarded_game.yaml", "--out", "outputs/scenario/safeguarded_game"],
+                     ["scripts/run_safeguarded_game.py", "--registry", "configs/safeguarded_game_rms.yaml", "--out", "outputs/scenario/safeguarded_game_rms"],
+                     ["scripts/run_safeguarded_game.py", "--registry", "configs/safeguarded_game_coarse.yaml", "--out", "outputs/scenario/safeguarded_game_coarse"]]
+    commands += [["scripts/audit_game.py", "--out", folder] for folder in ["outputs/scenario/safeguarded_game","outputs/scenario/safeguarded_game_rms","outputs/scenario/safeguarded_game_coarse"]]
+    commands += [["scripts/analyze_safeguarded_game.py"], ["scripts/review_safeguarded_independent.py"], ["scripts/audit_game.py", "--out", "outputs/scenario/negative_beta_extension"],
                  ["scripts/analyze_negative_extension.py"], ["scripts/audit_original_quotes.py"], ["scripts/plot_evidence_extensions.py"], ["scripts/plot_white_mesa.py"],
-                 ["scripts/audit_game.py"], ["scripts/validate.py"], ["-m", "pytest", "-q", "--junitxml=outputs/diagnostics/pytest.xml"],
+                 ["scripts/audit_game.py"], ["scripts/run_dynamic_deviation_audit.py"], ["scripts/validate.py"], ["-m", "pytest", "-q", "--junitxml=outputs/diagnostics/pytest.xml"],
                  ["scripts/report.py"]]
     steps = []
     start = time.monotonic()

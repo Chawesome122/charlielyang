@@ -36,6 +36,7 @@ def main():
         "data/processed/finance_material/observations.csv",
         "data/processed/engineering_inputs/observations.csv",
         "data/processed/white_mesa/observations.csv",
+        "data/processed/operating_origin_extension/observations.csv",
         "data/processed/mp_measurement/definitions.csv",
         "data/processed/smic_operations/source_clocks.csv",
         "data/processed/smic_operations/definitions.csv",
@@ -133,11 +134,27 @@ def main():
         passed &= row["publication_date"]==spec["publication_date"] and row["effective_date"]==spec["effective_date"]
         checks.append(dict(table=table,row_index=number,source_id=row["source_id"],source_sha256=source["sha256"],pdf_page=None,
                            method="reparse original five-column entry, aliases/continuations, destination, notes, review and dateline; unknown outcomes stay blank",passed=passed))
+    veu_sources=pd.read_csv(ROOT/"metadata/semiconductor_sources.csv",keep_default_na=False).set_index("source_id")
+    veu_originals={}
+    for spec in json.loads((ROOT/"codebooks/veu_extension.json").read_text())["documents"]:
+        source=veu_sources.loc[spec["source_id"]]
+        payload=(ROOT/source.path).read_bytes()
+        if hashlib.sha256(payload).hexdigest()!=spec["source_sha256"] or source.sha256!=spec["source_sha256"]:
+            raise ValueError("VEU original snapshot mismatch")
+        issued_xml_text(payload,spec["document_number"])
+        veu_originals[spec["source_id"]]=(source,ET.fromstring(payload))
+    table="data/processed/veu_extension/clauses.csv"
+    for number,row in enumerate(pd.read_csv(ROOT/table,keep_default_na=False).to_dict("records")):
+        source,root=veu_originals[row["source_id"]]
+        nodes=root.findall(row["xpath"])
+        checks.append(dict(table=table,row_index=number,source_id=row["source_id"],source_sha256=source.sha256,pdf_page=None,
+                           method="exact original VEU issued-XML XPath and text, without treating explanatory material as operative law",
+                           passed=len(nodes)==1 and normalize_text(nodes[0])==row["quote"] and row["source_sha256"]==source.sha256))
     out = ROOT/"data/processed/source_integrity"
     out.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(checks).to_csv(out/"original_quote_audit.csv", index=False)
     result = dict(passed=all(row["passed"] for row in checks), checks=len(checks),
-                  tables=len(tables)+3+5, original_sources=len({row["source_id"] for row in checks}),
+                  tables=len(tables)+3+5+1, original_sources=len({row["source_id"] for row in checks}),
                   failures=[row for row in checks if not row["passed"]],
                   editable_text_aids_used=False, independent_production_measurement=False,
                   historical_source_byte_vintage_certified=False,

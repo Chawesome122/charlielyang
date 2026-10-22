@@ -1,0 +1,17 @@
+{
+  "freeze": "2026-10-11",
+  "classification": "acquisition_requests_not_observations_or_admitted_sources",
+  "requests": [
+    {"rank": 1, "label": "MP Materials Q2 2026 Form 10-Q", "log": "metadata/rare_earth_acquisitions.jsonl", "source_id": "RE-MP-10Q2026Q2", "discovery_submission": "RE-MP-SUBMISSIONS", "accession": "0001801368-26-000048", "reason": "Latest pre-freeze operating, routing, ownership and original financial contexts"},
+    {"rank": 2, "label": "MP incorporated 2025 technical report", "log": "metadata/mp_measurement_acquisitions.jsonl", "source_id": "RE-MP-TRS2025-CANDIDATE", "reason": "Element assays, engineering assumptions, process and material-accounting evidence; operating validation still needed"},
+    {"rank": 3, "label": "Energy Fuels Q2 2026 Form 10-Q", "log": "metadata/rare_earth_acquisitions.jsonl", "source_id": "RE-EF-10Q2026Q2", "discovery_submission": "RE-EF-SUBMISSIONS", "accession": "0001385849-26-000029", "reason": "Latest pre-freeze commissioning, stock, product-form, transaction and route disclosures"},
+    {"rank": 4, "label": "USA Rare Earth Q2 2026 Form 10-Q", "log": "metadata/rare_earth_acquisitions.jsonl", "source_id": "RE-USARE-10Q2026Q2", "discovery_submission": "RE-USARE-SUBMISSIONS", "accession": "0001970622-26-000057", "reason": "Latest pre-freeze Stillwater/LCM commissioning, ownership, financing and qualification disclosures"},
+    {"rank": 5, "label": "Rare Element Resources Q2 2026 Form 10-Q", "log": "metadata/project_history_acquisitions.jsonl", "source_id": "HIST-RER-10Q2026Q2", "discovery_submission": "RE-RAREELEMENT-SUBMISSIONS", "accession": "0001419806-26-000011", "reason": "Upton rework, commissioning and event-definition adjudication"},
+    {"rank": 6, "label": "Vara Mada incorporated technical report", "log": "metadata/white_mesa_acquisitions.jsonl", "source_id": "WM-VARAMADA-TECHREPORT", "reason": "Native feed/product assays and technical assumptions; link date is not original release certification"},
+    {"rank": 7, "label": "Donald incorporated technical report", "log": "metadata/white_mesa_acquisitions.jsonl", "source_id": "WM-DONALD-TECHREPORT", "reason": "Native feed/product assays, process capacities and stage-link assumptions"},
+    {"rank": 8, "label": "SMIC Q1 2026 original earnings PDF", "log": "metadata/smic_operations_acquisitions.jsonl", "source_id": "SC-SMIC-Q12026-EARNINGS", "reason": "Operating-scale and native-definition extension; exact release clock requires the original, no target-capability inference"},
+    {"rank": 9, "label": "SMIC Q2 2026 original earnings PDF", "log": "metadata/smic_operations_acquisitions.jsonl", "source_id": "SC-SMIC-Q22026-EARNINGS", "reason": "Latest pre-freeze operating and native-definition evidence; release-date and eligibility checks remain pending"},
+    {"rank": 10, "label": "2024-25411 published Federal Register PDF", "log": "metadata/entity_schedule_acquisitions.jsonl", "source_id": "EL-PUBLISHED-PDF-2024-25411", "reason": "Corroborate XML insertion markers and embedded address-date token against the paginated original"},
+    {"rank": 11, "label": "2025-05427 official public-inspection PDF", "log": "metadata/entity_schedule_acquisitions.jsonl", "source_id": "EL-PUBLIC-INSPECTION-2025-05427", "reason": "Corroborate official filing/publication versions without inventing a globally earliest public clock"}
+  ]
+}

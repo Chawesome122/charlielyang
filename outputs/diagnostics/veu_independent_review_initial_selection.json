@@ -1,0 +1,436 @@
+{
+  "passed": false,
+  "execution_timestamp": "2026-10-21T05:30:41.498174+00:00",
+  "reviewer": "internal_independent_computational_agent",
+  "scope": "Independent XML/metadata/CSV checks using ElementTree, literal token and date comparisons; no calls to the VEU extraction or query implementation",
+  "checks": 99,
+  "failures": [
+    "permission:partial_paragraph_adding_sentence_not_all_new",
+    "permission:other_EAR_qualifier_preserved"
+  ],
+  "checks_detail": [
+    {
+      "check": "2023-22873:raw_snapshots",
+      "passed": true
+    },
+    {
+      "check": "2023-22873:native_metadata_identity_dates",
+      "passed": true
+    },
+    {
+      "check": "2023-22873:native_effective_sentence",
+      "passed": true
+    },
+    {
+      "check": "2023-22873:three_clocks",
+      "passed": true
+    },
+    {
+      "check": "2023-22873:notice_days",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:EFFECT:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:FILING:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SECTION74815D:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SECTION74815D:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:NONSUPERSESSION:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:NONSUPERSESSION:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:INSTRUCTION:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:INSTRUCTION:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SAMSUNG_XIAN:PARTY_NAME:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SAMSUNG_XIAN:PARTY_NAME:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SAMSUNG_XIAN:ELIGIBLE_ITEMS:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SAMSUNG_XIAN:ELIGIBLE_ITEMS:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SAMSUNG_XIAN:ELIGIBLE_DESTINATION:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SAMSUNG_XIAN:ELIGIBLE_DESTINATION:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SAMSUNG_XIAN:NATIVE_CITATION:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SAMSUNG_XIAN:NATIVE_CITATION:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SKHYNIX_WUXI:PARTY_NAME:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SKHYNIX_WUXI:PARTY_NAME:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SKHYNIX_WUXI:ELIGIBLE_ITEMS:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SKHYNIX_WUXI:ELIGIBLE_ITEMS:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SKHYNIX_WUXI:ELIGIBLE_DESTINATION:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SKHYNIX_WUXI:ELIGIBLE_DESTINATION:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SKHYNIX_WUXI:NATIVE_CITATION:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SKHYNIX_WUXI:NATIVE_CITATION:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SECTION_INSTRUCTION:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2023-22873:SECTION_INSTRUCTION:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "2025-16735:raw_snapshots",
+      "passed": true
+    },
+    {
+      "check": "2025-16735:native_metadata_identity_dates",
+      "passed": true
+    },
+    {
+      "check": "2025-16735:native_effective_sentence",
+      "passed": true
+    },
+    {
+      "check": "2025-16735:three_clocks",
+      "passed": true
+    },
+    {
+      "check": "2025-16735:notice_days",
+      "passed": true
+    },
+    {
+      "check": "VEU:2025-16735:EFFECT:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2025-16735:FILING:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2025-16735:REMOVAL:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2025-16735:REMOVAL:operative_text_role",
+      "passed": true
+    },
+    {
+      "check": "VEU:2025-16735:GENERAL_AUTHORIZATION:native_xpath_quote",
+      "passed": true
+    },
+    {
+      "check": "VEU:2025-16735:GENERAL_AUTHORIZATION:explanatory_not_operative",
+      "passed": true
+    },
+    {
+      "check": "permission:one_native_table",
+      "passed": true
+    },
+    {
+      "check": "permission:entire_printed_recipient_set",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exact_four_cells",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:except",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:EUV",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:parts",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:components",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:software",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:technology",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:development",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:production",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:744.6(c)(2)(i-iii)",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:744.23(a)(1)(iii)",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:(a)(2)(iii)",
+      "passed": true
+    },
+    {
+      "check": "permission:0:exception_or_conjunction:748.15(d)",
+      "passed": true
+    },
+    {
+      "check": "permission:0:uncorrected_citation_placeholder",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exact_four_cells",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:except",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:EUV",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:parts",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:components",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:software",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:technology",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:development",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:production",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:744.6(c)(2)(i-iii)",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:744.23(a)(1)(iii)",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:(a)(2)(iii)",
+      "passed": true
+    },
+    {
+      "check": "permission:1:exception_or_conjunction:748.15(d)",
+      "passed": true
+    },
+    {
+      "check": "permission:1:uncorrected_citation_placeholder",
+      "passed": true
+    },
+    {
+      "check": "permission:NAND_and_DRAM_facilities_bound",
+      "passed": true
+    },
+    {
+      "check": "permission:explicit_country_amendatory_context",
+      "passed": true
+    },
+    {
+      "check": "permission:partial_paragraph_adding_sentence_not_all_new",
+      "passed": false
+    },
+    {
+      "check": "permission:other_EAR_qualifier_preserved",
+      "passed": false
+    },
+    {
+      "check": "removal:three_explicit_recipients_and_country",
+      "passed": true
+    },
+    {
+      "check": "removal:three_events_not_prohibitions",
+      "passed": true
+    },
+    {
+      "check": "removal:unknown_prior_Intel_scope_stays_missing",
+      "passed": true
+    },
+    {
+      "check": "links:only_two_named_recipient_document_pairs",
+      "passed": true
+    },
+    {
+      "check": "origin:2023-10-12:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2023-10-13:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2023-10-16:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2023-10-17:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2025-08-28:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2025-08-29:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2025-09-01:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2025-09-02:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2025-12-30:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2025-12-31:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2026-10-11:independent_date_ordering",
+      "passed": true
+    },
+    {
+      "check": "origin:2025_08_29_removals_are_future",
+      "passed": true
+    },
+    {
+      "check": "origin:post_effective_records_are_history_not_active_set",
+      "passed": true
+    },
+    {
+      "check": "scientific_labels:domestic_capability_score:no_fabricated_values",
+      "passed": true
+    },
+    {
+      "check": "scientific_labels:foreign_access_score:no_fabricated_values",
+      "passed": true
+    },
+    {
+      "check": "scientific_labels:observed_license_outcome:no_fabricated_values",
+      "passed": true
+    },
+    {
+      "check": "scientific_labels:complete_legal_eligibility_certified:no_stronger_certificate",
+      "passed": true
+    },
+    {
+      "check": "scientific_labels:current_law_consolidation_verified:no_stronger_certificate",
+      "passed": true
+    },
+    {
+      "check": "scientific_labels:source_byte_vintage_independently_certified:no_stronger_certificate",
+      "passed": true
+    }
+  ],
+  "original_snapshot_hashes": {
+    "2023-22873": {
+      "xml_sha256": "eeed485807661b2fee9a0b9de4da1b2bb7f3792edecfaefe2b41ed39c960c4d0",
+      "metadata_sha256": "cc59d016363072ff9d2070e5ae1bd91e40bedc8c55887282a31cc92b726955b5"
+    },
+    "2025-16735": {
+      "xml_sha256": "3661054ab2ba7eee2e5b1690aa926bdd1c89185df95f5b0793fe40d4d0d35ee5",
+      "metadata_sha256": "7fe49d5dd4f6b4d8fe33311357a78e6302c2a8d792d9d1de526200c28e484160"
+    }
+  },
+  "primary_claims_rechecked": 18,
+  "permission_entries_rechecked": 2,
+  "removal_recipients_rechecked": 3,
+  "origin_phase_checks_rechecked": 11,
+  "external_legal_review": false,
+  "independent_human_coding": false,
+  "second_machine_replication": false,
+  "current_law_consolidation_certified": false,
+  "transaction_eligibility_certified": false,
+  "actual_technology_access_estimated": false,
+  "historical_original_bytes_certified": false,
+  "residual_requirements": [
+    "Complete intervening EAR provisions/amendments and other authorizations",
+    "Transaction-specific licensing and shipment/servicing evidence",
+    "Qualified independent legal interpretation",
+    "Globally earliest disclosure and release-time original-byte corroboration"
+  ]
+}

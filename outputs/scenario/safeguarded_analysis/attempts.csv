@@ -1,0 +1,13 @@
+family,grid_size,nodes,start,iterations,termination,policy_evaluations,elapsed_seconds,status_consistent,accepted_finite_grid_candidate,max_unilateral_gain,best_response_action_residual,continuous_mpe_certified,nonexistence_proved,max_hjb_residual
+linf,7,2401,zero,15,original_acceptance_thresholds_satisfied,27,0.3709191469824873,True,True,8.344658297687602e-12,9.847724868894403e-08,False,False,3.270805848387681e-11
+linf,7,2401,one,16,original_acceptance_thresholds_satisfied,17,0.167263646988431,True,True,1.4155343563970746e-15,5.3137655942059325e-08,False,False,3.186505226349112e-11
+linf,7,2401,random,20,original_acceptance_thresholds_satisfied,40,0.28179730800911784,True,True,5.440092820663267e-15,6.441441124938052e-08,False,False,3.847686058655597e-11
+linf,17,83521,zero,14,no_residual_decreasing_evaluated_direction,33,10.086706853006035,True,False,5.179635192975596e-09,0.00010178050144737938,False,False,1.0597624167107966e-10
+linf,17,83521,one,11,no_residual_decreasing_evaluated_direction,31,8.651941764022922,True,False,1.5710779732724944e-08,0.00017726127517947443,False,False,1.1089114695939095e-10
+linf,17,83521,random,19,no_residual_decreasing_evaluated_direction,44,13.050660473003518,True,False,3.2972486935234357e-06,0.0025679753478184963,False,False,9.071691314810337e-11
+rms,17,83521,zero,16,no_residual_decreasing_evaluated_direction,32,8.814290052017896,True,False,6.916230727016526e-09,0.00011761148566102886,False,False,2.4175089707867414e-10
+rms,17,83521,one,13,no_residual_decreasing_evaluated_direction,29,9.410747932008235,True,False,1.1247605635755775e-07,0.0004742911684757489,False,False,1.3524998482283834e-10
+rms,17,83521,random,14,no_residual_decreasing_evaluated_direction,31,27.645435490005184,True,False,5.132576532451694e-06,0.0032039277558836288,False,False,1.3132182841157913e-10
+coarse_interpolation,17,83521,coarse_zero,23,no_residual_decreasing_evaluated_direction,50,26.025402962986846,True,False,6.570066601874203e-09,0.00011463042017934022,False,False,1.4354825661477832e-10
+coarse_interpolation,17,83521,coarse_one,23,no_residual_decreasing_evaluated_direction,50,17.277576068998314,True,False,6.570080396395284e-09,0.00011463054101967796,False,False,1.22148666181765e-10
+coarse_interpolation,17,83521,coarse_random,23,no_residual_decreasing_evaluated_direction,50,17.102833468990866,True,False,6.570109040149319e-09,0.00011463078988072084,False,False,1.0255693516647568e-10

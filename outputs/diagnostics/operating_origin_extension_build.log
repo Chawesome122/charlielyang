@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "freeze": "2026-10-11",
+  "source_claims": 33,
+  "numeric_claims": 14,
+  "original_sources": 3,
+  "equity_closure_checks": 2,
+  "procurement_comparative_groups": 5,
+  "publication_origins": 7,
+  "route_admission_cases": 5,
+  "full_route_data_admitted": 0,
+  "empirical_China_free_service_identified": false,
+  "event_intervals_are_exact_days": false,
+  "current_ownership_carryforward_certified": false,
+  "causal_policy_effect_identified": false,
+  "historical_source_byte_vintage_certified": false,
+  "source_quote_clock_and_value_checks_passed": true,
+  "classification": "actual_issuer_disclosures_and_evidence_admission_not_complete_network"
+}

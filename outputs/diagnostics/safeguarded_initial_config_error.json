@@ -1,0 +1,8 @@
+{
+  "stage": "coarse-initialization registry generation helper",
+  "exit_code": 1,
+  "error": "NameError: name 'hashlib' is not defined",
+  "models_executed_by_failed_helper": false,
+  "correction": "Import hashlib and regenerate the registry before launching the coarse-initialization experiment",
+  "corrected_before_registered_model_execution": true
+}

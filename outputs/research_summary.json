@@ -1,6 +1,6 @@
 {
   "freeze": "2026-10-11",
-  "tests": 340,
+  "tests": 407,
   "test_failures": 0,
   "rare_earth_versioned_observations": 87,
   "rare_earth_latest_observations": 53,
@@ -24,7 +24,7 @@
   "engineering_conditional_constraints": 4,
   "selected_legal_provisions": 41,
   "structured_legal_bounds": 24,
-  "original_quote_checks": 2551,
+  "original_quote_checks": 2602,
   "rejected_auxiliary_date_candidates": 18,
   "white_mesa_claims": 49,
   "white_mesa_stock_checks": 20,
@@ -40,8 +40,8 @@
   "smic_operating_source_clocks": 4,
   "smic_operating_identity_checks": 8,
   "smic_definition_wording_changes": 2,
-  "original_quote_tables": 20,
-  "original_quote_sources": 47,
+  "original_quote_tables": 22,
+  "original_quote_sources": 49,
   "documentary_coverage": {
     "public_clock_eligible": 31,
     "native_capacity_documented": 12,
@@ -80,5 +80,18 @@
   "constant_commitment_max_kkt_error": 5.74296166178101e-12,
   "additional_negative_attempts": 3,
   "additional_negative_not_solved": 3,
-  "additional_negative_accepted_candidates": 0
+  "additional_negative_accepted_candidates": 0,
+  "operating_origin_claims": 33,
+  "operating_origin_sources": 3,
+  "operating_origin_route_cases": 5,
+  "operating_origin_routes_admitted": 0,
+  "veu_clause_checks": 18,
+  "veu_permission_entries": 2,
+  "veu_removal_entries": 3,
+  "dynamic_deviation_audits": 8,
+  "dynamic_deviation_sources": 4,
+  "safeguarded_attempts": 12,
+  "safeguarded_coarse_candidates": 3,
+  "safeguarded_fine_candidates": 0,
+  "safeguarded_not_solved": 9
 }

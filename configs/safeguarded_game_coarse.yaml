@@ -1,0 +1,31 @@
+classification: hypothetical_numerical_method_experiment_not_empirical
+base_config: configs/game.yaml
+scenario: adaptation_negative
+grids:
+- 17
+starts:
+- zero
+- one
+- random
+seed: 101
+method: safeguarded_anderson_global_hamiltonian_best_response
+max_iterations: 120
+memory: 12
+ridge: 1.0e-12
+damping: 1.0
+fallback_damping: 0.01
+backtracks: 8
+thresholds:
+  deviation_gain: 1.0e-08
+  best_response_action: 1.0e-07
+  scaled_hjb: 1.0e-08
+  linear_rtol: 1.0e-11
+original_numerical_core_modified: false
+interpretation: Exact global Hamiltonian best-response fixed-point search with independently
+  evaluated residuals; neither success nor failure certifies continuous pure MPE existence/nonexistence.
+merit_norm: rms
+warm_start_grid: 7
+warm_start_archives:
+  zero: 28365b651f9df1944f0bbad5e7fbb11282a3c796aff0513b6c6765a1889fbd00
+  one: 7c734eda8048bdec7c6f160d9c0dd01c4cb8196732d096f656a30da84e59f1ae
+  random: aef703396604dc66fe6720a884b4817e52ffee068c248cfae199d162dacefc64

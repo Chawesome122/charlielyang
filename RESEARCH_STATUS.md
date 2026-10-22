@@ -1,6 +1,6 @@
 # Research status — resumable execution ledger
 
-Information freeze: **2026-10-11**. Research execution date: 2026-10-20 (UTC). Methodological attachment: 49 pages. The task began from an empty, unborn Git checkout. The continuation request authorizes Git push; no journal submission has occurred.
+Information freeze: **2026-10-11**. Research execution date: 2026-10-22 (UTC). Methodological attachment: 49 pages. The task began from an empty, unborn Git checkout. The continuation request authorizes Git push; no journal submission has occurred.
 
 ## Implemented and executed
 
@@ -16,7 +16,9 @@ Information freeze: **2026-10-11**. Research execution date: 2026-10-20 (UTC). M
 - White Mesa extension: **49 claims** from three original filings. Bulk feeds, native product/contained-TREO outputs, sampling sales, separated stocks, WIP, conditional capacity components and commissioning definitions are distinct. 20 stock/origin checks admit no verified current opening stock; missing stock is not zero. 3 unsupported research oxide labels corrected without altering native amounts or public clocks.
 - MP measurement extension: **174 native cell versions** and **19 definitions** from three originals. Fourteen numerical quarter/annual and twelve monetary inventory identities reconcile; four quarter/annual comparisons remain incomplete. Nine eligible quarterly origin/metric pairs span only three calendar origins; no skill or physical-stock estimate follows.
 - SMIC operations extension: **120 source-vintaged observations**, 12 unit/denominator definitions and four original page-1 release clocks; 9 selected quarters. 24 revenue-share identities, four capacity presentation checks and eight nominal accounting decompositions execute. Two comparative definition-wording changes remain unreconstructed; no advanced-target or access scores assigned.
-- Original-source trust chain: **2551 quote/table checks** across 20 tables and 47 originals; single immutable-byte snapshot extraction, derivative exclusion and explicit PDF page enforcement. Present archived-byte support is not historical-release certification.
+- Commercial origin extension: **33 original MP disclosures** separate reported Vietnam equity/management, China sales, reagent/material procurement, divestiture and internal oxide feed. 5 admission cases yield 0 complete routes; nominal purchases and location do not certify all-input independence.
+- VEU scope extension: **18 exact clauses**, 2 facility/item permission entries and 3 named removals. 2025 publication/filing-to-effect leads are 120/124 days; neither notice nor removal measures a rejected license or technology access.
+- Original-source trust chain: **2602 quote/table checks** across 22 tables and 49 originals; single immutable-byte snapshot extraction, derivative exclusion and explicit PDF page enforcement. Present archived-byte support is not historical-release certification.
 - Publication extension: **18 auxiliary date candidates rejected**; four annual clocks remain unknown. Actual event-date-only look-ahead counts are 15 at December 2025 and 12 at June 2026. Reports-page arrow/title link conflicts are preserved.
 - Selected legal provisions: **41 claims**, 65 operative XML elements and **24 technical bounds** from three originals. Four parameter links do not certify full supersession/current law or numerical access.
 - All 41 additional archived legal originals scope-screened; 4 documents add 5 reviewed phases. Eight procedural records do not add export requirements. Current-law consolidation and numerical access effects remain unverified.
@@ -29,14 +31,16 @@ Information freeze: **2026-10-11**. Research execution date: 2026-10-20 (UTC). M
 - Sparse 4D HJB evaluation/improvement, six policy starts, 17/21 node refinement, global discrete unilateral tests, off-grid diagnostics and feedback stability checks executed. Latest independent archive audit: **34 accepted finite-grid runs**, **3 not-solved runs**; **no continuous MPE certificate**.
 - Additional negative-adaptation robustness: **3** 17^4 zero/one/random starts each executed 160 iterations with unchanged thresholds; **3 not solved**, 0 accepted. Separate saved-array independent checks pass, but the Nash thresholds do not. Failure does not establish nonexistence.
 - Reciprocal constant-commitment benchmark: **9 hypothetical scenarios / 27 starts** satisfy sufficient concavity/contraction bounds within the constant-path strategy class. Full original four-state payoff crosschecks: 54; maximum refined gradient KKT residual 5.74e-12. Not feedback or unrestricted open-loop equilibrium; ordinary numerical ODE integration is not interval certified.
-- Strongest supported academic draft written and compiled: **manuscript/main.pdf (45 pages)**; bibliography, claims-to-source links, reproducible empirical/scenario figures and requirement audit exist.
-- Latest suite: **340 tests passed; 0 failures**. Evidence:`outputs/diagnostics/pytest.xml`.
+- Fixed-opponent dynamic audit: **8 unilateral discounted-control solves / 4 original archives**, all converged. Ordinary floating-point comparison bounds leave positive17/21 regret below 5.35e-10 and show explicit gains for failed negative17 policies, maximizing over model grid states, not empirical probabilities.
+- Safeguarded negative-response iteration: **12 registered attempts**, 3 accepted coarse candidates, 0 accepted fine candidates and 9 fine failures. Original gain/action/linear conditions preserved; source-hashed archives separately audited.
+- Strongest supported academic draft written and compiled: **manuscript/main.pdf (51 pages)**; bibliography, claims-to-source links, reproducible empirical/scenario figures and requirement audit exist.
+- Latest suite: **407 tests passed; 0 failures**. Evidence:`outputs/diagnostics/pytest.xml`.
 
 ## Replication outcome
 
 - Current-instance end-to-end passed:True. Scope:rebuild_plus_independent_saved_game_verification. Exact command exits/logs:`outputs/diagnostics/end_to_end_replication.json`.
 - Earlier full clean-container passed:True. Scope:clean_container_full_recomputation. The continuation's additional empirical extraction is separately covered by current-instance replication and `outputs/diagnostics/container_extension_validation.json` when present. A current-host container is not an independent second machine.
-- Earlier/current extension clean-container passed:True. Scope:clean_container_continuation_rebuild_and_saved_game_audit. 88 source-derived artifacts compared byte for byte; consult its code/input hashes to distinguish the current extension from an earlier run. Large games are audited, not re-solved in this check.
+- Earlier/current extension clean-container passed:True. Scope:clean_container_continuation_rebuild_and_saved_game_audit. 114 registered data/document/table artifacts compared byte for byte; consult its code/input hashes to distinguish the current extension from an earlier run. Large games are audited, not re-solved in this check.
 - Environment setup is recorded separately from research publication. Git push is authorized; remote branch history records the actual released commit.
 
 ## Actual empirical findings
@@ -60,6 +64,9 @@ Information freeze: **2026-10-11**. Research execution date: 2026-10-20 (UTC). M
 
 ## Failed checks and repairs preserved
 
+- The first combined manuscript build failed on pdfTeX font expansion at newly added section-symbol references; all 407 tests and 8,786 validation checks had passed. Source/log/test evidence is preserved under `outputs/diagnostics/origin_veu_initial_manuscript_failure/`. Replaced the prose section symbols with the equivalent word section, retaining the legal section numbers; did not disable font expansion or warning checks. A transient quote-edit syntax failure in the figure/table generator was reverted and its failed/corrected logs preserved. The standalone repaired manuscript converged; the final full rerun identifies release completion.
+- Independent operating-origin review found source-date and country-label validation bypasses, without finding false curated numerical observations. Repaired exact month/quarter/year and comparative currency/year bindings, publication order, reviewed country aliases and strict missing/boolean semantics. Removed one unsupported Q4 interval from an end-of-year manufacturing statement; native wording/value/report index retained. The expanded focused suite has 30 passing tests; initial findings and earlier runs remain preserved.
+- Safeguarded-search provenance review found stale initial source snapshots in current experiment directories. Current executed snapshots now match the final registered method/runner; earlier versions remain byte-identical in their historical archive. All twelve final-source attempts were actually re-executed and independently rechecked; nine fine-grid failures remain failures.
 - The two new exact-link official PDF requests (public inspection and paginated published original) failed CONNECT 403; `metadata/entity_schedule_acquisitions.jsonl` preserves the distinct evidence targets and failures. They supply no PDF contents or source corrections. The first analysis invocation had a syntax error, retained in `entity_schedules_initial_analysis_failure.log`; repaired before execution. An initial setup test selection named nonexistent files (zero tests), then the corrected existing suite executed 31 passing tests; the zero-test invocation was not counted as a pass.
 - Primary-source proxy/CDN denials and challenge pages remain logged; USGS full data/PDF and China/Japan legal coverage remain incomplete.
 - Current continuation attempted 8 additional rare-earth issuer sites; all failed at the proxy with CONNECT 403. Exact attempts are in`metadata/rare_earth_expansion_acquisitions.jsonl`; no source or observation is claimed from them.
@@ -83,6 +90,10 @@ Information freeze: **2026-10-11**. Research execution date: 2026-10-20 (UTC). M
 **No empirical China-free magnet-service series or 2028/2031/2035 probabilities; no population completion hazards; no causal semiconductor substitution effect; no coverage-valid historical SPOI; no identified national utility coefficients; no continuous pure-feedback equilibrium certificate.**
 
 Full requirements:`audit/remaining_requirements.md`. The 85-row acceptance ledger currently records:{'PARTIAL': 58, 'VERIFIED': 22, 'BLOCKED': 4, 'NOT ATTEMPTED': 1}. A VERIFIED mathematical item is not empirical validation. The manuscript is **not publication-ready**.
+
+## User inputs that would help
+
+No action is required simply to prompt another continuation. The highest-priority missing public originals and exact download links are in `docs/INPUTS_NEEDED.md`; supplying the first four documents or working applied public-source network access would advance specific evidence gates. The current official-host access probe still received CONNECT 403. Four SEC filing pointers were rechecked from archived submission bytes; unavailable document contents were not admitted.
 
 ## Exact next milestone
 

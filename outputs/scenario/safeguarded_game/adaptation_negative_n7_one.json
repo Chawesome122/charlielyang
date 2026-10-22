@@ -1,0 +1,725 @@
+{
+  "start": "one",
+  "status": "verified_finite_grid_candidate",
+  "method": "safeguarded_anderson_global_hamiltonian_best_response",
+  "continuous_mpe_certified": false,
+  "parameters": {
+    "g_c": 0.12,
+    "g_u": 0.1,
+    "beta_c": -0.7,
+    "beta_u": -0.7,
+    "delta_c": 0.08,
+    "delta_u": 0.07,
+    "kappa_c": 0.5,
+    "kappa_u": 0.5,
+    "rho_u": 0.2,
+    "rho_c": 0.2,
+    "a_u": 0.8,
+    "a_c": 0.8,
+    "d_u": 0.5,
+    "d_c": 0.5,
+    "k_u": 1.0,
+    "k_c": 1.0,
+    "h_u": 0.05,
+    "h_c": 0.05,
+    "b_u": 0.2,
+    "b_c": 0.2,
+    "q_u": 0.15,
+    "q_c": 0.15
+  },
+  "grid_size": 7,
+  "nodes": 2401,
+  "elapsed_seconds": 0.167263646988431,
+  "peak_process_rss_kib": 64176,
+  "max_deviation_gain": 1.4155343563970746e-15,
+  "best_response_action_residual": 5.3137655942059325e-08,
+  "hjb_residuals": [
+    2.0820067891946792e-11,
+    3.1865093896854546e-11
+  ],
+  "evaluation": {
+    "players": [
+      {
+        "bicgstab_code": 0,
+        "final_solver_code": 0,
+        "linear_method": "bicgstab_jacobi",
+        "iterations": 28,
+        "linear_residual_inf": 2.0820067891946792e-11,
+        "reward_inf": 0.535022304153626
+      },
+      {
+        "bicgstab_code": 0,
+        "final_solver_code": 0,
+        "linear_method": "bicgstab_jacobi",
+        "iterations": 27,
+        "linear_residual_inf": 3.1865093896854546e-11,
+        "reward_inf": 0.5352217302099977
+      }
+    ],
+    "matrix_nnz": 12005,
+    "sparse_bytes": 153668,
+    "elapsed_seconds": 0.005916315014474094
+  },
+  "failure": null,
+  "termination_reason": "original_acceptance_thresholds_satisfied",
+  "history": [
+    {
+      "iteration": 0,
+      "max_deviation_gain": 0.3565167624874255,
+      "best_response_action_residual": 0.8444131245870418,
+      "merit": 0.8444131245870418,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 23,
+            "linear_residual_inf": 4.6670584064045784e-11,
+            "reward_inf": 0.8749999999999999
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 23,
+            "linear_residual_inf": 4.8649750894469435e-11,
+            "reward_inf": 0.8749999999999999
+          }
+        ],
+        "matrix_nnz": 11319,
+        "sparse_bytes": 145436,
+        "elapsed_seconds": 0.016146058012964204
+      },
+      "evaluations": 1,
+      "anderson": {
+        "memory_used": 0,
+        "coefficient_l1": 0.0
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 1,
+      "max_deviation_gain": 0.03751935952219514,
+      "best_response_action_residual": 0.27387738994122085,
+      "merit": 0.27393196061137204,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 25,
+            "linear_residual_inf": 4.271513698306251e-11,
+            "reward_inf": 0.5488134417782218
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 25,
+            "linear_residual_inf": 1.617919687113556e-11,
+            "reward_inf": 0.5490196492894499
+          }
+        ],
+        "matrix_nnz": 11907,
+        "sparse_bytes": 152492,
+        "elapsed_seconds": 0.013458831992466003
+      },
+      "evaluations": 2,
+      "anderson": {
+        "memory_used": 1,
+        "coefficient_l1": 0.39907715160332796
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 2,
+      "max_deviation_gain": 0.00031710231612475104,
+      "best_response_action_residual": 0.025183419788616268,
+      "merit": 0.025183419788616268,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 27,
+            "linear_residual_inf": 3.6092240307539214e-11,
+            "reward_inf": 0.5338094414851965
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 27,
+            "linear_residual_inf": 3.1921798537837276e-11,
+            "reward_inf": 0.5342684027063461
+          }
+        ],
+        "matrix_nnz": 11991,
+        "sparse_bytes": 153500,
+        "elapsed_seconds": 0.014970520976930857
+      },
+      "evaluations": 3,
+      "anderson": {
+        "memory_used": 2,
+        "coefficient_l1": 0.2145694913506382
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 3,
+      "max_deviation_gain": 3.227135578542928e-06,
+      "best_response_action_residual": 0.0025405257639165013,
+      "merit": 0.0025405257639165013,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 27,
+            "linear_residual_inf": 4.818026533293107e-11,
+            "reward_inf": 0.5350758704844186
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 25,
+            "linear_residual_inf": 2.969971490962564e-11,
+            "reward_inf": 0.5352669077663064
+          }
+        ],
+        "matrix_nnz": 11998,
+        "sparse_bytes": 153584,
+        "elapsed_seconds": 0.018427237984724343
+      },
+      "evaluations": 4,
+      "anderson": {
+        "memory_used": 3,
+        "coefficient_l1": 0.07548952028151529
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 4,
+      "max_deviation_gain": 3.0552333676880927e-07,
+      "best_response_action_residual": 0.0007816947444424516,
+      "merit": 0.0007816947444735819,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 22,
+            "linear_residual_inf": 5.717692985740541e-11,
+            "reward_inf": 0.5350164758638248
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 22,
+            "linear_residual_inf": 4.480485427116321e-11,
+            "reward_inf": 0.5352148580333705
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.006593246012926102
+      },
+      "evaluations": 5,
+      "anderson": {
+        "memory_used": 4,
+        "coefficient_l1": 0.39096665222326327
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 5,
+      "max_deviation_gain": 3.4054145142681236e-08,
+      "best_response_action_residual": 0.0002609756507163663,
+      "merit": 0.00026097565075187083,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 21,
+            "linear_residual_inf": 6.012079722950148e-12,
+            "reward_inf": 0.5350231967991075
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 21,
+            "linear_residual_inf": 4.6701364997403516e-11,
+            "reward_inf": 0.5352230024410927
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.004604319023201242
+      },
+      "evaluations": 6,
+      "anderson": {
+        "memory_used": 5,
+        "coefficient_l1": 0.18264971630612073
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 6,
+      "max_deviation_gain": 3.6507452061407264e-09,
+      "best_response_action_residual": 8.544875939175967e-05,
+      "merit": 8.544875939175967e-05,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 21,
+            "linear_residual_inf": 2.168237811517315e-12,
+            "reward_inf": 0.5350224867829669
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 20,
+            "linear_residual_inf": 1.9168583387241256e-11,
+            "reward_inf": 0.5352221274603973
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.008180000993888825
+      },
+      "evaluations": 7,
+      "anderson": {
+        "memory_used": 6,
+        "coefficient_l1": 0.13816916425211467
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 7,
+      "max_deviation_gain": 2.3776463853319996e-09,
+      "best_response_action_residual": 6.895863027012172e-05,
+      "merit": 6.895863086419277e-05,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 18,
+            "linear_residual_inf": 3.9393183159930345e-11,
+            "reward_inf": 0.5350225104808938
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 18,
+            "linear_residual_inf": 5.4899418344689366e-12,
+            "reward_inf": 0.5352220632877757
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.006472212000517175
+      },
+      "evaluations": 8,
+      "anderson": {
+        "memory_used": 6,
+        "coefficient_l1": 0.3970438587623607
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 8,
+      "max_deviation_gain": 2.628328388265544e-10,
+      "best_response_action_residual": 2.2927401124750446e-05,
+      "merit": 2.2927401124750446e-05,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 17,
+            "linear_residual_inf": 7.423126002770175e-11,
+            "reward_inf": 0.5350223817110347
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 17,
+            "linear_residual_inf": 4.790870478110776e-11,
+            "reward_inf": 0.5352218329743849
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.003916295012459159
+      },
+      "evaluations": 9,
+      "anderson": {
+        "memory_used": 6,
+        "coefficient_l1": 0.4691704757580901
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 9,
+      "max_deviation_gain": 1.302928043234175e-10,
+      "best_response_action_residual": 1.6142665769880438e-05,
+      "merit": 1.6142665769880438e-05,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 16,
+            "linear_residual_inf": 3.9205361179739384e-11,
+            "reward_inf": 0.5350223346834322
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 15,
+            "linear_residual_inf": 4.773706430150071e-11,
+            "reward_inf": 0.5352217709240249
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.005800157989142463
+      },
+      "evaluations": 10,
+      "anderson": {
+        "memory_used": 6,
+        "coefficient_l1": 0.5039115227476483
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 10,
+      "max_deviation_gain": 5.604294806005328e-12,
+      "best_response_action_residual": 3.347926993191308e-06,
+      "merit": 3.347926993191308e-06,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 15,
+            "linear_residual_inf": 5.0499188164465636e-11,
+            "reward_inf": 0.5350223181122435
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 13,
+            "linear_residual_inf": 4.404324127627035e-11,
+            "reward_inf": 0.5352217368171914
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.006364364002365619
+      },
+      "evaluations": 11,
+      "anderson": {
+        "memory_used": 6,
+        "coefficient_l1": 0.22314534224678834
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 11,
+      "max_deviation_gain": 1.5013545962005992e-12,
+      "best_response_action_residual": 1.7328289967366572e-06,
+      "merit": 1.732832707563312e-06,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 16,
+            "linear_residual_inf": 4.418579391263222e-11,
+            "reward_inf": 0.5350223137109248
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 16,
+            "linear_residual_inf": 3.3237995689106015e-11,
+            "reward_inf": 0.5352217363753189
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.004420452984049916
+      },
+      "evaluations": 12,
+      "anderson": {
+        "memory_used": 6,
+        "coefficient_l1": 0.37611596648210205
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 12,
+      "max_deviation_gain": 2.705058399499194e-13,
+      "best_response_action_residual": 7.355231445016486e-07,
+      "merit": 7.355349617114327e-07,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 13,
+            "linear_residual_inf": 7.634679000112499e-11,
+            "reward_inf": 0.5350223085862803
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 13,
+            "linear_residual_inf": 1.9521384508891515e-11,
+            "reward_inf": 0.5352217323187403
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.011371643020538613
+      },
+      "evaluations": 13,
+      "anderson": {
+        "memory_used": 6,
+        "coefficient_l1": 0.37368488571887004
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 13,
+      "max_deviation_gain": 6.228351168147128e-14,
+      "best_response_action_residual": 3.530132010043374e-07,
+      "merit": 3.530132010043374e-07,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 13,
+            "linear_residual_inf": 2.2802842947200475e-11,
+            "reward_inf": 0.5350223070205407
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 12,
+            "linear_residual_inf": 3.715025509443137e-11,
+            "reward_inf": 0.5352217318565229
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.0036355160118546337
+      },
+      "evaluations": 14,
+      "anderson": {
+        "memory_used": 6,
+        "coefficient_l1": 0.3174271536552909
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 14,
+      "max_deviation_gain": 6.022959908591474e-15,
+      "best_response_action_residual": 1.1019587842220346e-07,
+      "merit": 1.1019587842220346e-07,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 11,
+            "linear_residual_inf": 2.8472890711839227e-11,
+            "reward_inf": 0.5350223051036456
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 12,
+            "linear_residual_inf": 2.8347130198724813e-11,
+            "reward_inf": 0.5352217309636349
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.003773939999518916
+      },
+      "evaluations": 15,
+      "anderson": {
+        "memory_used": 6,
+        "coefficient_l1": 0.32239483913048367
+      },
+      "accepted_method": "anderson",
+      "accepted_step": 1.0,
+      "trial_evaluations": 1
+    },
+    {
+      "iteration": 15,
+      "max_deviation_gain": 1.3600232051658168e-15,
+      "best_response_action_residual": 5.313768580705869e-08,
+      "merit": 5.313768580705869e-08,
+      "linear": {
+        "players": [
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 11,
+            "linear_residual_inf": 1.6180445872038263e-11,
+            "reward_inf": 0.535022304153626
+          },
+          {
+            "bicgstab_code": 0,
+            "final_solver_code": 0,
+            "linear_method": "bicgstab_jacobi",
+            "iterations": 11,
+            "linear_residual_inf": 3.0562191666305694e-11,
+            "reward_inf": 0.5352217302099977
+          }
+        ],
+        "matrix_nnz": 12005,
+        "sparse_bytes": 153668,
+        "elapsed_seconds": 0.003673280996736139
+      },
+      "evaluations": 16
+    }
+  ],
+  "policy_evaluations": 17,
+  "scenario": "adaptation_negative",
+  "archive": "outputs/scenario/safeguarded_game/adaptation_negative_n7_one.npz",
+  "archive_sha256": "7c734eda8048bdec7c6f160d9c0dd01c4cb8196732d096f656a30da84e59f1ae",
+  "registry_sha256": "695559e5ab0e77eabab31f61a03ecb024a4609ee8283928b038b2575c97f07ba",
+  "registry": "configs/safeguarded_game.yaml",
+  "method_source_sha256": "086b34a30dc0eb63520552cc1f3bfefbeffec03d97b7bf032dcd9c06ecdf7899",
+  "method_settings": {
+    "max_iterations": 120,
+    "memory": 6,
+    "ridge": 1e-10,
+    "damping": 0.8,
+    "fallback_damping": 0.05,
+    "backtracks": 5,
+    "seed": 101,
+    "merit_norm": "linf"
+  },
+  "warm_start_archive": null,
+  "warm_start_archive_sha256": null,
+  "closed_loop_stability": {
+    "verified_stationary_point": true,
+    "state": [
+      0.5180479037697524,
+      0.504439194401157,
+      0.47606016500015025,
+      0.484168142497199
+    ],
+    "drift_residual": 2.237654506132003e-13,
+    "full_closed_loop_jacobian": [
+      [
+        -0.16599160087878753,
+        0.0,
+        -0.029010682611711875,
+        0.0
+      ],
+      [
+        0.0,
+        -0.14125410889848536,
+        0.0,
+        -0.02471752052581348
+      ],
+      [
+        -0.42455970519965675,
+        -0.06395631483747907,
+        -0.5000071964628701,
+        2.0001879319477814e-05
+      ],
+      [
+        -0.06411966196913403,
+        -0.423193325533294,
+        1.6070211827907158e-05,
+        -0.5000058347549015
+      ]
+    ],
+    "eigenvalues_real": [
+      -0.13344683985157568,
+      -0.11326448675574892,
+      -0.5355542287532734,
+      -0.5249931856344465
+    ],
+    "eigenvalues_imag": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "locally_stable": true,
+    "stability_status": "locally_stable_interpolated_policy",
+    "jacobian_is_local_derivative": true,
+    "distance_to_grid_knot": 0.004439194401157032,
+    "nonsmooth_warning": null,
+    "interpretation": "piecewise_multilinear_interpolated_scenario_policy_not_exact_continuum_equilibrium"
+  }
+}

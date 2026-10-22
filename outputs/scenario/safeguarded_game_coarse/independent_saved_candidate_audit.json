@@ -1,0 +1,58 @@
+{
+  "classification": "hypothetical_numerical_audit_not_empirical_results",
+  "continuous_mpe_certified": false,
+  "archived_run_count": 3,
+  "claimed_candidate_count": 0,
+  "not_solved_count": 3,
+  "all_claimed_candidates_pass": true,
+  "all_archived_runs_satisfy_candidate_thresholds": false,
+  "runs": [
+    {
+      "diagnostic": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_one.json",
+      "scenario": "adaptation_negative",
+      "grid_size": 17,
+      "start": "coarse_one",
+      "reported_status": "not_solved",
+      "checksum_pass": true,
+      "passed_saved_candidate_verification": false,
+      "hjb_residuals": [
+        1.22148666181765e-10,
+        9.265690992243947e-11
+      ],
+      "max_unilateral_gain": 6.570080396395284e-09,
+      "best_response_action_residual": 0.00011463054101967796
+    },
+    {
+      "diagnostic": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_random.json",
+      "scenario": "adaptation_negative",
+      "grid_size": 17,
+      "start": "coarse_random",
+      "reported_status": "not_solved",
+      "checksum_pass": true,
+      "passed_saved_candidate_verification": false,
+      "hjb_residuals": [
+        1.0255693516647568e-10,
+        7.197370477385334e-11
+      ],
+      "max_unilateral_gain": 6.570109040149319e-09,
+      "best_response_action_residual": 0.00011463078988072084
+    },
+    {
+      "diagnostic": "outputs/scenario/safeguarded_game_coarse/adaptation_negative_n17_coarse_zero.json",
+      "scenario": "adaptation_negative",
+      "grid_size": 17,
+      "start": "coarse_zero",
+      "reported_status": "not_solved",
+      "checksum_pass": true,
+      "passed_saved_candidate_verification": false,
+      "hjb_residuals": [
+        1.4354825661477832e-10,
+        1.2577522356949089e-11
+      ],
+      "max_unilateral_gain": 6.570066601874203e-09,
+      "best_response_action_residual": 0.00011463042017934022
+    }
+  ],
+  "grid_refinement": [],
+  "offgrid_continuum_diagnostics": []
+}

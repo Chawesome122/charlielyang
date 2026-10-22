@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "classification": "actual_issuer_disclosures_and_archive_public_clocks_not_causal_or_service_estimates",
+  "exact_quoted_event_clocks": 4,
+  "reported_ownership_snapshots": 2,
+  "empirical_service_estimated": false,
+  "current_ownership_certified": false,
+  "global_first_public_dates_certified": false,
+  "reporting_delay_distribution_estimated": false,
+  "China_sales_cessation_certifies_all_input_origins": false,
+  "procurement_dollars_are_physical_quantities": false
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "classification": "acquisition_requests_not_observations_or_admitted_sources",
+  "requests": 11,
+  "immutable_submission_pointer_checks": 4,
+  "unavailable_contents_read_or_admitted": 0,
+  "new_empirical_observations": 0,
+  "empirical_forecasts_unblocked": false,
+  "evidence": "metadata/priority_source_requests.csv",
+  "user_actions": "docs/INPUTS_NEEDED.md"
+}

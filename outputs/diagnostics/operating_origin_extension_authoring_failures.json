@@ -1,0 +1,16 @@
+{
+  "scope": "Pre-publication codebook authoring; no accepted empirical extraction",
+  "failures": [
+    {
+      "attempt": 1,
+      "error": "No exact FY2024 match for the FY2023 In December 2023 acquisition opening",
+      "resolution": "Use the actual FY2024 retrospective investment sentence; preserve reporting snapshot rather than invent an exact ownership measurement date"
+    },
+    {
+      "attempt": 2,
+      "error": "Exact tolling-fee sentence end not found: sentence continues with per-unit fee wording",
+      "resolution": "Bind the complete original sentence ending paid to VREX Holdco; no fee amount is inferred"
+    }
+  ],
+  "observations_admitted_from_failed_attempts": 0
+}

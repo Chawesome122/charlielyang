@@ -1,0 +1,17 @@
+classification: hypothetical_numerical_verification_not_empirical
+concept: fixed_opponent_discounted_MDP_audit_of_saved_finite_state_policies
+cases:
+  - outputs/scenario/game/adaptation_positive_n17_zero.json
+  - outputs/scenario/game/adaptation_positive_n21_zero.json
+  - outputs/scenario/game/adaptation_negative_n17_mid.json
+  - outputs/scenario/negative_beta_extension/adaptation_negative_n17_zero.json
+max_iterations: 100
+gap_tolerance: 1.0e-11
+linear_rtol: 1.0e-12
+policy_evaluation_scaled_tolerance: 1.0e-8
+output: outputs/scenario/dynamic_deviation_audit
+scope:
+  - Original archived source arrays and original four-state model are unchanged.
+  - Opponent feedback is fixed for every unilateral MDP solve.
+  - No full-game or continuous-state equilibrium is inferred from these audits.
+  - Residual formulas are exact-arithmetic bounds, not floating-point interval certificates.

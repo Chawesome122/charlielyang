@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "classification": "hypothetical_numerical_method_robustness_not_empirical",
+  "registered_attempts": 12,
+  "accepted_coarse_candidates": 3,
+  "accepted_fine_candidates": 0,
+  "not_solved": 9,
+  "archive_integrity_checks": 12,
+  "reference_source_checks": 8,
+  "continuous_mpe_certified": false,
+  "nonexistence_proved": false,
+  "thresholds_relaxed": false,
+  "original_core_modified": false
+}

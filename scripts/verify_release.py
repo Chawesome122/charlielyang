@@ -88,6 +88,14 @@ def main():
     result["additional_negative_not_solved"]=summary["additional_negative_not_solved"]
     result["new_negative_hjb_runs_recomputed_on_host"]=3
     result["new_negative_hjb_runs_recomputed_in_extension_container"]=False
+    result["operating_origin_claims"]=summary["operating_origin_claims"]
+    result["veu_clause_checks"]=summary["veu_clause_checks"]
+    result["dynamic_deviation_audits"]=summary["dynamic_deviation_audits"]
+    result["safeguarded_attempts"]=summary["safeguarded_attempts"]
+    result["safeguarded_fine_candidates"]=summary["safeguarded_fine_candidates"]
+    result["current_safeguarded_searches_recomputed_on_host"]=summary["safeguarded_attempts"]
+    result["current_safeguarded_searches_recomputed_in_extension_container"]=False
+    result["dynamic_unilateral_solves_recomputed_on_both"]=summary["dynamic_deviation_audits"]
     Path("outputs/diagnostics/final_release_validation.json").write_text(json.dumps(result,indent=2)+"\n")
     print(json.dumps(result,indent=2))
     return int(not result["passed"])

@@ -156,6 +156,9 @@ def main():
             failures.append(f"Finance/material claim schema:{row['claim_id']}:{error}")
     for diagnostic, count_fields in [
         ("original_quote_validation.json", ["checks"]),
+        ("operating_origin_extension_validation.json", ["source_claims","equity_closure_checks","procurement_comparative_groups","publication_origins","route_admission_cases"]),
+        ("veu_extension_validation.json", ["primary_quote_checks","rule_clock_checks","link_checks","origin_phase_checks"]),
+        ("source_request_readiness.json", ["immutable_submission_pointer_checks"]),
         ("mp_measurement_validation.json", ["native_cell_versions", "definition_claims", "numeric_quarter_annual_identities", "currency_inventory_identities"]),
         ("smic_operations_validation.json", ["source_claims", "verified_source_clocks", "definition_claims", "revenue_share_identities", "capacity_presentation_checks", "existing_R_and_D_crosschecks"]),
         ("entity_schedules_validation.json", ["printed_entry_versions", "original_table_rows", "table_notes", "amendatory_instructions", "source_clock_checks", "vintage_checks", "entry_action_crosswalk_records"]),
@@ -186,6 +189,24 @@ def main():
     checks+=negative["registered_attempts"]
     if not negative["passed"] or negative["continuous_mpe_certified"] or negative["nonexistence_proved"] or negative["parameters_empirically_identified"]:
         failures.append("Additional negative-beta archives/status failed or have an invalid stronger label")
+    origin=json.loads((ROOT/"outputs/diagnostics/operating_origin_extension_validation.json").read_text())
+    if origin["empirical_China_free_service_identified"] or origin["causal_policy_effect_identified"] or origin["full_route_data_admitted"]:
+        failures.append("Commercial origin disclosures promoted to complete service or causal evidence")
+    veu=json.loads((ROOT/"outputs/diagnostics/veu_extension_validation.json").read_text())
+    if veu["current_law_consolidation_verified"] or veu["foreign_access_identified"] or veu["actual_license_outcome_observed"]:
+        failures.append("VEU permission/removal text promoted to current law or measured access")
+    dynamic=json.loads((ROOT/"outputs/scenario/dynamic_deviation_audit/analysis.json").read_text())
+    checks+=sum(dynamic[k] for k in ["source_array_checks","unilateral_policy_audits","fixed_opponent_checks","finite_state_bound_checks"])
+    if not dynamic["passed"] or dynamic["continuous_mpe_certified"] or dynamic["floating_point_interval_certified"] or dynamic["empirical_calibration"] or dynamic["full_game_nash_promoted_by_this_audit"]:
+        failures.append("Dynamic-deviation numerical audit failed or promoted beyond its finite-state scope")
+    safeguarded=json.loads((ROOT/"outputs/scenario/safeguarded_analysis/analysis.json").read_text())
+    checks+=safeguarded["archive_integrity_checks"]+safeguarded["reference_source_checks"]
+    if not safeguarded["passed"] or safeguarded["continuous_mpe_certified"] or safeguarded["nonexistence_proved"] or safeguarded["thresholds_relaxed"] or safeguarded["original_core_modified"]:
+        failures.append("Safeguarded iteration archives or scope labels failed validation")
+    for name in ["operating_origin_independent_review.json","veu_independent_review.json","safeguarded_independent_review.json"]:
+        review=json.loads((ROOT/"outputs/diagnostics"/name).read_text())
+        checks+=review["checks"]
+        if not review["passed"]:failures.append("Internal independent computational review failed:"+name)
     result=dict(passed=not failures,checked_claims_and_artifacts=checks,failures=failures,freeze="2026-10-11",
                 scientific_gaps_are_not_validation_passes=["empirical physical network","population project hazards","causal semiconductor response","historical headline SPOI","continuous MPE"])
     (ROOT/"outputs/diagnostics/data_validation.json").write_text(json.dumps(result,indent=2))

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "review_type": "independent_internal_computational_review_not_external_specialist_certification",
+  "executed_at": "2026-10-21T11:34:20.816089+00:00",
+  "checks": 94,
+  "failures": [],
+  "independent_parser": "Python standard-library HTMLParser; no original extraction helper used for quote checks",
+  "original_source_sha256": {
+    "RE-MP-10K2023": "ec6262b0bdb2a25bd1a147fa82b1a7c2b77fd8d048f87963a56ce0469a0ec73d",
+    "RE-MP-10K2024": "2f4025c0294b70f09cd50f18bd48a6bf03417eee11bd98462e4be1fd6f5b14cc",
+    "RE-MP-10K2025": "0e075d1392b9f0e39b599bd742aa1e78ecca97db440e3f85c192f1b78dbfae9e",
+    "RE-MP-SUBMISSIONS": "e3ec065d5a377e5f541b26163112029cdd3cbc9397fdeb2c8d38d311248e1289"
+  },
+  "codebook_sha256": "9388f8d2db407e5bb170437f262dcc3394022449121b9f0c4d25aee4dbf714da",
+  "reviewed_module_sha256": "1e336bc9b33645cb1fa66be788bba4d72c35288c11e945be4b108d6e26076710",
+  "original_at_vintage_source_bytes_certified": false,
+  "empirical_supply_service_identified": false,
+  "corporate_national_control_certified": false,
+  "initial_failures_preserved": "outputs/diagnostics/operating_origin_independent_review_initial_findings.json"
+}

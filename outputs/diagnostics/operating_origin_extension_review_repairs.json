@@ -1,0 +1,16 @@
+{
+  "scope": "Pre-release independent computational review of new helper APIs",
+  "observed_claims_before": 33,
+  "observed_claims_after": 33,
+  "numeric_values_changed": 0,
+  "initial_focused_tests": 14,
+  "expanded_focused_tests": 30,
+  "repairs": [
+    "Bind event month/quarter/year to explicit quote and require observed index no later than selected public date",
+    "Normalize reviewed country labels/aliases and reject unreviewed countries instead of treating arbitrary strings as non-China",
+    "Bind procurement comparative amount to printed reporting year and preserve USD-million unit",
+    "Remove unsupported Q4 event interval from native end-of-2025 commissioning phrase; retain reporting index and native wording"
+  ],
+  "initial_focused_log": "outputs/diagnostics/operating_origin_extension_initial_focused_tests.log",
+  "current_focused_log": "outputs/diagnostics/operating_origin_extension_tests.log"
+}

@@ -1,0 +1,181 @@
+RUN scripts/build_rare_earths.py
+RUN scripts/resolve_publication_clocks.py
+RUN scripts/build_finance_material.py
+RUN scripts/build_white_mesa.py
+RUN scripts/build_mp_measurement.py
+RUN scripts/build_operating_origin_extension.py
+RUN scripts/analyze_operating_origin_extension.py
+RUN scripts/review_operating_origin_independent.py
+RUN scripts/build_publication_extension.py
+RUN scripts/build_engineering_inputs.py
+RUN scripts/fetch_additional_rare_earths.py
+RUN scripts/build_lynas_history.py
+RUN scripts/build_lynas_revisions.py
+RUN scripts/build_industrial_evidence.py
+RUN scripts/build_project_histories.py
+RUN scripts/build_mp_investment.py
+RUN scripts/build_project_registry.py
+RUN scripts/audit_project_observations.py
+RUN scripts/build_evidence_coverage.py
+RUN scripts/build_citation_audit.py
+RUN scripts/run_semiconductors.py
+RUN scripts/build_smic_operations.py
+RUN scripts/analyze_smic_operations.py
+RUN scripts/discover_legal.py
+RUN scripts/review_legal_discovery.py
+RUN scripts/build_legal_provisions.py
+RUN scripts/build_entity_schedules.py
+RUN scripts/analyze_entity_schedules.py
+RUN scripts/build_veu_extension.py
+RUN scripts/analyze_veu_extension.py
+RUN scripts/review_veu_independent.py
+RUN scripts/build_source_requests.py
+RUN scripts/run_opacity.py
+RUN scripts/run_physical.py
+RUN scripts/run_forecast.py --draws 10000
+RUN scripts/run_empirical_baselines.py
+RUN scripts/run_lynas_baselines.py
+RUN scripts/analyze_mp_measurement.py
+RUN scripts/run_constant_controls.py
+RUN scripts/audit_game.py --out outputs/scenario/safeguarded_game
+RUN scripts/audit_game.py --out outputs/scenario/safeguarded_game_rms
+RUN scripts/audit_game.py --out outputs/scenario/safeguarded_game_coarse
+RUN scripts/analyze_safeguarded_game.py
+RUN scripts/review_safeguarded_independent.py
+RUN scripts/audit_game.py --out outputs/scenario/negative_beta_extension
+RUN scripts/analyze_negative_extension.py
+RUN scripts/audit_original_quotes.py
+RUN scripts/plot_evidence_extensions.py
+RUN scripts/plot_white_mesa.py
+RUN scripts/audit_game.py
+RUN scripts/run_dynamic_deviation_audit.py
+RUN scripts/validate.py
+RUN -m pytest -q --junitxml=outputs/diagnostics/pytest.xml
+RUN scripts/report.py
+sr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(./results.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./main.out) (./main.out)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) (./main.toc
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2])
+[3]
+[4]
+[5]
+[6 <../outputs/empirical/semiconductors/legal_chronology.pdf>]
+[7]
+[8 <../outputs/empirical/source_integrity/claim_clock_exclusions.pdf>]
+[9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
+[10]
+[11]
+[12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf> <../outpu
+ts/empirical/rare_earths/mp_native_quarterly_production.pdf>]
+(./operating_origin_extension_table.tex)
+[13 <../outputs/empirical/rare_earths/operating_origin_extension/ownership_and_
+documentary_clocks.pdf>]
+[14 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
+[15 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
+[16 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
+[17 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
+[18 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
+[19 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+[20 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
+[21 <../outputs/empirical/rare_earths/stage_constraints.pdf> <../outputs/empiri
+cal/rare_earths/evidence_coverage.pdf>] (./mp_baselines.tex)
+[22]
+[23 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+[24] (./entity_schedules_table.tex)
+[25]
+[26 <../outputs/empirical/semiconductors/entity_review_policies.pdf> <../output
+s/empirical/semiconductors/entity_publication_clocks.pdf>]
+
+Package natbib Warning: Citation `VEU202322873' on page 27 undefined on input l
+ine 334.
+
+
+Package natbib Warning: Citation `VEU202516735' on page 27 undefined on input l
+ine 334.
+
+(../outputs/empirical/semiconductors/veu_extension/scope_table.tex)
+[27
+! pdfTeX error (font expansion): auto expansion is only possible with scalable 
+fonts.
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.356 \end{figure}
+                  
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 2 citation(s)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Citation `VEU202322873' on page 27 undefined on input line 334
+  Citation `VEU202516735' on page 27 undefined on input line 334
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'main.log' and/or above output for details
+
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+{
+  "passed": false,
+  "scope": "rebuild_plus_independent_saved_game_verification",
+  "freeze": "2026-10-11",
+  "network_required": false,
+  "total_seconds": 389.91258308000397,
+  "independent_machine": false,
+  "note": "Expected negative-beta nonconvergence is a scientific result recorded by successful scripts, not a passing equilibrium."
+}

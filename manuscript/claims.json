@@ -1,5 +1,29 @@
 [
   {
+    "claim": "Twelve separately registered safeguarded search attempts produce three accepted coarse candidates and nine fine-grid failures under unchanged full-game criteria; no continuum MPE or nonexistence claim follows",
+    "classification": "hypothetical_numerical_method_robustness",
+    "evidence": "outputs/scenario/safeguarded_analysis/analysis.json",
+    "sha256": "e5a7172287d5c67be7a9d85b128ad3e4f9ff17c854d4f5e584ecf9fbad1547ff"
+  },
+  {
+    "claim": "MP source-vintaged Vietnam equity, Shenghe commercial links, divestiture and reagent disclosures do not establish a fully China-independent supply route",
+    "classification": "actual_issuer_commercial_origin_disclosures",
+    "evidence": "outputs/diagnostics/operating_origin_extension_validation.json",
+    "sha256": "4d8ec07e8980a2a48fe74130f4e650fbb6ebf8817e6b4715089a93a55c9e22ae"
+  },
+  {
+    "claim": "Two selected VEU issued instruments retain facility/item exceptions and three later general-authorization removals; no observed license denial or access loss is identified",
+    "classification": "primary_issued_legal_scope_not_consolidated_law",
+    "evidence": "outputs/diagnostics/veu_extension_validation.json",
+    "sha256": "ede2afb6d7588aea741d032488dcc980a0ac10f65dcef05ca15dcfb2baeb7894"
+  },
+  {
+    "claim": "Eight fixed-opponent discounted-MDP audits verify numerical finite-state regret bounds and profitable deviations for failed negative policies; no continuum or full-game label is promoted",
+    "classification": "hypothetical_dynamic_deviation_verification",
+    "evidence": "outputs/scenario/dynamic_deviation_audit/analysis.json",
+    "sha256": "34076fe8e441e044daa8b4a3f1c7d4811f4761c9e546817902dd19aa2a60abf6"
+  },
+  {
     "claim": "All nine hypothetical constant-commitment scenarios pass sufficient restricted uniqueness bounds and numerical unilateral checks; neither feedback MPE nor unrestricted open-loop equilibrium is certified",
     "classification": "restricted_strategy_theoretical_scenario",
     "evidence": "outputs/scenario/constant_controls/analysis.json",
@@ -135,7 +159,7 @@
     "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
     "classification": "original_source_integrity_audit",
     "evidence": "data/processed/source_integrity/original_quote_audit.csv",
-    "sha256": "bb2fb217760402c60a83b998d57c9693acd2890e095435f462a50c7f5b2031ee"
+    "sha256": "6a54ee683d6fe4792988f4e1c6828573924ceba07374c95be70fa614a9d89a97"
   },
   {
     "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
@@ -207,6 +231,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "71b98902454364544be6f5dfd6bfbf3a6f95eedb2b7bb70bab54ca2c7247aa9a"
+    "sha256": "f3d9b73721f3d37b9cf213ba6cbfc8adfdc8e7999244b27d25547f5e6eb0f9b9"
   }
 ]

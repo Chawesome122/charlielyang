@@ -1,0 +1,6 @@
+reporting_period_end,source_versions,distinct_source_values,same_reported_nominal_amount,nominal_USD_million,physical_quantity_identified,scope_caveat
+2021-12-31,1,1,True,4.8,False,FY2025 source qualifies purchases to periods when Shenghe was related party; numerical agreement does not identify all inputs or their manufacturing origin
+2022-12-31,2,1,True,18.5,False,FY2025 source qualifies purchases to periods when Shenghe was related party; numerical agreement does not identify all inputs or their manufacturing origin
+2023-12-31,3,1,True,8.3,False,FY2025 source qualifies purchases to periods when Shenghe was related party; numerical agreement does not identify all inputs or their manufacturing origin
+2024-12-31,2,1,True,4.8,False,FY2025 source qualifies purchases to periods when Shenghe was related party; numerical agreement does not identify all inputs or their manufacturing origin
+2025-12-31,1,1,True,19.7,False,FY2025 source qualifies purchases to periods when Shenghe was related party; numerical agreement does not identify all inputs or their manufacturing origin

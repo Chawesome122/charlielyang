@@ -1,0 +1,39 @@
+{
+  "classification": "hypothetical_numerical_method_experiment_not_empirical",
+  "continuous_mpe_certified": false,
+  "runs": [
+    {
+      "scenario": "adaptation_negative",
+      "grid_size": 17,
+      "start": "coarse_zero",
+      "status": "not_solved",
+      "termination_reason": "no_residual_decreasing_evaluated_direction",
+      "elapsed_seconds": 26.025402962986846,
+      "max_deviation_gain": 6.570066601874203e-09,
+      "best_response_action_residual": 0.00011463042017934022,
+      "policy_evaluations": 50
+    },
+    {
+      "scenario": "adaptation_negative",
+      "grid_size": 17,
+      "start": "coarse_one",
+      "status": "not_solved",
+      "termination_reason": "no_residual_decreasing_evaluated_direction",
+      "elapsed_seconds": 17.277576068998314,
+      "max_deviation_gain": 6.570080396395284e-09,
+      "best_response_action_residual": 0.00011463054101967796,
+      "policy_evaluations": 50
+    },
+    {
+      "scenario": "adaptation_negative",
+      "grid_size": 17,
+      "start": "coarse_random",
+      "status": "not_solved",
+      "termination_reason": "no_residual_decreasing_evaluated_direction",
+      "elapsed_seconds": 17.102833468990866,
+      "max_deviation_gain": 6.570109040149319e-09,
+      "best_response_action_residual": 0.00011463078988072084,
+      "policy_evaluations": 50
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "all_final_attempts_use_current_method_hash": true,
+  "method_sha256": "086b34a30dc0eb63520552cc1f3bfefbeffec03d97b7bf032dcd9c06ecdf7899",
+  "attempt_records": 12,
+  "history_files_preserved": 38,
+  "history_hashes_match": true,
+  "current_source_snapshots": [
+    {
+      "path": "outputs/scenario/safeguarded_game/executed_method_source.py",
+      "sha256": "086b34a30dc0eb63520552cc1f3bfefbeffec03d97b7bf032dcd9c06ecdf7899",
+      "matches_current_source": true
+    },
+    {
+      "path": "outputs/scenario/safeguarded_game/executed_runner_source.py",
+      "sha256": "7d9f07c44d746ff615a0b5b2c6819eae29fdf52f274b30e97f6791c9cded5879",
+      "matches_current_source": true
+    },
+    {
+      "path": "outputs/scenario/safeguarded_game_rms/executed_method_source.py",
+      "sha256": "086b34a30dc0eb63520552cc1f3bfefbeffec03d97b7bf032dcd9c06ecdf7899",
+      "matches_current_source": true
+    },
+    {
+      "path": "outputs/scenario/safeguarded_game_rms/executed_runner_source.py",
+      "sha256": "7d9f07c44d746ff615a0b5b2c6819eae29fdf52f274b30e97f6791c9cded5879",
+      "matches_current_source": true
+    },
+    {
+      "path": "outputs/scenario/safeguarded_game_coarse/executed_method_source.py",
+      "sha256": "086b34a30dc0eb63520552cc1f3bfefbeffec03d97b7bf032dcd9c06ecdf7899",
+      "matches_current_source": true
+    },
+    {
+      "path": "outputs/scenario/safeguarded_game_coarse/executed_runner_source.py",
+      "sha256": "7d9f07c44d746ff615a0b5b2c6819eae29fdf52f274b30e97f6791c9cded5879",
+      "matches_current_source": true
+    }
+  ]
+}

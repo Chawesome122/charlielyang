@@ -1,0 +1,24 @@
+RUN adaptation_negative 7^4 zero
+ iteration 0: gain=0.32 action=0.8
+ iteration 10: gain=1.231e-10 action=1.569e-05
+{"scenario": "adaptation_negative", "grid_size": 7, "start": "zero", "status": "verified_finite_grid_candidate", "termination_reason": "original_acceptance_thresholds_satisfied", "elapsed_seconds": 0.3709191469824873, "max_deviation_gain": 8.344658297687602e-12, "best_response_action_residual": 9.847724868894403e-08, "policy_evaluations": 27}
+RUN adaptation_negative 7^4 one
+ iteration 0: gain=0.3565 action=0.8444
+ iteration 10: gain=5.604e-12 action=3.348e-06
+{"scenario": "adaptation_negative", "grid_size": 7, "start": "one", "status": "verified_finite_grid_candidate", "termination_reason": "original_acceptance_thresholds_satisfied", "elapsed_seconds": 0.167263646988431, "max_deviation_gain": 1.4155343563970746e-15, "best_response_action_residual": 5.3137655942059325e-08, "policy_evaluations": 17}
+RUN adaptation_negative 7^4 random
+ iteration 0: gain=0.4944 action=0.9944
+ iteration 10: gain=1.387e-10 action=1.665e-05
+{"scenario": "adaptation_negative", "grid_size": 7, "start": "random", "status": "verified_finite_grid_candidate", "termination_reason": "original_acceptance_thresholds_satisfied", "elapsed_seconds": 0.28179730800911784, "max_deviation_gain": 5.440092820663267e-15, "best_response_action_residual": 6.441441124938052e-08, "policy_evaluations": 40}
+RUN adaptation_negative 17^4 zero
+ iteration 0: gain=0.32 action=0.8
+ iteration 10: gain=7.994e-09 action=0.0001264
+{"scenario": "adaptation_negative", "grid_size": 17, "start": "zero", "status": "not_solved", "termination_reason": "no_residual_decreasing_evaluated_direction", "elapsed_seconds": 10.086706853006035, "max_deviation_gain": 5.179635192975596e-09, "best_response_action_residual": 0.00010178050144737938, "policy_evaluations": 33}
+RUN adaptation_negative 17^4 one
+ iteration 0: gain=0.3567 action=0.8446
+ iteration 10: gain=1.571e-08 action=0.0001773
+{"scenario": "adaptation_negative", "grid_size": 17, "start": "one", "status": "not_solved", "termination_reason": "no_residual_decreasing_evaluated_direction", "elapsed_seconds": 8.651941764022922, "max_deviation_gain": 1.5710779732724944e-08, "best_response_action_residual": 0.00017726127517947443, "policy_evaluations": 31}
+RUN adaptation_negative 17^4 random
+ iteration 0: gain=0.4946 action=0.9946
+ iteration 10: gain=7.19e-06 action=0.003792
+{"scenario": "adaptation_negative", "grid_size": 17, "start": "random", "status": "not_solved", "termination_reason": "no_residual_decreasing_evaluated_direction", "elapsed_seconds": 13.050660473003518, "max_deviation_gain": 3.2972486935234357e-06, "best_response_action_residual": 0.0025679753478184963, "policy_evaluations": 44}

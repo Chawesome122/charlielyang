@@ -1,0 +1,3 @@
+source_id,report_snapshot,MP_percent,Shenghe_percent,share_sum_percent,passed,qualifier
+RE-MP-10K2023,2023-12-31,49,51,100,True,Reported snapshot; no claim of current ownership between unobserved changes
+RE-MP-10K2024,2024-12-31,49,51,100,True,Reported snapshot; no claim of current ownership between unobserved changes

@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-21T05:32:33.696259+00:00",
+  "review_scope": "Internal computational review; current curated records remain factually supported",
+  "current_empirical_records_changed_by_review": false,
+  "source_interval_gap": {
+    "claim_id": "MPOR-2025-VREX-DISPOSAL",
+    "source_quote": "In May 2025, the Company sold its 49 % interest in VREX Holdco back to VREX Holdco in exchange for a cash payment of $ 9.7 million.",
+    "mutation": {
+      "event_date_lower": "2030-05-01",
+      "event_date_upper": "2030-05-31",
+      "valid_date": "2030-05-31"
+    },
+    "observed_result": "original_claim accepted the mutated source-inconsistent interval"
+  },
+  "country_normalization_gap": {
+    "synthetic_complete_checklist": true,
+    "country_results": [
+      {
+        "country": "China",
+        "admitted": false
+      },
+      {
+        "country": "china",
+        "admitted": true
+      },
+      {
+        "country": "China ",
+        "admitted": true
+      },
+      {
+        "country": " china ",
+        "admitted": true
+      }
+    ]
+  },
+  "owner_notified": true,
+  "owner_repair_pending": true
+}

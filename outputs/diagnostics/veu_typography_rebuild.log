@@ -1,0 +1,4 @@
+  File "/workspace/charlielyang/scripts/analyze_veu_extension.py", line 41
+    r'Samsung / Xi'an & NAND & 2023-10-17 & 2025-12-31 \\',
+                                                        ^
+SyntaxError: unexpected character after line continuation character

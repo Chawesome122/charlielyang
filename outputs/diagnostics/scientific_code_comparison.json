@@ -232,5 +232,5 @@
   ],
   "original_material_function_bodies_unchanged": true,
   "post_container_additions": "Current continuation adds nine original Entity List party schedules, exact source/clock/action crosswalks, descriptive review counts and source-format flags. It does not modify game/physical/forecast primitives or supply empirical x/y calibration; large saved games are re-audited, not re-solved.",
-  "continuation_scope_note": "Original 25 numerical-core files unchanged from the prior full container. Entity schedule extraction and reporting have their own continuation verification. New constant-commitment module is independently executed/tested in the current host/container; it is not covered by the old full-run certificate. Three additional unchanged-solver negative-beta solves were actually run on the host; extension container independently re-audits saved arrays."
+  "continuation_scope_note": "Original 25 numerical-core files unchanged from the earlier full container. Current origin/VEU extraction, safeguarded search and fixed-opponent dynamic-deviation modules have separate executed host/container evidence; the old full-run certificate does not cover newly added modules. New safeguarded solves were actually executed on the host; the disconnected extension rechecks saved arrays and recomputes the unilateral MDP audit."
 }

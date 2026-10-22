@@ -1,0 +1,5 @@
+claim_id,event,reported_interval,event_date_lower,event_date_upper,selected_original_public_date,source_id,source_sha256,exact_event_day_identified,globally_earliest_disclosure_identified,reporting_delay_identified,causal_restriction_effect_identified
+MPOR-2023-VREX-MP-EQUITY,MP equity acquisition,Dec 2023,2023-12-01,2023-12-31,2024-02-28,RE-MP-10K2023,ec6262b0bdb2a25bd1a147fa82b1a7c2b77fd8d048f87963a56ce0469a0ec73d,False,False,False,False
+MPOR-2025-VREX-DISPOSAL,MP equity disposal,May 2025,2025-05-01,2025-05-31,2026-02-26,RE-MP-10K2025,0e075d1392b9f0e39b599bd742aa1e78ecca97db440e3f85c192f1b78dbfae9e,False,False,False,False
+MPOR-2025-CHINA-SALES-CEASE,China sales cessation,Jul 2025,2025-07-01,2025-07-31,2026-02-26,RE-MP-10K2025,0e075d1392b9f0e39b599bd742aa1e78ecca97db440e3f85c192f1b78dbfae9e,False,False,False,False
+MPOR-2025-INTERNAL-FEED,Internal oxide feed,Oct--Dec 2025,2025-10-01,2025-12-31,2026-02-26,RE-MP-10K2025,0e075d1392b9f0e39b599bd742aa1e78ecca97db440e3f85c192f1b78dbfae9e,False,False,False,False

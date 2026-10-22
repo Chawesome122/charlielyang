@@ -1,383 +1,7 @@
 Rc files read:
   /etc/LatexMk
 Latexmk: This is Latexmk, John Collins, 11 Dec. 2024. Version 4.86.
-Latexmk: applying rule 'pdflatex'...
-Rule 'pdflatex':  Reasons for rerun
-Changed files or newly in use/created:
-  main.tex
-  results.tex
-Category 'changed_user':
-  main.tex
-  results.tex
-
-------------
-Run number 1 of rule 'pdflatex'
-------------
-------------
-Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
-------------
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-(./main.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-(./results.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-(./main.aux)
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./main.out) (./main.out)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) (./main.toc
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2])
-[3]
-[4]
-[5]
-[6 <../outputs/empirical/semiconductors/legal_chronology.pdf>]
-[7]
-[8 <../outputs/empirical/source_integrity/claim_clock_exclusions.pdf>]
-[9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
-[10]
-[11]
-[12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf> <../outpu
-ts/empirical/rare_earths/mp_native_quarterly_production.pdf>]
-[13 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
-[14 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
-[15 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
-[16 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
-[17 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
-[18 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
-[19 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf> <../outputs
-/empirical/rare_earths/stage_constraints.pdf>]
-[20 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
-(./mp_baselines.tex)
-[21 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
-[22] (./entity_schedules_table.tex)
-[23]
-[24 <../outputs/empirical/semiconductors/entity_review_policies.pdf>]
-[25 <../outputs/empirical/semiconductors/entity_publication_clocks.pdf>]
-[26 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf> <../outputs/
-empirical/semiconductors/smic_operating_scale.pdf>]
-(./smic_operating_changes.tex)
-[27]
-[28 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
-[29] (./game_table.tex)
-
-LaTeX Warning: Reference `tab:negativeextra' on page 30 undefined on input line
- 420.
-
-
-LaTeX Warning: Reference `fig:negativeextra' on page 30 undefined on input line
- 420.
-
-(./negative_extension_table.tex)
-[30]
-[31 <../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf>]
-
-LaTeX Warning: Reference `app:commitment' on page 32 undefined on input line 43
-7.
-
-(./constant_controls_table.tex)
-[32]
-[33 <../outputs/scenario/constant_controls/scenario_controls.pdf> <../outputs/s
-cenario/constant_controls/commitment_payoffs.pdf>]
-[34 <../outputs/scenario/game/constant_control_benchmark.pdf>]
-[35 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
-[36] (./main.bbl
-[37]
-[38]
-[39]
-[40]
-[41])
-[42]
-[43]
-[44]
-[45] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
- )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (45 pages, 804060 bytes).
-Transcript written on main.log.
-Latexmk: Getting log file 'main.log'
-Latexmk: Examining 'main.fls'
-Latexmk: Examining 'main.log'
-Latexmk: Found input bbl file 'main.bbl'
-Latexmk: References changed.
-Latexmk: References changed.
-Latexmk: Log file says output to 'main.pdf'
-Latexmk: Found bibliography file(s):
-  ./primary_sources.bib
-  ./references.bib
-Latexmk: applying rule 'bibtex main'...
-Rule 'bibtex main':  Reasons for rerun
-Changed files or newly in use/created:
-  main.aux
-
-------------
-Run number 1 of rule 'bibtex main'
-------------
-------------
-Running 'bibtex  "main.aux"'
-------------
-This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
-The top-level auxiliary file: main.aux
-The style file: plainnat.bst
-Database file #1: references.bib
-Database file #2: primary_sources.bib
-Latexmk: applying rule 'pdflatex'...
-Rule 'pdflatex':  Reasons for rerun
-Changed files or newly in use/created:
-  main.aux
-  main.out
-  main.toc
-
-------------
-Run number 2 of rule 'pdflatex'
-------------
-------------
-Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
-------------
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-(./main.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-(./results.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-(./main.aux)
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./main.out) (./main.out)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) (./main.toc
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2])
-[3]
-[4]
-[5]
-[6 <../outputs/empirical/semiconductors/legal_chronology.pdf>]
-[7]
-[8 <../outputs/empirical/source_integrity/claim_clock_exclusions.pdf>]
-[9 <../outputs/empirical/rare_earths/reported_ndpr_output.pdf>]
-[10]
-[11]
-[12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf> <../outpu
-ts/empirical/rare_earths/mp_native_quarterly_production.pdf>]
-[13 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
-[14 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
-[15 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
-[16 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
-[17 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
-[18 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
-[19 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf> <../outputs
-/empirical/rare_earths/stage_constraints.pdf>]
-[20 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
-(./mp_baselines.tex)
-[21 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
-[22] (./entity_schedules_table.tex)
-[23]
-[24 <../outputs/empirical/semiconductors/entity_review_policies.pdf>]
-[25 <../outputs/empirical/semiconductors/entity_publication_clocks.pdf>]
-[26 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf> <../outputs/
-empirical/semiconductors/smic_operating_scale.pdf>]
-(./smic_operating_changes.tex)
-[27]
-[28 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
-[29] (./game_table.tex) (./negative_extension_table.tex)
-[30]
-[31 <../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf>]
-(./constant_controls_table.tex)
-[32]
-[33 <../outputs/scenario/constant_controls/scenario_controls.pdf> <../outputs/s
-cenario/constant_controls/commitment_payoffs.pdf>]
-[34 <../outputs/scenario/game/constant_control_benchmark.pdf>]
-[35 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
-[36] (./main.bbl
-[37]
-[38]
-[39]
-[40]
-[41])
-[42]
-[43]
-[44]
-[45] (./main.aux) )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (45 pages, 804513 bytes).
-Transcript written on main.log.
-Latexmk: Getting log file 'main.log'
-Latexmk: Examining 'main.fls'
-Latexmk: Examining 'main.log'
-Latexmk: Found input bbl file 'main.bbl'
-Latexmk: Log file says output to 'main.pdf'
-Latexmk: Found bibliography file(s):
-  ./primary_sources.bib
-  ./references.bib
+Latexmk: Nothing to do for 'main.tex'.
 Latexmk: All targets (main.pdf) are up-to-date
 
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
@@ -470,58 +94,70 @@ For additional information on amsmath, use the `?' option.
 [11]
 [12 <../outputs/empirical/rare_earths/mp_native_production_sales.pdf> <../outpu
 ts/empirical/rare_earths/mp_native_quarterly_production.pdf>]
-[13 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
-[14 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
-[15 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
-[16 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
-[17 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
-[18 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
-[19 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf> <../outputs
-/empirical/rare_earths/stage_constraints.pdf>]
-[20 <../outputs/empirical/rare_earths/evidence_coverage.pdf>]
-(./mp_baselines.tex)
-[21 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
-[22] (./entity_schedules_table.tex)
-[23]
-[24 <../outputs/empirical/semiconductors/entity_review_policies.pdf>]
-[25 <../outputs/empirical/semiconductors/entity_publication_clocks.pdf>]
-[26 <../outputs/empirical/semiconductors/smic_reported_inputs.pdf> <../outputs/
-empirical/semiconductors/smic_operating_scale.pdf>]
-(./smic_operating_changes.tex)
+(./operating_origin_extension_table.tex)
+[13 <../outputs/empirical/rare_earths/operating_origin_extension/ownership_and_
+documentary_clocks.pdf>]
+[14 <../outputs/empirical/rare_earths/white_mesa_native_flows.pdf>]
+[15 <../outputs/empirical/rare_earths/white_mesa_capacity_components.pdf>]
+[16 <../outputs/empirical/rare_earths/mp_halfyear_cash_ppe.pdf>]
+[17 <../outputs/empirical/rare_earths/project_finance_categories.pdf>]
+[18 <../outputs/empirical/rare_earths/eneabba_feedstock_comparison.pdf>]
+[19 <../outputs/calibrated/engineering/recovery_assumption_versions.pdf>]
+[20 <../outputs/empirical/rare_earths/upton_milestone_vintages.pdf>]
+[21 <../outputs/empirical/rare_earths/stage_constraints.pdf> <../outputs/empiri
+cal/rare_earths/evidence_coverage.pdf>] (./mp_baselines.tex)
+[22]
+[23 <../outputs/empirical/rare_earths/lynas_quarterly_baselines.pdf>]
+[24] (./entity_schedules_table.tex)
+[25]
+[26 <../outputs/empirical/semiconductors/entity_review_policies.pdf> <../output
+s/empirical/semiconductors/entity_publication_clocks.pdf>]
+(../outputs/empirical/semiconductors/veu_extension/scope_table.tex)
 [27]
-[28 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
-[29] (./game_table.tex) (./negative_extension_table.tex)
-[30]
-[31 <../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf>]
+[28 <../outputs/empirical/semiconductors/veu_extension/document_clocks.pdf> <..
+/outputs/empirical/semiconductors/smic_reported_inputs.pdf>]
+(./smic_operating_changes.tex)
+[29 <../outputs/empirical/semiconductors/smic_operating_scale.pdf>]
+[30 <../outputs/empirical/semiconductors/smic_revenue_decomposition.pdf>]
+[31] (./game_table.tex)
+[32] (./negative_extension_table.tex)
+[33] (../outputs/scenario/safeguarded_analysis/scenario_table.tex)
+[34 <../outputs/scenario/negative_beta_extension/solver_diagnostics.pdf>]
+[35 <../outputs/scenario/safeguarded_analysis/convergence.pdf>]
+(../outputs/scenario/dynamic_deviation_audit/table.tex)
+[36 <../outputs/scenario/dynamic_deviation_audit/value_bounds.pdf>]
 (./constant_controls_table.tex)
-[32]
-[33 <../outputs/scenario/constant_controls/scenario_controls.pdf> <../outputs/s
-cenario/constant_controls/commitment_payoffs.pdf>]
-[34 <../outputs/scenario/game/constant_control_benchmark.pdf>]
-[35 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
-[36] (./main.bbl
 [37]
-[38]
-[39]
-[40]
-[41])
+[38 <../outputs/scenario/constant_controls/scenario_controls.pdf> <../outputs/s
+cenario/constant_controls/commitment_payoffs.pdf>]
+[39 <../outputs/scenario/game/constant_control_benchmark.pdf>]
+[40 <../outputs/scenario/game/adaptation_positive_n21_trajectories.pdf>]
+[41] (./main.bbl
 [42]
 [43]
 [44]
-[45] (./main.aux) )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (45 pages, 804513 bytes).
+[45]
+[46])
+[47]
+[48]
+[49]
+[50]
+[51] (./main.aux) ) </tmp/texfonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (51 pages, 904860 bytes).
 Transcript written on main.log.

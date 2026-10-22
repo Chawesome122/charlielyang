@@ -1,0 +1,506 @@
+{
+  "passed": true,
+  "review_type": "independent_internal_computational_review_not_external_specialist_certification",
+  "executed_at": "2026-10-21T11:34:20.816089+00:00",
+  "checks": 94,
+  "failures": [],
+  "details": [
+    {
+      "check": "original_sha256",
+      "passed": true,
+      "source_id": "RE-MP-10K2023"
+    },
+    {
+      "check": "original_sha256",
+      "passed": true,
+      "source_id": "RE-MP-10K2024"
+    },
+    {
+      "check": "original_sha256",
+      "passed": true,
+      "source_id": "RE-MP-10K2025"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-VREX-MP-EQUITY"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-VREX-SHENGHE-EQUITY"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-VREX-LOCATION"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-VREX-MANAGEMENT"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-VREX-BOARD"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-SHENGHE-PARENT"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-SHENGHE-REAGENTS"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-VREX-MP-EQUITY"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-VREX-SHENGHE-EQUITY"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-VREX-LOCATION"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-VREX-MANAGEMENT"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-VREX-BOARD"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-SHENGHE-PARENT"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-SHENGHE-REAGENTS"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-TOLLING-UTILIZATION"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-TOLLING-DELIVERY"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-TOLLING-TITLE"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-VREX-DISPOSAL"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-VREX-LOCATION"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-CHINA-SALES-CEASE"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-INTERNAL-FEED"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-MAGNET-COMMISSIONING"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-SHENGHE-REAGENTS"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-SHENGHE-STATUS"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-REAGENT-PURCHASES-2023"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-REAGENT-PURCHASES-2022"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2023-REAGENT-PURCHASES-2021"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-REAGENT-PURCHASES-2024"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-REAGENT-PURCHASES-2023"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2024-REAGENT-PURCHASES-2022"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-REAGENT-PURCHASES-2025"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-REAGENT-PURCHASES-2024"
+    },
+    {
+      "check": "independent_stdlib_original_quote",
+      "passed": true,
+      "claim_id": "MPOR-2025-REAGENT-PURCHASES-2023"
+    },
+    {
+      "check": "independent_submission_metadata_sha256",
+      "passed": true
+    },
+    {
+      "check": "independent_submission_public_clock",
+      "passed": true,
+      "source_id": "RE-MP-10K2023",
+      "selected_original_public_date": "2024-02-28"
+    },
+    {
+      "check": "independent_submission_public_clock",
+      "passed": true,
+      "source_id": "RE-MP-10K2024",
+      "selected_original_public_date": "2025-02-28"
+    },
+    {
+      "check": "independent_submission_public_clock",
+      "passed": true,
+      "source_id": "RE-MP-10K2025",
+      "selected_original_public_date": "2026-02-26"
+    },
+    {
+      "check": "independent_procurement_year_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2023-REAGENT-PURCHASES-2023",
+      "reporting_year": "2023"
+    },
+    {
+      "check": "independent_procurement_year_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2023-REAGENT-PURCHASES-2022",
+      "reporting_year": "2022"
+    },
+    {
+      "check": "independent_procurement_year_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2023-REAGENT-PURCHASES-2021",
+      "reporting_year": "2021"
+    },
+    {
+      "check": "independent_procurement_year_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2024-REAGENT-PURCHASES-2024",
+      "reporting_year": "2024"
+    },
+    {
+      "check": "independent_procurement_year_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2024-REAGENT-PURCHASES-2023",
+      "reporting_year": "2023"
+    },
+    {
+      "check": "independent_procurement_year_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2024-REAGENT-PURCHASES-2022",
+      "reporting_year": "2022"
+    },
+    {
+      "check": "independent_procurement_year_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2025-REAGENT-PURCHASES-2025",
+      "reporting_year": "2025"
+    },
+    {
+      "check": "related_party_period_scope_not_full_year_imputed",
+      "passed": true,
+      "claim_id": "MPOR-2025-REAGENT-PURCHASES-2025"
+    },
+    {
+      "check": "independent_procurement_year_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2025-REAGENT-PURCHASES-2024",
+      "reporting_year": "2024"
+    },
+    {
+      "check": "related_party_period_scope_not_full_year_imputed",
+      "passed": true,
+      "claim_id": "MPOR-2025-REAGENT-PURCHASES-2024"
+    },
+    {
+      "check": "independent_procurement_year_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2025-REAGENT-PURCHASES-2023",
+      "reporting_year": "2023"
+    },
+    {
+      "check": "related_party_period_scope_not_full_year_imputed",
+      "passed": true,
+      "claim_id": "MPOR-2025-REAGENT-PURCHASES-2023"
+    },
+    {
+      "check": "independent_equity_owner_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2023-VREX-MP-EQUITY"
+    },
+    {
+      "check": "independent_equity_owner_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2023-VREX-SHENGHE-EQUITY"
+    },
+    {
+      "check": "independent_equity_owner_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2024-VREX-MP-EQUITY"
+    },
+    {
+      "check": "independent_equity_owner_value_binding",
+      "passed": true,
+      "claim_id": "MPOR-2024-VREX-SHENGHE-EQUITY"
+    },
+    {
+      "check": "independent_explicit_event_cue_interval",
+      "passed": true,
+      "claim_id": "MPOR-2023-VREX-MP-EQUITY"
+    },
+    {
+      "check": "independent_explicit_event_cue_interval",
+      "passed": true,
+      "claim_id": "MPOR-2023-TOLLING-UTILIZATION"
+    },
+    {
+      "check": "independent_explicit_event_cue_interval",
+      "passed": true,
+      "claim_id": "MPOR-2025-VREX-DISPOSAL"
+    },
+    {
+      "check": "independent_explicit_event_cue_interval",
+      "passed": true,
+      "claim_id": "MPOR-2025-CHINA-SALES-CEASE"
+    },
+    {
+      "check": "independent_explicit_event_cue_interval",
+      "passed": true,
+      "claim_id": "MPOR-2025-INTERNAL-FEED"
+    },
+    {
+      "check": "independent_explicit_event_cue_interval",
+      "passed": true,
+      "claim_id": "MPOR-2025-SHENGHE-STATUS"
+    },
+    {
+      "check": "year_end_wording_not_forced_into_explicit_quarter",
+      "passed": true
+    },
+    {
+      "check": "independent_divestiture_terms",
+      "passed": true
+    },
+    {
+      "check": "current_empirical_claims_do_not_certify_independent_operating_truth",
+      "passed": true
+    },
+    {
+      "check": "outbound_china_sales_not_input_origin_certificate",
+      "passed": true
+    },
+    {
+      "check": "five_empirical_readiness_cases_remain_unadmitted",
+      "passed": true
+    },
+    {
+      "check": "seven_missing_requirements_remain_missing",
+      "passed": true
+    },
+    {
+      "check": "synthetic_country_alias_exclusion",
+      "passed": true,
+      "country_input": "China"
+    },
+    {
+      "check": "synthetic_country_alias_exclusion",
+      "passed": true,
+      "country_input": "china"
+    },
+    {
+      "check": "synthetic_country_alias_exclusion",
+      "passed": true,
+      "country_input": "China "
+    },
+    {
+      "check": "synthetic_country_alias_exclusion",
+      "passed": true,
+      "country_input": " china "
+    },
+    {
+      "check": "synthetic_country_alias_exclusion",
+      "passed": true,
+      "country_input": "CN"
+    },
+    {
+      "check": "synthetic_country_alias_exclusion",
+      "passed": true,
+      "country_input": "PRC"
+    },
+    {
+      "check": "synthetic_country_alias_exclusion",
+      "passed": true,
+      "country_input": "CHN"
+    },
+    {
+      "check": "synthetic_unknown_country_is_not_accepted",
+      "passed": true
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "all_input_origins_verified",
+      "input_value": null
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "all_input_origins_verified",
+      "input_value": false
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "finite_volume_verified",
+      "input_value": null
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "finite_volume_verified",
+      "input_value": false
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "qualification_verified",
+      "input_value": null
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "qualification_verified",
+      "input_value": false
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "ownership_at_origin_verified",
+      "input_value": null
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "ownership_at_origin_verified",
+      "input_value": false
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "material_recipe_and_recovery_verified",
+      "input_value": null
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "material_recipe_and_recovery_verified",
+      "input_value": false
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "route_rights_and_throughput_verified",
+      "input_value": null
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "route_rights_and_throughput_verified",
+      "input_value": false
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "grade_demand_verified",
+      "input_value": null
+    },
+    {
+      "check": "synthetic_missing_false_readiness_guard",
+      "passed": true,
+      "field": "grade_demand_verified",
+      "input_value": false
+    },
+    {
+      "check": "synthetic_group_sensitivity_is_distinct_from_nationality",
+      "passed": true
+    },
+    {
+      "check": "source_inconsistent_future_event_interval_rejected",
+      "passed": true
+    },
+    {
+      "check": "source_inconsistent_but_prepublication_month_rejected",
+      "passed": true
+    },
+    {
+      "check": "retrospective_event_not_backdated_to_prior_archive",
+      "passed": true
+    }
+  ],
+  "independent_parser": "Python standard-library HTMLParser; no original extraction helper used for quote checks",
+  "original_source_sha256": {
+    "RE-MP-10K2023": "ec6262b0bdb2a25bd1a147fa82b1a7c2b77fd8d048f87963a56ce0469a0ec73d",
+    "RE-MP-10K2024": "2f4025c0294b70f09cd50f18bd48a6bf03417eee11bd98462e4be1fd6f5b14cc",
+    "RE-MP-10K2025": "0e075d1392b9f0e39b599bd742aa1e78ecca97db440e3f85c192f1b78dbfae9e",
+    "RE-MP-SUBMISSIONS": "e3ec065d5a377e5f541b26163112029cdd3cbc9397fdeb2c8d38d311248e1289"
+  },
+  "codebook_sha256": "9388f8d2db407e5bb170437f262dcc3394022449121b9f0c4d25aee4dbf714da",
+  "reviewed_module_sha256": "1e336bc9b33645cb1fa66be788bba4d72c35288c11e945be4b108d6e26076710",
+  "original_at_vintage_source_bytes_certified": false,
+  "empirical_supply_service_identified": false,
+  "corporate_national_control_certified": false,
+  "initial_failures_preserved": "outputs/diagnostics/operating_origin_independent_review_initial_findings.json"
+}
