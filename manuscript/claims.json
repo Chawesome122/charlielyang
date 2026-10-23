@@ -1,5 +1,11 @@
 [
   {
+    "claim": "Donald source-nested reserve grades and pit-design recoveries supply conditional four-element constraints; 16 finite-feed diagnostic LP solves conserve material without measured feed or end-to-end service. An explicit no-FID observation implies the March target was missed by at least 91 days through June 30, only known from August 5.",
+    "classification": "source_reported_target_miss_and_conditional_engineering_not_supply_forecast",
+    "evidence": "outputs/diagnostics/donald_validation.json",
+    "sha256": "c5ff7056a5691d28f98cbf587a837da07660c977db93c0de3086d7e04dca843b"
+  },
+  {
     "claim": "Twelve separately registered safeguarded search attempts produce three accepted coarse candidates and nine fine-grid failures under unchanged full-game criteria; no continuum MPE or nonexistence claim follows",
     "classification": "hypothetical_numerical_method_robustness",
     "evidence": "outputs/scenario/safeguarded_analysis/analysis.json",
@@ -117,7 +123,7 @@
     "claim": "Observed state pairs and disclosure inventory do not establish first-exit survival exposure or a representative hazard sample",
     "classification": "empirical_observation_protocol_audit",
     "evidence": "outputs/diagnostics/project_observation_audit.json",
-    "sha256": "f33b9dd50fe23634017c74f8aaf6cabcc9660ecd85d89d5379a66134f01853a3"
+    "sha256": "42f3b467c11c44dd40b662d69b1a705867f9b4ef26ff96153dc2625793cd1dec"
   },
   {
     "claim": "4 issuer report clocks resolved by exact dated links; undated annual links remain unresolved",
@@ -159,7 +165,7 @@
     "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
     "classification": "original_source_integrity_audit",
     "evidence": "data/processed/source_integrity/original_quote_audit.csv",
-    "sha256": "f209d41c5a024d696c45771664b3aff4fb126ac64c797db10a6df5ec3ca5fbb2"
+    "sha256": "29b92d9937402651b4ec9c80a7d31e6786640550e9cf70df9eabd86f0c2fc1bc"
   },
   {
     "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
@@ -210,10 +216,10 @@
     "sha256": "d19ffae435e9dc531034a0ede254a06f387cd21ce3a4c1eec17f8312a28504e0"
   },
   {
-    "claim": "Ten supplied copies add cited quarterly/technical/legal observations without historical-byte certification; MP sales-convention adoption is Q1 2026, Upton demonstration differs from its end-to-end target, and White Mesa design versions conflict",
+    "claim": "Eleven supplied copies add cited quarterly/technical/legal observations without historical-byte certification; MP sales-convention adoption is Q1 2026, Upton demonstration differs from its end-to-end target, and White Mesa design versions conflict",
     "classification": "source_reported_documentary_and_measurement_versions",
     "evidence": "data/processed/supplied_evidence/claims.csv",
-    "sha256": "cfe4928d5f4fe97922150a27e17aebf70802bc3ab96936e27fc633fdb81e38c9"
+    "sha256": "811c929011a9da118dad25aafbbceb253c5409291b224608dbf91d37781e7279"
   },
   {
     "claim": "One quarter of SMIC within-quarter issuer guidance missed both stated outcome ranges; midpoint evaluation beats a known-at-issuance persistence baseline on two correlated outcomes without establishing model skill or interval probabilities",
@@ -249,6 +255,6 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "eeadaa7cbaca10d73ec38d87fbc8d68597161785864170d0bcbb0019f6c96c74"
+    "sha256": "4e6e128cf9974ad02cd7a870d9809193aa28ce57bfdfccc53493a681e503455f"
   }
 ]

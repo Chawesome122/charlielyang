@@ -1,0 +1,212 @@
+{
+  "timestamp": "2026-10-22T04:49:28.677969+00:00",
+  "archived_evidence": [
+    {
+      "original": "outputs/diagnostics/container_extension_negative_beta.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_negative_beta.json",
+      "sha256": "a795aa096c6bb650d2c557d0bf7f8907d9157b5ae28fc71861e2ea3619eb1a79"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_supplied_evidence_validation.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_supplied_evidence_validation.json",
+      "sha256": "cfee2b6b83486aff5ce1c715867fe3363eb7fd72f3529fdbd2a8975f835ea4dc"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_replication.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_replication.json",
+      "sha256": "2f9cdecced051d5db0e28ee4ee51eb0606539c345b55636cdb09ae3ee931941f"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_dynamic_deviations.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_dynamic_deviations.json",
+      "sha256": "34076fe8e441e044daa8b4a3f1c7d4811f4761c9e546817902dd19aa2a60abf6"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_manifest.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_manifest.json",
+      "sha256": "a8efb75b771f78baf6493f33060176a392ab41e09b6554e200013cd4673186ac"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_validation.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_validation.json",
+      "sha256": "43f846493591ab14ea870fedad5e62f9bcacac3bf4367e6f4f1e92c21f5cf52e"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_original_quote_validation.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_original_quote_validation.json",
+      "sha256": "aff9fd15e1d3cc644fdc9e62351ad26e1cf2c92f9945da848c56b6dab486f792"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_original_quotes.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_original_quotes.json",
+      "sha256": "298db9fa53eb64856259f9cf922c975e3797bd6b6329057089d93c0504f518bd"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_research_summary.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_research_summary.json",
+      "sha256": "c5bf4c50f85b5968671ee7f9422e235b4ba3aeeeb9e42325bc6ddeba5a5bb776"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_guidance_analysis.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_guidance_analysis.json",
+      "sha256": "88c9df8a237b93f41691d2e2f8dc32f8df9837a68994acf69d3d6595c0f5c7fa"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_pytest.xml",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_pytest.xml",
+      "sha256": "45b2786c5fdee25b66fd5136f019f2433b363ec7a349e6ec3d45985a12deddcc"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_safeguarded_analysis.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_safeguarded_analysis.json",
+      "sha256": "e5a7172287d5c67be7a9d85b128ad3e4f9ff17c854d4f5e584ecf9fbad1547ff"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_manuscript_build.log",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_manuscript_build.log",
+      "sha256": "777c379a8edf4951030c400bf94d3abc8be678104ad40ed2a48ce2a5ca14a51f"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_manuscript.pdf",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_manuscript.pdf",
+      "sha256": "dcea1af9a30b98e43e3c2984d17872b8f5cd77f91be031c6e80f8ce543d431fc"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_run.log",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_run.log",
+      "sha256": "1f14a445bb06c703e1d115c33fca702cb57c8526143f36ef3985b0bcab319e12"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_constant_controls.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_constant_controls.json",
+      "sha256": "fd0412504926d09b03167fadea373f1e1e92896051606c342ca62f02199cdf94"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_manuscript_convergence.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_manuscript_convergence.json",
+      "sha256": "8c6b926695093d487b94f2ddfe7937d0a1d4af023b2c1845b7c510408d3c832f"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_build.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_build.json",
+      "sha256": "4e622732fd3dee065602d2a2dea9442fef4c5e886fec2d0429dfdc4bde8974df"
+    },
+    {
+      "original": "outputs/diagnostics/container_extension_data_validation.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/container_extension_data_validation.json",
+      "sha256": "860a748c89415193d14f27ef294bdf2a4c2741144eaa467a992e0710996ec5a8"
+    },
+    {
+      "original": "outputs/diagnostics/final_release_validation.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/final_release_validation.json",
+      "sha256": "86f81a0584bdb98f2eaa2dd624a0a08d27f5f112e3ea83022b60ed3d25668fa4"
+    },
+    {
+      "original": "outputs/diagnostics/end_to_end_replication.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/end_to_end_replication.json",
+      "sha256": "acc0489e588d93d268afd651b559a90cd0f258580f2416a52b6da5c8ae8caf9d"
+    },
+    {
+      "original": "outputs/diagnostics/data_validation.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/data_validation.json",
+      "sha256": "860a748c89415193d14f27ef294bdf2a4c2741144eaa467a992e0710996ec5a8"
+    },
+    {
+      "original": "outputs/diagnostics/pytest.xml",
+      "archived": "outputs/diagnostics/previous_supplied_extension/pytest.xml",
+      "sha256": "cff284be6d6646fa6391d30138e24427119c1bea55b2d5d52d6fbab5f229d150"
+    },
+    {
+      "original": "outputs/diagnostics/manuscript_convergence.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/manuscript_convergence.json",
+      "sha256": "a703c92ceda2081c176608cedd975ddc47af3edff2c74c9c2450dcbb2f228ee0"
+    },
+    {
+      "original": "outputs/diagnostics/manuscript_build.log",
+      "archived": "outputs/diagnostics/previous_supplied_extension/manuscript_build.log",
+      "sha256": "6dd74cc04df92b2e7aef7017d89bff7c3542f48a4ade2c139600163f89fed582"
+    },
+    {
+      "original": "manuscript/main.pdf",
+      "archived": "outputs/diagnostics/previous_supplied_extension/main.pdf",
+      "sha256": "8e490d65b1cf05e2c38c955e4ed66064312c225551e3705ef87afb44b522edff"
+    },
+    {
+      "original": "outputs/run_manifest.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/run_manifest.json",
+      "sha256": "3440000718d786f0bc27249342ed4e45e2d5fd63e875c95526f0f177e23ae313"
+    },
+    {
+      "original": "outputs/research_summary.json",
+      "archived": "outputs/diagnostics/previous_supplied_extension/research_summary.json",
+      "sha256": "c5bf4c50f85b5968671ee7f9422e235b4ba3aeeeb9e42325bc6ddeba5a5bb776"
+    }
+  ],
+  "stopped_container": "weaponized-supplied-final-check",
+  "stopped_container_image": "sha256:97d986a21d80cd95764aee45436fbc0e2392a35346c1d6dcec47aecdbbddd640",
+  "commands": [
+    {
+      "command": [
+        "docker",
+        "container",
+        "rm",
+        "weaponized-supplied-final-check"
+      ],
+      "exit_code": 0,
+      "output": "weaponized-supplied-final-check\n"
+    },
+    {
+      "command": [
+        "docker",
+        "image",
+        "rm",
+        "weaponized-research-supplied-final:latest",
+        "weaponized-research-supplied-dependencies:latest"
+      ],
+      "exit_code": 0,
+      "output": "Untagged: weaponized-research-supplied-final:latest\nDeleted: sha256:97d986a21d80cd95764aee45436fbc0e2392a35346c1d6dcec47aecdbbddd640\nUntagged: weaponized-research-supplied-dependencies:latest\nDeleted: sha256:d9c898cc1a399b791d52206eba9c591fcad5dadd7d0ecb22f562eca1a04b461c\n"
+    },
+    {
+      "command": [
+        "docker",
+        "builder",
+        "prune",
+        "--force"
+      ],
+      "exit_code": 0,
+      "output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nf9x9f81u0wfyegpmc4ol2zrcd*              \ttrue \t\t357B      \t2 hours ago\nsl3g6evn8u34uu4b7pbfnap6r               \ttrue \t448MB     \t2 hours ago\nx0nnrc5wz413bky7ojc8edxzo*              \ttrue \t904.9kB   \t2 hours ago\nc2ck28ugao8s2ahzkz9f9hbvy*              \ttrue \t1.168kB   \t2 hours ago\nsgwit8bd44w5g22v7pov3rd1d               \ttrue \t375MB     \t2 hours ago\nsg8zvhyuq5fxtqe63h98f39v3               \ttrue \t828.8kB   \t3 hours ago\nTotal:\t824.8MB\n"
+    }
+  ],
+  "free_bytes_before": 2974281728,
+  "free_bytes_after": 10270978048,
+  "earlier_containers_images_raw_and_results_retained": true,
+  "post_final_image_unused_build_cache_cleanup": {
+    "timestamp": "2026-10-22T05:08:21.587112+00:00",
+    "command": [
+      "docker",
+      "builder",
+      "prune",
+      "--force"
+    ],
+    "exit_code": 0,
+    "output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nrgc6hcxxvklb0umygyvhzvv03*              \ttrue \t\t357B      \t3 minutes ago\nqug9382akt0c0s2y2ifhct9ub*              \ttrue \t923.9kB   \t3 minutes ago\nvw0u1s56hoy1nx71zs3b2z9al*              \ttrue \t1.168kB   \t3 minutes ago\nTotal:\t925.4kB\n",
+    "free_bytes_before": 996917248,
+    "free_bytes_after": 1464799232,
+    "current_running_container_and_tagged_images_preserved": true
+  },
+  "superseded_pre_guard_dependency_image_cleanup": {
+    "timestamp": "2026-10-22T05:08:52.333063+00:00",
+    "command": [
+      "docker",
+      "image",
+      "rm",
+      "sha256:6e2d943782bac8c56e8c0fa1692fa9a58666c42ce877238a5eaeaf6d1d251d20"
+    ],
+    "exit_code": 0,
+    "output": "Deleted: sha256:6e2d943782bac8c56e8c0fa1692fa9a58666c42ce877238a5eaeaf6d1d251d20\n",
+    "free_bytes_before": 1464799232,
+    "free_bytes_after": 1464815616,
+    "used_for_numerical_validation": false,
+    "current_and_earlier_validation_images_preserved": true
+  }
+}

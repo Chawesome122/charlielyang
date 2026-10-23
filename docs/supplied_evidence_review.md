@@ -1,5 +1,7 @@
 # Supplied-source continuation: executed evidence and remaining gates
 
+Historical snapshot of the ten-document extension; superseded acquisition status: the eleventh Donald document is now admitted and analyzed in [the Donald review](donald_review.md). Do not request it again. The original ten-document results below remain valid in their stated scope.
+
 This continuation resumes release `7907609`; it does not replace earlier modules.
 Research freeze remains October 11, 2026 inclusive. Ten attached documents were
 downloaded, hashed and archived under `data/raw/user_supplied/`. The eleven-request

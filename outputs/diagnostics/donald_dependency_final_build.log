@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "tag": "weaponized-research-donald-dependencies",
+  "target": "dependencies",
+  "existing_proxy_forwarded": {
+    "http": true,
+    "https": true
+  },
+  "existing_proxy_dns_mapping_used": true,
+  "platform_public_ca_used": true,
+  "tls_verification_disabled": false,
+  "log": "outputs/diagnostics/docker_build.log",
+  "image_id": "sha256:e628ce3be459a4a2c529d54b634f062ddf162b6d7dea7ad59c7c8313c6dc7923"
+}

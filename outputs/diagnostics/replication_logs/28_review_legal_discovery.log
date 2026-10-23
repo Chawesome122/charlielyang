@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "original_additional_documents": 41,
+  "decision_counts": {
+    "OTHER_DESTINATION_OR_ENFORCEMENT_CONTEXT": 9,
+    "ENTITY_SCOPE_MAPPING_REQUIRED": 9,
+    "PROCEDURAL_NO_NEW_EXPORT_REQUIREMENT": 8,
+    "CROSS_CUTTING_ITEM_ADJUDICATION_REQUIRED": 6,
+    "IMPORT_OR_DOMESTIC_POLICY_CONTEXT": 5,
+    "ADDED_TO_REVIEWED_EVENT_CORPUS": 4
+  },
+  "reviewed_event_phases": 27,
+  "original_FR_documents_in_reviewed_corpus": 21,
+  "current_law_consolidated": false,
+  "independent_legal_review": false,
+  "numeric_foreign_access_losses_identified": false
+}

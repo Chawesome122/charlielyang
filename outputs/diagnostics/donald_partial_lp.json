@@ -1,0 +1,450 @@
+[
+  {
+    "case": "finite_feed",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 0.0,
+    "plant_feed_limit_tonnes": 0.0,
+    "route_open": true,
+    "supplier_removed": false,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "half_throughput",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 0.0,
+    "plant_feed_limit_tonnes": 0.0,
+    "route_open": true,
+    "supplier_removed": false,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "route_closed",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 0.0,
+    "plant_feed_limit_tonnes": 0.0,
+    "route_open": false,
+    "supplier_removed": false,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "owner_outage",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 0.0,
+    "plant_feed_limit_tonnes": 0.0,
+    "route_open": true,
+    "supplier_removed": true,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "finite_feed",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 0.5,
+    "plant_feed_limit_tonnes": 1.0,
+    "route_open": true,
+    "supplier_removed": false,
+    "throughput_tonnes": 0.5,
+    "output_element_tonnes": {
+      "Nd": 3.549453787881039e-05,
+      "Pr": 9.594746559604736e-06,
+      "Dy": 7.073381287248958e-06,
+      "Tb": 1.0773931355912254e-06
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 3.086481554679166e-06,
+      "Pr": 8.343257877917152e-07,
+      "Dy": 9.645519937157673e-07,
+      "Tb": 1.4691724576243977e-07
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "half_throughput",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 0.5,
+    "plant_feed_limit_tonnes": 0.25,
+    "route_open": true,
+    "supplier_removed": false,
+    "throughput_tonnes": 0.25,
+    "output_element_tonnes": {
+      "Nd": 1.7747268939405195e-05,
+      "Pr": 4.797373279802368e-06,
+      "Dy": 3.536690643624479e-06,
+      "Tb": 5.386965677956127e-07
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 1.543240777339583e-06,
+      "Pr": 4.171628938958576e-07,
+      "Dy": 4.822759968578836e-07,
+      "Tb": 7.345862288121989e-08
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "route_closed",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 0.5,
+    "plant_feed_limit_tonnes": 1.0,
+    "route_open": false,
+    "supplier_removed": false,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "owner_outage",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 0.5,
+    "plant_feed_limit_tonnes": 1.0,
+    "route_open": true,
+    "supplier_removed": true,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "finite_feed",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 1.0,
+    "plant_feed_limit_tonnes": 2.0,
+    "route_open": true,
+    "supplier_removed": false,
+    "throughput_tonnes": 1.0,
+    "output_element_tonnes": {
+      "Nd": 7.098907575762078e-05,
+      "Pr": 1.9189493119209473e-05,
+      "Dy": 1.4146762574497915e-05,
+      "Tb": 2.154786271182451e-06
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 6.172963109358332e-06,
+      "Pr": 1.6686515755834304e-06,
+      "Dy": 1.9291039874315345e-06,
+      "Tb": 2.9383449152487955e-07
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "half_throughput",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 1.0,
+    "plant_feed_limit_tonnes": 0.5,
+    "route_open": true,
+    "supplier_removed": false,
+    "throughput_tonnes": 0.5,
+    "output_element_tonnes": {
+      "Nd": 3.549453787881039e-05,
+      "Pr": 9.594746559604736e-06,
+      "Dy": 7.073381287248958e-06,
+      "Tb": 1.0773931355912254e-06
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 3.086481554679166e-06,
+      "Pr": 8.343257877917152e-07,
+      "Dy": 9.645519937157673e-07,
+      "Tb": 1.4691724576243977e-07
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "route_closed",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 1.0,
+    "plant_feed_limit_tonnes": 2.0,
+    "route_open": false,
+    "supplier_removed": false,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "owner_outage",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 1.0,
+    "plant_feed_limit_tonnes": 2.0,
+    "route_open": true,
+    "supplier_removed": true,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "finite_feed",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 1000.0,
+    "plant_feed_limit_tonnes": 2000.0,
+    "route_open": true,
+    "supplier_removed": false,
+    "throughput_tonnes": 1000.0,
+    "output_element_tonnes": {
+      "Nd": 0.07098907575762078,
+      "Pr": 0.019189493119209474,
+      "Dy": 0.014146762574497915,
+      "Tb": 0.0021547862711824507
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0061729631093583315,
+      "Pr": 0.0016686515755834283,
+      "Dy": 0.0019291039874315338,
+      "Tb": 0.0002938344915248796
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 2.7755575615628914e-17,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "half_throughput",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 1000.0,
+    "plant_feed_limit_tonnes": 500.0,
+    "route_open": true,
+    "supplier_removed": false,
+    "throughput_tonnes": 500.0,
+    "output_element_tonnes": {
+      "Nd": 0.03549453787881039,
+      "Pr": 0.009594746559604737,
+      "Dy": 0.007073381287248957,
+      "Tb": 0.0010773931355912254
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0030864815546791657,
+      "Pr": 0.0008343257877917142,
+      "Dy": 0.0009645519937157669,
+      "Tb": 0.0001469172457624398
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 1.3877787807814457e-17,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "route_closed",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 1000.0,
+    "plant_feed_limit_tonnes": 2000.0,
+    "route_open": false,
+    "supplier_removed": false,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  },
+  {
+    "case": "owner_outage",
+    "passed": true,
+    "classification": "normalized_finite_feed_diagnostic_not_empirical_supply",
+    "finite_feed_tonnes": 1000.0,
+    "plant_feed_limit_tonnes": 2000.0,
+    "route_open": true,
+    "supplier_removed": true,
+    "throughput_tonnes": 0.0,
+    "output_element_tonnes": {
+      "Nd": -0.0,
+      "Pr": -0.0,
+      "Dy": -0.0,
+      "Tb": -0.0
+    },
+    "residual_or_unrecovered_element_tonnes": {
+      "Nd": 0.0,
+      "Pr": 0.0,
+      "Dy": 0.0,
+      "Tb": 0.0
+    },
+    "max_analytical_error_tonnes": 0.0,
+    "max_constraint_violation_tonnes": 0.0,
+    "primal_dual_gap_tonnes": 0.0,
+    "empirical_inventory": false,
+    "empirical_route_capacity": false,
+    "delivered_magnet_service": null
+  }
+]

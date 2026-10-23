@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "observed_pairs": 34,
+  "pair_classes": {
+    "same_state_reobservation": 20,
+    "allowed_endpoint_pair": 10,
+    "unobserved_intermediate_states_or_definition_change": 4
+  },
+  "pairs_missing_event_windows": 15,
+  "overlapping_or_revised_pairs": 2,
+  "quarterly_disclosure_origins": 44,
+  "final_origin": "2026-10-11",
+  "first_exit_spells_admissible": 0,
+  "physically_observed_risk_inventory_available": false,
+  "no_news_interpretation": "unknown physical state/survival, not right-censored no-exit exposure",
+  "population_transition_estimates_available": false
+}

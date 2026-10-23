@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 import subprocess
 import sys
+from weaponized.reporting.claim_comparison import claim_payloads, compare_claim_manifests
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -100,19 +101,29 @@ def main():
     paths += [f'outputs/empirical/supplied_evidence/{name}.csv' for name in ['white_mesa_design_versions','vara_conditional_oxide_composition','smic_revenue_ratios','smic_accounting_decompositions','numerical_checks']]
     paths += ['manuscript/supplied_smic_changes.tex','outputs/empirical/supplied_evidence/analysis.json']
     paths += ['outputs/empirical/supplied_evidence/smic_guidance_evaluation.csv','outputs/empirical/supplied_evidence/guidance_analysis.json']
+    paths += [f'data/processed/donald/{name}.csv' for name in ['source_claims','nested_material_coefficients','conditional_reec_composition','target_vintage_checks','fid_target_revision','cross_report_composition_versions','route_readiness','source_numerical_checks']]
+    paths += ['outputs/diagnostics/donald_validation.json','outputs/diagnostics/donald_partial_lp.json','manuscript/donald_materials_table.tex']
+    paths += ['metadata/parameter_registry.csv','metadata/claims_to_sources.csv']
     before = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in paths}
+    claims_before=json.loads((ROOT/'manuscript/claims.json').read_text())
+    evidence_before=claim_payloads(ROOT,claims_before)
     run = subprocess.run([sys.executable, "scripts/replicate.py"], cwd=ROOT)
+    claims_after=json.loads((ROOT/'manuscript/claims.json').read_text())
+    try:
+        claim_check=compare_claim_manifests(claims_before,evidence_before,claims_after,claim_payloads(ROOT,claims_after))
+    except (ValueError,KeyError,TypeError) as error:
+        claim_check=dict(passed=False,error=str(error))
     checks = [dict(path=path, passed=hashlib.sha256((ROOT/path).read_bytes()).hexdigest() == digest)
               for path, digest in before.items()]
-    report = dict(passed=run.returncode == 0 and all(row["passed"] for row in checks),
+    report = dict(passed=run.returncode == 0 and all(row["passed"] for row in checks) and claim_check['passed'],
                   scope="clean_container_continuation_rebuild_and_saved_game_audit",
                   network="none", independent_machine=False, pipeline_exit_code=run.returncode,
-                  tables_byte_identity=checks, large_games_recomputed=False,
+                  tables_byte_identity=checks, claim_manifest_comparison=claim_check, large_games_recomputed=False,
                   full_prior_numerical_run="outputs/diagnostics/container_validation.json",
                   current_numerical_core_comparison="outputs/diagnostics/scientific_code_comparison.json")
     current = json.loads((ROOT/"outputs/research_summary.json").read_text())
     report["test_results"] = {key:current[key] for key in ["tests", "test_failures"]}
-    report["extension_scope"] = "MP operating origin/ownership/routing and VEU facility/item permissions/removals; independently recomputed fixed-opponent dynamic deviations and request readiness; " + "Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules"
+    report["extension_scope"] = "Donald final supplied source, four-element partial finite-feed process, missed target, routes and ownership; all eleven requested document identities; MP operating origin/ownership/routing and VEU facility/item permissions/removals; independently recomputed fixed-opponent dynamic deviations and request readiness; " + "Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules"
     report["executed_script_sha256"] = {str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                                        for path in sorted((ROOT/"scripts").glob("*.py"))}
     (ROOT/"outputs/diagnostics/container_extension_validation.json").write_text(json.dumps(report, indent=2))

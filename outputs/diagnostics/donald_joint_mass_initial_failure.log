@@ -1,0 +1,20 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+___________ test_joint_contained_input_mass_cannot_exceed_native_ore ___________
+
+coefficients = [{'element': 'Nd', 'oxide': 'Nd2O3', 'hm_fraction': 0.045, 'oxide_fraction_of_HM': 0.002, ...}, {'element': 'Pr', 'oxi...of_HM': 0.00041, ...}, {'element': 'Tb', 'oxide': 'Tb4O7', 'hm_fraction': 0.045, 'oxide_fraction_of_HM': 6.4e-05, ...}]
+
+    def test_joint_contained_input_mass_cannot_exceed_native_ore(coefficients):
+        rows=copy.deepcopy(coefficients)
+        for r in rows:
+            r['input_element_t_per_ore_t']=.3
+            r['recovered_element_t_per_ore_t']=.2
+        # Each element individually loses mass, yet four input fractions sum to 1.2.
+>       with pytest.raises(ValueError,match='Joint contained-element input'):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+tests/test_donald.py:135: Failed
+=========================== short test summary info ============================
+FAILED tests/test_donald.py::test_joint_contained_input_mass_cannot_exceed_native_ore
+1 failed in 0.91s

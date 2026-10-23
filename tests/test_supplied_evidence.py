@@ -128,20 +128,25 @@ def test_white_mesa_conflicting_versions_stay_separate(evidence):
     assert all(r['event_kind']=='planned' and not r['empirical_service_identified'] for r in selected)
 
 
-def test_missing_document_not_marked_received(evidence):
+def test_last_document_admitted_with_independent_copy_clock(evidence):
     _,sources,_=evidence
-    assert len(sources)==10 and 7 not in {s['request_rank'] for s in sources.values()}
+    assert len(sources)==11 and {s['request_rank'] for s in sources.values()}==set(range(1,12))
+    s=next(s for s in sources.values() if s['request_rank']==7)
+    assert s['info_public_date']=='2026-02-26' and 'Oct 22' in s['pdfinfo']
+    assert not s['historical_byte_vintage_certified'] and not s['earliest_public_date_certified']
 
 
 def test_discovery_extension_does_not_promote_targets_or_demos(evidence):
     book,sources,pages=evidence
     claims=pd.DataFrame([extract_claim(pages[c['source_id']],c,sources[c['source_id']]) for c in book['claims']])
     roster=supplied_project_snapshots(claims).set_index('activity_id')
-    assert len(roster)==8 and roster.project_id.nunique()==6
+    assert len(roster)==9 and roster.project_id.nunique()==7
     assert roster.loc['RER_Upton_separation','state']=='Q'
     assert roster.loc['USARE_WheatRidge_separation','state']=='Q'
     assert roster.loc['RER_Upton_separation','event_date_lower']=='2026-03-01'
     for a in ['USARE_Blacksburg_magnet','USARE_Blacksburg_alloy']:
         assert roster.loc[a,'state']=='F' and pd.isna(roster.loc[a,'event_date_upper'])
     assert roster.loc['MP_10X_magnet','state']=='C' and pd.isna(roster.loc['MP_10X_magnet','event_date_lower'])
+    assert roster.loc['EF_Donald_feed','state']=='F' and roster.loc['EF_Donald_feed','site_country']=='AUS'
+    assert pd.isna(roster.loc['EF_Donald_feed','event_date_lower'])
     assert roster.capacity_native.isna().all() and not roster.commercial_network_ready.any()

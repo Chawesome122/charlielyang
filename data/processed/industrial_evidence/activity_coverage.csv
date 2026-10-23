@@ -8,7 +8,6 @@ MP_metal,MP_Independence,metal_alloy,RE-MP-10K2024,2f4025c0294b70f09cd50f18bd48a
 Lynas_Malaysia_DyTb_circuit,Lynas_Malaysia,separation,LYNAS-61274405,7a1058407f421708c2094526de8cd8239bc6f2295604c0cb18bc9f0bbe72a109,2025-07-24,Q,True,False,False,False,missing,False,False,False,False
 EF_Phase2,EF_WhiteMesa,separation,RE-EF-10K2025,c07b98629f07eee431f828d03b4216370375530437cbe8c24f4bf9325ef34d1a,2026-02-26,F,True,True,True,False,annual_native_capacity,False,False,False,False
 EF_Bahia_feed,EF_Bahia,mine,RE-EF-10K2025,c07b98629f07eee431f828d03b4216370375530437cbe8c24f4bf9325ef34d1a,2026-02-26,F,True,True,True,False,annual_native_capacity,False,False,False,False
-EF_Donald_feed,EF_Donald,mine,RE-EF-10K2025,c07b98629f07eee431f828d03b4216370375530437cbe8c24f4bf9325ef34d1a,2026-02-26,F,True,False,False,False,missing,False,False,False,False
 EF_VaraMada_feed,EF_VaraMada_Toliara,mine,RE-EF-10K2025,c07b98629f07eee431f828d03b4216370375530437cbe8c24f4bf9325ef34d1a,2026-02-26,F,True,False,False,False,missing,False,False,False,False
 MP_magnet,MP_Independence,magnet,RE-MP-10K2025,0e075d1392b9f0e39b599bd742aa1e78ecca97db440e3f85c192f1b78dbfae9e,2026-02-26,Q,True,True,True,False,annual_native_capacity,False,False,False,False
 ASM_KMP_metal_alloy,ASM_KoreanMetalsPlant,metal_alloy,RE-EF-10K2025,c07b98629f07eee431f828d03b4216370375530437cbe8c24f4bf9325ef34d1a,2026-02-26,O,True,False,False,False,missing,False,False,False,False
@@ -24,6 +23,7 @@ USARE_Phase1a,USARE_Stillwater,magnet,RE-USARE-10K2025,9753acb76ecceea42119a24d0
 Iluka_Eneabba_separation,Iluka_Eneabba,separation,RE-ILUKA-OFFTAKE2026,6398746d2604d543e0885efd02a67d040b2cb8c209bdf9ec3be41afe270913d1,2026-06-23,C,True,False,False,False,missing,False,False,False,False
 RER_Upton_separation,RER_UptonDemo,separation,UP-HIST-RER-10Q2026Q2,6b2d2daad65205717883938f3ee4e66f97993e60f75fc1ca32117750c83a76fa,2026-08-04,Q,True,False,False,False,missing,False,False,False,False
 EF_Phase1_heavies,EF_WhiteMesa,separation,UP-RE-EF-10Q2026Q2,60085dd214dcb554f67e23114cd3ee3987ec7a1ed67d9e48a95d6b0908f11ae1,2026-08-05,C,True,False,False,False,missing,False,False,False,False
+EF_Donald_feed,EF_Donald,mine,UP-RE-EF-10Q2026Q2,60085dd214dcb554f67e23114cd3ee3987ec7a1ed67d9e48a95d6b0908f11ae1,2026-08-05,F,True,False,False,False,missing,False,False,False,False
 MP_10X_magnet,MP_10X,magnet,UP-RE-MP-10Q2026Q2,ae0ffb59579916d01ac4264e6fc91f020187191989d3d470fa6beaf0eb43eb64,2026-08-07,C,True,False,False,False,missing,False,False,False,False
 MP_mine,MP_MountainPass,mine,UP-RE-MP-10Q2026Q2,ae0ffb59579916d01ac4264e6fc91f020187191989d3d470fa6beaf0eb43eb64,2026-08-07,O,True,False,False,False,missing,False,False,False,False
 MP_separation,MP_MountainPass,separation,UP-RE-MP-10Q2026Q2,ae0ffb59579916d01ac4264e6fc91f020187191989d3d470fa6beaf0eb43eb64,2026-08-07,O,True,False,False,False,missing,False,False,False,False

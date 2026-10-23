@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "freeze": "2026-10-11",
+  "source_claims": 47,
+  "nested_element_coefficients": 4,
+  "conditional_reec_compositions": 4,
+  "numerical_checks": 6,
+  "finite_feed_LP_checks": 16,
+  "vintage_checks": 6,
+  "route_readiness_records": 6,
+  "cross_report_comparisons": 4,
+  "missed_initial_FID_target_lower_bound_days": 91,
+  "reported_interest_2025_percent": 9.48,
+  "reported_interest_2026H1_percent": 12.7,
+  "actual_FID_date_identified": false,
+  "first_exit_risk_spell_identified": false,
+  "empirical_inventory_identified": false,
+  "operating_recovery_estimated": false,
+  "empirical_service_identified": false,
+  "forecast_probabilities_produced": false,
+  "source_bytes_at_freeze_certified": false,
+  "independent_engineering_review": false
+}

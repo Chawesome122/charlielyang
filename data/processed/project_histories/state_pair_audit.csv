@@ -1,4 +1,5 @@
 activity_id,first_record,second_record,from_state,to_state,pair_class,missing_event_window,overlapping_or_revised_windows,first_exit_likelihood_admissible,reason
+EF_Donald_feed,PR-009,SP-009,F,F,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 EF_VaraMada_feed,PR-010,PR-011,S,F,allowed_endpoint_pair,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 JSLink_Kuantan_magnet,IND-005,IND-006,A,A,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 LS_Vietnam_metal,IND-007,IND-008,A,A,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population

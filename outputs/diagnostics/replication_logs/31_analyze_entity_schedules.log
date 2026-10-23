@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "evidence_class": "primary_legal_issued_schedule_descriptive",
+  "printed_entry_versions": 488,
+  "china_heading_entries": 284,
+  "other_heading_entries": 204,
+  "review_categories": {
+    "policy_of_denial": 186,
+    "presumption_of_denial": 156,
+    "mixed_denial_and_case_by_case": 126,
+    "cross_referenced_review_unresolved": 19,
+    "case_by_case": 1
+  },
+  "source_quality_flags": {
+    "citation_insert_placeholder": 488,
+    "rule_date_token_in_entity_text": 1,
+    "referenced_note_not_reprinted": 111,
+    "entry_action_unresolved": 1,
+    "instruction_name_discrepancy": 1
+  },
+  "entry_actions": {
+    "addition": 395,
+    "revision": 92,
+    "addition_provisional_name_variant": 1
+  },
+  "rules_with_filing_before_effective": 3,
+  "rules_with_publication_after_effective": 6,
+  "publication_only_omissions_at_effective_date": 243,
+  "printed_address_entries": 8,
+  "unique_new_company_count_identified": false,
+  "complete_China_or_semiconductor_coverage": false,
+  "current_law_consolidated": false,
+  "foreign_access_or_causal_effect_identified": false,
+  "source_flags_measure_policy_opacity": false,
+  "uncertainty": "Source transcription/rendering and legal/entity adjudication; no sampling confidence interval or approval probability identified"
+}

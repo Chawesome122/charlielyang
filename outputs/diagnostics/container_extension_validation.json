@@ -524,17 +524,94 @@
     {
       "path": "outputs/empirical/supplied_evidence/guidance_analysis.json",
       "passed": true
+    },
+    {
+      "path": "data/processed/donald/source_claims.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/donald/nested_material_coefficients.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/donald/conditional_reec_composition.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/donald/target_vintage_checks.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/donald/fid_target_revision.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/donald/cross_report_composition_versions.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/donald/route_readiness.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/donald/source_numerical_checks.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/diagnostics/donald_validation.json",
+      "passed": true
+    },
+    {
+      "path": "outputs/diagnostics/donald_partial_lp.json",
+      "passed": true
+    },
+    {
+      "path": "manuscript/donald_materials_table.tex",
+      "passed": true
+    },
+    {
+      "path": "metadata/parameter_registry.csv",
+      "passed": true
+    },
+    {
+      "path": "metadata/claims_to_sources.csv",
+      "passed": true
     }
   ],
+  "claim_manifest_comparison": {
+    "passed": true,
+    "claims": 43,
+    "distinct_evidence_files": 43,
+    "per_environment_exact_SHA256_checks": 86,
+    "raw_claim_manifests_identical": false,
+    "scientific_claims_exactly_identical": true,
+    "numerical_acceptance_tolerances_changed": false,
+    "timing_bearing_evidence": [
+      {
+        "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
+        "only_excluded_fields": [
+          "grid_refinement[0].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[1].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[2].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[3].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[4].heldout_policy_evaluation.elapsed_seconds"
+        ],
+        "before_sha256": "4e6e128cf9974ad02cd7a870d9809193aa28ce57bfdfccc53493a681e503455f",
+        "after_sha256": "5c6239fee484a1d7007dbc5669348472b41e6d3ac9d8a6b3dfc3136134af4729",
+        "scientific_fields_exactly_identical": true
+      }
+    ]
+  },
   "large_games_recomputed": false,
   "full_prior_numerical_run": "outputs/diagnostics/container_validation.json",
   "current_numerical_core_comparison": "outputs/diagnostics/scientific_code_comparison.json",
   "test_results": {
-    "tests": 451,
+    "tests": 485,
     "test_failures": 0
   },
-  "extension_scope": "MP operating origin/ownership/routing and VEU facility/item permissions/removals; independently recomputed fixed-opponent dynamic deviations and request readiness; Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules",
+  "extension_scope": "Donald final supplied source, four-element partial finite-feed process, missed target, routes and ownership; all eleven requested document identities; MP operating origin/ownership/routing and VEU facility/item permissions/removals; independently recomputed fixed-opponent dynamic deviations and request readiness; Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules",
   "executed_script_sha256": {
+    "scripts/analyze_donald.py": "3a0a42ea7c9589036f81389c158cc6622734e09edc6fa8f7e94ccef80343616c",
     "scripts/analyze_entity_schedules.py": "219e9895c116429c261a5354072ca3277b896b2bcd386c5a3509e15c0337fc7b",
     "scripts/analyze_mp_measurement.py": "6e1da58b76cae7bb73c56fb7a53c43c1922cadd98eea91c651272e98b3810163",
     "scripts/analyze_negative_extension.py": "80ac24a121ca01e873f84d72e44f2649d0ae3d53aa1473825c3ccfec83e74c79",
@@ -565,12 +642,12 @@
     "scripts/build_publication_extension.py": "b2bdb47a653b9518ab2141aa69a545003b46f45629219db656fea495012dc954",
     "scripts/build_rare_earths.py": "206f6b95e264186fdcc9d65c6fa0744d8fd76ac9f8f550e8eed499232db86733",
     "scripts/build_smic_operations.py": "97ae77fcdf34066f3fd29cc36cde85b2860bc5eb6b56f11ac17443ac115c19f3",
-    "scripts/build_source_requests.py": "430940187f670f50957bc9982fdb92f724382c76a510fa7601739096abccbb6a",
-    "scripts/build_supplied_evidence.py": "f90f45898814a178f4d0c863d9ab6eba82b59c809e37944d13e3b1b627458b34",
+    "scripts/build_source_requests.py": "7d6a07ede8ee0e3a811164a2833f5c319e89dea0350837dd5f83df715d534ef7",
+    "scripts/build_supplied_evidence.py": "947d2ac1d4dfd2c11d4ba63f57dd075efefbfb4aa59569cf2664cf38425cebf8",
     "scripts/build_veu_extension.py": "264f73440eeede9a659051f4244e2ee8506a0d5733d6fb7f96a421f2d0a8db25",
     "scripts/build_white_mesa.py": "f2c2eaa1f7216e0a8c84987ad839066a0e8ec354f31786695641365e40ca97f2",
     "scripts/container_check.py": "3417b2ab667d2358201057d52f7404b2cf9ff5889a6790d7376177783a10e87d",
-    "scripts/container_extension_check.py": "524cd97717d7607e530ee16258a176f10e9cf10e62e2ad12cbca5dc977b01be3",
+    "scripts/container_extension_check.py": "0c2015772b1551666368d39d2d9f31f45fd7013e062a8f8ecfc9cd262c2a4e97",
     "scripts/discover_legal.py": "a3bf6b00969ffc61b2a643cc06a3db5328766ac852aa0c8b8ae552a66afef06e",
     "scripts/evaluate_supplied_guidance.py": "9712009525d191426d601b06ae8aeaf5d2292253f86444a3982cb67347526f5b",
     "scripts/fetch.py": "4028b5a286c5e09cb623f7714d0dafdbe71692d000b72cd8fc50d6cb792ea230",
@@ -578,8 +655,8 @@
     "scripts/fetch_literature.py": "04d70e6fc16415a005c43420fbaccf5a9ecc3ff471ed17a0b54873bd840b9297",
     "scripts/plot_evidence_extensions.py": "88b1f21da16b042fdf7ceac174bc3bb62ab1c3a66a1b2e9a64e7a03e9b3d2fdd",
     "scripts/plot_white_mesa.py": "3e5e2de9be57d87cc2ea7a1974bfbc9e40defeabe14ceddeef0573ac34d20707",
-    "scripts/replicate.py": "ffdb1539461f1aee16b2e758d876fc8b4e7a514c9bb40015374c2e9ea6e5690b",
-    "scripts/report.py": "f7e945525de60739868361157eef7178810295fa36905315004da896734b907b",
+    "scripts/replicate.py": "4e2759b030110a0c3f4f47e72deaa4e0429ac60261c957ca3994147c18c47724",
+    "scripts/report.py": "8f216cac98245ac54421efe7be1c8bde85587c2eb0c76e89daa6c421b24af45d",
     "scripts/resolve_publication_clocks.py": "6799d90918f8c8a0664dace94e9c2182a3d1c3e71edd0ff05ca77c393b545de7",
     "scripts/restore_omitted_sources.py": "94f1249c60204f0832f974f2ef52bb2ee4447de87d304559c1253574d11fc000",
     "scripts/review_legal_discovery.py": "219b0fd83ee501267fc1f3aa111cd12c13967ee5bdeea7ac8006be0f36203acf",
@@ -596,8 +673,8 @@
     "scripts/run_physical.py": "820201133a104fa6db645162bc6eab0fca9f4ca4f2994c93aeeca3baf3926ea9",
     "scripts/run_safeguarded_game.py": "7d9f07c44d746ff615a0b5b2c6819eae29fdf52f274b30e97f6791c9cded5879",
     "scripts/run_semiconductors.py": "663467db0cecf400c472a289e92324aebfdfc23cbe61529558d58ce8787ff06b",
-    "scripts/update_status.py": "ce6534b0f5190f3fc13098c9ba4c674e7489cdf088ad3522c6c7fc8c117bdec0",
-    "scripts/validate.py": "676dfb921e398b92043a0707d632f11c2cd18069a6129faf7d173f511aaffdb6",
-    "scripts/verify_release.py": "5701b3dffc31de6b8014c9efe711b0342408cec2d895954ad91f1aa18f876471"
+    "scripts/update_status.py": "1c65bfb5db43592178daded9d10ad23784b92dd77c8792d360c5f107eebcaef3",
+    "scripts/validate.py": "ce8432473cfff45b288c2c8fed63705c63b270a3695ebb97c352e0a9598c253c",
+    "scripts/verify_release.py": "b6b4742c1b3f20239457a8a42f542872a751eff277941a297d7b1af5d0ca5aa4"
   }
 }

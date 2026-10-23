@@ -1,8 +1,8 @@
 {
   "passed": true,
-  "checks": 2735,
+  "checks": 2783,
   "tables": 24,
-  "original_sources": 59,
+  "original_sources": 60,
   "failures": [],
   "editable_text_aids_used": false,
   "independent_production_measurement": false,

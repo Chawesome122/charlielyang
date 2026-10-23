@@ -4,6 +4,8 @@
     "host_pipeline": true,
     "container_pipeline": true,
     "container_extension": true,
+    "claims_exact_local_digests_and_scientific_content": true,
+    "host_container_claim_digests_and_scientific_content": true,
     "test_suite_matches_host": true,
     "actual_tests_executed": true,
     "container_data_validation_matches_host": true,
@@ -11,6 +13,7 @@
     "provenance": true,
     "source_tests_scripts_configs_codebooks_match_container": true,
     "numerical_core_matches_original_full_run": true,
+    "donald_curated_material_target_and_route_outputs_unchanged_by_review_repairs": true,
     "manuscript_source_matches_container": true,
     "manuscript_extracted_text_identical": true,
     "container_network_none": true,
@@ -20,33 +23,33 @@
     "manuscript_builds_converged": true,
     "source_and_document_whitespace": true
   },
-  "execution_timestamp": "2026-10-22T02:30:03.756017+00:00",
+  "execution_timestamp": "2026-10-23T05:20:37.104641+00:00",
   "freeze": "2026-10-11",
   "tests": {
-    "tests": 451,
+    "tests": 485,
     "failures": 0,
     "errors": 0,
     "skipped": 0
   },
-  "provenance_checks": 9123,
-  "compared_artifacts": 130,
-  "code_and_configuration_files_compared": 212,
+  "provenance_checks": 9304,
+  "compared_artifacts": 143,
+  "code_and_configuration_files_compared": 217,
   "test_files_included": true,
   "code_mismatches": [],
   "artifact_mismatches": [],
   "core_mismatches": [],
-  "manuscript_pages": 54,
-  "container_manuscript_pages": 54,
+  "manuscript_pages": 56,
+  "container_manuscript_pages": 56,
   "manuscript_extracted_text_identical": true,
   "host_container_manuscript_bytes_identical": false,
   "manuscript_pdf_byte_identity_required": false,
-  "container_seconds": 358.4570097620017,
+  "container_seconds": 355.79609658702975,
   "independent_machine": false,
   "large_hjb_recomputed": false,
   "original_at_vintage_source_bytes_independently_certified": false,
   "publication_ready": false,
   "remaining_requirements": "audit/remaining_requirements.md",
-  "original_quote_checks": 2735,
+  "original_quote_checks": 2783,
   "mp_native_cell_versions": 174,
   "mp_definition_claims": 19,
   "mp_baseline_origin_metric_pairs": 9,
@@ -70,8 +73,61 @@
   "current_safeguarded_searches_recomputed_on_host": 0,
   "current_safeguarded_searches_recomputed_in_extension_container": false,
   "dynamic_unilateral_solves_recomputed_on_both": 8,
-  "supplied_sources": 10,
-  "supplied_claims": 69,
+  "donald_source_claims": 47,
+  "claim_manifest_comparison": {
+    "passed": true,
+    "claims": 43,
+    "distinct_evidence_files": 43,
+    "per_environment_exact_SHA256_checks": 86,
+    "raw_claim_manifests_identical": false,
+    "scientific_claims_exactly_identical": true,
+    "numerical_acceptance_tolerances_changed": false,
+    "timing_bearing_evidence": [
+      {
+        "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
+        "only_excluded_fields": [
+          "grid_refinement[0].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[1].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[2].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[3].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[4].heldout_policy_evaluation.elapsed_seconds"
+        ],
+        "before_sha256": "4e6e128cf9974ad02cd7a870d9809193aa28ce57bfdfccc53493a681e503455f",
+        "after_sha256": "5c6239fee484a1d7007dbc5669348472b41e6d3ac9d8a6b3dfc3136134af4729",
+        "scientific_fields_exactly_identical": true
+      }
+    ]
+  },
+  "host_container_claim_comparison": {
+    "passed": true,
+    "claims": 43,
+    "distinct_evidence_files": 43,
+    "per_environment_exact_SHA256_checks": 86,
+    "raw_claim_manifests_identical": false,
+    "scientific_claims_exactly_identical": true,
+    "numerical_acceptance_tolerances_changed": false,
+    "timing_bearing_evidence": [
+      {
+        "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
+        "only_excluded_fields": [
+          "grid_refinement[0].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[1].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[2].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[3].heldout_policy_evaluation.elapsed_seconds",
+          "grid_refinement[4].heldout_policy_evaluation.elapsed_seconds"
+        ],
+        "before_sha256": "4e6e128cf9974ad02cd7a870d9809193aa28ce57bfdfccc53493a681e503455f",
+        "after_sha256": "5c6239fee484a1d7007dbc5669348472b41e6d3ac9d8a6b3dfc3136134af4729",
+        "scientific_fields_exactly_identical": true
+      }
+    ]
+  },
+  "donald_review_repair_outputs_compared": 8,
+  "donald_review_repair_output_mismatches": [],
+  "donald_finite_feed_LP_checks": 16,
+  "donald_missed_FID_lower_bound_days": 91,
+  "supplied_sources": 11,
+  "supplied_claims": 116,
   "supplied_smic_cells": 56,
   "supplied_issuer_guidance_outcomes": 2
 }

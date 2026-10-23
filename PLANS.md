@@ -120,3 +120,22 @@ four annual-release clocks and a second independent machine remain the next gate
 No action is required to request another continuation; supplying the Donald report
 would advance the outstanding acquisition gate. Release by the authorized non-force
 push; remote Git history records the actual final commit.
+
+Donald final-document continuation (from clean release `27a2b62`): archive/admit
+request 7 by full URL and parent-filing public clock; extract named page-bound
+engineering and current-status evidence; implement and execute four-element
+partial constraints, finite-feed diagnostics and vintage-safe missed-target checks;
+add the current development snapshot; update manuscript, checklist and audit;
+execute complete host and network-disabled container replication; verify every
+registered artifact, manuscript and unchanged numerical core; commit and push.
+Completion conditions are actual `donald_validation.json`, focused/full JUnit,
+paired release diagnostics and remote commit identity. Normalized feed, reserves,
+bin capacity, contract rights and planning recovery never become measured supply.
+After this milestone, continue at the independent stock/flow/route/demand/cohort
+measurement gate; all eleven original document requests are fulfilled.
+
+Release-check resumption: the first disconnected Donald pipeline passed 477 tests; 143 artifacts matched while the claims manifest changed solely because it hashes five per-run game-audit runtimes. Preserve that failed comparison. Integrate the tested exact-local-digest/scientific-content comparator, archive the stopped initial container before reclaiming its superseded images, rerun the host and network-disabled container, then update the ledger and perform the authorized non-force push. All eleven requested sources are already admitted; do not re-acquire or re-create their implementations.
+
+Donald release verification completed on 2026-10-23 UTC: both full pipelines passed **485 tests, zero failures/errors/skips**, **9,304 mixed validation checks** and **2,783 original-source checks**. All **143** deterministic registered artifacts reproduce byte for byte; **217** code/configuration/dependency/test files match the tested image. All **43** manuscript claims have valid exact local evidence digests and identical cross-run scientific content; only the five explicitly registered performance clocks differ. Both **56-page** manuscripts converged and have identical normalized extracted text; PDF binary identity is not required. Host pipeline: 315.40 seconds; disconnected container: 355.80 seconds. Container image: `sha256:c8df7375fdfa1ef71a4bdb3b5646ffd674ee29b5e9c27deccd69598e8824f797`. Final independent release-check script passed every check in `outputs/diagnostics/final_release_validation.json`. This is a same-host container, not a second machine.
+
+All eleven requested documents are admitted. The Donald extension adds 47 page-bound claims, four nested element coefficients, sixteen finite-feed LP diagnostics and a dated missed FID target lower bound of 91 days through June 30, publicly known by August 5. These do not identify operating recoveries, available supply, actual FID completion or magnet-service forecasts. Nine constant-commitment scenarios and eight fixed-opponent MDP audits were recomputed; saved large-game candidates were re-audited, not re-solved. The original 25 numerical-core files and eight curated Donald outputs remain unchanged by review repairs. The 85-row acceptance audit remains 22 VERIFIED / 58 PARTIAL / 4 BLOCKED / 1 NOT ATTEMPTED; publication readiness remains false. Next work requires the specific dated stock/flow/route/demand, representative project-surveillance, actual FID, target/access, opacity coding, release-clock and specialist/second-machine evidence in `audit/remaining_requirements.md`. No repeat upload of the original eleven files is needed. Perform the authorized non-force push; remote Git history records the released commit.

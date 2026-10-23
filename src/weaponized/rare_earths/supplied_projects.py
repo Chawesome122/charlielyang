@@ -13,6 +13,7 @@ def supplied_project_snapshots(claims):
         ('USARE_Blacksburg','USARE_Blacksburg_magnet','magnet','F','USA Rare Earth','usar_blacksburg_plan','engineering_procurement_development_not_commissioned'),
         ('USARE_Blacksburg','USARE_Blacksburg_alloy','metal_alloy','F','USA Rare Earth','usar_blacksburg_plan','engineering_procurement_development_not_commissioned'),
         ('EF_WhiteMesa','EF_Phase1_heavies','separation','C','Energy Fuels','wm_heavies_construction_announcement','construction_announced_actual_start_day_unknown'),
+        ('EF_Donald','EF_Donald_feed','mine','F','Donald JV; Energy Fuels reported interest 12.7% at June 2026','donald_current_development','development_snapshot_not_state_entry_or_FID'),
     ]
     rows=[]
     for i,(project,activity,stage,state,owner,variable,meaning) in enumerate(specs,1):
@@ -22,7 +23,7 @@ def supplied_project_snapshots(claims):
         window=variable in ['rer_demo_start','usar_wheat_ridge_start']
         lower=r.get('event_start','') if window else r.get('period_start','') if variable.endswith('2026Q2') else ''
         upper=r.get('event_end','') if window else r.get('period_end','') if variable.endswith('2026Q2') else ''
-        rows.append(dict(record_id=f'SP-{i:03d}',project_id=project,activity_id=activity,site_country='USA',owner_parent=owner,
+        rows.append(dict(record_id=f'SP-{i:03d}',project_id=project,activity_id=activity,site_country='AUS' if project=='EF_Donald' else 'USA',owner_parent=owner,
                          stage=stage,state=state,state_evidence=meaning+'; issuer reporting, not independent qualification',
                          event_date_lower=lower or None,event_date_upper=upper or None,exact_event_date=None,
                          valid_date=upper or None,info_public_date=r['info_public_date'],date_precision='reported_interval' if lower else 'source_date_snapshot_only',

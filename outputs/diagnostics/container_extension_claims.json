@@ -1,0 +1,260 @@
+[
+  {
+    "claim": "Donald source-nested reserve grades and pit-design recoveries supply conditional four-element constraints; 16 finite-feed diagnostic LP solves conserve material without measured feed or end-to-end service. An explicit no-FID observation implies the March target was missed by at least 91 days through June 30, only known from August 5.",
+    "classification": "source_reported_target_miss_and_conditional_engineering_not_supply_forecast",
+    "evidence": "outputs/diagnostics/donald_validation.json",
+    "sha256": "c5ff7056a5691d28f98cbf587a837da07660c977db93c0de3086d7e04dca843b"
+  },
+  {
+    "claim": "Twelve separately registered safeguarded search attempts produce three accepted coarse candidates and nine fine-grid failures under unchanged full-game criteria; no continuum MPE or nonexistence claim follows",
+    "classification": "hypothetical_numerical_method_robustness",
+    "evidence": "outputs/scenario/safeguarded_analysis/analysis.json",
+    "sha256": "e5a7172287d5c67be7a9d85b128ad3e4f9ff17c854d4f5e584ecf9fbad1547ff"
+  },
+  {
+    "claim": "MP source-vintaged Vietnam equity, Shenghe commercial links, divestiture and reagent disclosures do not establish a fully China-independent supply route",
+    "classification": "actual_issuer_commercial_origin_disclosures",
+    "evidence": "outputs/diagnostics/operating_origin_extension_validation.json",
+    "sha256": "4d8ec07e8980a2a48fe74130f4e650fbb6ebf8817e6b4715089a93a55c9e22ae"
+  },
+  {
+    "claim": "Two selected VEU issued instruments retain facility/item exceptions and three later general-authorization removals; no observed license denial or access loss is identified",
+    "classification": "primary_issued_legal_scope_not_consolidated_law",
+    "evidence": "outputs/diagnostics/veu_extension_validation.json",
+    "sha256": "ede2afb6d7588aea741d032488dcc980a0ac10f65dcef05ca15dcfb2baeb7894"
+  },
+  {
+    "claim": "Eight fixed-opponent discounted-MDP audits verify numerical finite-state regret bounds and profitable deviations for failed negative policies; no continuum or full-game label is promoted",
+    "classification": "hypothetical_dynamic_deviation_verification",
+    "evidence": "outputs/scenario/dynamic_deviation_audit/analysis.json",
+    "sha256": "34076fe8e441e044daa8b4a3f1c7d4811f4761c9e546817902dd19aa2a60abf6"
+  },
+  {
+    "claim": "All nine hypothetical constant-commitment scenarios pass sufficient restricted uniqueness bounds and numerical unilateral checks; neither feedback MPE nor unrestricted open-loop equilibrium is certified",
+    "classification": "restricted_strategy_theoretical_scenario",
+    "evidence": "outputs/scenario/constant_controls/analysis.json",
+    "sha256": "fd0412504926d09b03167fadea373f1e1e92896051606c342ca62f02199cdf94"
+  },
+  {
+    "claim": "Three additional 17^4 negative-adaptation starts reach 160 iterations without meeting unchanged Nash thresholds; no nonexistence conclusion follows",
+    "classification": "numerical_solver_failure",
+    "evidence": "outputs/scenario/negative_beta_extension/analysis.json",
+    "sha256": "a795aa096c6bb650d2c557d0bf7f8907d9157b5ae28fc71861e2ea3619eb1a79"
+  },
+  {
+    "claim": "Nine selected issued Entity List schedules contain 488 destination-specific entry versions, not unique newly restricted firms; exact review exceptions and unresolved references remain separate",
+    "classification": "primary_legal_printed_schedule_descriptive",
+    "evidence": "data/processed/entity_schedules/entries.csv",
+    "sha256": "07b44b5e3926acad789110443f474721ec470e34ec97eb7b186fde9981df5568"
+  },
+  {
+    "claim": "Official reported filing, legal effective and Federal Register publication dates are distinct; printed datelines do not independently certify historical binaries or globally earliest disclosure",
+    "classification": "primary_legal_reported_documentary_clocks",
+    "evidence": "data/processed/entity_schedules/source_clocks.csv",
+    "sha256": "aee1541942936da26face035379b36d01d42dd1ac1a5b49f43cd595db1548088"
+  },
+  {
+    "claim": "Unfilled XML citation placeholders and one embedded rule-date token remain uncorrected source-format flags, not policy-opacity observations",
+    "classification": "primary_source_quality_audit",
+    "evidence": "outputs/empirical/semiconductors/entity_source_quality_flags.csv",
+    "sha256": "25935e8f50d0005e0d9154a81b4674bb3ad85cd3820b158b70b90674c27d5ea7"
+  },
+  {
+    "claim": "MP NdPr oxide annual output 200/1294/2599 tonnes in calendar2023/24/25",
+    "classification": "company_reported_empirical",
+    "evidence": "data/processed/rare_earths/observations_asof_freeze.csv",
+    "sha256": "86339d75f0dd3fb69a6f536a3a02797b1a06ad157b1887ef9a60fbac9ddd5079"
+  },
+  {
+    "claim": "Lynas NdPr family 5655/6558/7260 tonnes in fiscal2024/25/26",
+    "classification": "company_reported_empirical",
+    "evidence": "data/processed/rare_earths_additional/lynas_annual_production.csv",
+    "sha256": "4ca95c58eeb2ffd43355a48bc30db266e77556608e9917efee52d8955d7713f3"
+  },
+  {
+    "claim": "Issuer reports Texas HRE facility will no longer proceed; first Dy/Tb production is not stable qualified throughput",
+    "classification": "company_reported_empirical",
+    "evidence": "data/processed/rare_earths_additional/lynas_project_history.csv",
+    "sha256": "57f2b17d1095214d02ad8fc139f269d3035d950911a029243bbe69a66fd5ee1a"
+  },
+  {
+    "claim": "Six quarterly/annual native-product totals reconcile exactly for FY2024-2026",
+    "classification": "empirical_accounting_check",
+    "evidence": "data/processed/rare_earths_additional/lynas_quarterly_annual_reconciliation.csv",
+    "sha256": "cf3ceb3f33f233875e5e166f01a4d5f8f1aba133616a28dae8ded3edc93025b7"
+  },
+  {
+    "claim": "Eight-origin issuer-output baseline comparisons are descriptive, not system forecasting skill",
+    "classification": "empirical_descriptive_hindcast",
+    "evidence": "outputs/empirical/rare_earths/lynas_quarterly_baseline_scores.csv",
+    "sha256": "0d574a2da239178aa595262a464ecc0ed1a7c6e65b03aa90bd4232d6a6271b61"
+  },
+  {
+    "claim": "Issuer reports finite1.2tonne oxide to3.0tonne magnet batch; no annual capacity or complete China-free service inferred",
+    "classification": "empirical_issuer_reported_finite_batch",
+    "evidence": "outputs/empirical/rare_earths/finite_batch_evidence.json",
+    "sha256": "bb4b0d3ceb04b1a80174623d6376f63f9df7e608f2eeef6e25b6770ad46503f3"
+  },
+  {
+    "claim": "Documentation attrition counts distinguish annual nameplates from campaign totals and missing engineering inputs",
+    "classification": "empirical_archive_coverage",
+    "evidence": "outputs/empirical/rare_earths/evidence_coverage_by_stage.csv",
+    "sha256": "6303416f367cec22ac57e32b3dbfbc6136cf90552e7d5fdf4803e3ec63cfc976"
+  },
+  {
+    "claim": "MP first-half2026 cash PPE payments307.711millionUSD vs59.473million in2025; consolidated nominal inputs, not physical output or causal effects",
+    "classification": "empirical_SEC_cashflow_input",
+    "evidence": "outputs/empirical/rare_earths/mp_halfyear_cash_ppe.csv",
+    "sha256": "0e6b8e0c2018feac1e23a9ac47879dc774390c76a0922d47349d513bb141fac6"
+  },
+  {
+    "claim": "Forty-one additional legal originals screened; procedural notices do not create control events; complete current law remains unverified",
+    "classification": "primary_legal_scope_screen",
+    "evidence": "data/processed/semiconductors/legal_discovery_screening.csv",
+    "sha256": "c2b599fc0b602623f06601b7512f6570719e625733aee65453cc4f5860469998"
+  },
+  {
+    "claim": "Upton filings report different substantial-completion years and a commissioning pause; both source vintages retained without silent adjudication",
+    "classification": "empirical_issuer_reported_history_versions",
+    "evidence": "data/processed/project_histories/milestone_versions.csv",
+    "sha256": "f09cd6cd6fe851e469f50e7934b9bff0b318a334088a40de344d6498b11a0080"
+  },
+  {
+    "claim": "Observed state pairs and disclosure inventory do not establish first-exit survival exposure or a representative hazard sample",
+    "classification": "empirical_observation_protocol_audit",
+    "evidence": "outputs/diagnostics/project_observation_audit.json",
+    "sha256": "42f3b467c11c44dd40b662d69b1a705867f9b4ef26ff96153dc2625793cd1dec"
+  },
+  {
+    "claim": "4 issuer report clocks resolved by exact dated links; undated annual links remain unresolved",
+    "classification": "primary_publication_clock_evidence",
+    "evidence": "data/processed/finance_material/publication_clock_audit.csv",
+    "sha256": "8ace60cbcd1d0cd83c4da271514e48a68d343864fe62b1ecaa2068506a258655"
+  },
+  {
+    "claim": "Issuer cash/addition and credit-balance identities reconcile; finance categories and currencies are not physical output or causal effects",
+    "classification": "empirical_reported_finance_inputs",
+    "evidence": "outputs/diagnostics/finance_material_validation.json",
+    "sha256": "1b4580be4643651aa7a4a0aa8d747a88b7e3e481f8037fb7054097c611f0fa21"
+  },
+  {
+    "claim": "Eneabba stockpile-only/additional-feedstock ratios compare prospective same-product figures; not observed output, annual rates or China-free service",
+    "classification": "empirical_issuer_planned_product_comparison",
+    "evidence": "data/processed/finance_material/prospective_product_comparisons.csv",
+    "sha256": "298c674d6cb67b16b834c76c2e61f0df8cc64ff12b93d971f6681c0f20b2f089"
+  },
+  {
+    "claim": "Source-reported concentrate composition and pit-model recovery assumptions define conditional oxide constraints, not actual industrial feed or operating yields",
+    "classification": "source_calibrated_engineering_constraints",
+    "evidence": "data/processed/engineering_inputs/conditional_oxide_constraints.csv",
+    "sha256": "057352b196acc23189c69acc7c62090aae5d22c67263c644297a961e57673431"
+  },
+  {
+    "claim": "Selected original 3A090/HBM/licensing clauses retain strict inequalities, separate compliance clocks and conditional review without current-law/access certification",
+    "classification": "primary_legal_issued_provision_extract",
+    "evidence": "data/processed/legal_provisions/provisions.csv",
+    "sha256": "b04bc43ef718a3ab397b9e166c1eb987c6958b8a0b620c8805aa694346d12118"
+  },
+  {
+    "claim": "Auxiliary dates and report-link aliases do not resolve four annual clocks; event-date-only selection leaks retrospective claim versions",
+    "classification": "actual_data_historical_information_audit",
+    "evidence": "data/processed/publication_extension/claim_origin_masking.csv",
+    "sha256": "53ad536355885f00d94b59186834f26ee619d90aa0fc7736c73dc5014d7a0aff"
+  },
+  {
+    "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
+    "classification": "original_source_integrity_audit",
+    "evidence": "data/processed/source_integrity/original_quote_audit.csv",
+    "sha256": "29b92d9937402651b4ec9c80a7d31e6786640550e9cf70df9eabd86f0c2fc1bc"
+  },
+  {
+    "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
+    "classification": "empirical_issuer_native_basis_audit",
+    "evidence": "data/processed/white_mesa/product_form_versions.csv",
+    "sha256": "95b515d2aa61cabb3f7e54fcd5dc23b39102d82ec9379e65853f1bea4f8467b4"
+  },
+  {
+    "claim": "Twenty dated stock-origin checks admit no current opening stock; unknown dates/form and missing stock-flow bridges remain missing, not zero supply",
+    "classification": "actual_data_stock_admission_audit",
+    "evidence": "data/processed/white_mesa/stock_origin_audit.csv",
+    "sha256": "bcf4d5877a103f50da5aeda2c9ce39ed5dfa1716438ba4e1b7a14f321ef6af0c"
+  },
+  {
+    "claim": "Three legacy oxide labels corrected without changing native amounts or source public dates; research coding correction is not an issuer revision",
+    "classification": "documented_research_basis_correction",
+    "evidence": "data/processed/white_mesa/basis_corrections.csv",
+    "sha256": "b57d3656ac001bfdaeece73ee3e6ceb412a054077ca67c462f78838318f3999a"
+  },
+  {
+    "claim": "MP native production/sales and monetary inventories remain separate; N/A and displayed dashes do not become measured zeros or physical stocks",
+    "classification": "empirical_native_producer_reporting",
+    "evidence": "data/processed/mp_measurement/native_cell_versions.csv",
+    "sha256": "40d4c81915a9d160db21bc7837e830f463c1708903d0e0066780b55b90158667"
+  },
+  {
+    "claim": "MP source definitions retain overlapping stage production, illustrative versus assumed sales conversion and Q4 2025 internal sales; no realized recovery inferred",
+    "classification": "primary_measurement_definition_audit",
+    "evidence": "data/processed/mp_measurement/definitions.csv",
+    "sha256": "09b34c1fc9ae36e5b07d28abef49ce79f7f784cd1db368fbb1dfda0ea2f87468"
+  },
+  {
+    "claim": "MP quarterly baselines have one to three eligible dependent origins per metric in the archived subset; no statistical skill established",
+    "classification": "empirical_descriptive_hindcast",
+    "evidence": "outputs/empirical/rare_earths/mp_quarterly_baseline_scores.csv",
+    "sha256": "964e98133d446f4c29bf356617945533ab2063facb7913ae7cc523f755225dd0"
+  },
+  {
+    "claim": "SMIC investment spending is an input, not identified substitution",
+    "classification": "descriptive_empirical",
+    "evidence": "data/processed/semiconductors/reported_financial_inputs.csv",
+    "sha256": "1ebbecdd2aa5e74b428cd14100b512336cc8c4e3dc6e41d386f49458a7b30c9f"
+  },
+  {
+    "claim": "SMIC native operating cells retain quarter/year windows, source clocks, wafer-equivalent wording and revenue-share denominators; no target capability or foreign access score assigned",
+    "classification": "issuer_reported_operating_scale",
+    "evidence": "data/processed/smic_operations/observations.csv",
+    "sha256": "d19ffae435e9dc531034a0ede254a06f387cd21ce3a4c1eec17f8312a28504e0"
+  },
+  {
+    "claim": "Eleven supplied copies add cited quarterly/technical/legal observations without historical-byte certification; MP sales-convention adoption is Q1 2026, Upton demonstration differs from its end-to-end target, and White Mesa design versions conflict",
+    "classification": "source_reported_documentary_and_measurement_versions",
+    "evidence": "data/processed/supplied_evidence/claims.csv",
+    "sha256": "811c929011a9da118dad25aafbbceb253c5409291b224608dbf91d37781e7279"
+  },
+  {
+    "claim": "One quarter of SMIC within-quarter issuer guidance missed both stated outcome ranges; midpoint evaluation beats a known-at-issuance persistence baseline on two correlated outcomes without establishing model skill or interval probabilities",
+    "classification": "actual_issuer_guidance_evaluation_not_structural_model_forecast",
+    "evidence": "outputs/empirical/supplied_evidence/smic_guidance_evaluation.csv",
+    "sha256": "d66c5f1eeb6e3d50844e890ced286f7208ed5ec2bc0a2ad27c135f915c54c2ff"
+  },
+  {
+    "claim": "SMIC Q1/Q2 2026 native operating cells and four within-release accounting decompositions identify descriptive scale, not indigenous target capability or a causal effect",
+    "classification": "issuer_reported_descriptive_accounting",
+    "evidence": "outputs/empirical/supplied_evidence/smic_accounting_decompositions.csv",
+    "sha256": "4c80c2dce658f34f25e2911dde8efeb711de897f3159cdf70c3cd5b5af736307"
+  },
+  {
+    "claim": "Unchanged historical SMIC comparative numbers can have different shipment/utilization definition wording; no historical conversion or adoption date inferred",
+    "classification": "primary_measurement_vintage_audit",
+    "evidence": "data/processed/smic_operations/comparative_vintages.csv",
+    "sha256": "f46a30d4eb5e6f186e9c3a14232442e957df3658eb00444fa7af8133c49ca9c9"
+  },
+  {
+    "claim": "SMIC wafer revenue changes decompose into reported shipment scale and nominal revenue per equivalent; accounting identities do not identify price, advanced capability or a causal control effect",
+    "classification": "empirical_descriptive_accounting",
+    "evidence": "outputs/empirical/semiconductors/smic_revenue_decompositions.csv",
+    "sha256": "d523fe0b3cf16535ab2518978b82cbfa52545649344d2003f085ccabac0331dd"
+  },
+  {
+    "claim": "Constant-control root approximately0.4655712319",
+    "classification": "analytical_scenario",
+    "evidence": "outputs/scenario/game/constant_control_benchmark.json",
+    "sha256": "9d6f0ac172c6ea200b5b730b51f150cf2e972eb6dd33219d2775ba195781cdf8"
+  },
+  {
+    "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
+    "classification": "numerical_scenario",
+    "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
+    "sha256": "5c6239fee484a1d7007dbc5669348472b41e6d3ac9d8a6b3dfc3136134af4729"
+  }
+]

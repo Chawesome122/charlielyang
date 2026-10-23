@@ -1,4 +1,4 @@
-"""Offline admission/extraction of ten user-supplied public-source PDF copies."""
+"""Offline admission/extraction of user-supplied public-source PDF copies."""
 from datetime import datetime
 import csv
 import hashlib
@@ -9,7 +9,7 @@ import re
 import pandas as pd
 
 from weaponized.io.original_text import verified_original_text
-from weaponized.io.supplied_evidence import extract_claim, one_match, source_pages
+from weaponized.io.supplied_evidence import extract_claim, one_match, source_pages, incorporated_report_link
 from weaponized.semiconductors.supplied_operations import parse_quarterly_release
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -39,14 +39,15 @@ def build():
                 raise ValueError("Filing date, accession, form or report period disagrees with independent SEC bytes")
             proof=f"{req['discovery_submission']}:filings.recent[{i}]";proof_sha=sub["sha256"]
             if "June 30, 2026" not in pages[0] or s["source_url"] not in pages[0]:raise ValueError("Wrong filing period/printed URL")
-        elif rank in [2,6]:
+        elif rank in [2,6,7]:
             parent=old["RE-MP-10K2025" if rank==2 else "RE-EF-10K2025"]
             body=(ROOT/parent["archive_path"]).read_bytes()
             if hashlib.sha256(body).hexdigest()!=parent["sha256"]:raise ValueError("Parent bytes changed")
-            if s["source_url"].split('/')[-1].encode() not in body or parent["publication_date"]!=s["info_public_date"]:
+            label=incorporated_report_link(body,parent['url'],s['source_url'])
+            if parent["publication_date"]!=s["info_public_date"]:
                 raise ValueError("Incorporated report link/date not supported")
             if s["source_url"] not in pages[0]:raise ValueError("Wrong technical report printed URL")
-            proof=parent["source_id"]+":incorporated link; conservative public-by date, not earliest release"
+            proof=parent["source_id"]+":full incorporated URL; "+label+"; conservative public-by date, not earliest release"
             proof_sha=parent["sha256"]
         elif rank in [8,9]:
             display=datetime.strptime(s["info_public_date"],"%Y-%m-%d").strftime("%B %-d, %Y")
@@ -88,13 +89,13 @@ def build():
                       finding="filed March 25 2025 16:30; published March 28; no globally earliest public clock inferred",passed=True))
     pd.DataFrame(legal).to_csv(OUT/"legal_pdf_correspondence.csv",index=False)
     result=dict(passed=all(r['passed'] for r in clocks+legal),freeze=book['freeze'],sources=len(sources),
-                requested_sources=len(requests),unfulfilled_request_ranks=[7],source_identity_clock_checks=len(clocks),
+                requested_sources=len(requests),unfulfilled_request_ranks=sorted(set(r['rank'] for r in requests)-set(s['request_rank'] for s in sources)),source_identity_clock_checks=len(clocks),
                 claims=len(claims),numerical_claims=sum(r['value'] is not None for r in claims),
                 smic_native_cells=len(smic),legal_pdf_checks=len(legal),
                 public_pdf_marker_occurrences=sum(r['count'] for r in legal if r['check']=='published_insertion_marker'),
                 original_at_vintage_certified=False,empirical_service_identified=False,empirical_forecasts_unblocked=False,
                 representative_transition_hazards_identified=False,semiconductor_target_capability_identified=False,
-                missing='Donald technical report; original-at-vintage bytes and physical/target/risk/opacity gates remain unresolved')
+                missing='Original-at-vintage bytes and physical/target/risk/opacity gates remain unresolved; document admissions do not certify empirical adequacy')
     (ROOT/"outputs/diagnostics/supplied_evidence_validation.json").write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
     return result

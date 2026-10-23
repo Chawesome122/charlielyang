@@ -1,0 +1,37 @@
+parameter,value,unit,classification,empirically_identified,source,uncertainty
+g_c,0.12,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+g_u,0.1,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+beta_c,0.7,dimensionless,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+beta_u,0.7,dimensionless,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+delta_c,0.08,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+delta_u,0.07,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+kappa_c,0.5,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+kappa_u,0.5,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+rho_u,0.2,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+rho_c,0.2,year^-1,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+a_u,0.8,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+a_c,0.8,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+d_u,0.5,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+d_c,0.5,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+k_u,1.0,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+k_c,1.0,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+h_u,0.05,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+h_c,0.05,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+b_u,0.2,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+b_c,0.2,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+q_u,0.15,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+q_c,0.15,normalized payoff/year,hypothetical_scenario,False,configs/game.yaml,registered alternative scenarios; no empirical confidence interval
+donald_reserve_hm,4.5,percent_total_ore,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_reserve_hm;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_reserve_pr,0.056,percent_of_heavy_mineral_component,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_reserve_pr;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_reserve_nd,0.2,percent_of_heavy_mineral_component,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_reserve_nd;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_reserve_dy,0.041,percent_of_heavy_mineral_component,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_reserve_dy;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_reserve_tb,0.0064,percent_of_heavy_mineral_component,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_reserve_tb;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_pit_recovery_pr,92.0,percent_recovery_to_REEC,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_pit_recovery_pr;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_pit_recovery_nd,92.0,percent_recovery_to_REEC,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_pit_recovery_nd;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_pit_recovery_dy,88.0,percent_recovery_to_REEC,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_pit_recovery_dy;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_pit_recovery_tb,88.0,percent_recovery_to_REEC,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_pit_recovery_tb;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_financial_distribution_pr,3.85,percent_of_TREO,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_financial_distribution_pr;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_financial_distribution_nd,13.85,percent_of_TREO,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_financial_distribution_nd;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_financial_distribution_dy,2.67,percent_of_TREO,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_financial_distribution_dy;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_financial_distribution_tb,0.41,percent_of_TREO,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_financial_distribution_tb;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval
+donald_financial_treo_grade,60.6,percent_TREO_in_REEC,source_reported_design_assumption_not_operating_estimate,False,SUP:donald_financial_treo_grade;data/processed/donald/source_claims.csv,source precision and unmatched model contexts; no empirical confidence interval

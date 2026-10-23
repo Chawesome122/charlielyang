@@ -1,0 +1,7 @@
+check,lhs,rhs,tolerance,passed,interpretation
+rounded_assay_factor_Nd,1.1664,1.166376644805258,5e-05,True,four-decimal source factor agrees with atomic-weight stoichiometry within rounding; not analytical precision
+rounded_assay_factor_Pr,1.2082,1.2081611461009287,5e-05,True,four-decimal source factor agrees with atomic-weight stoichiometry within rounding; not analytical precision
+rounded_assay_factor_Dy,1.1477,1.147683076923077,5e-05,True,four-decimal source factor agrees with atomic-weight stoichiometry within rounding; not analytical precision
+rounded_assay_factor_Tb,1.1762,1.1761723349987905,5e-05,True,four-decimal source factor agrees with atomic-weight stoichiometry within rounding; not analytical precision
+dry_design_rate_times_design_hours,7500000.0,7500000.0,1e-08,True,design identity; no calendar-quarter uniform allocation or achieved utilization inferred
+reported_equity_closure_2026H1,100.0,100.0,1e-10,True,reported current interest; contingent 49 percent is not current equity

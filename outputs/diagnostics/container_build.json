@@ -1,6 +1,6 @@
 {
   "exit_code": 0,
-  "tag": "weaponized-research-supplied-final",
+  "tag": "weaponized-research-donald-claims-final",
   "target": "research",
   "existing_proxy_forwarded": {
     "http": true,
@@ -10,5 +10,5 @@
   "platform_public_ca_used": true,
   "tls_verification_disabled": false,
   "log": "outputs/diagnostics/docker_build.log",
-  "image_id": "sha256:97d986a21d80cd95764aee45436fbc0e2392a35346c1d6dcec47aecdbbddd640"
+  "image_id": "sha256:c8df7375fdfa1ef71a4bdb3b5646ffd674ee29b5e9c27deccd69598e8824f797"
 }

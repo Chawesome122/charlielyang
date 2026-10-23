@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "claims": 43,
+  "distinct_evidence_files": 43,
+  "per_environment_exact_SHA256_checks": 86,
+  "raw_claim_manifests_identical": false,
+  "scientific_claims_exactly_identical": true,
+  "numerical_acceptance_tolerances_changed": false,
+  "timing_bearing_evidence": [
+    {
+      "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
+      "only_excluded_fields": [
+        "grid_refinement[0].heldout_policy_evaluation.elapsed_seconds",
+        "grid_refinement[1].heldout_policy_evaluation.elapsed_seconds",
+        "grid_refinement[2].heldout_policy_evaluation.elapsed_seconds",
+        "grid_refinement[3].heldout_policy_evaluation.elapsed_seconds",
+        "grid_refinement[4].heldout_policy_evaluation.elapsed_seconds"
+      ],
+      "before_sha256": "1997f51239626c46743a165f82fe70b40ea259958191ae2b20ca2ed0c30009b8",
+      "after_sha256": "0a337cd23e3ed4b83a1bc244e8dd15b732ee5dd0313e56de3f1876c05c10759b",
+      "scientific_fields_exactly_identical": true
+    }
+  ]
+}

@@ -91,6 +91,6 @@
       "generator_nnz": 417556
     }
   ],
-  "elapsed_seconds": 0.2951511709834449,
+  "elapsed_seconds": 0.3177077270229347,
   "qualification": "Exact-arithmetic finite-state inequalities applied to ordinary floating-point residuals; no interval or continuum certificate"
 }

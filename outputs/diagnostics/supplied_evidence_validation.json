@@ -1,14 +1,12 @@
 {
   "passed": true,
   "freeze": "2026-10-11",
-  "sources": 10,
+  "sources": 11,
   "requested_sources": 11,
-  "unfulfilled_request_ranks": [
-    7
-  ],
-  "source_identity_clock_checks": 10,
-  "claims": 69,
-  "numerical_claims": 44,
+  "unfulfilled_request_ranks": [],
+  "source_identity_clock_checks": 11,
+  "claims": 116,
+  "numerical_claims": 77,
   "smic_native_cells": 56,
   "legal_pdf_checks": 16,
   "public_pdf_marker_occurrences": 98,
@@ -17,5 +15,5 @@
   "empirical_forecasts_unblocked": false,
   "representative_transition_hazards_identified": false,
   "semiconductor_target_capability_identified": false,
-  "missing": "Donald technical report; original-at-vintage bytes and physical/target/risk/opacity gates remain unresolved"
+  "missing": "Original-at-vintage bytes and physical/target/risk/opacity gates remain unresolved; document admissions do not certify empirical adequacy"
 }

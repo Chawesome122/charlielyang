@@ -1,0 +1,7 @@
+origin,original_target_visible,revised_target_visible,no_FID_by_June_30_visible,missed_target_lower_bound_days,actual_FID_date,first_exit_spell_identified,passed
+2026-02-25,False,False,False,,,False,True
+2026-02-26,True,False,False,,,False,True
+2026-06-30,True,False,False,,,False,True
+2026-08-04,True,False,False,,,False,True
+2026-08-05,True,True,True,91.0,,False,True
+2026-10-11,True,True,True,91.0,,False,True

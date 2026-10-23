@@ -160,6 +160,7 @@ def main():
         ("veu_extension_validation.json", ["primary_quote_checks","rule_clock_checks","link_checks","origin_phase_checks"]),
         ("source_request_readiness.json", ["immutable_submission_pointer_checks"]),
         ("supplied_evidence_validation.json", ["source_identity_clock_checks","claims","smic_native_cells","legal_pdf_checks"]),
+        ("donald_validation.json", ["source_claims","numerical_checks","finite_feed_LP_checks","vintage_checks","route_readiness_records","cross_report_comparisons"]),
         ("mp_measurement_validation.json", ["native_cell_versions", "definition_claims", "numeric_quarter_annual_identities", "currency_inventory_identities"]),
         ("smic_operations_validation.json", ["source_claims", "verified_source_clocks", "definition_claims", "revenue_share_identities", "capacity_presentation_checks", "existing_R_and_D_crosschecks"]),
         ("entity_schedules_validation.json", ["printed_entry_versions", "original_table_rows", "table_notes", "amendatory_instructions", "source_clock_checks", "vintage_checks", "entry_action_crosswalk_records"]),
@@ -177,6 +178,9 @@ def main():
         failures.append("MP producer hindcast information leakage")
     smic=json.loads((ROOT/"outputs/empirical/semiconductors/smic_operations_analysis.json").read_text())
     supplied=json.loads((ROOT/'outputs/empirical/supplied_evidence/analysis.json').read_text())
+    donald=json.loads((ROOT/'outputs/diagnostics/donald_validation.json').read_text())
+    if any(donald[k] for k in ['actual_FID_date_identified','first_exit_risk_spell_identified','empirical_inventory_identified','operating_recovery_estimated','empirical_service_identified','forecast_probabilities_produced','source_bytes_at_freeze_certified','independent_engineering_review']):
+        failures.append('Donald conditional design/target evidence promoted to unidentified empirical claim')
     checks+=supplied['numerical_checks']+supplied['vintage_checks']
     if not supplied['passed'] or any(supplied[k] for k in ['empirical_service_identified','causal_effect_estimated','forecast_probabilities_produced','source_bytes_at_freeze_certified']):
         failures.append('Supplied evidence validation or scientific-claim boundary failed')

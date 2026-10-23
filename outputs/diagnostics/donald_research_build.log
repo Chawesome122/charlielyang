@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "tag": "weaponized-research-donald-final",
+  "target": "research",
+  "existing_proxy_forwarded": {
+    "http": true,
+    "https": true
+  },
+  "existing_proxy_dns_mapping_used": true,
+  "platform_public_ca_used": true,
+  "tls_verification_disabled": false,
+  "log": "outputs/diagnostics/docker_build.log",
+  "image_id": "sha256:2c33ca5ab07d9f5e707c46e69625ed62aed432f40f84ce0afe74cfc0f888aa61"
+}

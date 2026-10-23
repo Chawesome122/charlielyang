@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-10-23T05:04:32.596060+00:00",
+  "reason": "archive actual successful pipeline and failed timing-bearing claim-manifest comparison before replacing the superseded image",
+  "artifacts": [
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/build.log",
+      "sha256": "c7d4be84ce1ac24dbf33505d4e7dad3cc51ab2156b87d202160598b73df70828",
+      "bytes": 417
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/claims.json",
+      "sha256": "48ea782688d867bab0f9234efd2fc30ba807b96af83137a86a010477f84d0071",
+      "bytes": 16865
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/comparison.json",
+      "sha256": "4b1d695a8e4ce49fcdb0b66dca9b21ba316eaca317078519d4d98cb9ee239061",
+      "bytes": 23667
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/container_run.log",
+      "sha256": "b3029866bc6a0a5266a98364343fc9a5177c2e7d24d32a4d2d2ffa9f6c1cb186",
+      "bytes": 26416
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/data_validation.json",
+      "sha256": "dbce8a39c132fe004c5d40dc4ebe44db747816b6b50adfe409e94ea3572ef799",
+      "bytes": 316
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/host_claims.json",
+      "sha256": "1cfd21000fd0b22334c4ebf7fb0fb0109dec083dde22f1aa12072b54b3b67c6f",
+      "bytes": 16865
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/host_saved_game_audit.json",
+      "sha256": "1997f51239626c46743a165f82fe70b40ea259958191ae2b20ca2ed0c30009b8",
+      "bytes": 86659
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/image_build.json",
+      "sha256": "e692706071cf13599a953d2322cb13c79a7c1aec3f35be5b4a77f8a375882c1d",
+      "bytes": 416
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/manuscript.pdf",
+      "sha256": "547aad24e97902bdc21a8a126ca7f4d1b4a4997b927c8ff3b5ba9931c2f4300c",
+      "bytes": 944251
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/manuscript_build.log",
+      "sha256": "6ee09d17a70ebfa3433855eb8c561db9682448d93fb77923bd7f052d4e3f8e59",
+      "bytes": 37970
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/manuscript_convergence.json",
+      "sha256": "dfaa21ade74fcb263c757b68f38ae473fea90d419f618a8e9e85b42a3141046f",
+      "bytes": 1480
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/pytest.xml",
+      "sha256": "eee6ce52da5739c7c40cb01c199adf4a003255fe1870b50e7f401231bbea0d75",
+      "bytes": 64901
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/replication.json",
+      "sha256": "5caa421ccfa26288be1e01d58f4079004bf2d61ef4807aa0c2ed20e0a03ed5e4",
+      "bytes": 13813
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/run_manifest.json",
+      "sha256": "5534706ebf56369481d3526cc1159f0a6aceb9fedb8118579b4fde096d650022",
+      "bytes": 207643
+    },
+    {
+      "path": "outputs/diagnostics/donald_initial_container_comparison/saved_game_audit.json",
+      "sha256": "0a337cd23e3ed4b83a1bc244e8dd15b732ee5dd0313e56de3f1876c05c10759b",
+      "bytes": 86658
+    }
+  ],
+  "free_bytes_before": 1454710784,
+  "commands": [
+    {
+      "command": [
+        "docker",
+        "container",
+        "rm",
+        "weaponized-donald-final-check"
+      ],
+      "exit_code": 0,
+      "output": "weaponized-donald-final-check\n"
+    },
+    {
+      "command": [
+        "docker",
+        "image",
+        "rm",
+        "weaponized-research-donald-final:latest",
+        "weaponized-research-donald-dependencies:latest"
+      ],
+      "exit_code": 0,
+      "output": "Untagged: weaponized-research-donald-final:latest\nDeleted: sha256:2c33ca5ab07d9f5e707c46e69625ed62aed432f40f84ce0afe74cfc0f888aa61\nUntagged: weaponized-research-donald-dependencies:latest\nDeleted: sha256:e628ce3be459a4a2c529d54b634f062ddf162b6d7dea7ad59c7c8313c6dc7923\n"
+    },
+    {
+      "command": [
+        "docker",
+        "builder",
+        "prune",
+        "--force"
+      ],
+      "exit_code": 0,
+      "output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nnd43o3bq1f07mnsl58yzt2tmy               \ttrue \t\t461MB     \t24 hours ago\nsleq4ttj5hm7vazm05k9ve0uh               \ttrue \t375MB     \t24 hours ago\nezjbwsgkdnn4o97iuatwqc48d               \ttrue \t375MB     \t24 hours ago\nz73h78lxhiz00ty0vfn4qsk2m               \ttrue \t847.8kB   \t24 hours ago\ng1xcxvoah9hgtil34t795vrbu               \ttrue \t848.3kB   \t24 hours ago\nTotal:\t1.213GB\n"
+    }
+  ],
+  "free_bytes_after": 10267889664,
+  "raw_evidence_numerical_archives_and_other_images_preserved": true
+}

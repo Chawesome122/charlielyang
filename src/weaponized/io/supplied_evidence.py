@@ -6,10 +6,23 @@ import hashlib
 import math
 from pathlib import Path
 import re
+from urllib.parse import urljoin
+
+from bs4 import BeautifulSoup
 
 from weaponized.io.original_text import normalize_evidence, verified_original_text
 
 FREEZE = "2026-10-11"
+
+
+def incorporated_report_link(body, parent_url, report_url):
+    """Require the full resolved exhibit URL; SEC exhibit basenames recur."""
+    soup = BeautifulSoup(body, "html.parser")
+    labels = [a.get_text(" ", strip=True) for a in soup.find_all("a", href=True)
+              if urljoin(parent_url, a["href"]) == report_url]
+    if not labels or not any(label.strip() for label in labels):
+        raise ValueError("Full incorporated report URL absent from parent filing")
+    return " | ".join(dict.fromkeys(" ".join(label.split()) for label in labels))
 
 
 def stated_event_window(phrase):
@@ -26,6 +39,10 @@ def stated_event_window(phrase):
     quarter=re.fullmatch(r"(?:the )?(first|second|third|fourth) quarter of (\d{4})",phrase)
     if quarter:
         q=['first','second','third','fourth'].index(quarter[1])+1;y=int(quarter[2]);m=3*q
+        return date(y,m-2,1).isoformat(),date(y,m,calendar.monthrange(y,m)[1]).isoformat()
+    short_quarter=re.fullmatch(r"Q([1-4]) (\d{4})",phrase)
+    if short_quarter:
+        q,y=int(short_quarter[1]),int(short_quarter[2]);m=3*q
         return date(y,m-2,1).isoformat(),date(y,m,calendar.monthrange(y,m)[1]).isoformat()
     if re.fullmatch(r"\d{4}",phrase):return phrase+'-01-01',phrase+'-12-31'
     raise ValueError('Unregistered event date wording')

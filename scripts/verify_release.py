@@ -2,7 +2,9 @@
 
 Run after container_extension_check.py and copying its report, run manifest,
 replication JSON, JUnit XML, manuscript PDF/log and build record to the standard
-container_extension_* paths. This audits a current-host container, not a second
+container_extension_* paths. Also copy its manuscript/claims.json and saved-game
+audit to container_extension_claims.json and container_extension_saved_game_audit.json.
+This audits a current-host container, not a second
 machine, historical release-byte certification or empirical publication readiness.
 """
 import argparse
@@ -15,6 +17,7 @@ import re
 import subprocess
 import xml.etree.ElementTree as ET
 from weaponized.reporting.latex import tex_diagnostics
+from weaponized.reporting.claim_comparison import TIMED_AUDIT, claim_payloads, compare_claim_manifests
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -41,6 +44,21 @@ def main():
     code_bad=[p for p in compared if sha(p)!=manifest[p]]
     artifact_bad=[r["path"] for r in extension["tables_byte_identity"] if not r["passed"] or sha(r["path"])!=manifest[r["path"]]]
     core_bad=[p for p in core["core_files"] if sha(p)!=baseline.get(p)]
+    review=read('outputs/diagnostics/donald_pre_review/run_manifest.json')['file_sha256']
+    review_paths=['outputs/diagnostics/donald_partial_lp.json'] + [
+        f'data/processed/donald/{name}.csv' for name in
+        ['nested_material_coefficients','conditional_reec_composition','source_numerical_checks',
+         'fid_target_revision','target_vintage_checks','cross_report_composition_versions','route_readiness']]
+    review_bad=[p for p in review_paths if sha(p)!=review.get(p)]
+    host_claims=read('manuscript/claims.json')
+    container_claims=read('outputs/diagnostics/container_extension_claims.json')
+    host_payloads=claim_payloads(ROOT,host_claims)
+    container_payloads=claim_payloads(ROOT,container_claims)
+    container_payloads[TIMED_AUDIT]=Path('outputs/diagnostics/container_extension_saved_game_audit.json').read_bytes()
+    try:
+        cross_claims=compare_claim_manifests(host_claims,host_payloads,container_claims,container_payloads)
+    except (ValueError,KeyError,TypeError) as error:
+        cross_claims=dict(passed=False,error=str(error))
     env=dict(os.environ,DOCKER_CONFIG=str(ROOT/".cache/docker"))
     inspection=json.loads(subprocess.check_output(["docker","inspect",args.container_name],env=env))[0]
     pdfs=["manuscript/main.pdf","outputs/diagnostics/container_extension_manuscript.pdf"]
@@ -52,12 +70,15 @@ def main():
     suites=[junit] if junit.tag=="testsuite" else list(junit.iter("testsuite"))
     tests={k:sum(int(s.get(k,0)) for s in suites) for k in ["tests","failures","errors","skipped"]}
     checks=dict(host_pipeline=host["passed"],container_pipeline=container["passed"],container_extension=extension["passed"],
+                claims_exact_local_digests_and_scientific_content=extension.get('claim_manifest_comparison',{}).get('passed',False),
+                host_container_claim_digests_and_scientific_content=cross_claims['passed'],
                 test_suite_matches_host=extension["test_results"]=={k:summary[k] for k in ["tests","test_failures"]},
                 actual_tests_executed=tests["tests"]>0 and tests["tests"]==summary["tests"] and tests["failures"]+tests["errors"]==0,
                 container_data_validation_matches_host=manifest["outputs/diagnostics/data_validation.json"]==sha("outputs/diagnostics/data_validation.json"),
                 all_compared_artifacts_identical=not artifact_bad,provenance=validation["passed"],
                 source_tests_scripts_configs_codebooks_match_container=not code_bad,
                 numerical_core_matches_original_full_run=not core_bad,
+                donald_curated_material_target_and_route_outputs_unchanged_by_review_repairs=not review_bad,
                 manuscript_source_matches_container=sha("manuscript/main.tex")==manifest["manuscript/main.tex"],
                 manuscript_extracted_text_identical=texts[0]==texts[1],
                 container_network_none=inspection["HostConfig"]["NetworkMode"]=="none",
@@ -98,6 +119,13 @@ def main():
     result["current_safeguarded_searches_recomputed_on_host"]=0
     result["current_safeguarded_searches_recomputed_in_extension_container"]=False
     result["dynamic_unilateral_solves_recomputed_on_both"]=summary["dynamic_deviation_audits"]
+    result['donald_source_claims']=summary['donald_source_claims']
+    result['claim_manifest_comparison']=extension['claim_manifest_comparison']
+    result['host_container_claim_comparison']=cross_claims
+    result['donald_review_repair_outputs_compared']=len(review_paths)
+    result['donald_review_repair_output_mismatches']=review_bad
+    result['donald_finite_feed_LP_checks']=summary['donald_finite_feed_LP_checks']
+    result['donald_missed_FID_lower_bound_days']=summary['donald_missed_FID_lower_bound_days']
     result['supplied_sources']=summary['supplied_sources']
     result['supplied_claims']=summary['supplied_claims']
     result['supplied_smic_cells']=summary['supplied_smic_cells']

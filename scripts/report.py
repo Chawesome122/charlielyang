@@ -161,6 +161,7 @@ def summary_and_tables():
     supplied=read('outputs/diagnostics/supplied_evidence_validation.json')
     supplied_analysis=read('outputs/empirical/supplied_evidence/analysis.json')
     guidance=read('outputs/empirical/supplied_evidence/guidance_analysis.json')
+    donald=read('outputs/diagnostics/donald_validation.json')
     result=dict(freeze="2026-10-11",tests=test_count,test_failures=failures,
                 rare_earth_versioned_observations=rare["versioned_observations"], rare_earth_latest_observations=rare["latest_observations"],
                 lynas_annual_observations=len(lynas),lynas_quarterly_versions=len(quarterly),project_evidence_records=len(projects),project_count=projects.project_id.nunique(),activity_count=projects.activity_id.nunique(),
@@ -213,6 +214,7 @@ def summary_and_tables():
                   supplied_numerical_checks=supplied_analysis['numerical_checks'],supplied_vintage_checks=supplied_analysis['vintage_checks'],
                   supplied_legal_pdf_checks=supplied['legal_pdf_checks'],supplied_unfulfilled_requests=len(supplied['unfulfilled_request_ranks']))
     result.update(supplied_issuer_guidance_outcomes=guidance['related_outcomes'],supplied_issuer_guidance_targets=guidance['target_quarters'])
+    result.update(donald_source_claims=donald['source_claims'],donald_finite_feed_LP_checks=donald['finite_feed_LP_checks'],donald_vintage_checks=donald['vintage_checks'],donald_missed_FID_lower_bound_days=donald['missed_initial_FID_target_lower_bound_days'])
     (ROOT/"outputs/research_summary.json").write_text(json.dumps(result,indent=2))
     macros={"TestCount":test_count,"RareObs":rare["versioned_observations"],"LynasObs":len(lynas),"ProjectCount":projects.project_id.nunique(),"ActivityCount":projects.activity_id.nunique(),"LegalRows":semiconductor["verified_legal_event_rows"],"FinancialRows":len(financial),"GameCandidates":game["claimed_candidate_count"],"GameFailures":game["not_solved_count"],"BenchmarkRoot":f"{benchmark['policy']:.10f}"}
     macros.update(ProjectRecords=len(projects), PublicClockActivities=coverage["documentation_counts"]["public_clock_eligible"],
@@ -271,8 +273,18 @@ def summary_and_tables():
     for name,value in config["parameters"].items():
         unit="year^-1" if name.startswith(("g_","delta_","kappa_","rho_")) else "dimensionless" if name.startswith("beta_") else "normalized payoff/year"
         registry.append(dict(parameter=name,value=value,unit=unit,classification="hypothetical_scenario",empirically_identified=False,source="configs/game.yaml",uncertainty="registered alternative scenarios; no empirical confidence interval"))
+    donald_inputs=pd.read_csv(ROOT/'data/processed/donald/source_claims.csv')
+    model_inputs={'donald_reserve_hm','donald_financial_treo_grade'} | {
+        'donald_'+prefix+e for prefix in ['reserve_','pit_recovery_','financial_distribution_']
+        for e in ['nd','pr','dy','tb']}
+    for row in donald_inputs[donald_inputs.variable.isin(model_inputs)].to_dict('records'):
+        registry.append(dict(parameter=row['variable'],value=row['value'],unit=row['native_unit'],
+                             classification='source_reported_design_assumption_not_operating_estimate',
+                             empirically_identified=False,source=row['claim_id']+';data/processed/donald/source_claims.csv',
+                             uncertainty='source precision and unmatched model contexts; no empirical confidence interval'))
     pd.DataFrame(registry).to_csv(ROOT/"metadata/parameter_registry.csv",index=False)
-    claims=[dict(claim="Twelve separately registered safeguarded search attempts produce three accepted coarse candidates and nine fine-grid failures under unchanged full-game criteria; no continuum MPE or nonexistence claim follows",classification="hypothetical_numerical_method_robustness",evidence="outputs/scenario/safeguarded_analysis/analysis.json"),
+    claims=[dict(claim="Donald source-nested reserve grades and pit-design recoveries supply conditional four-element constraints; 16 finite-feed diagnostic LP solves conserve material without measured feed or end-to-end service. An explicit no-FID observation implies the March target was missed by at least 91 days through June 30, only known from August 5.",classification="source_reported_target_miss_and_conditional_engineering_not_supply_forecast",evidence="outputs/diagnostics/donald_validation.json"),
+            dict(claim="Twelve separately registered safeguarded search attempts produce three accepted coarse candidates and nine fine-grid failures under unchanged full-game criteria; no continuum MPE or nonexistence claim follows",classification="hypothetical_numerical_method_robustness",evidence="outputs/scenario/safeguarded_analysis/analysis.json"),
             dict(claim="MP source-vintaged Vietnam equity, Shenghe commercial links, divestiture and reagent disclosures do not establish a fully China-independent supply route",classification="actual_issuer_commercial_origin_disclosures",evidence="outputs/diagnostics/operating_origin_extension_validation.json"),
             dict(claim="Two selected VEU issued instruments retain facility/item exceptions and three later general-authorization removals; no observed license denial or access loss is identified",classification="primary_issued_legal_scope_not_consolidated_law",evidence="outputs/diagnostics/veu_extension_validation.json"),
             dict(claim="Eight fixed-opponent discounted-MDP audits verify numerical finite-state regret bounds and profitable deviations for failed negative policies; no continuum or full-game label is promoted",classification="hypothetical_dynamic_deviation_verification",evidence="outputs/scenario/dynamic_deviation_audit/analysis.json"),
@@ -307,7 +319,7 @@ def summary_and_tables():
             dict(claim="MP quarterly baselines have one to three eligible dependent origins per metric in the archived subset; no statistical skill established",classification="empirical_descriptive_hindcast",evidence="outputs/empirical/rare_earths/mp_quarterly_baseline_scores.csv"),
             dict(claim="SMIC investment spending is an input, not identified substitution",classification="descriptive_empirical",evidence="data/processed/semiconductors/reported_financial_inputs.csv"),
             dict(claim="SMIC native operating cells retain quarter/year windows, source clocks, wafer-equivalent wording and revenue-share denominators; no target capability or foreign access score assigned",classification="issuer_reported_operating_scale",evidence="data/processed/smic_operations/observations.csv"),
-            dict(claim="Ten supplied copies add cited quarterly/technical/legal observations without historical-byte certification; MP sales-convention adoption is Q1 2026, Upton demonstration differs from its end-to-end target, and White Mesa design versions conflict",classification="source_reported_documentary_and_measurement_versions",evidence="data/processed/supplied_evidence/claims.csv"),
+            dict(claim="Eleven supplied copies add cited quarterly/technical/legal observations without historical-byte certification; MP sales-convention adoption is Q1 2026, Upton demonstration differs from its end-to-end target, and White Mesa design versions conflict",classification="source_reported_documentary_and_measurement_versions",evidence="data/processed/supplied_evidence/claims.csv"),
             dict(claim="One quarter of SMIC within-quarter issuer guidance missed both stated outcome ranges; midpoint evaluation beats a known-at-issuance persistence baseline on two correlated outcomes without establishing model skill or interval probabilities",classification="actual_issuer_guidance_evaluation_not_structural_model_forecast",evidence="outputs/empirical/supplied_evidence/smic_guidance_evaluation.csv"),
             dict(claim="SMIC Q1/Q2 2026 native operating cells and four within-release accounting decompositions identify descriptive scale, not indigenous target capability or a causal effect",classification="issuer_reported_descriptive_accounting",evidence="outputs/empirical/supplied_evidence/smic_accounting_decompositions.csv"),
             dict(claim="Unchanged historical SMIC comparative numbers can have different shipment/utilization definition wording; no historical conversion or adoption date inferred",classification="primary_measurement_vintage_audit",evidence="data/processed/smic_operations/comparative_vintages.csv"),
