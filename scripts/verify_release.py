@@ -120,6 +120,7 @@ def main():
     result["current_safeguarded_searches_recomputed_in_extension_container"]=False
     result["dynamic_unilateral_solves_recomputed_on_both"]=summary["dynamic_deviation_audits"]
     result['donald_source_claims']=summary['donald_source_claims']
+    result["rare_earth_followup"] = summary["rare_earth_followup"]
     result['claim_manifest_comparison']=extension['claim_manifest_comparison']
     result['host_container_claim_comparison']=cross_claims
     result['donald_review_repair_outputs_compared']=len(review_paths)

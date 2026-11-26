@@ -100,6 +100,8 @@ def main():
     rows.extend(histories.to_dict("records"))
     supplied=supplied_project_snapshots(pd.read_csv(ROOT/'data/processed/supplied_evidence/claims.csv'))
     rows.extend(supplied.to_dict('records'))
+    followup = pd.read_csv(ROOT / "data/processed/rare_earth_followup/project_snapshots.csv")
+    rows.extend(followup.to_dict("records"))
     frame = pd.DataFrame(rows)
     target = ROOT/"data/processed/rare_earths"
     frame.to_csv(target/"project_state_evidence.csv", index=False)

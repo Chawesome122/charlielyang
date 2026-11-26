@@ -1,5 +1,8 @@
 activity_id,first_record,second_record,from_state,to_state,pair_class,missing_event_window,overlapping_or_revised_windows,first_exit_likelihood_admissible,reason
+ASM_KMP_metal_alloy,IND-004,FU:kmp_reported_operating,O,O,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 EF_Donald_feed,PR-009,SP-009,F,F,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+EF_Donald_feed,SP-009,FU:donald_pre_fid_work,F,F,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+EF_Phase1_heavies,SP-008,FU:white_mesa_july_construction,C,C,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 EF_VaraMada_feed,PR-010,PR-011,S,F,allowed_endpoint_pair,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 JSLink_Kuantan_magnet,IND-005,IND-006,A,A,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 LS_Vietnam_metal,IND-007,IND-008,A,A,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
@@ -31,5 +34,7 @@ RER_BearLodge_feed,RH-001,PR-013,S,F,allowed_endpoint_pair,False,False,False,No 
 RER_Upton_separation,RH-002,RH-003,F,C,unobserved_intermediate_states_or_definition_change,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 RER_Upton_separation,RH-003,RH-004,C,Q,allowed_endpoint_pair,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
 RER_Upton_separation,RH-004,RH-005,Q,Q,same_state_reobservation,False,True,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
-RER_Upton_separation,RH-005,PR-014,Q,Q,same_state_reobservation,False,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
-RER_Upton_separation,PR-014,SP-004,Q,Q,same_state_reobservation,False,True,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+RER_Upton_separation,RH-005,FU:upton_early_commissioning,Q,Q,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+RER_Upton_separation,FU:upton_early_commissioning,PR-014,Q,Q,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+RER_Upton_separation,PR-014,FU:upton_initial_operations,Q,Q,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population
+RER_Upton_separation,FU:upton_initial_operations,SP-004,Q,Q,same_state_reobservation,True,False,False,No complete-surveillance/first-exit protocol or verified state-entry risk spell; selected discovery population

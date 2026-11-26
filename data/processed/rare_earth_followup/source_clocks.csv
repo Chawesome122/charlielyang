@@ -1,0 +1,19 @@
+source_id,info_public_date,public_clock_source_id,public_clock_sha256,publication_basis,public_clock_locator,original_at_vintage_bytes_certified
+RE-FU-RER-JAN,2025-01-28,RE-FU-RER-JAN,0ed39b081eb1c587d4f64aac62db8e38b53a9b39c3ab385720863b52b088b669,issuer_dateline,dated release text,False
+RE-FU-RER-APR,2025-04-17,RE-FU-RER-APR,82a4f7b4ae8f8a265c8a89b95df5213be93d5589519fdda0feec01586d24fe3a,issuer_dateline,dated release text,False
+RE-FU-RER-JUL,2025-07-17,RE-FU-RER-JUL,2696bf7b4f43661e3b2c69519ddc91ce5a2db88da73dd9a0a87174b79dfa25f2,issuer_dateline,dated release text,False
+RE-FU-RER-NOV,2025-11-05,RE-FU-RER-NOV,a44fb1713a39a89222be8eb63a3780c523faedeb73b802d04fb34384c6872f01,issuer_dateline,dated release text,False
+RE-FU-RER-MAR,2026-03-24,RE-FU-RER-MAR,8facdbac198715dfffce891d0ff989782b15a09a54c736e4a7344c384cb3c150,issuer_dateline,dated release text,False
+RE-FU-RER-JUN,2026-06-09,RE-FU-RER-JUN,bc8f0b8c0cfa3e2de7009ff6629555a9189d32661f049253dd52e54d4f4446a6,issuer_dateline,dated release text,False
+RE-FU-RER-Q2,2026-08-04,RE-FU-RER-Q2-INDEX,c491d7dc7119c0422b9a9f201e409e431d65d06d733293c68fc2efe5d44b0cdf,sec_filing_index,"EDGAR index, Filing Date; Accepted 2026-08-04 13:57:29",False
+RE-FU-RER-Q2-INDEX,2026-08-04,RE-FU-RER-Q2-INDEX,c491d7dc7119c0422b9a9f201e409e431d65d06d733293c68fc2efe5d44b0cdf,sec_index_dateline,"EDGAR index, Filing Date; Accepted 2026-08-04 13:57:29",False
+RE-FU-EF-MAR,2026-03-25,RE-FU-EF-MAR,235ff9e1029f9dd33f104ba043b9e29988ec769827a583f50b002bef3957ecd1,issuer_dateline,dated release text,False
+RE-FU-EF-JUL,2026-07-29,RE-FU-EF-JUL,370365202bc34d202f7ff38fbf3d5ae6effea585e98950e0d49fde23c061afd0,issuer_dateline,dated release text,False
+RE-FU-EF-BFS-RELEASE,2026-01-15,RE-FU-EF-BFS-RELEASE,fa3f5fce78ea6f253db0f4712b560166d394a8ea76d04b829214661d2ca9bacc,issuer_dateline,dated release text,False
+RE-FU-EF-BFS-PDF,2026-01-15,RE-FU-EF-BFS-RELEASE,fa3f5fce78ea6f253db0f4712b560166d394a8ea76d04b829214661d2ca9bacc,exact_link_from_dated_release,exact report URL in dated issuer release; effective date on PDF page 2,False
+RE-FU-EF-Q2-HTML,2026-08-05,RE-FU-EF-Q2-INDEX,d79a64f28bcd8b34850c073530329fb911b9a5c2870370321c3e7c02025d93b7,sec_filing_index,"EDGAR index, Filing Date; Accepted 2026-08-05 16:03:32",False
+RE-FU-EF-Q2-INDEX,2026-08-05,RE-FU-EF-Q2-INDEX,d79a64f28bcd8b34850c073530329fb911b9a5c2870370321c3e7c02025d93b7,sec_index_dateline,"EDGAR index, Filing Date; Accepted 2026-08-05 16:03:32",False
+RE-FU-EF-ASM,2026-08-28,RE-FU-EF-ASM,bf1aeb17863e14ab21100753c449ec716dacea1cafeddde44ebfb2ae6a8a05c6,issuer_dateline,dated release text,False
+RE-FU-EF-ASM-SEC,2026-08-28,RE-FU-EF-ASM-INDEX,d10d467237bb71f665d39b62d72451d36282c82a7372cc9efc474c399dfd167f,sec_filing_index,"EDGAR index, Filing Date; Accepted 2026-08-28 16:56:49",False
+RE-FU-EF-ASM-INDEX,2026-08-28,RE-FU-EF-ASM-INDEX,d10d467237bb71f665d39b62d72451d36282c82a7372cc9efc474c399dfd167f,sec_index_dateline,"EDGAR index, Filing Date; Accepted 2026-08-28 16:56:49",False
+RE-FU-ATR-SEP30,2026-09-30,RE-FU-ATR-SEP30,f9fd0693acebc29e1236574e10dd42dd34ddd2e09e0517f997c71126a5467c83,exchange_announcement_dateline,"PDF page 1, exchange announcement dateline",False

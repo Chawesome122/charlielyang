@@ -109,6 +109,22 @@ def main():
         audit.loc[idx,'executed_evidence']=str(audit.loc[idx,'executed_evidence']).split(' Donald continuation:')[0]+donald_note
         prior=str(audit.loc[idx,'evidence_paths']).split(';docs/donald_review.md')[0]
         audit.loc[idx,'evidence_paths']=prior+';docs/donald_review.md;data/processed/donald;outputs/diagnostics/donald_validation.json'
+    followup = summary["rare_earth_followup"]
+    followup_note = (
+        f" Rare-earth follow-up: {followup['source_claims']} claims, {followup['capacity_native_cells']} source "
+        "capacity cells and eight Donald information origins. White Mesa design versions diverge, "
+        "Upton documents separate pre- and post-rework milestones, and a dated ASM transaction changes "
+        "reported ownership. No measured network flows or representative first-exit spells admitted."
+    )
+    for rid in ["14-04", "14-07", "14-08", "14-21", "C01", "C02", "C04", "C05"]:
+        idx = audit.index[audit.requirement_id.eq(rid)][0]
+        previous = str(audit.loc[idx, "executed_evidence"]).split(" Rare-earth follow-up:")[0]
+        audit.loc[idx, "executed_evidence"] = previous + followup_note
+        previous = str(audit.loc[idx, "evidence_paths"]).split(";docs/rare_earth_followup_review.md")[0]
+        audit.loc[idx, "evidence_paths"] = previous + (
+            ";docs/rare_earth_followup_review.md;data/processed/rare_earth_followup"
+            ";outputs/diagnostics/rare_earth_followup_validation.json"
+        )
     audit.to_csv(ROOT/"audit/blueprint_requirements.csv",index=False)
     counts=audit.status.value_counts().to_dict()
     text=f"""# Research status — resumable execution ledger
@@ -116,6 +132,8 @@ def main():
 Information freeze: **2026-10-11**. Research execution date: {execution_date} (UTC). Methodological attachment:49pages. The task began from an empty, unborn Git checkout. The continuation request authorizes Git push; no journal submission has occurred.
 
 ## Implemented and executed
+
+- Rare-earth follow-up verified **{followup['source_clocks']} source clocks / {followup['source_claims']} quotations / {followup['capacity_native_cells']} native table cells** and added {followup['dated_project_snapshots']} project observations. Upton issuer updates document initial shakedown followed by modification and phased operations. White Mesa Phase 1 construction was public by July 29, and its August filing preserves divergent capacity values. Energy Fuels reported closing the ASM acquisition on August 28. Astron revised its Phase 1 FID target to Q4 on September 30. See `docs/rare_earth_followup_review.md`.
 
 - Supplied-source continuation: **{summary['supplied_sources']} PDFs / {summary['supplied_claims']} cited claims / {summary['supplied_smic_cells']} native SMIC cells**; {summary['supplied_numerical_checks']} numerical comparisons, {summary['supplied_vintage_checks']} information-origin checks and {summary['supplied_legal_pdf_checks']} legal-PDF checks executed. MP explicitly dates the 1.20-to-1.25 KPI change to Q1 2026 without recasting; Upton's March demonstration start remains distinct from the Q3 end-to-end target. Two White Mesa prose/table capacity differences are retained. All eleven document requests have readable copies. Seven SEC copies are later browser prints, not certified historical bytes. See `docs/supplied_evidence_review.md`.
 - Added nine source-visible project-stage snapshots, including Wheat Ridge, Blacksburg and Donald, while retaining development, demonstration and construction distinctions. SMIC's within-quarter issuer guidance has **{summary['supplied_issuer_guidance_outcomes']} correlated outcomes / {summary['supplied_issuer_guidance_targets']} target quarter**: both realized values exceed stated upper ranges; both midpoint errors are smaller than a known-at-issuance persistence baseline. This establishes neither statistical/model forecasting skill nor probability-interval calibration; the research model did not issue that guidance.
@@ -181,6 +199,8 @@ Information freeze: **2026-10-11**. Research execution date: {execution_date} (U
 
 ## Failed checks and repairs preserved
 
+- The first integrated rare-earth follow-up run stopped in the coverage builder because it lacked the new source registry. The builder now verifies those archives through the same hash path as earlier observations. The stopped run and traceback are retained in `outputs/diagnostics/rare_earth_followup_initial/`.
+
 - The initial Donald container pipeline passed 477 tests and all scientific checks, but its extended byte comparison failed on `manuscript/claims.json`: five held-out game-audit runtime values changed the audit's exact SHA256. The failed comparison and both payloads are preserved in `outputs/diagnostics/donald_initial_container_comparison/`. The repaired checker retains both per-run exact hashes, checks every claim/evidence digest, permits only the five explicitly located finite performance clocks, and requires all other scientific fields to match exactly. Adversarial tests reject changed residuals, certificates, ordinary data, forged hashes and invalid clocks. No numerical criterion is relaxed.
 - Donald review preserved an initial 476-test passing pipeline, then removed an unverified wet-basis label from the source's 8% moisture assumption (native value unchanged; never used in a conversion). A new adversarial joint-mass test exposed acceptance of four individually conserving but collectively impossible input coefficients totaling 1.2 tonnes per ore tonne. The actual failing test is retained in `outputs/diagnostics/donald_joint_mass_initial_failure.log`; the new guard rejects it. Curated source coefficients and the 25-file original numerical core are unchanged. Full replication is rerun after both repairs.
 - Historical acquisition failures below predate the eleven supplied copies now admitted by the separate upload workflow. Failed HTTP requests remain failures; the supplied-copy manifest, exact checksums and historical statement clocks identify the new evidence. The first supplied extraction rejected a parenthesized negative-change percentage token; the strict parser was repaired without changing native values or relaxing source/cell checks. The failed log is retained in `outputs/diagnostics/supplied_evidence_initial_build.log`.
@@ -218,7 +238,7 @@ No action is required simply to prompt another continuation. All eleven requeste
 
 ## Exact next milestone
 
-1.Read `docs/supplied_evidence_review.md` and the prior module reviews. Eleven document copies are available; do not request them again or restart their extraction. Read `docs/donald_review.md`, preserve its separate model bases, and resolve White Mesa design/product-form versions and the older Upton construction-year discrepancy, and collect dated stocks, qualified operating flows, routes, recipes, demand and cohort surveillance before estimating hazards or physical service. Annual-report release clocks and original-at-vintage evidence remain separate gaps.
+1. Read `docs/rare_earth_followup_review.md`. Seek White Mesa batch-form confirmation, matched circuit-level schedules and an NdPr stock-flow bridge. Seek Upton completion acceptance records and pre-freeze evidence of end-to-end processing, Donald actual FID and permit bytes, and qualified all-input origins/rates/recipes across White Mesa, KMP and final magnet delivery. Representative surveillance and matched grade demand are required before hazards or service can be estimated. Annual-report release clocks and original-at-vintage evidence remain separate gaps.
 2.Obtain engineering review and qualified semiconductor z/f observations; finish primary legal consolidation.
 3.Establish opacity obligations and blinded independent coding before estimating project associations.
 4.Fit empirical transitions/state laws only when these gates pass; continue negative-beta solver work with truthful failure labels.

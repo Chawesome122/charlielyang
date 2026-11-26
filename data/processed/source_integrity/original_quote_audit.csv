@@ -156,6 +156,11 @@ data/processed/rare_earths/project_state_evidence.csv,66,UP-RE-USARE-10Q2026Q2,1
 data/processed/rare_earths/project_state_evidence.csv,67,UP-RE-USARE-10Q2026Q2,15513730765edee7f3b40afd6783eb53656c22bc3be43b7b73e760976124d0fc,44.0,normalized verbatim quote in hash-verified supplied copy,True
 data/processed/rare_earths/project_state_evidence.csv,68,UP-RE-EF-10Q2026Q2,60085dd214dcb554f67e23114cd3ee3987ec7a1ed67d9e48a95d6b0908f11ae1,54.0,normalized verbatim quote in hash-verified supplied copy,True
 data/processed/rare_earths/project_state_evidence.csv,69,UP-RE-EF-10Q2026Q2,60085dd214dcb554f67e23114cd3ee3987ec7a1ed67d9e48a95d6b0908f11ae1,62.0,normalized verbatim quote in hash-verified supplied copy,True
+data/processed/rare_earths/project_state_evidence.csv,70,RE-FU-EF-JUL,370365202bc34d202f7ff38fbf3d5ae6effea585e98950e0d49fde23c061afd0,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earths/project_state_evidence.csv,71,RE-FU-RER-JAN,0ed39b081eb1c587d4f64aac62db8e38b53a9b39c3ab385720863b52b088b669,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earths/project_state_evidence.csv,72,RE-FU-RER-MAR,8facdbac198715dfffce891d0ff989782b15a09a54c736e4a7344c384cb3c150,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earths/project_state_evidence.csv,73,RE-FU-EF-ASM,bf1aeb17863e14ab21100753c449ec716dacea1cafeddde44ebfb2ae6a8a05c6,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earths/project_state_evidence.csv,74,RE-FU-ATR-SEP30,f9fd0693acebc29e1236574e10dd42dd34ddd2e09e0517f997c71126a5467c83,1.0,normalized verbatim quote in hash-verified original,True
 data/processed/rare_earths_additional/lynas_project_history.csv,0,LYNAS-6796174,ee09f3dac1dd58ea05c622046b586e536c4991e141f00bde6091c7480ac441d4,6.0,normalized verbatim quote in hash-verified original,True
 data/processed/rare_earths_additional/lynas_project_history.csv,1,LYNAS-6796174,ee09f3dac1dd58ea05c622046b586e536c4991e141f00bde6091c7480ac441d4,6.0,normalized verbatim quote in hash-verified original,True
 data/processed/rare_earths_additional/lynas_project_history.csv,2,LYNAS-61115106,aa04c22cdedbdd55d1623d6e4ab0b597de7193aa7039dee72818ab4af2919008,17.0,normalized verbatim quote in hash-verified original,True
@@ -510,6 +515,44 @@ data/processed/supplied_evidence/claims.csv,112,UP-WM-VARAMADA-TECHREPORT,d6fd8c
 data/processed/supplied_evidence/claims.csv,113,UP-RE-EF-10Q2026Q2,60085dd214dcb554f67e23114cd3ee3987ec7a1ed67d9e48a95d6b0908f11ae1,62.0,normalized verbatim quote in hash-verified supplied copy,True
 data/processed/supplied_evidence/claims.csv,114,UP-RE-EF-10Q2026Q2,60085dd214dcb554f67e23114cd3ee3987ec7a1ed67d9e48a95d6b0908f11ae1,62.0,normalized verbatim quote in hash-verified supplied copy,True
 data/processed/supplied_evidence/claims.csv,115,UP-RE-EF-10Q2026Q2,60085dd214dcb554f67e23114cd3ee3987ec7a1ed67d9e48a95d6b0908f11ae1,62.0,normalized verbatim quote in hash-verified supplied copy,True
+data/processed/rare_earth_followup/claims.csv,0,RE-FU-RER-JAN,0ed39b081eb1c587d4f64aac62db8e38b53a9b39c3ab385720863b52b088b669,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,1,RE-FU-RER-JAN,0ed39b081eb1c587d4f64aac62db8e38b53a9b39c3ab385720863b52b088b669,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,2,RE-FU-RER-JAN,0ed39b081eb1c587d4f64aac62db8e38b53a9b39c3ab385720863b52b088b669,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,3,RE-FU-RER-APR,82a4f7b4ae8f8a265c8a89b95df5213be93d5589519fdda0feec01586d24fe3a,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,4,RE-FU-RER-APR,82a4f7b4ae8f8a265c8a89b95df5213be93d5589519fdda0feec01586d24fe3a,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,5,RE-FU-RER-JUL,2696bf7b4f43661e3b2c69519ddc91ce5a2db88da73dd9a0a87174b79dfa25f2,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,6,RE-FU-RER-JUL,2696bf7b4f43661e3b2c69519ddc91ce5a2db88da73dd9a0a87174b79dfa25f2,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,7,RE-FU-RER-NOV,a44fb1713a39a89222be8eb63a3780c523faedeb73b802d04fb34384c6872f01,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,8,RE-FU-RER-NOV,a44fb1713a39a89222be8eb63a3780c523faedeb73b802d04fb34384c6872f01,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,9,RE-FU-RER-MAR,8facdbac198715dfffce891d0ff989782b15a09a54c736e4a7344c384cb3c150,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,10,RE-FU-RER-MAR,8facdbac198715dfffce891d0ff989782b15a09a54c736e4a7344c384cb3c150,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,11,RE-FU-RER-MAR,8facdbac198715dfffce891d0ff989782b15a09a54c736e4a7344c384cb3c150,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,12,RE-FU-RER-JUN,bc8f0b8c0cfa3e2de7009ff6629555a9189d32661f049253dd52e54d4f4446a6,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,13,RE-FU-RER-JUN,bc8f0b8c0cfa3e2de7009ff6629555a9189d32661f049253dd52e54d4f4446a6,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,14,RE-FU-RER-Q2,09f9a544e27f159dcc764bad502a45030e1de68adf49f7bd90083a0c04721cbf,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,15,RE-FU-RER-Q2,09f9a544e27f159dcc764bad502a45030e1de68adf49f7bd90083a0c04721cbf,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,16,RE-FU-EF-BFS-PDF,c27c0d5729a4a2030f97ad3a409c1667562f9f25bef651b3e4b41c997865917b,8.0,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,17,RE-FU-EF-BFS-PDF,c27c0d5729a4a2030f97ad3a409c1667562f9f25bef651b3e4b41c997865917b,10.0,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,18,RE-FU-EF-BFS-RELEASE,fa3f5fce78ea6f253db0f4712b560166d394a8ea76d04b829214661d2ca9bacc,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,19,RE-FU-EF-MAR,235ff9e1029f9dd33f104ba043b9e29988ec769827a583f50b002bef3957ecd1,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,20,RE-FU-EF-MAR,235ff9e1029f9dd33f104ba043b9e29988ec769827a583f50b002bef3957ecd1,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,21,RE-FU-EF-MAR,235ff9e1029f9dd33f104ba043b9e29988ec769827a583f50b002bef3957ecd1,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,22,RE-FU-EF-MAR,235ff9e1029f9dd33f104ba043b9e29988ec769827a583f50b002bef3957ecd1,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,23,RE-FU-EF-JUL,370365202bc34d202f7ff38fbf3d5ae6effea585e98950e0d49fde23c061afd0,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,24,RE-FU-EF-JUL,370365202bc34d202f7ff38fbf3d5ae6effea585e98950e0d49fde23c061afd0,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,25,RE-FU-EF-JUL,370365202bc34d202f7ff38fbf3d5ae6effea585e98950e0d49fde23c061afd0,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,26,RE-FU-EF-Q2-HTML,0fbda1ecc1ebd5bd9405441f8050196508a96097ae890592758bf88aaa19a729,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,27,RE-FU-EF-Q2-HTML,0fbda1ecc1ebd5bd9405441f8050196508a96097ae890592758bf88aaa19a729,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,28,RE-FU-EF-Q2-HTML,0fbda1ecc1ebd5bd9405441f8050196508a96097ae890592758bf88aaa19a729,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,29,RE-FU-EF-Q2-HTML,0fbda1ecc1ebd5bd9405441f8050196508a96097ae890592758bf88aaa19a729,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,30,RE-FU-EF-ASM-SEC,25aaa1bbfc8b418b85703a6cb6d4213eaf6828706d0c29cbb26de06321122b99,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,31,RE-FU-EF-ASM,bf1aeb17863e14ab21100753c449ec716dacea1cafeddde44ebfb2ae6a8a05c6,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,32,RE-FU-EF-ASM,bf1aeb17863e14ab21100753c449ec716dacea1cafeddde44ebfb2ae6a8a05c6,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,33,RE-FU-EF-ASM,bf1aeb17863e14ab21100753c449ec716dacea1cafeddde44ebfb2ae6a8a05c6,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,34,RE-FU-EF-ASM,bf1aeb17863e14ab21100753c449ec716dacea1cafeddde44ebfb2ae6a8a05c6,,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,35,RE-FU-ATR-SEP30,f9fd0693acebc29e1236574e10dd42dd34ddd2e09e0517f997c71126a5467c83,1.0,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,36,RE-FU-ATR-SEP30,f9fd0693acebc29e1236574e10dd42dd34ddd2e09e0517f997c71126a5467c83,1.0,normalized verbatim quote in hash-verified original,True
+data/processed/rare_earth_followup/claims.csv,37,RE-FU-ATR-SEP30,f9fd0693acebc29e1236574e10dd42dd34ddd2e09e0517f997c71126a5467c83,1.0,normalized verbatim quote in hash-verified original,True
 data/processed/supplied_evidence/smic_quarterly_versions.csv,0,UP-SC-SMIC-Q12026-EARNINGS,64901d4c50f4dabbc120a6b6ced4da73eafc0472821dca6ed3623c0b773a4854,4.0,normalized verbatim quote in hash-verified supplied copy,True
 data/processed/supplied_evidence/smic_quarterly_versions.csv,1,UP-SC-SMIC-Q12026-EARNINGS,64901d4c50f4dabbc120a6b6ced4da73eafc0472821dca6ed3623c0b773a4854,4.0,normalized verbatim quote in hash-verified supplied copy,True
 data/processed/supplied_evidence/smic_quarterly_versions.csv,2,UP-SC-SMIC-Q12026-EARNINGS,64901d4c50f4dabbc120a6b6ced4da73eafc0472821dca6ed3623c0b773a4854,4.0,normalized verbatim quote in hash-verified supplied copy,True

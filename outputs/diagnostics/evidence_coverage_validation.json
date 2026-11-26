@@ -1,13 +1,13 @@
 {
   "passed": true,
-  "roster_records": 70,
+  "roster_records": 75,
   "discovery_projects": 26,
   "discovery_activities": 36,
-  "source_pdfs_or_filings_checked": 30,
+  "source_pdfs_or_filings_checked": 35,
   "documentation_counts": {
     "public_clock_eligible": 35,
-    "native_capacity_documented": 9,
-    "annual_native_capacity_documented": 9,
+    "native_capacity_documented": 10,
+    "annual_native_capacity_documented": 10,
     "finite_campaign_limit_documented": 0,
     "complete_element_recipe_verified": 0,
     "finite_route_capacity_verified": 0,

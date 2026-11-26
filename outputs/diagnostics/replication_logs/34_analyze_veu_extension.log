@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "classification": "primary_legal_descriptive_selected_issued_instruments",
+  "permission_scope_entries": 2,
+  "removal_entries": 3,
+  "paired_named_recipients": 2,
+  "removal_publication_to_effect_days": 120,
+  "removal_reported_filing_to_effect_days": 124,
+  "both_2023_scopes_explicitly_exclude_EUV": true,
+  "source_scope_is_a_complete_EAR_classifier": false,
+  "domestic_capability_identified": false,
+  "foreign_access_identified": false,
+  "license_outcome_observed": false,
+  "continuous_authorization_between_sources_certified": false,
+  "current_law_consolidated": false,
+  "causal_effect_identified": false,
+  "scope": "Documentary permission/removal and clock evidence only; original clauses and other EAR conditions remain essential"
+}

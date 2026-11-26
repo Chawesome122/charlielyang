@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "evidence_class": "empirical_descriptive_hindcast",
+  "candidate_origin_metric_pairs": 76,
+  "eligible_origin_metric_pairs": 9,
+  "forecast_records": 27,
+  "scores": [
+    {
+      "variable": "NdPr_production",
+      "method": "available_history_mean",
+      "n_origins": 2,
+      "mae": 345.5,
+      "rmse": 347.0252152221795
+    },
+    {
+      "variable": "NdPr_production",
+      "method": "latest_available_persistence",
+      "n_origins": 2,
+      "mae": 295.5,
+      "rmse": 297.28185279293456
+    },
+    {
+      "variable": "NdPr_production",
+      "method": "seasonal_previous_year",
+      "n_origins": 2,
+      "mae": 345.5,
+      "rmse": 355.2133161918342
+    },
+    {
+      "variable": "NdPr_sales",
+      "method": "available_history_mean",
+      "n_origins": 1,
+      "mae": 458.0,
+      "rmse": 458.0
+    },
+    {
+      "variable": "NdPr_sales",
+      "method": "latest_available_persistence",
+      "n_origins": 1,
+      "mae": 458.0,
+      "rmse": 458.0
+    },
+    {
+      "variable": "NdPr_sales",
+      "method": "seasonal_previous_year",
+      "n_origins": 1,
+      "mae": 458.0,
+      "rmse": 458.0
+    },
+    {
+      "variable": "REO_production",
+      "method": "available_history_mean",
+      "n_origins": 3,
+      "mae": 1865.6388888888887,
+      "rmse": 2102.1819765424684
+    },
+    {
+      "variable": "REO_production",
+      "method": "latest_available_persistence",
+      "n_origins": 3,
+      "mae": 2293.0,
+      "rmse": 2891.2508826918956
+    },
+    {
+      "variable": "REO_production",
+      "method": "seasonal_previous_year",
+      "n_origins": 3,
+      "mae": 2325.3333333333335,
+      "rmse": 2377.271405063657
+    },
+    {
+      "variable": "REO_sales",
+      "method": "available_history_mean",
+      "n_origins": 3,
+      "mae": 2392.4166666666665,
+      "rmse": 2871.542163338949
+    },
+    {
+      "variable": "REO_sales",
+      "method": "latest_available_persistence",
+      "n_origins": 3,
+      "mae": 1506.3333333333333,
+      "rmse": 1703.515091411481
+    },
+    {
+      "variable": "REO_sales",
+      "method": "seasonal_previous_year",
+      "n_origins": 3,
+      "mae": 1871.0,
+      "rmse": 2604.0333459206445
+    }
+  ],
+  "information_set": "three archived annual filings; not all contemporary public information",
+  "actual_vintage": "latest archived comparative by freeze; not first-release accuracy",
+  "statistical_skill_established": false,
+  "chemical_recovery_estimated": false,
+  "causal_effect_identified": false,
+  "system_service_forecast": false,
+  "overlapping_stages_not_summed": true
+}

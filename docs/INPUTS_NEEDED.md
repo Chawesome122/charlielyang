@@ -23,7 +23,7 @@ The seven SEC documents are browser-print PDFs created after the freeze, with pr
 
 ## Access and remaining measurements
 
-A current-session probe of a formerly accessible SEC metadata host failed at the proxy with CONNECT 403 (`metadata/continuation_access_probe.jsonl`). Previously saved environment-domain settings are not proof that the live policy was applied. If you control the cloud environment, an applied working public-source network configuration may remove the need for manual uploads. Do not send credentials, disable TLS checks or use a private account on this project’s behalf.
+This continuation retrieved pre-freeze primary evidence from EDGAR, issuer sites and Astron’s exchange document host. The September export-licence document remains unarchived. Exact HTTP outcomes are in `metadata/rare_earth_followup_acquisitions.jsonl`. See `docs/rare_earth_followup_review.md` for dated project and capacity evidence.
 
 The new documents resolve the MP sales-convention adoption quarter, extend source-native quarterly operating evidence, narrow Upton demonstration event definitions, and corroborate selected published legal-text anomalies. They do not complete the physical network, identify transition hazards, or justify real-world forecast probabilities. Donald adds HM-nested reserve grades, pit-design recovery assumptions, separate conditional routes, current versus contingent ownership and a dated missed-FID target. No requested document remains absent; original-at-vintage certification and measurement gaps remain.
 

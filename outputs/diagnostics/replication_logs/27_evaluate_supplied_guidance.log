@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "evidence_class": "actual_within_quarter_issuer_guidance_evaluation",
+  "target_quarters": 1,
+  "related_outcomes": 2,
+  "realized_values_in_stated_ranges": 0,
+  "midpoint_improves_on_persistence_count": 2,
+  "interval_probability_coverage_claimed": false,
+  "statistical_skill_established": false,
+  "structural_research_model_evaluated": false,
+  "blueprint_6_12_24_month_forecasts_evaluated": false,
+  "empirical_magnet_service_forecast": false,
+  "scope": "Two correlated financial outcomes in one quarter; no significance/skill inference, quality-adjusted price or technical capability claim"
+}

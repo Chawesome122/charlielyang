@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/charlielyang/scripts/build_evidence_coverage.py", line 66, in <module>
+    main()
+  File "/workspace/charlielyang/scripts/build_evidence_coverage.py", line 28, in main
+    source = sources[row["source_id"]]
+             ~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'RE-FU-EF-JUL'

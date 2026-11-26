@@ -23,6 +23,8 @@ def main():
         sources[row["source_id"]] = row
     for row in json.loads((ROOT/'metadata/user_supplied_sources.json').read_text()):
         sources[row['source_id']]=row
+    for row in json.loads((ROOT / "metadata/rare_earth_followup_sources.json").read_text()):
+        sources[row["source_id"]] = row
     checked = set()
     for row in records.to_dict("records"):
         source = sources[row["source_id"]]

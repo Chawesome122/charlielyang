@@ -67,3 +67,9 @@ timestamps and errors are in `metadata/donald_followup_acquisitions.jsonl`. No
 contents or no-event conclusion are inferred from those failures. Also obtain
 dated White Mesa stock and flow bridges from December 31, 2025 to the freeze,
 with reconciled chemical forms, before carrying any historical stock forward.
+
+## November 25 follow-up
+
+The pre-freeze Astron September 30 exchange announcement is archived. It moves Donald's target to Q4 and reports ongoing financing discussions. Actual FID, executed finance and shipment evidence remain unverified. The September export announcement has a public pointer and failed byte acquisitions. The available October 30 release was excluded on its publication clock.
+
+Dated Upton disclosures establish initial shakedown, as-built review, rework and phased demonstration operations. Obtain original plant acceptance records keyed to the pre- and post-rework scopes and a source public by October 11 for realized end-to-end operation. White Mesa's January feasibility summary, March and July releases and August SEC filing establish separate design cases, construction and feed-path constraints. Obtain the 2024 batch certificate, an element/product stock bridge from December 31, 2025, circuit scheduling and contemporaneous measured flows, assays, recipes and route limits. The completed ASM acquisition changes ownership evidence for KMP. Measured qualified flows, auxiliary origins and route capacities across KMP and downstream magnet plants remain missing. The discovery records still admit zero first-exit spells. See `docs/rare_earth_followup_review.md` and `outputs/diagnostics/rare_earth_followup_validation.json`.

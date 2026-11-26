@@ -103,6 +103,11 @@ def main():
     paths += ['outputs/empirical/supplied_evidence/smic_guidance_evaluation.csv','outputs/empirical/supplied_evidence/guidance_analysis.json']
     paths += [f'data/processed/donald/{name}.csv' for name in ['source_claims','nested_material_coefficients','conditional_reec_composition','target_vintage_checks','fid_target_revision','cross_report_composition_versions','route_readiness','source_numerical_checks']]
     paths += ['outputs/diagnostics/donald_validation.json','outputs/diagnostics/donald_partial_lp.json','manuscript/donald_materials_table.tex']
+    paths += [f"data/processed/rare_earth_followup/{name}.csv" for name in (
+        "source_clocks", "claims", "capacity_native_cells", "capacity_comparisons",
+        "donald_target_vintages", "stock_at_freeze", "project_snapshots",
+    )]
+    paths += ["outputs/diagnostics/rare_earth_followup_validation.json", "manuscript/white_mesa_followup_table.tex"]
     paths += ['metadata/parameter_registry.csv','metadata/claims_to_sources.csv']
     before = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in paths}
     claims_before=json.loads((ROOT/'manuscript/claims.json').read_text())

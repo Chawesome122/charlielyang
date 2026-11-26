@@ -1,0 +1,43 @@
+   Building weaponized-interdependence @ file:///workspace/charlielyang
+      Built weaponized-interdependence @ file:///workspace/charlielyang
+Uninstalled 1 package in 0.77ms
+Installed 1 package in 1ms
+RUN scripts/build_rare_earths.py
+RUN scripts/resolve_publication_clocks.py
+RUN scripts/build_finance_material.py
+RUN scripts/build_white_mesa.py
+RUN scripts/build_mp_measurement.py
+RUN scripts/build_operating_origin_extension.py
+RUN scripts/analyze_operating_origin_extension.py
+RUN scripts/review_operating_origin_independent.py
+RUN scripts/build_publication_extension.py
+RUN scripts/build_engineering_inputs.py
+RUN scripts/fetch_additional_rare_earths.py
+RUN scripts/build_lynas_history.py
+RUN scripts/build_lynas_revisions.py
+RUN scripts/build_industrial_evidence.py
+RUN scripts/build_project_histories.py
+RUN scripts/build_mp_investment.py
+RUN scripts/build_supplied_evidence.py
+RUN scripts/analyze_donald.py
+RUN scripts/build_rare_earth_followup.py
+RUN scripts/build_project_registry.py
+RUN scripts/audit_project_observations.py
+RUN scripts/build_evidence_coverage.py
+Traceback (most recent call last):
+  File "/workspace/charlielyang/scripts/build_evidence_coverage.py", line 66, in <module>
+    main()
+  File "/workspace/charlielyang/scripts/build_evidence_coverage.py", line 28, in main
+    source = sources[row["source_id"]]
+             ~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'RE-FU-EF-JUL'
+
+{
+  "passed": false,
+  "scope": "rebuild_plus_independent_saved_game_verification",
+  "freeze": "2026-10-11",
+  "network_required": false,
+  "total_seconds": 51.76322518099994,
+  "independent_machine": false,
+  "note": "Expected negative-beta nonconvergence is a scientific result recorded by successful scripts, not a passing equilibrium."
+}

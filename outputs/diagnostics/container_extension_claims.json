@@ -99,7 +99,7 @@
     "claim": "Documentation attrition counts distinguish annual nameplates from campaign totals and missing engineering inputs",
     "classification": "empirical_archive_coverage",
     "evidence": "outputs/empirical/rare_earths/evidence_coverage_by_stage.csv",
-    "sha256": "6303416f367cec22ac57e32b3dbfbc6136cf90552e7d5fdf4803e3ec63cfc976"
+    "sha256": "0aa27eba66f9b1463336cd711321e9ebcf90c0ece9e31553278806ae5647aac3"
   },
   {
     "claim": "MP first-half2026 cash PPE payments307.711millionUSD vs59.473million in2025; consolidated nominal inputs, not physical output or causal effects",
@@ -123,7 +123,7 @@
     "claim": "Observed state pairs and disclosure inventory do not establish first-exit survival exposure or a representative hazard sample",
     "classification": "empirical_observation_protocol_audit",
     "evidence": "outputs/diagnostics/project_observation_audit.json",
-    "sha256": "42f3b467c11c44dd40b662d69b1a705867f9b4ef26ff96153dc2625793cd1dec"
+    "sha256": "bc1a043deed89c87138b6e60a022ec650035e8a3cba5042c783483d69e154a62"
   },
   {
     "claim": "4 issuer report clocks resolved by exact dated links; undated annual links remain unresolved",
@@ -165,7 +165,7 @@
     "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
     "classification": "original_source_integrity_audit",
     "evidence": "data/processed/source_integrity/original_quote_audit.csv",
-    "sha256": "29b92d9937402651b4ec9c80a7d31e6786640550e9cf70df9eabd86f0c2fc1bc"
+    "sha256": "75d6f9408965b67c572f0395aa78ef9b1b7808433c0da494761151229b59013e"
   },
   {
     "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
@@ -255,6 +255,24 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "5c6239fee484a1d7007dbc5669348472b41e6d3ac9d8a6b3dfc3136134af4729"
+    "sha256": "5b7a9ddb2389505e507175861291f19e36142bc29a244b204c72b27bd04dae8a"
+  },
+  {
+    "claim": "White Mesa reported by July 29 that Phase 1 heavy-circuit construction was underway. August prose and table retain different Tb and Dy design figures, and the prior July combined NdPr differs from the August table.",
+    "classification": "issuer_reported_construction_and_design_versions",
+    "evidence": "data/processed/rare_earth_followup/capacity_comparisons.csv",
+    "sha256": "a37a3f39c58ca0befceeb3fdf6104abf1fa6661efb3d73f85c95db39aa131524"
+  },
+  {
+    "claim": "Astron revised the Phase 1 FID target to Q4 on September 30. The revision and pre-FID work do not identify an actual FID date by the freeze.",
+    "classification": "as_of_issuer_milestone_revision",
+    "evidence": "data/processed/rare_earth_followup/donald_target_vintages.csv",
+    "sha256": "05dd3607126eb81c0a94f27f5c03b4dcd921dc60f100db16d99ec510d01ca064"
+  },
+  {
+    "claim": "Archived issuer sources distinguish Upton initial shakedown, upgrades and phased operations, and a completed ASM acquisition from the proposed VAC acquisition and future material flows.",
+    "classification": "source_reported_event_definition_and_ownership_evidence",
+    "evidence": "data/processed/rare_earth_followup/claims.csv",
+    "sha256": "dc09b558011d81c4ce75a43874b6550aed9028027a6604d894e481db4cd2a74a"
   }
 ]

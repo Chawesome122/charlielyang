@@ -1,0 +1,344 @@
+[
+  {
+    "claim_id": "FU:upton_initial_shakedown",
+    "source_id": "RE-FU-RER-JAN",
+    "evidence_role": "observed_test",
+    "event_date_lower": "2024-10-01",
+    "event_date_upper": "2024-12-31",
+    "locator": "Issuer release, operating officer statement",
+    "pattern": "equipment shakedown process, which commenced in the fourth quarter of 2024"
+  },
+  {
+    "claim_id": "FU:upton_early_commissioning",
+    "source_id": "RE-FU-RER-JAN",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2025-01-28",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "has progressed through the equipment shakedown process and is in the final stages of commissioning"
+  },
+  {
+    "claim_id": "FU:upton_initial_production_target",
+    "source_id": "RE-FU-RER-JAN",
+    "evidence_role": "target",
+    "event_date_lower": null,
+    "event_date_upper": "2025-03-31",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "The initial phase of production is expected by the end of the first quarter 2025"
+  },
+  {
+    "claim_id": "FU:upton_first_shakedown_rework",
+    "source_id": "RE-FU-RER-APR",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2025-04-17",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "As the recently constructed Demonstration Plant progressed through the equipment shakedown process, several key design and equipment modifications were identified"
+  },
+  {
+    "claim_id": "FU:upton_late_2025_target",
+    "source_id": "RE-FU-RER-APR",
+    "evidence_role": "target",
+    "event_date_lower": null,
+    "event_date_upper": "2025-12-31",
+    "locator": "Issuer release, revised schedule",
+    "pattern": "operations are expected in late 2025"
+  },
+  {
+    "claim_id": "FU:upton_rework_as_built",
+    "source_id": "RE-FU-RER-JUL",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2025-07-17",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "the trajectory toward commencement of operations was halted for a thorough review of the as-built Demonstration Plant"
+  },
+  {
+    "claim_id": "FU:upton_q1_2026_target",
+    "source_id": "RE-FU-RER-JUL",
+    "evidence_role": "target",
+    "event_date_lower": "2026-01-01",
+    "event_date_upper": "2026-03-31",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "Plant operations are now expected in the first quarter of 2026"
+  },
+  {
+    "claim_id": "FU:upton_review_completed",
+    "source_id": "RE-FU-RER-NOV",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2025-11-05",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "design reviews have been completed, with system improvements and modifications being incorporated"
+  },
+  {
+    "claim_id": "FU:upton_recommissioning_target",
+    "source_id": "RE-FU-RER-NOV",
+    "evidence_role": "target",
+    "event_date_lower": null,
+    "event_date_upper": "2025-12-31",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "Plant commissioning to begin by the end of 2025"
+  },
+  {
+    "claim_id": "FU:upton_initial_operations",
+    "source_id": "RE-FU-RER-MAR",
+    "evidence_role": "observed_by",
+    "event_date_lower": null,
+    "event_date_upper": "2026-03-24",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "initial operations have commenced at the Company’s rare earth processing and separation demonstration plant in Upton"
+  },
+  {
+    "claim_id": "FU:upton_post_upgrade",
+    "source_id": "RE-FU-RER-MAR",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2026-03-24",
+    "locator": "Issuer release, CEO statement",
+    "pattern": "commence the initial phase of operations at the Plant following the successful completion of the modifications and upgrades previously identified"
+  },
+  {
+    "claim_id": "FU:upton_front_end_not_yet_in_integrated_operation",
+    "source_id": "RE-FU-RER-MAR",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2026-03-24",
+    "locator": "Issuer release, CEO statement",
+    "pattern": "we can now move forward with the introduction of feed material into the front-end primary processing circuit"
+  },
+  {
+    "claim_id": "FU:upton_front_end_delayed",
+    "source_id": "RE-FU-RER-JUN",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2026-06-09",
+    "locator": "Issuer release, Demonstration Plant Update",
+    "pattern": "full plant operations have been delayed as the team works through operational and equipment changes"
+  },
+  {
+    "claim_id": "FU:upton_late_summer_target",
+    "source_id": "RE-FU-RER-JUN",
+    "evidence_role": "target",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Issuer release, Demonstration Plant Update",
+    "pattern": "full, end-to-end processing operations at the Demonstration Plant to commence in late summer 2026"
+  },
+  {
+    "claim_id": "FU:upton_q3_end_to_end_target",
+    "source_id": "RE-FU-RER-Q2",
+    "evidence_role": "target",
+    "event_date_lower": "2026-07-01",
+    "event_date_upper": "2026-09-30",
+    "locator": "Form 10-Q, Demonstration Plant status",
+    "pattern": "full, end-to-end processing operations at the Demonstration Plant to commence in the third quarter of 2026"
+  },
+  {
+    "claim_id": "FU:upton_march_operation_month",
+    "source_id": "RE-FU-RER-Q2",
+    "evidence_role": "observed_interval",
+    "event_date_lower": "2026-03-01",
+    "event_date_upper": "2026-03-31",
+    "locator": "Form 10-Q, Demonstration Plant status",
+    "pattern": "Demonstration Plant operations formally commenced in March 2026"
+  },
+  {
+    "claim_id": "FU:bfs_design_scope",
+    "source_id": "RE-FU-EF-BFS-PDF",
+    "evidence_role": "design",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "PDF page 8, Section 1.1 process boundaries",
+    "pattern": "This study defines the battery limits as beginning with as-received monazite sand and reagents and ending with finished products packaged in super sacks or barrels"
+  },
+  {
+    "claim_id": "FU:bfs_standalone_feed",
+    "source_id": "RE-FU-EF-BFS-PDF",
+    "evidence_role": "design",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "PDF page 10, Section 1.3.2 operating cost basis",
+    "pattern": "annual planned monazite feed rate of 55,100 short tons per year \\(stpa\\) \\(50,000 metric tonnes per year \\[tpa\\]\\)"
+  },
+  {
+    "claim_id": "FU:bfs_feed_supply_assumption",
+    "source_id": "RE-FU-EF-BFS-RELEASE",
+    "evidence_role": "design",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Issuer release, Key Assumptions",
+    "pattern": "from the Company.s Vara Mada, Donald and Bahia projects, once those projects are developed and commissioned"
+  },
+  {
+    "claim_id": "FU:white_mesa_tb_pilot",
+    "source_id": "RE-FU-EF-MAR",
+    "evidence_role": "pilot",
+    "event_date_lower": null,
+    "event_date_upper": "2026-03-25",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "successfully produced its first kilogram \\(kg\\) of terbium \\(Tb\\) oxide"
+  },
+  {
+    "claim_id": "FU:white_mesa_tb_pilot_feed",
+    "source_id": "RE-FU-EF-MAR",
+    "evidence_role": "pilot",
+    "event_date_lower": null,
+    "event_date_upper": "2026-03-25",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "Using monazite ore sourced from the United States, the team achieved a purity of 99\\.9% Tb at pilot scale"
+  },
+  {
+    "claim_id": "FU:white_mesa_dy_pilot",
+    "source_id": "RE-FU-EF-MAR",
+    "evidence_role": "pilot",
+    "event_date_lower": null,
+    "event_date_upper": "2026-03-25",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "nearly 30 kg of 99\\.9% pure dysprosium \\(Dy\\) oxide production"
+  },
+  {
+    "claim_id": "FU:white_mesa_march_heavy_design",
+    "source_id": "RE-FU-EF-MAR",
+    "evidence_role": "design",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Issuer release, expanded commercial circuit",
+    "pattern": "up to approximately (?P<dy>35) tonnes of Dy, (?P<tb>12) tonnes of Tb per year"
+  },
+  {
+    "claim_id": "FU:white_mesa_july_construction",
+    "source_id": "RE-FU-EF-JUL",
+    "evidence_role": "observed_by",
+    "event_date_lower": null,
+    "event_date_upper": "2026-07-29",
+    "locator": "Issuer release, opening paragraph",
+    "pattern": "today announced that construction has begun on an expansion of its White Mesa Mill in Utah"
+  },
+  {
+    "claim_id": "FU:white_mesa_july_heavy_design",
+    "source_id": "RE-FU-EF-JUL",
+    "evidence_role": "design",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Issuer release, expansion design",
+    "pattern": "up to approximately (?P<tb>20) tpa of terbium \\(Tb\\), (?P<dy>120) tpa of dysprosium \\(Dy\\)"
+  },
+  {
+    "claim_id": "FU:white_mesa_july_combined",
+    "source_id": "RE-FU-EF-JUL",
+    "evidence_role": "design",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Issuer release, second expansion",
+    "pattern": "overall capacity to (?P<ndpr>6,294) tpa NdPr, (?P<tb>80) tpa Tb, and (?P<dy>288) tpa Dy oxides"
+  },
+  {
+    "claim_id": "FU:white_mesa_phase1_shared",
+    "source_id": "RE-FU-EF-Q2-HTML",
+    "evidence_role": "engineering_requires_schedule",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Form 10-Q, Existing Phase 1 Circuit",
+    "pattern": "Phase 1 Circuit REE production and conventional uranium production cannot be run at the same time, as currently configured"
+  },
+  {
+    "claim_id": "FU:white_mesa_august_heavy_design",
+    "source_id": "RE-FU-EF-Q2-HTML",
+    "evidence_role": "design",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Form 10-Q, Expansion of Phase 1 Circuit",
+    "pattern": "up to approximately (?P<tb>20) tpa of Tb, (?P<dy>120) tpa of Dy"
+  },
+  {
+    "claim_id": "FU:white_mesa_phase1_mrec",
+    "source_id": "RE-FU-EF-Q2-HTML",
+    "evidence_role": "conditional_route",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Form 10-Q, Expansion of Phase 1 Circuit",
+    "pattern": "As MREC or similar intermediate REE products would not need to utilize the Phase 1 Circuit’s crack and 39 Tabl e of Con tent s leach circuits"
+  },
+  {
+    "claim_id": "FU:white_mesa_phase2_independent",
+    "source_id": "RE-FU-EF-Q2-HTML",
+    "evidence_role": "conditional_route",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Form 10-Q, Planned Phase 2 Circuit",
+    "pattern": "allow the Phase 2 Circuit to be run completely independently of \\(and simultaneously with\\) the Mill’s conventional uranium"
+  },
+  {
+    "claim_id": "FU:kmp_purchase_closed",
+    "source_id": "RE-FU-EF-ASM-SEC",
+    "evidence_role": "observed_transaction",
+    "event_date_lower": "2026-08-28",
+    "event_date_upper": "2026-08-28",
+    "locator": "Form 8-K, Item 2.01",
+    "pattern": "On August 28, 2026, a wholly owned subsidiary of Energy Fuels Inc., EFR Critical Materials Pty Ltd\\. \\(\"Energy Fuels Bidder\"\\), completed the acquisition of all of the ordinary shares of Australian Strategic Materials Limited"
+  },
+  {
+    "claim_id": "FU:kmp_reported_operating",
+    "source_id": "RE-FU-EF-ASM",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2026-08-28",
+    "locator": "Issuer release, Korean Metals Plant",
+    "pattern": "ASM's operating Korean Metals Plant in Ochang, South Korea"
+  },
+  {
+    "claim_id": "FU:kmp_existing_alloy_nameplate",
+    "source_id": "RE-FU-EF-ASM",
+    "evidence_role": "nameplate",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Issuer release, Korean Metals Plant",
+    "pattern": "(?P<kmp>1,300) tonnes per year of existing neodymium-iron-boron \\(NdFeB\\) alloy production capacity"
+  },
+  {
+    "claim_id": "FU:kmp_planned_alloy_nameplate",
+    "source_id": "RE-FU-EF-ASM",
+    "evidence_role": "design",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Issuer release, Korean Metals Plant",
+    "pattern": "increase NdFeB alloy capacity to (?P<kmp>3,600) tonnes per year"
+  },
+  {
+    "claim_id": "FU:vac_conditions_open",
+    "source_id": "RE-FU-EF-ASM",
+    "evidence_role": "planned_acquisition",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Issuer release, downstream magnet production",
+    "pattern": "planned acquisition of permanent magnet manufacturer Vacuumschmelze \\(VAC\\)"
+  },
+  {
+    "claim_id": "FU:donald_q4_target",
+    "source_id": "RE-FU-ATR-SEP30",
+    "evidence_role": "target",
+    "event_date_lower": "2026-10-01",
+    "event_date_upper": "2026-12-31",
+    "locator": "PDF page 1, Project update",
+    "pattern": "a Final Investment Decision \\(FID\\) for Phase 1 of the Project is now expected in Q4 2026"
+  },
+  {
+    "claim_id": "FU:donald_pre_fid_work",
+    "source_id": "RE-FU-ATR-SEP30",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2026-09-30",
+    "locator": "PDF page 1, Project update",
+    "pattern": "continued to progress a number of workstreams in advance of FID"
+  },
+  {
+    "claim_id": "FU:donald_lending_target",
+    "source_id": "RE-FU-ATR-SEP30",
+    "evidence_role": "conditional_finance",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "PDF page 1, Project update",
+    "pattern": "discussions remain ongoing and are expected to conclude in the coming quarter, with a lending package of \\$200 million now targeted"
+  }
+]

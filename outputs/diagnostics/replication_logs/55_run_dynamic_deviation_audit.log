@@ -1,0 +1,27 @@
+adaptation_positive_n17_zero player0: solved=True, regret=[0, 2.37175e-10], iterations=1
+adaptation_positive_n17_zero player1: solved=True, regret=[0, 5.34284e-10], iterations=1
+adaptation_positive_n21_zero player0: solved=True, regret=[0, 4.47529e-10], iterations=1
+adaptation_positive_n21_zero player1: solved=True, regret=[0, 1.79533e-10], iterations=1
+adaptation_negative_n17_mid player0: solved=True, regret=[0.00013213, 0.000132132], iterations=3
+adaptation_negative_n17_mid player1: solved=True, regret=[0.000157816, 0.000157818], iterations=3
+adaptation_negative_n17_zero player0: solved=True, regret=[1.12808e-05, 1.1282e-05], iterations=3
+adaptation_negative_n17_zero player1: solved=True, regret=[1.28497e-05, 1.285e-05], iterations=3
+{
+  "passed": true,
+  "classification": "hypothetical_numerical_verification_not_empirical",
+  "concept": "fixed_opponent_discounted_MDP_audit_of_saved_finite_state_policies",
+  "source_array_checks": 4,
+  "unilateral_policy_audits": 8,
+  "fixed_opponent_checks": 8,
+  "finite_state_bound_checks": 8,
+  "converged_unilateral_mdp_solves": 8,
+  "not_solved_unilateral_mdp_attempts": 0,
+  "original_game_model_changed": false,
+  "original_game_acceptance_thresholds_changed": false,
+  "full_game_nash_promoted_by_this_audit": false,
+  "continuous_mpe_certified": false,
+  "floating_point_interval_certified": false,
+  "empirical_calibration": false,
+  "uncertainty_is_empirical_confidence_interval": false,
+  "source_label_scope": "Archives retain their original accepted/not-solved game labels; this only audits individual dynamic deviations against fixed opponents"
+}

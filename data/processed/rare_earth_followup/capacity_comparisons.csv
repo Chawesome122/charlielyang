@@ -1,0 +1,4 @@
+element,table_phase1,table_phase2,table_total,table_components_reconcile,march_phase1_prose,july_phase1_prose,august_phase1_prose,july_combined_prose,august_phase1_prose_minus_table,july_combined_prose_minus_august_table,native_unit,achieved_output,selected_operating_capacity
+ndpr,1000,5229,6229,True,,,,6294,,65,tpa,False,
+tb,14,66,80,True,12.0,20.0,20.0,80,6.0,0,tpa,False,
+dy,48,240,288,True,35.0,120.0,120.0,288,72.0,0,tpa,False,
