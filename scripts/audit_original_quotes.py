@@ -30,6 +30,8 @@ def main():
             sources[row["source_id"]]=row|dict(archive_path=row["path"])
     for row in json.loads((ROOT / "metadata/rare_earth_followup_sources.json").read_text()):
         sources[row["source_id"]] = row
+    for row in json.loads((ROOT / "metadata/kmp_shipments_sources.json").read_text()):
+        sources[row["source_id"]] = row
     tables = [
         "data/processed/rare_earths/observations.csv",
         "data/processed/rare_earths/project_state_evidence.csv",
@@ -46,6 +48,7 @@ def main():
         "data/processed/smic_operations/definitions.csv",
         "data/processed/supplied_evidence/claims.csv",
         "data/processed/rare_earth_followup/claims.csv",
+        "data/processed/kmp_shipments/claims.csv",
         "data/processed/supplied_evidence/smic_quarterly_versions.csv",
     ]
     checks = []

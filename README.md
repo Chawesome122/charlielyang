@@ -15,6 +15,8 @@ explicitly distinguished from certified historical bytes.
 
 The November 25 continuation documents Upton's pre- and post-rework phases, the White Mesa design versions and shared-feed constraints, ASM's completed acquisition and Astron's September 30 FID target revision. The review links the archived originals to the event, clock, capacity and ownership ledgers. [Rare-earth follow-up](docs/rare_earth_followup_review.md).
 
+Five ASM quarterly releases add named Korean Metals Plant shipment and receipt episodes, dispatch comparisons and historical source replay. [KMP source review](docs/kmp_shipments_review.md).
+
 ## Reproduce
 
 Requirements: Python 3.12, uv **0.12.23**, `pdftotext` (Poppler), and `latexmk`/pdfLaTeX with standard LaTeX recommended/extra packages. The resolved Python dependency versions and artifact hashes are in `uv.lock`. Install uv from its official package if absent: `python -m pip install uv==0.12.23` in an appropriate isolated environment.
@@ -157,7 +159,7 @@ Use this isolated checkout; do not create a worktree. Begin with `RESEARCH_STATU
 
 The MP producer-measurement continuation retains native production/sales and monetary inventory cells, missing states and source definitions. See [the review](docs/mp_measurement_review.md), [the versioned data](data/processed/mp_measurement/native_cell_versions.csv), and `outputs/empirical/rare_earths/mp_quarterly_baseline_scores.csv`. Its small quarterly baseline comparisons are not system-service forecasts.
 
-After copying the paired host/container evidence to the standard diagnostic paths, run `uv run python scripts/verify_release.py --container-name weaponized-rare-earth-followup-check` to audit code/tests, data digests, source and normalized manuscript agreement, actual test outcomes and disconnected container identity. This checks a same-host container, not independent second-machine replication.
+After copying the paired host/container evidence to the standard diagnostic paths, run `uv run python scripts/verify_release.py --container-name weaponized-kmp-evidence-check` to audit code/tests, data digests, source and normalized manuscript agreement, actual test outcomes and disconnected container identity. This checks a same-host container, not independent second-machine replication.
 
 The semiconductor operating-scale extension is documented in [the SMIC review](docs/smic_operations_review.md). [Versioned operating data](data/processed/smic_operations/observations.csv), source definitions and release clocks preserve measured reporting units. Nominal revenue decompositions and figures in `outputs/empirical/semiconductors/` do not assign target-capability or access scores.
 

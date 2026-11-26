@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "source_quarterly_reports": 5,
+  "source_claims": 35,
+  "native_comparisons": 4,
+  "information_origins": 11,
+  "origin_replay_rows": 34,
+  "named_route_observations": 9,
+  "distinct_route_episodes": 7,
+  "q2_component_total_tonnes": "45",
+  "q1_comparative_sum_tonnes": "42.6",
+  "qoq_aggregate_difference_tonnes": "2.4",
+  "qoq_source_reported_difference_native_token": "~2.5",
+  "alloy_order_calendar_scope_change_tonnes": "-34",
+  "empirical_service_identified": false,
+  "linked_input_lots_identified": false,
+  "opening_stock_admitted": false,
+  "operating_recovery_identified": false,
+  "stable_route_capacity_identified": false,
+  "representative_first_exit_identified": false
+}

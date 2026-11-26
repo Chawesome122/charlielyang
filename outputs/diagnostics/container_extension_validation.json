@@ -598,11 +598,47 @@
       "passed": true
     },
     {
+      "path": "data/processed/rare_earth_followup/qualification_and_export_vintages.csv",
+      "passed": true
+    },
+    {
       "path": "outputs/diagnostics/rare_earth_followup_validation.json",
       "passed": true
     },
     {
       "path": "manuscript/white_mesa_followup_table.tex",
+      "passed": true
+    },
+    {
+      "path": "data/processed/kmp_shipments/source_clocks.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/kmp_shipments/claims.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/kmp_shipments/dispatch_asof_freeze.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/kmp_shipments/origin_replay.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/kmp_shipments/native_comparisons.csv",
+      "passed": true
+    },
+    {
+      "path": "data/processed/kmp_shipments/route_episodes.csv",
+      "passed": true
+    },
+    {
+      "path": "outputs/diagnostics/kmp_shipments_validation.json",
+      "passed": true
+    },
+    {
+      "path": "manuscript/kmp_shipments_table.tex",
       "passed": true
     },
     {
@@ -616,9 +652,9 @@
   ],
   "claim_manifest_comparison": {
     "passed": true,
-    "claims": 46,
-    "distinct_evidence_files": 46,
-    "per_environment_exact_SHA256_checks": 92,
+    "claims": 49,
+    "distinct_evidence_files": 49,
+    "per_environment_exact_SHA256_checks": 98,
     "raw_claim_manifests_identical": false,
     "scientific_claims_exactly_identical": true,
     "numerical_acceptance_tolerances_changed": false,
@@ -632,8 +668,8 @@
           "grid_refinement[3].heldout_policy_evaluation.elapsed_seconds",
           "grid_refinement[4].heldout_policy_evaluation.elapsed_seconds"
         ],
-        "before_sha256": "43e9e238eb039c6dd1e2907fef24e98412bbeb44be84469b3744c28023ac2860",
-        "after_sha256": "5b7a9ddb2389505e507175861291f19e36142bc29a244b204c72b27bd04dae8a",
+        "before_sha256": "0f837867de2719e5816a94462512eabc67f22364abc36861853e13d55907433c",
+        "after_sha256": "170db481685f8fadc3622910468c0e317f21f534174894b8728ad4232add9517",
         "scientific_fields_exactly_identical": true
       }
     ]
@@ -642,10 +678,10 @@
   "full_prior_numerical_run": "outputs/diagnostics/container_validation.json",
   "current_numerical_core_comparison": "outputs/diagnostics/scientific_code_comparison.json",
   "test_results": {
-    "tests": 490,
+    "tests": 496,
     "test_failures": 0
   },
-  "extension_scope": "Donald final supplied source, four-element partial finite-feed process, missed target, routes and ownership; all eleven requested document identities; MP operating origin/ownership/routing and VEU facility/item permissions/removals; independently recomputed fixed-opponent dynamic deviations and request readiness; Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules",
+  "extension_scope": "KMP operating disclosures and named route episodes; Donald final supplied source, four-element partial finite-feed process, missed target, routes and ownership; all eleven requested document identities; MP operating origin/ownership/routing and VEU facility/item permissions/removals; independently recomputed fixed-opponent dynamic deviations and request readiness; Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules",
   "executed_script_sha256": {
     "scripts/analyze_donald.py": "3a0a42ea7c9589036f81389c158cc6622734e09edc6fa8f7e94ccef80343616c",
     "scripts/analyze_entity_schedules.py": "219e9895c116429c261a5354072ca3277b896b2bcd386c5a3509e15c0337fc7b",
@@ -657,7 +693,7 @@
     "scripts/analyze_supplied_evidence.py": "422e9bf42e99c644e566c3bceed7db1f8220ef8f7a88ad59ace2277837bef855",
     "scripts/analyze_veu_extension.py": "7d9a0f6e57c799fb1f078d3b5da6aed82804ac6fe7442ced76a5397c0eda66b7",
     "scripts/audit_game.py": "aa7be615ee091d97890e9494eba378cd70ef52d9671396e231a36dd86565dffa",
-    "scripts/audit_original_quotes.py": "aeadefa4f689aded288780c0d44aa01757ded5796c0d9cb8383f404830084ac4",
+    "scripts/audit_original_quotes.py": "ddba7d48bb53457782e34d553347e77884d920d1fc74f324b1b2745266d12959",
     "scripts/audit_project_observations.py": "34a842713f0ba51d2ef7785f16affdc615cfd7d68837171ad0e1d435fed58f2b",
     "scripts/build_citation_audit.py": "2080bedc97dd23026936e281777f1b9df66afc72d5a4c8457ff6864a112bab04",
     "scripts/build_container.py": "5d1ea16834abb7d3303ee48a2c78450c9a4e28bfd88c278ef5860b79baabc7c3",
@@ -666,6 +702,7 @@
     "scripts/build_evidence_coverage.py": "730d6224fd734249962f685836aa714933f0dcd1c274246243986dc5f9a440dc",
     "scripts/build_finance_material.py": "36c0ca9964548af7e22d59ae1546d1d09da94f73354d93a212649ab8f372ff14",
     "scripts/build_industrial_evidence.py": "6b11735a4ba733d409ecc63753b33afa3c17338398365c3854483bffd30cef4a",
+    "scripts/build_kmp_shipments.py": "05de118ce570babeead748daeaafb34eb4c1e976a1bb96c794ff6da3528131be",
     "scripts/build_legal_provisions.py": "55c9fbf19464f27e3c29d9507ec0739978e7f400227764f901607fb85802803f",
     "scripts/build_lynas_history.py": "580afce6518337e023fc8629275adbcce88e2847705466bbf4186b65544e12a9",
     "scripts/build_lynas_revisions.py": "7d0a12f80209940bcf88ce06cacc9df40e9e7c172a3be16e819037896dd08858",
@@ -676,7 +713,7 @@
     "scripts/build_project_histories.py": "b53b40fd46446298c89e067c39abfe93538b8b4f38486b3652315d57f0e19499",
     "scripts/build_project_registry.py": "225c688ff4c8286a9fbd1ae4fc477d3c063882bebde079f30a7646f15234448a",
     "scripts/build_publication_extension.py": "b2bdb47a653b9518ab2141aa69a545003b46f45629219db656fea495012dc954",
-    "scripts/build_rare_earth_followup.py": "28ebfd575ed5116acafb91f5db874202d2d9a9aaf7181da115e5a51e8dd50719",
+    "scripts/build_rare_earth_followup.py": "41ed43ece2bf5116d0250f02152fa91f94b75ad3481bbdc0be54b0d363d9cc82",
     "scripts/build_rare_earths.py": "206f6b95e264186fdcc9d65c6fa0744d8fd76ac9f8f550e8eed499232db86733",
     "scripts/build_smic_operations.py": "97ae77fcdf34066f3fd29cc36cde85b2860bc5eb6b56f11ac17443ac115c19f3",
     "scripts/build_source_requests.py": "c1ec77e80ed6f04bb133fc3511e647374703264de67681d49dcd4fe46032cb41",
@@ -684,7 +721,7 @@
     "scripts/build_veu_extension.py": "264f73440eeede9a659051f4244e2ee8506a0d5733d6fb7f96a421f2d0a8db25",
     "scripts/build_white_mesa.py": "f2c2eaa1f7216e0a8c84987ad839066a0e8ec354f31786695641365e40ca97f2",
     "scripts/container_check.py": "3417b2ab667d2358201057d52f7404b2cf9ff5889a6790d7376177783a10e87d",
-    "scripts/container_extension_check.py": "3e1640d661e4777eafeba1ae327c3bf62525dc242bb0a37a4c4a98b574cd29c9",
+    "scripts/container_extension_check.py": "f0722e5c5832bfb90043d847d0be83c55a595d210358a5c8f011846b39a0dcf7",
     "scripts/discover_legal.py": "a3bf6b00969ffc61b2a643cc06a3db5328766ac852aa0c8b8ae552a66afef06e",
     "scripts/evaluate_supplied_guidance.py": "9712009525d191426d601b06ae8aeaf5d2292253f86444a3982cb67347526f5b",
     "scripts/fetch.py": "4028b5a286c5e09cb623f7714d0dafdbe71692d000b72cd8fc50d6cb792ea230",
@@ -692,8 +729,8 @@
     "scripts/fetch_literature.py": "04d70e6fc16415a005c43420fbaccf5a9ecc3ff471ed17a0b54873bd840b9297",
     "scripts/plot_evidence_extensions.py": "88b1f21da16b042fdf7ceac174bc3bb62ab1c3a66a1b2e9a64e7a03e9b3d2fdd",
     "scripts/plot_white_mesa.py": "3e5e2de9be57d87cc2ea7a1974bfbc9e40defeabe14ceddeef0573ac34d20707",
-    "scripts/replicate.py": "ed6fb37f70cf80ce1741bd23463a88ed5113ce1de07a607870057e50d609226e",
-    "scripts/report.py": "a6fecfee4d983b2918c5691df184a4cddcf92950b4b438ffd7ac5fa72ca86673",
+    "scripts/replicate.py": "ab672e6a032b2710d1fe636e42f313fd8ff20f5496d7bee67fa44207ca93d46a",
+    "scripts/report.py": "77499769fc31398c58af52589946f9879624d64b87493f80fc9a71d11d2719c4",
     "scripts/resolve_publication_clocks.py": "6799d90918f8c8a0664dace94e9c2182a3d1c3e71edd0ff05ca77c393b545de7",
     "scripts/restore_omitted_sources.py": "94f1249c60204f0832f974f2ef52bb2ee4447de87d304559c1253574d11fc000",
     "scripts/review_legal_discovery.py": "219b0fd83ee501267fc1f3aa111cd12c13967ee5bdeea7ac8006be0f36203acf",
@@ -710,8 +747,8 @@
     "scripts/run_physical.py": "820201133a104fa6db645162bc6eab0fca9f4ca4f2994c93aeeca3baf3926ea9",
     "scripts/run_safeguarded_game.py": "7d9f07c44d746ff615a0b5b2c6819eae29fdf52f274b30e97f6791c9cded5879",
     "scripts/run_semiconductors.py": "663467db0cecf400c472a289e92324aebfdfc23cbe61529558d58ce8787ff06b",
-    "scripts/update_status.py": "f978a78704a7135d6d5cb3c79609c4a60593d9ba4291e23f53f2398e406d156b",
-    "scripts/validate.py": "98bdaf43dbd4f0fce38b2e4d3fdd22cb8152cec2777a0e7a267d61c5dd9fa3e0",
-    "scripts/verify_release.py": "8bedabd170f4f5f95005100e08b6c836da8bc6c0eed7e67ec43a693aa880c41b"
+    "scripts/update_status.py": "0864fb063527d29b66bc1273678592769069cbe35ec47d72e69f9d610ffe48c6",
+    "scripts/validate.py": "32b2fbb4106043872344e5552a86253f38b14c1092d5d151f172d6a496c0d668",
+    "scripts/verify_release.py": "7eb02f54eb3b30e3ceaddd189abf8193a0e77302d7f266f488be41d9c6d27297"
   }
 }

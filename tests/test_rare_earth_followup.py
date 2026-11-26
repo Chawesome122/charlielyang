@@ -81,3 +81,18 @@ def test_capacity_comparison_preserves_dashes_and_conflicting_native_values(sour
     header.string = "NdPr (kg)"
     with pytest.raises(ValueError, match="native capacity units"):
         capacity_cells(soup)
+
+
+def test_export_and_qualification_appear_at_separate_public_origins():
+    import csv
+
+    path = ROOT / "data/processed/rare_earth_followup/qualification_and_export_vintages.csv"
+    with path.open() as stream:
+        rows = {(row["origin"], row["milestone"]): row for row in csv.DictReader(stream)}
+    export = "donald_reported_us_export_approval"
+    tb = "white_mesa_tb_customer_qualification"
+    assert rows["2026-08-31", export]["public_at_origin"] == "False"
+    assert rows["2026-09-01", export]["public_at_origin"] == "True"
+    assert rows["2026-08-18", tb]["public_at_origin"] == "False"
+    assert rows["2026-08-19", tb]["public_at_origin"] == "True"
+    assert all(row["confirmed_shipment"] == row["verified_route_capacity"] == "" for row in rows.values())

@@ -114,7 +114,9 @@ def main():
         f" Rare-earth follow-up: {followup['source_claims']} claims, {followup['capacity_native_cells']} source "
         "capacity cells and eight Donald information origins. White Mesa design versions diverge, "
         "Upton documents separate pre- and post-rework milestones, and a dated ASM transaction changes "
-        "reported ownership. No measured network flows or representative first-exit spells admitted."
+        "reported ownership. The September 1 original announcement documents reported Donald REEC export approval. "
+        "White Mesa oxide customer-qualification evidence remains separate from stable throughput. "
+        "No representative first-exit spells admitted."
     )
     for rid in ["14-04", "14-07", "14-08", "14-21", "C01", "C02", "C04", "C05"]:
         idx = audit.index[audit.requirement_id.eq(rid)][0]
@@ -125,6 +127,22 @@ def main():
             ";docs/rare_earth_followup_review.md;data/processed/rare_earth_followup"
             ";outputs/diagnostics/rare_earth_followup_validation.json"
         )
+    kmp = summary["kmp_shipments"]
+    kmp_note = (
+        f" KMP release: {kmp['source_claims']} page-bound claims from {kmp['source_quarterly_reports']} quarterly "
+        "reports, four native comparisons and seven named route episodes. Reported dispatch and receipt clocks, "
+        "actual shipments and orders, and mixed metal and alloy scope are distinct. No complete qualified route, "
+        "opening stock, yield or service admitted."
+    )
+    for rid in ["14-04", "14-08", "14-21", "C01", "C02"]:
+        idx = audit.index[audit.requirement_id.eq(rid)][0]
+        prior = str(audit.loc[idx, "executed_evidence"]).split(" KMP release:")[0]
+        audit.loc[idx, "executed_evidence"] = prior + kmp_note
+        prior = str(audit.loc[idx, "evidence_paths"]).split(";docs/kmp_shipments_review.md")[0]
+        audit.loc[idx, "evidence_paths"] = prior + (
+            ";docs/kmp_shipments_review.md;data/processed/kmp_shipments"
+            ";outputs/diagnostics/kmp_shipments_validation.json"
+        )
     audit.to_csv(ROOT/"audit/blueprint_requirements.csv",index=False)
     counts=audit.status.value_counts().to_dict()
     text=f"""# Research status — resumable execution ledger
@@ -132,6 +150,8 @@ def main():
 Information freeze: **2026-10-11**. Research execution date: {execution_date} (UTC). Methodological attachment:49pages. The task began from an empty, unborn Git checkout. The continuation request authorizes Git push; no journal submission has occurred.
 
 ## Implemented and executed
+
+- KMP physical disclosures add **{kmp['source_claims']} source claims from {kmp['source_quarterly_reports']} archived ASX releases** and **{kmp['distinct_route_episodes']} named shipment or receipt episodes**. The July 2026 filing reports about 36 tonnes of alloy and about nine tonnes of mixed Nd and NdPr metal dispatched in Q2. Changes in dispatch mix, customer receipts and purchase orders have separate clocks. See `docs/kmp_shipments_review.md`.
 
 - Rare-earth follow-up verified **{followup['source_clocks']} source clocks / {followup['source_claims']} quotations / {followup['capacity_native_cells']} native table cells** and added {followup['dated_project_snapshots']} project observations. Upton issuer updates document initial shakedown followed by modification and phased operations. White Mesa Phase 1 construction was public by July 29, and its August filing preserves divergent capacity values. Energy Fuels reported closing the ASM acquisition on August 28. Astron revised its Phase 1 FID target to Q4 on September 30. See `docs/rare_earth_followup_review.md`.
 
@@ -238,7 +258,7 @@ No action is required simply to prompt another continuation. All eleven requeste
 
 ## Exact next milestone
 
-1. Read `docs/rare_earth_followup_review.md`. Seek White Mesa batch-form confirmation, matched circuit-level schedules and an NdPr stock-flow bridge. Seek Upton completion acceptance records and pre-freeze evidence of end-to-end processing, Donald actual FID and permit bytes, and qualified all-input origins/rates/recipes across White Mesa, KMP and final magnet delivery. Representative surveillance and matched grade demand are required before hazards or service can be estimated. Annual-report release clocks and original-at-vintage evidence remain separate gaps.
+1. Read `docs/kmp_shipments_review.md` and `docs/rare_earth_followup_review.md`. Link KMP shipments to input lots, assays, measured recovery and qualified destination use. Seek White Mesa batch-form confirmation, circuit schedules and an NdPr stock-flow bridge, Upton acceptance and end-to-end processing records, and the Donald FID, permit instrument and actual shipments. Representative surveillance and matched grade demand are required before hazards or service can be estimated. Annual-report release clocks and original-at-vintage evidence remain separate gaps.
 2.Obtain engineering review and qualified semiconductor z/f observations; finish primary legal consolidation.
 3.Establish opacity obligations and blinded independent coding before estimating project associations.
 4.Fit empirical transitions/state laws only when these gates pass; continue negative-beta solver work with truthful failure labels.
@@ -258,7 +278,16 @@ Use the existing isolated checkout, not a new worktree. Every unfinished input s
         '1.Read':'1. Read','2.Obtain':'2. Obtain','3.Establish':'3. Establish','4.Fit':'4. Fit','5.Run':'5. Run',
     }.items():text=text.replace(old,new)
     (ROOT/"RESEARCH_STATUS.md").write_text(text)
-    (ROOT/"audit/summary.json").write_text(json.dumps(dict(requirements=len(audit),counts=counts,publication_ready=False),indent=2))
+    by_category = {
+        category: part.status.value_counts().to_dict()
+        for category, part in audit.groupby("category")
+    }
+    audit_summary = dict(
+        requirements=len(audit), counts=counts, by_category=by_category,
+        requirements_not_fully_verified=len(audit) - counts.get("VERIFIED", 0),
+        publication_ready=False,
+    )
+    (ROOT / "audit/summary.json").write_text(json.dumps(audit_summary, indent=2) + "\n")
     print(json.dumps(counts,indent=2))
 
 

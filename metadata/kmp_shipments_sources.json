@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "ASM-2025Q2",
+    "archive_path": "data/raw/kmp_shipments/3e784d675674f4784333bdbc86b45bd2d1638ec92faaa52032b0036c6868f77c.pdf",
+    "source_url": "https://wcsecure.weblink.com.au/pdf/ASM/02969888.pdf",
+    "retrieved_utc": "2026-11-26T05:57:47+00:00",
+    "sha256": "3e784d675674f4784333bdbc86b45bd2d1638ec92faaa52032b0036c6868f77c",
+    "byte_count": 1479072,
+    "info_public_date": "2025-07-23",
+    "report_period_end": "2025-06-30",
+    "dateline": "23 July 2025",
+    "publication_basis": "exchange_announcement_dateline",
+    "public_clock_source_id": "ASM-2025Q2",
+    "original_at_vintage_bytes_certified": false
+  },
+  {
+    "source_id": "ASM-2025Q3",
+    "archive_path": "data/raw/kmp_shipments/d8729224f2abb2e3b43c80d6de432f424d9d7d01275a0fb2a9478ce72b7b0a1f.pdf",
+    "source_url": "https://wcsecure.weblink.com.au/pdf/ASM/03013603.pdf",
+    "retrieved_utc": "2026-11-26T05:56:21+00:00",
+    "sha256": "d8729224f2abb2e3b43c80d6de432f424d9d7d01275a0fb2a9478ce72b7b0a1f",
+    "byte_count": 2307092,
+    "info_public_date": "2025-10-27",
+    "report_period_end": "2025-09-30",
+    "dateline": "27 October 2025",
+    "publication_basis": "exchange_announcement_dateline",
+    "public_clock_source_id": "ASM-2025Q3",
+    "original_at_vintage_bytes_certified": false
+  },
+  {
+    "source_id": "ASM-2025Q4",
+    "archive_path": "data/raw/kmp_shipments/ff9ed1ffd0543cb175789387a44d14abd4a98f9a00e657f7440613108f74ae70.pdf",
+    "source_url": "https://wcsecure.weblink.com.au/pdf/ASM/03050700.pdf",
+    "retrieved_utc": "2026-11-26T05:56:21+00:00",
+    "sha256": "ff9ed1ffd0543cb175789387a44d14abd4a98f9a00e657f7440613108f74ae70",
+    "byte_count": 924320,
+    "info_public_date": "2026-01-30",
+    "report_period_end": "2025-12-31",
+    "dateline": "30 January 2026",
+    "publication_basis": "exchange_announcement_dateline",
+    "public_clock_source_id": "ASM-2025Q4",
+    "original_at_vintage_bytes_certified": false
+  },
+  {
+    "source_id": "ASM-2026Q1",
+    "archive_path": "data/raw/kmp_shipments/cd3be86c4ddf7f353ada9cd2cdc6fb9d396844f3dea2a7a00ad0406459dace73.pdf",
+    "source_url": "https://wcsecure.weblink.com.au/pdf/ASM/03084280.pdf",
+    "retrieved_utc": "2026-11-26T05:55:59+00:00",
+    "sha256": "cd3be86c4ddf7f353ada9cd2cdc6fb9d396844f3dea2a7a00ad0406459dace73",
+    "byte_count": 1520297,
+    "info_public_date": "2026-04-30",
+    "report_period_end": "2026-03-31",
+    "dateline": "30 April 2026",
+    "publication_basis": "exchange_announcement_dateline",
+    "public_clock_source_id": "ASM-2026Q1",
+    "original_at_vintage_bytes_certified": false
+  },
+  {
+    "source_id": "ASM-2026Q2",
+    "archive_path": "data/raw/kmp_shipments/7f77d18f4fdeef25129e3a9ecf7d9b159c0dc6b1bede5114e94ce8ab3ac08347.pdf",
+    "source_url": "https://wcsecure.weblink.com.au/pdf/ASM/03115975.pdf",
+    "retrieved_utc": "2026-11-26T05:56:21+00:00",
+    "sha256": "7f77d18f4fdeef25129e3a9ecf7d9b159c0dc6b1bede5114e94ce8ab3ac08347",
+    "byte_count": 1178611,
+    "info_public_date": "2026-07-30",
+    "report_period_end": "2026-06-30",
+    "dateline": "30 July 2026",
+    "publication_basis": "exchange_announcement_dateline",
+    "public_clock_source_id": "ASM-2026Q2",
+    "original_at_vintage_bytes_certified": false
+  }
+]

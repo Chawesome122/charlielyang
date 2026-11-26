@@ -340,5 +340,68 @@
     "event_date_upper": null,
     "locator": "PDF page 1, Project update",
     "pattern": "discussions remain ongoing and are expected to conclude in the coming quarter, with a lending package of \\$200 million now targeted"
+  },
+  {
+    "claim_id": "FU:donald_us_reec_export_approval",
+    "source_id": "RE-FU-ATR-SEP01",
+    "evidence_role": "observed_snapshot",
+    "event_date_lower": null,
+    "event_date_upper": "2026-09-01",
+    "locator": "PDF page 1, exchange announcement",
+    "pattern": "Commonwealth Government has approved the export of rare earth element concentrate \\(REEC\\) from the Donald Rare Earth and Mineral Sands Project \\(Donald, Donald Project\\) to the United States"
+  },
+  {
+    "claim_id": "FU:donald_export_renewal",
+    "source_id": "RE-FU-ATR-SEP01",
+    "evidence_role": "regulatory_scope",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "PDF page 1, exchange announcement",
+    "pattern": "Export permits issued under the Regulations require renewal on a biennial basis"
+  },
+  {
+    "claim_id": "FU:donald_export_destination_intention",
+    "source_id": "RE-FU-ATR-SEP01",
+    "evidence_role": "conditional_route",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "PDF page 1, exchange announcement",
+    "pattern": "It will be exported to the United States for processing into rare earth oxides at Energy Fuels’ White Mesa Mill in Utah"
+  },
+  {
+    "claim_id": "FU:donald_q3_target_september",
+    "source_id": "RE-FU-ATR-SEP01",
+    "evidence_role": "target",
+    "event_date_lower": "2026-07-01",
+    "event_date_upper": "2026-09-30",
+    "locator": "PDF page 1, exchange announcement",
+    "pattern": "a Final Investment Decision is targeted for Q3 2026"
+  },
+  {
+    "claim_id": "FU:white_mesa_tb_buyer_qualification",
+    "source_id": "RE-FU-EF-AUG-TB",
+    "evidence_role": "observed_by",
+    "event_date_lower": null,
+    "event_date_upper": "2026-08-19",
+    "locator": "Issuer release, customer qualification",
+    "pattern": "The Japan-based manufacturer has informed Energy Fuels that the Tb oxide produced at its White Mesa Mill in Utah meets their specifications and is approved for use in commercial REPM production with no further qualification or validation required"
+  },
+  {
+    "claim_id": "FU:white_mesa_dy_initial_benchmarks",
+    "source_id": "RE-FU-EF-DEC-DY",
+    "evidence_role": "observed_by",
+    "event_date_lower": null,
+    "event_date_upper": "2025-12-19",
+    "locator": "Issuer release, customer qualification",
+    "pattern": "its high purity dysprosium \\(Dy\\) oxide has passed all initial purity and quality assurance and quality control \\(QA/QC\\) benchmarks of a major South Korean automotive manufacturer for downstream rare earth permanent magnet \\(REPM\\) production"
+  },
+  {
+    "claim_id": "FU:white_mesa_dec_heavy_design",
+    "source_id": "RE-FU-EF-DEC-DY",
+    "evidence_role": "design",
+    "event_date_lower": null,
+    "event_date_upper": null,
+    "locator": "Issuer release, commercial-scale plans",
+    "pattern": "up to (?P<dy>48) metric tons \\(tonnes\\) of Dy oxide and (?P<tb>14) tonnes of Tb oxide, subject to available feed"
   }
 ]

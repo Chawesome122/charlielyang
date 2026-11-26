@@ -17,3 +17,6 @@ RE-FU-EF-ASM,2026-08-28,RE-FU-EF-ASM,bf1aeb17863e14ab21100753c449ec716dacea1cafe
 RE-FU-EF-ASM-SEC,2026-08-28,RE-FU-EF-ASM-INDEX,d10d467237bb71f665d39b62d72451d36282c82a7372cc9efc474c399dfd167f,sec_filing_index,"EDGAR index, Filing Date; Accepted 2026-08-28 16:56:49",False
 RE-FU-EF-ASM-INDEX,2026-08-28,RE-FU-EF-ASM-INDEX,d10d467237bb71f665d39b62d72451d36282c82a7372cc9efc474c399dfd167f,sec_index_dateline,"EDGAR index, Filing Date; Accepted 2026-08-28 16:56:49",False
 RE-FU-ATR-SEP30,2026-09-30,RE-FU-ATR-SEP30,f9fd0693acebc29e1236574e10dd42dd34ddd2e09e0517f997c71126a5467c83,exchange_announcement_dateline,"PDF page 1, exchange announcement dateline",False
+RE-FU-ATR-SEP01,2026-09-01,RE-FU-ATR-SEP01,a1735001a19c470436cac4deb2bc0d228052420e7fc14c4aad76d2a20c733fd9,exchange_announcement_dateline,"PDF page 1, exchange announcement dateline",False
+RE-FU-EF-AUG-TB,2026-08-19,RE-FU-EF-AUG-TB,75ca1d9d23ea83b78551fb08ab0b462f4854aebc7f03e5fa9dab3ad23718e638,issuer_dateline,dated release text,False
+RE-FU-EF-DEC-DY,2025-12-19,RE-FU-EF-DEC-DY,d72f8d69a6190305ab6e33cf9dcf09a6c5d1d6621a1b328786ab060c711e4e7a,issuer_dateline,dated release text,False

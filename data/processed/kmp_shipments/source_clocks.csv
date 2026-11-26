@@ -1,0 +1,6 @@
+source_id,info_public_date,public_clock_source_id,public_clock_sha256,publication_basis,public_clock_locator,original_at_vintage_bytes_certified,report_period_end
+ASM-2025Q2,2025-07-23,ASM-2025Q2,3e784d675674f4784333bdbc86b45bd2d1638ec92faaa52032b0036c6868f77c,exchange_announcement_dateline,"PDF page 1, exchange announcement dateline",False,2025-06-30
+ASM-2025Q3,2025-10-27,ASM-2025Q3,d8729224f2abb2e3b43c80d6de432f424d9d7d01275a0fb2a9478ce72b7b0a1f,exchange_announcement_dateline,"PDF page 1, exchange announcement dateline",False,2025-09-30
+ASM-2025Q4,2026-01-30,ASM-2025Q4,ff9ed1ffd0543cb175789387a44d14abd4a98f9a00e657f7440613108f74ae70,exchange_announcement_dateline,"PDF page 1, exchange announcement dateline",False,2025-12-31
+ASM-2026Q1,2026-04-30,ASM-2026Q1,cd3be86c4ddf7f353ada9cd2cdc6fb9d396844f3dea2a7a00ad0406459dace73,exchange_announcement_dateline,"PDF page 1, exchange announcement dateline",False,2026-03-31
+ASM-2026Q2,2026-07-30,ASM-2026Q2,7f77d18f4fdeef25129e3a9ecf7d9b159c0dc6b1bede5114e94ce8ab3ac08347,exchange_announcement_dateline,"PDF page 1, exchange announcement dateline",False,2026-06-30

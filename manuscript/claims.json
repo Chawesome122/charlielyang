@@ -165,7 +165,7 @@
     "claim": "Legacy quotes and quarterly cells rechecked against immutable hash-verified original byte snapshots with PDF page enforcement",
     "classification": "original_source_integrity_audit",
     "evidence": "data/processed/source_integrity/original_quote_audit.csv",
-    "sha256": "75d6f9408965b67c572f0395aa78ef9b1b7808433c0da494761151229b59013e"
+    "sha256": "c5a5f706b7105ff2d52e6667b6423dc5738d71112d5e2da8f6fd8d8b7ff74b40"
   },
   {
     "claim": "White Mesa source versions distinguish bulk feed, contained TREO, separated forms and in-process stocks; the 2024 run's oxalate/oxide descriptions require adjudication",
@@ -255,13 +255,13 @@
     "claim": "Finite-grid candidates do not certify a continuum MPE; negative beta fine grids failed",
     "classification": "numerical_scenario",
     "evidence": "outputs/scenario/game/independent_saved_candidate_audit.json",
-    "sha256": "43e9e238eb039c6dd1e2907fef24e98412bbeb44be84469b3744c28023ac2860"
+    "sha256": "0f837867de2719e5816a94462512eabc67f22364abc36861853e13d55907433c"
   },
   {
     "claim": "White Mesa reported by July 29 that Phase 1 heavy-circuit construction was underway. August prose and table retain different Tb and Dy design figures, and the prior July combined NdPr differs from the August table.",
     "classification": "issuer_reported_construction_and_design_versions",
     "evidence": "data/processed/rare_earth_followup/capacity_comparisons.csv",
-    "sha256": "a37a3f39c58ca0befceeb3fdf6104abf1fa6661efb3d73f85c95db39aa131524"
+    "sha256": "0331546a118a778d4f6f678443b471fcf31f7841cf2efc2b109986508cf70df4"
   },
   {
     "claim": "Astron revised the Phase 1 FID target to Q4 on September 30. The revision and pre-FID work do not identify an actual FID date by the freeze.",
@@ -273,6 +273,24 @@
     "claim": "Archived issuer sources distinguish Upton initial shakedown, upgrades and phased operations, and a completed ASM acquisition from the proposed VAC acquisition and future material flows.",
     "classification": "source_reported_event_definition_and_ownership_evidence",
     "evidence": "data/processed/rare_earth_followup/claims.csv",
-    "sha256": "dc09b558011d81c4ce75a43874b6550aed9028027a6604d894e481db4cd2a74a"
+    "sha256": "d7596aaa3a927e6c2016adf382473ce8467d732cd57a6bf072934979512275c4"
+  },
+  {
+    "claim": "KMP quarterly native dispatches and production establish opposite movements for alloy and mixed metal in 2026 Q2 and signed production-minus-dispatch comparisons in 2025 Q3. Opening stocks and yields are unobserved.",
+    "classification": "issuer_reported_dispatch_and_production_comparisons",
+    "evidence": "data/processed/kmp_shipments/native_comparisons.csv",
+    "sha256": "099a9d6d04316a9c9b4d1ad7b8ef79f1c4995415eecda7fdc566d4456475ea48"
+  },
+  {
+    "claim": "The issuer identified named KMP dispatch and receipt episodes including the same VAC shipment crossing quarter end and two distinct metals in one reported Narva shipment.",
+    "classification": "documented_downstream_shipping_and_delivery_episodes",
+    "evidence": "data/processed/kmp_shipments/route_episodes.csv",
+    "sha256": "e1b6adbd0d6c2867e1c446474fff547900c1a238955a76cb5b46f41f8424215d"
+  },
+  {
+    "claim": "Astron reported an export approval to the United States on September 1. Earlier issuer announcements distinguish White Mesa initial Dy benchmarks from its Tb customer qualification. These observations leave stable qualified route capacity unmeasured.",
+    "classification": "vintaged_issuer_permit_and_customer_acceptance",
+    "evidence": "data/processed/rare_earth_followup/qualification_and_export_vintages.csv",
+    "sha256": "1dc33ae970db121ad517a64353bec8fc4f66ec1d284886fd2483cd2fad2ab956"
   }
 ]

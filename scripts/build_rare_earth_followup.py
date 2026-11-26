@@ -44,6 +44,13 @@ def main():
     ))
     if not all(row["table_components_reconcile"] for row in capacity):
         raise ValueError("White Mesa table arithmetic does not reconcile")
+    december_design = values["FU:white_mesa_dec_heavy_design"]
+    for row in capacity:
+        earlier = december_design.get(row["element"])
+        row["december_2025_phase1_prose"] = earlier
+        row["december_2025_matches_august_2026_table"] = (
+            earlier == row["table_phase1"] if earlier is not None else None
+        )
 
     prior = pd.read_csv(ROOT / "data/processed/donald/fid_target_revision.csv").iloc[0]
     targets = [
@@ -109,7 +116,27 @@ def main():
             )
 
 
+    scope_claims = {
+        "white_mesa_dy_initial_customer_benchmarks": "FU:white_mesa_dy_initial_benchmarks",
+        "white_mesa_tb_customer_qualification": "FU:white_mesa_tb_buyer_qualification",
+        "donald_reported_us_export_approval": "FU:donald_us_reec_export_approval",
+    }
+    origins = ("2025-12-18", "2025-12-19", "2026-08-18", "2026-08-19", "2026-08-31",
+               "2026-09-01", FREEZE.isoformat())
+    permit_timeline = [
+        dict(origin=origin, milestone=scope, supporting_claim=claim_id,
+             claimed_by=by_id[claim_id]["info_public_date"],
+             public_at_origin=by_id[claim_id]["info_public_date"] <= origin,
+             verified_route_capacity=None, matched_opening_stock=None, confirmed_shipment=None)
+        for origin in origins for scope, claim_id in scope_claims.items()
+    ]
+
     audit = dict(
+        qualification_and_export_origin_checks=len(permit_timeline),
+        december_design_comparisons=sum(row["december_2025_phase1_prose"] is not None for row in capacity),
+        dated_issuer_reported_export_approval=by_id["FU:donald_us_reec_export_approval"]["info_public_date"],
+        reported_white_mesa_tb_qualification_public_by=by_id["FU:white_mesa_tb_buyer_qualification"]["info_public_date"],
+        permit_instrument_archived=False, stable_qualified_throughput_identified=False,
         passed=True, source_clocks=len(clocks), source_claims=len(claims),
         capacity_native_cells=len(cells), capacity_identity_checks=len(capacity),
         capacity_printed_dashes=sum(row["displayed_dash"] for row in cells),
@@ -136,6 +163,7 @@ def main():
         ("source_clocks", list(clocks.values())), ("claims", claims), ("capacity_native_cells", cells),
         ("capacity_comparisons", capacity), ("donald_target_vintages", fid),
         ("stock_at_freeze", [opening_stock]), ("project_snapshots", rosters),
+        ("qualification_and_export_vintages", permit_timeline),
     ]:
         pd.DataFrame(rows).to_csv(DATA / f"{name}.csv", index=False)
 

@@ -1,0 +1,10 @@
+claim_id,counterparty_or_scope,product_form,evidence_role,event_date_lower,event_date_upper,info_public_date,native_quantity,native_unit,episode_id,supplier,lot_level_input_origin,steady_route_capacity,finished_magnet_delivery
+KMP:noveon_q2_25,Noveon Magnetics,NdFeB_strip_alloy,observed_named_dispatch,2025-06-01,2025-06-30,2025-07-23,1.2,tonnes,noveon_2025_june_alloy,Korean Metals Plant,,,
+KMP:vac_dispatch_q2_25,Vacuumschmelze,NdFeB_strip_alloy,observed_named_dispatch,2025-06-30,2025-06-30,2025-07-23,1.2,tonnes,vac_2025_june_alloy,Korean Metals Plant,,,
+KMP:vac_receipt_q3_25,Vacuumschmelze,NdFeB_strip_alloy,observed_named_receipt,2025-07-01,2025-07-07,2025-07-23,1.2,tonnes,vac_2025_june_alloy,Korean Metals Plant,,,
+KMP:usare_sample_q2_25,USA Rare Earth,NdFeB_strip_alloy,observed_sample_dispatch,2025-04-01,2025-06-30,2025-07-23,100,kg,usare_2025_q2_sample,Korean Metals Plant,,,
+KMP:gkn_sample_q2_25,GKN,NdFeB_strip_alloy,observed_sample_receipt,2025-06-01,2025-06-30,2025-07-23,100,kg,gkn_2025_june_sample,Korean Metals Plant,,,
+KMP:magnequench_order_completed,Magnequench,NdPr_metal,observed_completed_order,,2025-06-30,2025-07-23,19,tonnes,magnequench_2025_completed_metal_order,Korean Metals Plant,,,
+KMP:narva_tb_dispatch,"Magnequench / Neo Narva, Estonia",Tb_metal,observed_named_dispatch,2025-07-01,2025-09-30,2025-10-27,2,kg,neo_2025_q3_hre_shipment,Korean Metals Plant,,,
+KMP:narva_dy_dispatch,"Magnequench / Neo Narva, Estonia",Dy_metal,observed_named_dispatch,2025-07-01,2025-09-30,2025-10-27,2,kg,neo_2025_q3_hre_shipment,Korean Metals Plant,,,
+KMP:neo_dy_delivery_q4_25,Neo Performance Materials,Dy_metal,observed_named_receipt,2025-12-01,2025-12-31,2026-01-30,13,kg,neo_2025_december_dy_delivery,Korean Metals Plant,,,

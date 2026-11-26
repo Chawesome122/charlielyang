@@ -100,7 +100,7 @@ def source_clocks(root, sources):
     return result
 
 
-def extract_claims(root, specs, sources, clocks):
+def extract_claims(root, specs, sources, clocks, *, preserve_native_tokens=False):
     originals = {}
     claims = []
     values = {}
@@ -127,7 +127,9 @@ def extract_claims(root, specs, sources, clocks):
         if len(matches) != 1 or cid in values:
             raise ValueError(f"Missing, ambiguous or repeated source claim: {cid}")
         quote, named_values = matches.pop()
-        values[cid] = {key: int(value.replace(",", "")) for key, value in named_values}
+        values[cid] = dict(named_values) if preserve_native_tokens else {
+            key: int(value.replace(",", "")) for key, value in named_values
+        }
         lower, upper = (date.fromisoformat(spec[field]) if spec[field] else None
                         for field in ("event_date_lower", "event_date_upper"))
         if lower and (upper is None or upper < lower):

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "freeze": "2026-10-11",
+  "empirical_class": "primary_legal_text_descriptive_extract",
+  "original_documents": 3,
+  "source_artifacts": 6,
+  "selected_provision_claims": 41,
+  "exact_quoted_elements": 65,
+  "exact_dates_elements": 3,
+  "structured_technical_bounds": 24,
+  "verified_parameter_restatement_links": 4,
+  "public_clock_basis": "conservative_FR_publication; earlier_inspection_not_certified",
+  "original_at_publication_byte_vintage_certified": false,
+  "current_law_consolidation_certified": false,
+  "numerical_access_effect_estimated": false,
+  "severity_score_assigned": false,
+  "observed_license_approvals": 0,
+  "independent_legal_or_second_coder_review": false,
+  "gaps": [
+    "complete amendment, rescission, enforcement and country-group consolidation to freeze",
+    "intervening April2024, January2025 and later amendments beyond selected exact clauses",
+    "all underlying part734 jurisdiction/FDP and parts744/746 end-use/end-user conditions",
+    "complete NAC/ACA, TGL, related software/technology and Entity List transactions",
+    "first-public-inspection/source-at-vintage certification",
+    "transaction-level licenses, usable shipments, installed tools and technical target evidence",
+    "qualified independent legal review and blinded second coding"
+  ],
+  "outputs": {
+    "amendment_links.csv": "ed996f966aca7cc44c5966ebd7f1f929e510de429123ba1e7049b28b1e082549",
+    "issued_phase_checks.csv": "bc451a08bb88a7961590af7c69b07e0706d9d5b3a553d0d88c73b8bf01b24933",
+    "provisions.csv": "b04bc43ef718a3ab397b9e166c1eb987c6958b8a0b620c8805aa694346d12118",
+    "quoted_elements.csv": "c5f1605a23b0eabd37d226fc0558cbcb77c68e60f75f35479550ec86e237f87c",
+    "technical_bounds.csv": "b55af5862e1f8d30e942064fb9aa84fb514f17cd9bef628366e8983b6d234477"
+  }
+}

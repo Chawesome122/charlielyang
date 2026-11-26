@@ -41,6 +41,7 @@ def main():
         ["scripts/build_supplied_evidence.py"],
         ["scripts/analyze_donald.py"],
         ["scripts/build_rare_earth_followup.py"],
+        ["scripts/build_kmp_shipments.py"],
         ["scripts/build_project_registry.py"],
         ["scripts/audit_project_observations.py"],
         ["scripts/build_evidence_coverage.py"],

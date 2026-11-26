@@ -106,8 +106,13 @@ def main():
     paths += [f"data/processed/rare_earth_followup/{name}.csv" for name in (
         "source_clocks", "claims", "capacity_native_cells", "capacity_comparisons",
         "donald_target_vintages", "stock_at_freeze", "project_snapshots",
+        "qualification_and_export_vintages",
     )]
     paths += ["outputs/diagnostics/rare_earth_followup_validation.json", "manuscript/white_mesa_followup_table.tex"]
+    paths += [f"data/processed/kmp_shipments/{name}.csv" for name in (
+        "source_clocks", "claims", "dispatch_asof_freeze", "origin_replay", "native_comparisons", "route_episodes",
+    )]
+    paths += ["outputs/diagnostics/kmp_shipments_validation.json", "manuscript/kmp_shipments_table.tex"]
     paths += ['metadata/parameter_registry.csv','metadata/claims_to_sources.csv']
     before = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in paths}
     claims_before=json.loads((ROOT/'manuscript/claims.json').read_text())
@@ -128,7 +133,7 @@ def main():
                   current_numerical_core_comparison="outputs/diagnostics/scientific_code_comparison.json")
     current = json.loads((ROOT/"outputs/research_summary.json").read_text())
     report["test_results"] = {key:current[key] for key in ["tests", "test_failures"]}
-    report["extension_scope"] = "Donald final supplied source, four-element partial finite-feed process, missed target, routes and ownership; all eleven requested document identities; MP operating origin/ownership/routing and VEU facility/item permissions/removals; independently recomputed fixed-opponent dynamic deviations and request readiness; " + "Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules"
+    report["extension_scope"] = "KMP operating disclosures and named route episodes; Donald final supplied source, four-element partial finite-feed process, missed target, routes and ownership; all eleven requested document identities; MP operating origin/ownership/routing and VEU facility/item permissions/removals; independently recomputed fixed-opponent dynamic deviations and request readiness; " + "Nine reciprocal constant-commitment scenario solves with analytic bounds and exact/full-payoff checks; three additional saved 17^4 negative-beta failures independently re-audited; nine Entity List original schedules: printed party/address versions, exact review conditions, source notes/instructions, filing/effective/publication clocks and XML quality flags; prior SMIC, MP, White Mesa, engineering/legal, vintage and scenario modules"
     report["executed_script_sha256"] = {str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                                        for path in sorted((ROOT/"scripts").glob("*.py"))}
     (ROOT/"outputs/diagnostics/container_extension_validation.json").write_text(json.dumps(report, indent=2))

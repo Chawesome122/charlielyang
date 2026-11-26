@@ -160,7 +160,8 @@ def main():
         ("veu_extension_validation.json", ["primary_quote_checks","rule_clock_checks","link_checks","origin_phase_checks"]),
         ("source_request_readiness.json", ["immutable_submission_pointer_checks"]),
         ("supplied_evidence_validation.json", ["source_identity_clock_checks","claims","smic_native_cells","legal_pdf_checks"]),
-        ("rare_earth_followup_validation.json", ["source_clocks", "capacity_native_cells", "capacity_identity_checks", "donald_vintage_checks", "stock_origin_checks"]),
+        ("kmp_shipments_validation.json", ["source_quarterly_reports", "native_comparisons", "origin_replay_rows", "named_route_observations"]),
+        ("rare_earth_followup_validation.json", ["source_clocks", "capacity_native_cells", "capacity_identity_checks", "donald_vintage_checks", "stock_origin_checks", "qualification_and_export_origin_checks", "december_design_comparisons"]),
         ("donald_validation.json", ["source_claims","numerical_checks","finite_feed_LP_checks","vintage_checks","route_readiness_records","cross_report_comparisons"]),
         ("mp_measurement_validation.json", ["native_cell_versions", "definition_claims", "numeric_quarter_annual_identities", "currency_inventory_identities"]),
         ("smic_operations_validation.json", ["source_claims", "verified_source_clocks", "definition_claims", "revenue_share_identities", "capacity_presentation_checks", "existing_R_and_D_crosschecks"]),
@@ -185,8 +186,15 @@ def main():
         "actual_donald_fid_date_identified", "qualified_route_capacity_identified",
         "current_opening_stock_admitted", "actual_recovery_estimated", "empirical_service_identified",
         "first_exit_spell_identified", "original_at_vintage_bytes_certified",
+        "permit_instrument_archived", "stable_qualified_throughput_identified",
     )):
         failures.append("Rare-earth follow-up exceeds the evidence")
+    kmp = json.loads((ROOT / "outputs/diagnostics/kmp_shipments_validation.json").read_text())
+    if any(kmp[key] for key in (
+        "empirical_service_identified", "linked_input_lots_identified", "opening_stock_admitted",
+        "operating_recovery_identified", "stable_route_capacity_identified", "representative_first_exit_identified",
+    )):
+        failures.append("KMP shipments or finite orders exceed the evidence")
     donald=json.loads((ROOT/'outputs/diagnostics/donald_validation.json').read_text())
     if any(donald[k] for k in ['actual_FID_date_identified','first_exit_risk_spell_identified','empirical_inventory_identified','operating_recovery_estimated','empirical_service_identified','forecast_probabilities_produced','source_bytes_at_freeze_certified','independent_engineering_review']):
         failures.append('Donald conditional design/target evidence promoted to unidentified empirical claim')

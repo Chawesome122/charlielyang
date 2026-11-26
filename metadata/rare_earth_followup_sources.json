@@ -232,5 +232,44 @@
     "dateline": "30 September 2026",
     "public_clock_source_id": "RE-FU-ATR-SEP30",
     "original_at_vintage_bytes_certified": false
+  },
+  {
+    "source_id": "RE-FU-ATR-SEP01",
+    "archive_path": "data/raw/rare_earth_followup/a1735001a19c470436cac4deb2bc0d228052420e7fc14c4aad76d2a20c733fd9.pdf",
+    "source_url": "https://wcsecure.weblink.com.au/pdf/ATR/03129914.pdf",
+    "retrieved_utc": "2026-11-26T06:05:00+00:00",
+    "sha256": "a1735001a19c470436cac4deb2bc0d228052420e7fc14c4aad76d2a20c733fd9",
+    "byte_count": 93699,
+    "info_public_date": "2026-09-01",
+    "dateline": "1 September 2026",
+    "publication_basis": "exchange_announcement_dateline",
+    "public_clock_source_id": "RE-FU-ATR-SEP01",
+    "original_at_vintage_bytes_certified": false
+  },
+  {
+    "source_id": "RE-FU-EF-AUG-TB",
+    "archive_path": "data/raw/rare_earth_followup/75ca1d9d23ea83b78551fb08ab0b462f4854aebc7f03e5fa9dab3ad23718e638.html",
+    "source_url": "https://investors.energyfuels.com/2026-08-19-Heavy-Rare-Earths-Produced-by-Energy-Fuels-Qualified-for-Use-by-Largest-Permanent-Magnet-Manufacturer-in-Japan",
+    "retrieved_utc": "2026-11-26T06:05:33+00:00",
+    "sha256": "75ca1d9d23ea83b78551fb08ab0b462f4854aebc7f03e5fa9dab3ad23718e638",
+    "byte_count": 93459,
+    "info_public_date": "2026-08-19",
+    "dateline": "Aug. 19, 2026",
+    "publication_basis": "issuer_dateline",
+    "public_clock_source_id": "RE-FU-EF-AUG-TB",
+    "original_at_vintage_bytes_certified": false
+  },
+  {
+    "source_id": "RE-FU-EF-DEC-DY",
+    "archive_path": "data/raw/rare_earth_followup/d72f8d69a6190305ab6e33cf9dcf09a6c5d1d6621a1b328786ab060c711e4e7a.html",
+    "source_url": "https://investors.energyfuels.com/2025-12-19-Energy-Fuels-US-Produced-Heavy-Rare-Earth-Oxide-Successfully-Qualified-for-Use-in-Permanent-Magnets",
+    "retrieved_utc": "2026-11-26T06:05:46+00:00",
+    "sha256": "d72f8d69a6190305ab6e33cf9dcf09a6c5d1d6621a1b328786ab060c711e4e7a",
+    "byte_count": 97208,
+    "info_public_date": "2025-12-19",
+    "dateline": "Dec. 19, 2025",
+    "publication_basis": "issuer_dateline",
+    "public_clock_source_id": "RE-FU-EF-DEC-DY",
+    "original_at_vintage_bytes_certified": false
   }
 ]

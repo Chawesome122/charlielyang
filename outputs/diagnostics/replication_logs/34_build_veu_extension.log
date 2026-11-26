@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "freeze": "2026-10-11",
+  "classification": "primary_legal_descriptive_selected_issued_instruments",
+  "original_rules": 2,
+  "source_snapshots": 4,
+  "primary_quote_checks": 18,
+  "rule_clock_checks": 2,
+  "printed_permission_entries": 2,
+  "explicit_removal_entries": 3,
+  "link_checks": 2,
+  "origin_phase_checks": 11,
+  "printed_permission_citation_placeholders": 2,
+  "complete_legal_eligibility_certified": false,
+  "current_law_consolidation_verified": false,
+  "foreign_access_identified": false,
+  "domestic_capability_identified": false,
+  "actual_license_outcome_observed": false,
+  "causal_effect_identified": false,
+  "inherited_entity_footnote_closure_verified": false,
+  "unprinted_entity_footnote_blocker": "Complete historical section/note versions and intervening amendments unavailable; two new official statutory-XML requests failed CONNECT 403",
+  "files": {
+    "data/processed/veu_extension/clauses.csv": "cb0e7a5cdbb1156d6abf43fc1cbfb14332a5f77f4c0b832ee2510f9e02100303",
+    "data/processed/veu_extension/issued_events.csv": "9b89cd62541e160bb3008f25a4c73b71d0a73f3de89d895dd7a787f770519a52",
+    "data/processed/veu_extension/source_clocks.csv": "06de65eac20cef4f14861efec51eab9e4e454767f64b7399a346326f5529d7dc",
+    "data/processed/veu_extension/permission_removal_links.csv": "b4df34cac25ded5b1c6f8fd1bf7bd78422526bf22f26543fb6c4b8a40c9b2664",
+    "data/processed/veu_extension/origin_phase_checks.csv": "dc9a35fbe7b8be19fa0cf181085dde7c24bfdac5393dc1fa3c92ecaf9e470396"
+  }
+}

@@ -83,6 +83,10 @@ def source_registry():
         normalized[source["source_id"]] = source | dict(
             group="rare_earth_followup", publication_date=source["info_public_date"]
         )
+    for source in json.loads((ROOT / "metadata/kmp_shipments_sources.json").read_text()):
+        normalized[source["source_id"]] = source | dict(
+            group="kmp_shipments", publication_date=source["info_public_date"]
+        )
     (ROOT/"metadata/source_registry.json").write_text(json.dumps(list(normalized.values()),indent=2))
     trace=[]
     for row in pd.read_csv(ROOT/"data/processed/rare_earths/observations.csv").to_dict("records"):
@@ -132,6 +136,14 @@ def source_registry():
         trace.append(dict(
             claim_id=f"{row['source_id']}:{row['phase']}:{row['element']}",
             evidence_class="reported_design_capacity_cell", source_id=row["source_id"],
+            sha256=row["source_sha256"], locator=row["locator"], table=file,
+            public_clock_source_id=row["public_clock_source_id"],
+            public_clock_source_sha256=row["public_clock_sha256"],
+        ))
+    file = "data/processed/kmp_shipments/claims.csv"
+    for row in pd.read_csv(ROOT / file).to_dict("records"):
+        trace.append(dict(
+            claim_id=row["claim_id"], evidence_class=row["evidence_role"], source_id=row["source_id"],
             sha256=row["source_sha256"], locator=row["locator"], table=file,
             public_clock_source_id=row["public_clock_source_id"],
             public_clock_source_sha256=row["public_clock_sha256"],
@@ -238,6 +250,7 @@ def summary_and_tables():
     result.update(supplied_issuer_guidance_outcomes=guidance['related_outcomes'],supplied_issuer_guidance_targets=guidance['target_quarters'])
     result.update(donald_source_claims=donald['source_claims'],donald_finite_feed_LP_checks=donald['finite_feed_LP_checks'],donald_vintage_checks=donald['vintage_checks'],donald_missed_FID_lower_bound_days=donald['missed_initial_FID_target_lower_bound_days'])
     result["rare_earth_followup"] = followup
+    result["kmp_shipments"] = read("outputs/diagnostics/kmp_shipments_validation.json")
     (ROOT/"outputs/research_summary.json").write_text(json.dumps(result,indent=2))
     macros={"TestCount":test_count,"RareObs":rare["versioned_observations"],"LynasObs":len(lynas),"ProjectCount":projects.project_id.nunique(),"ActivityCount":projects.activity_id.nunique(),"LegalRows":semiconductor["verified_legal_event_rows"],"FinancialRows":len(financial),"GameCandidates":game["claimed_candidate_count"],"GameFailures":game["not_solved_count"],"BenchmarkRoot":f"{benchmark['policy']:.10f}"}
     macros.update(ProjectRecords=len(projects), PublicClockActivities=coverage["documentation_counts"]["public_clock_eligible"],
@@ -360,6 +373,19 @@ def summary_and_tables():
              classification="source_reported_event_definition_and_ownership_evidence",
              evidence="data/processed/rare_earth_followup/claims.csv"),
     ])
+    claims.extend([
+        dict(claim="KMP quarterly native dispatches and production establish opposite movements for alloy and mixed metal in 2026 Q2 and signed production-minus-dispatch comparisons in 2025 Q3. Opening stocks and yields are unobserved.",
+             classification="issuer_reported_dispatch_and_production_comparisons",
+             evidence="data/processed/kmp_shipments/native_comparisons.csv"),
+        dict(claim="The issuer identified named KMP dispatch and receipt episodes including the same VAC shipment crossing quarter end and two distinct metals in one reported Narva shipment.",
+             classification="documented_downstream_shipping_and_delivery_episodes",
+             evidence="data/processed/kmp_shipments/route_episodes.csv"),
+    ])
+    claims.append(dict(
+        claim="Astron reported an export approval to the United States on September 1. Earlier issuer announcements distinguish White Mesa initial Dy benchmarks from its Tb customer qualification. These observations leave stable qualified route capacity unmeasured.",
+        classification="vintaged_issuer_permit_and_customer_acceptance",
+        evidence="data/processed/rare_earth_followup/qualification_and_export_vintages.csv",
+    ))
     for claim in claims:claim["sha256"]=sha256_file(ROOT/claim["evidence"])
     (ROOT/"manuscript/claims.json").write_text(json.dumps(claims,indent=2))
     return result

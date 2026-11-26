@@ -1,0 +1,5 @@
+comparison,left_claim,right_claim,product_form,native_unit,left_native,right_native,difference_native,stock_delta_identified,measured_element_flow_identified
+within_quarter_production_minus_dispatch,KMP:alloy_produced_q3_25,KMP:alloy_dispatch_q3_25,NdFeB_strip_alloy,tonnes,16.7,13.9,2.8,False,False
+within_quarter_production_minus_dispatch,KMP:metal_produced_q3_25,KMP:metal_dispatch_q3_25,NdPr_metal,tonnes,1.7,22.2,-20.5,False,False
+quarter_over_quarter_dispatch_change,KMP:alloy_dispatch_q2_26,KMP:alloy_dispatch_q1_comparative,NdFeB_strip_alloy,tonnes,36,42,-6,False,False
+quarter_over_quarter_dispatch_change,KMP:mixed_metal_dispatch_q2_26,KMP:mixed_metal_dispatch_q1_comparative,Nd_and_NdPr_metal,tonnes,9,0.6,8.4,False,False
